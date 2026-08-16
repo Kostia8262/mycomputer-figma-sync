@@ -1,0 +1,984 @@
+{
+ "$comment": "Каталог кадров Дашборда: базовые экраны вкладок и состояния (модалки, подтверждения, тосты, пустые состояния, поиск). Только имена — геометрия снимается точечно по указанию коммита.",
+ "target": "dashboard",
+ "figmaFileKey": "wc5OsxDTfq4DzngB8wS9iw",
+ "capturedAt": "2026-08-16",
+ "frames": [
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відвідування"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Модулі"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відгуки"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "SEO тексти"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Розклад"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Модалка «Нова заявка»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів · Модалка «Новий токен»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Модалка «Новий модуль»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відгуки · Модалка «Редагувати відгук»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси · Модалка «Новий курс»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Модалка «Нова стаття»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів · Модалка «Картка клієнта»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відвідування · Попап «Статус відвідування»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Розклад · Попап «Картка заняття»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Модалка «Сума оплати»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси · Модалка «Редагувати курс»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Модалка «Редагувати модуль»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Модалка «Редагувати статтю»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Модалка «Видати свідоцтво»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Модалка «QR і посилання»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Модалка «Друк свідоцтв»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Модалка «Нова акція»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Модалка «Випустити сертифікати»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Модалка «Новий потік»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Підтвердження «Видалити заявку #12?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів · Підтвердження «Видалити клієнта #48?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів · Підтвердження «Видалити цей доступ до уроків?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси · Підтвердження «Видалити курс «scratch»?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Підтвердження «Видалити модуль?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Підтвердження «Видалити статтю»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відгуки · Підтвердження «Видалити відгук»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Підтвердження «Видалити питання 1?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Розклад · Підтвердження «Видалити цей запис?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Підтвердження «Видалити адміна назавжди?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Підтвердження «Відкликати токен?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Підтвердження «Створити місяць»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Підтвердження «Видалити 3 записи»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Підтвердження «Сховати статтю?»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Груповий вибір рядків"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів · Груповий вибір рядків"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Груповий вибір рядків"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів · Груповий вибір рядків"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Груповий вибір рядків"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Пошук — введено запит"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Глобальний пошук — результати"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Заявки · Глобальний пошук — нічого не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів · Пошук — введено запит"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "База клієнтів · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Пошук — введено запит"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відгуки · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Свідоцтва · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Питання та відповіді — порожній стан"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відвідування · Немає учнів"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати · Місяць не створено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Курс не обрано"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Програма порожня"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Курс не знайдено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Сертифікати — порожньо"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Потоки — порожньо"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "SEO тексти · Порожньо"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Уроки учнів · Тост «Посилання скопійовано»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Тост «Модуль додано»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Тост-помилка «Оберіть курс»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Модулі · Тост «Налаштування збережено»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Модулі · Тост-помилка «Помилка збереження»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Тост «Статтю створено»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Тост «Токен відкликано»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Тост «Адміна видалено»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Тост «Токен скопійовано»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Тост «Варіанти навчання збережено»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Тост «FAQ збережено»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Тост «Додано нове питання»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Курси · Модалка — помилка валідації"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Валідація «Вкажіть назву модуля»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Валідація «Вкажіть заголовок»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Модулі · Помилка завантаження"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "SEO тексти · Помилка збереження"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "SEO тексти · Збережено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "SEO тексти · Превью відкрито"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Прострочені оплати"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Проблем немає"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Завантаження"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Помилка завантаження"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Порожні дані"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Фінанси"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Дашборд · Unit-економіка"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Модулі · Блок вимкнено"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Відгуки · Права менеджера"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Роль «Адміністратор»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Сортування за датою"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Статті · Фільтр за категорією"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Список курсів розгорнуто"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Програми · Наведення на рядок"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Співробітники · Рядок з роллю «Адміністратор»"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Контент · Питання та відповіді"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Сертифікати"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Потоки"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Сертифікати · Вікові групи"
+  },
+  {
+   "page": "🖥 Screens — Desktop 1440",
+   "name": "Оплати — стани вкладки"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відвідування"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Модулі"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відгуки"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "SEO тексти"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Розклад"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Модалка «Нова заявка»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів · Модалка «Новий токен»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Модалка «Новий модуль»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відгуки · Модалка «Редагувати відгук»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси · Модалка «Новий курс»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Модалка «Нова стаття»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів · Модалка «Картка клієнта»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відвідування · Попап «Статус відвідування»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Розклад · Попап «Картка заняття»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Модалка «Сума оплати»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси · Модалка «Редагувати курс»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Модалка «Редагувати модуль»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Модалка «Редагувати статтю»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Модалка «Видати свідоцтво»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Модалка «QR і посилання»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Модалка «Друк свідоцтв»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Модалка «Нова акція»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Модалка «Випустити сертифікати»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Модалка «Новий потік»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Підтвердження «Видалити заявку #12?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів · Підтвердження «Видалити клієнта #48?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів · Підтвердження «Видалити цей доступ до уроків?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси · Підтвердження «Видалити курс «scratch»?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Підтвердження «Видалити модуль?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Підтвердження «Видалити статтю»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відгуки · Підтвердження «Видалити відгук»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Підтвердження «Видалити питання 1?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Розклад · Підтвердження «Видалити цей запис?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Підтвердження «Видалити адміна назавжди?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Підтвердження «Відкликати токен?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Підтвердження «Створити місяць»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Підтвердження «Видалити 3 записи»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Підтвердження «Сховати статтю?»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Груповий вибір рядків"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів · Груповий вибір рядків"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Груповий вибір рядків"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів · Груповий вибір рядків"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Груповий вибір рядків"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Пошук — введено запит"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Глобальний пошук — результати"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Заявки · Глобальний пошук — нічого не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів · Пошук — введено запит"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "База клієнтів · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Пошук — введено запит"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Пошук — нічого не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відгуки · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Свідоцтва · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Питання та відповіді — порожній стан"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відвідування · Немає учнів"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати · Місяць не створено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Курс не обрано"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Програма порожня"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Курс не знайдено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Сертифікати — порожньо"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Потоки — порожньо"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "SEO тексти · Порожньо"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Уроки учнів · Тост «Посилання скопійовано»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Тост «Модуль додано»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Тост-помилка «Оберіть курс»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Модулі · Тост «Налаштування збережено»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Модулі · Тост-помилка «Помилка збереження»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Тост «Статтю створено»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Тост «Токен відкликано»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Тост «Адміна видалено»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Тост «Токен скопійовано»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Тост «Варіанти навчання збережено»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Тост «FAQ збережено»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Тост «Додано нове питання»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Курси · Модалка — помилка валідації"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Валідація «Вкажіть назву модуля»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Валідація «Вкажіть заголовок»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Модулі · Помилка завантаження"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "SEO тексти · Помилка збереження"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "SEO тексти · Збережено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "SEO тексти · Превью відкрито"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Прострочені оплати"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Проблем немає"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Завантаження"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Помилка завантаження"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Порожні дані"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Фінанси"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Дашборд · Unit-економіка"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Модулі · Блок вимкнено"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Відгуки · Права менеджера"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Роль «Адміністратор»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Сортування за датою"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Статті · Фільтр за категорією"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Список курсів розгорнуто"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Програми · Наведення на рядок"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Співробітники · Рядок з роллю «Адміністратор»"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Контент · Питання та відповіді"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Сертифікати"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Потоки"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Сертифікати · Вікові групи"
+  },
+  {
+   "page": "📱 Screens — Mobile & Compact",
+   "name": "Оплати — стани вкладки"
+  },
+  {
+   "page": "🪟 Screens — Overlays",
+   "name": "Toast — позиціонування"
+  },
+  {
+   "page": "🪟 Screens — Overlays",
+   "name": "Вибір статусу відвідування"
+  },
+  {
+   "page": "👥 Співробітники",
+   "name": "Профіль співробітника"
+  },
+  {
+   "page": "🔐 Вхід і підтвердження",
+   "name": "Вхід"
+  },
+  {
+   "page": "🔐 Вхід і підтвердження",
+   "name": "Вхід · Помилка токена"
+  },
+  {
+   "page": "🔐 Вхід і підтвердження",
+   "name": "Вхід · Перевірка токена"
+  },
+  {
+   "page": "🔐 Вхід і підтвердження",
+   "name": "Вихід · Підтвердження"
+  },
+  {
+   "page": "🔐 Вхід і підтвердження",
+   "name": "Співробітники · Форма додавання"
+  }
+ ]
+}
