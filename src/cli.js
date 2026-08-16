@@ -303,7 +303,10 @@ async function layout(config, args) {
   }
 
   console.log(`Снимаю ${url} на ${['1440', '1024', '390'].join(' / ')}…`);
-  const snap = await collectLayout(url, auth ? { auth } : {});
+  const snap = await collectLayout(url, {
+    ...(auth ? { auth } : {}),
+    ...(target.sectionSelector ? { selector: target.sectionSelector } : {}),
+  });
 
   const outFile = path.join(outDir, `${targetId}.json`);
   await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');

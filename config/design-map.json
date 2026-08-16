@@ -392,14 +392,17 @@
         }
       },
       "layout": {
-        "$comment": "Заполнить после первого удачного слепка админки: имена организмов в макете дашборда отличаются от сайтовых.",
+        "$comment": "В макете 113 экранов на странице Screens — Desktop 1440, по кадру на вкладку. Слепок снимается с той вкладки, которая открыта в админке по умолчанию (Заявки), поэтому и кадр указан соответствующий. Остальные вкладки требуют переключения — пока не автоматизировано.",
         "pages": {
           "desktop": {
             "page": "🖥 Screens — Desktop 1440",
-            "frame": null
+            "frame": "Заявки — Desktop 1440"
           }
         },
-        "sectionMap": {},
+        "sectionMap": {
+          ".topbar": "Topbar",
+          ".app-body": "app-body"
+        },
         "ignoreInFigma": []
       },
       "typography": {
@@ -436,7 +439,9 @@
             "--shadow-brand": "Shadow/Segmented Shell"
           }
         }
-      }
+      },
+      "sectionSelector": ".topbar, .app-body",
+      "$selectorNote": "Админка — SPA без section[id]. Экран это .topbar + .app-body, и ровно так же устроен каждый кадр в макете (Topbar + app-body). Вкладка внутри .app-body меняется переключением; слепок снимает ту, что открыта."
     }
   ],
   "ignoredSites": {

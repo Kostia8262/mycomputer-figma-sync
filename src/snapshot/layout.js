@@ -42,7 +42,7 @@ const TRACKED_STYLES = [
  * Код, выполняемый внутри страницы. Пишется как одна функция без внешних
  * ссылок — в контексте браузера ничего из модуля не видно.
  */
-function extractInPage({ maxDepth, maxChildren, tracked }) {
+function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
   const round = (n) => Math.round(n * 10) / 10;
 
   /** Стабильный ключ узла: id, затем классы, затем позиция среди одинаковых. */
@@ -132,7 +132,12 @@ function extractInPage({ maxDepth, maxChildren, tracked }) {
     return node;
   };
 
-  const sections = [...document.querySelectorAll('section[id], header, footer')];
+  // Селектор приходит из конфига: у сайтов секции размечены `section[id]`,
+  // у админки это `.topbar`, `#sidebarEl` и активная вкладка `[id$="Tab"]`.
+  const sections = [...document.querySelectorAll(selector)].filter((el) => {
+    const c = getComputedStyle(el);
+    return c.display !== 'none' && c.visibility !== 'hidden' && el.getBoundingClientRect().height > 0;
+  });
   const pageRect = document.documentElement.getBoundingClientRect();
 
   return {
@@ -151,7 +156,9 @@ function extractInPage({ maxDepth, maxChildren, tracked }) {
  * @param {string} url страница продакшена
  * @returns {Promise<object>} слепок геометрии по всем брейкпоинтам
  */
-export async function collectLayout(url, { viewports = VIEWPORTS, auth } = {}) {
+const DEFAULT_SELECTOR = 'section[id], header, footer';
+
+export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector = DEFAULT_SELECTOR } = {}) {
   const browser = await chromium.launch();
   const captured = [];
 
@@ -192,6 +199,7 @@ export async function collectLayout(url, { viewports = VIEWPORTS, auth } = {}) {
         maxDepth: MAX_DEPTH,
         maxChildren: MAX_CHILDREN,
         tracked: TRACKED_STYLES,
+        selector,
       });
 
       captured.push({ viewport: viewport.name, width: viewport.width, ...data });
@@ -203,6 +211,7 @@ export async function collectLayout(url, { viewports = VIEWPORTS, auth } = {}) {
 
   return {
     url,
+    selector,
     engine: 'chromium-headless',
     // Предупреждение живёт в самом слепке: правило легко забыть, а цена ошибки
     // уже была — «регрессия −4.2px» в FAQ оказалась артефактом рендеринга границ.

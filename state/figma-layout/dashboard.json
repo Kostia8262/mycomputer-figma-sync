@@ -1,0 +1,48 @@
+{
+  "$comment": "Геометрия экрана «Заявки» из макета Дашборд май компьютер. Снято 2026-08-16. В файле 113 экранов — по кадру на вкладку; сверяется тот, что открыт в админке по умолчанию. ВНИМАНИЕ: макет в этот момент правился человеком, это снимок состояния, а не эталон.",
+  "capturedAt": "2026-08-16",
+  "figmaFileKey": "wc5OsxDTfq4DzngB8wS9iw",
+  "viewports": {
+    "desktop": {
+      "page": "🖥 Screens — Desktop 1440",
+      "frame": "Заявки — Desktop 1440",
+      "frameSize": { "w": 1440, "h": 900 },
+      "sections": [
+        {
+          "name": "Topbar",
+          "id": "46:379",
+          "x": 0, "y": 0, "w": 1440, "h": 56,
+          "inner": [
+            { "name": "topbar-left", "w": 261, "h": 32 },
+            { "name": "topbar-right", "w": 606, "h": 28 }
+          ]
+        },
+        {
+          "name": "app-body",
+          "id": "46:400",
+          "x": 0, "y": 56, "w": 1440, "h": 844,
+          "inner": [
+            {
+              "name": "Sidebar", "w": 218, "h": 844,
+              "inner": [
+                { "name": "Sidebar Section", "w": 198, "h": 34 },
+                { "name": "Nav Group — Спільне", "w": 198, "h": 278 },
+                { "name": "Select Wrapper", "w": 198, "h": 48 },
+                { "name": "Nav Group — Контент сайту", "w": 198, "h": 278 }
+              ]
+            },
+            {
+              "name": "main", "w": 1222, "h": 844,
+              "inner": [
+                { "name": "Stats Grid", "w": 1174, "h": 88 },
+                { "name": "Toolbar", "w": 1174, "h": 36 },
+                { "name": "Leads Table", "w": 1332, "h": 275 },
+                { "name": "Sticky HScroll", "w": 1174, "h": 14 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
