@@ -1,5 +1,5 @@
 {
-  "$comment": "Результат сверки макетов с кодом прода. Собран агентом через Figma MCP (план Professional — Variables REST API закрыт, читается только скриптом внутри файла). Направление одностороннее: прод эталон, правки идут в макет.",
+  "$comment": "Результаты сверки. Три проекта гармонизируются с продом ОТДЕЛЬНО: у каждого свой источник токенов, своя палитра и своё именование в макете. Переносить результат одного на другой нельзя — у Скулла, например, тени терракотовые rgb(226,96,74), а у Эдьюкейшн фиолетовые rgb(108,71,255).",
   "checkedAt": "2026-08-16",
   "targets": [
     {
@@ -34,7 +34,20 @@
       "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
       "checked": 27,
       "mismatched": [],
-      "missing": []
+      "missing": [],
+      "typography": {
+        "checked": 27,
+        "perMode": 81,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "Прогнано на sites/design/css/style.css — собственных значениях Скулла."
+      },
+      "shadows": {
+        "checked": 4,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "Тени терракотовые rgb(226,96,74) — своя палитра, не совпадает с Эдьюкейшн."
+      }
     },
     {
       "target": "dashboard",
@@ -58,14 +71,31 @@
           "expectedAt": "Semantic/status/warning/text-strong",
           "note": "В макете есть похожая по смыслу status/warning/strong → amber/550. Возможно, это она и есть под другим именем — требует решения человека, автоматически не сопоставляется."
         }
-      ]
+      ],
+      "typography": {
+        "checked": 13,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "Своя шкала font-size/xs..4xl и font-weight/*, один режим Value."
+      },
+      "spacing": {
+        "checked": 6,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "--sp-1..6 → space/2xs|sm|lg|2xl|3xl|4xl. Имена не совпадают, карта явная."
+      },
+      "shadows": {
+        "checked": 4,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "--shadow-sm|md|lg|brand → Shadow/SM|Dropdown|Modal|Segmented Shell."
+      }
     }
   ],
   "notCoveredYet": {
-    "$comment": "Осталось непокрытым после расширения сверки.",
-    "spacing": "--sp-* есть только у дашборда; на сайтах отступы намеренно не токенизированы",
-    "dashboardGeometry": "нужен MC_ADMIN_TOKEN в .env — админка за входом",
-    "dashboardTypography": "у дашборда своя шкала --fs-xs..--fs-4xl, правила именования пока не заведены",
-    "schoolTypography": "сверка типографики прогнана только по Эдьюкейшн"
+    "$comment": "Осталось непокрытым.",
+    "siteSpacing": "на сайтах отступы намеренно не токенизированы в коде — сверять не с чем",
+    "dashboardGeometry": "нужен MC_ADMIN_TOKEN в .env: админка за входом",
+    "dashboardControlHeights": "--h-control-* в макете отдельной шкалы не нашлось"
   }
 }

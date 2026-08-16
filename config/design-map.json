@@ -126,6 +126,22 @@
           "Cookie Banner",
           "Telegram Widget"
         ]
+      },
+      "typography": {
+        "$comment": "Сайты: fs/<имя> в коллекции Typography с тремя режимами. clamp() раскрывается на ширину режима.",
+        "collection": "Typography",
+        "pattern": "fs/$1",
+        "match": "^--fs-(.+)$",
+        "perMode": {
+          "Desktop 1440": 1440,
+          "Tablet 1024": 1024,
+          "Mobile 390": 390
+        },
+        "shadows": {
+          "$comment": "--sh-md → Shadow/md. Сравнивается первый слой: вторая тень в CSS — добивка, которой в стиле нет.",
+          "pattern": "Shadow/$1",
+          "match": "^--sh-(.+)$"
+        }
       }
     },
     {
@@ -234,6 +250,22 @@
           "Cookie Banner",
           "Telegram Widget"
         ]
+      },
+      "typography": {
+        "$comment": "Сайты: fs/<имя> в коллекции Typography с тремя режимами. clamp() раскрывается на ширину режима.",
+        "collection": "Typography",
+        "pattern": "fs/$1",
+        "match": "^--fs-(.+)$",
+        "perMode": {
+          "Desktop 1440": 1440,
+          "Tablet 1024": 1024,
+          "Mobile 390": 390
+        },
+        "shadows": {
+          "$comment": "--sh-md → Shadow/md. Сравнивается первый слой: вторая тень в CSS — добивка, которой в стиле нет.",
+          "pattern": "Shadow/$1",
+          "match": "^--sh-(.+)$"
+        }
       }
     },
     {
@@ -366,6 +398,41 @@
         },
         "sectionMap": {},
         "ignoreInFigma": []
+      },
+      "typography": {
+        "$comment": "У дашборда всё названо иначе и механически не выводится — карта явная. Один режим Value, clamp() не используется.",
+        "collection": "Typography",
+        "perMode": null,
+        "explicit": {
+          "--fs-xs": "Typography|font-size/xs",
+          "--fs-sm": "Typography|font-size/sm",
+          "--fs-base": "Typography|font-size/base",
+          "--fs-md": "Typography|font-size/md",
+          "--fs-lg": "Typography|font-size/lg",
+          "--fs-xl": "Typography|font-size/xl",
+          "--fs-2xl": "Typography|font-size/2xl",
+          "--fs-3xl": "Typography|font-size/3xl",
+          "--fs-4xl": "Typography|font-size/4xl",
+          "--fw-regular": "Typography|font-weight/regular",
+          "--fw-medium": "Typography|font-weight/medium",
+          "--fw-bold": "Typography|font-weight/bold",
+          "--fw-black": "Typography|font-weight/black",
+          "--sp-1": "Spacing|space/2xs",
+          "--sp-2": "Spacing|space/sm",
+          "--sp-3": "Spacing|space/lg",
+          "--sp-4": "Spacing|space/2xl",
+          "--sp-5": "Spacing|space/3xl",
+          "--sp-6": "Spacing|space/4xl"
+        },
+        "shadows": {
+          "$comment": "Имена стилей не выводятся из имён токенов — только явная карта.",
+          "explicit": {
+            "--shadow-sm": "Shadow/SM",
+            "--shadow-md": "Shadow/Dropdown",
+            "--shadow-lg": "Shadow/Modal",
+            "--shadow-brand": "Shadow/Segmented Shell"
+          }
+        }
       }
     }
   ],
