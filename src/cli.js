@@ -24,6 +24,7 @@ import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
 import { buildIssueBody, buildIssueTitle } from './report/github-issue.js';
 import { collectLayout } from './snapshot/layout.js';
+import { loadEnv } from './env.js';
 import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
 
@@ -464,6 +465,8 @@ if (!command) {
   console.error(`Неизвестная команда. Доступно: ${Object.keys(COMMANDS).join(', ')}`);
   process.exit(1);
 }
+
+await loadEnv(path.join(ROOT, '.env'));
 
 command(await loadConfig(), args).catch((error) => {
   console.error(error.message);

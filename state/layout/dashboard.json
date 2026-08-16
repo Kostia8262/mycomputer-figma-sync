@@ -1,0 +1,25 @@
+{
+  "url": "https://mycomputer.education/admin.html",
+  "engine": "chromium-headless",
+  "caveat": "headless рендерит border:1px как 0.8px — расхождения до 1.5px у bordered-узлов не считать дефектом",
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "documentHeight": 900,
+      "sections": []
+    },
+    {
+      "viewport": "tablet",
+      "width": 1024,
+      "documentHeight": 900,
+      "sections": []
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "documentHeight": 844,
+      "sections": []
+    }
+  ]
+}
