@@ -1,0 +1,50 @@
+{
+  "$comment": "Результат сверки макетов с кодом прода. Собран агентом через Figma MCP (план Professional — Variables REST API закрыт, читается только скриптом внутри файла). Направление одностороннее: прод эталон, правки идут в макет.",
+  "checkedAt": "2026-08-16",
+  "targets": [
+    {
+      "target": "education",
+      "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
+      "checked": 27,
+      "mismatched": [],
+      "missing": [
+        {
+          "css": "--color-primary-soft",
+          "value": "#a78bfa",
+          "expectedAt": "Semantic/color/primary-soft",
+          "fix": "Примитив violet/300 = #a78bfa в файле уже есть — достаточно завести семантическую переменную-алиас на него."
+        }
+      ]
+    },
+    {
+      "target": "school",
+      "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
+      "checked": 27,
+      "mismatched": [],
+      "missing": []
+    },
+    {
+      "target": "dashboard",
+      "figmaFileKey": "wc5OsxDTfq4DzngB8wS9iw",
+      "checked": 63,
+      "mismatched": [],
+      "missing": [
+        { "css": "--c-danger-border-strong", "value": "#fca5a5", "expectedAt": "Semantic/status/danger/border-strong" },
+        { "css": "--c-success-border-strong", "value": "#86efac", "expectedAt": "Semantic/status/success/border-strong" },
+        {
+          "css": "--c-warning-text-strong",
+          "value": "#92400e",
+          "expectedAt": "Semantic/status/warning/text-strong",
+          "note": "В макете есть похожая по смыслу status/warning/strong → amber/550. Возможно, это она и есть под другим именем — требует решения человека, автоматически не сопоставляется."
+        }
+      ]
+    }
+  ],
+  "notCoveredYet": {
+    "$comment": "Честный список того, что сверка пока не трогает. Молчаливый пропуск выглядел бы как чистый отчёт.",
+    "typography": "--fs-*, --fw-*, --lh-* → коллекция Typography (в макетах есть режимы Desktop 1440 / Tablet 1024 / Mobile 390)",
+    "spacing": "--sp-*, --h-control-* → коллекция Spacing",
+    "shadows": "--sh-*, --shadow-* → эффект-стили Shadow/*",
+    "dashboardCharts": "--c-chart-* — прямых соответствий в макете не нашлось"
+  }
+}

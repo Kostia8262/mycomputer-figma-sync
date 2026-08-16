@@ -1,19 +1,16 @@
 {
   "$comment": "Единственное место, где живёт связь «код → макет». Агент берёт изменённые файлы из деплоя, прогоняет по codePaths таргета и так понимает, в каком файле Figma заводить страницу правок. Совпадение по нескольким таргетам — норма: общий CSS меняет и сайт, и дашборд.",
-
   "repo": {
     "owner": "Kostia8262",
     "name": "my_computer_new",
     "defaultBranch": "master",
     "localPathHint": "Projects/my-computer-new"
   },
-
   "conventions": {
     "$comment": "Страницы в макетах названы по-украински («Головна», «Курси», «Співробітники»), поэтому страница правок тоже украинская — иначе выбьется из ряда.",
     "editsPage": "🛠 Правки з прода",
     "designSystemPage": "🎨 Дизайн-система"
   },
-
   "targets": [
     {
       "id": "education",
@@ -22,20 +19,76 @@
       "figmaFileTitle": "Мій Комп'ютер Едьюкейшн",
       "confirmed": true,
       "pageCount": 13,
-      "reference": { "site": "main", "url": "https://mycomputer.education" },
+      "reference": {
+        "site": "main",
+        "url": "https://mycomputer.education"
+      },
       "tokenSource": "sites/main/css/style.css",
-      "codePaths": ["sites/main/**"],
-      "excludePaths": ["sites/main/admin.html", "sites/main/server/**", "sites/main/lessons/**"],
+      "codePaths": [
+        "sites/main/**"
+      ],
+      "excludePaths": [
+        "sites/main/admin.html",
+        "sites/main/server/**",
+        "sites/main/lessons/**"
+      ],
       "satellites": [
-        { "site": "child",     "url": "https://child.mycomputer.education" },
-        { "site": "construct", "url": "https://construct.mycomputer.education" },
-        { "site": "frontend",  "url": "https://frontend.mycomputer.education" },
-        { "site": "minecraft", "url": "https://minecraft.mycomputer.education" },
-        { "site": "python",    "url": "https://python.mycomputer.education" },
-        { "site": "roblox",    "url": "https://roblox.mycomputer.education" },
-        { "site": "scratch",   "url": "https://scratch.mycomputer.education" },
-        { "site": "webdesign", "url": "https://webdesign.mycomputer.education" }
-      ]
+        {
+          "site": "child",
+          "url": "https://child.mycomputer.education"
+        },
+        {
+          "site": "construct",
+          "url": "https://construct.mycomputer.education"
+        },
+        {
+          "site": "frontend",
+          "url": "https://frontend.mycomputer.education"
+        },
+        {
+          "site": "minecraft",
+          "url": "https://minecraft.mycomputer.education"
+        },
+        {
+          "site": "python",
+          "url": "https://python.mycomputer.education"
+        },
+        {
+          "site": "roblox",
+          "url": "https://roblox.mycomputer.education"
+        },
+        {
+          "site": "scratch",
+          "url": "https://scratch.mycomputer.education"
+        },
+        {
+          "site": "webdesign",
+          "url": "https://webdesign.mycomputer.education"
+        }
+      ],
+      "naming": {
+        "$comment": "Сайты: --color-primary → Semantic color/primary, --r-sm → Radius r/sm.",
+        "rules": [
+          {
+            "match": "^--color-(.+)$",
+            "collection": "Semantic",
+            "name": "color/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--dark-(.+)$",
+            "collection": "Semantic",
+            "name": "dark/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--r-(.+)$",
+            "collection": "Radius",
+            "name": "r/$1",
+            "kind": "number"
+          }
+        ]
+      }
     },
     {
       "id": "school",
@@ -45,18 +98,67 @@
       "confirmed": true,
       "pageCount": 12,
       "$note": "Главную mycomputer.school отдаёт папка sites/design — имя обманчивое, это не курс по дизайну.",
-      "reference": { "site": "design", "url": "https://mycomputer.school" },
+      "reference": {
+        "site": "design",
+        "url": "https://mycomputer.school"
+      },
       "tokenSource": "sites/design/css/style.css",
-      "codePaths": ["sites/design/**"],
+      "codePaths": [
+        "sites/design/**"
+      ],
       "satellites": [
-        { "site": "3dsmax",     "url": "https://3dsmax.mycomputer.school" },
-        { "site": "ai-design",  "url": "https://ai-design.mycomputer.school" },
-        { "site": "animation",  "url": "https://animation.mycomputer.school" },
-        { "site": "blender",    "url": "https://blender.mycomputer.school" },
-        { "site": "blog",       "url": "https://blog.mycomputer.school" },
-        { "site": "branding",   "url": "https://branding.mycomputer.school" },
-        { "site": "digitalart", "url": "https://digitalart.mycomputer.school" }
-      ]
+        {
+          "site": "3dsmax",
+          "url": "https://3dsmax.mycomputer.school"
+        },
+        {
+          "site": "ai-design",
+          "url": "https://ai-design.mycomputer.school"
+        },
+        {
+          "site": "animation",
+          "url": "https://animation.mycomputer.school"
+        },
+        {
+          "site": "blender",
+          "url": "https://blender.mycomputer.school"
+        },
+        {
+          "site": "blog",
+          "url": "https://blog.mycomputer.school"
+        },
+        {
+          "site": "branding",
+          "url": "https://branding.mycomputer.school"
+        },
+        {
+          "site": "digitalart",
+          "url": "https://digitalart.mycomputer.school"
+        }
+      ],
+      "naming": {
+        "$comment": "Сайты: --color-primary → Semantic color/primary, --r-sm → Radius r/sm.",
+        "rules": [
+          {
+            "match": "^--color-(.+)$",
+            "collection": "Semantic",
+            "name": "color/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--dark-(.+)$",
+            "collection": "Semantic",
+            "name": "dark/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--r-(.+)$",
+            "collection": "Radius",
+            "name": "r/$1",
+            "kind": "number"
+          }
+        ]
+      }
     },
     {
       "id": "dashboard",
@@ -65,27 +167,144 @@
       "figmaFileTitle": "Дашборд май компьютер",
       "confirmed": true,
       "pageCount": 10,
-      "$note": "Отдельного репозитория у админки нет — это admin.html и server/ внутри sites/main.",
-      "reference": { "site": "main", "url": "https://mycomputer.education/admin.html" },
-      "tokenSource": "sites/main/css/style.css",
-      "codePaths": ["sites/main/admin.html", "sites/main/js/admin*.js", "sites/main/server/**"],
-      "satellites": []
+      "$note": "Отдельного репозитория у админки нет — это admin.html внутри sites/main. Стили тоже свои: admin.html не подключает css/style.css, а держит :root инлайном.",
+      "reference": {
+        "site": "main",
+        "url": "https://mycomputer.education/admin.html"
+      },
+      "tokenSource": "sites/main/admin.html",
+      "codePaths": [
+        "sites/main/admin.html",
+        "sites/main/js/admin*.js",
+        "sites/main/server/**"
+      ],
+      "satellites": [],
+      "naming": {
+        "$comment": "У дашборда свой словарь: --c-brand-500 → brand/500, --r-md → radius/md. Частные правила стоят выше общих — побеждает первое совпавшее.",
+        "rules": [
+          {
+            "match": "^--c-border$",
+            "collection": "Semantic",
+            "name": "border/default",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-canvas$",
+            "collection": "Semantic",
+            "name": "surface/canvas",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-brand-(.+)$",
+            "collection": "Semantic",
+            "name": "brand/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-border-(.+)$",
+            "collection": "Semantic",
+            "name": "border/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-text-(.+)$",
+            "collection": "Semantic",
+            "name": "text/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-surface-(.+)$",
+            "collection": "Semantic",
+            "name": "surface/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-(danger|success|info|warning|trial|done|neutral)-(.+)$",
+            "collection": "Semantic",
+            "name": "status/$1/$2",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-shell-(.+)$",
+            "collection": "Semantic",
+            "name": "shell/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-seq-(.+)$",
+            "collection": "Semantic",
+            "name": "funnel/step-$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-ink$",
+            "collection": "Semantic",
+            "name": "text/ink",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-ink-soft$",
+            "collection": "Semantic",
+            "name": "text/ink-soft",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-surface$",
+            "collection": "Semantic",
+            "name": "surface/base",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-row-hover$",
+            "collection": "Semantic",
+            "name": "surface/row-hover",
+            "kind": "color"
+          },
+          {
+            "match": "^--c-gray-(.+)$",
+            "collection": "Primitives",
+            "name": "gray/$1",
+            "kind": "color"
+          },
+          {
+            "match": "^--r-(.+)$",
+            "collection": "Radius",
+            "name": "radius/$1",
+            "kind": "number"
+          }
+        ]
+      }
     }
   ],
-
   "ignoredSites": {
     "$comment": "Деплоятся, но макетов не имеют и в отчёт не попадают.",
     "main-dev": "стенд dev.mycomputer.education",
     "old": "old.mycomputer.education, наследие"
   },
-
   "tokenRules": {
     "$comment": "Без этого списка агент захлёбывается ложными срабатываниями: blender намеренно перекрашен в терракоту и даёт 29 «расхождений», из которых важно 12. Тематизируемое — осознанный бренд курса, всё остальное — дрейф.",
-    "themable": ["--color-primary*", "--color-bg-soft", "--color-border", "--color-text*", "--color-success", "--dark-bg", "--sh-*"],
+    "themable": [
+      "--color-primary*",
+      "--color-bg-soft",
+      "--color-border",
+      "--color-text*",
+      "--color-success",
+      "--dark-bg",
+      "--sh-*"
+    ],
     "mustMatchHexToRgb": [
-      ["--color-primary", "--color-primary-rgb"],
-      ["--color-primary-mid", "--color-primary-mid-rgb"],
-      ["--color-primary-soft", "--color-primary-soft-rgb"]
+      [
+        "--color-primary",
+        "--color-primary-rgb"
+      ],
+      [
+        "--color-primary-mid",
+        "--color-primary-mid-rgb"
+      ],
+      [
+        "--color-primary-soft",
+        "--color-primary-soft-rgb"
+      ]
     ]
   }
 }

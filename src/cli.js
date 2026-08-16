@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url';
 
 import { collectTokens } from './snapshot/tokens.js';
 import { makeClassifier, checkHexRgbPairs } from './snapshot/rules.js';
+import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -31,7 +32,10 @@ function parseArgs(argv) {
   const args = { _: [] };
   for (let i = 0; i < argv.length; i += 1) {
     const item = argv[i];
-    if (item.startsWith('--')) args[item.slice(2)] = argv[++i];
+    if (item.startsWith('--')) {
+      const next = argv[i + 1];
+      args[item.slice(2)] = next === undefined || next.startsWith('--') ? true : argv[++i];
+    }
     else args._.push(item);
   }
   return args;
@@ -157,7 +161,35 @@ function report(results, outFile) {
   console.log(`\nСлепок записан: ${outFile}`);
 }
 
-const COMMANDS = { snapshot };
+/**
+ * Печатает скрипт сверки для указанного таргета — его выполняет агент через
+ * Figma MCP и возвращает расхождения.
+ */
+async function emit(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}». Есть: ${config.targets.map((t) => t.id).join(', ')}`);
+
+  const snapshotFile = path.join(ROOT, 'state', 'snapshots', 'tokens.json');
+  if (!existsSync(snapshotFile)) throw new Error('Сначала выполните npm run snapshot.');
+
+  const saved = JSON.parse(await readFile(snapshotFile, 'utf8'));
+  const entry = saved.targets.find((t) => t.target === targetId);
+  const { expectations, skipped, unmapped } = buildExpectations(entry.reference, target.naming);
+
+  if (args.stats) {
+    console.log(`${target.title} → ${target.figmaFileTitle} (${target.figmaFileKey})`);
+    console.log(`  к проверке: ${expectations.length}`);
+    console.log(`  пропущено (неразбираемое значение): ${skipped.length}`);
+    for (const item of skipped) console.log(`    ${item.name} — ${item.why}`);
+    console.log(`  без правила именования: ${unmapped.length}`);
+    for (const item of unmapped) console.log(`    ${item.name} = ${item.value}`);
+    return;
+  }
+  console.log(emitFigmaScript(expectations));
+}
+
+const COMMANDS = { snapshot, emit };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
