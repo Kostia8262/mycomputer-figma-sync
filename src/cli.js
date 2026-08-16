@@ -22,6 +22,7 @@ import { makeClassifier, checkHexRgbPairs } from './snapshot/rules.js';
 import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
 import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
+import { buildIssueBody, buildIssueTitle } from './report/github-issue.js';
 import { collectLayout } from './snapshot/layout.js';
 import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
@@ -194,20 +195,69 @@ async function emit(config, args) {
   console.log(emitFigmaScript(expectations));
 }
 
-/** Печатает скрипт, создающий страницу правок в макете таргета. */
-async function page(config, args) {
-  const targetId = args.target ?? config.targets[0].id;
+/**
+ * Собирает план правок из ОБОИХ источников — токенов и геометрии — и печатает
+ * скрипт, создающий страницу правок в макете.
+ *
+ * План только по токенам выглядит завершённым, пропуская всё, что съехало,
+ * поэтому отсутствие данных по геометрии сообщается явно, а не молчанием.
+ */
+async function collectPlan(config, targetId) {
   const target = config.targets.find((t) => t.id === targetId);
   if (!target) throw new Error(`Нет таргета «${targetId}».`);
 
   const checkFile = path.join(ROOT, 'state', 'figma-check.json');
-  if (!existsSync(checkFile)) throw new Error('Нет state/figma-check.json — сверка ещё не выполнялась.');
+  const prodFile = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
+  const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}.json`);
 
-  const check = JSON.parse(await readFile(checkFile, 'utf8'));
-  const result = check.targets.find((t) => t.target === targetId);
-  if (!result) throw new Error(`В сверке нет данных по «${targetId}».`);
+  let tokenResult = null;
+  let checkedAt = 'нет данных';
+  if (existsSync(checkFile)) {
+    const check = JSON.parse(await readFile(checkFile, 'utf8'));
+    checkedAt = check.checkedAt;
+    tokenResult = check.targets.find((t) => t.target === targetId) ?? null;
+  }
 
-  const plan = buildEditsPlan(result, target);
+  const layoutFindings = [];
+  const prodByViewport = {};
+  const gaps = [];
+
+  if (!tokenResult) gaps.push('сверка токенов не выполнялась');
+
+  if (existsSync(prodFile) && existsSync(figmaFile) && target.layout) {
+    const prod = JSON.parse(await readFile(prodFile, 'utf8'));
+    const figma = JSON.parse(await readFile(figmaFile, 'utf8'));
+
+    for (const view of prod.viewports) {
+      prodByViewport[view.viewport] = view;
+      const inFigma = figma.viewports[view.viewport];
+      if (!inFigma) {
+        gaps.push(`геометрия макета на брейкпоинте ${view.viewport} не снята`);
+        continue;
+      }
+      layoutFindings.push({
+        viewport: view.viewport,
+        width: view.width,
+        url: prod.url,
+        page: inFigma.page,
+        frame: inFigma.frame,
+        result: compareLayoutToFigma(view, inFigma, target.layout.sectionMap),
+      });
+    }
+  } else {
+    if (!existsSync(prodFile)) gaps.push('слепок прода не снят');
+    if (!existsSync(figmaFile)) gaps.push('геометрия макета не снята');
+    if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
+  }
+
+  return { plan: buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target }), gaps, checkedAt, target };
+}
+
+/** Печатает скрипт, создающий страницу правок в макете. */
+async function page(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const { plan, gaps, checkedAt, target } = await collectPlan(config, targetId);
+
   if (args.stats) {
     console.log(`${target.title} → ${target.figmaFileTitle} (${target.figmaFileKey})`);
     console.log(`  правок: ${plan.total}`);
@@ -215,14 +265,18 @@ async function page(config, args) {
       console.log(`  ${stage.title}:`);
       for (const step of stage.steps) console.log(`    ${step.n}. ${step.title}`);
     }
+    if (gaps.length) {
+      console.log(`  НЕ ПОКРЫТО: ${gaps.join('; ')}`);
+    }
     return;
   }
 
   console.log(
     emitEditsPageScript(plan, {
       pageName: config.conventions.editsPage,
-      checkedAt: check.checkedAt,
+      checkedAt,
       sourceLabel: target.tokenSource,
+      gaps,
     }),
   );
 }
@@ -357,7 +411,27 @@ async function vsfigma(config, args) {
   }
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma };
+/** Печатает тот же план в виде готового тела GitHub Issue. */
+async function issue(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const { plan, gaps, checkedAt, target } = await collectPlan(config, targetId);
+
+  if (args.title) {
+    console.log(buildIssueTitle(plan, checkedAt));
+    return;
+  }
+  console.log(
+    buildIssueBody(plan, {
+      checkedAt,
+      sourceLabel: target.tokenSource,
+      figmaFileKey: target.figmaFileKey,
+      figmaFileTitle: target.figmaFileTitle,
+      gaps,
+    }),
+  );
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];

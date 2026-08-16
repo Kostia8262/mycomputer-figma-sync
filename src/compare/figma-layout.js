@@ -37,6 +37,9 @@ const sections = frame.children
   .map((n) => ({
     name: n.name,
     type: n.type,
+    // id обязателен: без него правка звучит как «найдите Footer где-то в файле».
+    // С ним она открывается по прямой ссылке.
+    id: n.id,
     x: round(n.x),
     y: round(n.y),
     w: round(n.width),
@@ -90,6 +93,7 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
         kind: 'размер',
         prod: section.key,
         figma: figmaName,
+        nodeId: inFigma.id,
         onProd: `${section.size.w}×${section.size.h}`,
         inFigma: `${inFigma.w}×${inFigma.h}`,
         // Знак от макета к проду: «макет нужно подрасти на N».

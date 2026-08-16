@@ -12,15 +12,19 @@ const FONT = 'Inter';
 /** Экранирует строку для вставки в генерируемый скрипт. */
 const q = (value) => JSON.stringify(String(value ?? ''));
 
-export function emitEditsPageScript(plan, { pageName, checkedAt, sourceLabel }) {
+export function emitEditsPageScript(plan, { pageName, checkedAt, sourceLabel, gaps = [] }) {
   const stages = plan.stages.map((stage) => ({
     title: stage.title,
     hint: stage.hint,
     steps: stage.steps.map((step) => ({
       n: step.n,
       title: step.title,
+      // Адрес и способ проверки — то, что делает шаг выполнимым без возврата
+      // к агенту: где лежит узел и как убедиться, что правка засчитана.
+      address: step.address ?? '',
       how: step.how,
       source: step.source,
+      verify: step.verify ?? '',
       note: step.note ?? '',
       value: step.value ?? '',
       action: step.action,
@@ -31,6 +35,8 @@ export function emitEditsPageScript(plan, { pageName, checkedAt, sourceLabel }) 
 const CHECKED_AT = ${q(checkedAt)};
 const SOURCE = ${q(sourceLabel)};
 const TOTAL = ${plan.total};
+const TARGET_ID = ${q(plan.target)};
+const GAPS = ${JSON.stringify(gaps)};
 const STAGES = ${JSON.stringify(stages)};
 
 await figma.loadFontAsync({ family: ${q(FONT)}, style: 'Regular' });
@@ -98,11 +104,31 @@ const subtitle = text(
 );
 header.appendChild(subtitle);
 
-const rule = text(
+header.appendChild(text(
   'Продакшен — эталон. Все правки вносятся в макет, код не трогаем. Источник значений: ' + SOURCE,
   { size: 13, color: '#6b6b80', width: 800 },
-);
-header.appendChild(rule);
+));
+// Команда проверки одна на всю страницу: в каждой карточке она бы утроила
+// объём, ничего не добавив.
+header.appendChild(text(
+  'Проверить результат: node src/cli.js vsfigma --target ' + TARGET_ID + '  ·  node src/cli.js emit --target ' + TARGET_ID,
+  { size: 12, color: '#9999aa', width: 800 },
+));
+
+// Пробелы печатаются рядом с правками, а не прячутся: список без этой пометки
+// читается как «сверено всё», хотя часть сверки могла не выполняться.
+if (GAPS.length) {
+  const warn = figma.createAutoLayout('VERTICAL', { name: 'Не покрыто', itemSpacing: 4,
+    paddingTop: 12, paddingBottom: 12, paddingLeft: 14, paddingRight: 14 });
+  warn.fills = solid('#fef9e7');
+  warn.cornerRadius = 10;
+  root.appendChild(warn);
+  warn.layoutSizingHorizontal = 'FILL';
+  warn.appendChild(text('⚠ Сверено не всё', { size: 13, style: 'Semi Bold', color: '#b45309' }));
+  for (const gap of GAPS) {
+    warn.appendChild(text('· ' + gap, { size: 12, color: '#b45309', width: 780 }));
+  }
+}
 
 const createdIds = [root.id];
 
@@ -142,10 +168,12 @@ STAGES.forEach((stage, stageIndex) => {
     body.layoutSizingHorizontal = 'FILL';
 
     body.appendChild(text(step.title, { size: 15, style: 'Semi Bold' }));
+    if (step.address) body.appendChild(text('Где: ' + step.address, { size: 13, color: '#1a1a2e', width: 660 }));
     if (step.value) body.appendChild(text('Значение: ' + step.value, { size: 13, color: '#1a1a2e' }));
     body.appendChild(text(step.how, { size: 13, color: '#6b6b80', width: 660 }));
     if (step.note) body.appendChild(text('⚠ ' + step.note, { size: 12, color: '#b45309', width: 660 }));
-    body.appendChild(text('Источник: ' + step.source, { size: 11, color: '#9999aa' }));
+    body.appendChild(text('Источник: ' + step.source, { size: 11, color: '#9999aa', width: 660 }));
+    if (step.verify) body.appendChild(text('Проверка: ' + step.verify, { size: 11, color: '#9999aa', width: 660 }));
 
     createdIds.push(card.id);
   }
