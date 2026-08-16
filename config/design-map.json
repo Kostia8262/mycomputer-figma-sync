@@ -525,6 +525,95 @@
             "figmaName": "SEO тексти"
           }
         ]
+      },
+      "scenarios": {
+        "$comment": "Состояния поверх вкладки: модалки, поиск, подтверждения. Экран описывается данными, чтобы новый добавлялся строкой в конфиг, а не кодом. Селекторы намеренно с запасом через запятую: разметка вкладок различается.",
+        "list": [
+          {
+            "id": "leads-modal-new",
+            "figmaName": "Заявки · Модалка «Нова заявка»",
+            "tab": "Заявки",
+            "steps": [
+              {
+                "click": "+ Нова заявка"
+              },
+              {
+                "waitFor": ".modal-overlay"
+              }
+            ]
+          },
+          {
+            "id": "leads-search-query",
+            "figmaName": "Заявки · Пошук — введено запит",
+            "tab": "Заявки",
+            "steps": [
+              {
+                "type": {
+                  "selector": ".main input[type=search], .main .search input, .toolbar input",
+                  "text": "Марина"
+                }
+              },
+              {
+                "wait": 700
+              }
+            ]
+          },
+          {
+            "id": "leads-search-empty",
+            "figmaName": "Заявки · Пошук — нічого не знайдено",
+            "tab": "Заявки",
+            "steps": [
+              {
+                "type": {
+                  "selector": ".main input[type=search], .main .search input, .toolbar input",
+                  "text": "zzzzнеттакого"
+                }
+              },
+              {
+                "wait": 900
+              }
+            ]
+          },
+          {
+            "id": "clients-modal-card",
+            "figmaName": "База клієнтів · Модалка «Картка клієнта»",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": ".main table tbody tr:first-child"
+              },
+              {
+                "waitFor": ".modal-overlay"
+              }
+            ]
+          },
+          {
+            "id": "courses-modal-new",
+            "figmaName": "Курси · Модалка «Новий курс»",
+            "tab": "Курси",
+            "steps": [
+              {
+                "click": "+ Новий курс"
+              },
+              {
+                "waitFor": ".modal-overlay"
+              }
+            ]
+          },
+          {
+            "id": "articles-modal-new",
+            "figmaName": "Статті · Модалка «Нова стаття»",
+            "tab": "Статті",
+            "steps": [
+              {
+                "click": "+ Нова стаття"
+              },
+              {
+                "waitFor": ".modal-overlay"
+              }
+            ]
+          }
+        ]
       }
     }
   ],

@@ -479,7 +479,8 @@ async function tabs(config, args) {
     selector: target.sectionSelector,
     viewports,
     extractArgs: { maxDepth: MAX_DEPTH, maxChildren: MAX_CHILDREN, tracked: TRACKED_STYLES },
-    onProgress: (viewport, tab, note) => console.log(`  ${viewport.padEnd(8)} ${tab.padEnd(18)} ${note}`),
+    scenarios: target.scenarios?.list ?? [],
+    onProgress: (viewport, tab, note) => console.log(`  ${viewport.padEnd(8)} ${tab.padEnd(30)} ${note}`),
   });
 
   const outDir = path.join(ROOT, 'state', 'layout');

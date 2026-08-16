@@ -1,0 +1,2357 @@
+{
+ "desktop": {
+  "filled": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 776.1,
+     "y": 27.5,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 74.1,
+     "h": 28,
+     "x": 788.1,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 68.4,
+     "h": 28,
+     "x": 874.2,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 83.9,
+     "h": 28,
+     "x": 954.6,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 93.5,
+     "h": 28,
+     "x": 1050.5,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 190,
+     "h": 28,
+     "x": 1156,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 1358,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "12px",
+    "display": "flex",
+    "width": "639.875px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 540.4,
+     "h": 36,
+     "x": 242,
+     "y": 194,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 792.4,
+     "y": 194,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 1012.4,
+     "y": 194,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 1309.4,
+     "y": 198,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 508,
+     "y": 262,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 508,
+     "y": 317,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 508,
+     "y": 372,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 87,
+     "x": 508,
+     "y": 427,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 508,
+     "y": 514,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 69,
+     "x": 508,
+     "y": 569,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 424,
+     "h": 15,
+     "x": 508,
+     "y": 262,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 424,
+     "h": 36,
+     "x": 508,
+     "y": 281,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 424,
+     "h": 28,
+     "x": 508,
+     "y": 446,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 227.5,
+     "h": 28,
+     "x": 508,
+     "y": 446,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 152.5,
+     "h": 28,
+     "x": 743.5,
+     "y": 446,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 904,
+     "y": 446,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "1374.58px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": null,
+   "emptyDiv": null,
+   "emptyInner": null,
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 198.6,
+     "h": 16,
+     "x": 1041,
+     "y": 81.5,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 81.4,
+     "h": 14,
+     "x": 1249.6,
+     "y": 82.5,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "320px",
+    "minWidth": "320px",
+    "top": "32px",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "39.5px"
+   }
+  },
+  "empty": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 776.1,
+     "y": 27.5,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 74.1,
+     "h": 28,
+     "x": 788.1,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 68.4,
+     "h": 28,
+     "x": 874.2,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 83.9,
+     "h": 28,
+     "x": 954.6,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 93.5,
+     "h": 28,
+     "x": 1050.5,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 190,
+     "h": 28,
+     "x": 1156,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 1358,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "12px",
+    "display": "flex",
+    "width": "639.875px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 540.4,
+     "h": 36,
+     "x": 242,
+     "y": 194,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 792.4,
+     "y": 194,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 1012.4,
+     "y": 194,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 1309.4,
+     "y": 198,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "1172px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": {
+    "padding": "12px 14px",
+    "height": "224.5px"
+   },
+   "emptyDiv": [
+    {
+     "id": null,
+     "cls": "empty",
+     "tag": "DIV",
+     "w": 1144,
+     "h": 200,
+     "x": 257,
+     "y": 299,
+     "display": "block",
+     "txt": "Заявок не знайдено"
+    }
+   ],
+   "emptyInner": {
+    "w": 1144,
+    "h": 200,
+    "pad": "60px 20px",
+    "color": "rgb(170, 170, 170)",
+    "fs": "14px",
+    "kids": [
+     {
+      "tag": "svg",
+      "w": 48,
+      "h": 48,
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "w": 1104,
+      "h": 17,
+      "txt": "Заявок не знайдено"
+     }
+    ]
+   },
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 198.6,
+     "h": 16,
+     "x": 1041,
+     "y": 81.5,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 81.4,
+     "h": 14,
+     "x": 1249.6,
+     "y": 82.5,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "320px",
+    "minWidth": "320px",
+    "top": "32px",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "39.5px"
+   }
+  }
+ },
+ "compact": {
+  "filled": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 132,
+     "h": 28,
+     "x": 376,
+     "y": 13.5,
+     "display": "block",
+     "txt": "mycomputer.education\n         "
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 516,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 552,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 588,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 624,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 150,
+     "h": 28,
+     "x": 660,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 818,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "8px",
+    "display": "flex",
+    "width": "500.016px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 297,
+     "h": 36,
+     "x": 72,
+     "y": 288,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 379,
+     "y": 288,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 599,
+     "y": 288,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 72,
+     "y": 334,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 238,
+     "y": 212,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 238,
+     "y": 267,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 238,
+     "y": 322,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 87,
+     "x": 238,
+     "y": 377,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 55,
+     "x": 238,
+     "y": 464,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 424,
+     "h": 69,
+     "x": 238,
+     "y": 519,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 424,
+     "h": 15,
+     "x": 238,
+     "y": 212,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 424,
+     "h": 36,
+     "x": 238,
+     "y": 231,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 424,
+     "h": 28,
+     "x": 238,
+     "y": 396,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 227.5,
+     "h": 28,
+     "x": 238,
+     "y": 396,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 152.5,
+     "h": 28,
+     "x": 473.5,
+     "y": 396,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 634,
+     "y": 396,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "1374.58px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": null,
+   "emptyDiv": null,
+   "emptyInner": null,
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 198.6,
+     "h": 16,
+     "x": 505,
+     "y": 81.5,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 81.4,
+     "h": 14,
+     "x": 713.6,
+     "y": 82.5,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "320px",
+    "minWidth": "320px",
+    "top": "32px",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "39.5px"
+   }
+  },
+  "empty": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 132,
+     "h": 28,
+     "x": 376,
+     "y": 13.5,
+     "display": "block",
+     "txt": "mycomputer.education\n         "
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 516,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 552,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 588,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 624,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 150,
+     "h": 28,
+     "x": 660,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 818,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "8px",
+    "display": "flex",
+    "width": "500.016px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 297,
+     "h": 36,
+     "x": 72,
+     "y": 288,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 379,
+     "y": 288,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 599,
+     "y": 288,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 72,
+     "y": 334,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "829.984px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": {
+    "padding": "12px 14px",
+    "height": "224.5px"
+   },
+   "emptyDiv": [
+    {
+     "id": null,
+     "cls": "empty",
+     "tag": "DIV",
+     "w": 802,
+     "h": 200,
+     "x": 87,
+     "y": 431,
+     "display": "block",
+     "txt": "Заявок не знайдено"
+    }
+   ],
+   "emptyInner": {
+    "w": 802,
+    "h": 200,
+    "pad": "60px 20px",
+    "color": "rgb(170, 170, 170)",
+    "fs": "14px",
+    "kids": [
+     {
+      "tag": "svg",
+      "w": 48,
+      "h": 48,
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "w": 762,
+      "h": 17,
+      "txt": "Заявок не знайдено"
+     }
+    ]
+   },
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 198.6,
+     "h": 16,
+     "x": 505,
+     "y": 81.5,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 81.4,
+     "h": 14,
+     "x": 713.6,
+     "y": 82.5,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "320px",
+    "minWidth": "320px",
+    "top": "32px",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "39.5px"
+   }
+  }
+ },
+ "mobile": {
+  "filled": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 132,
+     "h": 28,
+     "x": 142,
+     "y": 13.5,
+     "display": "block",
+     "txt": "mycomputer.education\n         "
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 282,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 318,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "8px",
+    "display": "flex",
+    "width": "234.016px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 304,
+     "h": 36,
+     "x": 72,
+     "y": 600,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 72,
+     "y": 646,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 72,
+     "y": 692,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 72,
+     "y": 738,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 55,
+     "x": 36,
+     "y": 234,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 55,
+     "x": 36,
+     "y": 289,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 55,
+     "x": 36,
+     "y": 344,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 87,
+     "x": 36,
+     "y": 399,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 55,
+     "x": 36,
+     "y": 486,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 318,
+     "h": 69,
+     "x": 36,
+     "y": 541,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 318,
+     "h": 15,
+     "x": 36,
+     "y": 234,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 318,
+     "h": 36,
+     "x": 36,
+     "y": 253,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 318,
+     "h": 28,
+     "x": 36,
+     "y": 418,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 163.7,
+     "h": 28,
+     "x": 36,
+     "y": 418,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 110.3,
+     "h": 28,
+     "x": 207.7,
+     "y": 418,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 326,
+     "y": 418,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "1294.58px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": null,
+   "emptyDiv": null,
+   "emptyInner": null,
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "auto",
+    "minWidth": "320px",
+    "top": "calc(100% + 4px)",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "33.5px"
+   }
+  },
+  "empty": {
+   "topbarRight": [
+    {
+     "id": "siteSelectSlot",
+     "cls": "",
+     "tag": "SPAN",
+     "w": 132,
+     "h": 28,
+     "x": 142,
+     "y": 13.5,
+     "display": "block",
+     "txt": "mycomputer.education\n         "
+    },
+    {
+     "id": "xlsxExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📊Excel"
+    },
+    {
+     "id": "csvExportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📥CSV"
+    },
+    {
+     "id": "csvImportBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📤Імпорт"
+    },
+    {
+     "id": "csvFileInput",
+     "cls": "",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": ""
+    },
+    {
+     "id": "reloadBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 28,
+     "h": 28,
+     "x": 282,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Оновити"
+    },
+    {
+     "id": "gsWrap",
+     "cls": "gs-wrap",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "none",
+     "txt": "📋 Заявки\n      Сергей бан\n   "
+    },
+    {
+     "id": "logoutBtn",
+     "cls": "btn btn-ghost btn-sm",
+     "tag": "BUTTON",
+     "w": 58,
+     "h": 28,
+     "x": 318,
+     "y": 13.5,
+     "display": "flex",
+     "txt": "Вийти"
+    }
+   ],
+   "topbarRightStyle": {
+    "gap": "8px",
+    "display": "flex",
+    "width": "234.016px"
+   },
+   "toolbar": [
+    {
+     "id": null,
+     "cls": "search-wrap",
+     "tag": "SPAN",
+     "w": 304,
+     "h": 36,
+     "x": 72,
+     "y": 600,
+     "display": "flex",
+     "txt": ""
+    },
+    {
+     "id": "statusFilter",
+     "cls": "filter-select",
+     "tag": "SELECT",
+     "w": 210,
+     "h": 36,
+     "x": 72,
+     "y": 646,
+     "display": "block",
+     "txt": "Всі статуси\n        🔵 Нові\n  "
+    },
+    {
+     "id": "courseFilter",
+     "cls": "filter-select course-dynamic-s",
+     "tag": "SELECT",
+     "w": 287,
+     "h": 36,
+     "x": 72,
+     "y": 692,
+     "display": "block",
+     "txt": "Всі курси🐍 Python: справжнє п"
+    },
+    {
+     "id": null,
+     "cls": "btn btn-primary btn-sm",
+     "tag": "BUTTON",
+     "w": 106.6,
+     "h": 28,
+     "x": 72,
+     "y": 738,
+     "display": "flex",
+     "txt": "+ Нова заявка"
+    }
+   ],
+   "toolbarStyle": {
+    "gap": "10px",
+    "flexWrap": "wrap",
+    "rowGap": "10px",
+    "columnGap": "10px"
+   },
+   "modalBody": [
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Вік"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Курс\n            — Не вказано "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Телефони *\n            \n    \n "
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Викладач\n            — Не приз"
+    },
+    {
+     "id": null,
+     "cls": "modal-group",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "Нотатки"
+    }
+   ],
+   "modalBodyStyle": {
+    "display": "block",
+    "gap": "normal",
+    "rowGap": "normal",
+    "flexDirection": "row"
+   },
+   "modalGroup1": [
+    {
+     "id": null,
+     "cls": "modal-label",
+     "tag": "LABEL",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "Ім'я дитини *"
+    },
+    {
+     "id": "nl_name",
+     "cls": "modal-input",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    }
+   ],
+   "phoneRow": [
+    {
+     "id": null,
+     "cls": "phone-row",
+     "tag": "DIV",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "phoneRowKids": [
+    {
+     "id": null,
+     "cls": "ph-value",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "ph-label",
+     "tag": "INPUT",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": ""
+    },
+    {
+     "id": null,
+     "cls": "btn btn-ghost btn-sm phone-del",
+     "tag": "BUTTON",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "flex",
+     "txt": "✕"
+    }
+   ],
+   "tableStyle": {
+    "minWidth": "0px",
+    "width": "749.984px",
+    "tableLayout": "auto",
+    "fontSize": "14px"
+   },
+   "emptyCellStyle": {
+    "padding": "9px 10px",
+    "height": "218.5px"
+   },
+   "emptyDiv": [
+    {
+     "id": null,
+     "cls": "empty",
+     "tag": "DIV",
+     "w": 730,
+     "h": 200,
+     "x": 83,
+     "y": 826,
+     "display": "block",
+     "txt": "Заявок не знайдено"
+    }
+   ],
+   "emptyInner": {
+    "w": 730,
+    "h": 200,
+    "pad": "60px 20px",
+    "color": "rgb(170, 170, 170)",
+    "fs": "14px",
+    "kids": [
+     {
+      "tag": "svg",
+      "w": 48,
+      "h": 48,
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "w": 690,
+      "h": 17,
+      "txt": "Заявок не знайдено"
+     }
+    ]
+   },
+   "gsSection": {
+    "padding": "6px 14px 3px",
+    "fontSize": "10px",
+    "lineHeight": "normal",
+    "backgroundColor": "rgb(250, 250, 250)",
+    "letterSpacing": "0.5px",
+    "textTransform": "uppercase"
+   },
+   "gsItem": {
+    "padding": "9px 14px",
+    "gap": "10px",
+    "borderBottom": "1px solid rgb(248, 247, 255)"
+   },
+   "gsItemKids": [
+    {
+     "id": null,
+     "cls": "gs-item-name",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "Сергей бан"
+    },
+    {
+     "id": null,
+     "cls": "gs-item-sub",
+     "tag": "SPAN",
+     "w": 0,
+     "h": 0,
+     "x": 0,
+     "y": 0,
+     "display": "block",
+     "txt": "+48578495268"
+    }
+   ],
+   "gsDropdownStyle": {
+    "border": "1px solid rgb(232, 228, 255)",
+    "borderRadius": "12px",
+    "width": "auto",
+    "minWidth": "320px",
+    "top": "calc(100% + 4px)",
+    "right": "0px",
+    "backgroundColor": "rgb(255, 255, 255)"
+   },
+   "pagerStyle": {
+    "padding": "12px 14px",
+    "borderTop": "1px solid rgb(240, 238, 255)",
+    "fontSize": "13px",
+    "justifyContent": "space-between"
+   },
+   "bulkStyle": {
+    "padding": "10px 14px",
+    "gap": "8px",
+    "border": "1px solid rgb(196, 181, 253)",
+    "borderRadius": "8px",
+    "backgroundColor": "rgb(240, 232, 255)",
+    "marginBottom": "10px"
+   },
+   "statsStyle": {
+    "gap": "14px",
+    "gridTemplateColumns": "repeat(auto-fit, minmax(160px, 1fr))",
+    "marginBottom": "16px"
+   },
+   "theadStyle": {
+    "padding": "8px 4px 8px 12px",
+    "fontSize": "12px",
+    "height": "33.5px"
+   }
+  }
+ }
+}

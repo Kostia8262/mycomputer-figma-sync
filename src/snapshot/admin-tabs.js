@@ -11,6 +11,7 @@
  */
 
 import { chromium } from 'playwright';
+import { applyScenario, resetState } from './scenarios.js';
 
 export const ADMIN_VIEWPORTS = [
   { name: 'desktop', width: 1440, height: 900, figmaSuffix: 'Desktop 1440' },
@@ -65,6 +66,7 @@ export async function collectAdminTabs(url, tabs, extract, options = {}) {
     selector = '.topbar, .app-body',
     viewports = ADMIN_VIEWPORTS,
     extractArgs = {},
+    scenarios = [],
     onProgress,
   } = options;
 
@@ -113,6 +115,29 @@ export async function collectAdminTabs(url, tabs, extract, options = {}) {
           ...data,
         });
         onProgress?.(viewport.name, tab.label, `секций ${data.sections.length}`);
+
+        // Состояния поверх вкладки: модалки, поиск, подтверждения.
+        for (const scenario of scenarios.filter((s) => s.tab === tab.label)) {
+          const applied = await applyScenario(page, scenario.steps);
+          if (!applied.ok) {
+            screens.push({ tab: tab.label, scenario: scenario.id,
+              figmaName: `${scenario.figmaName} — ${viewport.figmaSuffix}`,
+              status: `шаг ${applied.failedAt}: ${applied.reason}` });
+            onProgress?.(viewport.name, scenario.id, `не удалось: шаг ${applied.failedAt}`);
+          } else {
+            const stateData = await page.evaluate(extract, { ...extractArgs, selector });
+            screens.push({ tab: tab.label, scenario: scenario.id,
+              figmaName: `${scenario.figmaName} — ${viewport.figmaSuffix}`,
+              status: 'ok', ...stateData });
+            onProgress?.(viewport.name, scenario.id, `секций ${stateData.sections.length}`);
+          }
+
+          // Следующий сценарий не должен наследовать открытую модалку.
+          // Если закрыть не удалось — переоткрываем вкладку с нуля.
+          const clean = await resetState(page);
+          if (!clean) await openTab(page, tab.label);
+          else await openTab(page, tab.label);
+        }
       }
 
       captured.push({ viewport: viewport.name, width: viewport.width, screens });
