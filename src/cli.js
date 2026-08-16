@@ -320,7 +320,13 @@ function buildAuth(target) {
   if (!target.auth) return null;
   const value = process.env[target.auth.env];
   if (!value) return null;
-  return { localStorage: { [target.auth.key]: value } };
+
+  const entries = { [target.auth.key]: value };
+  // Второй ключ помнит выбранный сайт сети: без него слепок может сняться не с того.
+  for (const [key, env] of Object.entries(target.auth.optional ?? {})) {
+    if (process.env[env]) entries[key] = process.env[env];
+  }
+  return { localStorage: entries };
 }
 
 /** Срезанные дети должны быть видны: молчаливое усечение читается как полнота. */

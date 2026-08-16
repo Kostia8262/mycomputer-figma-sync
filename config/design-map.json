@@ -383,10 +383,13 @@
         ]
       },
       "auth": {
-        "$comment": "Админка за входом. Ключ localStorage кладётся из .env и в git не попадает.",
+        "$comment": "Ключ найден в sites/main/admin.html: STORAGE_KEY = 'mca_admin_token'. Инструкция — docs/ADMIN-TOKEN.md.",
         "type": "localStorage",
-        "key": "admin_token",
-        "env": "MC_ADMIN_TOKEN"
+        "key": "mca_admin_token",
+        "env": "MC_ADMIN_TOKEN",
+        "optional": {
+          "mca_admin_site": "MC_ADMIN_SITE"
+        }
       },
       "layout": {
         "$comment": "Заполнить после первого удачного слепка админки: имена организмов в макете дашборда отличаются от сайтовых.",
