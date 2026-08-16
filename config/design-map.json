@@ -214,6 +214,22 @@
         ],
         "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
         "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
+      },
+      "framePathMap": {
+        "$comment": "Прямые соответствия «файл → кадр». Самый надёжный сигнал: docs/terms.html однозначно указывает на «Правила та умови», гадать по тексту не нужно.",
+        "docs/privacy-policy": "Політика конфіденційності",
+        "docs/public-offer": "Публічна оферта",
+        "docs/terms": "Правила та умови",
+        "docs/refund-policy": "Правила повернення",
+        "docs/cookie-policy": "Політика куків",
+        "404.html": "Помилка 404",
+        "500.html": "Помилка 500",
+        "503.html": "Помилка 503",
+        "payment-success": "Оплата — успіх",
+        "payment-fail": "Оплата — помилка",
+        "course.html": "Курс",
+        "article.html": "Стаття — сторінка",
+        "index.html": "Home"
       }
     },
     {
@@ -410,6 +426,22 @@
         ],
         "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
         "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
+      },
+      "framePathMap": {
+        "$comment": "Прямые соответствия «файл → кадр». Самый надёжный сигнал: docs/terms.html однозначно указывает на «Правила та умови», гадать по тексту не нужно.",
+        "docs/privacy-policy": "Політика конфіденційності",
+        "docs/public-offer": "Публічна оферта",
+        "docs/terms": "Правила та умови",
+        "docs/refund-policy": "Правила повернення",
+        "docs/cookie-policy": "Політика куків",
+        "404.html": "Помилка 404",
+        "500.html": "Помилка 500",
+        "503.html": "Помилка 503",
+        "payment-success": "Оплата — успіх",
+        "payment-fail": "Оплата — помилка",
+        "course.html": "Курс",
+        "article.html": "Стаття — сторінка",
+        "index.html": "Home"
       }
     },
     {

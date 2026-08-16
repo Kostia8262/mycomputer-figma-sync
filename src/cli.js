@@ -24,6 +24,7 @@ import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
 import { buildIssueBody, buildIssueTitle } from './report/github-issue.js';
 import { selectorsFromDiff, buildScreenIndex, mapSelectorsToScreens, classifyChange } from './compare/commit-map.js';
+import { groupFrames, matchCommitToFrames, findMissingFrames, textsFromDiff, newContainersFromDiff } from './compare/frame-match.js';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 
@@ -592,7 +593,71 @@ async function commit(config, args) {
   }
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit };
+/**
+ * Главная команда новой схемы: по коммиту говорит, какие кадры макета
+ * доработать, а какие создать. Полная сверка всех кадров не нужна.
+ */
+async function frames(config, args) {
+  const repo = resolveRepoPath(config, args);
+  const targetId = args.target ?? 'education';
+  const target = config.targets.find((t) => t.id === targetId);
+
+  const range = args.since ? `${args.since}..HEAD` : `${args.sha ?? 'HEAD'}~1..${args.sha ?? 'HEAD'}`;
+  const { stdout: diff } = await run('git', ['diff', '--unified=0', range], { cwd: repo, maxBuffer: 20e6 });
+  const { stdout: subject } = await run('git', ['log', '-1', '--format=%h %s', args.sha ?? 'HEAD'], { cwd: repo });
+
+  const catalogFile = path.join(ROOT, 'state', 'figma-frames', `${targetId}.json`);
+  if (!existsSync(catalogFile)) throw new Error(`Нет каталога кадров: ${catalogFile}`);
+  const catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
+  const groups = groupFrames(catalog.frames);
+
+  const { files, selectors } = selectorsFromDiff(diff);
+  const texts = textsFromDiff(diff);
+  const kinds = classifyChange(diff);
+
+  // Файлы этого таргета: коммит часто задевает всю сеть сайтов сразу,
+  // и без фильтра сигнал размывается чужими путями.
+  const own = files.filter((f) => f.startsWith(`sites/${target.reference.site}/`));
+  const scope = own.length ? own : files;
+
+  const matched = matchCommitToFrames({
+    files: scope, selectors, texts, groups,
+    pathMap: target.framePathMap ?? {},
+  });
+  const { stdout: addedRaw } = await run('git', ['diff', '--diff-filter=A', '--name-only', range], { cwd: repo, maxBuffer: 20e6 });
+  const addedFiles = addedRaw.split('\n').filter(Boolean).filter((f) => (own.length ? f.startsWith(`sites/${target.reference.site}/`) : true));
+  const missing = findMissingFrames({
+    addedFiles,
+    newContainers: newContainersFromDiff(diff),
+    groups,
+    pathMap: target.framePathMap ?? {},
+  });
+
+  console.log(`Коммит: ${subject.trim()}`);
+  console.log(`Таргет: ${target.title} · файлов его: ${own.length} из ${files.length}`);
+  if (kinds.length) console.log(`Характер правки: ${kinds.join(', ')}`);
+  console.log('');
+
+  if (matched.length) {
+    console.log('ДОРАБОТАТЬ существующие кадры:');
+    for (const item of matched.slice(0, 8)) {
+      console.log(`  ${item.page} → «${item.base}» (${item.frames.length} брейкпоинта, вес ${item.score})`);
+      console.log(`      почему: ${item.reasons.slice(0, 3).join('; ')}`);
+    }
+  } else {
+    console.log('Ни один существующий кадр не сопоставился.');
+  }
+
+  if (missing.length) {
+    console.log('\nСОЗДАТЬ новые кадры:');
+    for (const item of missing.slice(0, 8)) {
+      console.log(`  [${item.kind}] «${item.suggestion}» — ${item.why}`);
+      console.log(`      источник: ${item.source}`);
+    }
+  }
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit, frames };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
