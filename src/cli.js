@@ -441,6 +441,8 @@ async function vsfigma(config, args) {
     for (const f of result.findings) {
       if (f.kind === 'размер') {
         console.log(`  ${f.figma.padEnd(14)} прод ${f.onProd.padEnd(12)} макет ${f.inFigma.padEnd(12)} [${f.delta}]${f.bordered ? ' bordered' : ''}`);
+      } else if (f.kind === 'смещение') {
+        console.log(`  ${f.figma.padEnd(14)} отступ от «${f.after}»: прод ${f.onProd}, макет ${f.inFigma} [${f.delta > 0 ? '+' : ''}${f.delta}]`);
       } else if (f.kind === 'порядок') {
         console.log(`  порядок: на позиции ${f.position} прод ждёт ${f.onProd}, в макете ${f.inFigma}`);
       } else {
