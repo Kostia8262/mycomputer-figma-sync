@@ -23,6 +23,11 @@ import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
 import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
 import { buildIssueBody, buildIssueTitle } from './report/github-issue.js';
+import { selectorsFromDiff, buildScreenIndex, mapSelectorsToScreens, classifyChange } from './compare/commit-map.js';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+
+const run = promisify(execFile);
 import { collectLayout, extractInPage, MAX_DEPTH, MAX_CHILDREN, TRACKED_STYLES } from './snapshot/layout.js';
 import { collectAdminTabs } from './snapshot/admin-tabs.js';
 import { loadEnv } from './env.js';
@@ -496,7 +501,98 @@ async function tabs(config, args) {
   console.log(`\nСлепок записан: ${outFile}`);
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs };
+/** Обходит отдельные страницы сайта: курсы, статьи, юридические, сервисные. */
+async function pages(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target?.pages) throw new Error(`У таргета «${targetId}» нет списка страниц.`);
+
+  const origin = new URL(target.reference.url).origin;
+  const outDir = path.join(ROOT, 'state', 'layout');
+  await mkdir(outDir, { recursive: true });
+
+  const captured = [];
+  for (const item of target.pages.list) {
+    const url = origin + item.path;
+    try {
+      const snap = await collectLayout(url, target.pages.selector ? { selector: target.pages.selector } : {});
+      const heights = snap.viewports.map((v) => `${v.viewport} ${v.sections.length} секц.`).join(', ');
+      console.log(`  ${item.id.padEnd(16)} ${heights}`);
+      captured.push({ ...item, url, status: 'ok', viewports: snap.viewports });
+    } catch (error) {
+      // Страница может не существовать или требовать данных — это факт для
+      // отчёта, а не повод ронять весь обход.
+      console.log(`  ${item.id.padEnd(16)} НЕ СНЯТО: ${error.message.split('\n')[0].slice(0, 60)}`);
+      captured.push({ ...item, url, status: error.message.split('\n')[0].slice(0, 120) });
+    }
+  }
+
+  const outFile = path.join(outDir, `${targetId}-pages.json`);
+  await writeFile(outFile, JSON.stringify({ origin, pages: captured }, null, 2) + '\n', 'utf8');
+  const failed = captured.filter((p) => p.status !== 'ok').length;
+  console.log(`\nСнято ${captured.length - failed} из ${captured.length}. Записано: ${outFile}`);
+}
+
+/**
+ * По коммиту говорит, какие экраны макета он затронул.
+ *   commit --sha <ref>   один коммит (по умолчанию HEAD)
+ *   commit --since <ref> всё от указанного коммита до HEAD
+ */
+async function commit(config, args) {
+  const repo = resolveRepoPath(config, args);
+  const range = args.since ? `${args.since}..HEAD` : `${args.sha ?? 'HEAD'}~1..${args.sha ?? 'HEAD'}`;
+
+  const { stdout: diff } = await run('git', ['diff', '--unified=0', range], { cwd: repo, maxBuffer: 20e6 });
+  const { stdout: subject } = await run('git', ['log', '-1', '--format=%h %s', args.sha ?? 'HEAD'], { cwd: repo });
+
+  const { files, selectors } = selectorsFromDiff(diff);
+  const kinds = classifyChange(diff);
+
+  // Индекс собирается из всех уже снятых слепков: чем больше экранов снято,
+  // тем точнее адресация. Ненайденное — подсказка, что экран ещё не покрыт.
+  const screens = [];
+  const dir = path.join(ROOT, 'state', 'layout');
+  for (const file of ['dashboard-tabs.json', 'education-pages.json', 'school-pages.json']) {
+    const full = path.join(dir, file);
+    if (!existsSync(full)) continue;
+    const data = JSON.parse(await readFile(full, 'utf8'));
+    if (data.viewports) {
+      for (const v of data.viewports) for (const s of v.screens ?? []) if (s.status === 'ok') screens.push(s);
+    }
+    if (data.pages) {
+      for (const p of data.pages) {
+        if (p.status !== 'ok') continue;
+        for (const v of p.viewports ?? []) screens.push({ figmaName: `${p.figmaPage} · ${p.id}`, sections: v.sections });
+      }
+    }
+  }
+  for (const id of ['education', 'school']) {
+    const full = path.join(dir, `${id}.json`);
+    if (!existsSync(full)) continue;
+    const data = JSON.parse(await readFile(full, 'utf8'));
+    for (const v of data.viewports ?? []) screens.push({ figmaName: `${id} · головна ${v.viewport}`, sections: v.sections });
+  }
+
+  const index = buildScreenIndex(screens);
+  const { matched, unmatched } = mapSelectorsToScreens(selectors, index);
+
+  console.log(`Коммит: ${subject.trim()}`);
+  console.log(`Файлов затронуто: ${files.length}${kinds.length ? ` · характер: ${kinds.join(', ')}` : ''}`);
+  console.log(`Селекторов в diff: ${selectors.length} · экранов в индексе: ${screens.length}\n`);
+
+  if (!matched.length) console.log('Ни один снятый экран не сопоставился.');
+  for (const item of matched.slice(0, 12)) {
+    console.log(`  ${String(item.weight).padStart(3)}  ${item.screen}`);
+    console.log(`       ${item.selectors.slice(0, 6).join(' ')}`);
+  }
+
+  if (unmatched.length) {
+    console.log(`\nНе найдено ни на одном снятом экране (${unmatched.length}) — либо новые элементы, либо экран ещё не покрыт:`);
+    for (const item of unmatched.slice(0, 10)) console.log(`  ${item.selector} (${item.hits})`);
+  }
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];

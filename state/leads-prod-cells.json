@@ -1,0 +1,2426 @@
+{
+ "desktop": {
+  "headers": [
+   "",
+   "#",
+   "Ім'я дитини",
+   "Статус",
+   "Вік",
+   "Курс",
+   "Телефони",
+   "Викладач",
+   "Розклад",
+   "Нотатки",
+   "Дата",
+   ""
+  ],
+  "rowHeights": [
+   49,
+   49,
+   49,
+   49
+  ],
+  "rows": [
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 49,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 69,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "#62 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Марк Павлик"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 143,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🔵 Новий"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 49,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "10"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 158,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "—"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 193,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "📞\n          +380637841563",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          +380637841563\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 128,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "— —"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 110.5,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 147,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "15.08.2026, 22:18:21",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 59.2,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 49,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 69,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "#61 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Сергей бан"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 143,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🔵 Новий"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 49,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "11"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 158,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "—"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 193,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "📞\n          +48578495268",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          +48578495268\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 128,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "— —"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 110.5,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з roblox.mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 147,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "14.08.2026, 21:22:37",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 59.2,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 49,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 69,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "#60 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Арсений"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 143,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🟣 Пробний"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 49,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "12"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 158,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Допоможіть"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 193,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "📞\n          380502222088",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          380502222088\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 128,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Микита"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 110.5,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 147,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "14.08.2026, 14:16:02",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 59.2,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 49,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 69,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "#59 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Віта"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 143,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🟣 Пробний"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 49,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "6"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 158,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Minecraft: програмування в грі"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 193,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "📞\n          380986983328батько",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          380986983328батько\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 128,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Микита"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 110.5,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 148,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 147,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "14.08.2026, 14:15:37",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 59.2,
+     "h": 49,
+     "pad": "12px 14px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ "mobile": {
+  "headers": [
+   "",
+   "#",
+   "Ім'я дитини",
+   "Статус",
+   "Вік",
+   "Курс",
+   "Телефони",
+   "Викладач",
+   "Розклад",
+   "Нотатки",
+   "Дата",
+   ""
+  ],
+  "rowHeights": [
+   43,
+   43,
+   43,
+   43
+  ],
+  "rows": [
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 43,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 61,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "#62 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Марк Павлик"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 135,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🔵 Новий"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 43,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "10"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 150,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "—"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 185,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "📞\n          +380637841563",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          +380637841563\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 120,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "— —"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 102.5,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 139,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "15.08.2026, 22:18:21",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 51.2,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 43,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 61,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "#61 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Сергей бан"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 135,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🔵 Новий"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 43,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "11"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 150,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "—"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 185,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "📞\n          +48578495268",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          +48578495268\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 120,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "— —"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 102.5,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з roblox.mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 139,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "14.08.2026, 21:22:37",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 51.2,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 43,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 61,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "#60 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Арсений"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 135,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🟣 Пробний"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 43,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "12"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 150,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Допоможіть"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 185,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "📞\n          380502222088",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          380502222088\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 120,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Микита"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 102.5,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 139,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "14.08.2026, 14:16:02",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 51.2,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "col": 0,
+     "header": "",
+     "w": 29,
+     "h": 43,
+     "pad": "8px 4px 8px 12px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "",
+       "w": 13,
+       "h": 13,
+       "fs": "13.3333px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(0, 0, 0)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(0, 0, 0)",
+       "val": "on"
+      }
+     ]
+    },
+    {
+     "col": 1,
+     "header": "#",
+     "w": 61,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "#59 🌐",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "w": 15,
+       "h": 15,
+       "fs": "12px",
+       "fw": "400",
+       "white": "nowrap",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(107, 107, 120)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(107, 107, 120)",
+       "val": "🌐"
+      }
+     ]
+    },
+    {
+     "col": 2,
+     "header": "Ім'я дитини",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Віта"
+      }
+     ]
+    },
+    {
+     "col": 3,
+     "header": "Статус",
+     "w": 135,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🔵 Новий🟡 Зв'язалися🟣 Пробний🟢 Записа",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 115,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "🟣 Пробний"
+      }
+     ]
+    },
+    {
+     "col": 4,
+     "header": "Вік",
+     "w": 42,
+     "h": 43,
+     "pad": "8px 4px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 34,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "4px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "6"
+      }
+     ]
+    },
+    {
+     "col": 5,
+     "header": "Курс",
+     "w": 150,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "—\n            ScratchPythonRobloxВебДопо",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 130,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "ellipsis",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Minecraft: програмування в грі"
+      }
+     ]
+    },
+    {
+     "col": 6,
+     "header": "Телефони",
+     "w": 185,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "📞\n          380986983328батько",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "phone-cell",
+       "w": 165,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          📞\n          380986983328батько\n        "
+      }
+     ]
+    },
+    {
+     "col": 7,
+     "header": "Викладач",
+     "w": 120,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "— —БогданМикита",
+     "kids": [
+      {
+       "tag": "SELECT",
+       "cls": "status-sel",
+       "w": 100,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "pre",
+       "ov": "clip",
+       "pad": "0px 22px 0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Микита"
+      }
+     ]
+    },
+    {
+     "col": 8,
+     "header": "Розклад",
+     "w": 102.5,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "🕐",
+     "kids": [
+      {
+       "tag": "DIV",
+       "cls": "sched-cell",
+       "w": 82.5,
+       "h": 24,
+       "fs": "14px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px",
+       "radius": "0px",
+       "border": "0px rgb(26, 26, 46)",
+       "bg": "rgba(0, 0, 0, 0)",
+       "color": "rgb(26, 26, 46)",
+       "val": "\n          🕐\n          \n        "
+      }
+     ]
+    },
+    {
+     "col": 9,
+     "header": "Нотатки",
+     "w": 140,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "",
+     "kids": [
+      {
+       "tag": "INPUT",
+       "cls": "notes-input",
+       "w": 120,
+       "h": 24,
+       "fs": "12px",
+       "fw": "400",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 8px",
+       "radius": "8px",
+       "border": "1px rgb(224, 217, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "color": "rgb(0, 0, 0)",
+       "val": "Заявка з mycomputer.education"
+      }
+     ]
+    },
+    {
+     "col": 10,
+     "header": "Дата",
+     "w": 139,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "14.08.2026, 14:15:37",
+     "kids": []
+    },
+    {
+     "col": 11,
+     "header": "",
+     "w": 51.2,
+     "h": 43,
+     "pad": "9px 10px",
+     "text": "✕",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "btn btn-danger btn-sm",
+       "w": 31.2,
+       "h": 24,
+       "fs": "12px",
+       "fw": "600",
+       "white": "normal",
+       "ov": "clip",
+       "pad": "0px 10px",
+       "radius": "8px",
+       "border": "1px rgb(254, 202, 202)",
+       "bg": "rgb(255, 240, 240)",
+       "color": "rgb(153, 27, 27)",
+       "val": ""
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

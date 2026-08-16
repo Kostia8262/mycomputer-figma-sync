@@ -142,6 +142,78 @@
           "pattern": "Shadow/$1",
           "match": "^--sh-(.+)$"
         }
+      },
+      "pages": {
+        "$comment": "Страницы сайта отдельными адресами — сценарии тут не нужны. Юридические лежат в /docs/*.html и в макете собраны на одной странице «Юридичні сторінки».",
+        "list": [
+          {
+            "id": "home",
+            "figmaPage": "🖥 Головна",
+            "path": "/"
+          },
+          {
+            "id": "courses-list",
+            "figmaPage": "📚 Курси",
+            "path": "/courses/"
+          },
+          {
+            "id": "articles-list",
+            "figmaPage": "📰 Статті",
+            "path": "/articles/"
+          },
+          {
+            "id": "gift",
+            "figmaPage": "🎁 Сертифікати",
+            "path": "/gift.html"
+          },
+          {
+            "id": "privacy",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/privacy-policy.html"
+          },
+          {
+            "id": "terms",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/terms.html"
+          },
+          {
+            "id": "offer",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/public-offer.html"
+          },
+          {
+            "id": "refund",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/refund-policy.html"
+          },
+          {
+            "id": "cookie",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/cookie-policy.html"
+          },
+          {
+            "id": "404",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/404.html"
+          },
+          {
+            "id": "500",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/500.html"
+          },
+          {
+            "id": "payment-success",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/payment-success.html"
+          },
+          {
+            "id": "payment-fail",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/payment-fail.html"
+          }
+        ],
+        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
+        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
       }
     },
     {
@@ -266,6 +338,78 @@
           "pattern": "Shadow/$1",
           "match": "^--sh-(.+)$"
         }
+      },
+      "pages": {
+        "$comment": "Страницы сайта отдельными адресами — сценарии тут не нужны. Юридические лежат в /docs/*.html и в макете собраны на одной странице «Юридичні сторінки».",
+        "list": [
+          {
+            "id": "home",
+            "figmaPage": "🖥 Головна",
+            "path": "/"
+          },
+          {
+            "id": "courses-list",
+            "figmaPage": "📚 Курси",
+            "path": "/courses/"
+          },
+          {
+            "id": "articles-list",
+            "figmaPage": "📰 Статті",
+            "path": "/articles/"
+          },
+          {
+            "id": "gift",
+            "figmaPage": "🎁 Сертифікати",
+            "path": "/gift.html"
+          },
+          {
+            "id": "privacy",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/privacy-policy.html"
+          },
+          {
+            "id": "terms",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/terms.html"
+          },
+          {
+            "id": "offer",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/public-offer.html"
+          },
+          {
+            "id": "refund",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/refund-policy.html"
+          },
+          {
+            "id": "cookie",
+            "figmaPage": "📄 Юридичні сторінки",
+            "path": "/docs/cookie-policy.html"
+          },
+          {
+            "id": "404",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/404.html"
+          },
+          {
+            "id": "500",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/500.html"
+          },
+          {
+            "id": "payment-success",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/payment-success.html"
+          },
+          {
+            "id": "payment-fail",
+            "figmaPage": "⚙️ Сервісні сторінки",
+            "path": "/payment-fail.html"
+          }
+        ],
+        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
+        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
       }
     },
     {
@@ -549,12 +693,12 @@
             "steps": [
               {
                 "type": {
-                  "selector": ".main input[type=search], .main .search input, .toolbar input",
+                  "selector": "#searchInput",
                   "text": "Марина"
                 }
               },
               {
-                "wait": 700
+                "wait": 800
               }
             ]
           },
@@ -565,7 +709,7 @@
             "steps": [
               {
                 "type": {
-                  "selector": ".main input[type=search], .main .search input, .toolbar input",
+                  "selector": "#searchInput",
                   "text": "zzzzнеттакого"
                 }
               },
@@ -580,7 +724,7 @@
             "tab": "База клієнтів",
             "steps": [
               {
-                "clickSelector": ".main table tbody tr:first-child"
+                "clickSelector": "#clientsTab tbody tr:first-child td:nth-child(2)"
               },
               {
                 "waitFor": ".modal-overlay"
