@@ -11,5 +11,8 @@
     "snapshot": "node src/cli.js snapshot",
     "compare": "node src/cli.js compare",
     "report": "node src/cli.js report"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }

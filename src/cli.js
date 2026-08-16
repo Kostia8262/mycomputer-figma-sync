@@ -22,6 +22,8 @@ import { makeClassifier, checkHexRgbPairs } from './snapshot/rules.js';
 import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
 import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
+import { collectLayout } from './snapshot/layout.js';
+import { diffLayouts } from './compare/layout-diff.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -224,7 +226,89 @@ async function page(config, args) {
   );
 }
 
-const COMMANDS = { snapshot, emit, page };
+/** Снимает геометрию продакшена и кладёт слепок в state/layout/. */
+async function layout(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}».`);
+
+  const url = args.url ?? target.reference.url;
+  const outDir = path.join(ROOT, 'state', 'layout');
+  await mkdir(outDir, { recursive: true });
+
+  console.log(`Снимаю ${url} на ${['1440', '1024', '390'].join(' / ')}…`);
+  const snap = await collectLayout(url);
+
+  const outFile = path.join(outDir, `${targetId}.json`);
+  await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');
+
+  for (const view of snap.viewports) {
+    const truncated = countTruncated(view.sections);
+    const extra = truncated ? `, срезано детей: ${truncated}` : '';
+    console.log(`  ${view.viewport.padEnd(8)} ${view.width}px — секций ${view.sections.length}, высота ${view.documentHeight}${extra}`);
+  }
+  console.log(`\nСлепок записан: ${outFile}`);
+}
+
+/** Срезанные дети должны быть видны: молчаливое усечение читается как полнота. */
+function countTruncated(nodes) {
+  let total = 0;
+  const walk = (list) => {
+    for (const node of list) {
+      if (node.truncatedChildren) total += node.truncatedChildren;
+      if (node.children) walk(node.children);
+    }
+  };
+  walk(nodes);
+  return total;
+}
+
+/**
+ * Снимает свежую геометрию и показывает, что изменилось с прошлого слепка.
+ * Именно эта команда отвечает на «я подвинул элемент на проде».
+ */
+async function changes(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}».`);
+
+  const file = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
+  if (!existsSync(file)) throw new Error(`Нет прошлого слепка. Сначала: node src/cli.js layout --target ${targetId}`);
+
+  const before = JSON.parse(await readFile(file, 'utf8'));
+  const url = args.url ?? target.reference.url;
+  console.log(`Снимаю ${url} и сравниваю с прошлым слепком…\n`);
+
+  const after = await collectLayout(url);
+  const result = diffLayouts(before, after);
+
+  for (const view of result.viewports) {
+    const h = view.documentHeight;
+    const heightNote = h && h.delta !== 0 ? `, высота ${h.was} → ${h.now} (${h.delta > 0 ? '+' : ''}${h.delta})` : '';
+    console.log(`${view.viewport} ${view.width}px — изменений: ${view.findings.length}${heightNote}`);
+
+    for (const f of view.findings.slice(0, 12)) {
+      if (f.kind === 'стили') {
+        const list = f.changes.map((c) => `${c.property} ${c.was} → ${c.now}`).join('; ');
+        console.log(`  стили  ${f.path}: ${list}`);
+      } else if (f.kind === 'появился' || f.kind === 'исчез') {
+        console.log(`  ${f.kind.padEnd(6)} ${f.path}`);
+      } else {
+        console.log(`  ${f.kind.padEnd(6)} ${f.path}: ${f.was} → ${f.now} [${f.delta ?? ''}]`);
+      }
+    }
+    if (view.findings.length > 12) console.log(`  … и ещё ${view.findings.length - 12}`);
+  }
+
+  if (args.save) {
+    await writeFile(file, JSON.stringify(after, null, 2) + '\n', 'utf8');
+    console.log(`\nСлепок обновлён: ${file}`);
+  } else {
+    console.log('\nСлепок НЕ перезаписан. Чтобы принять новое состояние за базу: добавьте --save');
+  }
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
