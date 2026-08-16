@@ -6,10 +6,12 @@
  * организмов с теми же именами (`Hero`, `Courses`). Гадать по координатам или
  * похожести картинок не требуется.
  *
- * Сюда не попадает пиксельное сравнение внутренностей секции — только её
- * габариты и порядок. Этого достаточно, чтобы поймать «элемент уехал», и
- * достаточно мало, чтобы отчёт оставался читаемым.
+ * Внутренности секции разбираются только там, где габариты разошлись: сама по
+ * себе «секция не той высоты» невыполнима как задача, нужен виновник. Слои и
+ * узлы DOM сопоставляются по именам — см. node-match.js.
  */
+
+import { findCulprit, explainCulprits } from './node-match.js';
 
 /** Порог, с которого расхождение габаритов попадает в отчёт. */
 const SIZE_TOLERANCE = 2;
@@ -32,6 +34,25 @@ if (!frame) return { error: 'Нет кадра ' + FRAME_NAME, top: page.childre
 
 const round = (n) => Math.round(n * 10) / 10;
 
+// Внутренности нужны, чтобы правка называла виновника, а не только секцию:
+// «Footer выше на 78» бесполезно, «причина в Inner» — выполнимо.
+const MAX_DEPTH = 3;
+const MAX_KIDS = 12;
+// Декоративные сетки держат десятки одинаковых штрихов («v», «h»): в DOM им
+// ничего не соответствует, а дерево они раздувают втрое.
+const DECOR = /^(deco|Deco|Fade|v|h)[\s\-·]*/;
+
+const walk = (node, depth) => {
+  if (depth > MAX_DEPTH || !('children' in node) || !node.children.length) return undefined;
+  const kids = node.children.filter((c) => c.visible !== false && !DECOR.test(c.name));
+  return kids.slice(0, MAX_KIDS).map((c) => ({
+    name: c.name,
+    w: round(c.width),
+    h: round(c.height),
+    inner: walk(c, depth + 1),
+  }));
+};
+
 const sections = frame.children
   .filter((n) => !IGNORE.includes(n.name))
   .map((n) => ({
@@ -44,6 +65,7 @@ const sections = frame.children
     y: round(n.y),
     w: round(n.width),
     h: round(n.height),
+    inner: walk(n, 1),
   }))
   // Порядок в дереве Figma не обязан совпадать с визуальным: Header часто лежит
   // последним, чтобы быть поверх. Сравнивать нужно по координате, а не по индексу.
@@ -89,11 +111,17 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
     const tolerance = section.bordered ? SIZE_TOLERANCE + 1.5 : SIZE_TOLERANCE;
 
     if (Math.abs(dw) > tolerance || Math.abs(dh) > tolerance) {
+      // Разбор внутренностей превращает «секция не той высоты» в адресную
+      // правку. Молча пропустить его нельзя — без него шаг невыполним.
+      const culprits = findCulprit(inFigma, section, tolerance);
+
       findings.push({
         kind: 'размер',
         prod: section.key,
         figma: figmaName,
         nodeId: inFigma.id,
+        culprits,
+        because: explainCulprits(culprits, dh),
         onProd: `${section.size.w}×${section.size.h}`,
         inFigma: `${inFigma.w}×${inFigma.h}`,
         // Знак от макета к проду: «макет нужно подрасти на N».

@@ -125,7 +125,7 @@ function layoutSteps(layoutFindings, prodByViewport, target) {
             (finding.bordered
               ? ' У секции есть границы: расхождение до 1.5 px — артефакт headless-рендеринга, не дефект.'
               : '') +
-            (insides.length ? ` Внутри секции на проде: ${insides.join(', ')}.` : ''),
+            (finding.because ? ` ${finding.because}` : insides.length ? ` Внутри секции на проде: ${insides.join(', ')}.` : ''),
           source: `${finding.prod} @ ${entry.width}px`,
           verify: `${finding.figma} / ${entry.viewport} уйдёт из расхождений`,
         });

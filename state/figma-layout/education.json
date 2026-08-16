@@ -285,7 +285,23 @@
           "y": 971.8,
           "w": 390,
           "h": 1273,
-          "id": "103:3895"
+          "id": "103:3895",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 1161,
+              "inner": [
+                {
+                  "name": "Section Header",
+                  "h": 238
+                },
+                {
+                  "name": "Grid",
+                  "h": 867
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Courses",
@@ -293,7 +309,31 @@
           "y": 2244.8,
           "w": 390,
           "h": 831.5,
-          "id": "103:3952"
+          "id": "103:3952",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 719.5,
+              "inner": [
+                {
+                  "name": "Section Header",
+                  "h": 151
+                },
+                {
+                  "name": "Tabs",
+                  "h": 43
+                },
+                {
+                  "name": "Slider",
+                  "h": 385.5
+                },
+                {
+                  "name": "Pagination",
+                  "h": 36
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "How It Works",
@@ -301,7 +341,23 @@
           "y": 3076.3,
           "w": 390,
           "h": 918,
-          "id": "103:4079"
+          "id": "103:4079",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 806,
+              "inner": [
+                {
+                  "name": "Section Header",
+                  "h": 180
+                },
+                {
+                  "name": "Steps",
+                  "h": 570
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Stats",
@@ -317,7 +373,23 @@
           "y": 5329.3,
           "w": 390,
           "h": 1477.8,
-          "id": "103:4203"
+          "id": "103:4203",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 1365.8,
+              "inner": [
+                {
+                  "name": "Pricing Header",
+                  "h": 148
+                },
+                {
+                  "name": "Grid",
+                  "h": 1177.8
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Certificate",
@@ -357,7 +429,19 @@
           "y": 9703.4,
           "w": 390,
           "h": 1108.2,
-          "id": "103:4493"
+          "id": "103:4493",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 1016.2,
+              "inner": [
+                {
+                  "name": "Grid",
+                  "h": 1016.2
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Footer",
@@ -365,7 +449,31 @@
           "y": 10811.6,
           "w": 390,
           "h": 1483,
-          "id": "103:4570"
+          "id": "103:4570",
+          "inner": [
+            {
+              "name": "Container",
+              "h": 1399,
+              "inner": [
+                {
+                  "name": "Inner",
+                  "h": 1032
+                },
+                {
+                  "name": "Pay Section",
+                  "h": 165
+                },
+                {
+                  "name": "Legal",
+                  "h": 77
+                },
+                {
+                  "name": "Bottom",
+                  "h": 85
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -14,7 +14,20 @@
           "expectedAt": "Semantic/color/primary-soft",
           "fix": "Примитив violet/300 = #a78bfa в файле уже есть — достаточно завести семантическую переменную-алиас на него."
         }
-      ]
+      ],
+      "typography": {
+        "checked": 27,
+        "perMode": 81,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "27 переменных fs/* × 3 режима. clamp() из CSS раскрыт на ширину режима: clamp(28px,3.8vw,46px) при 1024 = 38.912, в макете 38.9119987 — сходится."
+      },
+      "shadows": {
+        "checked": 4,
+        "missing": [],
+        "mismatched": [],
+        "$comment": "Эффект-стили Shadow/sm|md|lg|xl. Сравнивается первый слой тени: в CSS вторая тень — добивка, которой в стиле нет."
+      }
     },
     {
       "target": "school",
@@ -29,8 +42,16 @@
       "checked": 63,
       "mismatched": [],
       "missing": [
-        { "css": "--c-danger-border-strong", "value": "#fca5a5", "expectedAt": "Semantic/status/danger/border-strong" },
-        { "css": "--c-success-border-strong", "value": "#86efac", "expectedAt": "Semantic/status/success/border-strong" },
+        {
+          "css": "--c-danger-border-strong",
+          "value": "#fca5a5",
+          "expectedAt": "Semantic/status/danger/border-strong"
+        },
+        {
+          "css": "--c-success-border-strong",
+          "value": "#86efac",
+          "expectedAt": "Semantic/status/success/border-strong"
+        },
         {
           "css": "--c-warning-text-strong",
           "value": "#92400e",
@@ -41,10 +62,10 @@
     }
   ],
   "notCoveredYet": {
-    "$comment": "Честный список того, что сверка пока не трогает. Молчаливый пропуск выглядел бы как чистый отчёт.",
-    "typography": "--fs-*, --fw-*, --lh-* → коллекция Typography (в макетах есть режимы Desktop 1440 / Tablet 1024 / Mobile 390)",
-    "spacing": "--sp-*, --h-control-* → коллекция Spacing",
-    "shadows": "--sh-*, --shadow-* → эффект-стили Shadow/*",
-    "dashboardCharts": "--c-chart-* — прямых соответствий в макете не нашлось"
+    "$comment": "Осталось непокрытым после расширения сверки.",
+    "spacing": "--sp-* есть только у дашборда; на сайтах отступы намеренно не токенизированы",
+    "dashboardGeometry": "нужен MC_ADMIN_TOKEN в .env — админка за входом",
+    "dashboardTypography": "у дашборда своя шкала --fs-xs..--fs-4xl, правила именования пока не заведены",
+    "schoolTypography": "сверка типографики прогнана только по Эдьюкейшн"
   }
 }

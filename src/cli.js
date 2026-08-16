@@ -291,8 +291,18 @@ async function layout(config, args) {
   const outDir = path.join(ROOT, 'state', 'layout');
   await mkdir(outDir, { recursive: true });
 
+  // Ключ хранится только в .env: в git он не поедет, а без него админка
+  // отдаёт форму входа, и слепок вышел бы пустым.
+  const auth = buildAuth(target);
+  if (target.auth && !auth) {
+    throw new Error(
+      `Для «${targetId}» нужен вход. Задайте ${target.auth.env} в .env — ` +
+        'значение берётся из localStorage браузера, где вы уже авторизованы.',
+    );
+  }
+
   console.log(`Снимаю ${url} на ${['1440', '1024', '390'].join(' / ')}…`);
-  const snap = await collectLayout(url);
+  const snap = await collectLayout(url, auth ? { auth } : {});
 
   const outFile = path.join(outDir, `${targetId}.json`);
   await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');
@@ -303,6 +313,14 @@ async function layout(config, args) {
     console.log(`  ${view.viewport.padEnd(8)} ${view.width}px — секций ${view.sections.length}, высота ${view.documentHeight}${extra}`);
   }
   console.log(`\nСлепок записан: ${outFile}`);
+}
+
+/** Собирает данные входа из .env по описанию в конфиге таргета. */
+function buildAuth(target) {
+  if (!target.auth) return null;
+  const value = process.env[target.auth.env];
+  if (!value) return null;
+  return { localStorage: { [target.auth.key]: value } };
 }
 
 /** Срезанные дети должны быть видны: молчаливое усечение читается как полнота. */

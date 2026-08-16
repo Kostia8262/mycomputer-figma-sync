@@ -349,6 +349,23 @@
             "kind": "number"
           }
         ]
+      },
+      "auth": {
+        "$comment": "Админка за входом. Ключ localStorage кладётся из .env и в git не попадает.",
+        "type": "localStorage",
+        "key": "admin_token",
+        "env": "MC_ADMIN_TOKEN"
+      },
+      "layout": {
+        "$comment": "Заполнить после первого удачного слепка админки: имена организмов в макете дашборда отличаются от сайтовых.",
+        "pages": {
+          "desktop": {
+            "page": "🖥 Screens — Desktop 1440",
+            "frame": null
+          }
+        },
+        "sectionMap": {},
+        "ignoreInFigma": []
       }
     }
   ],

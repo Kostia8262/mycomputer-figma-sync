@@ -151,7 +151,7 @@ function extractInPage({ maxDepth, maxChildren, tracked }) {
  * @param {string} url страница продакшена
  * @returns {Promise<object>} слепок геометрии по всем брейкпоинтам
  */
-export async function collectLayout(url, { viewports = VIEWPORTS } = {}) {
+export async function collectLayout(url, { viewports = VIEWPORTS, auth } = {}) {
   const browser = await chromium.launch();
   const captured = [];
 
@@ -164,6 +164,18 @@ export async function collectLayout(url, { viewports = VIEWPORTS } = {}) {
         reducedMotion: 'reduce',
       });
       const page = await context.newPage();
+
+      // Админка живёт за входом. Ключ кладётся до первой навигации: страница
+      // читает его на старте, и подстановка после goto уже опоздает.
+      if (auth?.localStorage) {
+        const origin = new URL(url).origin;
+        await context.addInitScript((entries) => {
+          for (const [key, value] of Object.entries(entries)) {
+            window.localStorage.setItem(key, value);
+          }
+        }, auth.localStorage);
+        await page.goto(origin, { waitUntil: 'domcontentloaded', timeout: 60_000 });
+      }
 
       await page.goto(url, { waitUntil: 'networkidle', timeout: 60_000 });
       await page.addStyleTag({
