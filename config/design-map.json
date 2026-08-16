@@ -88,6 +88,44 @@
             "kind": "number"
           }
         ]
+      },
+      "layout": {
+        "$comment": "Сопоставление секций прода с организмами макета. Совпадение один в один — оба уровня уже названы по одной логике.",
+        "pages": {
+          "$comment": "Кадры макета по брейкпоинтам. Внутри каждого лежат инстансы организмов, чьи имена перечислены в sectionMap.",
+          "desktop": {
+            "page": "🖥 Головна — Desktop 1440",
+            "frame": "Home — Desktop 1440"
+          },
+          "tablet": {
+            "page": "💻 Головна — Tablet 1024",
+            "frame": "Home — Tablet 1024"
+          },
+          "mobile": {
+            "page": "📱 Головна — Mobile 390",
+            "frame": "Home — Mobile 390"
+          }
+        },
+        "sectionMap": {
+          "#header": "Header",
+          "#hero": "Hero",
+          "#partners": "Partners",
+          "#about": "Benefits",
+          "#courses": "Courses",
+          "#how-it-works": "How It Works",
+          "#stats": "Stats",
+          "#pricing": "Pricing",
+          "#certificate": "Certificate",
+          "#reviews": "Reviews",
+          "#articles": "Articles",
+          "#faq": "FAQ",
+          "#contact": "Contact",
+          ".footer": "Footer"
+        },
+        "ignoreInFigma": [
+          "Cookie Banner",
+          "Telegram Widget"
+        ]
       }
     },
     {
@@ -157,6 +195,44 @@
             "name": "r/$1",
             "kind": "number"
           }
+        ]
+      },
+      "layout": {
+        "$comment": "Сопоставление секций прода с организмами макета. Совпадение один в один — оба уровня уже названы по одной логике.",
+        "pages": {
+          "$comment": "Кадры макета по брейкпоинтам. Внутри каждого лежат инстансы организмов, чьи имена перечислены в sectionMap.",
+          "desktop": {
+            "page": "🖥 Головна — Desktop 1440",
+            "frame": "Home — Desktop 1440"
+          },
+          "tablet": {
+            "page": "💻 Головна — Tablet 1024",
+            "frame": "Home — Tablet 1024"
+          },
+          "mobile": {
+            "page": "📱 Головна — Mobile 390",
+            "frame": "Home — Mobile 390"
+          }
+        },
+        "sectionMap": {
+          "#header": "Header",
+          "#hero": "Hero",
+          "#partners": "Partners",
+          "#about": "Benefits",
+          "#courses": "Courses",
+          "#how-it-works": "How It Works",
+          "#stats": "Stats",
+          "#pricing": "Pricing",
+          "#certificate": "Certificate",
+          "#reviews": "Reviews",
+          "#articles": "Articles",
+          "#faq": "FAQ",
+          "#contact": "Contact",
+          ".footer": "Footer"
+        },
+        "ignoreInFigma": [
+          "Cookie Banner",
+          "Telegram Widget"
         ]
       }
     },

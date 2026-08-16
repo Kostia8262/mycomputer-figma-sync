@@ -24,6 +24,7 @@ import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
 import { collectLayout } from './snapshot/layout.js';
 import { diffLayouts } from './compare/layout-diff.js';
+import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -308,7 +309,55 @@ async function changes(config, args) {
   }
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes };
+/**
+ * Сравнивает геометрию макета с геометрией прода.
+ * `--emit <viewport>` печатает скрипт для снятия геометрии из Figma.
+ */
+async function vsfigma(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target?.layout) throw new Error(`У таргета «${targetId}» нет секции layout в конфиге.`);
+
+  if (args.emit) {
+    const view = target.layout.pages[args.emit];
+    if (!view) throw new Error(`Нет брейкпоинта «${args.emit}». Есть: desktop, tablet, mobile.`);
+    console.log(emitFigmaLayoutScript({ pageName: view.page, frameName: view.frame, ignore: target.layout.ignoreInFigma }));
+    return;
+  }
+
+  const prodFile = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
+  const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}.json`);
+  if (!existsSync(prodFile)) throw new Error(`Нет слепка прода: ${prodFile}`);
+  if (!existsSync(figmaFile)) throw new Error(`Нет геометрии макета: ${figmaFile}`);
+
+  const prod = JSON.parse(await readFile(prodFile, 'utf8'));
+  const figma = JSON.parse(await readFile(figmaFile, 'utf8'));
+
+  for (const view of prod.viewports) {
+    const inFigma = figma.viewports[view.viewport];
+    if (!inFigma) {
+      console.log(`\n${view.viewport} — геометрии макета нет`);
+      continue;
+    }
+
+    const result = compareLayoutToFigma(view, inFigma, target.layout.sectionMap);
+    const h = result.totalHeight;
+    console.log(`\n${view.viewport} ${view.width}px — сверено секций ${result.checked}, расхождений ${result.findings.length}`);
+    console.log(`  высота: прод ${h.onProd}, макет ${h.inFigma} (${h.delta > 0 ? '+' : ''}${h.delta})`);
+
+    for (const f of result.findings) {
+      if (f.kind === 'размер') {
+        console.log(`  ${f.figma.padEnd(14)} прод ${f.onProd.padEnd(12)} макет ${f.inFigma.padEnd(12)} [${f.delta}]${f.bordered ? ' bordered' : ''}`);
+      } else if (f.kind === 'порядок') {
+        console.log(`  порядок: на позиции ${f.position} прод ждёт ${f.onProd}, в макете ${f.inFigma}`);
+      } else {
+        console.log(`  ${f.kind}: ${f.figma ?? f.prod ?? ''} ${f.prodSize ?? f.size ?? ''} ${f.hint ?? ''}`);
+      }
+    }
+  }
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
