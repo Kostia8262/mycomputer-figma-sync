@@ -790,6 +790,25 @@
             ]
           }
         ]
+      },
+      "frameSelectorMap": {
+        "$comment": "У админки один файл на 16 вкладок, поэтому путь ничего не адресует. Точный сигнал — id контейнера вкладки в diff.",
+        "#leadsTab": "Заявки",
+        "#clientsTab": "База клієнтів",
+        "#coursesTab": "Курси",
+        "#curriculumTab": "Програми",
+        "#modulesTab": "Модулі",
+        "#articlesTab": "Статті",
+        "#reviewsTab": "Відгуки",
+        "#seoTab": "SEO тексти",
+        "#adminsTab": "Співробітники",
+        "#dashboardTab": "Дашборд",
+        "#contentTab": "Контент",
+        "#lessonsTab": "Уроки учнів",
+        "#certificatesTab": "Сертифікати",
+        "#giftTab": "Сертифікати",
+        "#giftMineTab": "Сертифікати",
+        "#staffProfileTab": "Профіль співробітника"
       }
     }
   ],

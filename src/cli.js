@@ -623,6 +623,7 @@ async function frames(config, args) {
   const matched = matchCommitToFrames({
     files: scope, selectors, texts, groups,
     pathMap: target.framePathMap ?? {},
+    selectorMap: target.frameSelectorMap ?? {},
   });
   const { stdout: addedRaw } = await run('git', ['diff', '--diff-filter=A', '--name-only', range], { cwd: repo, maxBuffer: 20e6 });
   const addedFiles = addedRaw.split('\n').filter(Boolean).filter((f) => (own.length ? f.startsWith(`sites/${target.reference.site}/`) : true));

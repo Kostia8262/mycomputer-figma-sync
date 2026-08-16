@@ -62,7 +62,7 @@ export function groupFrames(catalog) {
  *   pathMap    — прямые соответствия «кусок пути → имя кадра» из конфига
  *   screenIndex— карта «селектор → снятый экран» из слепков
  */
-export function matchCommitToFrames({ files, selectors = [], texts = [], groups, pathMap = {}, screenIndex }) {
+export function matchCommitToFrames({ files, selectors = [], texts = [], groups, pathMap = {}, selectorMap = {}, screenIndex }) {
   const scored = new Map();
 
   const add = (group, weight, why) => {
@@ -81,6 +81,15 @@ export function matchCommitToFrames({ files, selectors = [], texts = [], groups,
       const group = groups.find((g) => norm(g.base) === norm(frameName));
       if (group) add(group, 10, `путь ${fragment}`);
     }
+  }
+
+  // 1b. Прямая карта «селектор → кадр». Для админки это единственный точный
+  // сигнал: один файл обслуживает 16 вкладок, и путь не адресует ничего.
+  for (const item of selectors) {
+    const frameName = selectorMap[item.selector];
+    if (!frameName) continue;
+    const group = groups.find((g) => norm(g.base) === norm(frameName));
+    if (group) add(group, 8, `контейнер ${item.selector}`);
   }
 
   // 2. Селекторы, встреченные на уже снятых экранах.
@@ -187,15 +196,33 @@ export function newContainersFromDiff(diffText) {
   return [...found];
 }
 
-/** Достаёт из diff видимые тексты: заголовки, подписи, содержимое тегов. */
+/**
+ * Достаёт из diff человеческие тексты.
+ *
+ * Одной разметки мало: правка бывает чисто в логике, и тогда единственная
+ * подсказка — строковые литералы и комментарии. Коммит «count the trials in
+ * the client base header» не тронул ни одного тега, но в комментариях есть
+ * «заявка», «пробне», «оплатах» — этого хватает, чтобы адресовать экран.
+ */
 export function textsFromDiff(diffText) {
   const out = [];
+  const meaningful = (t) => t && t.length > 3 && /\p{L}{3,}/u.test(t) && !/^[\d\s.,:;+-]*$/.test(t);
+
   for (const line of diffText.split('\n')) {
     if (!/^[+-]/.test(line) || /^(\+\+\+|---)/.test(line)) continue;
+
     for (const m of line.matchAll(/>([^<>{}]{4,120})</g)) {
-      const text = m[1].trim();
-      if (text && !/^[\d\s.,:;+-]*$/.test(text)) out.push(text);
+      if (meaningful(m[1].trim())) out.push(m[1].trim());
     }
+    // Строковые литералы: подписи, сообщения, заголовки колонок.
+    for (const m of line.matchAll(/['"`]([^'"`\n]{4,120})['"`]/g)) {
+      const text = m[1].trim();
+      // Селекторы и пути не тексты: они уже разобраны отдельно и только шумят.
+      if (meaningful(text) && !/^[.#/]/.test(text) && !/[<>{}]/.test(text)) out.push(text);
+    }
+    // Комментарии — в этом проекте их пишут по-украински и по делу.
+    const comment = /(?:\/\/|\/\*|\*)\s*(.{6,160})$/.exec(line.replace(/^[+-]/, ''));
+    if (comment && meaningful(comment[1])) out.push(comment[1].trim());
   }
   return out;
 }
