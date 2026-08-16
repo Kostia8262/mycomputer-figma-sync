@@ -1,0 +1,380 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 29,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "👥 Співробітники\n        +"
+   },
+   {
+    "w": 1174,
+    "h": 188,
+    "x": 24,
+    "y": 73,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Ім'я\n            Роль\n    "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 1172,
+     "h": 186,
+     "x": 25,
+     "y": 74
+    },
+    "wrap": {
+     "w": 1174,
+     "h": 188,
+     "x": 24,
+     "y": 73
+    },
+    "headers": [
+     {
+      "w": 100.9,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 142.5,
+      "txt": "Роль"
+     },
+     {
+      "w": 421.6,
+      "txt": "Токен"
+     },
+     {
+      "w": 111.5,
+      "txt": "Статус"
+     },
+     {
+      "w": 154.4,
+      "txt": "Створено"
+     },
+     {
+      "w": 241.1,
+      "txt": ""
+     }
+    ],
+    "rows": 3,
+    "rowH": 49,
+    "headH": 39.5
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Ім'я\n            \n            ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 29,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "👥 Співробітники\n        +"
+   },
+   {
+    "w": 814,
+    "h": 290,
+    "x": 14,
+    "y": 63,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Ім'я\n            Роль\n    "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 812,
+     "h": 288,
+     "x": 15,
+     "y": 64
+    },
+    "wrap": {
+     "w": 814,
+     "h": 290,
+     "x": 14,
+     "y": 63
+    },
+    "headers": [
+     {
+      "w": 97.6,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 137.8,
+      "txt": "Роль"
+     },
+     {
+      "w": 158.8,
+      "txt": "Токен"
+     },
+     {
+      "w": 107.9,
+      "txt": "Статус"
+     },
+     {
+      "w": 149.3,
+      "txt": "Створено"
+     },
+     {
+      "w": 160.6,
+      "txt": ""
+     }
+    ],
+    "rows": 3,
+    "rowH": 83,
+    "headH": 39.5
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Ім'я\n            \n            ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 53,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "👥 Співробітники\n        +"
+   },
+   {
+    "w": 304,
+    "h": 623,
+    "x": 14,
+    "y": 87,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Ім'я\n            Роль\n    "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 651.8,
+     "h": 621,
+     "x": 15,
+     "y": 88
+    },
+    "wrap": {
+     "w": 304,
+     "h": 623,
+     "x": 14,
+     "y": 87
+    },
+    "headers": [
+     {
+      "w": 89.6,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 129.8,
+      "txt": "Роль"
+     },
+     {
+      "w": 63.9,
+      "txt": "Токен"
+     },
+     {
+      "w": 99.9,
+      "txt": "Статус"
+     },
+     {
+      "w": 141.3,
+      "txt": "Створено"
+     },
+     {
+      "w": 127.3,
+      "txt": ""
+     }
+    ],
+    "rows": 3,
+    "rowH": 196,
+    "headH": 33.5
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Ім'я\n            \n            ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ }
+}
