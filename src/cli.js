@@ -628,6 +628,7 @@ async function frames(config, args) {
   const addedFiles = addedRaw.split('\n').filter(Boolean).filter((f) => (own.length ? f.startsWith(`sites/${target.reference.site}/`) : true));
   const missing = findMissingFrames({
     addedFiles,
+    changedFiles: scope,
     newContainers: newContainersFromDiff(diff),
     groups,
     pathMap: target.framePathMap ?? {},
@@ -637,6 +638,23 @@ async function frames(config, args) {
   console.log(`Таргет: ${target.title} · файлов его: ${own.length} из ${files.length}`);
   if (kinds.length) console.log(`Характер правки: ${kinds.join(', ')}`);
   console.log('');
+
+  if (args.plan || args.issue) {
+    const plan = buildEditsPlan({
+      target,
+      frames: { commit: subject.trim().split(' ')[0], matched: matched.slice(0, 12), missing },
+    });
+    if (args.issue) {
+      console.log(buildIssueBody(plan, { checkedAt: new Date().toISOString().slice(0, 10),
+        sourceLabel: `коммит ${subject.trim()}`, figmaFileKey: target.figmaFileKey,
+        figmaFileTitle: target.figmaFileTitle, gaps: [] }));
+    } else {
+      console.log(emitEditsPageScript(plan, { pageName: config.conventions.editsPage,
+        checkedAt: new Date().toISOString().slice(0, 10),
+        sourceLabel: `коммит ${subject.trim()}`, gaps: [] }));
+    }
+    return;
+  }
 
   if (matched.length) {
     console.log('ДОРАБОТАТЬ существующие кадры:');

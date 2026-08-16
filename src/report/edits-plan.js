@@ -14,6 +14,7 @@ const STAGES = [
   { id: 'semantic', title: 'Семантика', hint: 'смысловые переменные, ссылаются на примитивы' },
   { id: 'styles', title: 'Стили', hint: 'текстовые и эффект-стили' },
   { id: 'organisms', title: 'Организмы', hint: 'секции страниц: размеры и порядок' },
+  { id: 'frames', title: 'Экраны', hint: 'кадры макета, затронутые коммитом' },
 ];
 
 /** Semantic/color/primary-soft → { collection: 'Semantic', name: 'color/primary-soft' } */
@@ -176,10 +177,45 @@ function layoutSteps(layoutFindings, prodByViewport, target) {
   return steps;
 }
 
-export function buildEditsPlan({ tokenResult, layoutFindings = [], prodByViewport = {}, target }) {
+/**
+ * Шаги из адресации по коммиту: что доработать, что создать.
+ * Идут последним этапом — это работа над экраном целиком, после того как
+ * приведены в порядок токены и организмы, на которые экран опирается.
+ */
+function frameSteps({ commit, matched = [], missing = [] }) {
+  const steps = [];
+
+  for (const item of matched) {
+    const bp = item.frames.map((f) => f.name.replace(/^.*[—–-]\s*/, '')).join(', ');
+    steps.push({
+      stage: 'frames', action: 'изменить',
+      title: `Доработать «${item.base}»`,
+      address: `Страница «${item.page}» → кадры: ${item.frames.length} шт. (${bp})`,
+      how: `Коммит ${commit} затронул этот экран. Основание: ${item.reasons.slice(0, 3).join('; ')}. Свериться с продом и перенести изменения.`,
+      source: `коммит ${commit}`,
+      verify: `повторный прогон frames по этому коммиту не должен показывать «${item.base}»`,
+    });
+  }
+
+  for (const item of missing) {
+    steps.push({
+      stage: 'frames', action: 'создать',
+      title: `Создать кадр «${item.suggestion}»`,
+      address: `Файл-источник: ${item.source}`,
+      how: `${item.why}. Собрать экран из существующих организмов и молекул; новый компонент заводить только если подходящего нет.`,
+      source: `коммит ${commit}`,
+      verify: 'кадр появится в каталоге и уйдёт из списка «создать»',
+    });
+  }
+
+  return steps;
+}
+
+export function buildEditsPlan({ tokenResult, layoutFindings = [], prodByViewport = {}, target, frames }) {
   const steps = [
     ...(tokenResult ? tokenSteps(tokenResult, target) : []),
     ...layoutSteps(layoutFindings, prodByViewport, target),
+    ...(frames ? frameSteps(frames) : []),
   ];
 
   const stages = STAGES.map((stage) => ({

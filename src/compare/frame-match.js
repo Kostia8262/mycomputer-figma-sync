@@ -123,7 +123,7 @@ export function matchCommitToFrames({ files, selectors = [], texts = [], groups,
  *   2) в разметку добавлен контейнер верхнего уровня с новым id.
  * Оба означают «на проде появилось то, чего в макете никто не рисовал».
  */
-export function findMissingFrames({ addedFiles = [], newContainers = [], groups, pathMap = {} }) {
+export function findMissingFrames({ addedFiles = [], changedFiles = [], newContainers = [], groups, pathMap = {} }) {
   const known = new Set(groups.map((g) => norm(g.base)));
   const proposals = [];
 
@@ -140,6 +140,24 @@ export function findMissingFrames({ addedFiles = [], newContainers = [], groups,
       source: file,
       suggestion: file.split('/').pop().replace(/\.\w+$/, ''),
       why: 'файл добавлен в этом коммите, кадра под него нет',
+    });
+  }
+
+  // Файл изменён, карта знает, какому кадру он соответствует, а кадра нет.
+  // Это тоже «создать»: в Скулле, например, страница юридических пуста,
+  // хотя документы на проде давно есть и правятся.
+  for (const file of changedFiles) {
+    const mapped = Object.entries(pathMap).find(([fragment]) => file.includes(fragment));
+    if (!mapped) continue;
+    const [, frameName] = mapped;
+    if (known.has(norm(frameName))) continue;
+    if (proposals.some((p) => p.suggestion === frameName)) continue;
+
+    proposals.push({
+      kind: 'кадра нет в макете',
+      source: file,
+      suggestion: frameName,
+      why: 'страница на проде правится, а кадра под неё в макете нет',
     });
   }
 
