@@ -136,8 +136,11 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
     // «сдвинул» бы все нижние и дал бы лавину ложных находок.
     const prevProd = matched.at(-1);
     if (prevProd) {
-      const gapOnProd = section.absoluteTop - prevProd.prodTop;
-      const gapInFigma = inFigma.y - prevProd.figmaTop;
+      // Округляем сразу: вычитание координат с десятыми копит хвосты вида
+      // 852.9000000000001, и они утекают в отчёт для человека.
+      const round = (n) => Math.round(n * 10) / 10;
+      const gapOnProd = round(section.absoluteTop - prevProd.prodTop);
+      const gapInFigma = round(inFigma.y - prevProd.figmaTop);
       const drift = Math.round((gapInFigma - gapOnProd) * 10) / 10;
       if (Math.abs(drift) > OFFSET_TOLERANCE) {
         findings.push({
