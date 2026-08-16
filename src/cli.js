@@ -23,7 +23,8 @@ import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
 import { buildEditsPlan } from './report/edits-plan.js';
 import { emitEditsPageScript } from './report/figma-page.js';
 import { buildIssueBody, buildIssueTitle } from './report/github-issue.js';
-import { collectLayout } from './snapshot/layout.js';
+import { collectLayout, extractInPage, MAX_DEPTH, MAX_CHILDREN, TRACKED_STYLES } from './snapshot/layout.js';
+import { collectAdminTabs } from './snapshot/admin-tabs.js';
 import { loadEnv } from './env.js';
 import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
@@ -459,7 +460,42 @@ async function issue(config, args) {
   );
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue };
+/** Обходит вкладки админки и снимает геометрию каждой на всех брейкпоинтах. */
+async function tabs(config, args) {
+  const targetId = args.target ?? 'dashboard';
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target?.tabs) throw new Error(`У таргета «${targetId}» нет списка вкладок в конфиге.`);
+
+  const auth = buildAuth(target);
+  if (target.auth && !auth) throw new Error(`Нужен вход: задайте ${target.auth.env} в .env`);
+
+  const url = args.url ?? target.reference.url;
+  const list = target.tabs.list;
+  const viewports = target.viewports.list;
+  console.log(`Обхожу ${list.length} вкладок × ${viewports.length} брейкпоинта на ${url}\n`);
+
+  const snap = await collectAdminTabs(url, list, extractInPage, {
+    auth,
+    selector: target.sectionSelector,
+    viewports,
+    extractArgs: { maxDepth: MAX_DEPTH, maxChildren: MAX_CHILDREN, tracked: TRACKED_STYLES },
+    onProgress: (viewport, tab, note) => console.log(`  ${viewport.padEnd(8)} ${tab.padEnd(18)} ${note}`),
+  });
+
+  const outDir = path.join(ROOT, 'state', 'layout');
+  await mkdir(outDir, { recursive: true });
+  const outFile = path.join(outDir, `${targetId}-tabs.json`);
+  await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');
+
+  const failed = snap.viewports.flatMap((v) => v.screens.filter((s) => s.status !== 'ok').map((s) => `${v.viewport}/${s.tab}: ${s.status}`));
+  if (failed.length) {
+    console.log(`\nНе снято ${failed.length}:`);
+    for (const f of failed) console.log(`  ${f}`);
+  }
+  console.log(`\nСлепок записан: ${outFile}`);
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];

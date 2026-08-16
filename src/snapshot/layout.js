@@ -19,15 +19,15 @@ export const VIEWPORTS = [
 ];
 
 /** Сколько уровней вглубь секции снимать и сколько детей на уровне. */
-const MAX_DEPTH = 3;
-const MAX_CHILDREN = 24;
+export const MAX_DEPTH = 3;
+export const MAX_CHILDREN = 24;
 
 /**
  * Свойства, по которым имеет смысл ловить расхождение с макетом.
  * Всё подряд снимать нельзя — computed style это сотни строк на узел,
  * и слепок перестанет быть читаемым в diff.
  */
-const TRACKED_STYLES = [
+export const TRACKED_STYLES = [
   'display', 'flexDirection', 'justifyContent', 'alignItems', 'gap',
   'gridTemplateColumns', 'flexWrap',
   'paddingTop', 'paddingRight', 'paddingBottom', 'paddingLeft',
@@ -42,7 +42,7 @@ const TRACKED_STYLES = [
  * Код, выполняемый внутри страницы. Пишется как одна функция без внешних
  * ссылок — в контексте браузера ничего из модуля не видно.
  */
-function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
+export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
   const round = (n) => Math.round(n * 10) / 10;
 
   /** Стабильный ключ узла: id, затем классы, затем позиция среди одинаковых. */
