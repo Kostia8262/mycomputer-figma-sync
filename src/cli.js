@@ -20,6 +20,8 @@ import { fileURLToPath } from 'node:url';
 import { collectTokens } from './snapshot/tokens.js';
 import { makeClassifier, checkHexRgbPairs } from './snapshot/rules.js';
 import { buildExpectations, emitFigmaScript } from './compare/emit-check.js';
+import { buildEditsPlan } from './report/edits-plan.js';
+import { emitEditsPageScript } from './report/figma-page.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -189,7 +191,40 @@ async function emit(config, args) {
   console.log(emitFigmaScript(expectations));
 }
 
-const COMMANDS = { snapshot, emit };
+/** Печатает скрипт, создающий страницу правок в макете таргета. */
+async function page(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}».`);
+
+  const checkFile = path.join(ROOT, 'state', 'figma-check.json');
+  if (!existsSync(checkFile)) throw new Error('Нет state/figma-check.json — сверка ещё не выполнялась.');
+
+  const check = JSON.parse(await readFile(checkFile, 'utf8'));
+  const result = check.targets.find((t) => t.target === targetId);
+  if (!result) throw new Error(`В сверке нет данных по «${targetId}».`);
+
+  const plan = buildEditsPlan(result, target);
+  if (args.stats) {
+    console.log(`${target.title} → ${target.figmaFileTitle} (${target.figmaFileKey})`);
+    console.log(`  правок: ${plan.total}`);
+    for (const stage of plan.stages) {
+      console.log(`  ${stage.title}:`);
+      for (const step of stage.steps) console.log(`    ${step.n}. ${step.title}`);
+    }
+    return;
+  }
+
+  console.log(
+    emitEditsPageScript(plan, {
+      pageName: config.conventions.editsPage,
+      checkedAt: check.checkedAt,
+      sourceLabel: target.tokenSource,
+    }),
+  );
+}
+
+const COMMANDS = { snapshot, emit, page };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
