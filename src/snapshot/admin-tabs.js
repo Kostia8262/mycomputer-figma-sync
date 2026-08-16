@@ -133,10 +133,18 @@ export async function collectAdminTabs(url, tabs, extract, options = {}) {
           }
 
           // Следующий сценарий не должен наследовать открытую модалку.
-          // Если закрыть не удалось — переоткрываем вкладку с нуля.
+          // Переоткрытие вкладки её не убирает — оверлей живёт над всем
+          // приложением, поэтому неснятое состояние требует перезагрузки.
           const clean = await resetState(page);
-          if (!clean) await openTab(page, tab.label);
-          else await openTab(page, tab.label);
+          if (clean) {
+            await openTab(page, tab.label);
+          } else {
+            await page.reload({ waitUntil: 'networkidle', timeout: 60_000 });
+            await page.addStyleTag({
+              content: '*,*::before,*::after{animation:none!important;transition:none!important;}',
+            });
+            await openTab(page, tab.label);
+          }
         }
       }
 

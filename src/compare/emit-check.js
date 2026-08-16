@@ -15,6 +15,9 @@
 
 const HEX3 = /^#([0-9a-f])([0-9a-f])([0-9a-f])$/i;
 const HEX6 = /^#([0-9a-f]{6})$/i;
+// Восьмизначная запись несёт альфу последней парой: без неё цвет вида
+// #6C47FF20 не разбирался и уходил в пропуски как «нецветовое значение».
+const HEX8 = /^#([0-9a-f]{6})([0-9a-f]{2})$/i;
 const RGB = /^rgba?\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)\s*(?:,\s*([\d.]+)\s*)?\)$/i;
 
 /**
@@ -27,6 +30,11 @@ export function normalizeColor(value) {
 
   const short = HEX3.exec(input);
   if (short) return { hex: `#${short[1]}${short[1]}${short[2]}${short[2]}${short[3]}${short[3]}`, alpha: 1 };
+
+  const withAlpha = HEX8.exec(input);
+  if (withAlpha) {
+    return { hex: `#${withAlpha[1]}`, alpha: Math.round((parseInt(withAlpha[2], 16) / 255) * 100) / 100 };
+  }
 
   const full = HEX6.exec(input);
   if (full) return { hex: `#${full[1]}`, alpha: 1 };

@@ -568,8 +568,8 @@
       ]
     },
     {
-      "viewport": "tablet",
-      "width": 1024,
+      "viewport": "compact",
+      "width": 900,
       "documentHeight": 900,
       "sections": [
         {
@@ -580,7 +580,7 @@
             "y": 0
           },
           "size": {
-            "w": 1024,
+            "w": 900,
             "h": 56
           },
           "styles": {
@@ -726,18 +726,18 @@
               "key": ".topbar-right",
               "tag": "div",
               "rel": {
-                "x": 360.1,
+                "x": 376,
                 "y": 13.5
               },
               "size": {
-                "w": 639.9,
+                "w": 500,
                 "h": 28
               },
               "styles": {
                 "display": "flex",
                 "flexDirection": "row",
                 "alignItems": "center",
-                "gap": "12px",
+                "gap": "8px",
                 "flexWrap": "nowrap",
                 "fontFamily": "Inter, Arial, sans-serif",
                 "fontSize": "16px",
@@ -753,11 +753,11 @@
                   "tag": "span",
                   "rel": {
                     "x": 0,
-                    "y": 14
+                    "y": 0
                   },
                   "size": {
-                    "w": 0,
-                    "h": 0
+                    "w": 132,
+                    "h": 28
                   },
                   "styles": {
                     "display": "block",
@@ -776,11 +776,11 @@
                   "key": "#xlsxExportBtn",
                   "tag": "button",
                   "rel": {
-                    "x": 12,
+                    "x": 140,
                     "y": 0
                   },
                   "size": {
-                    "w": 74.1,
+                    "w": 28,
                     "h": 28
                   },
                   "styles": {
@@ -790,8 +790,6 @@
                     "alignItems": "center",
                     "gap": "6px",
                     "flexWrap": "nowrap",
-                    "paddingRight": "10px",
-                    "paddingLeft": "10px",
                     "fontFamily": "Inter, Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": "600",
@@ -814,11 +812,11 @@
                   "key": "#csvExportBtn",
                   "tag": "button",
                   "rel": {
-                    "x": 98.1,
+                    "x": 176,
                     "y": 0
                   },
                   "size": {
-                    "w": 68.4,
+                    "w": 28,
                     "h": 28
                   },
                   "styles": {
@@ -828,8 +826,6 @@
                     "alignItems": "center",
                     "gap": "6px",
                     "flexWrap": "nowrap",
-                    "paddingRight": "10px",
-                    "paddingLeft": "10px",
                     "fontFamily": "Inter, Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": "600",
@@ -852,11 +848,11 @@
                   "key": "#csvImportBtn",
                   "tag": "button",
                   "rel": {
-                    "x": 178.5,
+                    "x": 212,
                     "y": 0
                   },
                   "size": {
-                    "w": 83.9,
+                    "w": 28,
                     "h": 28
                   },
                   "styles": {
@@ -866,8 +862,6 @@
                     "alignItems": "center",
                     "gap": "6px",
                     "flexWrap": "nowrap",
-                    "paddingRight": "10px",
-                    "paddingLeft": "10px",
                     "fontFamily": "Inter, Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": "600",
@@ -890,11 +884,11 @@
                   "key": "#reloadBtn",
                   "tag": "button",
                   "rel": {
-                    "x": 274.4,
+                    "x": 248,
                     "y": 0
                   },
                   "size": {
-                    "w": 93.5,
+                    "w": 28,
                     "h": 28
                   },
                   "styles": {
@@ -904,8 +898,6 @@
                     "alignItems": "center",
                     "gap": "6px",
                     "flexWrap": "nowrap",
-                    "paddingRight": "10px",
-                    "paddingLeft": "10px",
                     "fontFamily": "Inter, Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": "600",
@@ -927,11 +919,11 @@
                   "key": "#gsWrap",
                   "tag": "div",
                   "rel": {
-                    "x": 379.9,
+                    "x": 284,
                     "y": 0
                   },
                   "size": {
-                    "w": 190,
+                    "w": 150,
                     "h": 28
                   },
                   "styles": {
@@ -952,7 +944,7 @@
                   "key": "#logoutBtn",
                   "tag": "button",
                   "rel": {
-                    "x": 581.9,
+                    "x": 442,
                     "y": 0
                   },
                   "size": {
@@ -999,7 +991,7 @@
             "y": 56
           },
           "size": {
-            "w": 1024,
+            "w": 900,
             "h": 844
           },
           "styles": {
@@ -1023,7 +1015,7 @@
                 "y": 0
               },
               "size": {
-                "w": 218,
+                "w": 58,
                 "h": 844
               },
               "styles": {
@@ -1049,7 +1041,7 @@
                     "y": 0
                   },
                   "size": {
-                    "w": 217,
+                    "w": 57,
                     "h": 844
                   },
                   "styles": {
@@ -1075,21 +1067,21 @@
               "key": ".main",
               "tag": "div",
               "rel": {
-                "x": 218,
+                "x": 58,
                 "y": 0
               },
               "size": {
-                "w": 806,
+                "w": 842,
                 "h": 844
               },
               "styles": {
                 "display": "block",
                 "flexDirection": "row",
                 "flexWrap": "nowrap",
-                "paddingTop": "24px",
-                "paddingRight": "24px",
-                "paddingBottom": "24px",
-                "paddingLeft": "24px",
+                "paddingTop": "14px",
+                "paddingRight": "14px",
+                "paddingBottom": "14px",
+                "paddingLeft": "14px",
                 "fontFamily": "Inter, Arial, sans-serif",
                 "fontSize": "16px",
                 "fontWeight": "400",
@@ -1103,12 +1095,12 @@
                   "key": "#leadsTab",
                   "tag": "div",
                   "rel": {
-                    "x": 24,
-                    "y": 24
+                    "x": 14,
+                    "y": 14
                   },
                   "size": {
-                    "w": 758,
-                    "h": 1058
+                    "w": 814,
+                    "h": 1042
                   },
                   "styles": {
                     "display": "block",

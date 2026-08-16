@@ -130,6 +130,29 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
       });
     }
 
+    // Сдвиг по вертикали внутри страницы: секция может быть верного размера,
+    // но стоять не на своём месте. Сравниваются расстояния от предыдущей
+    // секции, а не абсолютные координаты: иначе сдвиг верхнего блока
+    // «сдвинул» бы все нижние и дал бы лавину ложных находок.
+    const prevProd = matched.at(-1);
+    if (prevProd) {
+      const gapOnProd = section.absoluteTop - prevProd.prodTop;
+      const gapInFigma = inFigma.y - prevProd.figmaTop;
+      const drift = Math.round((gapInFigma - gapOnProd) * 10) / 10;
+      if (Math.abs(drift) > OFFSET_TOLERANCE) {
+        findings.push({
+          kind: 'смещение',
+          prod: section.key,
+          figma: figmaName,
+          nodeId: inFigma.id,
+          after: prevProd.figma,
+          onProd: gapOnProd,
+          inFigma: gapInFigma,
+          delta: drift,
+        });
+      }
+    }
+
     matched.push({ prod: section.key, figma: figmaName, prodTop: section.absoluteTop, figmaTop: inFigma.y });
   }
 

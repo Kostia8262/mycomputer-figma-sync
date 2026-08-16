@@ -309,10 +309,14 @@ async function layout(config, args) {
     );
   }
 
-  console.log(`Снимаю ${url} на ${['1440', '1024', '390'].join(' / ')}…`);
+  // Брейкпоинты берём из таргета: у админки они свои (1440/900/390), и
+  // сайтовая сетка снимала бы 1024, которого в её макете нет вовсе.
+  const viewports = target.viewports?.list;
+  console.log(`Снимаю ${url} на ${(viewports ?? [{ width: 1440 }, { width: 1024 }, { width: 390 }]).map((v) => v.width).join(' / ')}…`);
   const snap = await collectLayout(url, {
     ...(auth ? { auth } : {}),
     ...(target.sectionSelector ? { selector: target.sectionSelector } : {}),
+    ...(viewports ? { viewports } : {}),
   });
 
   const outFile = path.join(outDir, `${targetId}.json`);
