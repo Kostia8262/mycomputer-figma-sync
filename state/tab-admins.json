@@ -108,7 +108,104 @@
     ],
     "rows": 3,
     "rowH": 49,
-    "headH": 39.5
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 100.9,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "",
+        "w": 49.2,
+        "h": 17,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 142.5,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "role-badge",
+        "w": 81.8,
+        "h": 20,
+        "fs": "11px",
+        "white": "nowrap",
+        "txt": "Викладач"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 421.6,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "CODE",
+        "cls": "",
+        "w": 332.9,
+        "h": 17,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "a3962df7a592b862148330f9"
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 111.5,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 79.9,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Активний"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 154.4,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 241.1,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "",
+        "w": 213.1,
+        "h": 24,
+        "fs": "14px",
+        "white": "nowrap",
+        "txt": "🔒 Відкликати\n          "
+       }
+      ]
+     }
+    ]
    }
   ],
   "pager": null,
@@ -234,7 +331,104 @@
     ],
     "rows": 3,
     "rowH": 83,
-    "headH": 39.5
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 97.6,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "",
+        "w": 49.2,
+        "h": 17,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 137.8,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "role-badge",
+        "w": 81.8,
+        "h": 20,
+        "fs": "11px",
+        "white": "nowrap",
+        "txt": "Викладач"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 158.8,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "CODE",
+        "cls": "",
+        "w": 126.8,
+        "h": 53.5,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "a3962df7a592b862148330f9"
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 107.9,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 79.9,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Активний"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 149.3,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 160.6,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "",
+        "w": 132.6,
+        "h": 54,
+        "fs": "14px",
+        "white": "nowrap",
+        "txt": "🔒 Відкликати\n          "
+       }
+      ]
+     }
+    ]
    }
   ],
   "pager": null,
@@ -360,7 +554,104 @@
     ],
     "rows": 3,
     "rowH": 196,
-    "headH": 33.5
+    "headH": 33.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 89.6,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "",
+        "w": 49.2,
+        "h": 17,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 129.8,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "role-badge",
+        "w": 81.8,
+        "h": 20,
+        "fs": "11px",
+        "white": "nowrap",
+        "txt": "Викладач"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 63.9,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "CODE",
+        "cls": "",
+        "w": 41,
+        "h": 153,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "a3962df7a592b862148330f9"
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 99.9,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 79.9,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Активний"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 141.3,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 127.3,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "",
+        "w": 107.3,
+        "h": 54,
+        "fs": "14px",
+        "white": "nowrap",
+        "txt": "🔒 Відкликати\n          "
+       }
+      ]
+     }
+    ]
    }
   ],
   "pager": null,

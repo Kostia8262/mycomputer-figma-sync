@@ -1,0 +1,1187 @@
+{
+ "desktop": {
+  "root": {
+   "w": 1174,
+   "h": 1197,
+   "x": 24,
+   "y": 24
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 36,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "",
+    "mb": "20px",
+    "txt": "← Назад\n          👤 Богдан\n  "
+   },
+   {
+    "w": 1080,
+    "h": 1141,
+    "x": 24,
+    "y": 80,
+    "id": null,
+    "cls": "",
+    "mb": "0px",
+    "txt": "Ім'я\n              Повне ім'я "
+   }
+  ],
+  "cards": [
+   {
+    "w": 744,
+    "h": 1141,
+    "x": 24,
+    "y": 80,
+    "id": null,
+    "cls": "card",
+    "txt": "Ім'я\n              Повне ім'",
+    "display": "block",
+    "pad": "20px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "20px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "modal-grid",
+      "w": 702,
+      "h": 483,
+      "fs": "16px",
+      "txt": "Ім'я Повне ім'я (ПІБ) Телефон Місто Посада"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 702,
+      "h": 436,
+      "fs": "16px",
+      "txt": "📚 Оплата праці Тип оплати ⏱ Погодинна 📅 "
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 702,
+      "h": 150,
+      "fs": "16px",
+      "txt": "📎 Документи + Завантажити 📄 photo_2025-0"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 171,
+    "x": 784,
+    "y": 80,
+    "id": null,
+    "cls": "card",
+    "txt": "🔑 Доступ\n            \n    \n",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🔑 Доступ"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 107,
+      "fs": "16px",
+      "txt": "Викладач Активний a3962df7a592b862148330f9"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 198,
+    "x": 784,
+    "y": 267,
+    "id": null,
+    "cls": "card",
+    "txt": "📅 Стаж та дата народження\n ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "📅 Стаж та дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата працевлаштування"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 201,
+    "x": 784,
+    "y": 481,
+    "id": null,
+    "cls": "no-print card",
+    "txt": "🌴 Відпустки / лікарняні\n   ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🌴 Відпустки / лікарняні"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 15,
+      "fs": "12px",
+      "txt": "Немає записів"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 112,
+      "fs": "16px",
+      "txt": "Відпустка Лікарняний + Додати"
+     }
+    ]
+   }
+  ],
+  "fields": [
+   {
+    "w": 345,
+    "h": 55,
+    "x": 45,
+    "y": 101,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Ім'я",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 402,
+    "y": 101,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Повне ім'я (ПІБ)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 45,
+    "y": 168,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Телефон",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 402,
+    "y": 168,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Місто",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 45,
+    "y": 235,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Посада\n                \n    ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 402,
+    "y": 235,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип зайнятості\n             ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "id": "tp_probationWrap",
+    "cls": "modal-group",
+    "txt": "Випробувальний до",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 702,
+    "h": 201,
+    "x": 45,
+    "y": 302,
+    "id": "tp_qualificationsWrap",
+    "cls": "modal-group full",
+    "txt": "Кваліфікації (які курси може",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 702,
+    "h": 69,
+    "x": 45,
+    "y": 515,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Нотатки",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 45,
+    "y": 626,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип оплати\n                 ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 402,
+    "y": 626,
+    "id": "tp_hourlyWrap",
+    "cls": "modal-group",
+    "txt": "Ставка (₴/год)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 345,
+    "h": 55,
+    "x": 45,
+    "y": 693,
+    "id": "tp_lessonDurationWrap",
+    "cls": "modal-group",
+    "txt": "Тривалість уроку (хв)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "id": "tp_monthlyWrap",
+    "cls": "modal-group",
+    "txt": "Місячна ставка (₴)",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 702,
+    "h": 55,
+    "x": 45,
+    "y": 760,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Реквізити для виплат (IBAN /",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 801,
+    "y": 314,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата працевлаштування",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 801,
+    "y": 383,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата народження",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   }
+  ],
+  "tables": []
+ },
+ "compact": {
+  "root": {
+   "w": 814,
+   "h": 1349,
+   "x": 14,
+   "y": 14
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 36,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "mb": "20px",
+    "txt": "← Назад\n          👤 Богдан\n  "
+   },
+   {
+    "w": 814,
+    "h": 1293,
+    "x": 14,
+    "y": 70,
+    "id": null,
+    "cls": "",
+    "mb": "0px",
+    "txt": "Ім'я\n              Повне ім'я "
+   }
+  ],
+  "cards": [
+   {
+    "w": 478,
+    "h": 1293,
+    "x": 14,
+    "y": 70,
+    "id": null,
+    "cls": "card",
+    "txt": "Ім'я\n              Повне ім'",
+    "display": "block",
+    "pad": "20px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "20px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "modal-grid",
+      "w": 436,
+      "h": 635,
+      "fs": "16px",
+      "txt": "Ім'я Повне ім'я (ПІБ) Телефон Місто Посада"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 436,
+      "h": 436,
+      "fs": "16px",
+      "txt": "📚 Оплата праці Тип оплати ⏱ Погодинна 📅 "
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 436,
+      "h": 150,
+      "fs": "16px",
+      "txt": "📎 Документи + Завантажити 📄 photo_2025-0"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 171,
+    "x": 508,
+    "y": 70,
+    "id": null,
+    "cls": "card",
+    "txt": "🔑 Доступ\n            \n    \n",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🔑 Доступ"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 107,
+      "fs": "16px",
+      "txt": "Викладач Активний a3962df7a592b862148330f9"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 198,
+    "x": 508,
+    "y": 257,
+    "id": null,
+    "cls": "card",
+    "txt": "📅 Стаж та дата народження\n ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "📅 Стаж та дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата працевлаштування"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 201,
+    "x": 508,
+    "y": 471,
+    "id": null,
+    "cls": "no-print card",
+    "txt": "🌴 Відпустки / лікарняні\n   ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🌴 Відпустки / лікарняні"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 15,
+      "fs": "12px",
+      "txt": "Немає записів"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 112,
+      "fs": "16px",
+      "txt": "Відпустка Лікарняний + Додати"
+     }
+    ]
+   }
+  ],
+  "fields": [
+   {
+    "w": 212,
+    "h": 55,
+    "x": 35,
+    "y": 91,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Ім'я",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 259,
+    "y": 91,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Повне ім'я (ПІБ)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 35,
+    "y": 158,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Телефон",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 259,
+    "y": 158,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Місто",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 35,
+    "y": 225,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Посада\n                \n    ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 259,
+    "y": 225,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип зайнятості\n             ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "id": "tp_probationWrap",
+    "cls": "modal-group",
+    "txt": "Випробувальний до",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 436,
+    "h": 353,
+    "x": 35,
+    "y": 292,
+    "id": "tp_qualificationsWrap",
+    "cls": "modal-group full",
+    "txt": "Кваліфікації (які курси може",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 436,
+    "h": 69,
+    "x": 35,
+    "y": 657,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Нотатки",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 35,
+    "y": 768,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип оплати\n                 ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 259,
+    "y": 768,
+    "id": "tp_hourlyWrap",
+    "cls": "modal-group",
+    "txt": "Ставка (₴/год)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 212,
+    "h": 55,
+    "x": 35,
+    "y": 835,
+    "id": "tp_lessonDurationWrap",
+    "cls": "modal-group",
+    "txt": "Тривалість уроку (хв)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "id": "tp_monthlyWrap",
+    "cls": "modal-group",
+    "txt": "Місячна ставка (₴)",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 436,
+    "h": 55,
+    "x": 35,
+    "y": 902,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Реквізити для виплат (IBAN /",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 525,
+    "y": 304,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата працевлаштування",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 525,
+    "y": 373,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата народження",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   }
+  ],
+  "tables": []
+ },
+ "mobile": {
+  "root": {
+   "w": 304,
+   "h": 2700,
+   "x": 14,
+   "y": 14
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 75,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "mb": "20px",
+    "txt": "← Назад\n          👤 Богдан\n  "
+   },
+   {
+    "w": 304,
+    "h": 2605,
+    "x": 14,
+    "y": 109,
+    "id": null,
+    "cls": "",
+    "mb": "0px",
+    "txt": "Ім'я\n              Повне ім'я "
+   }
+  ],
+  "cards": [
+   {
+    "w": 42,
+    "h": 2605,
+    "x": 14,
+    "y": 109,
+    "id": null,
+    "cls": "card",
+    "txt": "Ім'я\n              Повне ім'",
+    "display": "block",
+    "pad": "20px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "20px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "modal-grid",
+      "w": 0,
+      "h": 1565,
+      "fs": "16px",
+      "txt": "Ім'я Повне ім'я (ПІБ) Телефон Місто Посада"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 0,
+      "h": 811,
+      "fs": "16px",
+      "txt": "📚 Оплата праці Тип оплати ⏱ Погодинна 📅 "
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 30,
+      "h": 157,
+      "fs": "16px",
+      "txt": "📎 Документи + Завантажити 📄 photo_2025-0"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 171,
+    "x": 30,
+    "y": 109,
+    "id": null,
+    "cls": "card",
+    "txt": "🔑 Доступ\n            \n    \n",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🔑 Доступ"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 107,
+      "fs": "16px",
+      "txt": "Викладач Активний a3962df7a592b862148330f9"
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 198,
+    "x": 30,
+    "y": 296,
+    "id": null,
+    "cls": "card",
+    "txt": "📅 Стаж та дата народження\n ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "📅 Стаж та дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата працевлаштування"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     },
+     {
+      "tag": "DIV",
+      "cls": "modal-group",
+      "w": 286,
+      "h": 55,
+      "fs": "16px",
+      "txt": "Дата народження"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 0,
+      "fs": "13px",
+      "txt": ""
+     }
+    ]
+   },
+   {
+    "w": 320,
+    "h": 201,
+    "x": 30,
+    "y": 510,
+    "id": null,
+    "cls": "no-print card",
+    "txt": "🌴 Відпустки / лікарняні\n   ",
+    "display": "block",
+    "pad": "16px",
+    "gap": "normal",
+    "radius": "12px",
+    "cardPad": "16px",
+    "kids": [
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 20,
+      "fs": "12px",
+      "txt": "🌴 Відпустки / лікарняні"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 15,
+      "fs": "12px",
+      "txt": "Немає записів"
+     },
+     {
+      "tag": "DIV",
+      "cls": "",
+      "w": 286,
+      "h": 112,
+      "fs": "16px",
+      "txt": "Відпустка Лікарняний + Додати"
+     }
+    ]
+   }
+  ],
+  "fields": [
+   {
+    "w": 0,
+    "h": 55,
+    "x": 35,
+    "y": 130,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Ім'я",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 85,
+    "x": 35,
+    "y": 197,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Повне ім'я (ПІБ)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 55,
+    "x": 35,
+    "y": 294,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Телефон",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 55,
+    "x": 35,
+    "y": 361,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Місто",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 55,
+    "x": 35,
+    "y": 428,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Посада\n                \n    ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 70,
+    "x": 35,
+    "y": 495,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип зайнятості\n             ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "id": "tp_probationWrap",
+    "cls": "modal-group",
+    "txt": "Випробувальний до",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 1037,
+    "x": 35,
+    "y": 577,
+    "id": "tp_qualificationsWrap",
+    "cls": "modal-group full",
+    "txt": "Кваліфікації (які курси може",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 69,
+    "x": 35,
+    "y": 1626,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Нотатки",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 70,
+    "x": 35,
+    "y": 1767,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Тип оплати\n                 ",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 85,
+    "x": 35,
+    "y": 1849,
+    "id": "tp_hourlyWrap",
+    "cls": "modal-group",
+    "txt": "Ставка (₴/год)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 85,
+    "x": 35,
+    "y": 1946,
+    "id": "tp_lessonDurationWrap",
+    "cls": "modal-group",
+    "txt": "Тривалість уроку (хв)",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "id": "tp_monthlyWrap",
+    "cls": "modal-group",
+    "txt": "Місячна ставка (₴)",
+    "display": "none",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 0,
+    "h": 130,
+    "x": 35,
+    "y": 2043,
+    "id": null,
+    "cls": "modal-group full",
+    "txt": "Реквізити для виплат (IBAN /",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 47,
+    "y": 343,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата працевлаштування",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   },
+   {
+    "w": 286,
+    "h": 55,
+    "x": 47,
+    "y": 412,
+    "id": null,
+    "cls": "modal-group",
+    "txt": "Дата народження",
+    "display": "flex",
+    "pad": "0px",
+    "gap": "4px"
+   }
+  ],
+  "tables": []
+ }
+}

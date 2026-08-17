@@ -1,0 +1,389 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 29,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "✏️ Управління контентом"
+   },
+   {
+    "w": 371.3,
+    "h": 46,
+    "x": 24,
+    "y": 73,
+    "id": null,
+    "cls": "cms-subtabs",
+    "display": "inline-flex",
+    "mb": "20px",
+    "txt": "💰 Варіанти навчання\n     "
+   },
+   {
+    "w": 1174,
+    "h": 1515,
+    "x": 24,
+    "y": 139,
+    "id": "cmsPricing",
+    "cls": "cms-section",
+    "display": "block",
+    "mb": "32px",
+    "txt": "💰 Варіанти навчання (3 ка"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 371.3,
+   "h": 46,
+   "x": 24,
+   "y": 73,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 173.3,
+    "h": 36,
+    "x": 29,
+    "y": 78,
+    "txt": "💰 Варіанти навчання",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 184,
+    "h": 36,
+    "x": 206.3,
+    "y": 78,
+    "txt": "❓ Питання та відповіді",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 1174,
+    "h": 1515,
+    "x": 24,
+    "y": 139,
+    "txt": "💰 Варіанти навчання (3 картки",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "❓ Питання та відповіді\n       ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 29,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "✏️ Управління контентом"
+   },
+   {
+    "w": 371.3,
+    "h": 46,
+    "x": 14,
+    "y": 63,
+    "id": null,
+    "cls": "cms-subtabs",
+    "display": "inline-flex",
+    "mb": "20px",
+    "txt": "💰 Варіанти навчання\n     "
+   },
+   {
+    "w": 814,
+    "h": 1515,
+    "x": 14,
+    "y": 129,
+    "id": "cmsPricing",
+    "cls": "cms-section",
+    "display": "block",
+    "mb": "32px",
+    "txt": "💰 Варіанти навчання (3 ка"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 371.3,
+   "h": 46,
+   "x": 14,
+   "y": 63,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 173.3,
+    "h": 36,
+    "x": 19,
+    "y": 68,
+    "txt": "💰 Варіанти навчання",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 184,
+    "h": 36,
+    "x": 196.3,
+    "y": 68,
+    "txt": "❓ Питання та відповіді",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 814,
+    "h": 1515,
+    "x": 14,
+    "y": 129,
+    "txt": "💰 Варіанти навчання (3 картки",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "❓ Питання та відповіді\n       ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 29,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "✏️ Управління контентом"
+   },
+   {
+    "w": 304,
+    "h": 86,
+    "x": 14,
+    "y": 63,
+    "id": null,
+    "cls": "cms-subtabs",
+    "display": "inline-flex",
+    "mb": "20px",
+    "txt": "💰 Варіанти навчання\n     "
+   },
+   {
+    "w": 304,
+    "h": 158,
+    "x": 14,
+    "y": 169,
+    "id": "cmsPricing",
+    "cls": "cms-section",
+    "display": "block",
+    "mb": "32px",
+    "txt": "💰 Варіанти навчання (3 ка"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 304,
+   "h": 86,
+   "x": 14,
+   "y": 63,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 173.3,
+    "h": 36,
+    "x": 19,
+    "y": 68,
+    "txt": "💰 Варіанти навчання",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 184,
+    "h": 36,
+    "x": 19,
+    "y": 108,
+    "txt": "❓ Питання та відповіді",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 304,
+    "h": 158,
+    "x": 14,
+    "y": 169,
+    "txt": "💰 Варіанти навчання (3 картки",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "❓ Питання та відповіді\n       ",
+    "display": "none",
+    "fs": "16px"
+   }
+  ]
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 29,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "🎓 Управління курсами\n    "
+   },
+   {
+    "w": 1174,
+    "h": 1227,
+    "x": 24,
+    "y": 73,
+    "id": "coursesGrid",
+    "cls": "",
+    "display": "grid",
+    "mb": "0px",
+    "txt": "🐍\n        \n          Pyth"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 29,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "🎓 Управління курсами\n    "
+   },
+   {
+    "w": 814,
+    "h": 1780,
+    "x": 14,
+    "y": 63,
+    "id": "coursesGrid",
+    "cls": "",
+    "display": "grid",
+    "mb": "0px",
+    "txt": "🐍\n        \n          Pyth"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 53,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "🎓 Управління курсами\n    "
+   },
+   {
+    "w": 304,
+    "h": 3738,
+    "x": 14,
+    "y": 87,
+    "id": "coursesGrid",
+    "cls": "",
+    "display": "grid",
+    "mb": "0px",
+    "txt": "🐍\n        \n          Pyth"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ }
+}

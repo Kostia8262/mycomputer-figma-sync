@@ -1,0 +1,2909 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 194,
+    "x": 24,
+    "y": 24,
+    "id": "clientStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "16px",
+    "txt": "64У роботі\n  \n    0Нові\n  "
+   },
+   {
+    "w": 1174,
+    "h": 46,
+    "x": 24,
+    "y": 234,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📋 База клієнтів\n        \ud83d"
+   },
+   {
+    "w": 1174,
+    "h": 3826,
+    "x": 24,
+    "y": 300,
+    "id": "csubPayments",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Серпень 2026\n            \n"
+   }
+  ],
+  "stats": {
+   "w": 1174,
+   "h": 194,
+   "x": 24,
+   "y": 24,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 184,
+    "h": 90,
+    "x": 24,
+    "y": 24,
+    "txt": "64У роботі",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 222,
+    "y": 24,
+    "txt": "0Нові",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 420,
+    "y": 24,
+    "txt": "4Пробні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 618,
+    "y": 24,
+    "txt": "44Активні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 816,
+    "y": 24,
+    "txt": "16Пауза",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 1014,
+    "y": 24,
+    "txt": "0Завершили",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 184,
+    "h": 90,
+    "x": 24,
+    "y": 128,
+    "txt": "1Відмовились",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 0,
+   "h": 0,
+   "x": -218,
+   "y": -56,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Всі статуси\n            🔵 Нов",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Всі курси🐍 Python: справжнє п",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Всі викладачіБогданМикита— Без",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "+ Додати клієнта\n            \ud83d",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 853,
+    "h": 36,
+    "x": 24,
+    "y": 555,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 153,
+    "h": 36,
+    "x": 887,
+    "y": 555,
+    "txt": "Всі формати\n                👥",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 148,
+    "h": 36,
+    "x": 1050,
+    "y": 555,
+    "txt": "Всі статуси\n                🔴",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "subtabs": {
+   "w": 1174,
+   "h": 46,
+   "x": 24,
+   "y": 234,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 288,
+    "h": 36,
+    "x": 29,
+    "y": 239,
+    "txt": "📋 База клієнтів",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 288,
+    "h": 36,
+    "x": 321,
+    "y": 239,
+    "txt": "💰 Оплати",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 288,
+    "h": 36,
+    "x": 613,
+    "y": 239,
+    "txt": "📅 Відвідування",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 288,
+    "h": 36,
+    "x": 905,
+    "y": 239,
+    "txt": "📆 Розклад",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✅ Оплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "🔴 Несплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "🔵 Звільнити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "💰 Встановити суму",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "clientsTable",
+    "box": {
+     "w": 0,
+     "h": 0,
+     "x": -218,
+     "y": -56
+    },
+    "wrap": {
+     "w": 0,
+     "h": 0,
+     "x": -218,
+     "y": -56
+    },
+    "headers": [
+     {
+      "w": 0,
+      "txt": ""
+     },
+     {
+      "w": 0,
+      "txt": "#"
+     },
+     {
+      "w": 0,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 0,
+      "txt": "Статус"
+     },
+     {
+      "w": 0,
+      "txt": "Вік"
+     },
+     {
+      "w": 0,
+      "txt": "Курс"
+     },
+     {
+      "w": 0,
+      "txt": "Телефони"
+     },
+     {
+      "w": 0,
+      "txt": "Зв'язок"
+     },
+     {
+      "w": 0,
+      "txt": "Формат"
+     },
+     {
+      "w": 0,
+      "txt": "Розклад"
+     },
+     {
+      "w": 0,
+      "txt": "Ціна навчання"
+     },
+     {
+      "w": 0,
+      "txt": "Викладач"
+     },
+     {
+      "w": 0,
+      "txt": "Наст. дзвінок"
+     },
+     {
+      "w": 0,
+      "txt": "Нотатки"
+     },
+     {
+      "w": 0,
+      "txt": "Дата відмови"
+     },
+     {
+      "w": 0,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 0,
+    "headH": 0,
+    "cells": [
+     {
+      "col": 0,
+      "w": 0,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "TEXTAREA",
+        "cls": "notes-input name-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre-wrap",
+        "txt": "Арсений"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "status-sel-wrap",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🔵 Новий🟣 Пробний🟢 Акт"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "12"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "phone-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "📞\n          38050222208"
+       }
+      ]
+     },
+     {
+      "col": 7,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "msg-btn",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "group2"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "sched-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🕐"
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3600"
+       }
+      ]
+     },
+     {
+      "col": 11,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "Микита"
+       }
+      ]
+     },
+     {
+      "col": 12,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 13,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "Заявка з mycomputer.educ"
+       }
+      ]
+     },
+     {
+      "col": 14,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "—"
+       }
+      ]
+     },
+     {
+      "col": 15,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": null,
+    "box": {
+     "w": 1384.1,
+     "h": 3521,
+     "x": 25,
+     "y": 604
+    },
+    "wrap": {
+     "w": 1174,
+     "h": 3523,
+     "x": 24,
+     "y": 603
+    },
+    "headers": [
+     {
+      "w": 37,
+      "txt": ""
+     },
+     {
+      "w": 285.5,
+      "txt": "Учень"
+     },
+     {
+      "w": 134.7,
+      "txt": "Ціна навчання ₴"
+     },
+     {
+      "w": 102.7,
+      "txt": "Сплачено ₴"
+     },
+     {
+      "w": 157,
+      "txt": "Статус"
+     },
+     {
+      "w": 154,
+      "txt": "Курс"
+     },
+     {
+      "w": 76,
+      "txt": "Формат"
+     },
+     {
+      "w": 129,
+      "txt": "Дата оплати"
+     },
+     {
+      "w": 129,
+      "txt": "Спосіб"
+     },
+     {
+      "w": 134,
+      "txt": "Нотатка"
+     },
+     {
+      "w": 45.2,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 56,
+    "headH": 36.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 37,
+      "pad": "4px 6px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 285.5,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 134.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 102.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 157,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-status-sel mp-status-",
+        "w": 133,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "paid"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 154,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 130,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 76,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "2026-07-31"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "transfer"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 134,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 110,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 45.2,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "mp-month-del",
+        "w": 21.2,
+        "h": 21,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": {
+   "w": 0,
+   "h": 0,
+   "x": -218,
+   "y": -56,
+   "pad": "12px 14px",
+   "gap": null,
+   "radius": "0px",
+   "fs": "13px"
+  },
+  "pagerKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "64 клієнтів",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Завантаження...",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 194,
+    "x": 14,
+    "y": 14,
+    "id": "clientStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "16px",
+    "txt": "64У роботі\n  \n    0Нові\n  "
+   },
+   {
+    "w": 814,
+    "h": 46,
+    "x": 14,
+    "y": 224,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📋 База клієнтів\n        \ud83d"
+   },
+   {
+    "w": 814,
+    "h": 3910,
+    "x": 14,
+    "y": 290,
+    "id": "csubPayments",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Серпень 2026\n            \n"
+   }
+  ],
+  "stats": {
+   "w": 814,
+   "h": 194,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 193,
+    "h": 90,
+    "x": 14,
+    "y": 14,
+    "txt": "64У роботі",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 221,
+    "y": 14,
+    "txt": "0Нові",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 428,
+    "y": 14,
+    "txt": "4Пробні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 635,
+    "y": 14,
+    "txt": "44Активні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 14,
+    "y": 118,
+    "txt": "16Пауза",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 221,
+    "y": 118,
+    "txt": "0Завершили",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 428,
+    "y": 118,
+    "txt": "1Відмовились",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 0,
+   "h": 0,
+   "x": -58,
+   "y": -56,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі статуси\n            🔵 Нов",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі курси🐍 Python: справжнє п",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі викладачіБогданМикита— Без",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "+ Додати клієнта\n            \ud83d",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 493,
+    "h": 36,
+    "x": 14,
+    "y": 629,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 153,
+    "h": 36,
+    "x": 517,
+    "y": 629,
+    "txt": "Всі формати\n                👥",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 148,
+    "h": 36,
+    "x": 680,
+    "y": 629,
+    "txt": "Всі статуси\n                🔴",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "subtabs": {
+   "w": 814,
+   "h": 46,
+   "x": 14,
+   "y": 224,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 198,
+    "h": 36,
+    "x": 19,
+    "y": 229,
+    "txt": "📋 База клієнтів",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 198,
+    "h": 36,
+    "x": 221,
+    "y": 229,
+    "txt": "💰 Оплати",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 198,
+    "h": 36,
+    "x": 423,
+    "y": 229,
+    "txt": "📅 Відвідування",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 198,
+    "h": 36,
+    "x": 625,
+    "y": 229,
+    "txt": "📆 Розклад",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✅ Оплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "🔴 Несплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "🔵 Звільнити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "💰 Встановити суму",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "clientsTable",
+    "box": {
+     "w": 0,
+     "h": 0,
+     "x": -58,
+     "y": -56
+    },
+    "wrap": {
+     "w": 0,
+     "h": 0,
+     "x": -58,
+     "y": -56
+    },
+    "headers": [
+     {
+      "w": 0,
+      "txt": ""
+     },
+     {
+      "w": 0,
+      "txt": "#"
+     },
+     {
+      "w": 0,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 0,
+      "txt": "Статус"
+     },
+     {
+      "w": 0,
+      "txt": "Вік"
+     },
+     {
+      "w": 0,
+      "txt": "Курс"
+     },
+     {
+      "w": 0,
+      "txt": "Телефони"
+     },
+     {
+      "w": 0,
+      "txt": "Зв'язок"
+     },
+     {
+      "w": 0,
+      "txt": "Формат"
+     },
+     {
+      "w": 0,
+      "txt": "Розклад"
+     },
+     {
+      "w": 0,
+      "txt": "Ціна навчання"
+     },
+     {
+      "w": 0,
+      "txt": "Викладач"
+     },
+     {
+      "w": 0,
+      "txt": "Наст. дзвінок"
+     },
+     {
+      "w": 0,
+      "txt": "Нотатки"
+     },
+     {
+      "w": 0,
+      "txt": "Дата відмови"
+     },
+     {
+      "w": 0,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 0,
+    "headH": 0,
+    "cells": [
+     {
+      "col": 0,
+      "w": 0,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "TEXTAREA",
+        "cls": "notes-input name-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre-wrap",
+        "txt": "Арсений"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "status-sel-wrap",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🔵 Новий🟣 Пробний🟢 Акт"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "12"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "phone-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "📞\n          38050222208"
+       }
+      ]
+     },
+     {
+      "col": 7,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "msg-btn",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "group2"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "sched-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🕐"
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3600"
+       }
+      ]
+     },
+     {
+      "col": 11,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "Микита"
+       }
+      ]
+     },
+     {
+      "col": 12,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 13,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "Заявка з mycomputer.educ"
+       }
+      ]
+     },
+     {
+      "col": 14,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "—"
+       }
+      ]
+     },
+     {
+      "col": 15,
+      "w": 0,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": null,
+    "box": {
+     "w": 1384.1,
+     "h": 3521,
+     "x": 15,
+     "y": 678
+    },
+    "wrap": {
+     "w": 814,
+     "h": 3523,
+     "x": 14,
+     "y": 677
+    },
+    "headers": [
+     {
+      "w": 37,
+      "txt": ""
+     },
+     {
+      "w": 285.5,
+      "txt": "Учень"
+     },
+     {
+      "w": 134.7,
+      "txt": "Ціна навчання ₴"
+     },
+     {
+      "w": 102.7,
+      "txt": "Сплачено ₴"
+     },
+     {
+      "w": 157,
+      "txt": "Статус"
+     },
+     {
+      "w": 154,
+      "txt": "Курс"
+     },
+     {
+      "w": 76,
+      "txt": "Формат"
+     },
+     {
+      "w": 129,
+      "txt": "Дата оплати"
+     },
+     {
+      "w": 129,
+      "txt": "Спосіб"
+     },
+     {
+      "w": 134,
+      "txt": "Нотатка"
+     },
+     {
+      "w": 45.2,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 56,
+    "headH": 36.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 37,
+      "pad": "4px 6px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 285.5,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 134.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 102.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 157,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-status-sel mp-status-",
+        "w": 133,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "paid"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 154,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 130,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 76,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "2026-07-31"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "transfer"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 134,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 110,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 45.2,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "mp-month-del",
+        "w": 21.2,
+        "h": 21,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": {
+   "w": 0,
+   "h": 0,
+   "x": -58,
+   "y": -56,
+   "pad": "12px 14px",
+   "gap": null,
+   "radius": "0px",
+   "fs": "13px"
+  },
+  "pagerKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "64 клієнтів",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Завантаження...",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 714,
+    "x": 14,
+    "y": 14,
+    "id": "clientStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "16px",
+    "txt": "64У роботі\n  \n    0Нові\n  "
+   },
+   {
+    "w": 304,
+    "h": 46,
+    "x": 14,
+    "y": 744,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📋 База клієнтів\n        \ud83d"
+   },
+   {
+    "w": 304,
+    "h": 4553,
+    "x": 14,
+    "y": 810,
+    "id": "csubPayments",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "Серпень 2026\n            \n"
+   }
+  ],
+  "stats": {
+   "w": 304,
+   "h": 714,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 14,
+    "txt": "64У роботі",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 118,
+    "txt": "0Нові",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 222,
+    "txt": "4Пробні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 326,
+    "txt": "44Активні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 430,
+    "txt": "16Пауза",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 534,
+    "txt": "0Завершили",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 638,
+    "txt": "1Відмовились",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 0,
+   "h": 0,
+   "x": -58,
+   "y": -56,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі статуси\n            🔵 Нов",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі курси🐍 Python: справжнє п",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Всі викладачіБогданМикита— Без",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "+ Додати клієнта\n            \ud83d",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 36,
+    "x": 14,
+    "y": 1700,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 153,
+    "h": 36,
+    "x": 14,
+    "y": 1746,
+    "txt": "Всі формати\n                👥",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 148,
+    "h": 36,
+    "x": 14,
+    "y": 1792,
+    "txt": "Всі статуси\n                🔴",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "subtabs": {
+   "w": 304,
+   "h": 46,
+   "x": 14,
+   "y": 744,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 127.9,
+    "h": 36,
+    "x": 19,
+    "y": 749,
+    "txt": "📋 База клієнтів",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 90.9,
+    "h": 36,
+    "x": 150.9,
+    "y": 749,
+    "txt": "💰 Оплати",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 128.4,
+    "h": 36,
+    "x": 245.8,
+    "y": 749,
+    "txt": "📅 Відвідування",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 97.1,
+    "h": 36,
+    "x": 378.2,
+    "y": 749,
+    "txt": "📆 Розклад",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✅ Оплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "🔴 Несплачено",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "🔵 Звільнити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "💰 Встановити суму",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "clientsTable",
+    "box": {
+     "w": 0,
+     "h": 0,
+     "x": -58,
+     "y": -56
+    },
+    "wrap": {
+     "w": 0,
+     "h": 0,
+     "x": -58,
+     "y": -56
+    },
+    "headers": [
+     {
+      "w": 0,
+      "txt": ""
+     },
+     {
+      "w": 0,
+      "txt": "#"
+     },
+     {
+      "w": 0,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 0,
+      "txt": "Статус"
+     },
+     {
+      "w": 0,
+      "txt": "Вік"
+     },
+     {
+      "w": 0,
+      "txt": "Курс"
+     },
+     {
+      "w": 0,
+      "txt": "Телефони"
+     },
+     {
+      "w": 0,
+      "txt": "Зв'язок"
+     },
+     {
+      "w": 0,
+      "txt": "Формат"
+     },
+     {
+      "w": 0,
+      "txt": "Розклад"
+     },
+     {
+      "w": 0,
+      "txt": "Ціна навчання"
+     },
+     {
+      "w": 0,
+      "txt": "Викладач"
+     },
+     {
+      "w": 0,
+      "txt": "Наст. дзвінок"
+     },
+     {
+      "w": 0,
+      "txt": "Нотатки"
+     },
+     {
+      "w": 0,
+      "txt": "Дата відмови"
+     },
+     {
+      "w": 0,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 0,
+    "headH": 0,
+    "cells": [
+     {
+      "col": 0,
+      "w": 0,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "TEXTAREA",
+        "cls": "notes-input name-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre-wrap",
+        "txt": "Арсений"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "status-sel-wrap",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🔵 Новий🟣 Пробний🟢 Акт"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "12"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "phone-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "📞\n          38050222208"
+       }
+      ]
+     },
+     {
+      "col": 7,
+      "w": 0,
+      "pad": "8px 4px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "msg-btn",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "group2"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "DIV",
+        "cls": "sched-cell",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "🕐"
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3600"
+       }
+      ]
+     },
+     {
+      "col": 11,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "Микита"
+       }
+      ]
+     },
+     {
+      "col": 12,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 13,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "notes-input",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "Заявка з mycomputer.educ"
+       }
+      ]
+     },
+     {
+      "col": 14,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "",
+        "w": 0,
+        "h": 0,
+        "fs": "14px",
+        "white": "normal",
+        "txt": "—"
+       }
+      ]
+     },
+     {
+      "col": 15,
+      "w": 0,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 0,
+        "h": 0,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": null,
+    "box": {
+     "w": 1384.1,
+     "h": 3521,
+     "x": 15,
+     "y": 1841
+    },
+    "wrap": {
+     "w": 304,
+     "h": 3523,
+     "x": 14,
+     "y": 1840
+    },
+    "headers": [
+     {
+      "w": 37,
+      "txt": ""
+     },
+     {
+      "w": 285.5,
+      "txt": "Учень"
+     },
+     {
+      "w": 134.7,
+      "txt": "Ціна навчання ₴"
+     },
+     {
+      "w": 102.7,
+      "txt": "Сплачено ₴"
+     },
+     {
+      "w": 157,
+      "txt": "Статус"
+     },
+     {
+      "w": 154,
+      "txt": "Курс"
+     },
+     {
+      "w": 76,
+      "txt": "Формат"
+     },
+     {
+      "w": 129,
+      "txt": "Дата оплати"
+     },
+     {
+      "w": 129,
+      "txt": "Спосіб"
+     },
+     {
+      "w": 134,
+      "txt": "Нотатка"
+     },
+     {
+      "w": 45.2,
+      "txt": ""
+     }
+    ],
+    "rows": 64,
+    "rowH": 56,
+    "headH": 36.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 37,
+      "pad": "4px 6px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 285.5,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 134.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 3,
+      "w": 102.7,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 72,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "3240"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 157,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-status-sel mp-status-",
+        "w": 133,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "paid"
+       }
+      ]
+     },
+     {
+      "col": 5,
+      "w": 154,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "status-sel",
+        "w": 130,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "python"
+       }
+      ]
+     },
+     {
+      "col": 6,
+      "w": 76,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "2026-07-31"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 129,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SELECT",
+        "cls": "mp-inline",
+        "w": 105,
+        "h": 24,
+        "fs": "12px",
+        "white": "pre",
+        "txt": "transfer"
+       }
+      ]
+     },
+     {
+      "col": 9,
+      "w": 134,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "mp-inline",
+        "w": 110,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "col": 10,
+      "w": 45.2,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "mp-month-del",
+        "w": 21.2,
+        "h": 21,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": {
+   "w": 0,
+   "h": 0,
+   "x": -58,
+   "y": -56,
+   "pad": "12px 14px",
+   "gap": null,
+   "radius": "0px",
+   "fs": "13px"
+  },
+  "pagerKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "64 клієнтів",
+    "display": "block",
+    "fs": "13px"
+   }
+  ],
+  "cards": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Завантаження...",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ }
+}
