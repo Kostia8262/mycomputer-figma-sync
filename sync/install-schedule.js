@@ -4,6 +4,7 @@
  *
  *   node sync/install-schedule.js            # поставить на 10:00
  *   node sync/install-schedule.js --at 21:30 # своё время
+ *   node sync/install-schedule.js --full     # снимать и страницы с экранами админки
  *   node sync/install-schedule.js --off      # снять
  *
  * macOS — launchd, Windows — Task Scheduler. Оба варианта переживают выключенную
@@ -36,9 +37,10 @@ function run(command, args) {
 }
 
 function parseArgs(argv) {
-  const args = { at: '10:00', off: false };
+  const args = { at: '10:00', off: false, full: false };
   for (let i = 0; i < argv.length; i += 1) {
     if (argv[i] === '--off') args.off = true;
+    else if (argv[i] === '--full') args.full = true;
     else if (argv[i] === '--at') args.at = argv[++i];
   }
   const [hour, minute] = args.at.split(':').map(Number);
@@ -51,7 +53,8 @@ function parseArgs(argv) {
 const plistPath = () =>
   path.join(os.homedir(), 'Library', 'LaunchAgents', `${LABEL}.plist`);
 
-function plistBody(nodeBin, hour, minute) {
+function plistBody(nodeBin, hour, minute, full) {
+  const extra = full ? '\n    <string>--full</string>' : '';
   return `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -60,7 +63,7 @@ function plistBody(nodeBin, hour, minute) {
   <key>ProgramArguments</key>
   <array>
     <string>${nodeBin}</string>
-    <string>${SCRIPT}</string>
+    <string>${SCRIPT}</string>${extra}
   </array>
   <key>StartCalendarInterval</key>
   <dict>
@@ -75,7 +78,7 @@ function plistBody(nodeBin, hour, minute) {
 `;
 }
 
-async function installMac({ hour, minute, off }) {
+async function installMac({ hour, minute, off, full }) {
   const target = plistPath();
 
   if (off) {
@@ -85,14 +88,15 @@ async function installMac({ hour, minute, off }) {
   }
 
   await mkdir(path.dirname(target), { recursive: true });
-  await writeFile(target, plistBody(process.execPath, hour, minute), 'utf8');
+  await writeFile(target, plistBody(process.execPath, hour, minute, full), 'utf8');
 
   // bootout перед bootstrap — иначе повторная установка падает с "already loaded".
   await run('launchctl', ['bootout', `gui/${process.getuid()}/${LABEL}`]);
   const load = await run('launchctl', ['bootstrap', `gui/${process.getuid()}`, target]);
   if (load.code !== 0) throw new Error(`launchctl: ${load.stderr || load.stdout}`);
 
-  return `launchd: ${LABEL} каждый день в ${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
+  const time = `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
+  return `launchd: ${LABEL} каждый день в ${time}${full ? ', полный набор слепков' : ''}`;
 }
 
 /**
@@ -112,7 +116,7 @@ async function runPowerShell(script) {
 
 const psQuote = (value) => `'${String(value).replace(/'/g, "''")}'`;
 
-async function installWindows({ hour, minute, off }) {
+async function installWindows({ hour, minute, off, full }) {
   if (off) {
     const result = await runPowerShell(
       `$ErrorActionPreference = 'Stop'\n` +
@@ -133,7 +137,7 @@ async function installWindows({ hour, minute, off }) {
   const result = await runPowerShell(
     `$ErrorActionPreference = 'Stop'\n` +
     `$action = New-ScheduledTaskAction -Execute ${psQuote(process.execPath)} ` +
-      `-Argument ${psQuote(`"${SCRIPT}"`)} -WorkingDirectory ${psQuote(ROOT)}\n` +
+      `-Argument ${psQuote(`"${SCRIPT}"${full ? ' --full' : ''}`)} -WorkingDirectory ${psQuote(ROOT)}\n` +
     `$trigger = New-ScheduledTaskTrigger -Daily ` +
       `-At ([datetime]::Today.AddHours(${hour}).AddMinutes(${minute}))\n` +
     `$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries ` +
@@ -144,7 +148,7 @@ async function installWindows({ hour, minute, off }) {
   );
   if (result.code !== 0) throw new Error(result.stderr || result.stdout);
 
-  return `Task Scheduler: «${TASK_NAME}» каждый день в ${time}, с догоняющим запуском`;
+  return `Task Scheduler: «${TASK_NAME}» каждый день в ${time}, с догоняющим запуском${full ? ', полный набор слепков' : ''}`;
 }
 
 const args = parseArgs(process.argv.slice(2));

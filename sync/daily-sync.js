@@ -7,6 +7,14 @@
  *   mycomputer-figma-sync — двусторонне, но автокоммит только для state/
  *   my_computer_new      — ТОЛЬКО чтение: это продакшен, автопуш туда недопустим
  *
+ * Порядок шагов важен: прод подтягивается ДО снятия слепков (иначе слепок
+ * токенов снимется со вчерашнего кода), а коммит и отправка — ПОСЛЕ, иначе
+ * свежие слепки пролежали бы на машине до следующего дня.
+ *
+ *   node sync/daily-sync.js                 токены + геометрия трёх главных
+ *   node sync/daily-sync.js --full          плюс страницы сайтов и экраны админки
+ *   node sync/daily-sync.js --no-snapshots  только синхронизация репозиториев
+ *
  * Работает без зависимостей на обеих ОС: git вызывается напрямую, без shell.
  */
 
@@ -19,9 +27,28 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const LOG = path.join(ROOT, 'sync', 'daily-sync.log');
+const CLI = path.join(ROOT, 'src', 'cli.js');
 const IS_WINDOWS = process.platform === 'win32';
 
 const lines = [];
+
+/**
+ * Что снимать каждый день. Токены дёшевы и не требуют браузера; геометрия
+ * трёх главных — около минуты на каждую. Страницы сайтов и 60 экранов админки
+ * добавляются флагом --full: в ежедневном фоне они съедали бы минут пятнадцать.
+ */
+const DAILY_SNAPSHOTS = [
+  { title: 'токены', args: ['snapshot'] },
+  { title: 'геометрия education', args: ['layout', '--target', 'education'] },
+  { title: 'геометрия school', args: ['layout', '--target', 'school'] },
+  { title: 'геометрия админки', args: ['layout', '--target', 'dashboard'] },
+];
+
+const FULL_SNAPSHOTS = [
+  { title: 'страницы education', args: ['pages', '--target', 'education'] },
+  { title: 'страницы school', args: ['pages', '--target', 'school'] },
+  { title: 'экраны админки', args: ['tabs', '--target', 'dashboard'] },
+];
 
 function note(message) {
   const stamped = `${new Date().toISOString()}  ${message}`;
@@ -86,18 +113,28 @@ async function syncMemory() {
   note(result.code === 0 ? 'память: синхронизирована' : `память: ОШИБКА — ${result.stderr || result.stdout}`);
 }
 
-/** Состояние агента: тянем чужие правки, свои слепки коммитим и отдаём. */
-async function syncSelf() {
+/** Тянем чужие правки. Отдаём отдельным шагом — после того, как снимем слепки. */
+async function pullSelf() {
   if (!existsSync(path.join(ROOT, '.git'))) {
     note('агент: пропуск, репозиторий ещё не инициализирован');
-    return;
+    return false;
   }
 
   const pull = await git(['pull', '--rebase', '--autostash'], ROOT);
   if (pull.code !== 0) {
     note(`агент: ОШИБКА pull — ${pull.stderr}`);
-    return;
+    return false;
   }
+
+  // Успешный шаг обязан оставить строку: лог, где видны только ошибки, не
+  // отличить от лога, где половина шагов молча не выполнялась.
+  note('агент: подтянут');
+  return true;
+}
+
+/** Состояние агента: свои слепки коммитим и отдаём. */
+async function pushSelf() {
+  if (!existsSync(path.join(ROOT, '.git'))) return;
 
   // Автокоммитим только слепки. Недописанный код чужой машине не нужен,
   // а внезапный коммит посреди работы — худшее, что может сделать демон.
@@ -142,12 +179,53 @@ async function syncProduction() {
   note(pull.code === 0 ? 'прод: обновлён' : `прод: не удалось перемотать — ${pull.stderr}`);
 }
 
+/**
+ * Снимает слепки прода. Шаги независимы: упавший не роняет остальные — три
+ * снятых слепка из четырёх полезнее, чем ни одного.
+ */
+async function takeSnapshots({ full }) {
+  const steps = full ? [...DAILY_SNAPSHOTS, ...FULL_SNAPSHOTS] : DAILY_SNAPSHOTS;
+
+  for (const step of steps) {
+    const result = await run(process.execPath, [CLI, ...step.args], ROOT);
+    if (result.code === 0) {
+      note(`слепок «${step.title}»: снят`);
+      continue;
+    }
+
+    // Причина обязана попасть в лог целиком: «не снялось» без объяснения
+    // читается как случайность, хотя чаще это отсутствующий браузер или ключ.
+    const reason = (result.stderr || result.stdout).split('\n')[0];
+    note(`слепок «${step.title}»: ОШИБКА — ${reason}`);
+
+    if (/Executable doesn't exist|playwright install/i.test(result.stderr)) {
+      note('  браузер не установлен: npx playwright install chromium');
+    }
+  }
+}
+
+const args = process.argv.slice(2);
+const full = args.includes('--full');
+const withSnapshots = !args.includes('--no-snapshots');
+
 await loadEnv();
-note(`--- старт, ${os.hostname()} (${process.platform}) ---`);
+note(`--- старт, ${os.hostname()} (${process.platform})${full ? ', полный набор' : ''} ---`);
 
 await syncMemory();
-await syncSelf();
+const pulled = await pullSelf();
 await syncProduction();
 
+// Снимать имеет смысл только после успешного pull: иначе слепок ляжет поверх
+// чужого, ещё не подтянутого, и rebase на следующем прогоне встанет на конфликте.
+if (withSnapshots && pulled) await takeSnapshots({ full });
+else if (withSnapshots) note('слепки: пропуск, репозиторий агента не синхронизирован');
+
+await pushSelf();
+
 note('--- готово ---');
-await appendFile(LOG, lines.join('\n') + '\n', 'utf8');
+
+// BOM обязателен: без него PowerShell 5.1 и Блокнот читают файл как ANSI, и
+// весь русский текст в логе превращается в кракозябры. Ставим один раз, при
+// создании файла — в середину дописать его уже нельзя.
+const bom = existsSync(LOG) ? '' : '﻿';
+await appendFile(LOG, bom + lines.join('\n') + '\n', 'utf8');
