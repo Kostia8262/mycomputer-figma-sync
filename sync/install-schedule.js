@@ -7,8 +7,8 @@
  *   node sync/install-schedule.js --off      # снять
  *
  * macOS — launchd, Windows — Task Scheduler. Оба варианта переживают выключенную
- * машину: launchd выполняет пропущенный запуск при пробуждении, Task Scheduler
- * получает /RI-подобное поведение через StartWhenAvailable.
+ * машину: launchd выполняет пропущенный запуск при пробуждении, Task Scheduler —
+ * через StartWhenAvailable.
  */
 
 import { spawn } from 'node:child_process';
@@ -95,21 +95,56 @@ async function installMac({ hour, minute, off }) {
   return `launchd: ${LABEL} каждый день в ${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
 }
 
+/**
+ * Выполняет PowerShell-скрипт из временного файла. Через -Command не выйдет:
+ * пути к репозиторию содержат кириллицу, а она гибнет в кодовой странице консоли.
+ * BOM обязателен — без него Windows PowerShell 5.1 читает файл как ANSI.
+ */
+async function runPowerShell(script) {
+  const file = path.join(os.tmpdir(), `${LABEL}.${process.pid}.ps1`);
+  await writeFile(file, `﻿${script}`, 'utf8');
+  try {
+    return await run('powershell', ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', file]);
+  } finally {
+    if (existsSync(file)) await unlink(file);
+  }
+}
+
+const psQuote = (value) => `'${String(value).replace(/'/g, "''")}'`;
+
 async function installWindows({ hour, minute, off }) {
   if (off) {
-    const result = await run('schtasks', ['/Delete', '/TN', TASK_NAME, '/F']);
+    const result = await runPowerShell(
+      `$ErrorActionPreference = 'Stop'\n` +
+      `Unregister-ScheduledTask -TaskName ${psQuote(TASK_NAME)} -Confirm:$false\n`,
+    );
     return result.code === 0 ? 'Задача снята.' : `Не удалось снять: ${result.stderr || result.stdout}`;
   }
 
   const time = `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
-  const result = await run('schtasks', [
-    '/Create', '/TN', TASK_NAME,
-    '/TR', `"${process.execPath}" "${SCRIPT}"`,
-    '/SC', 'DAILY', '/ST', time, '/F',
-  ]);
+
+  // schtasks /Create тут не годится: он не умеет StartWhenAvailable, а без него
+  // пропущенный запуск (ноутбук был выключен или спал) просто теряется.
+  //
+  // Задача остаётся в контексте залогиненного пользователя намеренно: из сеанса
+  // SYSTEM Credential Manager не отдаёт токен GitHub, и git push повисает на запросе.
+  //
+  // -At принимает объект даты, а не строку: разбор «10:00» зависит от локали системы.
+  const result = await runPowerShell(
+    `$ErrorActionPreference = 'Stop'\n` +
+    `$action = New-ScheduledTaskAction -Execute ${psQuote(process.execPath)} ` +
+      `-Argument ${psQuote(`"${SCRIPT}"`)} -WorkingDirectory ${psQuote(ROOT)}\n` +
+    `$trigger = New-ScheduledTaskTrigger -Daily ` +
+      `-At ([datetime]::Today.AddHours(${hour}).AddMinutes(${minute}))\n` +
+    `$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries ` +
+      `-DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew ` +
+      `-ExecutionTimeLimit (New-TimeSpan -Hours 1)\n` +
+    `Register-ScheduledTask -TaskName ${psQuote(TASK_NAME)} -Action $action ` +
+      `-Trigger $trigger -Settings $settings -Force | Out-Null\n`,
+  );
   if (result.code !== 0) throw new Error(result.stderr || result.stdout);
 
-  return `Task Scheduler: «${TASK_NAME}» каждый день в ${time}`;
+  return `Task Scheduler: «${TASK_NAME}» каждый день в ${time}, с догоняющим запуском`;
 }
 
 const args = parseArgs(process.argv.slice(2));
