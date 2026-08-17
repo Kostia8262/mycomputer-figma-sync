@@ -1,0 +1,82 @@
+# Снимает продакшен после выкатки и готовит список правок для макета.
+#
+# Почему не «всё в один шаг»: сверка с Figma требует запущенного десктопного
+# приложения (на плане Professional переменные читаются только плагином), а это
+# невозможно в CI. Поэтому здесь делается всё, что машина может сделать сама —
+# слепок прода, разбор коммитов по вкладкам, issue со списком, — а сверка с
+# макетом и запись страницы правок остаются локальным шагом.
+
+name: after-deploy
+
+on:
+  # Прод-репозиторий шлёт сюда событие после успешного деплоя.
+  repository_dispatch:
+    types: [prod-deployed]
+  # Ручной запуск — чтобы можно было прогнать в любой момент.
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'С какого коммита разбирать историю (например HEAD~10)'
+        required: false
+        default: 'HEAD~20'
+
+concurrency:
+  group: after-deploy
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Забрать агента
+        uses: actions/checkout@v4
+
+      - name: Забрать продакшен
+        uses: actions/checkout@v4
+        with:
+          repository: Kostia8262/my_computer_new
+          token: ${{ secrets.PROD_REPO_TOKEN }}
+          path: prod
+          fetch-depth: 100
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Токены и разбор истории по вкладкам
+        env:
+          MC_REPO_PATH: ${{ github.workspace }}/prod
+        run: |
+          node src/cli.js snapshot
+          node tools/tab-changes.mjs "${{ github.event.inputs.since || '2026-08-01' }}"
+
+      - name: Слепок продакшена
+        env:
+          MC_ADMIN_TOKEN: ${{ secrets.MC_ADMIN_TOKEN }}
+          MC_REPO_PATH: ${{ github.workspace }}/prod
+        run: node src/cli.js tabs --target dashboard
+
+      # Состояние живёт в репозитории агента: так обе машины видят одну картину
+      # и любая может догнать пропущенные выкатки.
+      - name: Сохранить состояние
+        run: |
+          git config user.name  "figma-sync bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/
+          git diff --staged --quiet || git commit -m "chore(state): снимок прода после выкатки"
+          git push
+
+      - name: Issue со списком затронутых вкладок
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node src/cli.js issue --target dashboard > /tmp/issue.md || echo "нечего сообщать" > /tmp/issue.md
+          gh issue create \
+            --title "Правки макета после выкатки $(date +%Y-%m-%d)" \
+            --body-file /tmp/issue.md \
+            --label figma-sync || true
