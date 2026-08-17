@@ -31,6 +31,11 @@ jobs:
     steps:
       - name: Забрать агента
         uses: actions/checkout@v4
+        with:
+          # Вся история: в конце прогон сводит своё состояние с уехавшей веткой
+          # через rebase, а на срезанном клоне ему не от чего оттолкнуться.
+          # Репозиторий меньше мегабайта, полная выборка ничего не стоит.
+          fetch-depth: 0
 
       - name: Забрать продакшен
         uses: actions/checkout@v4
@@ -68,8 +73,33 @@ jobs:
           git config user.name  "figma-sync bot"
           git config user.email "bot@users.noreply.github.com"
           git add state/
-          git diff --staged --quiet || git commit -m "chore(state): снимок прода после выкатки"
-          git push
+          if git diff --staged --quiet; then
+            echo "Состояние не изменилось — отправлять нечего"
+            exit 0
+          fi
+          git commit -m "chore(state): снимок прода после выкатки"
+
+          # Между забором репозитория и этой строкой проходят минуты слепка, и
+          # за это время ветка почти наверняка уезжает: её двигают и локальный
+          # daily-sync, и соседний прогон здесь. Голый push тогда падает с
+          # «! [rejected] main -> main (fetch first)» — так и случилось на
+          # первом же боевом прогоне 2026-08-17, и весь получасовой слепок
+          # пропал зря.
+          #
+          # -X theirs: при rebase «theirs» — это наши коммиты, HEAD в этот
+          # момент чужой. Состояние — снимок, а не история правок, поэтому при
+          # расхождении верен самый свежий, то есть наш; чужие файлы, которых
+          # мы не трогали, при этом остаются на месте.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Ветка ушла вперёд, свожу и повторяю (попытка $attempt)"
+            git fetch origin "$GITHUB_REF_NAME" || exit 1
+            git rebase -X theirs FETCH_HEAD || { git rebase --abort || true; exit 1; }
+          done
+          echo "::error title=Состояние не сохранено::Три попытки отправить снимок закончились отказом — ветка уезжает быстрее, чем прогон успевает свестись."
+          exit 1
 
       - name: Issue со списком затронутых вкладок
         env:
