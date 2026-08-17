@@ -1,5 +1,5 @@
 {
- "since": "HEAD~10",
+ "since": "2026-08-01",
  "total": 11,
  "summary": [
   {
@@ -8,7 +8,7 @@
    "lines": 12522,
    "subjects": [
     "2026-08-14 fix(admin): let the course programme be edited in both languages",
-    "2026-08-14 fix(design): give the course block on .school its second locale"
+    "2026-08-14 fix(main): give the course cards their Russian side back"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 12477,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(design): give the course block on .school its second locale"
+    "2026-08-14 fix(main): give the course cards their Russian side back"
    ]
   },
   {
@@ -25,7 +25,7 @@
    "commits": 1,
    "lines": 12458,
    "subjects": [
-    "2026-08-14 fix(design): give the course block on .school its second locale"
+    "2026-08-14 fix(main): give the course cards their Russian side back"
    ]
   },
   {
