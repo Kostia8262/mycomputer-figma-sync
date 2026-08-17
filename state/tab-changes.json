@@ -1,250 +1,58 @@
 {
- "since": "2026-08-01",
- "total": 121,
+ "since": "HEAD~10",
+ "total": 11,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 30,
-   "lines": 4283,
+   "commits": 2,
+   "lines": 12522,
    "subjects": [
     "2026-08-14 fix(admin): let the course programme be edited in both languages",
-    "2026-08-14 fix(main): give the course cards their Russian side back",
-    "2026-08-13 refactor(admin): stop the header repeating itself and even out its controls",
-    "2026-08-13 feat(admin): the clear button reaches the remaining four search fields",
-    "2026-08-13 fix(admin): sit every header control on the same 28px grid",
-    "2026-08-13 feat(admin): let a family keep its numbers apart",
-    "2026-08-12 fix(course page): serve the database, and serve it in both languages",
-    "2026-08-12 feat(articles): Russian fields in the panel, and a translatable category",
-    "2026-08-12 feat: bilingual reviews, editable from the admin panel",
-    "2026-08-12 feat(admin): give each role the access its job actually needs",
-    "2026-08-12 feat(main): export a certificate as JPEG and as PDF",
-    "2026-08-11 refactor(main): one way to print a certificate, and say the name goes in the dative",
-    "2026-08-11 feat(main): print certificates from the registry",
-    "2026-08-11 feat(main): registry of graduation certificates",
-    "2026-08-11 fix(main): make the gift flow tell the truth and stop dead-ending",
-    "2026-08-11 feat(main): issue gift certificates by name only, and fix the certificates table",
-    "2026-08-09 feat(main): self-service gift campaigns, trimmed booking form, higher public limit",
-    "2026-08-09 feat(main): gift certificates — redemption flow, booking and CRM tracking",
-    "2026-08-05 fix(admin): move the site selector into the topbar on narrow screens",
-    "2026-08-04 fix(admin): stop the modal grid from overflowing its box",
-    "2026-08-04 fix(admin): put the lesson access table back across the full card width",
-    "2026-08-04 fix(admin): size the lesson access table from its content, not 100%",
-    "2026-08-04 refactor(admin): split the compact step into 28 and 24",
-    "2026-08-04 fix(admin): keep the global search dropdown inside the window",
-    "2026-08-04 refactor(admin): put every control on a two-step height scale",
-    "2026-08-04 fix(admin): scope the topbar height pin to .btn-sm",
-    "2026-08-04 fix(admin): give every topbar control the same height",
-    "2026-08-04 feat(admin): replace native confirm/prompt with styled dialogs, confirm logout",
-    "2026-08-03 fix(admin): raise specificity of the narrow-viewport topbar overrides",
-    "2026-08-03 fix(admin): unify font to Inter, align radii with the design system, stop topbar overflow"
-   ]
-  },
-  {
-   "tab": "Сертифікати",
-   "commits": 6,
-   "lines": 2444,
-   "subjects": [
-    "2026-08-13 feat(admin): page through payroll and keep the staff who have left",
-    "2026-08-13 feat(admin): the clear button reaches the remaining four search fields",
-    "2026-08-11 fix(main): make the gift flow tell the truth and stop dead-ending",
-    "2026-08-11 feat(main): issue gift certificates by name only, and fix the certificates table",
-    "2026-08-09 feat(main): self-service gift campaigns, trimmed booking form, higher public limit",
-    "2026-08-09 feat(main): gift certificates — redemption flow, booking and CRM tracking"
+    "2026-08-14 fix(design): give the course block on .school its second locale"
    ]
   },
   {
    "tab": "База клієнтів",
-   "commits": 17,
-   "lines": 2047,
+   "commits": 2,
+   "lines": 12477,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-13 feat(admin): show the refusal date in the client table, last column",
-    "2026-08-13 feat(admin): name the student when adding one to a month by hand",
-    "2026-08-13 feat(admin): let a month that predates the panel be entered by hand",
-    "2026-08-13 fix(admin): a pause is a departure, so stop paying and counting for it",
-    "2026-08-13 feat(admin): give every search field a clear button",
-    "2026-08-13 feat(admin): filter the client base by teacher",
-    "2026-08-13 feat(admin): split the dashboard into tabs and add the money ones",
-    "2026-08-13 feat(admin): read the attendance sheet by day and by week, not only by month",
-    "2026-08-13 feat(admin): warn when two client cards look like the same student",
-    "2026-08-13 feat(admin): put the real messenger marks in the picker",
-    "2026-08-13 feat(admin): let a family keep its numbers apart",
-    "2026-08-13 feat(admin): say which messenger answers that number",
-    "2026-08-11 feat(main): mail the certificate verification link to the family",
-    "2026-08-05 fix(admin): stop the client sub-tab bar spilling out of its card on phones",
-    "2026-08-04 fix(payments): build a new month from current students, not last month's list",
-    "2026-08-04 fix(admin): square off the modal close button at 36x36"
-   ]
-  },
-  {
-   "tab": "Свідоцтва",
-   "commits": 6,
-   "lines": 1743,
-   "subjects": [
-    "2026-08-12 refactor(main): one place to print or export a certificate",
-    "2026-08-12 feat(main): tick the certificates to print instead of printing the filter",
-    "2026-08-11 fix(main): three certificate-registry defects found in the flow audit",
-    "2026-08-11 feat(main): print certificates from the registry",
-    "2026-08-11 feat(main): registry of graduation certificates",
-    "2026-08-11 fix(main): make the gift flow tell the truth and stop dead-ending"
-   ]
-  },
-  {
-   "tab": "Дашборд",
-   "commits": 7,
-   "lines": 1059,
-   "subjects": [
-    "2026-08-14 feat(admin): let the unpaid tile show the money as a second number",
-    "2026-08-13 feat(admin): split unit economics into a month board and an all-time one",
-    "2026-08-13 feat(admin): let the revenue card be read over any stretch of months",
-    "2026-08-13 feat(admin): show what share of leads gets through, and who has no course",
-    "2026-08-13 feat(admin): fold the overdue list behind its own headline",
-    "2026-08-12 fix(admin): rank the dashboard instead of levelling it",
-    "2026-08-05 fix(dashboard): stack the three charts below 700px"
-   ]
-  },
-  {
-   "tab": "Відвідування",
-   "commits": 7,
-   "lines": 1035,
-   "subjects": [
-    "2026-08-13 fix(admin): one header for the attendance and schedule sheets, search on both",
-    "2026-08-13 fix(admin): move the attendance search next to the teacher filter",
-    "2026-08-13 revert(admin): drop the day/week views, fit the month on one screen, add name search",
-    "2026-08-13 feat(admin): read the attendance sheet by day and by week, not only by month",
-    "2026-08-13 feat(admin): put the real messenger marks in the picker",
-    "2026-08-04 refactor(admin): put every control on a two-step height scale",
-    "2026-08-04 fix(admin): raise text contrast to WCAG AA across the palette"
-   ]
-  },
-  {
-   "tab": "Розклад",
-   "commits": 7,
-   "lines": 603,
-   "subjects": [
-    "2026-08-13 feat(admin): give every search field a clear button",
-    "2026-08-12 fix(admin): make the schedule say when it disagrees with itself",
-    "2026-08-12 fix(admin): keep the structured schedule across lead conversion and CSV import",
-    "2026-08-12 feat(admin): schedules hold any number of days, not just two",
-    "2026-08-12 fix(admin): stop long text escaping the client table and the overdue card",
-    "2026-08-12 fix(admin): equal-width weekdays in the schedule, or the empty days collapse",
-    "2026-08-04 refactor(admin): put every control on a two-step height scale"
-   ]
-  },
-  {
-   "tab": "Статті",
-   "commits": 3,
-   "lines": 496,
-   "subjects": [
-    "2026-08-13 feat(admin): chart the months against each other — in, out, and what is left",
-    "2026-08-12 fix(admin): rebuild the dashboard revenue chart on a real scale",
-    "2026-08-05 refactor(admin): bind the dashboard's last raw hex values to design tokens"
-   ]
-  },
-  {
-   "tab": "Заявки",
-   "commits": 3,
-   "lines": 353,
-   "subjects": [
-    "2026-08-13 feat(admin): the clear button reaches the remaining four search fields",
-    "2026-08-13 feat(admin): let a family keep its numbers apart",
-    "2026-08-04 fix(admin): square off the modal close button at 36x36"
-   ]
-  },
-  {
-   "tab": "Уроки учнів",
-   "commits": 4,
-   "lines": 271,
-   "subjects": [
-    "2026-08-05 fix(admin): stop deleted demo students from coming back, reveal hidden access links",
-    "2026-08-04 feat(admin): bulk select and manage lesson access tokens",
-    "2026-08-04 fix(admin): draw the lesson-access plus as SVG so it takes the button colour",
-    "2026-08-04 fix(admin): size the lesson access table from its content, not 100%"
-   ]
-  },
-  {
-   "tab": "Оплати",
-   "commits": 5,
-   "lines": 219,
-   "subjects": [
-    "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-13 feat(admin): name the student when adding one to a month by hand",
-    "2026-08-13 refactor(admin): one period pager instead of three dialects of it",
-    "2026-08-13 feat(admin): give every search field a clear button",
-    "2026-08-05 feat(payments): make client-side rows visible and addable to the month"
+    "2026-08-14 fix(design): give the course block on .school its second locale"
    ]
   },
   {
    "tab": "Співробітники",
    "commits": 1,
-   "lines": 101,
+   "lines": 12458,
    "subjects": [
-    "2026-08-13 feat(admin): page through payroll and keep the staff who have left"
+    "2026-08-14 fix(design): give the course block on .school its second locale"
    ]
   },
   {
-   "tab": "Курси",
-   "commits": 1,
-   "lines": 21,
+   "tab": "Дашборд",
+   "commits": 3,
+   "lines": 94,
    "subjects": [
-    "2026-08-04 fix(admin): square off the modal close button at 36x36"
+    "2026-08-17 fix(unit): stop the break-even from re-costing fixed wages per student",
+    "2026-08-17 feat(unit): show what the per-student payroll is made of",
+    "2026-08-14 feat(admin): let the unpaid tile show the money as a second number"
    ]
   },
   {
-   "tab": "Контент сайту",
-   "commits": 1,
-   "lines": 5,
+   "tab": "Оплати",
+   "commits": 2,
+   "lines": 62,
    "subjects": [
-    "2026-08-05 fix(admin): put the content-tab inputs on the height scale too"
+    "2026-08-17 feat(unit): show what the per-student payroll is made of",
+    "2026-08-14 feat(admin): filter the payment sheet by lesson format"
    ]
   }
  ],
  "unmatched": [
+  "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
   "2026-08-14 feat(admin): count the trials in the client base header",
   "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol",
   "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing",
-  "2026-08-14 fix(sites): carry the language into blocks drawn after the switch",
-  "2026-08-13 feat(admin): date the churn, and keep the current month's sheet complete",
-  "2026-08-13 style(admin): put the role chip's gap on the spacing scale",
-  "2026-08-13 fix(admin): give the unit tab the same month arrows as the finance one",
-  "2026-08-13 fix(admin): let the overview read the months that were closed by hand",
-  "2026-08-13 fix(admin): stop the finance header naming the month twice",
-  "2026-08-13 fix(admin): page finance months with the same control the other tabs use",
-  "2026-08-13 fix(admin): let an archived month appear in the picker and the chart",
-  "2026-08-13 fix(admin): draw the profit bars in pixels, and drop a legend that repeated itself",
-  "2026-08-13 feat(admin): separate what keeps the school running from what brings students in",
-  "2026-08-13 fix(admin): select all inside the filter, not across the whole list",
-  "2026-08-13 feat(admin): stop expecting money from students who are on hold",
-  "2026-08-13 fix(admin): line up the left side of the attendance and schedule headers",
-  "2026-08-13 fix(admin): name the year the tax defaults come from",
-  "2026-08-13 fix(admin): pay teachers for the hour, not for the head count",
-  "2026-08-13 fix(admin): count the students each KPI tile claims to count",
-  "2026-08-13 style(admin): give the phone column less room than the money",
-  "2026-08-13 fix(admin): read a text schedule as days, not as one line",
-  "2026-08-12 fix(admin): reserve the scrollbar gutter, or the grid shifts between sub-tabs",
-  "2026-08-12 fix(admin): preview a course on the site it belongs to",
-  "2026-08-12 fix(main): drop the signature onto the DIRECTOR rule",
-  "2026-08-12 fix(main): tilt the certificate stamp and sit the course on its caption line",
-  "2026-08-12 fix(main): redraw the certificate blank with the current stamp",
-  "2026-08-11 fix(main): keep CRM course lists tied to the main site, and restore the switcher",
-  "2026-08-11 feat(main): connect the seven .school landings to the shared admin",
-  "2026-08-11 feat(main): print certificates onto the real academy blank",
-  "2026-08-11 feat(main): create a whole term of gift series in one go",
-  "2026-08-09 feat(main): gift lessons run on Google Meet, link stored per series",
-  "2026-08-05 Merge remote-tracking branch 'origin/master'",
-  "2026-08-05 feat(crm): name the landing each lead came from instead of showing its domain",
-  "2026-08-05 Merge branch 'master' into develop",
-  "2026-08-05 fix(admin): put the segmented switches on the height scale",
-  "2026-08-05 fix(admin): close teacher access to every student lesson link",
-  "2026-08-05 fix(admin): keep the topbar from overflowing once the selector moves in",
-  "2026-08-05 fix(dashboard): stop Date.setMonth from corrupting the month window",
-  "2026-08-05 fix(admin): repair three glitches on the staff tab",
-  "2026-08-05 fix(seo): show the site the SEO text is actually being edited for",
-  "2026-08-04 fix(admin): dashboard copy and chart legend",
-  "2026-08-04 fix(admin): shrink the stepper chevrons and vectorise the reorder arrows",
-  "2026-08-04 fix(admin): square off the month/week steppers and draw their chevrons",
-  "2026-08-04 fix(admin): let the client fee and next-call inputs use their set widths",
-  "2026-08-04 refactor(admin): drop the compact control step from 28 to 24",
-  "2026-08-04 fix(admin): make disabled buttons look disabled, add hover to the global search"
+  "2026-08-14 fix(sites): carry the language into blocks drawn after the switch"
  ]
 }
