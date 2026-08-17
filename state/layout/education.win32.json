@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9105,
+      "documentHeight": 9081,
       "sections": [
         {
           "key": "#header",
@@ -1331,7 +1331,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 885.5
+            "h": 861.5
           },
           "styles": {
             "display": "block",
@@ -1353,7 +1353,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1440px",
-              "height": "885.453px",
+              "height": "861.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -1373,7 +1373,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 725.5
+                "h": 701.5
               },
               "styles": {
                 "display": "block",
@@ -1426,7 +1426,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 321.4
+                    "h": 297.4
                   },
                   "styles": {
                     "display": "flex",
@@ -1452,7 +1452,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 590.7
+                    "y": 566.7
                   },
                   "size": {
                     "w": 1112,
@@ -1481,7 +1481,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 654.7
+                    "y": 630.7
                   },
                   "size": {
                     "w": 1112,
@@ -1518,7 +1518,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7125
+            "y": 7101
           },
           "size": {
             "w": 1440,
@@ -1598,14 +1598,14 @@
               ]
             }
           ],
-          "absoluteTop": 7125
+          "absoluteTop": 7101
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7753.6
+            "y": 7729.6
           },
           "size": {
             "w": 1440,
@@ -1686,14 +1686,14 @@
               ]
             }
           ],
-          "absoluteTop": 7753.6
+          "absoluteTop": 7729.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8348.5
+            "y": 8324.5
           },
           "size": {
             "w": 1440,
@@ -1864,14 +1864,14 @@
               ]
             }
           ],
-          "absoluteTop": 8348.5
+          "absoluteTop": 8324.5
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 9881,
+      "documentHeight": 9857,
       "sections": [
         {
           "key": "#header",
@@ -3195,7 +3195,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 885.5
+            "h": 861.5
           },
           "styles": {
             "display": "block",
@@ -3217,7 +3217,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1024px",
-              "height": "885.453px",
+              "height": "861.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -3237,7 +3237,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 725.5
+                "h": 701.5
               },
               "styles": {
                 "display": "block",
@@ -3290,7 +3290,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 321.4
+                    "h": 297.4
                   },
                   "styles": {
                     "display": "flex",
@@ -3316,7 +3316,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 590.7
+                    "y": 566.7
                   },
                   "size": {
                     "w": 976,
@@ -3345,7 +3345,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 654.7
+                    "y": 630.7
                   },
                   "size": {
                     "w": 976,
@@ -3382,7 +3382,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7622
+            "y": 7598
           },
           "size": {
             "w": 1024,
@@ -3462,14 +3462,14 @@
               ]
             }
           ],
-          "absoluteTop": 7622
+          "absoluteTop": 7598
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8502.7
+            "y": 8478.7
           },
           "size": {
             "w": 1024,
@@ -3550,14 +3550,14 @@
               ]
             }
           ],
-          "absoluteTop": 8502.7
+          "absoluteTop": 8478.7
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9097.6
+            "y": 9073.6
           },
           "size": {
             "w": 1024,
@@ -3728,7 +3728,7 @@
               ]
             }
           ],
-          "absoluteTop": 9097.6
+          "absoluteTop": 9073.6
         }
       ]
     },
