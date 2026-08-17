@@ -1,58 +1,6 @@
 {
- "since": "2026-08-01",
- "total": 11,
- "summary": [
-  {
-   "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 2,
-   "lines": 12522,
-   "subjects": [
-    "2026-08-14 fix(admin): let the course programme be edited in both languages",
-    "2026-08-14 fix(main): give the course cards their Russian side back"
-   ]
-  },
-  {
-   "tab": "База клієнтів",
-   "commits": 2,
-   "lines": 12477,
-   "subjects": [
-    "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(main): give the course cards their Russian side back"
-   ]
-  },
-  {
-   "tab": "Співробітники",
-   "commits": 1,
-   "lines": 12458,
-   "subjects": [
-    "2026-08-14 fix(main): give the course cards their Russian side back"
-   ]
-  },
-  {
-   "tab": "Дашборд",
-   "commits": 3,
-   "lines": 94,
-   "subjects": [
-    "2026-08-17 fix(unit): stop the break-even from re-costing fixed wages per student",
-    "2026-08-17 feat(unit): show what the per-student payroll is made of",
-    "2026-08-14 feat(admin): let the unpaid tile show the money as a second number"
-   ]
-  },
-  {
-   "tab": "Оплати",
-   "commits": 2,
-   "lines": 62,
-   "subjects": [
-    "2026-08-17 feat(unit): show what the per-student payroll is made of",
-    "2026-08-14 feat(admin): filter the payment sheet by lesson format"
-   ]
-  }
- ],
- "unmatched": [
-  "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
-  "2026-08-14 feat(admin): count the trials in the client base header",
-  "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol",
-  "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing",
-  "2026-08-14 fix(sites): carry the language into blocks drawn after the switch"
- ]
+ "since": "HEAD~20",
+ "total": 0,
+ "summary": [],
+ "unmatched": []
 }
