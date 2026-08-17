@@ -291,7 +291,11 @@ async function collectPlan(config, targetId) {
       prodByViewport[view.viewport] = view;
       const inFigma = figma.viewports[view.viewport];
       if (!inFigma) {
-        gaps.push(`геометрия макета на брейкпоинте ${view.viewport} не снята`);
+        // Секционная сверка — грубая; если вкладки уже сверены поблочно,
+        // её отсутствие на брейкпоинте не пробел, а осознанный отказ.
+        if (!existsSync(path.join(ROOT, 'state', `tabs-diff-${targetId}.json`))) {
+          gaps.push(`геометрия макета на брейкпоинте ${view.viewport} не снята`);
+        }
         continue;
       }
       layoutFindings.push({
@@ -305,7 +309,12 @@ async function collectPlan(config, targetId) {
     }
   } else {
     if (!prodFile) gaps.push('слепок прода не снят');
-    if (!existsSync(figmaFile)) gaps.push('геометрия макета не снята');
+    // Про секции молчим, если вкладки уже сверены поблочно: у админки это
+    // строго более подробная проверка, и дублировать её пробелом значит
+    // приучать пропускать список.
+    if (!existsSync(figmaFile) && !existsSync(path.join(ROOT, 'state', `tabs-diff-${targetId}.json`))) {
+      gaps.push('геометрия макета не снята');
+    }
     if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
   }
 
@@ -822,8 +831,9 @@ async function vstabs(config, args) {
       // «dash-sections» держит четыре продовых блока) — состав там не сойдётся
       // никогда, и жаловаться на него значит приучать пропускать отчёт.
       const grouped = (target.layout?.groupedBlocks?.frames ?? []).some((n) => screen.figmaName.startsWith(n));
+      const groupedBlocks = target.layout?.groupedBlocks?.blocks ?? [];
       const findings = [...compareScreenToFrame(screen, frame), ...compareTables(screen, frame.tables)]
-        .filter((f) => !(grouped && (f.kind === 'состав' || /dash-sections/.test(f.block ?? ''))));
+        .filter((f) => !(grouped && (f.kind === 'состав' || groupedBlocks.some((b) => (f.block ?? '').includes(b)))));
       if (!findings.length) continue;
       issues += findings.length;
       collected.push({ viewport: viewport.viewport, frame: screen.figmaName, findings });
