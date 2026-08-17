@@ -34,6 +34,7 @@ import { collectAdminTabs } from './snapshot/admin-tabs.js';
 import { loadEnv } from './env.js';
 import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
+import { emitFramesLayoutScript, compareScreenToFrame, compareTables } from './compare/figma-frames.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const LAYOUT_DIR = path.join(ROOT, 'state', 'layout');
@@ -543,7 +544,14 @@ async function tabs(config, args) {
     auth,
     selector: target.sectionSelector,
     viewports,
-    extractArgs: { maxDepth: MAX_DEPTH, maxChildren: MAX_CHILDREN, tracked: TRACKED_STYLES },
+    // Глубина у админки своя: содержимое вкладки начинается на четвёртом
+    // уровне (app-body → main → вкладка → блок), и при MAX_DEPTH=3 слепок
+    // обрывался ровно перед тем, что и надо сверять.
+    extractArgs: {
+      maxDepth: target.layout?.maxDepth ?? MAX_DEPTH,
+      maxChildren: MAX_CHILDREN,
+      tracked: TRACKED_STYLES,
+    },
     scenarios: target.scenarios?.list ?? [],
     onProgress: (viewport, tab, note) => console.log(`  ${viewport.padEnd(8)} ${tab.padEnd(30)} ${note}`),
   });
@@ -734,7 +742,88 @@ async function frames(config, args) {
   }
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit, frames };
+/**
+ * Печатает скрипт, снимающий рабочую область кадров макета.
+ *
+ *   node src/cli.js emitframes --target dashboard
+ *
+ * Результат выполнения в Figma кладётся в state/figma-layout/<target>-frames.json —
+ * оттуда его берёт `vstabs`.
+ */
+async function emitframes(config, args) {
+  const targetId = args.target ?? 'dashboard';
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}»`);
+
+  const pages = target.tabs?.figmaPages ?? ['5:8', '5:9'];
+  const wanted = [
+    ...(target.tabs?.list ?? []).map((t) => t.figmaName),
+    ...(target.scenarios?.list ?? []).map((s) => s.figmaName),
+  ].filter(Boolean);
+
+  console.log(emitFramesLayoutScript({ pages, frames: [...new Set(wanted)] }));
+}
+
+/**
+ * Сверяет слепок вкладок с рабочей областью кадров: состав блоков, их высоты и
+ * позиции, а также колонки таблиц.
+ *
+ *   node src/cli.js vstabs --target dashboard
+ */
+async function vstabs(config, args) {
+  const targetId = args.target ?? 'dashboard';
+  const target = config.targets.find((t) => t.id === targetId);
+  const prodFile = layoutFile(`${targetId}-tabs`);
+  const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}-frames.json`);
+
+  if (!existsSync(prodFile)) throw new Error(`Нет слепка прода: сначала node src/cli.js tabs --target ${targetId}`);
+  if (!existsSync(figmaFile)) throw new Error(`Нет геометрии макета: выполните node src/cli.js emitframes --target ${targetId} и сохраните результат в ${figmaFile}`);
+
+  const prod = JSON.parse(await readFile(prodFile, 'utf8'));
+  const design = JSON.parse(await readFile(figmaFile, 'utf8'));
+
+  // Снимок из Figma приходит в компактном виде (b = [имя, y, высота, id]):
+  // полный формат раздувал ответ плагина за предел одного вызова.
+  const normalize = (f) => (f.blocks ? f : {
+    frame: f.f,
+    frameId: f.id,
+    blocks: (f.b ?? []).map(([name, y, h, id]) => ({ name, y, h, id })),
+    gaps: f.g ?? [],
+  });
+  const byName = new Map((design.frames ?? []).map(normalize).map((f) => [f.frame ?? f.f, f]));
+
+  let compared = 0;
+  let issues = 0;
+  for (const viewport of prod.viewports) {
+    console.log(`\n${viewport.viewport} ${viewport.width}px`);
+    for (const screen of viewport.screens) {
+      if (screen.status !== 'ok') continue;
+      const frame = byName.get(screen.figmaName);
+      if (!frame) {
+        console.log(`  ${screen.figmaName.padEnd(46)} кадра в макете нет`);
+        continue;
+      }
+      compared++;
+      // Часть экранов в макете намеренно собрана контейнерами (у дашборда
+      // «dash-sections» держит четыре продовых блока) — состав там не сойдётся
+      // никогда, и жаловаться на него значит приучать пропускать отчёт.
+      const grouped = (target.layout?.groupedBlocks?.frames ?? []).some((n) => screen.figmaName.startsWith(n));
+      const findings = [...compareScreenToFrame(screen, frame), ...compareTables(screen, frame.tables)]
+        .filter((f) => !(grouped && (f.kind === 'состав' || /dash-sections/.test(f.block ?? ''))));
+      if (!findings.length) continue;
+      issues += findings.length;
+      console.log(`  ${screen.figmaName}`);
+      for (const f of findings.slice(0, 6)) {
+        if (f.kind === 'состав') console.log(`     состав: ${f.note}`);
+        else if (f.kind === 'колонка') console.log(`     колонка «${f.column}»: прод ${f.inProd}, макет ${f.inDesign}`);
+        else console.log(`     ${f.kind} «${f.block ?? f.table}»: прод ${f.inProd}, макет ${f.inDesign} (${f.delta > 0 ? '+' : ''}${f.delta ?? ''})`);
+      }
+    }
+  }
+  console.log(`\nСверено экранов: ${compared}, расхождений: ${issues}`);
+}
+
+const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit, frames, emitframes, vstabs };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];

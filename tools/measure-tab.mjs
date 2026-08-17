@@ -61,6 +61,19 @@ const PROBE = (tabId) => `
     rows: t.querySelectorAll('tbody tr').length,
     rowH: t.querySelector('tbody tr') ? n(t.querySelector('tbody tr').getBoundingClientRect().height) : null,
     headH: t.querySelector('thead tr') ? n(t.querySelector('thead tr').getBoundingClientRect().height) : null,
+    // Содержимое первой строки: по нему видно, из чего собрана ячейка и
+    // переносится ли текст — высота строки одна этого не показывает
+    cells: Array.from((t.querySelector('tbody tr') || { children: [] }).children).map((td, i) => ({
+      col: i,
+      w: n(td.getBoundingClientRect().width),
+      pad: getComputedStyle(td).padding,
+      kids: Array.from(td.children).map(e => {
+        const r = e.getBoundingClientRect(), s = getComputedStyle(e);
+        return { tag: e.tagName, cls: (e.className || '').toString().slice(0, 24),
+          w: n(r.width), h: n(r.height), fs: s.fontSize, white: s.whiteSpace,
+          txt: (e.value !== undefined ? e.value : e.textContent || '').trim().slice(0, 24) };
+      }),
+    })),
   }));
 
   return {
@@ -91,7 +104,27 @@ for (const bp of VIEWPORTS) {
   await page.waitForTimeout(1500);
   await page.evaluate((t) => { showTab(t); }, tab);
   await page.waitForTimeout(EXTRA_WAIT);
+
+  // Подвкладка: строка вызова, например --sub "showGiftSubTab('certs')"
+  const subArg = process.argv.indexOf('--sub');
+  if (subArg > -1) {
+    await page.evaluate((code) => { eval(code); }, process.argv[subArg + 1]);
+    await page.waitForTimeout(EXTRA_WAIT);
+  }
   out[bp.key] = await page.evaluate(PROBE(tab));
+
+  // Пустое состояние снимаем подменой строк в своём же браузере: на проде данные
+  // есть, а кадр «Порожній стан» в макете сверять с чем-то надо.
+  const emptyArg = process.argv.indexOf('--empty');
+  if (emptyArg > -1) {
+    const [bodyId, colspan, pad, text] = process.argv.slice(emptyArg + 1, emptyArg + 5);
+    await page.evaluate(([id, cs, p, t]) => {
+      const body = document.getElementById(id);
+      if (body) body.innerHTML = `<tr><td colspan="${cs}"><div class="empty" style="padding:${p}">${t}</div></td></tr>`;
+    }, [bodyId, colspan, pad, text]);
+    await page.waitForTimeout(400);
+    out[bp.key].empty = await page.evaluate(PROBE(tab));
+  }
   await ctx.close();
   console.error('снято:', bp.key);
 }

@@ -1,0 +1,791 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 46,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Дашборд школи\n         "
+   },
+   {
+    "w": 1174,
+    "h": 46,
+    "x": 24,
+    "y": 90,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Огляд\n        💰 Фінанс"
+   },
+   {
+    "w": 1174,
+    "h": 2615,
+    "x": 24,
+    "y": 156,
+    "id": "dashPaneOverview",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "🚨\n              \n        "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 1174,
+   "h": 46,
+   "x": 24,
+   "y": 90,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 385.3,
+    "h": 36,
+    "x": 29,
+    "y": 95,
+    "txt": "📊 Огляд",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 385.3,
+    "h": 36,
+    "x": 418.3,
+    "y": 95,
+    "txt": "💰 Фінанси",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 385.3,
+    "h": 36,
+    "x": 807.7,
+    "y": 95,
+    "txt": "🧮 Unit-економіка",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 1132,
+     "h": 1378.2,
+     "x": 45,
+     "y": 1371.8
+    },
+    "wrap": null,
+    "headers": [
+     {
+      "w": 234,
+      "txt": "Учень"
+     },
+     {
+      "w": 277.2,
+      "txt": "Курс"
+     },
+     {
+      "w": 98,
+      "txt": "Борг"
+     },
+     {
+      "w": 371,
+      "txt": "Телефон"
+     },
+     {
+      "w": 151.8,
+      "txt": ""
+     }
+    ],
+    "rows": 29,
+    "rowH": 45,
+    "headH": 28.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 234,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 1,
+      "w": 277.2,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "chip",
+        "w": 123.1,
+        "h": 18,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "Графіка та анімація"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 98,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 371,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "phone-lines ",
+        "w": 347,
+        "h": 15.6,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "+380507473815"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 151.8,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 90.9,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 573,
+    "h": 183.7,
+    "x": 24,
+    "y": 419.9,
+    "txt": "💰Зібрано Сер 2026\n          5",
+    "display": "grid",
+    "fs": "16px"
+   },
+   {
+    "w": 571,
+    "h": 306,
+    "x": 24,
+    "y": 985.8,
+    "txt": "📈 Виручка за 6 місяців\n      ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 285.5,
+    "h": 306,
+    "x": 611,
+    "y": 985.8,
+    "txt": "🎓 Учні по курсах\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 285.5,
+    "h": 306,
+    "x": 912.5,
+    "y": 985.8,
+    "txt": "📋 Воронка заявок\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 1174,
+    "h": 1455.2,
+    "x": 24,
+    "y": 1315.8,
+    "txt": "⚠️ Несплачені учні — Сер 2026\n",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 46,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Дашборд школи\n         "
+   },
+   {
+    "w": 814,
+    "h": 46,
+    "x": 14,
+    "y": 80,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Огляд\n        💰 Фінанс"
+   },
+   {
+    "w": 814,
+    "h": 2921.4,
+    "x": 14,
+    "y": 146,
+    "id": "dashPaneOverview",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "🚨\n              \n        "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 814,
+   "h": 46,
+   "x": 14,
+   "y": 80,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 265.3,
+    "h": 36,
+    "x": 19,
+    "y": 85,
+    "txt": "📊 Огляд",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 265.3,
+    "h": 36,
+    "x": 288.3,
+    "y": 85,
+    "txt": "💰 Фінанси",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 265.3,
+    "h": 36,
+    "x": 557.7,
+    "y": 85,
+    "txt": "🧮 Unit-економіка",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 772,
+     "h": 1593.8,
+     "x": 35,
+     "y": 1452.7
+    },
+    "wrap": null,
+    "headers": [
+     {
+      "w": 157.1,
+      "txt": "Учень"
+     },
+     {
+      "w": 184.6,
+      "txt": "Курс"
+     },
+     {
+      "w": 70.3,
+      "txt": "Борг"
+     },
+     {
+      "w": 245.1,
+      "txt": "Телефон"
+     },
+     {
+      "w": 114.9,
+      "txt": ""
+     }
+    ],
+    "rows": 29,
+    "rowH": 53,
+    "headH": 28.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 157.1,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 1,
+      "w": 184.6,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "chip",
+        "w": 123.1,
+        "h": 18,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "Графіка та анімація"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 70.3,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 245.1,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "phone-lines ",
+        "w": 221.1,
+        "h": 15.6,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "+380507473815"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 114.9,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 90.9,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 393,
+    "h": 243.5,
+    "x": 14,
+    "y": 409.9,
+    "txt": "💰Зібрано Сер 2026\n          5",
+    "display": "grid",
+    "fs": "16px"
+   },
+   {
+    "w": 391,
+    "h": 337,
+    "x": 14,
+    "y": 1035.7,
+    "txt": "📈 Виручка за 6 місяців\n      ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 195.5,
+    "h": 337,
+    "x": 421,
+    "y": 1035.7,
+    "txt": "🎓 Учні по курсах\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 195.5,
+    "h": 337,
+    "x": 632.5,
+    "y": 1035.7,
+    "txt": "📋 Воронка заявок\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 814,
+    "h": 1670.8,
+    "x": 14,
+    "y": 1396.7,
+    "txt": "⚠️ Несплачені учні — Сер 2026\n",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 46,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Дашборд школи\n         "
+   },
+   {
+    "w": 304,
+    "h": 46,
+    "x": 14,
+    "y": 80,
+    "id": null,
+    "cls": "client-subtabs",
+    "display": "flex",
+    "mb": "20px",
+    "txt": "📊 Огляд\n        💰 Фінанс"
+   },
+   {
+    "w": 304,
+    "h": 4599.6,
+    "x": 14,
+    "y": 146,
+    "id": "dashPaneOverview",
+    "cls": "",
+    "display": "block",
+    "mb": "0px",
+    "txt": "🚨\n              \n        "
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": null,
+  "toolbarKids": [],
+  "subtabs": {
+   "w": 304,
+   "h": 46,
+   "x": 14,
+   "y": 80,
+   "pad": "5px",
+   "gap": "4px",
+   "radius": "14px",
+   "fs": "16px"
+  },
+  "subtabKids": [
+   {
+    "w": 82.4,
+    "h": 36,
+    "x": 19,
+    "y": 85,
+    "txt": "📊 Огляд",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 96.4,
+    "h": 36,
+    "x": 105.4,
+    "y": 85,
+    "txt": "💰 Фінанси",
+    "display": "flex",
+    "fs": "13px"
+   },
+   {
+    "w": 141.8,
+    "h": 36,
+    "x": 205.8,
+    "y": 85,
+    "txt": "🧮 Unit-економіка",
+    "display": "flex",
+    "fs": "13px"
+   }
+  ],
+  "bulk": null,
+  "bulkKids": [],
+  "tables": [
+   {
+    "id": null,
+    "box": {
+     "w": 574.4,
+     "h": 1621.8,
+     "x": 35,
+     "y": 3102.8
+    },
+    "wrap": null,
+    "headers": [
+     {
+      "w": 110.6,
+      "txt": "Учень"
+     },
+     {
+      "w": 125.9,
+      "txt": "Курс"
+     },
+     {
+      "w": 61.1,
+      "txt": "Борг"
+     },
+     {
+      "w": 161.9,
+      "txt": "Телефон"
+     },
+     {
+      "w": 114.9,
+      "txt": ""
+     }
+    ],
+    "rows": 29,
+    "rowH": 53,
+    "headH": 28.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 110.6,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 1,
+      "w": 125.9,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "chip",
+        "w": 101.9,
+        "h": 32,
+        "fs": "11px",
+        "white": "normal",
+        "txt": "Графіка та анімація"
+       }
+      ]
+     },
+     {
+      "col": 2,
+      "w": 61.1,
+      "pad": "10px 12px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 161.9,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "phone-lines ",
+        "w": 137.9,
+        "h": 15.6,
+        "fs": "12px",
+        "white": "normal",
+        "txt": "+380507473815"
+       }
+      ]
+     },
+     {
+      "col": 4,
+      "w": 114.9,
+      "pad": "10px 12px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 90.9,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": [
+   {
+    "w": 304,
+    "h": 261.4,
+    "x": 14,
+    "y": 473.8,
+    "txt": "💰Зібрано Сер 2026\n          5",
+    "display": "grid",
+    "fs": "16px"
+   },
+   {
+    "w": 350,
+    "h": 337,
+    "x": 14,
+    "y": 2052.3,
+    "txt": "📈 Виручка за 6 місяців\n      ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 350,
+    "h": 285.6,
+    "x": 14,
+    "y": 2405.3,
+    "txt": "🎓 Учні по курсах\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 350,
+    "h": 300,
+    "x": 14,
+    "y": 2706.8,
+    "txt": "📋 Воронка заявок\n          \n ",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 1714.8,
+    "x": 14,
+    "y": 3030.8,
+    "txt": "⚠️ Несплачені учні — Сер 2026\n",
+    "display": "block",
+    "fs": "16px"
+   }
+  ]
+ }
+}

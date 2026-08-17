@@ -1,101 +1,92 @@
 {
-  "$comment": "Результаты сверки. Три проекта гармонизируются с продом ОТДЕЛЬНО: у каждого свой источник токенов, своя палитра и своё именование в макете. Переносить результат одного на другой нельзя — у Скулла, например, тени терракотовые rgb(226,96,74), а у Эдьюкейшн фиолетовые rgb(108,71,255).",
-  "checkedAt": "2026-08-16",
-  "targets": [
+ "$comment": "Результаты сверки. Три проекта гармонизируются с продом ОТДЕЛЬНО: у каждого свой источник токенов, своя палитра и своё именование в макете. Переносить результат одного на другой нельзя — у Скулла, например, тени терракотовые rgb(226,96,74), а у Эдьюкейшн фиолетовые rgb(108,71,255).",
+ "checkedAt": "2026-08-16",
+ "targets": [
+  {
+   "target": "education",
+   "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
+   "checked": 27,
+   "mismatched": [],
+   "missing": [
     {
-      "target": "education",
-      "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
-      "checked": 27,
-      "mismatched": [],
-      "missing": [
-        {
-          "css": "--color-primary-soft",
-          "value": "#a78bfa",
-          "expectedAt": "Semantic/color/primary-soft",
-          "fix": "Примитив violet/300 = #a78bfa в файле уже есть — достаточно завести семантическую переменную-алиас на него."
-        }
-      ],
-      "typography": {
-        "checked": 27,
-        "perMode": 81,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "27 переменных fs/* × 3 режима. clamp() из CSS раскрыт на ширину режима: clamp(28px,3.8vw,46px) при 1024 = 38.912, в макете 38.9119987 — сходится."
-      },
-      "shadows": {
-        "checked": 4,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "Эффект-стили Shadow/sm|md|lg|xl. Сравнивается первый слой тени: в CSS вторая тень — добивка, которой в стиле нет."
-      }
-    },
-    {
-      "target": "school",
-      "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
-      "checked": 27,
-      "mismatched": [],
-      "missing": [],
-      "typography": {
-        "checked": 27,
-        "perMode": 81,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "Прогнано на sites/design/css/style.css — собственных значениях Скулла."
-      },
-      "shadows": {
-        "checked": 4,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "Тени терракотовые rgb(226,96,74) — своя палитра, не совпадает с Эдьюкейшн."
-      }
-    },
-    {
-      "target": "dashboard",
-      "figmaFileKey": "wc5OsxDTfq4DzngB8wS9iw",
-      "checked": 63,
-      "mismatched": [],
-      "missing": [
-        {
-          "css": "--c-danger-border-strong",
-          "value": "#fca5a5",
-          "expectedAt": "Semantic/status/danger/border-strong"
-        },
-        {
-          "css": "--c-success-border-strong",
-          "value": "#86efac",
-          "expectedAt": "Semantic/status/success/border-strong"
-        },
-        {
-          "css": "--c-warning-text-strong",
-          "value": "#92400e",
-          "expectedAt": "Semantic/status/warning/text-strong",
-          "note": "В макете есть похожая по смыслу status/warning/strong → amber/550. Возможно, это она и есть под другим именем — требует решения человека, автоматически не сопоставляется."
-        }
-      ],
-      "typography": {
-        "checked": 13,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "Своя шкала font-size/xs..4xl и font-weight/*, один режим Value."
-      },
-      "spacing": {
-        "checked": 6,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "--sp-1..6 → space/2xs|sm|lg|2xl|3xl|4xl. Имена не совпадают, карта явная."
-      },
-      "shadows": {
-        "checked": 4,
-        "missing": [],
-        "mismatched": [],
-        "$comment": "--shadow-sm|md|lg|brand → Shadow/SM|Dropdown|Modal|Segmented Shell."
-      }
+     "css": "--color-primary-soft",
+     "value": "#a78bfa",
+     "expectedAt": "Semantic/color/primary-soft",
+     "fix": "Примитив violet/300 = #a78bfa в файле уже есть — достаточно завести семантическую переменную-алиас на него."
     }
-  ],
-  "notCoveredYet": {
-    "$comment": "Осталось непокрытым.",
-    "siteSpacing": "на сайтах отступы намеренно не токенизированы в коде — сверять не с чем",
-    "dashboardGeometry": "нужен MC_ADMIN_TOKEN в .env: админка за входом",
-    "dashboardControlHeights": "--h-control-* в макете отдельной шкалы не нашлось"
+   ],
+   "typography": {
+    "checked": 27,
+    "perMode": 81,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "27 переменных fs/* × 3 режима. clamp() из CSS раскрыт на ширину режима: clamp(28px,3.8vw,46px) при 1024 = 38.912, в макете 38.9119987 — сходится."
+   },
+   "shadows": {
+    "checked": 4,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "Эффект-стили Shadow/sm|md|lg|xl. Сравнивается первый слой тени: в CSS вторая тень — добивка, которой в стиле нет."
+   }
+  },
+  {
+   "target": "school",
+   "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
+   "checked": 27,
+   "mismatched": [],
+   "missing": [],
+   "typography": {
+    "checked": 27,
+    "perMode": 81,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "Прогнано на sites/design/css/style.css — собственных значениях Скулла."
+   },
+   "shadows": {
+    "checked": 4,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "Тени терракотовые rgb(226,96,74) — своя палитра, не совпадает с Эдьюкейшн."
+   }
+  },
+  {
+   "target": "dashboard",
+   "figmaFileKey": "wc5OsxDTfq4DzngB8wS9iw",
+   "checked": 63,
+   "mismatched": [],
+   "missing": [
+    {
+     "css": "--c-warning-text-strong",
+     "value": "#92400e",
+     "expectedAt": "Semantic/status/warning/text-strong",
+     "note": "В макете есть похожая по смыслу status/warning/strong → amber/550. Возможно, это она и есть под другим именем — требует решения человека, автоматически не сопоставляется."
+    }
+   ],
+   "typography": {
+    "checked": 13,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "Своя шкала font-size/xs..4xl и font-weight/*, один режим Value."
+   },
+   "spacing": {
+    "checked": 6,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "--sp-1..6 → space/2xs|sm|lg|2xl|3xl|4xl. Имена не совпадают, карта явная."
+   },
+   "shadows": {
+    "checked": 4,
+    "missing": [],
+    "mismatched": [],
+    "$comment": "--shadow-sm|md|lg|brand → Shadow/SM|Dropdown|Modal|Segmented Shell."
+   },
+   "checkedAt": "2026-08-17"
   }
+ ],
+ "notCoveredYet": {
+  "$comment": "Осталось непокрытым.",
+  "siteSpacing": "на сайтах отступы намеренно не токенизированы в коде — сверять не с чем",
+  "dashboardGeometry": "нужен MC_ADMIN_TOKEN в .env: админка за входом",
+  "dashboardControlHeights": "--h-control-* в макете отдельной шкалы не нашлось"
+ }
 }

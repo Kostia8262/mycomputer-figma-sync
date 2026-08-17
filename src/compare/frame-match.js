@@ -104,16 +104,32 @@ export function matchCommitToFrames({ files, selectors = [], texts = [], groups,
     }
   }
 
-  // 3. Тексты из diff против имён кадров. Имена содержательны
-  // («Заявка — Error», «Оплата — WayForPay»), поэтому совпадение слова
-  // это реальный сигнал, а не совпадение по случайности.
+  // 3. Тексты из diff против имён кадров — самый шумный сигнал, поэтому
+  // учитываются только редкие слова.
+  //
+  // Без этого ограничения коммит «счётчик пробних у шапці бази клієнтів»
+  // попадал в «Модалка «Нова заявка»» и «Картка заняття»: слова «заявка» и
+  // «картка» есть в десятке кадров и не адресуют ни один из них. Слово,
+  // встречающееся во многих именах, — это словарь предметной области, а не
+  // указание на экран.
   const textWords = new Set();
   for (const line of texts) for (const w of keywords(line)) textWords.add(w);
 
+  const frequency = new Map();
+  for (const group of groups) {
+    for (const w of keywords(group.base)) frequency.set(w, (frequency.get(w) ?? 0) + 1);
+  }
+  const RARE_ENOUGH = 3;
+
+  // Точный сигнал уже был — добирать кадры по словам значит разбавлять ответ.
+  const hasPreciseHit = scored.size > 0;
+
   for (const group of groups) {
     const words = keywords(group.base);
-    const common = [...words].filter((w) => textWords.has(w));
-    if (common.length) add(group, 2 * common.length, `текст: ${common.slice(0, 3).join(', ')}`);
+    const common = [...words].filter((w) => textWords.has(w) && (frequency.get(w) ?? 0) <= RARE_ENOUGH);
+    if (!common.length) continue;
+    if (hasPreciseHit && !scored.has(`${group.page}|${group.base}`)) continue;
+    add(group, 2 * common.length, `текст: ${common.slice(0, 3).join(', ')}`);
   }
 
   const matched = [...scored.values()].sort((a, b) => b.score - a.score);

@@ -132,6 +132,49 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
     return node;
   };
 
+  /**
+   * Таблицы снимаются отдельно от дерева.
+   *
+   * Ширины колонок задаёт `thead th`, а он лежит на пять-шесть уровней ниже
+   * секции: гнать туда общий обход значило бы раздуть слепок ради одной ветки.
+   * При этом именно колонки чаще всего и расходятся с макетом, поэтому здесь
+   * они собираются явно — вместе с высотой шапки, строки и содержимым первой
+   * строки (по нему видно, из чего собрана ячейка и переносится ли текст).
+   */
+  const tablesIn = (root, rootRect) => [...root.querySelectorAll('table')]
+    .filter((t) => t.getBoundingClientRect().height > 0)
+    .slice(0, 4)
+    .map((table) => {
+      const rect = table.getBoundingClientRect();
+      const wrap = table.closest('.table-wrap');
+      const head = table.querySelector('thead tr');
+      const firstRow = table.querySelector('tbody tr');
+      return {
+        id: table.id || null,
+        rel: { x: round(rect.left - rootRect.left), y: round(rect.top - rootRect.top) },
+        size: { w: round(rect.width), h: round(rect.height) },
+        wrap: wrap ? { w: round(wrap.getBoundingClientRect().width), h: round(wrap.getBoundingClientRect().height) } : null,
+        headHeight: head ? round(head.getBoundingClientRect().height) : null,
+        rowHeight: firstRow ? round(firstRow.getBoundingClientRect().height) : null,
+        rows: table.querySelectorAll('tbody tr').length,
+        columns: [...table.querySelectorAll('thead th')].map((th) => ({
+          label: th.textContent.trim().slice(0, 20),
+          w: round(th.getBoundingClientRect().width),
+        })),
+        cells: [...(firstRow ? firstRow.children : [])].map((td, i) => ({
+          col: i,
+          w: round(td.getBoundingClientRect().width),
+          padding: getComputedStyle(td).padding,
+          controls: [...td.children].slice(0, 4).map((el) => ({
+            tag: el.tagName.toLowerCase(),
+            cls: (el.className || '').toString().slice(0, 24),
+            w: round(el.getBoundingClientRect().width),
+            h: round(el.getBoundingClientRect().height),
+          })),
+        })),
+      };
+    });
+
   // Селектор приходит из конфига: у сайтов секции размечены `section[id]`,
   // у админки это `.topbar`, `#sidebarEl` и активная вкладка `[id$="Tab"]`.
   const sections = [...document.querySelectorAll(selector)].filter((el) => {
@@ -147,6 +190,8 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
       const node = describe(section, pageRect, 1);
       // Абсолютная позиция от верха документа — для контекста в отчёте.
       node.absoluteTop = round(rect.top + window.scrollY);
+      const tables = tablesIn(section, rect);
+      if (tables.length) node.tables = tables;
       return node;
     }),
   };
@@ -158,7 +203,7 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
  */
 const DEFAULT_SELECTOR = 'section[id], header, footer';
 
-export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector = DEFAULT_SELECTOR } = {}) {
+export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector = DEFAULT_SELECTOR, maxDepth = MAX_DEPTH } = {}) {
   const browser = await chromium.launch();
   const captured = [];
 
@@ -196,7 +241,10 @@ export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector
       await page.waitForTimeout(600);
 
       const data = await page.evaluate(extractInPage, {
-        maxDepth: MAX_DEPTH,
+        // У сайтов хватает трёх уровней — там секции плоские. У админки
+        // содержимое вкладки начинается только на четвёртом (app-body → main →
+        // вкладка → блок), поэтому глубина задаётся конфигом таргета.
+        maxDepth,
         maxChildren: MAX_CHILDREN,
         tracked: TRACKED_STYLES,
         selector,

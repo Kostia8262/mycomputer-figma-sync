@@ -1,0 +1,1313 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 90,
+    "x": 24,
+    "y": 24,
+    "id": "certStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "24px",
+    "txt": "2Усього свідоцтв\n    2Дійс"
+   },
+   {
+    "w": 1174,
+    "h": 74,
+    "x": 24,
+    "y": 138,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Всі роки20262025\n        \n"
+   },
+   {
+    "w": 1174,
+    "h": 50,
+    "x": 24,
+    "y": 228,
+    "id": "certBulkBar",
+    "cls": "bulk-bar show",
+    "display": "flex",
+    "mb": "10px",
+    "txt": "Виберіть свідоцтва зліва\n "
+   },
+   {
+    "w": 1174,
+    "h": 159,
+    "x": 24,
+    "y": 288,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№ свідоцтваПІБКурсДата вид"
+   }
+  ],
+  "stats": {
+   "w": 1174,
+   "h": 90,
+   "x": 24,
+   "y": 24,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 283,
+    "h": 90,
+    "x": 24,
+    "y": 24,
+    "txt": "2Усього свідоцтв",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 283,
+    "h": 90,
+    "x": 321,
+    "y": 24,
+    "txt": "2Дійсні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 283,
+    "h": 90,
+    "x": 618,
+    "y": 24,
+    "txt": "0Анульовані",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 283,
+    "h": 90,
+    "x": 915,
+    "y": 24,
+    "txt": "1Цього року",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 1174,
+   "h": 74,
+   "x": 24,
+   "y": 138,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 335,
+    "h": 36,
+    "x": 24,
+    "y": 138,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 102,
+    "h": 36,
+    "x": 369,
+    "y": 138,
+    "txt": "Всі роки20262025",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145,
+    "h": 36,
+    "x": 481,
+    "y": 138,
+    "txt": "Всі місяці\n          01 — січе",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 126,
+    "h": 36,
+    "x": 636,
+    "y": 138,
+    "txt": "Всі серії\n          Y — діти\n ",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 277,
+    "h": 36,
+    "x": 772,
+    "y": 138,
+    "txt": "Всі курсиPython: справжнє прог",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 139,
+    "h": 36,
+    "x": 1059,
+    "y": 138,
+    "txt": "Всі статуси\n          ✅ Дійсні",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145.7,
+    "h": 28,
+    "x": 24,
+    "y": 184,
+    "txt": "Видати свідоцтво",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 62.4,
+    "h": 28,
+    "x": 179.7,
+    "y": 184,
+    "txt": "⬇ CSV",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "w": 1174,
+   "h": 50,
+   "x": 24,
+   "y": 228,
+   "pad": "10px 14px",
+   "gap": "8px",
+   "radius": "8px",
+   "fs": "16px"
+  },
+  "bulkKids": [
+   {
+    "w": 162.7,
+    "h": 16,
+    "x": 39,
+    "y": 245,
+    "txt": "Виберіть свідоцтва зліва",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 130.7,
+    "h": 28,
+    "x": 209.7,
+    "y": 239,
+    "txt": "🖨 Друк / експорт",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "none",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "certificatesTable",
+    "box": {
+     "w": 1172,
+     "h": 157,
+     "x": 25,
+     "y": 289
+    },
+    "wrap": {
+     "w": 1174,
+     "h": 159,
+     "x": 24,
+     "y": 288
+    },
+    "headers": [
+     {
+      "w": 34,
+      "txt": ""
+     },
+     {
+      "w": 122.2,
+      "txt": "№ свідоцтва"
+     },
+     {
+      "w": 237,
+      "txt": "ПІБ"
+     },
+     {
+      "w": 150.1,
+      "txt": "Курс"
+     },
+     {
+      "w": 117.8,
+      "txt": "Дата видачі"
+     },
+     {
+      "w": 95.2,
+      "txt": "Код"
+     },
+     {
+      "w": 102.6,
+      "txt": "Викладач"
+     },
+     {
+      "w": 92.1,
+      "txt": "Статус"
+     },
+     {
+      "w": 221,
+      "txt": ""
+     }
+    ],
+    "rows": 2,
+    "rowH": 59,
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 34,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 122.2,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 237,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 150.1,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 4,
+      "w": 117.8,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 95.2,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 6,
+      "w": 102.6,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 92.1,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 64.1,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Дійсне"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 221,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 29.2,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 90,
+    "x": 14,
+    "y": 14,
+    "id": "certStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "24px",
+    "txt": "2Усього свідоцтв\n    2Дійс"
+   },
+   {
+    "w": 814,
+    "h": 82,
+    "x": 14,
+    "y": 128,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Всі роки20262025\n        \n"
+   },
+   {
+    "w": 814,
+    "h": 50,
+    "x": 14,
+    "y": 226,
+    "id": "certBulkBar",
+    "cls": "bulk-bar show",
+    "display": "flex",
+    "mb": "10px",
+    "txt": "Виберіть свідоцтва зліва\n "
+   },
+   {
+    "w": 814,
+    "h": 159,
+    "x": 14,
+    "y": 286,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№ свідоцтваПІБКурсДата вид"
+   }
+  ],
+  "stats": {
+   "w": 814,
+   "h": 90,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 193,
+    "h": 90,
+    "x": 14,
+    "y": 14,
+    "txt": "2Усього свідоцтв",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 221,
+    "y": 14,
+    "txt": "2Дійсні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 428,
+    "y": 14,
+    "txt": "0Анульовані",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 193,
+    "h": 90,
+    "x": 635,
+    "y": 14,
+    "txt": "1Цього року",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 814,
+   "h": 82,
+   "x": 14,
+   "y": 128,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 411,
+    "h": 36,
+    "x": 14,
+    "y": 128,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 102,
+    "h": 36,
+    "x": 435,
+    "y": 128,
+    "txt": "Всі роки20262025",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145,
+    "h": 36,
+    "x": 547,
+    "y": 128,
+    "txt": "Всі місяці\n          01 — січе",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 126,
+    "h": 36,
+    "x": 702,
+    "y": 128,
+    "txt": "Всі серії\n          Y — діти\n ",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 277,
+    "h": 36,
+    "x": 14,
+    "y": 174,
+    "txt": "Всі курсиPython: справжнє прог",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 139,
+    "h": 36,
+    "x": 301,
+    "y": 174,
+    "txt": "Всі статуси\n          ✅ Дійсні",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145.7,
+    "h": 28,
+    "x": 450,
+    "y": 178,
+    "txt": "Видати свідоцтво",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 62.4,
+    "h": 28,
+    "x": 605.7,
+    "y": 178,
+    "txt": "⬇ CSV",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "w": 814,
+   "h": 50,
+   "x": 14,
+   "y": 226,
+   "pad": "10px 14px",
+   "gap": "8px",
+   "radius": "8px",
+   "fs": "16px"
+  },
+  "bulkKids": [
+   {
+    "w": 162.7,
+    "h": 16,
+    "x": 29,
+    "y": 243,
+    "txt": "Виберіть свідоцтва зліва",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 130.7,
+    "h": 28,
+    "x": 199.7,
+    "y": 237,
+    "txt": "🖨 Друк / експорт",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "none",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "certificatesTable",
+    "box": {
+     "w": 1120,
+     "h": 157,
+     "x": 15,
+     "y": 287
+    },
+    "wrap": {
+     "w": 814,
+     "h": 159,
+     "x": 14,
+     "y": 286
+    },
+    "headers": [
+     {
+      "w": 34,
+      "txt": ""
+     },
+     {
+      "w": 122.2,
+      "txt": "№ свідоцтва"
+     },
+     {
+      "w": 206.7,
+      "txt": "ПІБ"
+     },
+     {
+      "w": 128.4,
+      "txt": "Курс"
+     },
+     {
+      "w": 117.8,
+      "txt": "Дата видачі"
+     },
+     {
+      "w": 95.2,
+      "txt": "Код"
+     },
+     {
+      "w": 102.6,
+      "txt": "Викладач"
+     },
+     {
+      "w": 92.1,
+      "txt": "Статус"
+     },
+     {
+      "w": 221,
+      "txt": ""
+     }
+    ],
+    "rows": 2,
+    "rowH": 59,
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 34,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 122.2,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 206.7,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 128.4,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 4,
+      "w": 117.8,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 95.2,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 6,
+      "w": 102.6,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 92.1,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 64.1,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Дійсне"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 221,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 29.2,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 402,
+    "x": 14,
+    "y": 14,
+    "id": "certStatsRow",
+    "cls": "stats",
+    "display": "grid",
+    "mb": "24px",
+    "txt": "2Усього свідоцтв\n    2Дійс"
+   },
+   {
+    "w": 304,
+    "h": 258,
+    "x": 14,
+    "y": 440,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Всі роки20262025\n        \n"
+   },
+   {
+    "w": 304,
+    "h": 74,
+    "x": 14,
+    "y": 714,
+    "id": "certBulkBar",
+    "cls": "bulk-bar show",
+    "display": "flex",
+    "mb": "10px",
+    "txt": "Виберіть свідоцтва зліва\n "
+   },
+   {
+    "w": 304,
+    "h": 141,
+    "x": 14,
+    "y": 798,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№ свідоцтваПІБКурсДата вид"
+   }
+  ],
+  "stats": {
+   "w": 304,
+   "h": 402,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "14px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "statTiles": [
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 14,
+    "txt": "2Усього свідоцтв",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 118,
+    "txt": "2Дійсні",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 222,
+    "txt": "0Анульовані",
+    "display": "block",
+    "fs": "16px"
+   },
+   {
+    "w": 304,
+    "h": 90,
+    "x": 14,
+    "y": 326,
+    "txt": "1Цього року",
+    "display": "block",
+    "fs": "16px"
+   }
+  ],
+  "toolbar": {
+   "w": 304,
+   "h": 258,
+   "x": 14,
+   "y": 440,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 304,
+    "h": 36,
+    "x": 14,
+    "y": 440,
+    "txt": "",
+    "display": "flex",
+    "fs": "16px"
+   },
+   {
+    "w": 102,
+    "h": 36,
+    "x": 14,
+    "y": 486,
+    "txt": "Всі роки20262025",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145,
+    "h": 36,
+    "x": 126,
+    "y": 486,
+    "txt": "Всі місяці\n          01 — січе",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 126,
+    "h": 36,
+    "x": 14,
+    "y": 532,
+    "txt": "Всі серії\n          Y — діти\n ",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 277,
+    "h": 36,
+    "x": 14,
+    "y": 578,
+    "txt": "Всі курсиPython: справжнє прог",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 139,
+    "h": 36,
+    "x": 14,
+    "y": 624,
+    "txt": "Всі статуси\n          ✅ Дійсні",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 145.7,
+    "h": 28,
+    "x": 163,
+    "y": 628,
+    "txt": "Видати свідоцтво",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 62.4,
+    "h": 28,
+    "x": 14,
+    "y": 670,
+    "txt": "⬇ CSV",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "w": 304,
+   "h": 74,
+   "x": 14,
+   "y": 714,
+   "pad": "10px 14px",
+   "gap": "8px",
+   "radius": "8px",
+   "fs": "16px"
+  },
+  "bulkKids": [
+   {
+    "w": 162.7,
+    "h": 16,
+    "x": 29,
+    "y": 725,
+    "txt": "Виберіть свідоцтва зліва",
+    "display": "block",
+    "fs": "13px"
+   },
+   {
+    "w": 130.7,
+    "h": 28,
+    "x": 29,
+    "y": 749,
+    "txt": "🖨 Друк / експорт",
+    "display": "flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "none",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "certificatesTable",
+    "box": {
+     "w": 1120,
+     "h": 139,
+     "x": 15,
+     "y": 799
+    },
+    "wrap": {
+     "w": 304,
+     "h": 141,
+     "x": 14,
+     "y": 798
+    },
+    "headers": [
+     {
+      "w": 34,
+      "txt": ""
+     },
+     {
+      "w": 114.2,
+      "txt": "№ свідоцтва"
+     },
+     {
+      "w": 236,
+      "txt": "ПІБ"
+     },
+     {
+      "w": 147.1,
+      "txt": "Курс"
+     },
+     {
+      "w": 109.8,
+      "txt": "Дата видачі"
+     },
+     {
+      "w": 87.2,
+      "txt": "Код"
+     },
+     {
+      "w": 94.6,
+      "txt": "Викладач"
+     },
+     {
+      "w": 84.1,
+      "txt": "Статус"
+     },
+     {
+      "w": 213,
+      "txt": ""
+     }
+    ],
+    "rows": 2,
+    "rowH": 53,
+    "headH": 33.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 34,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 114.2,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 236,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 147.1,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 4,
+      "w": 109.8,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 5,
+      "w": 87.2,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 6,
+      "w": 94.6,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 7,
+      "w": 84.1,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "SPAN",
+        "cls": "badge badge-enrolled",
+        "w": 64.1,
+        "h": 21,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": "Дійсне"
+       }
+      ]
+     },
+     {
+      "col": 8,
+      "w": 213,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 29.2,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-ghost btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       },
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-danger btn-sm",
+        "w": 37,
+        "h": 24,
+        "fs": "12px",
+        "white": "nowrap",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ }
+}

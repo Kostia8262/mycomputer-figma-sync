@@ -572,7 +572,7 @@
         }
       },
       "layout": {
-        "$comment": "В макете 113 экранов на странице Screens — Desktop 1440, по кадру на вкладку. Слепок снимается с той вкладки, которая открыта в админке по умолчанию (Заявки), поэтому и кадр указан соответствующий. Остальные вкладки требуют переключения — пока не автоматизировано.",
+        "$comment": "Глубина 6: app-body(1) → main(2) → вкладка(3) → блок(4) → карточка(5) → её содержимое(6). Меньше — и слепок обрывается перед содержимым вкладки.",
         "pages": {
           "desktop": {
             "page": "🖥 Screens — Desktop 1440",
@@ -583,7 +583,14 @@
           ".topbar": "Topbar",
           ".app-body": "app-body"
         },
-        "ignoreInFigma": []
+        "ignoreInFigma": [],
+        "maxDepth": 6,
+        "groupedBlocks": {
+          "$comment": "В макете часть блоков собрана в контейнеры (dash-sections держит финансы, учнів, графики и таблицу). Состав из-за этого не совпадает с продом намеренно — такие кадры не считаются расхождением.",
+          "frames": [
+            "Дашборд"
+          ]
+        }
       },
       "typography": {
         "$comment": "У дашборда всё названо иначе и механически не выводится — карта явная. Один режим Value, clamp() не используется.",
@@ -707,7 +714,7 @@
         ]
       },
       "scenarios": {
-        "$comment": "Состояния поверх вкладки: модалки, поиск, подтверждения. Экран описывается данными, чтобы новый добавлялся строкой в конфиг, а не кодом. Селекторы намеренно с запасом через запятую: разметка вкладок различается.",
+        "$comment": "Подвкладки открываются showClientsSubTab / showDashSubTab / showGiftSubTab, в сайдбаре их нет — поэтому они описаны сценариями, а не пунктами меню.",
         "list": [
           {
             "id": "leads-modal-new",
@@ -793,6 +800,110 @@
                 "waitFor": ".modal-overlay"
               }
             ]
+          },
+          {
+            "id": "clients-payments",
+            "figmaName": "Оплати",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-payments"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "clients-attendance",
+            "figmaName": "Відвідування",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-attendance"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "clients-schedule",
+            "figmaName": "Розклад",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-schedule"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "dash-finance",
+            "figmaName": "Дашборд · Фінанси",
+            "tab": "Дашборд",
+            "steps": [
+              {
+                "clickSelector": "#dsub-finance"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "dash-unit",
+            "figmaName": "Дашборд · Unit-економіка",
+            "tab": "Дашборд",
+            "steps": [
+              {
+                "clickSelector": "#dsub-unit"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "gift-certs",
+            "figmaName": "Сертифікати · Сертифікати",
+            "tab": "Сертифікати",
+            "steps": [
+              {
+                "clickSelector": "#gsub-certs"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "gift-slots",
+            "figmaName": "Сертифікати · Потоки",
+            "tab": "Сертифікати",
+            "steps": [
+              {
+                "clickSelector": "#gsub-slots"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "gift-groups",
+            "figmaName": "Сертифікати · Вікові групи",
+            "tab": "Сертифікати",
+            "steps": [
+              {
+                "clickSelector": "#gsub-groups"
+              },
+              {
+                "wait": 1200
+              }
+            ]
           }
         ]
       },
@@ -810,10 +921,50 @@
         "#dashboardTab": "Дашборд",
         "#contentTab": "Контент",
         "#lessonsTab": "Уроки учнів",
-        "#certificatesTab": "Сертифікати",
+        "#certificatesTab": "Свідоцтва",
         "#giftTab": "Сертифікати",
-        "#giftMineTab": "Сертифікати",
-        "#staffProfileTab": "Профіль співробітника"
+        "#giftMineTab": "Мої подарункові",
+        "#staffProfileTab": "Профіль співробітника",
+        "#clientStatsRow": "База клієнтів",
+        "#clientsTableWrap": "База клієнтів",
+        "#clientsTable": "База клієнтів",
+        "#clientDupAlert": "База клієнтів",
+        "#clientBulkBar": "База клієнтів",
+        "#csubPayments": "Оплати",
+        ".pay-month-bar": "Оплати",
+        "#payAlert": "Оплати",
+        "#payTableArea": "Оплати",
+        "#csubAttendance": "Відвідування",
+        "#attCalendar": "Відвідування",
+        ".att-legend": "Відвідування",
+        "#attWrap": "Відвідування",
+        "#csubSchedule": "Розклад",
+        "#schedGrid": "Розклад",
+        ".sched-tbl": "Розклад",
+        ".sched-missing": "Розклад",
+        "#leadsTable": "Заявки",
+        "#leadsTableWrap": "Заявки",
+        "#leadBulkBar": "Заявки",
+        "#statsRow": "Заявки",
+        "#dashPaneOverview": "Дашборд",
+        "#dashAlerts": "Дашборд",
+        "#dashLatePayments": "Дашборд",
+        "#dashFinancials": "Дашборд",
+        "#dashStudents": "Дашборд",
+        ".dash-charts": "Дашборд",
+        "#gsubCerts": "Сертифікати · Сертифікати",
+        "#gsubSlots": "Сертифікати · Потоки",
+        "#gsubGroups": "Сертифікати · Вікові групи",
+        "#gsubCampaigns": "Сертифікати",
+        "#certStatsRow": "Свідоцтва",
+        "#certificatesTable": "Свідоцтва",
+        "#certBulkBar": "Свідоцтва",
+        "#adminsBody": "Співробітники",
+        "#coursesGrid": "Курси",
+        "#giftMineCards": "Мої подарункові",
+        "#lessonsTable": "Уроки учнів",
+        "#cmsPricing": "Контент",
+        "#faqEditor": "Контент"
       }
     }
   ],

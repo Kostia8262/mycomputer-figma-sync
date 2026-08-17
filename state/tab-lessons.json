@@ -1,0 +1,728 @@
+{
+ "desktop": {
+  "shell": {
+   "topbar": {
+    "w": 1440,
+    "h": 56,
+    "x": -218,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 218,
+    "h": 844,
+    "x": -218,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 1222,
+    "h": 844,
+    "x": 0,
+    "y": 0,
+    "pad": "24px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "24px"
+  },
+  "blocks": [
+   {
+    "w": 1174,
+    "h": 28,
+    "x": 24,
+    "y": 24,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Додати токен"
+   },
+   {
+    "w": 1174,
+    "h": 2197,
+    "x": 24,
+    "y": 68,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№Ім'яПосиланняАктивнийВост"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": {
+   "w": 1174,
+   "h": 28,
+   "x": 24,
+   "y": 24,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 122.6,
+    "h": 28,
+    "x": 24,
+    "y": 24,
+    "txt": "Додати токен",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Видати доступ",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Активувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "Деактивувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Видалити доступи",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -218,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "lessonsTable",
+    "box": {
+     "w": 1172,
+     "h": 2195,
+     "x": 25,
+     "y": 69
+    },
+    "wrap": {
+     "w": 1174,
+     "h": 2197,
+     "x": 24,
+     "y": 68
+    },
+    "headers": [
+     {
+      "w": 44,
+      "txt": ""
+     },
+     {
+      "w": 60,
+      "txt": "№"
+     },
+     {
+      "w": 302.7,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 302.7,
+      "txt": "Посилання"
+     },
+     {
+      "w": 100,
+      "txt": "Активний"
+     },
+     {
+      "w": 302.7,
+      "txt": "Востаннє заходив"
+     },
+     {
+      "w": 60,
+      "txt": ""
+     }
+    ],
+    "rows": 44,
+    "rowH": 49,
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 44,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 60,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 302.7,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 765.3,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-primary btn-sm",
+        "w": 128.6,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "compact": {
+  "shell": {
+   "topbar": {
+    "w": 900,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 24px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 744,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 842,
+    "h": 744,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 814,
+    "h": 28,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Додати токен"
+   },
+   {
+    "w": 814,
+    "h": 2237,
+    "x": 14,
+    "y": 58,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№Ім'яПосиланняАктивнийВост"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": {
+   "w": 814,
+   "h": 28,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 122.6,
+    "h": 28,
+    "x": 14,
+    "y": 14,
+    "txt": "Додати токен",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Видати доступ",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Активувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Деактивувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити доступи",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "lessonsTable",
+    "box": {
+     "w": 812,
+     "h": 2235,
+     "x": 15,
+     "y": 59
+    },
+    "wrap": {
+     "w": 814,
+     "h": 2237,
+     "x": 14,
+     "y": 58
+    },
+    "headers": [
+     {
+      "w": 44,
+      "txt": ""
+     },
+     {
+      "w": 60,
+      "txt": "№"
+     },
+     {
+      "w": 182.7,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 182.7,
+      "txt": "Посилання"
+     },
+     {
+      "w": 100,
+      "txt": "Активний"
+     },
+     {
+      "w": 182.7,
+      "txt": "Востаннє заходив"
+     },
+     {
+      "w": 60,
+      "txt": ""
+     }
+    ],
+    "rows": 44,
+    "rowH": 49,
+    "headH": 39.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 44,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 60,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 182.7,
+      "pad": "12px 14px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 525.3,
+      "pad": "12px 14px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-primary btn-sm",
+        "w": 128.6,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ },
+ "mobile": {
+  "shell": {
+   "topbar": {
+    "w": 390,
+    "h": 56,
+    "x": -58,
+    "y": -56,
+    "pad": "0px 14px",
+    "gap": "12px",
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "sidebar": {
+    "w": 58,
+    "h": 788,
+    "x": -58,
+    "y": 0,
+    "pad": "0px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "main": {
+    "w": 332,
+    "h": 788,
+    "x": 0,
+    "y": 0,
+    "pad": "14px",
+    "gap": null,
+    "radius": "0px",
+    "fs": "16px"
+   },
+   "mainPad": "14px"
+  },
+  "blocks": [
+   {
+    "w": 304,
+    "h": 28,
+    "x": 14,
+    "y": 14,
+    "id": null,
+    "cls": "toolbar",
+    "display": "flex",
+    "mb": "16px",
+    "txt": "Додати токен"
+   },
+   {
+    "w": 304,
+    "h": 2371,
+    "x": 14,
+    "y": 58,
+    "id": null,
+    "cls": "table-wrap",
+    "display": "block",
+    "mb": "0px",
+    "txt": "№Ім'яПосиланняАктивнийВост"
+   }
+  ],
+  "stats": null,
+  "statTiles": [],
+  "toolbar": {
+   "w": 304,
+   "h": 28,
+   "x": 14,
+   "y": 14,
+   "pad": "0px",
+   "gap": "10px",
+   "radius": "0px",
+   "fs": "16px"
+  },
+  "toolbarKids": [
+   {
+    "w": 122.6,
+    "h": 28,
+    "x": 14,
+    "y": 14,
+    "txt": "Додати токен",
+    "display": "flex",
+    "fs": "12px"
+   }
+  ],
+  "subtabs": null,
+  "subtabKids": [],
+  "bulk": {
+   "display": "none"
+  },
+  "bulkKids": [
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "0 вибрано",
+    "display": "inline",
+    "fs": "13px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Видати доступ",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Активувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "Деактивувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Видалити доступи",
+    "display": "inline-flex",
+    "fs": "12px"
+   },
+   {
+    "w": 0,
+    "h": 0,
+    "x": -58,
+    "y": -56,
+    "txt": "✕ Скасувати",
+    "display": "inline-flex",
+    "fs": "12px"
+   }
+  ],
+  "tables": [
+   {
+    "id": "lessonsTable",
+    "box": {
+     "w": 302,
+     "h": 2369,
+     "x": 15,
+     "y": 59
+    },
+    "wrap": {
+     "w": 304,
+     "h": 2371,
+     "x": 14,
+     "y": 58
+    },
+    "headers": [
+     {
+      "w": 44,
+      "txt": ""
+     },
+     {
+      "w": 60,
+      "txt": "№"
+     },
+     {
+      "w": 12.7,
+      "txt": "Ім'я"
+     },
+     {
+      "w": 12.7,
+      "txt": "Посилання"
+     },
+     {
+      "w": 100,
+      "txt": "Активний"
+     },
+     {
+      "w": 12.7,
+      "txt": "Востаннє заходив"
+     },
+     {
+      "w": 60,
+      "txt": ""
+     }
+    ],
+    "rows": 44,
+    "rowH": 53,
+    "headH": 33.5,
+    "cells": [
+     {
+      "col": 0,
+      "w": 44,
+      "pad": "8px 4px 8px 12px",
+      "kids": [
+       {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 13,
+        "h": 13,
+        "fs": "13.3333px",
+        "white": "normal",
+        "txt": "on"
+       }
+      ]
+     },
+     {
+      "col": 1,
+      "w": 60,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 2,
+      "w": 12.7,
+      "pad": "9px 10px",
+      "kids": []
+     },
+     {
+      "col": 3,
+      "w": 185.3,
+      "pad": "9px 10px",
+      "kids": [
+       {
+        "tag": "BUTTON",
+        "cls": "btn btn-primary btn-sm",
+        "w": 128.6,
+        "h": 24,
+        "fs": "12px",
+        "white": "normal",
+        "txt": ""
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pager": null,
+  "pagerKids": [],
+  "cards": []
+ }
+}
