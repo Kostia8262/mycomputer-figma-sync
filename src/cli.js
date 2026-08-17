@@ -309,7 +309,20 @@ async function collectPlan(config, targetId) {
     if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
   }
 
-  return { plan: buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target }), gaps, checkedAt, target };
+  // Поблочная сверка вкладок — основной источник правок по экранам админки:
+  // именно она видит плитки, тулбары и таблицы. Кладётся в план, если прогон
+  // уже был; если нет — это пробел, а не тишина.
+  const tabsDiffFile = path.join(ROOT, 'state', `tabs-diff-${targetId}.json`);
+  let tabsDiff = [];
+  if (existsSync(tabsDiffFile)) {
+    const saved = JSON.parse(await readFile(tabsDiffFile, 'utf8'));
+    tabsDiff = saved.screens ?? [];
+    if (saved.checkedAt) checkedAt = saved.checkedAt;
+  } else if (target.tabs) {
+    gaps.push(`поблочная сверка вкладок не выполнялась (node src/cli.js vstabs --target ${targetId})`);
+  }
+
+  return { plan: buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target, tabsDiff }), gaps, checkedAt, target };
 }
 
 /** Печатает скрипт, создающий страницу правок в макете. */
@@ -794,6 +807,7 @@ async function vstabs(config, args) {
 
   let compared = 0;
   let issues = 0;
+  const collected = [];
   for (const viewport of prod.viewports) {
     console.log(`\n${viewport.viewport} ${viewport.width}px`);
     for (const screen of viewport.screens) {
@@ -812,6 +826,7 @@ async function vstabs(config, args) {
         .filter((f) => !(grouped && (f.kind === 'состав' || /dash-sections/.test(f.block ?? ''))));
       if (!findings.length) continue;
       issues += findings.length;
+      collected.push({ viewport: viewport.viewport, frame: screen.figmaName, findings });
       console.log(`  ${screen.figmaName}`);
       for (const f of findings.slice(0, 6)) {
         if (f.kind === 'состав') console.log(`     состав: ${f.note}`);
@@ -820,7 +835,18 @@ async function vstabs(config, args) {
       }
     }
   }
+  // Результат ложится в файл: план правок собирается отдельной командой и
+  // должен видеть ту же картину, а не пересчитывать её заново.
+  const outFile = path.join(ROOT, 'state', `tabs-diff-${targetId}.json`);
+  await writeFile(outFile, JSON.stringify({
+    checkedAt: new Date().toISOString().slice(0, 10),
+    comparedScreens: compared,
+    totalFindings: issues,
+    screens: collected,
+  }, null, 1) + '\n', 'utf8');
+
   console.log(`\nСверено экранов: ${compared}, расхождений: ${issues}`);
+  console.log(`Результат: ${outFile}`);
 }
 
 const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit, frames, emitframes, vstabs };

@@ -1,0 +1,376 @@
+{
+ "checkedAt": "2026-08-17",
+ "comparedScreens": 42,
+ "totalFindings": 31,
+ "screens": [
+  {
+   "viewport": "desktop",
+   "frame": "Контент — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "51:2161",
+     "inProd": 1515,
+     "inDesign": 1563,
+     "delta": -48,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Модулі — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Modules Visibility Card",
+     "nodeId": "134:9964",
+     "inProd": 662,
+     "inDesign": 602.4,
+     "delta": 59.6,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Статті — Desktop 1440",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "Articles Table",
+     "nodeId": "132:22293",
+     "inProd": 125,
+     "inDesign": 128,
+     "delta": -3,
+     "prodKey": ".table-wrap"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "SEO тексти — Desktop 1440",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "seo-intro",
+     "nodeId": "134:10089",
+     "inProd": 61,
+     "inDesign": 72,
+     "delta": -11,
+     "prodKey": "p"
+    },
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "134:10090",
+     "inProd": 856,
+     "inDesign": 852,
+     "delta": 4,
+     "prodKey": "div[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "SEO Text Card",
+     "nodeId": "134:10090",
+     "inProd": 105,
+     "inDesign": 108,
+     "delta": -3,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Контент — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "317:38672",
+     "inProd": 1515,
+     "inDesign": 1563,
+     "delta": -48,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Модулі — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Modules Visibility Card",
+     "nodeId": "317:37652",
+     "inProd": 662,
+     "inDesign": 602.4,
+     "delta": 59.6,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Статті — Compact 900",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "Articles Table",
+     "nodeId": "317:37838",
+     "inProd": 115,
+     "inDesign": 118,
+     "delta": -3,
+     "prodKey": ".table-wrap"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "SEO тексти — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "317:38294",
+     "inProd": 29,
+     "inDesign": 24,
+     "delta": 5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "seo-intro",
+     "nodeId": "317:38296",
+     "inProd": 51,
+     "inDesign": 58,
+     "delta": -7,
+     "prodKey": "p"
+    },
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "317:38297",
+     "inProd": 856,
+     "inDesign": 433,
+     "delta": 423,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Дашборд — Mobile 390",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "dash-charts",
+     "nodeId": "295:14368",
+     "inProd": 2052.3,
+     "inDesign": 2008.2,
+     "delta": 44.1,
+     "prodKey": ".dash-charts"
+    },
+    {
+     "kind": "высота",
+     "block": "Фінанси",
+     "nodeId": "294:14302",
+     "inProd": 20,
+     "inDesign": 559,
+     "delta": -539,
+     "prodKey": "div[2]"
+    },
+    {
+     "kind": "высота",
+     "block": "Учні та заявки",
+     "nodeId": "294:14333",
+     "inProd": 535.9,
+     "inDesign": 957.4,
+     "delta": -421.5,
+     "prodKey": "#dashFinancials"
+    },
+    {
+     "kind": "позиция",
+     "block": "Учні та заявки",
+     "nodeId": "294:14333",
+     "inProd": 473.8,
+     "inDesign": 1026.8,
+     "delta": -553,
+     "prodKey": "#dashFinancials"
+    },
+    {
+     "kind": "высота",
+     "block": "Несплачені учні",
+     "nodeId": "295:14421",
+     "inProd": 20,
+     "inDesign": 76,
+     "delta": -56,
+     "prodKey": "div[3]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Несплачені учні",
+     "nodeId": "295:14421",
+     "inProd": 1033.8,
+     "inDesign": 2986.8,
+     "delta": -1953,
+     "prodKey": "div[3]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Програми — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "222:11602",
+     "inProd": 113,
+     "inDesign": 108,
+     "delta": 5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Curriculum Table",
+     "nodeId": "132:24837",
+     "inProd": 147,
+     "inDesign": 136,
+     "delta": 11,
+     "prodKey": "#curriculumContent"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Контент — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "58:1398",
+     "inProd": 1594,
+     "inDesign": 1667,
+     "delta": -73,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Модулі — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Modules Visibility Card",
+     "nodeId": "134:20617",
+     "inProd": 678,
+     "inDesign": 618.4,
+     "delta": 59.6,
+     "prodKey": "div[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Modules Visibility Card",
+     "nodeId": "134:20617",
+     "inProd": 63,
+     "inDesign": 56,
+     "delta": 7,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Статті — Mobile 390",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "toolbar",
+     "nodeId": "243:32053",
+     "inProd": 63,
+     "inDesign": 56,
+     "delta": 7,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Articles Table",
+     "nodeId": "132:22728",
+     "inProd": 115,
+     "inDesign": 106,
+     "delta": 9,
+     "prodKey": ".table-wrap"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Відгуки — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "56:862",
+     "inProd": 29,
+     "inDesign": 24,
+     "delta": 5,
+     "prodKey": "div"
+    },
+    {
+     "kind": "позиция",
+     "block": "Reviews Table",
+     "nodeId": "132:21827",
+     "inProd": 63,
+     "inDesign": 52,
+     "delta": 11,
+     "prodKey": ".table-wrap"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "SEO тексти — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "57:1132",
+     "inProd": 29,
+     "inDesign": 24,
+     "delta": 5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "высота",
+     "block": "seo-intro",
+     "nodeId": "134:20750",
+     "inProd": 80,
+     "inDesign": 32,
+     "delta": 48,
+     "prodKey": "p"
+    },
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "134:20751",
+     "inProd": 1041,
+     "inDesign": 493,
+     "delta": 548,
+     "prodKey": "div[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "SEO Text Card",
+     "nodeId": "134:20751",
+     "inProd": 159,
+     "inDesign": 98,
+     "delta": 61,
+     "prodKey": "div[1]"
+    }
+   ]
+  }
+ ]
+}

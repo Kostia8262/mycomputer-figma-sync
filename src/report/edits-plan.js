@@ -211,11 +211,47 @@ function frameSteps({ commit, matched = [], missing = [] }) {
   return steps;
 }
 
-export function buildEditsPlan({ tokenResult, layoutFindings = [], prodByViewport = {}, target, frames }) {
+/**
+ * Правки из поблочной сверки вкладок (`vstabs`).
+ *
+ * Отличается от `layoutSteps` тем, что адресует конкретный узел макета: у
+ * каждого расхождения есть id блока, поэтому правка открывается по прямой
+ * ссылке, а не ищется глазами. Расхождения одного блока на трёх брейкпоинтах
+ * сводятся в один шаг — правится он всё равно один раз, чаще всего в компоненте.
+ */
+function tabSteps(tabsDiff = []) {
+  const byBlock = new Map();
+
+  for (const screen of tabsDiff) {
+    for (const finding of screen.findings ?? []) {
+      if (finding.kind === 'состав' || finding.kind === 'нет данных') continue;
+      const name = finding.block ?? finding.table ?? finding.column ?? '—';
+      const key = `${name}|${finding.kind}`;
+      const entry = byBlock.get(key) ?? { name, kind: finding.kind, where: [], nodeId: finding.nodeId, samples: [] };
+      entry.where.push(`${screen.frame}`);
+      entry.samples.push(`${finding.inProd} → ${finding.inDesign}`);
+      entry.nodeId = entry.nodeId ?? finding.nodeId;
+      byBlock.set(key, entry);
+    }
+  }
+
+  return [...byBlock.values()].map((item) => ({
+    stage: 'frames',
+    action: 'изменить',
+    title: `${item.kind === 'колонка' ? 'Колонка' : item.kind[0].toUpperCase() + item.kind.slice(1)} «${item.name}» не совпадает с продом`,
+    address: item.nodeId ? `Узел ${item.nodeId} · кадры: ${item.where.slice(0, 3).join(', ')}` : `Кадры: ${item.where.slice(0, 3).join(', ')}`,
+    how: `На проде ${item.samples[0].split(' → ')[0]}, в макете ${item.samples[0].split(' → ')[1]}. Экранов с этим расхождением: ${item.where.length}. Если блок — инстанс компонента, правится мастер, а не кадр.`,
+    source: 'поблочная сверка вкладок (vstabs)',
+    verify: 'повторный vstabs не должен показывать этот блок',
+  }));
+}
+
+export function buildEditsPlan({ tokenResult, layoutFindings = [], prodByViewport = {}, target, frames, tabsDiff }) {
   const steps = [
     ...(tokenResult ? tokenSteps(tokenResult, target) : []),
     ...layoutSteps(layoutFindings, prodByViewport, target),
     ...(frames ? frameSteps(frames) : []),
+    ...tabSteps(tabsDiff),
   ];
 
   const stages = STAGES.map((stage) => ({
