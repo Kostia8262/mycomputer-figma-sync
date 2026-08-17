@@ -146,12 +146,36 @@ async function pushSelf() {
   }
 
   const { stdout: ahead } = await git(['rev-list', '--count', '@{u}..HEAD'], ROOT);
-  if (Number(ahead) > 0) {
-    const push = await git(['push'], ROOT);
-    note(push.code === 0 ? `агент: отправлено коммитов — ${ahead}` : `агент: ОШИБКА push — ${push.stderr}`);
-  } else {
+  if (Number(ahead) === 0) {
     note('агент: локальных изменений нет');
+    return;
   }
+
+  // Между pullSelf в начале прогона и этой строкой проходят минуты съёмки, и
+  // за это время ветку успевает подвинуть вторая машина или прогон
+  // after-deploy в CI — с тех пор как прод будит агента после каждой выкатки,
+  // это стало обычным делом. Одна попытка push означала бы «ОШИБКА push» в
+  // логе и слепок, лежащий до завтра.
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const push = await git(['push'], ROOT);
+    if (push.code === 0) {
+      note(`агент: отправлено коммитов — ${ahead}`);
+      return;
+    }
+
+    note(`агент: push отклонён, свожу с веткой и повторяю (попытка ${attempt})`);
+    // -X theirs: при rebase «theirs» — это свои коммиты, HEAD в тот момент
+    // чужой. Состояние — снимок, а не история правок, поэтому при расхождении
+    // верен самый свежий; чужие файлы, которых мы не трогали, остаются.
+    const merge = await git(['pull', '--rebase', '--autostash', '-X', 'theirs'], ROOT);
+    if (merge.code !== 0) {
+      await git(['rebase', '--abort'], ROOT);
+      note(`агент: ОШИБКА сведения — ${merge.stderr}`);
+      return;
+    }
+  }
+
+  note('агент: ОШИБКА push — три попытки подряд отклонены');
 }
 
 /** Продакшен: только подтянуть. Ничего не коммитим и не отправляем. */
