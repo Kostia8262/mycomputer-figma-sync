@@ -1,0 +1,1483 @@
+{
+  "url": "https://mycomputer.education/admin.html",
+  "selector": ".topbar, .app-body",
+  "engine": "chromium-headless",
+  "caveat": "headless рендерит border:1px как 0.8px — расхождения до 1.5px у bordered-узлов не считать дефектом",
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "documentHeight": 900,
+      "sections": [
+        {
+          "key": ".topbar",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "w": 1440,
+            "h": 56
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "gap": "12px",
+            "flexWrap": "nowrap",
+            "paddingRight": "24px",
+            "paddingLeft": "24px",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(144, 137, 179)",
+            "boxShadow": "rgba(0, 0, 0, 0.25) 0px 4px 20px 0px",
+            "opacity": "1",
+            "borderBottomWidth": "1px",
+            "borderTopColor": "rgb(144, 137, 179)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".topbar-left",
+              "tag": "div",
+              "rel": {
+                "x": 24,
+                "y": 11.5
+              },
+              "size": {
+                "w": 262.5,
+                "h": 32
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "10px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "700",
+                "color": "rgb(255, 255, 255)",
+                "opacity": "1",
+                "borderTopColor": "rgb(255, 255, 255)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "img",
+                  "tag": "img",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "color": "rgb(255, 255, 255)",
+                    "borderRadius": "50%",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(255, 255, 255)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#panelTitle",
+                  "tag": "span",
+                  "rel": {
+                    "x": 42,
+                    "y": 6
+                  },
+                  "size": {
+                    "w": 115,
+                    "h": 20
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "color": "rgb(255, 255, 255)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(255, 255, 255)",
+                    "textAlign": "start"
+                  },
+                  "text": "Адмін-панель"
+                },
+                {
+                  "key": "#roleBadge",
+                  "tag": "span",
+                  "rel": {
+                    "x": 167,
+                    "y": 6
+                  },
+                  "size": {
+                    "w": 95.6,
+                    "h": 20
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "8px",
+                    "paddingLeft": "8px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "11px",
+                    "fontWeight": "700",
+                    "lineHeight": "11px",
+                    "color": "rgb(133, 77, 14)",
+                    "backgroundColor": "rgb(254, 249, 195)",
+                    "borderRadius": "20px",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(133, 77, 14)",
+                    "textAlign": "start"
+                  },
+                  "pseudo": {
+                    "::before": {
+                      "content": "\"\"",
+                      "width": "6px",
+                      "height": "6px",
+                      "backgroundColor": "rgb(133, 77, 14)"
+                    }
+                  },
+                  "text": "Суперадмін"
+                }
+              ]
+            },
+            {
+              "key": ".topbar-right",
+              "tag": "div",
+              "rel": {
+                "x": 772.5,
+                "y": 13.5
+              },
+              "size": {
+                "w": 643.5,
+                "h": 28
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "12px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#siteSelectSlot",
+                  "tag": "span",
+                  "rel": {
+                    "x": 0,
+                    "y": 14
+                  },
+                  "size": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#xlsxExportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 12,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 74.7,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📊"
+                },
+                {
+                  "key": "#csvExportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 98.7,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 69.9,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📥"
+                },
+                {
+                  "key": "#csvImportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 180.6,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 85.4,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📤"
+                },
+                {
+                  "key": "#reloadBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 278,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 93.5,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true
+                },
+                {
+                  "key": "#gsWrap",
+                  "tag": "div",
+                  "rel": {
+                    "x": 383.5,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 190,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#logoutBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 585.5,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 58,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "Вийти"
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 0
+        },
+        {
+          "key": ".app-body",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 56
+          },
+          "size": {
+            "w": 1440,
+            "h": 844
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(26, 26, 46)",
+            "opacity": "1",
+            "borderTopColor": "rgb(26, 26, 46)",
+            "textAlign": "start"
+          },
+          "children": [
+            {
+              "key": "#sidebarEl",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "w": 218,
+                "h": 844
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderRightWidth": "1px",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "bordered": true,
+              "children": [
+                {
+                  "key": ".sidebar-nav",
+                  "tag": "nav",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 217,
+                    "h": 844
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "14px",
+                    "paddingRight": "10px",
+                    "paddingBottom": "14px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            },
+            {
+              "key": ".main",
+              "tag": "div",
+              "rel": {
+                "x": 218,
+                "y": 0
+              },
+              "size": {
+                "w": 1222,
+                "h": 844
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingTop": "24px",
+                "paddingRight": "24px",
+                "paddingBottom": "24px",
+                "paddingLeft": "24px",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(26, 26, 46)",
+                "opacity": "1",
+                "borderTopColor": "rgb(26, 26, 46)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#leadsTab",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 24
+                  },
+                  "size": {
+                    "w": 1159,
+                    "h": 900
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(26, 26, 46)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(26, 26, 46)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 56
+        }
+      ]
+    },
+    {
+      "viewport": "compact",
+      "width": 900,
+      "documentHeight": 900,
+      "sections": [
+        {
+          "key": ".topbar",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "w": 900,
+            "h": 56
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "gap": "12px",
+            "flexWrap": "nowrap",
+            "paddingRight": "24px",
+            "paddingLeft": "24px",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(144, 137, 179)",
+            "boxShadow": "rgba(0, 0, 0, 0.25) 0px 4px 20px 0px",
+            "opacity": "1",
+            "borderBottomWidth": "1px",
+            "borderTopColor": "rgb(144, 137, 179)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".topbar-left",
+              "tag": "div",
+              "rel": {
+                "x": 24,
+                "y": 11.5
+              },
+              "size": {
+                "w": 262.5,
+                "h": 32
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "10px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "700",
+                "color": "rgb(255, 255, 255)",
+                "opacity": "1",
+                "borderTopColor": "rgb(255, 255, 255)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "img",
+                  "tag": "img",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "color": "rgb(255, 255, 255)",
+                    "borderRadius": "50%",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(255, 255, 255)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#panelTitle",
+                  "tag": "span",
+                  "rel": {
+                    "x": 42,
+                    "y": 6
+                  },
+                  "size": {
+                    "w": 115,
+                    "h": 20
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "color": "rgb(255, 255, 255)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(255, 255, 255)",
+                    "textAlign": "start"
+                  },
+                  "text": "Адмін-панель"
+                },
+                {
+                  "key": "#roleBadge",
+                  "tag": "span",
+                  "rel": {
+                    "x": 167,
+                    "y": 6
+                  },
+                  "size": {
+                    "w": 95.6,
+                    "h": 20
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "8px",
+                    "paddingLeft": "8px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "11px",
+                    "fontWeight": "700",
+                    "lineHeight": "11px",
+                    "color": "rgb(133, 77, 14)",
+                    "backgroundColor": "rgb(254, 249, 195)",
+                    "borderRadius": "20px",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(133, 77, 14)",
+                    "textAlign": "start"
+                  },
+                  "pseudo": {
+                    "::before": {
+                      "content": "\"\"",
+                      "width": "6px",
+                      "height": "6px",
+                      "backgroundColor": "rgb(133, 77, 14)"
+                    }
+                  },
+                  "text": "Суперадмін"
+                }
+              ]
+            },
+            {
+              "key": ".topbar-right",
+              "tag": "div",
+              "rel": {
+                "x": 376,
+                "y": 13.5
+              },
+              "size": {
+                "w": 500,
+                "h": 28
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "8px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#siteSelectSlot",
+                  "tag": "span",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 132,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#xlsxExportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 140,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 28,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📊"
+                },
+                {
+                  "key": "#csvExportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 176,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 28,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📥"
+                },
+                {
+                  "key": "#csvImportBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 212,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 28,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "📤"
+                },
+                {
+                  "key": "#reloadBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 248,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 28,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true
+                },
+                {
+                  "key": "#gsWrap",
+                  "tag": "div",
+                  "rel": {
+                    "x": 284,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 150,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#logoutBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 442,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 58,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "Вийти"
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 0
+        },
+        {
+          "key": ".app-body",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 56
+          },
+          "size": {
+            "w": 900,
+            "h": 844
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(26, 26, 46)",
+            "opacity": "1",
+            "borderTopColor": "rgb(26, 26, 46)",
+            "textAlign": "start"
+          },
+          "children": [
+            {
+              "key": "#sidebarEl",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "w": 58,
+                "h": 844
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderRightWidth": "1px",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "bordered": true,
+              "children": [
+                {
+                  "key": ".sidebar-nav",
+                  "tag": "nav",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 57,
+                    "h": 844
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "14px",
+                    "paddingRight": "10px",
+                    "paddingBottom": "14px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            },
+            {
+              "key": ".main",
+              "tag": "div",
+              "rel": {
+                "x": 58,
+                "y": 0
+              },
+              "size": {
+                "w": 842,
+                "h": 844
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingTop": "14px",
+                "paddingRight": "14px",
+                "paddingBottom": "14px",
+                "paddingLeft": "14px",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(26, 26, 46)",
+                "opacity": "1",
+                "borderTopColor": "rgb(26, 26, 46)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#leadsTab",
+                  "tag": "div",
+                  "rel": {
+                    "x": 14,
+                    "y": 14
+                  },
+                  "size": {
+                    "w": 799,
+                    "h": 1042
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(26, 26, 46)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(26, 26, 46)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 56
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "documentHeight": 844,
+      "sections": [
+        {
+          "key": ".topbar",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "w": 390,
+            "h": 56
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "gap": "12px",
+            "flexWrap": "nowrap",
+            "paddingRight": "14px",
+            "paddingLeft": "14px",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(144, 137, 179)",
+            "boxShadow": "rgba(0, 0, 0, 0.25) 0px 4px 20px 0px",
+            "opacity": "1",
+            "borderBottomWidth": "1px",
+            "borderTopColor": "rgb(144, 137, 179)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".topbar-left",
+              "tag": "div",
+              "rel": {
+                "x": 14,
+                "y": 11.5
+              },
+              "size": {
+                "w": 32,
+                "h": 32
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "10px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "700",
+                "color": "rgb(255, 255, 255)",
+                "opacity": "1",
+                "borderTopColor": "rgb(255, 255, 255)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "img",
+                  "tag": "img",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 32,
+                    "h": 32
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "color": "rgb(255, 255, 255)",
+                    "borderRadius": "50%",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(255, 255, 255)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            },
+            {
+              "key": ".topbar-right",
+              "tag": "div",
+              "rel": {
+                "x": 142,
+                "y": 13.5
+              },
+              "size": {
+                "w": 234,
+                "h": 28
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "gap": "8px",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#siteSelectSlot",
+                  "tag": "span",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 132,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                },
+                {
+                  "key": "#reloadBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 140,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 28,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true
+                },
+                {
+                  "key": "#logoutBtn",
+                  "tag": "button",
+                  "rel": {
+                    "x": 176,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 58,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "6px",
+                    "flexWrap": "nowrap",
+                    "paddingRight": "10px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "lineHeight": "15px",
+                    "color": "rgb(85, 51, 238)",
+                    "backgroundColor": "rgb(240, 238, 255)",
+                    "borderRadius": "8px",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderRightWidth": "1px",
+                    "borderBottomWidth": "1px",
+                    "borderLeftWidth": "1px",
+                    "borderTopColor": "rgb(224, 217, 255)",
+                    "textAlign": "center"
+                  },
+                  "bordered": true,
+                  "text": "Вийти"
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 0
+        },
+        {
+          "key": ".app-body",
+          "tag": "div",
+          "rel": {
+            "x": 0,
+            "y": 56
+          },
+          "size": {
+            "w": 390,
+            "h": 788
+          },
+          "styles": {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "fontFamily": "Inter, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgb(26, 26, 46)",
+            "opacity": "1",
+            "borderTopColor": "rgb(26, 26, 46)",
+            "textAlign": "start"
+          },
+          "children": [
+            {
+              "key": "#sidebarEl",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "w": 58,
+                "h": 788
+              },
+              "styles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexWrap": "nowrap",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(144, 137, 179)",
+                "opacity": "1",
+                "borderRightWidth": "1px",
+                "borderTopColor": "rgb(144, 137, 179)",
+                "textAlign": "start"
+              },
+              "bordered": true,
+              "children": [
+                {
+                  "key": ".sidebar-nav",
+                  "tag": "nav",
+                  "rel": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 57,
+                    "h": 788
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "14px",
+                    "paddingRight": "10px",
+                    "paddingBottom": "14px",
+                    "paddingLeft": "10px",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(144, 137, 179)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(144, 137, 179)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            },
+            {
+              "key": ".main",
+              "tag": "div",
+              "rel": {
+                "x": 58,
+                "y": 0
+              },
+              "size": {
+                "w": 332,
+                "h": 788
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingTop": "14px",
+                "paddingRight": "14px",
+                "paddingBottom": "14px",
+                "paddingLeft": "14px",
+                "fontFamily": "Inter, Arial, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "color": "rgb(26, 26, 46)",
+                "opacity": "1",
+                "borderTopColor": "rgb(26, 26, 46)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": "#leadsTab",
+                  "tag": "div",
+                  "rel": {
+                    "x": 14,
+                    "y": 14
+                  },
+                  "size": {
+                    "w": 289,
+                    "h": 1362
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "color": "rgb(26, 26, 46)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(26, 26, 46)",
+                    "textAlign": "start"
+                  }
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 56
+        }
+      ]
+    }
+  ]
+}

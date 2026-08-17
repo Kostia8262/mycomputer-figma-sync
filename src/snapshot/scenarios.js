@@ -54,12 +54,25 @@ async function runStep(page, step) {
     return page.dispatchEvent(step.type.selector, 'input');
   }
 
+  // Ждём ЛЮБОЙ подходящий узел, а не первый в разметке. waitForSelector
+  // резолвит селектор в первое совпадение, а в админке все модалки лежат в
+  // DOM скрытыми, и `.modal-overlay` — это всегда «Нова заявка». Её сценарий
+  // проходил, а курс, статья и карточка клиента ждали чужую модалку до
+  // таймаута и снимались как «не удалось».
   if (step.waitFor !== undefined) {
-    return page.waitForSelector(step.waitFor, { state: 'visible', timeout: step.timeout ?? DEFAULT_TIMEOUT });
+    return page.waitForFunction(
+      (sel) => [...document.querySelectorAll(sel)].some((el) => el.offsetWidth > 0 && el.offsetHeight > 0),
+      step.waitFor,
+      { timeout: step.timeout ?? DEFAULT_TIMEOUT },
+    );
   }
 
   if (step.waitGone !== undefined) {
-    return page.waitForSelector(step.waitGone, { state: 'hidden', timeout: step.timeout ?? DEFAULT_TIMEOUT });
+    return page.waitForFunction(
+      (sel) => [...document.querySelectorAll(sel)].every((el) => el.offsetWidth === 0 && el.offsetHeight === 0),
+      step.waitGone,
+      { timeout: step.timeout ?? DEFAULT_TIMEOUT },
+    );
   }
 
   if (step.press !== undefined) return page.keyboard.press(step.press);

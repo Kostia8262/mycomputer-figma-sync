@@ -36,6 +36,48 @@ import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const LAYOUT_DIR = path.join(ROOT, 'state', 'layout');
+const PLATFORMS = ['darwin', 'win32', 'linux'];
+
+/**
+ * Слепки геометрии платформозависимы, поэтому у каждой машины свой файл.
+ *
+ * Один и тот же прод в headless Chrome меряется по-разному: на маке шрифт
+ * резолвится в «system-ui», на Windows — в «BlinkMacSystemFont», метрики
+ * расходятся, и высота главной отличается на 183 px при одинаковом коде.
+ * Общий файл в git превращал бы каждую смену машины в сотни ложных правок.
+ */
+const layoutFile = (name) => path.join(LAYOUT_DIR, `${name}.${process.platform}.json`);
+
+/**
+ * Говорит вслух, когда сверка идёт не с той машины, где сводили макет.
+ *
+ * Проверено на одном и том же макете: маковский слепок главной даёт три
+ * расхождения на desktop, виндовый — тринадцать, по 20–70 px. Это не дрейф
+ * макета, а метрики шрифтов, и молча выдавать такое за работу нельзя.
+ */
+function platformWarnings(target, foreign) {
+  const measuredOn = target?.layout?.measuredOn;
+  const shooter = foreign ?? process.platform;
+  if (!measuredOn || measuredOn === shooter) return [];
+
+  return [
+    `ВНИМАНИЕ: макет сводили по замерам с ${measuredOn}, а слепок снят на ${shooter}.`,
+    '  Расхождения ниже — в основном разница метрик шрифтов. Сверять надо с той же ОС.',
+  ];
+}
+
+/** Слепок своей машины, иначе чужой: сверка с макетом на нём всё равно полезнее пустоты. */
+function findLayoutFile(name) {
+  const own = layoutFile(name);
+  if (existsSync(own)) return { file: own, foreign: null };
+
+  for (const platform of PLATFORMS) {
+    const other = path.join(LAYOUT_DIR, `${name}.${platform}.json`);
+    if (existsSync(other)) return { file: other, foreign: platform };
+  }
+  return { file: null, foreign: null };
+}
 
 async function loadConfig() {
   const file = path.join(ROOT, 'config', 'design-map.json');
@@ -90,6 +132,10 @@ async function snapshot(config, args) {
   for (const target of config.targets) {
     const referenceCss = path.join(repo, ...target.tokenSource.split('/'));
     const reference = await collectTokens(referenceCss);
+    // Путь внутри слепка — только относительный. Абсолютный делает файл вечно
+    // изменённым: мак пишет /Users/kostiantyn/…, Windows — D:\Проекты\…, и
+    // машины гоняют друг другу пустые коммиты, где меняется одна строка.
+    reference.source = target.tokenSource;
     const referenceBroken = checkHexRgbPairs(Object.values(reference.byCategory).flat(), pairs);
     const satellites = [];
 
@@ -215,7 +261,7 @@ async function collectPlan(config, targetId) {
   if (!target) throw new Error(`Нет таргета «${targetId}».`);
 
   const checkFile = path.join(ROOT, 'state', 'figma-check.json');
-  const prodFile = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
+  const { file: prodFile, foreign } = findLayoutFile(targetId);
   const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}.json`);
 
   let tokenResult = null;
@@ -231,8 +277,12 @@ async function collectPlan(config, targetId) {
   const gaps = [];
 
   if (!tokenResult) gaps.push('сверка токенов не выполнялась');
+  // Слепок с другой машины годится, но молчать об этом нельзя: расхождения
+  // в пределах пары пикселей на нём объясняются метриками шрифтов, а не продом.
+  if (foreign) gaps.push(`слепок прода снят на ${foreign}, а не на этой машине`);
+  for (const line of platformWarnings(target, foreign)) gaps.push(line.replace(/^ВНИМАНИЕ: /, ''));
 
-  if (existsSync(prodFile) && existsSync(figmaFile) && target.layout) {
+  if (prodFile && existsSync(figmaFile) && target.layout) {
     const prod = JSON.parse(await readFile(prodFile, 'utf8'));
     const figma = JSON.parse(await readFile(figmaFile, 'utf8'));
 
@@ -253,7 +303,7 @@ async function collectPlan(config, targetId) {
       });
     }
   } else {
-    if (!existsSync(prodFile)) gaps.push('слепок прода не снят');
+    if (!prodFile) gaps.push('слепок прода не снят');
     if (!existsSync(figmaFile)) gaps.push('геометрия макета не снята');
     if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
   }
@@ -296,8 +346,7 @@ async function layout(config, args) {
   if (!target) throw new Error(`Нет таргета «${targetId}».`);
 
   const url = args.url ?? target.reference.url;
-  const outDir = path.join(ROOT, 'state', 'layout');
-  await mkdir(outDir, { recursive: true });
+  await mkdir(LAYOUT_DIR, { recursive: true });
 
   // Ключ хранится только в .env: в git он не поедет, а без него админка
   // отдаёт форму входа, и слепок вышел бы пустым.
@@ -319,7 +368,7 @@ async function layout(config, args) {
     ...(viewports ? { viewports } : {}),
   });
 
-  const outFile = path.join(outDir, `${targetId}.json`);
+  const outFile = layoutFile(targetId);
   await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');
 
   for (const view of snap.viewports) {
@@ -366,8 +415,10 @@ async function changes(config, args) {
   const target = config.targets.find((t) => t.id === targetId);
   if (!target) throw new Error(`Нет таргета «${targetId}».`);
 
-  const file = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
-  if (!existsSync(file)) throw new Error(`Нет прошлого слепка. Сначала: node src/cli.js layout --target ${targetId}`);
+  // Здесь фолбэк на чужую платформу запрещён: сравнивать слепок мака со
+  // свежим виндовым — значит выдать разницу метрик шрифтов за правку прода.
+  const file = layoutFile(targetId);
+  if (!existsSync(file)) throw new Error(`Нет прошлого слепка этой машины. Сначала: node src/cli.js layout --target ${targetId}`);
 
   const before = JSON.parse(await readFile(file, 'utf8'));
   const url = args.url ?? target.reference.url;
@@ -418,10 +469,12 @@ async function vsfigma(config, args) {
     return;
   }
 
-  const prodFile = path.join(ROOT, 'state', 'layout', `${targetId}.json`);
+  const { file: prodFile, foreign } = findLayoutFile(targetId);
   const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}.json`);
-  if (!existsSync(prodFile)) throw new Error(`Нет слепка прода: ${prodFile}`);
+  if (!prodFile) throw new Error(`Нет слепка прода: ${layoutFile(targetId)}`);
   if (!existsSync(figmaFile)) throw new Error(`Нет геометрии макета: ${figmaFile}`);
+  if (foreign) console.log(`ВНИМАНИЕ: слепок снят на ${foreign} — расхождения до пары пикселей могут быть метриками шрифтов, а не продом.`);
+  for (const line of platformWarnings(target, foreign)) console.log(line);
 
   const prod = JSON.parse(await readFile(prodFile, 'utf8'));
   const figma = JSON.parse(await readFile(figmaFile, 'utf8'));
@@ -495,9 +548,8 @@ async function tabs(config, args) {
     onProgress: (viewport, tab, note) => console.log(`  ${viewport.padEnd(8)} ${tab.padEnd(30)} ${note}`),
   });
 
-  const outDir = path.join(ROOT, 'state', 'layout');
-  await mkdir(outDir, { recursive: true });
-  const outFile = path.join(outDir, `${targetId}-tabs.json`);
+  await mkdir(LAYOUT_DIR, { recursive: true });
+  const outFile = layoutFile(`${targetId}-tabs`);
   await writeFile(outFile, JSON.stringify(snap, null, 2) + '\n', 'utf8');
 
   const failed = snap.viewports.flatMap((v) => v.screens.filter((s) => s.status !== 'ok').map((s) => `${v.viewport}/${s.tab}: ${s.status}`));
@@ -515,8 +567,7 @@ async function pages(config, args) {
   if (!target?.pages) throw new Error(`У таргета «${targetId}» нет списка страниц.`);
 
   const origin = new URL(target.reference.url).origin;
-  const outDir = path.join(ROOT, 'state', 'layout');
-  await mkdir(outDir, { recursive: true });
+  await mkdir(LAYOUT_DIR, { recursive: true });
 
   const captured = [];
   for (const item of target.pages.list) {
@@ -534,7 +585,7 @@ async function pages(config, args) {
     }
   }
 
-  const outFile = path.join(outDir, `${targetId}-pages.json`);
+  const outFile = layoutFile(`${targetId}-pages`);
   await writeFile(outFile, JSON.stringify({ origin, pages: captured }, null, 2) + '\n', 'utf8');
   const failed = captured.filter((p) => p.status !== 'ok').length;
   console.log(`\nСнято ${captured.length - failed} из ${captured.length}. Записано: ${outFile}`);
@@ -557,11 +608,12 @@ async function commit(config, args) {
 
   // Индекс собирается из всех уже снятых слепков: чем больше экранов снято,
   // тем точнее адресация. Ненайденное — подсказка, что экран ещё не покрыт.
+  // Индексу всё равно, на какой машине снят экран: он сопоставляет селекторы,
+  // а не пиксели, поэтому чужой слепок здесь берётся без оговорок.
   const screens = [];
-  const dir = path.join(ROOT, 'state', 'layout');
-  for (const file of ['dashboard-tabs.json', 'education-pages.json', 'school-pages.json']) {
-    const full = path.join(dir, file);
-    if (!existsSync(full)) continue;
+  for (const name of ['dashboard-tabs', 'education-pages', 'school-pages']) {
+    const { file: full } = findLayoutFile(name);
+    if (!full) continue;
     const data = JSON.parse(await readFile(full, 'utf8'));
     if (data.viewports) {
       for (const v of data.viewports) for (const s of v.screens ?? []) if (s.status === 'ok') screens.push(s);
@@ -574,8 +626,8 @@ async function commit(config, args) {
     }
   }
   for (const id of ['education', 'school']) {
-    const full = path.join(dir, `${id}.json`);
-    if (!existsSync(full)) continue;
+    const { file: full } = findLayoutFile(id);
+    if (!full) continue;
     const data = JSON.parse(await readFile(full, 'utf8'));
     for (const v of data.viewports ?? []) screens.push({ figmaName: `${id} · головна ${v.viewport}`, sections: v.sections });
   }

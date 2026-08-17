@@ -91,6 +91,8 @@
       },
       "layout": {
         "$comment": "Сопоставление секций прода с организмами макета. Совпадение один в один — оба уровня уже названы по одной логике.",
+        "measuredOn": "darwin",
+        "$measuredOnNote": "Макет сводили по замерам с мака, и сверять его надо оттуда же. Проверено 2026-08-17 на одном и том же макете: маковский слепок даёт 3 расхождения на desktop, виндовый — 13, по 20–70 px, и это метрики шрифтов, а не дрейф макета.",
         "pages": {
           "$comment": "Кадры макета по брейкпоинтам. Внутри каждого лежат инстансы организмов, чьи имена перечислены в sectionMap.",
           "desktop": {
@@ -212,8 +214,8 @@
             "path": "/payment-fail.html"
           }
         ],
-        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
-        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
+        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container, body > div.pay-result",
+        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card, у страниц оплаты div.pay-result. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая». Именно так и вышло с payment-success/payment-fail: они снимались с нулём секций, пока класс не добавили сюда."
       },
       "framePathMap": {
         "$comment": "Прямые соответствия «файл → кадр». Самый надёжный сигнал: docs/terms.html однозначно указывает на «Правила та умови», гадать по тексту не нужно.",
@@ -303,6 +305,8 @@
       },
       "layout": {
         "$comment": "Сопоставление секций прода с организмами макета. Совпадение один в один — оба уровня уже названы по одной логике.",
+        "measuredOn": "darwin",
+        "$measuredOnNote": "Макет сводили по замерам с мака, и сверять его надо оттуда же. Проверено 2026-08-17 на одном и том же макете: маковский слепок даёт 3 расхождения на desktop, виндовый — 13, по 20–70 px, и это метрики шрифтов, а не дрейф макета.",
         "pages": {
           "$comment": "Кадры макета по брейкпоинтам. Внутри каждого лежат инстансы организмов, чьи имена перечислены в sectionMap.",
           "desktop": {
@@ -424,8 +428,8 @@
             "path": "/payment-fail.html"
           }
         ],
-        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container",
-        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая»."
+        "selector": "header, footer, main, article, section[id], body > div.wrap, body > div.card, body > div.container, body > div.pay-result",
+        "$selectorNote": "Главная размечена section[id], а вторичные страницы — нет: у юридических корневой блок div.wrap, у курсов и сервисных div.card, у страниц оплаты div.pay-result. Один селектор на всё дал бы 0 секций везде кроме главной, что читалось бы как «страница пустая». Именно так и вышло с payment-success/payment-fail: они снимались с нулём секций, пока класс не добавили сюда."
       },
       "framePathMap": {
         "$comment": "Прямые соответствия «файл → кадр». Самый надёжный сигнал: docs/terms.html однозначно указывает на «Правила та умови», гадать по тексту не нужно.",
@@ -754,12 +758,13 @@
             "id": "clients-modal-card",
             "figmaName": "База клієнтів · Модалка «Картка клієнта»",
             "tab": "База клієнтів",
+            "$comment": "Карточку открывает кнопка «✏️» в строке, а не клик по ячейке: строка обработчика не имеет, и сценарий молча снимал вкладку без модалки.",
             "steps": [
               {
-                "clickSelector": "#clientsTab tbody tr:first-child td:nth-child(2)"
+                "clickSelector": "#clientsTab tbody tr:first-child button[onclick^=\"openClientModal\"]"
               },
               {
-                "waitFor": ".modal-overlay"
+                "waitFor": "#clientModal"
               }
             ]
           },
