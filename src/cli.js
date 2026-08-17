@@ -11,7 +11,7 @@
  *   3) config.repo.localPathHint относительно домашнего каталога
  */
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
@@ -331,7 +331,18 @@ async function collectPlan(config, targetId) {
     gaps.push(`поблочная сверка вкладок не выполнялась (node src/cli.js vstabs --target ${targetId})`);
   }
 
-  return { plan: buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target, tabsDiff }), gaps, checkedAt, target };
+  // Дата на странице — по самой свежей из проверок, а не только по токенам:
+  // геометрию пересняли сегодня, а сверку переменных — позавчера, и страница
+  // с позавчерашним числом читается как несвежая целиком.
+  for (const file of [prodFile, path.join(ROOT, 'state', `tabs-diff-${targetId}.json`)]) {
+    if (!file || !existsSync(file)) continue;
+    const stamp = (await stat(file)).mtime.toISOString().slice(0, 10);
+    if (stamp > checkedAt) checkedAt = stamp;
+  }
+
+  const plan = buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target, tabsDiff });
+  if (args?.json) return { plan, gaps, checkedAt, target };
+  return { plan, gaps, checkedAt, target };
 }
 
 /** Печатает скрипт, создающий страницу правок в макете. */

@@ -1,5 +1,6 @@
 {
   "url": "https://mycomputer.school",
+  "selector": "section[id], header, footer",
   "engine": "chromium-headless",
   "caveat": "headless рендерит border:1px как 0.8px — расхождения до 1.5px у bordered-узлов не считать дефектом",
   "viewports": [
