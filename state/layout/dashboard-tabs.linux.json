@@ -18082,7 +18082,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -18170,7 +18170,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -22688,7 +22688,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -22776,7 +22776,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -26506,7 +26506,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -26594,7 +26594,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -29705,7 +29705,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2043
+                        "h": 2009
                       },
                       "styles": {
                         "display": "block",
@@ -30069,7 +30069,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -30157,7 +30157,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -30559,7 +30559,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1767
+                            "h": 1733
                           },
                           "styles": {
                             "display": "block",
@@ -30881,7 +30881,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 1688
+                                "h": 1654
                               },
                               "styles": {
                                 "display": "block",
@@ -30912,7 +30912,7 @@
                                   },
                                   "size": {
                                     "w": 1157,
-                                    "h": 1686
+                                    "h": 1652
                                   },
                                   "styles": {
                                     "display": "block",
@@ -30950,12 +30950,12 @@
                   },
                   "size": {
                     "w": 1133,
-                    "h": 1662
+                    "h": 1628
                   },
                   "wrap": null,
                   "headHeight": 30.5,
                   "rowHeight": 34,
-                  "rows": 48,
+                  "rows": 47,
                   "columns": [
                     {
                       "label": "Учень",
@@ -33770,7 +33770,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1290
+                        "h": 1370
                       },
                       "styles": {
                         "display": "block",
@@ -34134,7 +34134,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -34222,7 +34222,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -34624,7 +34624,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1014
+                            "h": 1094
                           },
                           "styles": {
                             "display": "block",
@@ -34730,7 +34730,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 964
+                                "h": 1044
                               },
                               "styles": {
                                 "display": "block",
@@ -34765,7 +34765,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 930
+                                    "h": 1010
                                   },
                                   "styles": {
                                     "display": "block",
@@ -34799,7 +34799,7 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 881
+                    "h": 961
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -51644,7 +51644,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2290
+                        "h": 2241
                       },
                       "styles": {
                         "display": "block",
@@ -51761,7 +51761,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 2246
+                            "h": 2197
                           },
                           "styles": {
                             "display": "block",
@@ -51793,7 +51793,7 @@
                               },
                               "size": {
                                 "w": 1157,
-                                "h": 2244
+                                "h": 2195
                               },
                               "styles": {
                                 "display": "table",
@@ -51817,7 +51817,7 @@
                                   },
                                   "size": {
                                     "w": 1157,
-                                    "h": 2244
+                                    "h": 2195
                                   },
                                   "styles": {
                                     "display": "table-column-group",
@@ -51865,7 +51865,7 @@
                                   },
                                   "size": {
                                     "w": 1157,
-                                    "h": 2204.5
+                                    "h": 2155.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -51899,15 +51899,15 @@
                   },
                   "size": {
                     "w": 1157,
-                    "h": 2244
+                    "h": 2195
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 2246
+                    "h": 2197
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 45,
+                  "rows": 44,
                   "columns": [
                     {
                       "label": "",
@@ -54038,7 +54038,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2373.9
+                        "h": 2328.9
                       },
                       "styles": {
                         "display": "block",
@@ -54155,7 +54155,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:03"
+                                  "text": "Оновлено: 14:17"
                                 }
                               ]
                             },
@@ -54333,7 +54333,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 2246.9
+                            "h": 2201.9
                           },
                           "styles": {
                             "display": "block",
@@ -55084,7 +55084,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 1171
+                                "h": 1126
                               },
                               "styles": {
                                 "display": "block",
@@ -55147,7 +55147,7 @@
                                   },
                                   "size": {
                                     "w": 1117,
-                                    "h": 1099
+                                    "h": 1054
                                   },
                                   "styles": {
                                     "display": "block",
@@ -55181,12 +55181,12 @@
                   },
                   "size": {
                     "w": 1117,
-                    "h": 1099
+                    "h": 1054
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 45,
-                  "rows": 23,
+                  "rows": 22,
                   "columns": [
                     {
                       "label": "Учень",
@@ -57437,7 +57437,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:03"
+                                  "text": "Оновлено: 14:17"
                                 }
                               ]
                             },
@@ -60342,7 +60342,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:03"
+                                  "text": "Оновлено: 14:17"
                                 }
                               ]
                             },
@@ -108075,7 +108075,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -108163,7 +108163,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -112560,7 +112560,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -112648,7 +112648,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -115893,7 +115893,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 3883
+                        "h": 3860
                       },
                       "styles": {
                         "display": "block",
@@ -116257,7 +116257,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -116345,7 +116345,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -116747,7 +116747,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 3607
+                            "h": 3584
                           },
                           "styles": {
                             "display": "block",
@@ -116864,7 +116864,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 183
+                                "h": 160
                               },
                               "styles": {
                                 "display": "block",
@@ -116928,7 +116928,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 133
+                                    "h": 110
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -116952,7 +116952,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 311
+                                "y": 288
                               },
                               "size": {
                                 "w": 799,
@@ -117010,7 +117010,7 @@
                   "id": null,
                   "rel": {
                     "x": 73,
-                    "y": 650
+                    "y": 627
                   },
                   "size": {
                     "w": 1381.4,
@@ -119335,7 +119335,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2109
+                        "h": 2075
                       },
                       "styles": {
                         "display": "block",
@@ -119699,7 +119699,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -119787,7 +119787,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -120189,7 +120189,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1833
+                            "h": 1799
                           },
                           "styles": {
                             "display": "block",
@@ -120511,7 +120511,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 1688
+                                "h": 1654
                               },
                               "styles": {
                                 "display": "block",
@@ -120542,7 +120542,7 @@
                                   },
                                   "size": {
                                     "w": 797,
-                                    "h": 1686
+                                    "h": 1652
                                   },
                                   "styles": {
                                     "display": "block",
@@ -120633,12 +120633,12 @@
                   },
                   "size": {
                     "w": 1243,
-                    "h": 1662
+                    "h": 1628
                   },
                   "wrap": null,
                   "headHeight": 30.5,
                   "rowHeight": 34,
-                  "rows": 48,
+                  "rows": 47,
                   "columns": [
                     {
                       "label": "Учень",
@@ -123332,7 +123332,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1339
+                        "h": 1410
                       },
                       "styles": {
                         "display": "block",
@@ -123696,7 +123696,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -123784,7 +123784,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -124186,7 +124186,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1063
+                            "h": 1134
                           },
                           "styles": {
                             "display": "block",
@@ -124292,7 +124292,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 973
+                                "h": 1044
                               },
                               "styles": {
                                 "display": "block",
@@ -124327,7 +124327,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 939
+                                    "h": 1010
                                   },
                                   "styles": {
                                     "display": "block",
@@ -124361,7 +124361,7 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 890
+                    "h": 961
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -141020,7 +141020,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2340
+                        "h": 2291
                       },
                       "styles": {
                         "display": "block",
@@ -141137,7 +141137,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2296
+                            "h": 2247
                           },
                           "styles": {
                             "display": "block",
@@ -141169,7 +141169,7 @@
                               },
                               "size": {
                                 "w": 797,
-                                "h": 2294
+                                "h": 2245
                               },
                               "styles": {
                                 "display": "table",
@@ -141193,7 +141193,7 @@
                                   },
                                   "size": {
                                     "w": 797,
-                                    "h": 2294
+                                    "h": 2245
                                   },
                                   "styles": {
                                     "display": "table-column-group",
@@ -141241,7 +141241,7 @@
                                   },
                                   "size": {
                                     "w": 797,
-                                    "h": 2254.5
+                                    "h": 2205.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -141275,15 +141275,15 @@
                   },
                   "size": {
                     "w": 797,
-                    "h": 2294
+                    "h": 2245
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 2296
+                    "h": 2247
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 45,
+                  "rows": 44,
                   "columns": [
                     {
                       "label": "",
@@ -143383,7 +143383,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2459.8
+                        "h": 2414.8
                       },
                       "styles": {
                         "display": "block",
@@ -143500,7 +143500,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:04"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -143678,7 +143678,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2332.8
+                            "h": 2287.8
                           },
                           "styles": {
                             "display": "block",
@@ -144429,7 +144429,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 1171
+                                "h": 1126
                               },
                               "styles": {
                                 "display": "block",
@@ -144492,7 +144492,7 @@
                                   },
                                   "size": {
                                     "w": 757,
-                                    "h": 1099
+                                    "h": 1054
                                   },
                                   "styles": {
                                     "display": "block",
@@ -144526,12 +144526,12 @@
                   },
                   "size": {
                     "w": 757,
-                    "h": 1099
+                    "h": 1054
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 45,
-                  "rows": 23,
+                  "rows": 22,
                   "columns": [
                     {
                       "label": "Учень",
@@ -146751,7 +146751,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:04"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -149625,7 +149625,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:04"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -195513,7 +195513,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -195601,7 +195601,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -199691,7 +199691,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -199779,7 +199779,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -202717,7 +202717,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 4959
+                        "h": 4936
                       },
                       "styles": {
                         "display": "block",
@@ -203081,7 +203081,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -203169,7 +203169,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -203571,7 +203571,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 4163
+                            "h": 4140
                           },
                           "styles": {
                             "display": "block",
@@ -203688,7 +203688,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 567
+                                "h": 544
                               },
                               "styles": {
                                 "display": "block",
@@ -203752,7 +203752,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 501
+                                    "h": 478
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -203776,7 +203776,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 775
+                                "y": 752
                               },
                               "size": {
                                 "w": 289,
@@ -203834,7 +203834,7 @@
                   "id": null,
                   "rel": {
                     "x": 73,
-                    "y": 1726
+                    "y": 1703
                   },
                   "size": {
                     "w": 1381.4,
@@ -205852,7 +205852,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2758
+                        "h": 2724
                       },
                       "styles": {
                         "display": "block",
@@ -206216,7 +206216,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -206304,7 +206304,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -206706,7 +206706,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1962
+                            "h": 1928
                           },
                           "styles": {
                             "display": "block",
@@ -207028,7 +207028,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1688
+                                "h": 1654
                               },
                               "styles": {
                                 "display": "block",
@@ -207059,7 +207059,7 @@
                                   },
                                   "size": {
                                     "w": 287,
-                                    "h": 1686
+                                    "h": 1652
                                   },
                                   "styles": {
                                     "display": "block",
@@ -207150,12 +207150,12 @@
                   },
                   "size": {
                     "w": 1243,
-                    "h": 1662
+                    "h": 1628
                   },
                   "wrap": null,
                   "headHeight": 30.5,
                   "rowHeight": 34,
-                  "rows": 48,
+                  "rows": 47,
                   "columns": [
                     {
                       "label": "Учень",
@@ -209542,7 +209542,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 1970
+                        "h": 2041
                       },
                       "styles": {
                         "display": "block",
@@ -209906,7 +209906,7 @@
                                     "borderTopColor": "rgb(16, 104, 48)",
                                     "textAlign": "start"
                                   },
-                                  "text": "45"
+                                  "text": "44"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -209994,7 +209994,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "16"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -210396,7 +210396,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1174
+                            "h": 1245
                           },
                           "styles": {
                             "display": "block",
@@ -210502,7 +210502,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1009
+                                "h": 1080
                               },
                               "styles": {
                                 "display": "block",
@@ -210537,7 +210537,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 975
+                                    "h": 1046
                                   },
                                   "styles": {
                                     "display": "block",
@@ -210624,7 +210624,7 @@
                   },
                   "size": {
                     "w": 620,
-                    "h": 890
+                    "h": 961
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -226089,7 +226089,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2461
+                        "h": 2408
                       },
                       "styles": {
                         "display": "block",
@@ -226206,7 +226206,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 2417
+                            "h": 2364
                           },
                           "styles": {
                             "display": "block",
@@ -226238,7 +226238,7 @@
                               },
                               "size": {
                                 "w": 287,
-                                "h": 2415
+                                "h": 2362
                               },
                               "styles": {
                                 "display": "table",
@@ -226262,7 +226262,7 @@
                                   },
                                   "size": {
                                     "w": 287,
-                                    "h": 2415
+                                    "h": 2362
                                   },
                                   "styles": {
                                     "display": "table-column-group",
@@ -226310,7 +226310,7 @@
                                   },
                                   "size": {
                                     "w": 287,
-                                    "h": 2381.5
+                                    "h": 2328.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -226344,15 +226344,15 @@
                   },
                   "size": {
                     "w": 287,
-                    "h": 2415
+                    "h": 2362
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 2417
+                    "h": 2364
                   },
                   "headHeight": 33.5,
                   "rowHeight": 53,
-                  "rows": 45,
+                  "rows": 44,
                   "columns": [
                     {
                       "label": "",
@@ -228253,7 +228253,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 4251.7
+                        "h": 4198.7
                       },
                       "styles": {
                         "display": "block",
@@ -228370,7 +228370,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:05"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
@@ -228548,7 +228548,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 4084.7
+                            "h": 4031.7
                           },
                           "styles": {
                             "display": "block",
@@ -229299,7 +229299,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1390.6
+                                "h": 1337.6
                               },
                               "styles": {
                                 "display": "block",
@@ -229362,7 +229362,7 @@
                                   },
                                   "size": {
                                     "w": 247,
-                                    "h": 1302.6
+                                    "h": 1249.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -229396,12 +229396,12 @@
                   },
                   "size": {
                     "w": 568,
-                    "h": 1302.6
+                    "h": 1249.6
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 53,
-                  "rows": 23,
+                  "rows": 22,
                   "columns": [
                     {
                       "label": "Учень",
@@ -231422,7 +231422,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:05"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
@@ -234097,7 +234097,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 14:05"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
