@@ -1,30 +1,32 @@
 {
  "since": "2026-08-01",
- "total": 17,
+ "total": 18,
  "summary": [
+  {
+   "tab": "Співробітники",
+   "commits": 2,
+   "lines": 12570,
+   "subjects": [
+    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
+    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
+   ]
+  },
+  {
+   "tab": "Оболонка (шапка, сайдбар, спільне)",
+   "commits": 2,
+   "lines": 12570,
+   "subjects": [
+    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
+    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
+   ]
+  },
   {
    "tab": "База клієнтів",
    "commits": 2,
    "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
-   ]
-  },
-  {
-   "tab": "Співробітники",
-   "commits": 1,
-   "lines": 12490,
-   "subjects": [
-    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
-   ]
-  },
-  {
-   "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 1,
-   "lines": 12490,
-   "subjects": [
-    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
+    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
    ]
   },
   {
@@ -45,6 +47,14 @@
     "2026-08-17 fix(unit): stop the break-even from re-costing fixed wages per student",
     "2026-08-17 feat(unit): show what the per-student payroll is made of",
     "2026-08-14 feat(admin): let the unpaid tile show the money as a second number"
+   ]
+  },
+  {
+   "tab": "Розклад",
+   "commits": 1,
+   "lines": 80,
+   "subjects": [
+    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once"
    ]
   },
   {
