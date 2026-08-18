@@ -545,7 +545,7 @@
                   },
                   "size": {
                     "w": 1159,
-                    "h": 900
+                    "h": 949
                   },
                   "styles": {
                     "display": "block",
@@ -563,7 +563,228 @@
               ]
             }
           ],
-          "absoluteTop": 56
+          "absoluteTop": 56,
+          "tables": [
+            {
+              "id": "leadsTable",
+              "rel": {
+                "x": 243,
+                "y": 191
+              },
+              "size": {
+                "w": 1379,
+                "h": 740
+              },
+              "wrap": {
+                "w": 1159,
+                "h": 783
+              },
+              "headHeight": 39.5,
+              "rowHeight": 49,
+              "rows": 14,
+              "columns": [
+                {
+                  "label": "",
+                  "w": 29
+                },
+                {
+                  "label": "#",
+                  "w": 69.6
+                },
+                {
+                  "label": "Ім'я дитини",
+                  "w": 148
+                },
+                {
+                  "label": "Статус",
+                  "w": 145
+                },
+                {
+                  "label": "Вік",
+                  "w": 42
+                },
+                {
+                  "label": "Курс",
+                  "w": 158
+                },
+                {
+                  "label": "Телефони",
+                  "w": 193
+                },
+                {
+                  "label": "Викладач",
+                  "w": 128
+                },
+                {
+                  "label": "Розклад",
+                  "w": 111.6
+                },
+                {
+                  "label": "Нотатки",
+                  "w": 148
+                },
+                {
+                  "label": "Дата",
+                  "w": 147
+                },
+                {
+                  "label": "",
+                  "w": 59.8
+                }
+              ],
+              "cells": [
+                {
+                  "col": 0,
+                  "w": 29,
+                  "padding": "8px 4px 8px 12px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "",
+                      "w": 13,
+                      "h": 13
+                    }
+                  ]
+                },
+                {
+                  "col": 1,
+                  "w": 69.6,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "span",
+                      "cls": "",
+                      "w": 15.6,
+                      "h": 15
+                    }
+                  ]
+                },
+                {
+                  "col": 2,
+                  "w": 148,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 3,
+                  "w": 145,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 117,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 4,
+                  "w": 42,
+                  "padding": "8px 4px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 34,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 5,
+                  "w": 158,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 130,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 6,
+                  "w": 193,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "phone-cell",
+                      "w": 165,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 7,
+                  "w": 128,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 100,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 8,
+                  "w": 111.6,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "sched-cell",
+                      "w": 83.6,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 9,
+                  "w": 148,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 10,
+                  "w": 147,
+                  "padding": "12px 14px",
+                  "controls": []
+                },
+                {
+                  "col": 11,
+                  "w": 59.8,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "button",
+                      "cls": "btn btn-danger btn-sm",
+                      "w": 31.8,
+                      "h": 24
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1100,7 +1321,7 @@
                   },
                   "size": {
                     "w": 799,
-                    "h": 1042
+                    "h": 1091
                   },
                   "styles": {
                     "display": "block",
@@ -1118,7 +1339,228 @@
               ]
             }
           ],
-          "absoluteTop": 56
+          "absoluteTop": 56,
+          "tables": [
+            {
+              "id": "leadsTable",
+              "rel": {
+                "x": 73,
+                "y": 323
+              },
+              "size": {
+                "w": 1379,
+                "h": 740
+              },
+              "wrap": {
+                "w": 799,
+                "h": 783
+              },
+              "headHeight": 39.5,
+              "rowHeight": 49,
+              "rows": 14,
+              "columns": [
+                {
+                  "label": "",
+                  "w": 29
+                },
+                {
+                  "label": "#",
+                  "w": 69.6
+                },
+                {
+                  "label": "Ім'я дитини",
+                  "w": 148
+                },
+                {
+                  "label": "Статус",
+                  "w": 145
+                },
+                {
+                  "label": "Вік",
+                  "w": 42
+                },
+                {
+                  "label": "Курс",
+                  "w": 158
+                },
+                {
+                  "label": "Телефони",
+                  "w": 193
+                },
+                {
+                  "label": "Викладач",
+                  "w": 128
+                },
+                {
+                  "label": "Розклад",
+                  "w": 111.6
+                },
+                {
+                  "label": "Нотатки",
+                  "w": 148
+                },
+                {
+                  "label": "Дата",
+                  "w": 147
+                },
+                {
+                  "label": "",
+                  "w": 59.8
+                }
+              ],
+              "cells": [
+                {
+                  "col": 0,
+                  "w": 29,
+                  "padding": "8px 4px 8px 12px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "",
+                      "w": 13,
+                      "h": 13
+                    }
+                  ]
+                },
+                {
+                  "col": 1,
+                  "w": 69.6,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "span",
+                      "cls": "",
+                      "w": 15.6,
+                      "h": 15
+                    }
+                  ]
+                },
+                {
+                  "col": 2,
+                  "w": 148,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 3,
+                  "w": 145,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 117,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 4,
+                  "w": 42,
+                  "padding": "8px 4px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 34,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 5,
+                  "w": 158,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 130,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 6,
+                  "w": 193,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "phone-cell",
+                      "w": 165,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 7,
+                  "w": 128,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 100,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 8,
+                  "w": 111.6,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "sched-cell",
+                      "w": 83.6,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 9,
+                  "w": 148,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 10,
+                  "w": 147,
+                  "padding": "12px 14px",
+                  "controls": []
+                },
+                {
+                  "col": 11,
+                  "w": 59.8,
+                  "padding": "12px 14px",
+                  "controls": [
+                    {
+                      "tag": "button",
+                      "cls": "btn btn-danger btn-sm",
+                      "w": 31.8,
+                      "h": 24
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1457,7 +1899,7 @@
                   },
                   "size": {
                     "w": 289,
-                    "h": 1362
+                    "h": 1405
                   },
                   "styles": {
                     "display": "block",
@@ -1475,7 +1917,228 @@
               ]
             }
           ],
-          "absoluteTop": 56
+          "absoluteTop": 56,
+          "tables": [
+            {
+              "id": "leadsTable",
+              "rel": {
+                "x": 73,
+                "y": 727
+              },
+              "size": {
+                "w": 1299,
+                "h": 650
+              },
+              "wrap": {
+                "w": 289,
+                "h": 693
+              },
+              "headHeight": 33.5,
+              "rowHeight": 43,
+              "rows": 14,
+              "columns": [
+                {
+                  "label": "",
+                  "w": 29
+                },
+                {
+                  "label": "#",
+                  "w": 61.6
+                },
+                {
+                  "label": "Ім'я дитини",
+                  "w": 140
+                },
+                {
+                  "label": "Статус",
+                  "w": 137
+                },
+                {
+                  "label": "Вік",
+                  "w": 42
+                },
+                {
+                  "label": "Курс",
+                  "w": 150
+                },
+                {
+                  "label": "Телефони",
+                  "w": 185
+                },
+                {
+                  "label": "Викладач",
+                  "w": 120
+                },
+                {
+                  "label": "Розклад",
+                  "w": 103.6
+                },
+                {
+                  "label": "Нотатки",
+                  "w": 140
+                },
+                {
+                  "label": "Дата",
+                  "w": 139
+                },
+                {
+                  "label": "",
+                  "w": 51.8
+                }
+              ],
+              "cells": [
+                {
+                  "col": 0,
+                  "w": 29,
+                  "padding": "8px 4px 8px 12px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "",
+                      "w": 13,
+                      "h": 13
+                    }
+                  ]
+                },
+                {
+                  "col": 1,
+                  "w": 61.6,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "span",
+                      "cls": "",
+                      "w": 15.6,
+                      "h": 15
+                    }
+                  ]
+                },
+                {
+                  "col": 2,
+                  "w": 140,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 3,
+                  "w": 137,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 117,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 4,
+                  "w": 42,
+                  "padding": "8px 4px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 34,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 5,
+                  "w": 150,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 130,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 6,
+                  "w": 185,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "phone-cell",
+                      "w": 165,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 7,
+                  "w": 120,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "select",
+                      "cls": "status-sel",
+                      "w": 100,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 8,
+                  "w": 103.6,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "div",
+                      "cls": "sched-cell",
+                      "w": 83.6,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 9,
+                  "w": 140,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "input",
+                      "cls": "notes-input",
+                      "w": 120,
+                      "h": 24
+                    }
+                  ]
+                },
+                {
+                  "col": 10,
+                  "w": 139,
+                  "padding": "9px 10px",
+                  "controls": []
+                },
+                {
+                  "col": 11,
+                  "w": 51.8,
+                  "padding": "9px 10px",
+                  "controls": [
+                    {
+                      "tag": "button",
+                      "cls": "btn btn-danger btn-sm",
+                      "w": 31.8,
+                      "h": 24
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
