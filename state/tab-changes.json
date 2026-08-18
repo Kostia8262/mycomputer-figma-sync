@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 30,
+ "total": 31,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): make the footer pay buttons work on every inner page"
+    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): make the footer pay buttons work on every inner page"
+    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
    ]
   },
   {
@@ -28,7 +28,7 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): make the footer pay buttons work on every inner page"
+    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
    ]
   },
   {
@@ -73,6 +73,7 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 feat(subscriptions): let the count start on the day the lessons did",
   "2026-08-18 fix(subscriptions): \"куплено\" means the last payment, not the lifetime total",
   "2026-08-18 fix(subscriptions): count the balance out of one abonement, not the whole history",
   "2026-08-18 feat(subscriptions): one state for a spent abonement, and say by how much",
