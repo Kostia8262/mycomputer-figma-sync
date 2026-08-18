@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 23,
+ "total": 24,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
+    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
+    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
    ]
   },
   {
@@ -28,14 +28,15 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
+    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
    ]
   },
   {
    "tab": "Відвідування",
-   "commits": 4,
-   "lines": 321,
+   "commits": 5,
+   "lines": 331,
    "subjects": [
+    "2026-08-18 fix(attendance): name the cancelled mark by what it does to the abonement",
     "2026-08-18 feat(attendance): give any lesson off the timetable an hour of its own",
     "2026-08-18 feat(payroll): count a make-up by the hour it was held at",
     "2026-08-18 feat(attendance): grey out Save until the make-up hour is filled in",
