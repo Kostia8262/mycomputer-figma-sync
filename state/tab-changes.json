@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 24,
+ "total": 30,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
+    "2026-08-14 feat(blender): grow the Blender course to twelve months"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
+    "2026-08-14 feat(blender): grow the Blender course to twelve months"
    ]
   },
   {
@@ -28,7 +28,7 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(sites): give every school landing the hub's footer columns"
+    "2026-08-14 feat(blender): grow the Blender course to twelve months"
    ]
   },
   {
@@ -73,6 +73,12 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 fix(subscriptions): \"куплено\" means the last payment, not the lifetime total",
+  "2026-08-18 fix(subscriptions): count the balance out of one abonement, not the whole history",
+  "2026-08-18 feat(subscriptions): one state for a spent abonement, and say by how much",
+  "2026-08-18 fix(subscriptions): say what a top-up actually does before and after saving",
+  "2026-08-18 feat(subscriptions): search and status filter in the abonements header",
+  "2026-08-18 fix(subscriptions): let the balance go negative when lessons outrun the payment",
   "2026-08-18 feat(subscriptions): spend the abonement by the timetable, not by the register",
   "2026-08-18 feat(payroll): say how many make-ups were paid for, and what they cost",
   "2026-08-18 feat(finance): show the hours behind the lesson count in payroll",
