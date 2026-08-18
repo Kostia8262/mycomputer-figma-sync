@@ -5,28 +5,28 @@
   {
    "tab": "Співробітники",
    "commits": 2,
-   "lines": 12570,
+   "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): finish the second locale across both networks"
+    "2026-08-14 chore(sites): bump the cache buster again after the host-pattern fix"
    ]
   },
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
    "commits": 2,
-   "lines": 12570,
+   "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): finish the second locale across both networks"
+    "2026-08-14 chore(sites): bump the cache buster again after the host-pattern fix"
    ]
   },
   {
    "tab": "База клієнтів",
    "commits": 2,
-   "lines": 12509,
+   "lines": 12539,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): finish the second locale across both networks"
+    "2026-08-14 chore(sites): bump the cache buster again after the host-pattern fix"
    ]
   },
   {
@@ -70,6 +70,7 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 feat(payroll): say how many make-ups were paid for, and what they cost",
   "2026-08-18 feat(finance): show the hours behind the lesson count in payroll",
   "2026-08-18 feat(finance): sum up the payroll card",
   "2026-08-18 feat(finance): total up the month's costs above the profit line",
@@ -77,7 +78,6 @@
   "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
   "2026-08-14 feat(admin): count the trials in the client base header",
   "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol",
-  "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing",
-  "2026-08-14 fix(sites): carry the language into blocks drawn after the switch"
+  "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing"
  ]
 }

@@ -17718,7 +17718,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5057.8
+                        "h": 5058.8
                       },
                       "styles": {
                         "display": "block",
@@ -18542,7 +18542,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 4781.8
+                            "h": 4782.8
                           },
                           "styles": {
                             "display": "block",
@@ -18809,7 +18809,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4015.4
+                                "h": 4016.4
                               },
                               "styles": {
                                 "display": "block",
@@ -18841,7 +18841,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3972.4
+                                    "h": 3973.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -18861,7 +18861,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3973.4
+                                    "y": 3974.4
                                   },
                                   "size": {
                                     "w": 1157,
@@ -18960,11 +18960,11 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3972.4
+                    "h": 3973.4
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4015.4
+                    "h": 4016.4
                   },
                   "headHeight": 39.5,
                   "rowHeight": 64,
@@ -22288,7 +22288,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5057.8
+                        "h": 5058.8
                       },
                       "styles": {
                         "display": "block",
@@ -23112,7 +23112,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 4781.8
+                            "h": 4782.8
                           },
                           "styles": {
                             "display": "block",
@@ -23379,7 +23379,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4015.4
+                                "h": 4016.4
                               },
                               "styles": {
                                 "display": "block",
@@ -23411,7 +23411,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3972.4
+                                    "h": 3973.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -23431,7 +23431,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -646,
-                                    "y": 3973.4
+                                    "y": 3974.4
                                   },
                                   "size": {
                                     "w": 1157,
@@ -23530,11 +23530,11 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3972.4
+                    "h": 3973.4
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4015.4
+                    "h": 4016.4
                   },
                   "headHeight": 39.5,
                   "rowHeight": 64,
@@ -31024,7 +31024,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -31050,7 +31050,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -31115,7 +31115,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -31141,7 +31141,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -33638,7 +33638,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1422.3
+                        "h": 1230.2
                       },
                       "styles": {
                         "display": "block",
@@ -34462,7 +34462,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1146.3
+                            "h": 954.2
                           },
                           "styles": {
                             "display": "block",
@@ -34568,7 +34568,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 1096.3
+                                "h": 904.2
                               },
                               "styles": {
                                 "display": "block",
@@ -34603,7 +34603,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 1062.3
+                                    "h": 870.2
                                   },
                                   "styles": {
                                     "display": "block",
@@ -34637,12 +34637,12 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 1013.3
+                    "h": 821.2
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 212.1,
-                  "rows": 9,
+                  "rowHeight": 34.4,
+                  "rows": 8,
                   "columns": [
                     {
                       "label": "Час",
@@ -34682,14 +34682,7 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "br",
-                          "cls": "",
-                          "w": 0,
-                          "h": 12
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 1,
@@ -34698,25 +34691,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 179.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 179.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 179.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 179.4,
                           "h": 23.4
                         }
@@ -34726,26 +34701,33 @@
                       "col": 2,
                       "w": 186.4,
                       "padding": "3px",
+                      "controls": []
+                    },
+                    {
+                      "col": 3,
+                      "w": 186.4,
+                      "padding": "3px",
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 179.4,
                           "h": 23.4
                         }
                       ]
                     },
                     {
-                      "col": 3,
-                      "w": 186.4,
-                      "padding": "3px",
-                      "controls": []
-                    },
-                    {
                       "col": 4,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card",
+                          "w": 179.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 5,
@@ -54012,7 +53994,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:05"
+                                  "text": "Оновлено: 11:53"
                                 }
                               ]
                             },
@@ -57284,7 +57266,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:05"
+                                  "text": "Оновлено: 11:53"
                                 }
                               ]
                             },
@@ -57931,35 +57913,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 154.8
+                      "w": 142.1
                     },
                     {
                       "label": "Учнів",
-                      "w": 243.8
+                      "w": 223.7
                     },
                     {
                       "label": "Занять",
-                      "w": 381.5
+                      "w": 437.1
                     },
                     {
                       "label": "Основа",
-                      "w": 210.3
+                      "w": 192.9
                     },
                     {
                       "label": "Сума",
-                      "w": 126.6
+                      "w": 121.2
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 154.8,
+                      "w": 142.1,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 243.8,
+                      "w": 223.7,
                       "padding": "8px",
                       "controls": [
                         {
@@ -57972,7 +57954,7 @@
                     },
                     {
                       "col": 2,
-                      "w": 381.5,
+                      "w": 437.1,
                       "padding": "8px",
                       "controls": [
                         {
@@ -57989,21 +57971,27 @@
                         },
                         {
                           "tag": "span",
-                          "cls": "pnl-warn",
-                          "w": 67,
-                          "h": 15
+                          "cls": "pnl-hint-soft",
+                          "w": 140,
+                          "h": 14
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "pnl-hint-soft",
+                          "w": 91,
+                          "h": 14
                         }
                       ]
                     },
                     {
                       "col": 3,
-                      "w": 210.3,
+                      "w": 192.9,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 4,
-                      "w": 126.6,
+                      "w": 121.2,
                       "padding": "8px",
                       "controls": []
                     }
@@ -60183,7 +60171,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:05"
+                                  "text": "Оновлено: 11:53"
                                 }
                               ]
                             },
@@ -60767,7 +60755,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (31 100 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
                                 }
                               ]
                             }
@@ -107552,7 +107540,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 5051.8
+                        "h": 5052.8
                       },
                       "styles": {
                         "display": "block",
@@ -108376,7 +108364,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 4775.8
+                            "h": 4776.8
                           },
                           "styles": {
                             "display": "block",
@@ -108643,7 +108631,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4015.4
+                                "h": 4016.4
                               },
                               "styles": {
                                 "display": "block",
@@ -108675,7 +108663,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3972.4
+                                    "h": 3973.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -108695,7 +108683,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3973.4
+                                    "y": 3974.4
                                   },
                                   "size": {
                                     "w": 797,
@@ -108794,11 +108782,11 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3972.4
+                    "h": 3973.4
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4015.4
+                    "h": 4016.4
                   },
                   "headHeight": 39.5,
                   "rowHeight": 64,
@@ -112001,7 +111989,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 5051.8
+                        "h": 5052.8
                       },
                       "styles": {
                         "display": "block",
@@ -112825,7 +112813,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 4775.8
+                            "h": 4776.8
                           },
                           "styles": {
                             "display": "block",
@@ -113092,7 +113080,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4015.4
+                                "h": 4016.4
                               },
                               "styles": {
                                 "display": "block",
@@ -113124,7 +113112,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3972.4
+                                    "h": 3973.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -113144,7 +113132,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -1006,
-                                    "y": 3973.4
+                                    "y": 3974.4
                                   },
                                   "size": {
                                     "w": 797,
@@ -113243,11 +113231,11 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3972.4
+                    "h": 3973.4
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4015.4
+                    "h": 4016.4
                   },
                   "headHeight": 39.5,
                   "rowHeight": 64,
@@ -120548,7 +120536,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -120574,7 +120562,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -120639,7 +120627,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -120665,7 +120653,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -123041,7 +123029,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1471.3
+                        "h": 1279.2
                       },
                       "styles": {
                         "display": "block",
@@ -123865,7 +123853,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1195.3
+                            "h": 1003.2
                           },
                           "styles": {
                             "display": "block",
@@ -123971,7 +123959,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 1105.3
+                                "h": 913.2
                               },
                               "styles": {
                                 "display": "block",
@@ -124006,7 +123994,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 1071.3
+                                    "h": 879.2
                                   },
                                   "styles": {
                                     "display": "block",
@@ -124040,12 +124028,12 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 1022.3
+                    "h": 830.2
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 212.1,
-                  "rows": 9,
+                  "rowHeight": 34.4,
+                  "rows": 8,
                   "columns": [
                     {
                       "label": "Час",
@@ -124085,14 +124073,7 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "br",
-                          "cls": "",
-                          "w": 0,
-                          "h": 12
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 1,
@@ -124101,25 +124082,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 107.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 107.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 107.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 107.4,
                           "h": 23.4
                         }
@@ -124129,26 +124092,33 @@
                       "col": 2,
                       "w": 114.4,
                       "padding": "3px",
+                      "controls": []
+                    },
+                    {
+                      "col": 3,
+                      "w": 114.4,
+                      "padding": "3px",
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 107.4,
                           "h": 23.4
                         }
                       ]
                     },
                     {
-                      "col": 3,
-                      "w": 114.4,
-                      "padding": "3px",
-                      "controls": []
-                    },
-                    {
                       "col": 4,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card",
+                          "w": 107.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 5,
@@ -140718,7 +140688,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2330
+                        "h": 2340
                       },
                       "styles": {
                         "display": "block",
@@ -140835,7 +140805,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2286
+                            "h": 2296
                           },
                           "styles": {
                             "display": "block",
@@ -140867,7 +140837,7 @@
                               },
                               "size": {
                                 "w": 797,
-                                "h": 2284
+                                "h": 2294
                               },
                               "styles": {
                                 "display": "table",
@@ -140891,7 +140861,7 @@
                                   },
                                   "size": {
                                     "w": 797,
-                                    "h": 2284
+                                    "h": 2294
                                   },
                                   "styles": {
                                     "display": "table-column-group",
@@ -140939,7 +140909,7 @@
                                   },
                                   "size": {
                                     "w": 797,
-                                    "h": 2244.5
+                                    "h": 2254.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -140973,11 +140943,11 @@
                   },
                   "size": {
                     "w": 797,
-                    "h": 2284
+                    "h": 2294
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 2286
+                    "h": 2296
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
@@ -143198,7 +143168,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:06"
+                                  "text": "Оновлено: 11:54"
                                 }
                               ]
                             },
@@ -146439,7 +146409,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:06"
+                                  "text": "Оновлено: 11:54"
                                 }
                               ]
                             },
@@ -147086,35 +147056,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 104.9
+                      "w": 96.3
                     },
                     {
                       "label": "Учнів",
-                      "w": 165.2
+                      "w": 151.6
                     },
                     {
                       "label": "Занять",
-                      "w": 258.5
+                      "w": 296.2
                     },
                     {
                       "label": "Основа",
-                      "w": 142.5
+                      "w": 130.8
                     },
                     {
                       "label": "Сума",
-                      "w": 85.8
+                      "w": 82.2
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 104.9,
+                      "w": 96.3,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 165.2,
+                      "w": 151.6,
                       "padding": "8px",
                       "controls": [
                         {
@@ -147127,7 +147097,7 @@
                     },
                     {
                       "col": 2,
-                      "w": 258.5,
+                      "w": 296.2,
                       "padding": "8px",
                       "controls": [
                         {
@@ -147144,21 +147114,27 @@
                         },
                         {
                           "tag": "span",
-                          "cls": "pnl-warn",
-                          "w": 67,
-                          "h": 15
+                          "cls": "pnl-hint-soft",
+                          "w": 140,
+                          "h": 14
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "pnl-hint-soft",
+                          "w": 91,
+                          "h": 14
                         }
                       ]
                     },
                     {
                       "col": 3,
-                      "w": 142.5,
+                      "w": 130.8,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 4,
-                      "w": 85.8,
+                      "w": 82.2,
                       "padding": "8px",
                       "controls": []
                     }
@@ -149307,7 +149283,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:06"
+                                  "text": "Оновлено: 11:54"
                                 }
                               ]
                             },
@@ -149891,7 +149867,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (31 100 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
                                 }
                               ]
                             }
@@ -194831,7 +194807,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 6010.2
+                        "h": 6011.2
                       },
                       "styles": {
                         "display": "block",
@@ -195655,7 +195631,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 5214.2
+                            "h": 5215.2
                           },
                           "styles": {
                             "display": "block",
@@ -195922,7 +195898,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 3659.4
+                                "h": 3660.4
                               },
                               "styles": {
                                 "display": "block",
@@ -195954,7 +195930,7 @@
                                   },
                                   "size": {
                                     "w": 1709.5,
-                                    "h": 3616.4
+                                    "h": 3617.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -195974,7 +195950,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3617.4
+                                    "y": 3618.4
                                   },
                                   "size": {
                                     "w": 287,
@@ -196073,11 +196049,11 @@
                   },
                   "size": {
                     "w": 1709.5,
-                    "h": 3616.4
+                    "h": 3617.4
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 3659.4
+                    "h": 3660.4
                   },
                   "headHeight": 33.5,
                   "rowHeight": 58,
@@ -198973,7 +198949,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 6010.2
+                        "h": 6011.2
                       },
                       "styles": {
                         "display": "block",
@@ -199797,7 +199773,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 5214.2
+                            "h": 5215.2
                           },
                           "styles": {
                             "display": "block",
@@ -200064,7 +200040,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 3659.4
+                                "h": 3660.4
                               },
                               "styles": {
                                 "display": "block",
@@ -200096,7 +200072,7 @@
                                   },
                                   "size": {
                                     "w": 1709.5,
-                                    "h": 3616.4
+                                    "h": 3617.4
                                   },
                                   "styles": {
                                     "display": "table",
@@ -200116,7 +200092,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -1420,
-                                    "y": 3617.4
+                                    "y": 3618.4
                                   },
                                   "size": {
                                     "w": 287,
@@ -200215,11 +200191,11 @@
                   },
                   "size": {
                     "w": 1709.5,
-                    "h": 3616.4
+                    "h": 3617.4
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 3659.4
+                    "h": 3660.4
                   },
                   "headHeight": 33.5,
                   "rowHeight": 58,
@@ -206906,7 +206882,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -206932,7 +206908,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -206997,7 +206973,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -207023,7 +206999,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-cancelled",
+                          "cls": "att-cell att-scheduled",
                           "w": 24,
                           "h": 24
                         }
@@ -209092,7 +209068,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2102.3
+                        "h": 1910.2
                       },
                       "styles": {
                         "display": "block",
@@ -209916,7 +209892,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1306.3
+                            "h": 1114.2
                           },
                           "styles": {
                             "display": "block",
@@ -210022,7 +209998,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1141.3
+                                "h": 949.2
                               },
                               "styles": {
                                 "display": "block",
@@ -210057,7 +210033,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 1107.3
+                                    "h": 915.2
                                   },
                                   "styles": {
                                     "display": "block",
@@ -210144,12 +210120,12 @@
                   },
                   "size": {
                     "w": 620,
-                    "h": 1022.3
+                    "h": 830.2
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 212.1,
-                  "rows": 9,
+                  "rowHeight": 34.4,
+                  "rows": 8,
                   "columns": [
                     {
                       "label": "Час",
@@ -210189,14 +210165,7 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "br",
-                          "cls": "",
-                          "w": 0,
-                          "h": 12
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 1,
@@ -210205,25 +210174,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 78.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 78.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
-                          "w": 78.4,
-                          "h": 23.4
-                        },
-                        {
-                          "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 78.4,
                           "h": 23.4
                         }
@@ -210233,26 +210184,33 @@
                       "col": 2,
                       "w": 85.4,
                       "padding": "3px",
+                      "controls": []
+                    },
+                    {
+                      "col": 3,
+                      "w": 85.4,
+                      "padding": "3px",
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card sched-card-un",
+                          "cls": "sched-card",
                           "w": 78.4,
                           "h": 23.4
                         }
                       ]
                     },
                     {
-                      "col": 3,
-                      "w": 85.4,
-                      "padding": "3px",
-                      "controls": []
-                    },
-                    {
                       "col": 4,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card",
+                          "w": 78.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 5,
@@ -225628,7 +225586,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2451
+                        "h": 2461
                       },
                       "styles": {
                         "display": "block",
@@ -225745,7 +225703,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 2407
+                            "h": 2417
                           },
                           "styles": {
                             "display": "block",
@@ -225777,7 +225735,7 @@
                               },
                               "size": {
                                 "w": 287,
-                                "h": 2405
+                                "h": 2415
                               },
                               "styles": {
                                 "display": "table",
@@ -225801,7 +225759,7 @@
                                   },
                                   "size": {
                                     "w": 287,
-                                    "h": 2405
+                                    "h": 2415
                                   },
                                   "styles": {
                                     "display": "table-column-group",
@@ -225849,7 +225807,7 @@
                                   },
                                   "size": {
                                     "w": 287,
-                                    "h": 2371.5
+                                    "h": 2381.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -225883,11 +225841,11 @@
                   },
                   "size": {
                     "w": 287,
-                    "h": 2405
+                    "h": 2415
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 2407
+                    "h": 2417
                   },
                   "headHeight": 33.5,
                   "rowHeight": 53,
@@ -227909,7 +227867,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:07"
+                                  "text": "Оновлено: 11:55"
                                 }
                               ]
                             },
@@ -230834,7 +230792,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2670
+                        "h": 2654
                       },
                       "styles": {
                         "display": "block",
@@ -230951,7 +230909,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:07"
+                                  "text": "Оновлено: 11:55"
                                 }
                               ]
                             },
@@ -231129,7 +231087,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 2503
+                            "h": 2487
                           },
                           "styles": {
                             "display": "block",
@@ -231268,7 +231226,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1465
+                                "h": 1449
                               },
                               "styles": {
                                 "display": "grid",
@@ -231294,7 +231252,7 @@
                                   },
                                   "size": {
                                     "w": 300,
-                                    "h": 373
+                                    "h": 357
                                   },
                                   "styles": {
                                     "display": "block",
@@ -231325,7 +231283,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 387
+                                    "y": 371
                                   },
                                   "size": {
                                     "w": 300,
@@ -231360,7 +231318,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 894.5
+                                    "y": 878.5
                                   },
                                   "size": {
                                     "w": 300,
@@ -231397,7 +231355,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1609
+                                "y": 1593
                               },
                               "size": {
                                 "w": 289,
@@ -231487,7 +231445,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2042
+                                "y": 2026
                               },
                               "size": {
                                 "w": 289,
@@ -231554,7 +231512,7 @@
                                     "y": 89
                                   },
                                   "size": {
-                                    "w": 366.6,
+                                    "w": 400.2,
                                     "h": 351
                                   },
                                   "styles": {
@@ -231585,10 +231543,10 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 2312
+                    "y": 2296
                   },
                   "size": {
-                    "w": 366.6,
+                    "w": 400.2,
                     "h": 351
                   },
                   "wrap": null,
@@ -231606,7 +231564,7 @@
                     },
                     {
                       "label": "Занять",
-                      "w": 62.4
+                      "w": 93
                     },
                     {
                       "label": "Основа",
@@ -231614,7 +231572,7 @@
                     },
                     {
                       "label": "Сума",
-                      "w": 68
+                      "w": 71
                     }
                   ],
                   "cells": [
@@ -231639,14 +231597,14 @@
                     },
                     {
                       "col": 2,
-                      "w": 62.4,
+                      "w": 93,
                       "padding": "8px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 42,
-                          "h": 74
+                          "w": 75,
+                          "h": 44
                         },
                         {
                           "tag": "br",
@@ -231656,9 +231614,15 @@
                         },
                         {
                           "tag": "span",
-                          "cls": "pnl-warn",
-                          "w": 36,
-                          "h": 30
+                          "cls": "pnl-hint-soft",
+                          "w": 60,
+                          "h": 44
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "pnl-hint-soft",
+                          "w": 77,
+                          "h": 29
                         }
                       ]
                     },
@@ -231670,7 +231634,7 @@
                     },
                     {
                       "col": 4,
-                      "w": 68,
+                      "w": 71,
                       "padding": "8px",
                       "controls": []
                     }
@@ -233620,7 +233584,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 10:07"
+                                  "text": "Оновлено: 11:55"
                                 }
                               ]
                             },
@@ -234204,7 +234168,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (31 100 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
                                 }
                               ]
                             }
