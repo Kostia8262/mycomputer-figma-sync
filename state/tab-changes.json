@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 14,
+ "total": 15,
  "summary": [
   {
    "tab": "База клієнтів",
@@ -8,7 +8,7 @@
    "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(admin): let the course programme be edited in both languages"
+    "2026-08-14 fix(design): keep the programme translations the panel writes"
    ]
   },
   {
@@ -16,7 +16,7 @@
    "commits": 1,
    "lines": 12490,
    "subjects": [
-    "2026-08-14 fix(admin): let the course programme be edited in both languages"
+    "2026-08-14 fix(design): keep the programme translations the panel writes"
    ]
   },
   {
@@ -24,7 +24,15 @@
    "commits": 1,
    "lines": 12490,
    "subjects": [
-    "2026-08-14 fix(admin): let the course programme be edited in both languages"
+    "2026-08-14 fix(design): keep the programme translations the panel writes"
+   ]
+  },
+  {
+   "tab": "Відвідування",
+   "commits": 1,
+   "lines": 183,
+   "subjects": [
+    "2026-08-18 feat(attendance): ask for the hour before a make-up lesson is saved"
    ]
   },
   {
