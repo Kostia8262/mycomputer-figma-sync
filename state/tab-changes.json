@@ -1,7 +1,17 @@
 {
  "since": "2026-08-01",
- "total": 21,
+ "total": 22,
  "summary": [
+  {
+   "tab": "Оболонка (шапка, сайдбар, спільне)",
+   "commits": 3,
+   "lines": 12833,
+   "subjects": [
+    "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
+    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
+    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
+   ]
+  },
   {
    "tab": "База клієнтів",
    "commits": 3,
@@ -9,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 feat(animation): stretch the course programme to eighteen months"
+    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
    ]
   },
   {
@@ -18,16 +28,7 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(animation): stretch the course programme to eighteen months"
-   ]
-  },
-  {
-   "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 2,
-   "lines": 12600,
-   "subjects": [
-    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(animation): stretch the course programme to eighteen months"
+    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
    ]
   },
   {
