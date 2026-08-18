@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 19,
+ "total": 20,
  "summary": [
   {
    "tab": "Співробітники",
@@ -8,7 +8,7 @@
    "lines": 12570,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): give the article pages their second locale"
+    "2026-08-14 fix(sites): finish the second locale across both networks"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 12570,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): give the article pages their second locale"
+    "2026-08-14 fix(sites): finish the second locale across both networks"
    ]
   },
   {
@@ -26,14 +26,15 @@
    "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): give the article pages their second locale"
+    "2026-08-14 fix(sites): finish the second locale across both networks"
    ]
   },
   {
    "tab": "Відвідування",
-   "commits": 3,
-   "lines": 267,
+   "commits": 4,
+   "lines": 321,
    "subjects": [
+    "2026-08-18 feat(attendance): give any lesson off the timetable an hour of its own",
     "2026-08-18 feat(payroll): count a make-up by the hour it was held at",
     "2026-08-18 feat(attendance): grey out Save until the make-up hour is filled in",
     "2026-08-18 feat(attendance): ask for the hour before a make-up lesson is saved"
