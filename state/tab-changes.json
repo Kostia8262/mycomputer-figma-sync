@@ -3,29 +3,28 @@
  "total": 14,
  "summary": [
   {
-   "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 2,
-   "lines": 12522,
-   "subjects": [
-    "2026-08-14 fix(admin): let the course programme be edited in both languages",
-    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
-   ]
-  },
-  {
    "tab": "База клієнтів",
    "commits": 2,
-   "lines": 12477,
+   "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
+    "2026-08-14 fix(admin): let the course programme be edited in both languages"
    ]
   },
   {
    "tab": "Співробітники",
    "commits": 1,
-   "lines": 12458,
+   "lines": 12490,
    "subjects": [
-    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
+    "2026-08-14 fix(admin): let the course programme be edited in both languages"
+   ]
+  },
+  {
+   "tab": "Оболонка (шапка, сайдбар, спільне)",
+   "commits": 1,
+   "lines": 12490,
+   "subjects": [
+    "2026-08-14 fix(admin): let the course programme be edited in both languages"
    ]
   },
   {
@@ -49,6 +48,7 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 feat(finance): show the hours behind the lesson count in payroll",
   "2026-08-18 feat(finance): sum up the payroll card",
   "2026-08-18 feat(finance): total up the month's costs above the profit line",
   "2026-08-18 style(admin): pin the month actions to the right of the finance header",
