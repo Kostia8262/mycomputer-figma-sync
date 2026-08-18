@@ -2536,7 +2536,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6790,7 +6790,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10632,7 +10632,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14312,7 +14312,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -17718,7 +17718,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5058.8
+                        "h": 5513.5
                       },
                       "styles": {
                         "display": "block",
@@ -18418,7 +18418,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -18445,11 +18445,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 293.3,
+                                "x": 235.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -18472,14 +18472,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 581.5,
+                                "x": 466.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 696.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -18505,11 +18535,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 869.8,
+                                "x": 927.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -18542,7 +18572,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 4782.8
+                            "h": 5237.5
                           },
                           "styles": {
                             "display": "block",
@@ -18809,7 +18839,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4016.4
+                                "h": 4471.1
                               },
                               "styles": {
                                 "display": "block",
@@ -18841,7 +18871,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3973.4
+                                    "h": 4428.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -18861,7 +18891,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3974.4
+                                    "y": 4429.1
                                   },
                                   "size": {
                                     "w": 1157,
@@ -18960,14 +18990,14 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3973.4
+                    "h": 4428.1
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4016.4
+                    "h": 4471.1
                   },
                   "headHeight": 39.5,
-                  "rowHeight": 64,
+                  "rowHeight": 66,
                   "rows": 64,
                   "columns": [
                     {
@@ -19065,6 +19095,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -22284,11 +22320,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 24,
-                        "y": -693
+                        "y": -694
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5058.8
+                        "h": 5513.5
                       },
                       "styles": {
                         "display": "block",
@@ -22988,7 +23024,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -23015,11 +23051,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 293.3,
+                                "x": 235.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -23042,14 +23078,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 581.5,
+                                "x": 466.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 696.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -23075,11 +23141,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 869.8,
+                                "x": 927.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -23112,7 +23178,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 4782.8
+                            "h": 5237.5
                           },
                           "styles": {
                             "display": "block",
@@ -23379,7 +23445,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4016.4
+                                "h": 4471.1
                               },
                               "styles": {
                                 "display": "block",
@@ -23411,7 +23477,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3973.4
+                                    "h": 4428.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -23431,7 +23497,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -646,
-                                    "y": 3974.4
+                                    "y": 4429.1
                                   },
                                   "size": {
                                     "w": 1157,
@@ -23465,7 +23531,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1247
+                                "y": 1248
                               },
                               "size": {
                                 "w": 1159,
@@ -23526,18 +23592,18 @@
                   "id": "clientsTable",
                   "rel": {
                     "x": -404,
-                    "y": 350.4
+                    "y": 349.4
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3973.4
+                    "h": 4428.1
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4016.4
+                    "h": 4471.1
                   },
                   "headHeight": 39.5,
-                  "rowHeight": 64,
+                  "rowHeight": 66,
                   "rows": 64,
                   "columns": [
                     {
@@ -23635,6 +23701,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -26770,7 +26842,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -26796,11 +26868,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 293.3,
+                                "x": 235.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -26824,14 +26896,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 581.5,
+                                "x": 466.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 696.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -26857,11 +26959,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 869.8,
+                                "x": 927.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -30303,7 +30405,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -30329,11 +30431,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 293.3,
+                                "x": 235.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -30356,14 +30458,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 581.5,
+                                "x": 466.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 696.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -30390,11 +30522,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 869.8,
+                                "x": 927.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -33638,7 +33770,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1230.2
+                        "h": 1290
                       },
                       "styles": {
                         "display": "block",
@@ -34338,7 +34470,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -34364,11 +34496,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 293.3,
+                                "x": 235.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -34391,14 +34523,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 581.5,
+                                "x": 466.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 696.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -34424,11 +34586,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 869.8,
+                                "x": 927.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 284.3,
+                                "w": 226.6,
                                 "h": 36
                               },
                               "styles": {
@@ -34462,7 +34624,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 954.2
+                            "h": 1014
                           },
                           "styles": {
                             "display": "block",
@@ -34568,7 +34730,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 904.2
+                                "h": 964
                               },
                               "styles": {
                                 "display": "block",
@@ -34603,7 +34765,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 870.2
+                                    "h": 930
                                   },
                                   "styles": {
                                     "display": "block",
@@ -34637,12 +34799,12 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 821.2
+                    "h": 881
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 59.8,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -34682,52 +34844,51 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 179.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 2,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 179.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 179.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -53877,7 +54038,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2447.8
+                        "h": 2373.9
                       },
                       "styles": {
                         "display": "block",
@@ -53994,7 +54155,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:53"
+                                  "text": "Оновлено: 14:03"
                                 }
                               ]
                             },
@@ -54172,7 +54333,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 2320.8
+                            "h": 2246.9
                           },
                           "styles": {
                             "display": "block",
@@ -54196,7 +54357,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 115.9
+                                "h": 42
                               },
                               "styles": {
                                 "display": "block",
@@ -54221,23 +54382,33 @@
                                   },
                                   "size": {
                                     "w": 1159,
-                                    "h": 115.9
+                                    "h": 42
                                   },
                                   "styles": {
-                                    "display": "grid",
+                                    "display": "block",
                                     "flexDirection": "row",
-                                    "gap": "10px",
-                                    "gridTemplateColumns": "379.656px 379.672px 379.672px",
                                     "flexWrap": "nowrap",
+                                    "paddingTop": "12px",
+                                    "paddingRight": "16px",
+                                    "paddingBottom": "12px",
+                                    "paddingLeft": "16px",
                                     "marginBottom": "4px",
                                     "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
+                                    "fontSize": "13px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(16, 104, 48)",
+                                    "backgroundColor": "rgb(240, 253, 244)",
+                                    "borderRadius": "12px",
                                     "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "borderTopWidth": "1px",
+                                    "borderRightWidth": "1px",
+                                    "borderBottomWidth": "1px",
+                                    "borderLeftWidth": "1px",
+                                    "borderTopColor": "rgb(134, 239, 172)",
                                     "textAlign": "start"
-                                  }
+                                  },
+                                  "bordered": true,
+                                  "text": "✅ Критичних проблем немає — всі заявки оброблено, прострочень не виявлено"
                                 }
                               ]
                             },
@@ -54246,7 +54417,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 135.9
+                                "y": 62
                               },
                               "size": {
                                 "w": 1159,
@@ -54308,7 +54479,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 233.9
+                                "y": 160
                               },
                               "size": {
                                 "w": 1159,
@@ -54336,7 +54507,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 258.9
+                                "y": 185
                               },
                               "size": {
                                 "w": 1159,
@@ -54473,7 +54644,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 466.5
+                                "y": 392.7
                               },
                               "size": {
                                 "w": 1159,
@@ -54501,7 +54672,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 491.5
+                                "y": 417.7
                               },
                               "size": {
                                 "w": 1159,
@@ -54775,7 +54946,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 819.8
+                                "y": 745.9
                               },
                               "size": {
                                 "w": 1159,
@@ -54909,7 +55080,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1149.8
+                                "y": 1075.9
                               },
                               "size": {
                                 "w": 1159,
@@ -55006,7 +55177,7 @@
                   "id": null,
                   "rel": {
                     "x": 263,
-                    "y": 1351.8
+                    "y": 1277.9
                   },
                   "size": {
                     "w": 1117,
@@ -57266,7 +57437,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:53"
+                                  "text": "Оновлено: 14:03"
                                 }
                               ]
                             },
@@ -57913,35 +58084,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 142.1
+                      "w": 142.7
                     },
                     {
                       "label": "Учнів",
-                      "w": 223.7
+                      "w": 224.7
                     },
                     {
                       "label": "Занять",
-                      "w": 437.1
+                      "w": 434
                     },
                     {
                       "label": "Основа",
-                      "w": 192.9
+                      "w": 193.8
                     },
                     {
                       "label": "Сума",
-                      "w": 121.2
+                      "w": 121.8
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 142.1,
+                      "w": 142.7,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 223.7,
+                      "w": 224.7,
                       "padding": "8px",
                       "controls": [
                         {
@@ -57954,13 +58125,13 @@
                     },
                     {
                       "col": 2,
-                      "w": 437.1,
+                      "w": 434,
                       "padding": "8px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 161,
+                          "w": 170,
                           "h": 14
                         },
                         {
@@ -57978,20 +58149,20 @@
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 91,
+                          "w": 88,
                           "h": 14
                         }
                       ]
                     },
                     {
                       "col": 3,
-                      "w": 192.9,
+                      "w": 193.8,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 4,
-                      "w": 121.2,
+                      "w": 121.8,
                       "padding": "8px",
                       "controls": []
                     }
@@ -60171,7 +60342,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:53"
+                                  "text": "Оновлено: 14:03"
                                 }
                               ]
                             },
@@ -60755,7 +60926,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (24 500 ₴), поділений\n         "
                                 }
                               ]
                             }
@@ -92736,7 +92907,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -96869,7 +97040,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -100590,7 +100761,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104202,7 +104373,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -107540,7 +107711,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 5052.8
+                        "h": 5507.5
                       },
                       "styles": {
                         "display": "block",
@@ -108240,7 +108411,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -108267,11 +108438,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 203.3,
+                                "x": 163.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -108294,14 +108465,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 401.5,
+                                "x": 322.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 480.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -108327,11 +108528,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 599.8,
+                                "x": 639.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -108364,7 +108565,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 4776.8
+                            "h": 5231.5
                           },
                           "styles": {
                             "display": "block",
@@ -108631,7 +108832,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4016.4
+                                "h": 4471.1
                               },
                               "styles": {
                                 "display": "block",
@@ -108663,7 +108864,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3973.4
+                                    "h": 4428.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -108683,7 +108884,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3974.4
+                                    "y": 4429.1
                                   },
                                   "size": {
                                     "w": 797,
@@ -108782,14 +108983,14 @@
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3973.4
+                    "h": 4428.1
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4016.4
+                    "h": 4471.1
                   },
                   "headHeight": 39.5,
-                  "rowHeight": 64,
+                  "rowHeight": 66,
                   "rows": 64,
                   "columns": [
                     {
@@ -108887,6 +109088,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -111985,11 +112192,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 14,
-                        "y": -687
+                        "y": -688
                       },
                       "size": {
                         "w": 799,
-                        "h": 5052.8
+                        "h": 5507.5
                       },
                       "styles": {
                         "display": "block",
@@ -112689,7 +112896,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -112716,11 +112923,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 203.3,
+                                "x": 163.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -112743,14 +112950,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 401.5,
+                                "x": 322.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 480.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -112776,11 +113013,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 599.8,
+                                "x": 639.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -112813,7 +113050,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 4776.8
+                            "h": 5231.5
                           },
                           "styles": {
                             "display": "block",
@@ -113080,7 +113317,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4016.4
+                                "h": 4471.1
                               },
                               "styles": {
                                 "display": "block",
@@ -113112,7 +113349,7 @@
                                   },
                                   "size": {
                                     "w": 1805.5,
-                                    "h": 3973.4
+                                    "h": 4428.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -113132,7 +113369,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -1006,
-                                    "y": 3974.4
+                                    "y": 4429.1
                                   },
                                   "size": {
                                     "w": 797,
@@ -113166,7 +113403,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1241
+                                "y": 1242
                               },
                               "size": {
                                 "w": 799,
@@ -113227,18 +113464,18 @@
                   "id": "clientsTable",
                   "rel": {
                     "x": -934,
-                    "y": 350.4
+                    "y": 349.4
                   },
                   "size": {
                     "w": 1805.5,
-                    "h": 3973.4
+                    "h": 4428.1
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4016.4
+                    "h": 4471.1
                   },
                   "headHeight": 39.5,
-                  "rowHeight": 64,
+                  "rowHeight": 66,
                   "rows": 64,
                   "columns": [
                     {
@@ -113336,6 +113573,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -116350,7 +116593,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -116376,11 +116619,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 203.3,
+                                "x": 163.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -116404,14 +116647,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 401.5,
+                                "x": 322.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 480.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -116437,11 +116710,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 599.8,
+                                "x": 639.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -119762,7 +120035,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -119788,11 +120061,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 203.3,
+                                "x": 163.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -119815,14 +120088,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 401.5,
+                                "x": 322.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 480.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -119849,11 +120152,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 599.8,
+                                "x": 639.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -123029,7 +123332,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1279.2
+                        "h": 1339
                       },
                       "styles": {
                         "display": "block",
@@ -123729,7 +124032,7 @@
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -123755,11 +124058,11 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 203.3,
+                                "x": 163.6,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -123782,14 +124085,44 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
-                                "x": 401.5,
+                                "x": 322.2,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 480.8,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -123815,11 +124148,11 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 599.8,
+                                "x": 639.4,
                                 "y": 5
                               },
                               "size": {
-                                "w": 194.3,
+                                "w": 154.6,
                                 "h": 36
                               },
                               "styles": {
@@ -123853,7 +124186,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1003.2
+                            "h": 1063
                           },
                           "styles": {
                             "display": "block",
@@ -123959,7 +124292,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 913.2
+                                "h": 973
                               },
                               "styles": {
                                 "display": "block",
@@ -123994,7 +124327,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 879.2
+                                    "h": 939
                                   },
                                   "styles": {
                                     "display": "block",
@@ -124028,12 +124361,12 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 830.2
+                    "h": 890
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 59.8,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -124073,52 +124406,51 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 107.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 2,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 107.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 107.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -143051,7 +143383,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2533.7
+                        "h": 2459.8
                       },
                       "styles": {
                         "display": "block",
@@ -143168,7 +143500,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:54"
+                                  "text": "Оновлено: 14:04"
                                 }
                               ]
                             },
@@ -143346,7 +143678,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2406.7
+                            "h": 2332.8
                           },
                           "styles": {
                             "display": "block",
@@ -143370,7 +143702,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 115.9
+                                "h": 42
                               },
                               "styles": {
                                 "display": "block",
@@ -143395,23 +143727,33 @@
                                   },
                                   "size": {
                                     "w": 799,
-                                    "h": 115.9
+                                    "h": 42
                                   },
                                   "styles": {
-                                    "display": "grid",
+                                    "display": "block",
                                     "flexDirection": "row",
-                                    "gap": "10px",
-                                    "gridTemplateColumns": "394.5px 394.5px",
                                     "flexWrap": "nowrap",
+                                    "paddingTop": "12px",
+                                    "paddingRight": "16px",
+                                    "paddingBottom": "12px",
+                                    "paddingLeft": "16px",
                                     "marginBottom": "4px",
                                     "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
+                                    "fontSize": "13px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(16, 104, 48)",
+                                    "backgroundColor": "rgb(240, 253, 244)",
+                                    "borderRadius": "12px",
                                     "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "borderTopWidth": "1px",
+                                    "borderRightWidth": "1px",
+                                    "borderBottomWidth": "1px",
+                                    "borderLeftWidth": "1px",
+                                    "borderTopColor": "rgb(134, 239, 172)",
                                     "textAlign": "start"
-                                  }
+                                  },
+                                  "bordered": true,
+                                  "text": "✅ Критичних проблем немає — всі заявки оброблено, прострочень не виявлено"
                                 }
                               ]
                             },
@@ -143420,7 +143762,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 135.9
+                                "y": 62
                               },
                               "size": {
                                 "w": 799,
@@ -143482,7 +143824,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 233.9
+                                "y": 160
                               },
                               "size": {
                                 "w": 799,
@@ -143510,7 +143852,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 258.9
+                                "y": 185
                               },
                               "size": {
                                 "w": 799,
@@ -143647,7 +143989,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 526.4
+                                "y": 452.5
                               },
                               "size": {
                                 "w": 799,
@@ -143675,7 +144017,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 551.4
+                                "y": 477.5
                               },
                               "size": {
                                 "w": 799,
@@ -143949,7 +144291,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 879.7
+                                "y": 805.8
                               },
                               "size": {
                                 "w": 799,
@@ -144083,7 +144425,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1235.7
+                                "y": 1161.8
                               },
                               "size": {
                                 "w": 799,
@@ -144180,7 +144522,7 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 1427.7
+                    "y": 1353.8
                   },
                   "size": {
                     "w": 757,
@@ -146409,7 +146751,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:54"
+                                  "text": "Оновлено: 14:04"
                                 }
                               ]
                             },
@@ -147056,35 +147398,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 96.3
+                      "w": 96.7
                     },
                     {
                       "label": "Учнів",
-                      "w": 151.6
+                      "w": 152.3
                     },
                     {
                       "label": "Занять",
-                      "w": 296.2
+                      "w": 294.1
                     },
                     {
                       "label": "Основа",
-                      "w": 130.8
+                      "w": 131.3
                     },
                     {
                       "label": "Сума",
-                      "w": 82.2
+                      "w": 82.6
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 96.3,
+                      "w": 96.7,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 151.6,
+                      "w": 152.3,
                       "padding": "8px",
                       "controls": [
                         {
@@ -147097,13 +147439,13 @@
                     },
                     {
                       "col": 2,
-                      "w": 296.2,
+                      "w": 294.1,
                       "padding": "8px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 161,
+                          "w": 170,
                           "h": 14
                         },
                         {
@@ -147121,20 +147463,20 @@
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 91,
+                          "w": 88,
                           "h": 14
                         }
                       ]
                     },
                     {
                       "col": 3,
-                      "w": 130.8,
+                      "w": 131.3,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 4,
-                      "w": 82.2,
+                      "w": 82.6,
                       "padding": "8px",
                       "controls": []
                     }
@@ -149283,7 +149625,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:54"
+                                  "text": "Оновлено: 14:04"
                                 }
                               ]
                             },
@@ -149867,7 +150209,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (24 500 ₴), поділений\n         "
                                 }
                               ]
                             }
@@ -181231,7 +181573,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -185057,7 +185399,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -188471,7 +188813,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -191776,7 +192118,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -194807,7 +195149,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 6011.2
+                        "h": 6431.8
                       },
                       "styles": {
                         "display": "block",
@@ -195561,10 +195903,40 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
                                 "x": 228,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 124,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 356,
                                 "y": 5
                               },
                               "size": {
@@ -195594,7 +195966,7 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 358,
+                                "x": 486,
                                 "y": 5
                               },
                               "size": {
@@ -195631,7 +196003,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 5215.2
+                            "h": 5635.8
                           },
                           "styles": {
                             "display": "block",
@@ -195898,7 +196270,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 3660.4
+                                "h": 4081.1
                               },
                               "styles": {
                                 "display": "block",
@@ -195930,7 +196302,7 @@
                                   },
                                   "size": {
                                     "w": 1709.5,
-                                    "h": 3617.4
+                                    "h": 4038.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -195950,7 +196322,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 3618.4
+                                    "y": 4039.1
                                   },
                                   "size": {
                                     "w": 287,
@@ -196049,14 +196421,14 @@
                   },
                   "size": {
                     "w": 1709.5,
-                    "h": 3617.4
+                    "h": 4038.1
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 3660.4
+                    "h": 4081.1
                   },
                   "headHeight": 33.5,
-                  "rowHeight": 58,
+                  "rowHeight": 60,
                   "rows": 64,
                   "columns": [
                     {
@@ -196154,6 +196526,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -198945,11 +199323,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 14,
-                        "y": -2020
+                        "y": -2021
                       },
                       "size": {
                         "w": 289,
-                        "h": 6011.2
+                        "h": 6431.8
                       },
                       "styles": {
                         "display": "block",
@@ -199703,10 +200081,40 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
                                 "x": 228,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 124,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 356,
                                 "y": 5
                               },
                               "size": {
@@ -199736,7 +200144,7 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 358,
+                                "x": 486,
                                 "y": 5
                               },
                               "size": {
@@ -199773,7 +200181,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 5215.2
+                            "h": 5635.8
                           },
                           "styles": {
                             "display": "block",
@@ -200040,7 +200448,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 3660.4
+                                "h": 4081.1
                               },
                               "styles": {
                                 "display": "block",
@@ -200072,7 +200480,7 @@
                                   },
                                   "size": {
                                     "w": 1709.5,
-                                    "h": 3617.4
+                                    "h": 4038.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -200092,7 +200500,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -1420,
-                                    "y": 3618.4
+                                    "y": 4039.1
                                   },
                                   "size": {
                                     "w": 287,
@@ -200126,7 +200534,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1998
+                                "y": 1999
                               },
                               "size": {
                                 "w": 289,
@@ -200187,18 +200595,18 @@
                   "id": "clientsTable",
                   "rel": {
                     "x": -1348,
-                    "y": 331.8
+                    "y": 330.8
                   },
                   "size": {
                     "w": 1709.5,
-                    "h": 3617.4
+                    "h": 4038.1
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 3660.4
+                    "h": 4081.1
                   },
                   "headHeight": 33.5,
-                  "rowHeight": 58,
+                  "rowHeight": 60,
                   "rows": 64,
                   "columns": [
                     {
@@ -200296,6 +200704,12 @@
                           "cls": "notes-input name-input",
                           "w": 150,
                           "h": 24
+                        },
+                        {
+                          "tag": "a",
+                          "cls": "name-cab",
+                          "w": 56.8,
+                          "h": 12
                         }
                       ]
                     },
@@ -203057,10 +203471,40 @@
                               "text": "💰 Оплати"
                             },
                             {
-                              "key": "#csub-attendance",
+                              "key": "#csub-subs",
                               "tag": "button",
                               "rel": {
                                 "x": 228,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 124,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
+                              "key": "#csub-attendance",
+                              "tag": "button",
+                              "rel": {
+                                "x": 356,
                                 "y": 5
                               },
                               "size": {
@@ -203090,7 +203534,7 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 358,
+                                "x": 486,
                                 "y": 5
                               },
                               "size": {
@@ -206104,7 +206548,7 @@
                               "key": "#csub-base",
                               "tag": "button",
                               "rel": {
-                                "x": -60,
+                                "x": -270,
                                 "y": 5
                               },
                               "size": {
@@ -206134,7 +206578,7 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": 69,
+                                "x": -141,
                                 "y": 5
                               },
                               "size": {
@@ -206161,10 +206605,40 @@
                               "text": "💰 Оплати"
                             },
                             {
+                              "key": "#csub-subs",
+                              "tag": "button",
+                              "rel": {
+                                "x": -47,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 124,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
                               "key": "#csub-attendance",
                               "tag": "button",
                               "rel": {
-                                "x": 163,
+                                "x": 81,
                                 "y": 5
                               },
                               "size": {
@@ -206195,7 +206669,7 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 293,
+                                "x": 211,
                                 "y": 5
                               },
                               "size": {
@@ -209068,7 +209542,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 1910.2
+                        "h": 1970
                       },
                       "styles": {
                         "display": "block",
@@ -209764,7 +210238,7 @@
                               "key": "#csub-base",
                               "tag": "button",
                               "rel": {
-                                "x": -165,
+                                "x": -288,
                                 "y": 5
                               },
                               "size": {
@@ -209794,7 +210268,7 @@
                               "key": "#csub-payments",
                               "tag": "button",
                               "rel": {
-                                "x": -36,
+                                "x": -159,
                                 "y": 5
                               },
                               "size": {
@@ -209821,10 +210295,40 @@
                               "text": "💰 Оплати"
                             },
                             {
+                              "key": "#csub-subs",
+                              "tag": "button",
+                              "rel": {
+                                "x": -65,
+                                "y": 5
+                              },
+                              "size": {
+                                "w": 124,
+                                "h": 36
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "flexWrap": "nowrap",
+                                "paddingRight": "12px",
+                                "paddingLeft": "12px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "color": "rgb(144, 137, 179)",
+                                "borderRadius": "8px",
+                                "opacity": "1",
+                                "borderTopColor": "rgb(144, 137, 179)",
+                                "textAlign": "center"
+                              },
+                              "text": "🎫 Абонементи"
+                            },
+                            {
                               "key": "#csub-attendance",
                               "tag": "button",
                               "rel": {
-                                "x": 58,
+                                "x": 63,
                                 "y": 5
                               },
                               "size": {
@@ -209854,7 +210358,7 @@
                               "key": "#csub-schedule",
                               "tag": "button",
                               "rel": {
-                                "x": 188,
+                                "x": 193,
                                 "y": 5
                               },
                               "size": {
@@ -209892,7 +210396,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1114.2
+                            "h": 1174
                           },
                           "styles": {
                             "display": "block",
@@ -209998,7 +210502,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 949.2
+                                "h": 1009
                               },
                               "styles": {
                                 "display": "block",
@@ -210033,7 +210537,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 915.2
+                                    "h": 975
                                   },
                                   "styles": {
                                     "display": "block",
@@ -210120,12 +210624,12 @@
                   },
                   "size": {
                     "w": 620,
-                    "h": 830.2
+                    "h": 890
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 59.8,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -210165,52 +210669,51 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 78.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 2,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 78.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 78.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -227750,7 +228253,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 4317.6
+                        "h": 4251.7
                       },
                       "styles": {
                         "display": "block",
@@ -227867,7 +228370,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:55"
+                                  "text": "Оновлено: 14:05"
                                 }
                               ]
                             },
@@ -228045,7 +228548,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 4150.6
+                            "h": 4084.7
                           },
                           "styles": {
                             "display": "block",
@@ -228069,7 +228572,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 115.9
+                                "h": 74
                               },
                               "styles": {
                                 "display": "block",
@@ -228094,23 +228597,33 @@
                                   },
                                   "size": {
                                     "w": 289,
-                                    "h": 115.9
+                                    "h": 74
                                   },
                                   "styles": {
-                                    "display": "grid",
+                                    "display": "block",
                                     "flexDirection": "row",
-                                    "gap": "10px",
-                                    "gridTemplateColumns": "340px",
                                     "flexWrap": "nowrap",
+                                    "paddingTop": "12px",
+                                    "paddingRight": "16px",
+                                    "paddingBottom": "12px",
+                                    "paddingLeft": "16px",
                                     "marginBottom": "4px",
                                     "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
+                                    "fontSize": "13px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(16, 104, 48)",
+                                    "backgroundColor": "rgb(240, 253, 244)",
+                                    "borderRadius": "12px",
                                     "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "borderTopWidth": "1px",
+                                    "borderRightWidth": "1px",
+                                    "borderBottomWidth": "1px",
+                                    "borderLeftWidth": "1px",
+                                    "borderTopColor": "rgb(134, 239, 172)",
                                     "textAlign": "start"
-                                  }
+                                  },
+                                  "bordered": true,
+                                  "text": "✅ Критичних проблем немає — всі заявки оброблено, прострочень не виявлено"
                                 }
                               ]
                             },
@@ -228119,7 +228632,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 135.9
+                                "y": 94
                               },
                               "size": {
                                 "w": 289,
@@ -228181,7 +228694,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 265.9
+                                "y": 224
                               },
                               "size": {
                                 "w": 289,
@@ -228209,7 +228722,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 290.9
+                                "y": 249
                               },
                               "size": {
                                 "w": 289,
@@ -228346,7 +228859,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 850.8
+                                "y": 808.9
                               },
                               "size": {
                                 "w": 289,
@@ -228374,7 +228887,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 875.8
+                                "y": 833.9
                               },
                               "size": {
                                 "w": 289,
@@ -228648,11 +229161,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1864.3
+                                "y": 1822.5
                               },
                               "size": {
                                 "w": 289,
-                                "h": 871.7
+                                "h": 847.7
                               },
                               "styles": {
                                 "display": "grid",
@@ -228749,7 +229262,7 @@
                                   },
                                   "size": {
                                     "w": 351,
-                                    "h": 295
+                                    "h": 271
                                   },
                                   "styles": {
                                     "display": "block",
@@ -228782,7 +229295,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2760
+                                "y": 2694.1
                               },
                               "size": {
                                 "w": 289,
@@ -228879,7 +229392,7 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 3008
+                    "y": 2942.1
                   },
                   "size": {
                     "w": 568,
@@ -230792,7 +231305,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2654
+                        "h": 2669
                       },
                       "styles": {
                         "display": "block",
@@ -230909,7 +231422,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:55"
+                                  "text": "Оновлено: 14:05"
                                 }
                               ]
                             },
@@ -231087,7 +231600,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 2487
+                            "h": 2502
                           },
                           "styles": {
                             "display": "block",
@@ -231449,7 +231962,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 461
+                                "h": 476
                               },
                               "styles": {
                                 "display": "block",
@@ -231513,7 +232026,7 @@
                                   },
                                   "size": {
                                     "w": 400.2,
-                                    "h": 351
+                                    "h": 366
                                   },
                                   "styles": {
                                     "display": "table",
@@ -231547,11 +232060,11 @@
                   },
                   "size": {
                     "w": 400.2,
-                    "h": 351
+                    "h": 366
                   },
                   "wrap": null,
                   "headHeight": 23,
-                  "rowHeight": 122.5,
+                  "rowHeight": 137.5,
                   "rows": 3,
                   "columns": [
                     {
@@ -231603,8 +232116,8 @@
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 75,
-                          "h": 44
+                          "w": 63,
+                          "h": 59
                         },
                         {
                           "tag": "br",
@@ -233584,7 +234097,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 11:55"
+                                  "text": "Оновлено: 14:05"
                                 }
                               ]
                             },
@@ -234168,7 +234681,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (23 300 ₴), поділений\n         "
+                                  "text": "Юніт — це учень, який платив цього місяця (23), а не картка в базі. — це весь ФОП місяця (24 500 ₴), поділений\n         "
                                 }
                               ]
                             }
