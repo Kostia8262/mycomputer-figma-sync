@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
+    "2026-08-14 fix(main): update the Scratch fallback on the course page"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
+    "2026-08-14 fix(main): update the Scratch fallback on the course page"
    ]
   },
   {
@@ -28,7 +28,7 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 feat(scratch): spell the Scratch course out topic by topic"
+    "2026-08-14 fix(main): update the Scratch fallback on the course page"
    ]
   },
   {
