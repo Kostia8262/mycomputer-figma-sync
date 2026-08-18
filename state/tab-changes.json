@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 18,
+ "total": 19,
  "summary": [
   {
    "tab": "Співробітники",
@@ -8,7 +8,7 @@
    "lines": 12570,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
+    "2026-08-14 fix(sites): give the article pages their second locale"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 12570,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
+    "2026-08-14 fix(sites): give the article pages their second locale"
    ]
   },
   {
@@ -26,7 +26,7 @@
    "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 chore(content-queue): refresh course/article data snapshot"
+    "2026-08-14 fix(sites): give the article pages their second locale"
    ]
   },
   {
@@ -40,6 +40,15 @@
    ]
   },
   {
+   "tab": "Розклад",
+   "commits": 2,
+   "lines": 176,
+   "subjects": [
+    "2026-08-18 feat(schedule): put make-ups on the grid, where they are actually taught",
+    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once"
+   ]
+  },
+  {
    "tab": "Дашборд",
    "commits": 3,
    "lines": 94,
@@ -47,14 +56,6 @@
     "2026-08-17 fix(unit): stop the break-even from re-costing fixed wages per student",
     "2026-08-17 feat(unit): show what the per-student payroll is made of",
     "2026-08-14 feat(admin): let the unpaid tile show the money as a second number"
-   ]
-  },
-  {
-   "tab": "Розклад",
-   "commits": 1,
-   "lines": 80,
-   "subjects": [
-    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once"
    ]
   },
   {

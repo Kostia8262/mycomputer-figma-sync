@@ -33638,7 +33638,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1230.2
+                        "h": 1366.1
                       },
                       "styles": {
                         "display": "block",
@@ -34462,7 +34462,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 954.2
+                            "h": 1090.1
                           },
                           "styles": {
                             "display": "block",
@@ -34568,7 +34568,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 904.2
+                                "h": 1040.1
                               },
                               "styles": {
                                 "display": "block",
@@ -34603,7 +34603,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 870.2
+                                    "h": 1006.1
                                   },
                                   "styles": {
                                     "display": "block",
@@ -34637,12 +34637,12 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 821.2
+                    "h": 957.1
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 136,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -34682,7 +34682,14 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
@@ -34691,7 +34698,25 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
                           "w": 179.4,
                           "h": 23.4
                         }
@@ -34701,33 +34726,26 @@
                       "col": 2,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 179.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 179.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 186.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 179.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -53994,7 +54012,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:32"
+                                  "text": "Оновлено: 09:47"
                                 }
                               ]
                             },
@@ -57266,7 +57284,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:32"
+                                  "text": "Оновлено: 09:47"
                                 }
                               ]
                             },
@@ -60165,7 +60183,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:32"
+                                  "text": "Оновлено: 09:47"
                                 }
                               ]
                             },
@@ -123023,7 +123041,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1270.2
+                        "h": 1406.1
                       },
                       "styles": {
                         "display": "block",
@@ -123847,7 +123865,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 994.2
+                            "h": 1130.1
                           },
                           "styles": {
                             "display": "block",
@@ -123953,7 +123971,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 904.2
+                                "h": 1040.1
                               },
                               "styles": {
                                 "display": "block",
@@ -123988,7 +124006,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 870.2
+                                    "h": 1006.1
                                   },
                                   "styles": {
                                     "display": "block",
@@ -124022,12 +124040,12 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 821.2
+                    "h": 957.1
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 136,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -124067,7 +124085,14 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
@@ -124076,7 +124101,25 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
                           "w": 107.4,
                           "h": 23.4
                         }
@@ -124086,33 +124129,26 @@
                       "col": 2,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 107.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 107.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 114.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 107.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -143162,7 +143198,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:33"
+                                  "text": "Оновлено: 09:48"
                                 }
                               ]
                             },
@@ -146403,7 +146439,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:33"
+                                  "text": "Оновлено: 09:48"
                                 }
                               ]
                             },
@@ -149271,7 +149307,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:33"
+                                  "text": "Оновлено: 09:48"
                                 }
                               ]
                             },
@@ -209056,7 +209092,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 1901.2
+                        "h": 2037.1
                       },
                       "styles": {
                         "display": "block",
@@ -209880,7 +209916,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1105.2
+                            "h": 1241.1
                           },
                           "styles": {
                             "display": "block",
@@ -209986,7 +210022,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 940.2
+                                "h": 1076.1
                               },
                               "styles": {
                                 "display": "block",
@@ -210021,7 +210057,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 906.2
+                                    "h": 1042.1
                                   },
                                   "styles": {
                                     "display": "block",
@@ -210108,12 +210144,12 @@
                   },
                   "size": {
                     "w": 620,
-                    "h": 821.2
+                    "h": 957.1
                   },
                   "wrap": null,
                   "headHeight": 51,
-                  "rowHeight": 34.4,
-                  "rows": 8,
+                  "rowHeight": 136,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -210153,7 +210189,14 @@
                       "col": 0,
                       "w": 52,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "br",
+                          "cls": "",
+                          "w": 0,
+                          "h": 12
+                        }
+                      ]
                     },
                     {
                       "col": 1,
@@ -210162,7 +210205,25 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "sched-card",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        },
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
                           "w": 78.4,
                           "h": 23.4
                         }
@@ -210172,33 +210233,26 @@
                       "col": 2,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": []
+                      "controls": [
+                        {
+                          "tag": "span",
+                          "cls": "sched-card sched-card-un",
+                          "w": 78.4,
+                          "h": 23.4
+                        }
+                      ]
                     },
                     {
                       "col": 3,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 78.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 4,
                       "w": 85.4,
                       "padding": "3px",
-                      "controls": [
-                        {
-                          "tag": "span",
-                          "cls": "sched-card",
-                          "w": 78.4,
-                          "h": 23.4
-                        }
-                      ]
+                      "controls": []
                     },
                     {
                       "col": 5,
@@ -227855,7 +227909,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:34"
+                                  "text": "Оновлено: 09:49"
                                 }
                               ]
                             },
@@ -230897,7 +230951,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:34"
+                                  "text": "Оновлено: 09:49"
                                 }
                               ]
                             },
@@ -233566,7 +233620,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 09:34"
+                                  "text": "Оновлено: 09:49"
                                 }
                               ]
                             },
