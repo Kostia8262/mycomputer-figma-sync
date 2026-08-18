@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 12,
+ "total": 14,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -8,7 +8,7 @@
    "lines": 12522,
    "subjects": [
     "2026-08-14 fix(admin): let the course programme be edited in both languages",
-    "2026-08-14 fix(sites): translate \"Курси стартують\" on the 14 satellite landings"
+    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 12477,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): translate \"Курси стартують\" on the 14 satellite landings"
+    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
    ]
   },
   {
@@ -25,7 +25,7 @@
    "commits": 1,
    "lines": 12458,
    "subjects": [
-    "2026-08-14 fix(sites): translate \"Курси стартують\" on the 14 satellite landings"
+    "2026-08-14 feat(main): speak Russian in the student-lessons popover too"
    ]
   },
   {
@@ -49,6 +49,8 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 feat(finance): sum up the payroll card",
+  "2026-08-18 feat(finance): total up the month's costs above the profit line",
   "2026-08-18 style(admin): pin the month actions to the right of the finance header",
   "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
   "2026-08-14 feat(admin): count the trials in the client base header",
