@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 16,
+ "total": 17,
  "summary": [
   {
    "tab": "База клієнтів",
@@ -8,7 +8,7 @@
    "lines": 12509,
    "subjects": [
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): fix the Russian locale of both main pages"
+    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
    ]
   },
   {
@@ -16,7 +16,7 @@
    "commits": 1,
    "lines": 12490,
    "subjects": [
-    "2026-08-14 fix(sites): fix the Russian locale of both main pages"
+    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
    ]
   },
   {
@@ -24,14 +24,15 @@
    "commits": 1,
    "lines": 12490,
    "subjects": [
-    "2026-08-14 fix(sites): fix the Russian locale of both main pages"
+    "2026-08-14 fix(sites): honour ?lang=ru on the satellites and carry the language between sites"
    ]
   },
   {
    "tab": "Відвідування",
-   "commits": 2,
-   "lines": 205,
+   "commits": 3,
+   "lines": 267,
    "subjects": [
+    "2026-08-18 feat(payroll): count a make-up by the hour it was held at",
     "2026-08-18 feat(attendance): grey out Save until the make-up hour is filled in",
     "2026-08-18 feat(attendance): ask for the hour before a make-up lesson is saved"
    ]
