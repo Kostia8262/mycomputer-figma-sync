@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 30,
+ "total": 29,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing"
+    "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing"
+    "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol"
    ]
   },
   {
@@ -28,7 +28,7 @@
    "lines": 12609,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(sites): restore the legal footer on two landings, stop the year ageing"
+    "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol"
    ]
   },
   {
@@ -87,7 +87,6 @@
   "2026-08-18 feat(finance): total up the month's costs above the profit line",
   "2026-08-18 style(admin): pin the month actions to the right of the finance header",
   "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
-  "2026-08-14 feat(admin): count the trials in the client base header",
-  "2026-08-14 fix(admin): keep a trial off the payment sheet until they enrol"
+  "2026-08-14 feat(admin): count the trials in the client base header"
  ]
 }
