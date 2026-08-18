@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 22,
+ "total": 23,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
@@ -9,7 +9,7 @@
    "subjects": [
     "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
+    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
    ]
   },
   {
@@ -19,7 +19,7 @@
    "subjects": [
     "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
     "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
+    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
    ]
   },
   {
@@ -28,7 +28,7 @@
    "lines": 12600,
    "subjects": [
     "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 chore(ai-design): align the pricing fallback with the live eighteen-month copy"
+    "2026-08-14 feat(design): carry the eighteen-month AI programme onto the hub"
    ]
   },
   {
@@ -72,6 +72,7 @@
   }
  ],
  "unmatched": [
+  "2026-08-18 feat(subscriptions): spend the abonement by the timetable, not by the register",
   "2026-08-18 feat(payroll): say how many make-ups were paid for, and what they cost",
   "2026-08-18 feat(finance): show the hours behind the lesson count in payroll",
   "2026-08-18 feat(finance): sum up the payroll card",
