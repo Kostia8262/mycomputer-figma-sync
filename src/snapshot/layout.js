@@ -126,6 +126,16 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector, styles
       size: { w: round(rect.width), h: round(rect.height) },
     };
     if (!slim) node.styles = stylesOf(el);
+    else {
+      // Вертикальные поля нужны на любой глубине: в auto-layout margin нет, его
+      // эмулируют обёртки, и без полей сверка находит расхождение ровно в
+      // размер поля. Два числа — не тридцать свойств, объём от этого не страдает.
+      const cs = getComputedStyle(el);
+      const box = {};
+      if (cs.marginTop && cs.marginTop !== '0px') box.marginTop = cs.marginTop;
+      if (cs.marginBottom && cs.marginBottom !== '0px') box.marginBottom = cs.marginBottom;
+      if (Object.keys(box).length) node.styles = box;
+    }
 
     // Отметка нужна отчёту: у элементов с границами headless занижает размер
     // (1px рендерится как 0.8px), поэтому там применяется допуск. Снимается на

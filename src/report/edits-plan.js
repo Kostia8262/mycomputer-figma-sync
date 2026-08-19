@@ -112,6 +112,12 @@ function layoutSteps(layoutFindings, prodByViewport, target) {
     const prodSections = prodByViewport[entry.viewport]?.sections ?? [];
 
     for (const finding of entry.result.findings) {
+      // «Округление» — расхождение, набранное из мелочей внутри секции: Figma
+      // округляет высоту текстового блока до целого пикселя вверх, и на четырёх
+      // карточках это даёт секции +3 px. Правки такое не требует и в план не
+      // идёт — сводка попадает в примечания прогона (см. src/cli.js).
+      if (finding.kind === 'округление') continue;
+
       if (finding.kind === 'размер') {
         const prodSection = prodSections.find((s) => s.key === finding.prod);
         const insides = insidesOf(prodSection);

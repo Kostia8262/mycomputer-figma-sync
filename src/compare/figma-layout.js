@@ -12,6 +12,7 @@
  */
 
 import { findCulprit, explainCulprits } from './node-match.js';
+import { judgeSize, explainVerdict, BLIND_TOLERANCE } from './noise.js';
 
 /** Порог, с которого расхождение габаритов попадает в отчёт. */
 const SIZE_TOLERANCE = 2;
@@ -19,10 +20,14 @@ const SIZE_TOLERANCE = 2;
 const OFFSET_TOLERANCE = 2;
 
 /** Скрипт, снимающий геометрию организмов со страницы макета. */
-export function emitFigmaLayoutScript({ pageName, frameName, ignore }) {
+export function emitFigmaLayoutScript({ pageName, frameName, ignore, part = 1, parts = 1 }) {
   return `const PAGE_NAME = ${JSON.stringify(pageName)};
 const FRAME_NAME = ${JSON.stringify(frameName)};
 const IGNORE = ${JSON.stringify(ignore ?? [])};
+// Съёмка частями: ответ Figma MCP обрезается на 20 КБ, а пятиуровневый
+// слепок страницы весит больше. Части склеиваются по sections.
+const PART = ${part};
+const PARTS = ${parts};
 
 const page = figma.root.children.find((p) => p.name === PAGE_NAME);
 if (!page) return { error: 'Нет страницы ' + PAGE_NAME, pages: figma.root.children.map((p) => p.name) };
@@ -36,25 +41,40 @@ const round = (n) => Math.round(n * 10) / 10;
 
 // Внутренности нужны, чтобы правка называла виновника, а не только секцию:
 // «Footer выше на 78» бесполезно, «причина в Inner» — выполнимо.
-const MAX_DEPTH = 3;
+// Пять уровней, а не три: карточки лежат на четвёртом-пятом (кадр → секция →
+// container → grid → row → card), и без них расхождение нельзя разобрать до
+// причины — а именно карточки и дают накопленное округление. Глубина слепка
+// прода поднята симметрично (см. src/snapshot/layout.js).
+const MAX_DEPTH = 5;
 const MAX_KIDS = 12;
 // Декоративные сетки держат десятки одинаковых штрихов («v», «h»): в DOM им
 // ничего не соответствует, а дерево они раздувают втрое.
-const DECOR = /^(deco|Deco|Fade|v|h)[\s\-·]*/;
+// Декоративные сетки держат десятки одинаковых штрихов («v», «h»): в DOM им
+// ничего не соответствует, а дерево они раздувают втрое. Штрихи отсеиваются
+// только по имени целиком: раньше шаблон съедал экранирование, класс
+// превращался в диапазон, и декором считался ЛЮБОЙ слой на «h» или «v» —
+// hero__inner, h4-wrap, visual молча пропадали из слепка, и разобрать
+// расхождение до причины было нечем.
+const DECOR = /^(deco|fade)|^[vh][0-9]*$/i;
 
 const walk = (node, depth) => {
   if (depth > MAX_DEPTH || !('children' in node) || !node.children.length) return undefined;
   const kids = node.children.filter((c) => c.visible !== false && !DECOR.test(c.name));
   return kids.slice(0, MAX_KIDS).map((c) => ({
-    name: c.name,
+    // Имена текстовых слоёв в Figma — это целые абзацы, и на пяти уровнях
+    // вложенности они раздувают ответ так, что он не проходит через MCP.
+    // Сопоставлению с DOM хватает начала: классы короткие.
+    name: c.name.slice(0, 40),
     w: round(c.width),
     h: round(c.height),
     inner: walk(c, depth + 1),
   }));
 };
 
-const sections = frame.children
-  .filter((n) => !IGNORE.includes(n.name))
+const all = frame.children.filter((n) => !IGNORE.includes(n.name));
+const size = Math.ceil(all.length / PARTS);
+const sections = all
+  .slice((PART - 1) * size, PART * size)
   .map((n) => ({
     name: n.name,
     type: n.type,
@@ -74,6 +94,8 @@ const sections = frame.children
 return {
   page: page.name,
   frame: frame.name,
+  part: PART,
+  parts: PARTS,
   frameSize: { w: round(frame.width), h: round(frame.height) },
   sections,
 };`;
@@ -114,14 +136,26 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
       // Разбор внутренностей превращает «секция не той высоты» в адресную
       // правку. Молча пропустить его нельзя — без него шаг невыполним.
       const culprits = findCulprit(inFigma, section, tolerance);
+      // Он же отвечает на второй вопрос: это дефект макета или накопленное
+      // округление Figma. Правка нужна только в первом случае.
+      const verdict = judgeSize(inFigma, section);
+
+      // Внутренности не разобрать (слепок кончился раньше) — решаем по
+      // страховочному порогу, он выше обычного.
+      if (!verdict.known && Math.abs(dw) <= BLIND_TOLERANCE && Math.abs(dh) <= BLIND_TOLERANCE) {
+        matched.push({ prod: section.key, figma: figmaName, prodTop: section.absoluteTop, figmaTop: inFigma.y, delta: dh });
+        continue;
+      }
 
       findings.push({
-        kind: 'размер',
+        kind: verdict.noise ? 'округление' : 'размер',
         prod: section.key,
         figma: figmaName,
         nodeId: inFigma.id,
         culprits,
-        because: explainCulprits(culprits, dh),
+        causes: verdict.causes,
+        worstInside: verdict.worst,
+        because: explainVerdict(verdict, dh) ?? explainCulprits(culprits, dh),
         onProd: `${section.size.w}×${section.size.h}`,
         inFigma: `${inFigma.w}×${inFigma.h}`,
         // Знак от макета к проду: «макет нужно подрасти на N».
@@ -142,7 +176,12 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
       const gapOnProd = round(section.absoluteTop - prevProd.prodTop);
       const gapInFigma = round(inFigma.y - prevProd.figmaTop);
       const drift = Math.round((gapInFigma - gapOnProd) * 10) / 10;
-      if (Math.abs(drift) > OFFSET_TOLERANCE) {
+      // Сдвиг, равный расхождению высоты предыдущей секции, — это её эхо, а не
+      // отдельная находка: секция стоит там, куда её поставил сосед сверху.
+      // Без этого отсечения каждая правка высоты дублировалась «смещением» с
+      // тем же числом, и список раздувался вдвое.
+      const echo = prevProd.delta != null && Math.abs(drift - prevProd.delta) <= 0.5;
+      if (Math.abs(drift) > OFFSET_TOLERANCE && !echo) {
         findings.push({
           kind: 'смещение',
           prod: section.key,
@@ -156,7 +195,7 @@ export function compareLayoutToFigma(prodViewport, figmaLayout, sectionMap) {
       }
     }
 
-    matched.push({ prod: section.key, figma: figmaName, prodTop: section.absoluteTop, figmaTop: inFigma.y });
+    matched.push({ prod: section.key, figma: figmaName, prodTop: section.absoluteTop, figmaTop: inFigma.y, delta: dh });
   }
 
   for (const section of figmaLayout.sections) {

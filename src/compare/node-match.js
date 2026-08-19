@@ -33,6 +33,54 @@ export function normalizeDomKey(key) {
 }
 
 /**
+ * Ключи, под которыми узел можно найти с другой стороны.
+ *
+ * Одно имя не годится: в этом файле слои названы полными BEM-классами
+ * (hero__inner), а модуль изначально писался под короткие (Inner). Из-за
+ * рассинхрона пары не находились почти нигде — сверка знала, что секция не той
+ * высоты, но не могла назвать виновника, и каждая правка приходила без адреса.
+ * Поэтому сравниваются наборы ключей, а совпадением считается пересечение.
+ */
+export function matchKeys(raw) {
+  const bare = String(raw)
+    .trim()
+    .toLowerCase()
+    .replace(/\[\d+\]$/, '')
+    .replace(/^[#.]/, '')
+    .split('.')
+    .filter(Boolean)[0] ?? '';
+
+  const keys = new Set();
+  const add = (value) => {
+    const clean = value.replace(/\s+/g, '-').replace(/[^a-z0-9_-]/g, '');
+    if (clean) keys.add(clean.replace(/_/g, ''));
+  };
+
+  add(bare);
+  // BEM-хвост: hero__inner → inner. Так слой макета «Inner» встречается с
+  // классом вёрстки, и наоборот.
+  const bem = bare.split('__');
+  if (bem.length > 1) add(bem[bem.length - 1]);
+  // Обёртки макета эмулируют margin, которого в auto-layout нет: под ними
+  // лежит ровно тот узел, что и в DOM.
+  add(bare.replace(/-wrap$/, ''));
+  // Последнее слово: «Stat Card» в макете и .stats__card в вёрстке — одно и то же,
+  // но блок назван в единственном числе против множественного. Ключ широкий,
+  // но сопоставление идёт внутри одного родителя и с учётом кратности.
+  const words = bare.split(/[-\s]+/).filter(Boolean);
+  if (words.length > 1) add(words[words.length - 1]);
+
+  return keys;
+}
+
+/** Есть ли общий ключ у слоя макета и узла DOM. */
+export function sameNode(layerName, domKey) {
+  const a = matchKeys(layerName);
+  for (const key of matchKeys(domKey)) if (a.has(key)) return true;
+  return false;
+}
+
+/**
  * Технические слои макета, которым в DOM ничего не соответствует.
  * Спейсеры эмулируют margin, которого в auto-layout нет, и считать их
  * пропажей — значит каждый раз выдавать несуществующую правку.

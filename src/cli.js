@@ -324,6 +324,27 @@ async function collectPlan(config, targetId) {
     if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
   }
 
+  // Старый слепок макета (три уровня вместо пяти) не даёт разобрать причину и
+  // отличить округление от дрейфа. Молчать об этом нельзя: весь список будет
+  // выглядеть как набор настоящих правок.
+  const shallow = layoutFindings.some((entry) => (entry.result.findings ?? [])
+    .some((f) => f.kind === 'размер' && f.causes?.length === 1 && !f.causes[0].path.includes('›')));
+  if (shallow) {
+    gaps.push('слепок макета снят старой версией (три уровня): причины расхождений не разбираются — пересними vsfigma --emit <брейкпоинт> --part N --parts 2');
+  }
+
+  // Отнесённые к округлению расхождения из плана исключены, но исчезнуть
+  // бесследно не должны: иначе через месяц кто-то снова начнёт их «чинить».
+  const rounded = layoutFindings.flatMap((entry) =>
+    (entry.result.findings ?? [])
+      .filter((f) => f.kind === 'округление')
+      .map((f) => `${f.figma} / ${entry.viewport} ${f.delta.split(' × ')[1] ?? f.delta}`));
+  if (rounded.length) {
+    gaps.push(
+      `${rounded.length} расхождений отнесены к округлению Figma и правки не требуют ` +
+      `(${rounded.slice(0, 4).join(', ')}${rounded.length > 4 ? ', …' : ''})`);
+  }
+
   // Тексты сверяются здесь же: слепок прода лежит рядом со слепком геометрии,
   // и отдельный прогон только увеличил бы шанс, что план соберут без них.
   const textFindings = [];
@@ -646,7 +667,7 @@ async function vsfigma(config, args) {
   if (args.emit) {
     const view = target.layout.pages[args.emit];
     if (!view) throw new Error(`Нет брейкпоинта «${args.emit}». Есть: desktop, tablet, mobile.`);
-    console.log(emitFigmaLayoutScript({ pageName: view.page, frameName: view.frame, ignore: target.layout.ignoreInFigma }));
+    console.log(emitFigmaLayoutScript({ pageName: view.page, frameName: view.frame, ignore: target.layout.ignoreInFigma, part: Number(args.part ?? 1), parts: Number(args.parts ?? 1) }));
     return;
   }
 
@@ -669,12 +690,14 @@ async function vsfigma(config, args) {
 
     const result = compareLayoutToFigma(view, inFigma, target.layout.sectionMap);
     const h = result.totalHeight;
-    console.log(`\n${view.viewport} ${view.width}px — сверено секций ${result.checked}, расхождений ${result.findings.length}`);
+    const roundedHere = result.findings.filter((f) => f.kind === 'округление').length;
+    console.log(`\n${view.viewport} ${view.width}px — сверено секций ${result.checked}, расхождений ${result.findings.length}` +
+      (roundedHere ? ` (из них ${roundedHere} — округление Figma, правки не требуют)` : ''));
     console.log(`  высота: прод ${h.onProd}, макет ${h.inFigma} (${h.delta > 0 ? '+' : ''}${h.delta})`);
 
     for (const f of result.findings) {
       if (f.kind === 'размер') {
-        console.log(`  ${f.figma.padEnd(14)} прод ${f.onProd.padEnd(12)} макет ${f.inFigma.padEnd(12)} [${f.delta}]${f.bordered ? ' bordered' : ''}`);
+        console.log(`  ${f.figma.padEnd(14)} прод ${f.onProd.padEnd(12)} макет ${f.inFigma.padEnd(12)} [${f.delta}]${f.bordered ? ' bordered' : ''}${f.kind === 'округление' ? ' ← округление, не дефект' : ''}`);
       } else if (f.kind === 'смещение') {
         console.log(`  ${f.figma.padEnd(14)} отступ от «${f.after}»: прод ${f.onProd}, макет ${f.inFigma} [${f.delta > 0 ? '+' : ''}${f.delta}]`);
       } else if (f.kind === 'порядок') {
