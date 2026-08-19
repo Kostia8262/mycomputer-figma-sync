@@ -2260,7 +2260,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 949
+                        "h": 998
                       },
                       "styles": {
                         "display": "block",
@@ -2360,7 +2360,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "15"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2448,7 +2448,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "1"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -3410,7 +3410,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 783
+                            "h": 832
                           },
                           "styles": {
                             "display": "block",
@@ -3442,7 +3442,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 740
+                                "h": 789
                               },
                               "styles": {
                                 "display": "table",
@@ -3490,7 +3490,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 700.5
+                                    "h": 749.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -3512,7 +3512,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 741
+                                "y": 790
                               },
                               "size": {
                                 "w": 1157,
@@ -3562,7 +3562,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "15 заявок"
                                 }
                               ]
                             }
@@ -3636,15 +3636,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 740
+                    "h": 789
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 783
+                    "h": 832
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 14,
+                  "rows": 15,
                   "columns": [
                     {
                       "label": "",
@@ -6514,7 +6514,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 949
+                        "h": 998
                       },
                       "styles": {
                         "display": "block",
@@ -6614,7 +6614,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "15"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6702,7 +6702,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "1"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -7664,7 +7664,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 783
+                            "h": 832
                           },
                           "styles": {
                             "display": "block",
@@ -7696,7 +7696,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 740
+                                "h": 789
                               },
                               "styles": {
                                 "display": "table",
@@ -7744,7 +7744,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 700.5
+                                    "h": 749.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -7766,7 +7766,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 741
+                                "y": 790
                               },
                               "size": {
                                 "w": 1157,
@@ -7816,7 +7816,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "15 заявок"
                                 }
                               ]
                             }
@@ -7890,15 +7890,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 740
+                    "h": 789
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 783
+                    "h": 832
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 14,
+                  "rows": 15,
                   "columns": [
                     {
                       "label": "",
@@ -10456,7 +10456,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "15"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10544,7 +10544,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "1"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14136,7 +14136,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "15"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14224,7 +14224,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "1"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -31156,7 +31156,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -31182,7 +31182,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -31247,7 +31247,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -31273,7 +31273,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -33770,7 +33770,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1384.6
+                        "h": 1344.6
                       },
                       "styles": {
                         "display": "block",
@@ -34624,7 +34624,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1108.6
+                            "h": 1068.6
                           },
                           "styles": {
                             "display": "block",
@@ -34730,7 +34730,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 1058.6
+                                "h": 1018.6
                               },
                               "styles": {
                                 "display": "block",
@@ -34765,7 +34765,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 1024.6
+                                    "h": 984.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -34799,7 +34799,7 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 975.6
+                    "h": 935.6
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -54149,7 +54149,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:21"
+                                  "text": "Оновлено: 13:44"
                                 }
                               ]
                             },
@@ -54759,7 +54759,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger",
+                                  "key": ".dkpi.dkpi--danger[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 391,
@@ -54794,7 +54794,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success[0]",
+                                  "key": ".dkpi.dkpi--danger[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 586.5,
@@ -54829,7 +54829,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success[1]",
+                                  "key": ".dkpi.dkpi--success",
                                   "tag": "div",
                                   "rel": {
                                     "x": 782,
@@ -57431,7 +57431,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:21"
+                                  "text": "Оновлено: 13:44"
                                 }
                               ]
                             },
@@ -60336,7 +60336,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:22"
+                                  "text": "Оновлено: 13:44"
                                 }
                               ]
                             },
@@ -92625,7 +92625,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1091
+                        "h": 1238
                       },
                       "styles": {
                         "display": "block",
@@ -92725,7 +92725,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -92813,7 +92813,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -93775,7 +93775,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 783
+                            "h": 930
                           },
                           "styles": {
                             "display": "block",
@@ -93807,7 +93807,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 740
+                                "h": 887
                               },
                               "styles": {
                                 "display": "table",
@@ -93855,7 +93855,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 700.5
+                                    "h": 847.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -93877,7 +93877,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 741
+                                "y": 888
                               },
                               "size": {
                                 "w": 797,
@@ -93912,7 +93912,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -93927,7 +93927,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -94001,15 +94001,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 740
+                    "h": 887
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 783
+                    "h": 930
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 14,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -96758,7 +96758,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1091
+                        "h": 1238
                       },
                       "styles": {
                         "display": "block",
@@ -96858,7 +96858,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -96946,7 +96946,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -97908,7 +97908,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 783
+                            "h": 930
                           },
                           "styles": {
                             "display": "block",
@@ -97940,7 +97940,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 740
+                                "h": 887
                               },
                               "styles": {
                                 "display": "table",
@@ -97988,7 +97988,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 700.5
+                                    "h": 847.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -98010,7 +98010,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 741
+                                "y": 888
                               },
                               "size": {
                                 "w": 797,
@@ -98045,7 +98045,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -98060,7 +98060,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -98134,15 +98134,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 740
+                    "h": 887
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 783
+                    "h": 930
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 14,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -100579,7 +100579,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -100667,7 +100667,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104191,7 +104191,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104279,7 +104279,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -120833,7 +120833,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -120859,7 +120859,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -120924,7 +120924,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -120950,7 +120950,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -123326,7 +123326,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1424.6
+                        "h": 1384.6
                       },
                       "styles": {
                         "display": "block",
@@ -124180,7 +124180,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1148.6
+                            "h": 1108.6
                           },
                           "styles": {
                             "display": "block",
@@ -124286,7 +124286,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 1058.6
+                                "h": 1018.6
                               },
                               "styles": {
                                 "display": "block",
@@ -124321,7 +124321,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 1024.6
+                                    "h": 984.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -124355,7 +124355,7 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 975.6
+                    "h": 935.6
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -143488,7 +143488,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:23"
+                                  "text": "Оновлено: 13:45"
                                 }
                               ]
                             },
@@ -146739,7 +146739,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:23"
+                                  "text": "Оновлено: 13:45"
                                 }
                               ]
                             },
@@ -149613,7 +149613,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:23"
+                                  "text": "Оновлено: 13:45"
                                 }
                               ]
                             },
@@ -181285,7 +181285,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 1405
+                        "h": 1534
                       },
                       "styles": {
                         "display": "block",
@@ -181385,7 +181385,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -181561,7 +181561,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -181649,7 +181649,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -182435,7 +182435,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 693
+                            "h": 822
                           },
                           "styles": {
                             "display": "block",
@@ -182467,7 +182467,7 @@
                               },
                               "size": {
                                 "w": 1295,
-                                "h": 650
+                                "h": 779
                               },
                               "styles": {
                                 "display": "table",
@@ -182515,7 +182515,7 @@
                                   },
                                   "size": {
                                     "w": 1295,
-                                    "h": 616.5
+                                    "h": 745.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -182537,7 +182537,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 651
+                                "y": 780
                               },
                               "size": {
                                 "w": 287,
@@ -182572,7 +182572,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -182587,7 +182587,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -182661,15 +182661,15 @@
                   },
                   "size": {
                     "w": 1295,
-                    "h": 650
+                    "h": 779
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 693
+                    "h": 822
                   },
                   "headHeight": 33.5,
                   "rowHeight": 43,
-                  "rows": 14,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -185111,7 +185111,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 1405
+                        "h": 1534
                       },
                       "styles": {
                         "display": "block",
@@ -185211,7 +185211,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -185387,7 +185387,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -185475,7 +185475,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186261,7 +186261,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 693
+                            "h": 822
                           },
                           "styles": {
                             "display": "block",
@@ -186293,7 +186293,7 @@
                               },
                               "size": {
                                 "w": 1295,
-                                "h": 650
+                                "h": 779
                               },
                               "styles": {
                                 "display": "table",
@@ -186341,7 +186341,7 @@
                                   },
                                   "size": {
                                     "w": 1295,
-                                    "h": 616.5
+                                    "h": 745.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -186363,7 +186363,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 651
+                                "y": 780
                               },
                               "size": {
                                 "w": 287,
@@ -186398,7 +186398,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -186413,7 +186413,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -186487,15 +186487,15 @@
                   },
                   "size": {
                     "w": 1295,
-                    "h": 650
+                    "h": 779
                   },
                   "wrap": {
                     "w": 289,
-                    "h": 693
+                    "h": 822
                   },
                   "headHeight": 33.5,
                   "rowHeight": 43,
-                  "rows": 14,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -188625,7 +188625,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -188801,7 +188801,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -188889,7 +188889,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -191930,7 +191930,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -192106,7 +192106,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -192194,7 +192194,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -207344,7 +207344,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -207370,7 +207370,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -207435,7 +207435,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -207461,7 +207461,7 @@
                       "controls": [
                         {
                           "tag": "span",
-                          "cls": "att-cell att-scheduled",
+                          "cls": "att-cell att-cancelled",
                           "w": 24,
                           "h": 24
                         }
@@ -209530,7 +209530,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 2055.6
+                        "h": 2015.6
                       },
                       "styles": {
                         "display": "block",
@@ -210384,7 +210384,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 1259.6
+                            "h": 1219.6
                           },
                           "styles": {
                             "display": "block",
@@ -210490,7 +210490,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 1094.6
+                                "h": 1054.6
                               },
                               "styles": {
                                 "display": "block",
@@ -210525,7 +210525,7 @@
                                   },
                                   "size": {
                                     "w": 255,
-                                    "h": 1060.6
+                                    "h": 1020.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -210612,7 +210612,7 @@
                   },
                   "size": {
                     "w": 620,
-                    "h": 975.6
+                    "h": 935.6
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -228235,7 +228235,7 @@
                       },
                       "size": {
                         "w": 289,
-                        "h": 4091.5
+                        "h": 4115.5
                       },
                       "styles": {
                         "display": "block",
@@ -228352,7 +228352,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:24"
+                                  "text": "Оновлено: 13:46"
                                 }
                               ]
                             },
@@ -228530,7 +228530,7 @@
                           },
                           "size": {
                             "w": 289,
-                            "h": 3924.5
+                            "h": 3948.5
                           },
                           "styles": {
                             "display": "block",
@@ -229147,7 +229147,7 @@
                               },
                               "size": {
                                 "w": 289,
-                                "h": 847.7
+                                "h": 871.7
                               },
                               "styles": {
                                 "display": "grid",
@@ -229244,7 +229244,7 @@
                                   },
                                   "size": {
                                     "w": 351,
-                                    "h": 271
+                                    "h": 295
                                   },
                                   "styles": {
                                     "display": "block",
@@ -229277,7 +229277,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2694.1
+                                "y": 2718.1
                               },
                               "size": {
                                 "w": 289,
@@ -229374,7 +229374,7 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 2942.1
+                    "y": 2966.1
                   },
                   "size": {
                     "w": 565,
@@ -231404,7 +231404,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:24"
+                                  "text": "Оновлено: 13:46"
                                 }
                               ]
                             },
@@ -234079,7 +234079,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:24"
+                                  "text": "Оновлено: 13:46"
                                 }
                               ]
                             },
