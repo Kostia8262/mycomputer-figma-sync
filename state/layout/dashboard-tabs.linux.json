@@ -2260,7 +2260,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 998
+                        "h": 1096
                       },
                       "styles": {
                         "display": "block",
@@ -2360,7 +2360,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2536,7 +2536,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2624,7 +2624,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -3410,7 +3410,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 832
+                            "h": 930
                           },
                           "styles": {
                             "display": "block",
@@ -3442,7 +3442,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 789
+                                "h": 887
                               },
                               "styles": {
                                 "display": "table",
@@ -3490,7 +3490,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 749.5
+                                    "h": 847.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -3512,7 +3512,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 790
+                                "y": 888
                               },
                               "size": {
                                 "w": 1157,
@@ -3547,7 +3547,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -3562,7 +3562,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -3636,15 +3636,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 789
+                    "h": 887
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 832
+                    "h": 930
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 15,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -6514,7 +6514,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 998
+                        "h": 1096
                       },
                       "styles": {
                         "display": "block",
@@ -6614,7 +6614,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6790,7 +6790,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6878,7 +6878,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -7664,7 +7664,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 832
+                            "h": 930
                           },
                           "styles": {
                             "display": "block",
@@ -7696,7 +7696,7 @@
                               },
                               "size": {
                                 "w": 1375,
-                                "h": 789
+                                "h": 887
                               },
                               "styles": {
                                 "display": "table",
@@ -7744,7 +7744,7 @@
                                   },
                                   "size": {
                                     "w": 1375,
-                                    "h": 749.5
+                                    "h": 847.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -7766,7 +7766,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 790
+                                "y": 888
                               },
                               "size": {
                                 "w": 1157,
@@ -7801,7 +7801,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 58,
                                     "h": 16
                                   },
                                   "styles": {
@@ -7816,7 +7816,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15 заявок"
+                                  "text": "17 заявок"
                                 }
                               ]
                             }
@@ -7890,15 +7890,15 @@
                   },
                   "size": {
                     "w": 1375,
-                    "h": 789
+                    "h": 887
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 832
+                    "h": 930
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 15,
+                  "rows": 17,
                   "columns": [
                     {
                       "label": "",
@@ -10456,7 +10456,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10632,7 +10632,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10720,7 +10720,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14136,7 +14136,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "15"
+                                  "text": "17"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14312,7 +14312,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14400,7 +14400,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -54149,7 +54149,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:44"
+                                  "text": "Оновлено: 13:48"
                                 }
                               ]
                             },
@@ -57431,7 +57431,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:44"
+                                  "text": "Оновлено: 13:48"
                                 }
                               ]
                             },
@@ -60336,7 +60336,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:44"
+                                  "text": "Оновлено: 13:48"
                                 }
                               ]
                             },
@@ -92901,7 +92901,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -92989,7 +92989,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -97034,7 +97034,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -97122,7 +97122,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -100755,7 +100755,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -100843,7 +100843,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104367,7 +104367,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "0"
+                                  "text": "2"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104455,7 +104455,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "2"
+                                  "text": "3"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -143488,7 +143488,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:45"
+                                  "text": "Оновлено: 13:49"
                                 }
                               ]
                             },
@@ -146739,7 +146739,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:45"
+                                  "text": "Оновлено: 13:49"
                                 }
                               ]
                             },
@@ -149613,7 +149613,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:45"
+                                  "text": "Оновлено: 13:49"
                                 }
                               ]
                             },
@@ -228352,7 +228352,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:46"
+                                  "text": "Оновлено: 13:50"
                                 }
                               ]
                             },
@@ -231404,7 +231404,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:46"
+                                  "text": "Оновлено: 13:50"
                                 }
                               ]
                             },
@@ -234079,7 +234079,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:46"
+                                  "text": "Оновлено: 13:50"
                                 }
                               ]
                             },
