@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9081,
+      "documentHeight": 9105,
       "sections": [
         {
           "key": "#header",
@@ -472,7 +472,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 986.1
+            "h": 1009.9
           },
           "styles": {
             "display": "block",
@@ -500,7 +500,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 810.1
+                "h": 833.9
               },
               "styles": {
                 "display": "block",
@@ -553,7 +553,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 539.7
+                    "h": 563.5
                   },
                   "styles": {
                     "display": "grid",
@@ -581,7 +581,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 1956.9
+            "y": 1980.7
           },
           "size": {
             "w": 1440,
@@ -755,14 +755,14 @@
               ]
             }
           ],
-          "absoluteTop": 1956.9
+          "absoluteTop": 1980.7
         },
         {
           "key": "#how-it-works",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 2828
+            "y": 2851.8
           },
           "size": {
             "w": 1440,
@@ -866,14 +866,14 @@
               ]
             }
           ],
-          "absoluteTop": 2828
+          "absoluteTop": 2851.8
         },
         {
           "key": "#stats",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 3482
+            "y": 3505.8
           },
           "size": {
             "w": 1440,
@@ -993,14 +993,14 @@
               ]
             }
           ],
-          "absoluteTop": 3482
+          "absoluteTop": 3505.8
         },
         {
           "key": "#pricing",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4123.4
+            "y": 4147.2
           },
           "size": {
             "w": 1440,
@@ -1106,14 +1106,14 @@
               ]
             }
           ],
-          "absoluteTop": 4123.4
+          "absoluteTop": 4147.2
         },
         {
           "key": "#certificate",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4875.7
+            "y": 4899.5
           },
           "size": {
             "w": 1440,
@@ -1209,14 +1209,14 @@
               ]
             }
           ],
-          "absoluteTop": 4875.7
+          "absoluteTop": 4899.5
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5317.9
+            "y": 5341.7
           },
           "size": {
             "w": 1440,
@@ -1320,14 +1320,14 @@
               ]
             }
           ],
-          "absoluteTop": 5317.9
+          "absoluteTop": 5341.7
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6239.5
+            "y": 6263.3
           },
           "size": {
             "w": 1440,
@@ -1511,14 +1511,14 @@
               ]
             }
           ],
-          "absoluteTop": 6239.5
+          "absoluteTop": 6263.3
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7101
+            "y": 7124.8
           },
           "size": {
             "w": 1440,
@@ -1598,14 +1598,14 @@
               ]
             }
           ],
-          "absoluteTop": 7101
+          "absoluteTop": 7124.8
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7729.6
+            "y": 7753.4
           },
           "size": {
             "w": 1440,
@@ -1686,14 +1686,14 @@
               ]
             }
           ],
-          "absoluteTop": 7729.6
+          "absoluteTop": 7753.4
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8324.5
+            "y": 8348.3
           },
           "size": {
             "w": 1440,
@@ -1864,14 +1864,14 @@
               ]
             }
           ],
-          "absoluteTop": 8324.5
+          "absoluteTop": 8348.3
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 9857,
+      "documentHeight": 9905,
       "sections": [
         {
           "key": "#header",
@@ -2336,7 +2336,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 1208.3
+            "h": 1255.9
           },
           "styles": {
             "display": "block",
@@ -2364,7 +2364,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 1032.3
+                "h": 1079.9
               },
               "styles": {
                 "display": "block",
@@ -2417,7 +2417,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 761.8
+                    "h": 809.4
                   },
                   "styles": {
                     "display": "grid",
@@ -2445,7 +2445,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 2136.6
+            "y": 2184.2
           },
           "size": {
             "w": 1024,
@@ -2619,14 +2619,14 @@
               ]
             }
           ],
-          "absoluteTop": 2136.6
+          "absoluteTop": 2184.2
         },
         {
           "key": "#how-it-works",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 3007.7
+            "y": 3055.3
           },
           "size": {
             "w": 1024,
@@ -2730,14 +2730,14 @@
               ]
             }
           ],
-          "absoluteTop": 3007.7
+          "absoluteTop": 3055.3
         },
         {
           "key": "#stats",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 3683.8
+            "y": 3731.4
           },
           "size": {
             "w": 1024,
@@ -2857,14 +2857,14 @@
               ]
             }
           ],
-          "absoluteTop": 3683.8
+          "absoluteTop": 3731.4
         },
         {
           "key": "#pricing",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4575
+            "y": 4622.6
           },
           "size": {
             "w": 1024,
@@ -2970,14 +2970,14 @@
               ]
             }
           ],
-          "absoluteTop": 4575
+          "absoluteTop": 4622.6
         },
         {
           "key": "#certificate",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5325.4
+            "y": 5373
           },
           "size": {
             "w": 1024,
@@ -3073,14 +3073,14 @@
               ]
             }
           ],
-          "absoluteTop": 5325.4
+          "absoluteTop": 5373
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5767.3
+            "y": 5814.9
           },
           "size": {
             "w": 1024,
@@ -3184,14 +3184,14 @@
               ]
             }
           ],
-          "absoluteTop": 5767.3
+          "absoluteTop": 5814.9
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6736.5
+            "y": 6784.1
           },
           "size": {
             "w": 1024,
@@ -3375,14 +3375,14 @@
               ]
             }
           ],
-          "absoluteTop": 6736.5
+          "absoluteTop": 6784.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7598
+            "y": 7645.6
           },
           "size": {
             "w": 1024,
@@ -3462,14 +3462,14 @@
               ]
             }
           ],
-          "absoluteTop": 7598
+          "absoluteTop": 7645.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8478.7
+            "y": 8526.3
           },
           "size": {
             "w": 1024,
@@ -3550,14 +3550,14 @@
               ]
             }
           ],
-          "absoluteTop": 8478.7
+          "absoluteTop": 8526.3
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9073.6
+            "y": 9121.2
           },
           "size": {
             "w": 1024,
@@ -3728,14 +3728,14 @@
               ]
             }
           ],
-          "absoluteTop": 9073.6
+          "absoluteTop": 9121.2
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 12709,
+      "documentHeight": 12761,
       "sections": [
         {
           "key": "#header",
@@ -4209,7 +4209,7 @@
           },
           "size": {
             "w": 390,
-            "h": 1325.7
+            "h": 1378.2
           },
           "styles": {
             "display": "block",
@@ -4237,7 +4237,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1213.7
+                "h": 1266.2
               },
               "styles": {
                 "display": "block",
@@ -4290,7 +4290,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 949.7
+                    "h": 1002.2
                   },
                   "styles": {
                     "display": "grid",
@@ -4318,7 +4318,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 2361.2
+            "y": 2413.7
           },
           "size": {
             "w": 390,
@@ -4492,14 +4492,14 @@
               ]
             }
           ],
-          "absoluteTop": 2361.2
+          "absoluteTop": 2413.7
         },
         {
           "key": "#how-it-works",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 3222.7
+            "y": 3275.2
           },
           "size": {
             "w": 390,
@@ -4603,14 +4603,14 @@
               ]
             }
           ],
-          "absoluteTop": 3222.7
+          "absoluteTop": 3275.2
         },
         {
           "key": "#stats",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4138.2
+            "y": 4190.7
           },
           "size": {
             "w": 390,
@@ -4730,14 +4730,14 @@
               ]
             }
           ],
-          "absoluteTop": 4138.2
+          "absoluteTop": 4190.7
         },
         {
           "key": "#pricing",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5472.9
+            "y": 5525.4
           },
           "size": {
             "w": 390,
@@ -4843,14 +4843,14 @@
               ]
             }
           ],
-          "absoluteTop": 5472.9
+          "absoluteTop": 5525.4
         },
         {
           "key": "#certificate",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6976.6
+            "y": 7029.1
           },
           "size": {
             "w": 390,
@@ -4946,14 +4946,14 @@
               ]
             }
           ],
-          "absoluteTop": 6976.6
+          "absoluteTop": 7029.1
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7665.9
+            "y": 7718.4
           },
           "size": {
             "w": 390,
@@ -5087,14 +5087,14 @@
               ]
             }
           ],
-          "absoluteTop": 7665.9
+          "absoluteTop": 7718.4
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8402.6
+            "y": 8455.1
           },
           "size": {
             "w": 390,
@@ -5277,14 +5277,14 @@
               ]
             }
           ],
-          "absoluteTop": 8402.6
+          "absoluteTop": 8455.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9267.6
+            "y": 9320.1
           },
           "size": {
             "w": 390,
@@ -5364,14 +5364,14 @@
               ]
             }
           ],
-          "absoluteTop": 9267.6
+          "absoluteTop": 9320.1
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10013.8
+            "y": 10066.3
           },
           "size": {
             "w": 390,
@@ -5452,14 +5452,14 @@
               ]
             }
           ],
-          "absoluteTop": 10013.8
+          "absoluteTop": 10066.3
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11125.1
+            "y": 11177.6
           },
           "size": {
             "w": 390,
@@ -5631,7 +5631,7 @@
               ]
             }
           ],
-          "absoluteTop": 11125.1
+          "absoluteTop": 11177.6
         }
       ]
     }
