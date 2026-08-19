@@ -1,481 +1,2296 @@
 {
-  "$comment": "Геометрия организмов из макета Мій Комп'ютер Едьюкейшн. Снято агентом через Figma MCP 2026-08-16. ВНИМАНИЕ: макет в этот момент активно правился человеком, поэтому это снимок текущего состояния, а не эталон.",
-  "capturedAt": "2026-08-16",
-  "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
-  "viewports": {
-    "desktop": {
-      "page": "🖥 Головна — Desktop 1440",
-      "frame": "Home — Desktop 1440",
-      "frameSize": {
-        "w": 1440,
-        "h": 8914.3
+ "$comment": "Геометрия организмов из макета Мій Комп'ютер Едьюкейшн. Снято агентом через Figma MCP 2026-08-16. ВНИМАНИЕ: макет в этот момент активно правился человеком, поэтому это снимок текущего состояния, а не эталон.",
+ "capturedAt": "2026-08-19",
+ "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
+ "viewports": {
+  "desktop": {
+   "page": "🖥 Головна — Desktop 1440",
+   "frame": "Home — Desktop 1440",
+   "frameSize": {
+    "w": 1440,
+    "h": 8946.3
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "103:3",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 819,
+     "inner": [
+      {
+       "name": "shape--3",
+       "w": 200,
+       "h": 200
       },
-      "sections": [
-        {
-          "name": "Hero",
-          "x": 0,
-          "y": 0,
-          "w": 1440,
-          "h": 819,
-          "id": "103:3"
-        },
-        {
-          "name": "Header",
-          "x": 0,
-          "y": 0,
-          "w": 1440,
-          "h": 69,
-          "id": "103:1509"
-        },
-        {
-          "name": "Partners",
-          "x": 0,
-          "y": 819,
-          "w": 1440,
-          "h": 151.4,
-          "id": "103:101"
-        },
-        {
-          "name": "Benefits",
-          "x": 0,
-          "y": 970.4,
-          "w": 1440,
-          "h": 962,
-          "id": "103:154"
-        },
-        {
-          "name": "Courses",
-          "x": 0,
-          "y": 1932.4,
-          "w": 1440,
-          "h": 850.3,
-          "id": "103:263"
-        },
-        {
-          "name": "How It Works",
-          "x": 0,
-          "y": 2782.7,
-          "w": 1440,
-          "h": 631,
-          "id": "103:497"
-        },
-        {
-          "name": "Stats",
-          "x": 0,
-          "y": 3413.7,
-          "w": 1440,
-          "h": 640,
-          "id": "103:589"
-        },
-        {
-          "name": "Pricing",
-          "x": 0,
-          "y": 4053.7,
-          "w": 1440,
-          "h": 729.8,
-          "id": "103:728"
-        },
-        {
-          "name": "Certificate",
-          "x": 0,
-          "y": 4783.5,
-          "w": 1440,
-          "h": 442,
-          "id": "103:879"
-        },
-        {
-          "name": "Reviews",
-          "x": 0,
-          "y": 5225.5,
-          "w": 1440,
-          "h": 897,
-          "id": "103:927"
-        },
-        {
-          "name": "Articles",
-          "x": 0,
-          "y": 6122.5,
-          "w": 1440,
-          "h": 812.8,
-          "id": "103:1037"
-        },
-        {
-          "name": "FAQ",
-          "x": 0,
-          "y": 6935.3,
-          "w": 1440,
-          "h": 630,
-          "id": "103:1140"
-        },
-        {
-          "name": "Contact",
-          "x": 0,
-          "y": 7565.3,
-          "w": 1440,
-          "h": 595,
-          "id": "103:1214"
-        },
-        {
-          "name": "Footer",
-          "x": 0,
-          "y": 8160.3,
-          "w": 1440,
-          "h": 754,
-          "id": "103:1310"
-        }
-      ]
+      {
+       "name": "shape--2",
+       "w": 300,
+       "h": 300
+      },
+      {
+       "name": "shape--1",
+       "w": 500,
+       "h": 500
+      },
+      {
+       "name": "Inner",
+       "w": 1112,
+       "h": 657
+      }
+     ]
     },
-    "tablet": {
-      "page": "💻 Головна — Tablet 1024",
-      "frame": "Home — Tablet 1024",
-      "frameSize": {
-        "w": 1024,
-        "h": 9639.5
-      },
-      "sections": [
-        {
-          "name": "Hero",
-          "x": 0,
-          "y": 0,
-          "w": 1024,
-          "h": 732,
-          "id": "103:2833"
-        },
-        {
-          "name": "Header",
-          "x": 0,
-          "y": 0,
-          "w": 1024,
-          "h": 69,
-          "id": "103:3738"
-        },
-        {
-          "name": "Partners",
-          "x": 0,
-          "y": 732,
-          "w": 1024,
-          "h": 151.4,
-          "id": "103:2916"
-        },
-        {
-          "name": "Benefits",
-          "x": 0,
-          "y": 883.4,
-          "w": 1024,
-          "h": 1183,
-          "id": "103:2948"
-        },
-        {
-          "name": "Courses",
-          "x": 0,
-          "y": 2066.4,
-          "w": 1024,
-          "h": 850.3,
-          "id": "103:3005"
-        },
-        {
-          "name": "How It Works",
-          "x": 0,
-          "y": 2916.7,
-          "w": 1024,
-          "h": 653,
-          "id": "103:3132"
-        },
-        {
-          "name": "Stats",
-          "x": 0,
-          "y": 3569.7,
-          "w": 1024,
-          "h": 891,
-          "id": "103:3184"
-        },
-        {
-          "name": "Pricing",
-          "x": 0,
-          "y": 4460.7,
-          "w": 1024,
-          "h": 772.2,
-          "id": "103:3260"
-        },
-        {
-          "name": "Certificate",
-          "x": 0,
-          "y": 5232.9,
-          "w": 1024,
-          "h": 442,
-          "id": "103:3342"
-        },
-        {
-          "name": "Reviews",
-          "x": 0,
-          "y": 5674.9,
-          "w": 1024,
-          "h": 920.8,
-          "id": "103:3378"
-        },
-        {
-          "name": "Articles",
-          "x": 0,
-          "y": 6595.7,
-          "w": 1024,
-          "h": 812.8,
-          "id": "103:3437"
-        },
-        {
-          "name": "FAQ",
-          "x": 0,
-          "y": 7408.5,
-          "w": 1024,
-          "h": 882,
-          "id": "103:3500"
-        },
-        {
-          "name": "Contact",
-          "x": 0,
-          "y": 8290.5,
-          "w": 1024,
-          "h": 595,
-          "id": "103:3544"
-        },
-        {
-          "name": "Footer",
-          "x": 0,
-          "y": 8885.5,
-          "w": 1024,
-          "h": 754,
-          "id": "103:3621"
-        }
-      ]
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "103:1509",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 69,
+     "inner": [
+      {
+       "name": "Nav",
+       "w": 1112,
+       "h": 69
+      }
+     ]
     },
-    "mobile": {
-      "page": "📱 Головна — Mobile 390",
-      "frame": "Home — Mobile 390",
-      "frameSize": {
-        "w": 390,
-        "h": 12294.6
-      },
-      "sections": [
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "103:101",
+     "x": 0,
+     "y": 819,
+     "w": 1440,
+     "h": 151.4,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 77.4
+      }
+     ]
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "103:154",
+     "x": 0,
+     "y": 970.4,
+     "w": 1440,
+     "h": 994,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 818,
+       "inner": [
         {
-          "name": "Hero",
-          "x": 0,
-          "y": 0,
-          "w": 390,
-          "h": 779,
-          "id": "103:3780"
-        },
-        {
-          "name": "Header",
-          "x": 0,
-          "y": 0,
-          "w": 390,
-          "h": 69,
-          "id": "103:4687"
-        },
-        {
-          "name": "Partners",
-          "x": 0,
-          "y": 779,
-          "w": 390,
-          "h": 192.8,
-          "id": "103:3863"
-        },
-        {
-          "name": "Benefits",
-          "x": 0,
-          "y": 971.8,
-          "w": 390,
-          "h": 1273,
-          "id": "103:3895",
-          "inner": [
+         "name": "Section Header",
+         "w": 620,
+         "h": 214,
+         "inner": [
+          {
+           "name": "Section Badge",
+           "w": 221,
+           "h": 34,
+           "inner": [
             {
-              "name": "Container",
-              "h": 1161,
-              "inner": [
-                {
-                  "name": "Section Header",
-                  "h": 238
-                },
-                {
-                  "name": "Grid",
-                  "h": 867
-                }
-              ]
+             "name": "Label",
+             "w": 193,
+             "h": 22
             }
-          ]
+           ]
+          },
+          {
+           "name": "gap-16",
+           "w": 1,
+           "h": 16
+          },
+          {
+           "name": "Title",
+           "w": 620,
+           "h": 96
+          },
+          {
+           "name": "gap-14",
+           "w": 1,
+           "h": 14
+          },
+          {
+           "name": "Subtitle",
+           "w": 620,
+           "h": 54
+          }
+         ]
         },
         {
-          "name": "Courses",
-          "x": 0,
-          "y": 2244.8,
-          "w": 390,
-          "h": 831.5,
-          "id": "103:3952",
-          "inner": [
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Grid",
+         "w": 1112,
+         "h": 548,
+         "inner": [
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 271,
+           "inner": [
             {
-              "name": "Container",
-              "h": 719.5,
-              "inner": [
-                {
-                  "name": "Section Header",
-                  "h": 151
-                },
-                {
-                  "name": "Tabs",
-                  "h": 43
-                },
-                {
-                  "name": "Slider",
-                  "h": 385.5
-                },
-                {
-                  "name": "Pagination",
-                  "h": 36
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "How It Works",
-          "x": 0,
-          "y": 3076.3,
-          "w": 390,
-          "h": 918,
-          "id": "103:4079",
-          "inner": [
+             "name": "Featured Badge",
+             "w": 127,
+             "h": 27,
+             "inner": [
+              {
+               "name": "НАША ПЕРЕВАГА",
+               "w": 103,
+               "h": 19
+              }
+             ]
+            },
             {
-              "name": "Container",
-              "h": 806,
-              "inner": [
-                {
-                  "name": "Section Header",
-                  "h": 180
-                },
-                {
-                  "name": "Steps",
-                  "h": 570
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Stats",
-          "x": 0,
-          "y": 3994.3,
-          "w": 390,
-          "h": 1335,
-          "id": "103:4127"
-        },
-        {
-          "name": "Pricing",
-          "x": 0,
-          "y": 5329.3,
-          "w": 390,
-          "h": 1477.8,
-          "id": "103:4203",
-          "inner": [
+             "name": "spacer-16",
+             "w": 1,
+             "h": 16
+            },
             {
-              "name": "Container",
-              "h": 1365.8,
-              "inner": [
-                {
-                  "name": "Pricing Header",
-                  "h": 148
-                },
-                {
-                  "name": "Grid",
-                  "h": 1177.8
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Certificate",
-          "x": 0,
-          "y": 6807.1,
-          "w": 390,
-          "h": 674,
-          "id": "103:4285"
-        },
-        {
-          "name": "Reviews",
-          "x": 0,
-          "y": 7481.1,
-          "w": 390,
-          "h": 673.5,
-          "id": "103:4321"
-        },
-        {
-          "name": "Articles",
-          "x": 0,
-          "y": 8154.6,
-          "w": 390,
-          "h": 832.8,
-          "id": "103:4386"
-        },
-        {
-          "name": "FAQ",
-          "x": 0,
-          "y": 8987.4,
-          "w": 390,
-          "h": 716,
-          "id": "103:4449"
-        },
-        {
-          "name": "Contact",
-          "x": 0,
-          "y": 9703.4,
-          "w": 390,
-          "h": 1108.2,
-          "id": "103:4493",
-          "inner": [
+             "name": "Benefit Icon Wrap",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
             {
-              "name": "Container",
-              "h": 1016.2,
-              "inner": [
-                {
-                  "name": "Grid",
-                  "h": 1016.2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Footer",
-          "x": 0,
-          "y": 10811.6,
-          "w": 390,
-          "h": 1483,
-          "id": "103:4570",
-          "inner": [
+             "name": "spacer-18",
+             "w": 1,
+             "h": 18
+            },
             {
-              "name": "Container",
-              "h": 1399,
-              "inner": [
-                {
-                  "name": "Inner",
-                  "h": 1032
-                },
-                {
-                  "name": "Pay Section",
-                  "h": 165
-                },
-                {
-                  "name": "Legal",
-                  "h": 77
-                },
-                {
-                  "name": "Bottom",
-                  "h": 85
-                }
-              ]
+             "name": "Title",
+             "w": 301.3,
+             "h": 34
+            },
+            {
+             "name": "spacer-12",
+             "w": 1,
+             "h": 12
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 48
+            },
+            {
+             "name": "bloom-tr",
+             "w": 200,
+             "h": 200
+            },
+            {
+             "name": "bloom-bl",
+             "w": 160,
+             "h": 160
             }
-          ]
+           ]
+          },
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 209,
+           "inner": [
+            {
+             "name": "Benefit Icon Plate",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-4",
+             "w": 1,
+             "h": 4
+            },
+            {
+             "name": "Title",
+             "w": 301.3,
+             "h": 31
+            },
+            {
+             "name": "spacer-10",
+             "w": 1,
+             "h": 10
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 48
+            }
+           ]
+          },
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 209,
+           "inner": [
+            {
+             "name": "Benefit Icon Plate",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-4",
+             "w": 1,
+             "h": 4
+            },
+            {
+             "name": "Title",
+             "w": 301.3,
+             "h": 31
+            },
+            {
+             "name": "spacer-10",
+             "w": 1,
+             "h": 10
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 48
+            }
+           ]
+          },
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 233,
+           "inner": [
+            {
+             "name": "Benefit Icon Plate",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-4",
+             "w": 1,
+             "h": 4
+            },
+            {
+             "name": "Title",
+             "w": 301.3,
+             "h": 31
+            },
+            {
+             "name": "spacer-10",
+             "w": 1,
+             "h": 10
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 72
+            }
+           ]
+          },
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 257,
+           "inner": [
+            {
+             "name": "Benefit Icon Plate",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-4",
+             "w": 1,
+             "h": 4
+            },
+            {
+             "name": "Title",
+             "w": 301.3,
+             "h": 31
+            },
+            {
+             "name": "spacer-10",
+             "w": 1,
+             "h": 10
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 96
+            }
+           ]
+          },
+          {
+           "name": "Benefit Card",
+           "w": 357.3,
+           "h": 209,
+           "inner": [
+            {
+             "name": "Benefit Icon Plate",
+             "w": 52,
+             "h": 52,
+             "inner": [
+              {
+               "name": "Icon",
+               "w": 26,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-4",
+             "w": 1,
+             "h": 4
+            },
+            {
+             "name": "Title",
+             "w": 301.3,
+             "h": 31
+            },
+            {
+             "name": "spacer-10",
+             "w": 1,
+             "h": 10
+            },
+            {
+             "name": "Description",
+             "w": 301.3,
+             "h": 48
+            }
+           ]
+          }
+         ]
         }
-      ]
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "103:263",
+     "x": 0,
+     "y": 1964.4,
+     "w": 1440,
+     "h": 850.3,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 674.3,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 620,
+         "h": 141,
+         "inner": [
+          {
+           "name": "Section Badge",
+           "w": 132,
+           "h": 36,
+           "inner": [
+            {
+             "name": "Label",
+             "w": 102,
+             "h": 22
+            }
+           ]
+          },
+          {
+           "name": "gap-16",
+           "w": 1,
+           "h": 16
+          },
+          {
+           "name": "Title",
+           "w": 620,
+           "h": 48
+          },
+          {
+           "name": "gap-14",
+           "w": 1,
+           "h": 14
+          },
+          {
+           "name": "Subtitle",
+           "w": 620,
+           "h": 27
+          }
+         ]
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Tabs",
+         "w": 1112,
+         "h": 44,
+         "inner": [
+          {
+           "name": "Course Tab",
+           "w": 110,
+           "h": 44,
+           "inner": [
+            {
+             "name": "Label",
+             "w": 66,
+             "h": 24
+            }
+           ]
+          },
+          {
+           "name": "Course Tab",
+           "w": 117,
+           "h": 44,
+           "inner": [
+            {
+             "name": "Label",
+             "w": 73,
+             "h": 24
+            }
+           ]
+          },
+          {
+           "name": "Course Tab",
+           "w": 124,
+           "h": 44,
+           "inner": [
+            {
+             "name": "Label",
+             "w": 80,
+             "h": 24
+            }
+           ]
+          },
+          {
+           "name": "Course Tab",
+           "w": 124,
+           "h": 44,
+           "inner": [
+            {
+             "name": "Label",
+             "w": 80,
+             "h": 24
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "spacer-28",
+         "w": 1,
+         "h": 28
+        },
+        {
+         "name": "Slider",
+         "w": 1112,
+         "h": 349.3,
+         "inner": [
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3,
+           "inner": [
+            {
+             "name": "Header",
+             "w": 260,
+             "h": 64,
+             "inner": [
+              {
+               "name": "Emoji",
+               "w": 32,
+               "h": 32
+              },
+              {
+               "name": "Course Age Badge",
+               "w": 82,
+               "h": 27
+              }
+             ]
+            },
+            {
+             "name": "Body",
+             "w": 260,
+             "h": 257.3,
+             "inner": [
+              {
+               "name": "Title",
+               "w": 228,
+               "h": 36
+              },
+              {
+               "name": "spacer-8",
+               "w": 228,
+               "h": 8
+              },
+              {
+               "name": "Features",
+               "w": 228,
+               "h": 66
+              },
+              {
+               "name": "push",
+               "w": 1,
+               "h": 32.3
+              },
+              {
+               "name": "Footer",
+               "w": 228,
+               "h": 85
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3,
+           "inner": [
+            {
+             "name": "Header",
+             "w": 260,
+             "h": 64,
+             "inner": [
+              {
+               "name": "Emoji",
+               "w": 32,
+               "h": 32
+              },
+              {
+               "name": "Course Age Badge",
+               "w": 83,
+               "h": 27
+              }
+             ]
+            },
+            {
+             "name": "Body",
+             "w": 260,
+             "h": 257.3,
+             "inner": [
+              {
+               "name": "Title",
+               "w": 228,
+               "h": 18
+              },
+              {
+               "name": "spacer-8",
+               "w": 228,
+               "h": 8
+              },
+              {
+               "name": "Features",
+               "w": 228,
+               "h": 66
+              },
+              {
+               "name": "push",
+               "w": 1,
+               "h": 50.3
+              },
+              {
+               "name": "Footer",
+               "w": 228,
+               "h": 85
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3,
+           "inner": [
+            {
+             "name": "Header",
+             "w": 260,
+             "h": 64,
+             "inner": [
+              {
+               "name": "Emoji",
+               "w": 32,
+               "h": 32
+              },
+              {
+               "name": "Course Age Badge",
+               "w": 83,
+               "h": 27
+              }
+             ]
+            },
+            {
+             "name": "Body",
+             "w": 260,
+             "h": 257.3,
+             "inner": [
+              {
+               "name": "Title",
+               "w": 228,
+               "h": 18
+              },
+              {
+               "name": "spacer-8",
+               "w": 228,
+               "h": 8
+              },
+              {
+               "name": "Features",
+               "w": 228,
+               "h": 66
+              },
+              {
+               "name": "push",
+               "w": 1,
+               "h": 50.3
+              },
+              {
+               "name": "Footer",
+               "w": 228,
+               "h": 85
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3,
+           "inner": [
+            {
+             "name": "Header",
+             "w": 260,
+             "h": 64,
+             "inner": [
+              {
+               "name": "Emoji",
+               "w": 32,
+               "h": 32
+              },
+              {
+               "name": "Course Age Badge",
+               "w": 82,
+               "h": 27
+              }
+             ]
+            },
+            {
+             "name": "Body",
+             "w": 260,
+             "h": 257.3,
+             "inner": [
+              {
+               "name": "Title",
+               "w": 228,
+               "h": 18
+              },
+              {
+               "name": "spacer-8",
+               "w": 228,
+               "h": 8
+              },
+              {
+               "name": "Features",
+               "w": 228,
+               "h": 66
+              },
+              {
+               "name": "push",
+               "w": 1,
+               "h": 50.3
+              },
+              {
+               "name": "Footer",
+               "w": 228,
+               "h": 85
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3,
+           "inner": [
+            {
+             "name": "Header",
+             "w": 260,
+             "h": 64,
+             "inner": [
+              {
+               "name": "Emoji",
+               "w": 32,
+               "h": 32
+              },
+              {
+               "name": "Course Age Badge",
+               "w": 83,
+               "h": 27
+              }
+             ]
+            },
+            {
+             "name": "Body",
+             "w": 260,
+             "h": 257.3,
+             "inner": [
+              {
+               "name": "Title",
+               "w": 228,
+               "h": 36
+              },
+              {
+               "name": "spacer-8",
+               "w": 228,
+               "h": 8
+              },
+              {
+               "name": "Features",
+               "w": 228,
+               "h": 66
+              },
+              {
+               "name": "push",
+               "w": 1,
+               "h": 32.3
+              },
+              {
+               "name": "Footer",
+               "w": 228,
+               "h": 85
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "spacer-20",
+         "w": 1,
+         "h": 20
+        },
+        {
+         "name": "Pagination",
+         "w": 1112,
+         "h": 36,
+         "inner": [
+          {
+           "name": "Courses Pager Button",
+           "w": 36,
+           "h": 36,
+           "inner": [
+            {
+             "name": "Chevron",
+             "w": 6,
+             "h": 12
+            }
+           ]
+          },
+          {
+           "name": "Dots",
+           "w": 50,
+           "h": 8,
+           "inner": [
+            {
+             "name": "Courses Pager Dot",
+             "w": 22,
+             "h": 8
+            },
+            {
+             "name": "Courses Pager Dot",
+             "w": 8,
+             "h": 8
+            },
+            {
+             "name": "Courses Pager Dot",
+             "w": 8,
+             "h": 8
+            }
+           ]
+          },
+          {
+           "name": "Courses Pager Button",
+           "w": 36,
+           "h": 36,
+           "inner": [
+            {
+             "name": "Chevron",
+             "w": 6,
+             "h": 12
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "103:497",
+     "x": 0,
+     "y": 2814.7,
+     "w": 1440,
+     "h": 631,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 455
+      }
+     ]
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "103:589",
+     "x": 0,
+     "y": 3445.7,
+     "w": 1440,
+     "h": 640,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 464
+      }
+     ]
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "103:728",
+     "x": 0,
+     "y": 4085.7,
+     "w": 1440,
+     "h": 729.8,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 569.8
+      }
+     ]
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "103:879",
+     "x": 0,
+     "y": 4815.5,
+     "w": 1440,
+     "h": 442,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 282
+      }
+     ]
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "103:927",
+     "x": 0,
+     "y": 5257.5,
+     "w": 1440,
+     "h": 897,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 721
+      }
+     ]
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "103:1037",
+     "x": 0,
+     "y": 6154.5,
+     "w": 1440,
+     "h": 812.8,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 652.8
+      }
+     ]
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "103:1140",
+     "x": 0,
+     "y": 6967.3,
+     "w": 1440,
+     "h": 630,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 454
+      }
+     ]
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "103:1214",
+     "x": 0,
+     "y": 7597.3,
+     "w": 1440,
+     "h": 595,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 475
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "103:1310",
+     "x": 0,
+     "y": 8192.3,
+     "w": 1440,
+     "h": 754,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 1112,
+       "h": 670,
+       "inner": [
+        {
+         "name": "Inner",
+         "w": 1112,
+         "h": 394,
+         "inner": [
+          {
+           "name": "Brand",
+           "w": 354.7,
+           "h": 148,
+           "inner": [
+            {
+             "name": "Logo",
+             "w": 220,
+             "h": 38,
+             "inner": [
+              {
+               "name": "Mark",
+               "w": 38,
+               "h": 38
+              },
+              {
+               "name": "Wordmark",
+               "w": 172,
+               "h": 26
+              }
+             ]
+            },
+            {
+             "name": "spacer-12",
+             "w": 1,
+             "h": 12
+            },
+            {
+             "name": "Description",
+             "w": 240,
+             "h": 44
+            },
+            {
+             "name": "spacer-18",
+             "w": 1,
+             "h": 18
+            },
+            {
+             "name": "Social",
+             "w": 124,
+             "h": 36,
+             "inner": [
+              {
+               "name": "Social Link",
+               "w": 36,
+               "h": 36
+              },
+              {
+               "name": "Social Link",
+               "w": 36,
+               "h": 36
+              },
+              {
+               "name": "Social Link",
+               "w": 36,
+               "h": 36
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Links",
+           "w": 709.3,
+           "h": 394,
+           "inner": [
+            {
+             "name": "Footer Column",
+             "w": 215.1,
+             "h": 394,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 46,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 215.1,
+               "h": 360
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 215.1,
+             "h": 283,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 72,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 215.1,
+               "h": 249
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 231.2,
+             "h": 135,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 74,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 231.2,
+               "h": 101
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "spacer-40",
+         "w": 1,
+         "h": 40
+        },
+        {
+         "name": "Pay Section",
+         "w": 1112,
+         "h": 117,
+         "inner": [
+          {
+           "name": "Pay Buttons",
+           "w": 1112,
+           "h": 44,
+           "inner": [
+            {
+             "name": "Btn Plata",
+             "w": 317.7,
+             "h": 44
+            },
+            {
+             "name": "Btn WayForPay",
+             "w": 120.5,
+             "h": 38
+            }
+           ]
+          },
+          {
+           "name": "Pay Logos",
+           "w": 1112,
+           "h": 28,
+           "inner": [
+            {
+             "name": "Pay Logo Pill",
+             "w": 69.7,
+             "h": 28
+            },
+            {
+             "name": "Pay Logo Pill",
+             "w": 46,
+             "h": 28
+            },
+            {
+             "name": "Pay Logo Pill",
+             "w": 57.9,
+             "h": 28
+            },
+            {
+             "name": "Pay Logo Pill",
+             "w": 61,
+             "h": 28
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Legal",
+         "w": 1112,
+         "h": 53,
+         "inner": [
+          {
+           "name": "Footer Link",
+           "w": 157,
+           "h": 20
+          },
+          {
+           "name": "Footer Link",
+           "w": 99,
+           "h": 20
+          },
+          {
+           "name": "Footer Link",
+           "w": 107,
+           "h": 20
+          },
+          {
+           "name": "Footer Link",
+           "w": 124,
+           "h": 20
+          },
+          {
+           "name": "Footer Link",
+           "w": 86,
+           "h": 20
+          }
+         ]
+        },
+        {
+         "name": "Bottom",
+         "w": 1112,
+         "h": 66,
+         "inner": [
+          {
+           "name": "Copyright",
+           "w": 1112,
+           "h": 20
+          },
+          {
+           "name": "FOP",
+           "w": 1112,
+           "h": 19
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
+   ]
+  },
+  "tablet": {
+   "page": "💻 Головна — Tablet 1024",
+   "frame": "Home — Tablet 1024",
+   "frameSize": {
+    "w": 1024,
+    "h": 9679.5
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "103:2833",
+     "x": 0,
+     "y": 0,
+     "w": 1024,
+     "h": 732,
+     "inner": [
+      {
+       "name": "shape--3",
+       "w": 200,
+       "h": 200
+      },
+      {
+       "name": "shape--2",
+       "w": 300,
+       "h": 300
+      },
+      {
+       "name": "shape--1",
+       "w": 500,
+       "h": 500
+      },
+      {
+       "name": "Inner",
+       "w": 976,
+       "h": 570,
+       "inner": [
+        {
+         "name": "Hero Content",
+         "w": 466,
+         "h": 570,
+         "inner": [
+          {
+           "name": "Hero Badge",
+           "w": 162,
+           "h": 36,
+           "inner": [
+            {
+             "name": "Dot",
+             "w": 8,
+             "h": 8
+            },
+            {
+             "name": "Label",
+             "w": 112,
+             "h": 22
+            }
+           ]
+          },
+          {
+           "name": "spacer-24",
+           "w": 1,
+           "h": 24
+          },
+          {
+           "name": "Title",
+           "w": 466,
+           "h": 188
+          },
+          {
+           "name": "spacer-20",
+           "w": 1,
+           "h": 20
+          },
+          {
+           "name": "Subtitle",
+           "w": 466,
+           "h": 116
+          },
+          {
+           "name": "spacer-32",
+           "w": 1,
+           "h": 32
+          },
+          {
+           "name": "Actions",
+           "w": 466,
+           "h": 58,
+           "inner": [
+            {
+             "name": "Button",
+             "w": 238,
+             "h": 58
+            },
+            {
+             "name": "Button",
+             "w": 188,
+             "h": 58
+            }
+           ]
+          },
+          {
+           "name": "spacer-36",
+           "w": 1,
+           "h": 36
+          },
+          {
+           "name": "Trust",
+           "w": 466,
+           "h": 60,
+           "inner": [
+            {
+             "name": "Trust Item",
+             "w": 184,
+             "h": 22
+            },
+            {
+             "name": "Trust Item",
+             "w": 204,
+             "h": 22
+            },
+            {
+             "name": "Trust Item",
+             "w": 199,
+             "h": 22
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Hero Visual",
+         "w": 470,
+         "h": 565,
+         "inner": [
+          {
+           "name": "Hero Photo Wrap",
+           "w": 470,
+           "h": 470,
+           "inner": [
+            {
+             "name": "Student Photo",
+             "w": 440,
+             "h": 440
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "103:3738",
+     "x": 0,
+     "y": 0,
+     "w": 1024,
+     "h": 69
+    },
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "103:2916",
+     "x": 0,
+     "y": 732,
+     "w": 1024,
+     "h": 151.4
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "103:2948",
+     "x": 0,
+     "y": 883.4,
+     "w": 1024,
+     "h": 1223,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 976,
+       "h": 1047,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 620,
+         "h": 214,
+         "inner": [
+          {
+           "name": "Section Badge",
+           "w": 221,
+           "h": 34
+          },
+          {
+           "name": "gap-16",
+           "w": 1,
+           "h": 16
+          },
+          {
+           "name": "Title",
+           "w": 620,
+           "h": 96
+          },
+          {
+           "name": "gap-14",
+           "w": 1,
+           "h": 14
+          },
+          {
+           "name": "Subtitle",
+           "w": 620,
+           "h": 54
+          }
+         ]
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Grid",
+         "w": 976,
+         "h": 777,
+         "inner": [
+          {
+           "name": "Benefit Card",
+           "w": 644,
+           "h": 247
+          },
+          {
+           "name": "Benefit Card",
+           "w": 312,
+           "h": 209
+          },
+          {
+           "name": "Benefit Card",
+           "w": 312,
+           "h": 233
+          },
+          {
+           "name": "Benefit Card",
+           "w": 312,
+           "h": 233
+          },
+          {
+           "name": "Benefit Card",
+           "w": 312,
+           "h": 257
+          },
+          {
+           "name": "Benefit Card",
+           "w": 312,
+           "h": 233
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "103:3005",
+     "x": 0,
+     "y": 2106.4,
+     "w": 1024,
+     "h": 850.3,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 976,
+       "h": 674.3,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 620,
+         "h": 141
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Tabs",
+         "w": 976,
+         "h": 44
+        },
+        {
+         "name": "spacer-28",
+         "w": 1,
+         "h": 28
+        },
+        {
+         "name": "Slider",
+         "w": 976,
+         "h": 349.3,
+         "inner": [
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3
+          },
+          {
+           "name": "Course Card",
+           "w": 260,
+           "h": 321.3
+          }
+         ]
+        },
+        {
+         "name": "spacer-20",
+         "w": 1,
+         "h": 20
+        },
+        {
+         "name": "Pagination",
+         "w": 976,
+         "h": 36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "103:3132",
+     "x": 0,
+     "y": 2956.7,
+     "w": 1024,
+     "h": 653
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "103:3184",
+     "x": 0,
+     "y": 3609.7,
+     "w": 1024,
+     "h": 891
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "103:3260",
+     "x": 0,
+     "y": 4500.7,
+     "w": 1024,
+     "h": 772.2
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "103:3342",
+     "x": 0,
+     "y": 5272.9,
+     "w": 1024,
+     "h": 442
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "103:3378",
+     "x": 0,
+     "y": 5714.9,
+     "w": 1024,
+     "h": 920.8
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "103:3437",
+     "x": 0,
+     "y": 6635.7,
+     "w": 1024,
+     "h": 812.8
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "103:3500",
+     "x": 0,
+     "y": 7448.5,
+     "w": 1024,
+     "h": 882
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "103:3544",
+     "x": 0,
+     "y": 8330.5,
+     "w": 1024,
+     "h": 595
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "103:3621",
+     "x": 0,
+     "y": 8925.5,
+     "w": 1024,
+     "h": 754,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 976,
+       "h": 670,
+       "inner": [
+        {
+         "name": "Inner",
+         "w": 976,
+         "h": 394,
+         "inner": [
+          {
+           "name": "Brand",
+           "w": 309.3,
+           "h": 148
+          },
+          {
+           "name": "Links",
+           "w": 618.7,
+           "h": 394,
+           "inner": [
+            {
+             "name": "Footer Column",
+             "w": 169.7,
+             "h": 394,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 46,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 169.7,
+               "h": 360
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 169.7,
+             "h": 283,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 72,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 169.7,
+               "h": 249
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 231.2,
+             "h": 135,
+             "inner": [
+              {
+               "name": "Heading",
+               "w": 74,
+               "h": 20
+              },
+              {
+               "name": "spacer-14",
+               "w": 1,
+               "h": 14
+              },
+              {
+               "name": "Links",
+               "w": 231.2,
+               "h": 101
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "spacer-40",
+         "w": 1,
+         "h": 40
+        },
+        {
+         "name": "Pay Section",
+         "w": 976,
+         "h": 117
+        },
+        {
+         "name": "Legal",
+         "w": 976,
+         "h": 53
+        },
+        {
+         "name": "Bottom",
+         "w": 976,
+         "h": 66
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "mobile": {
+   "page": "📱 Головна — Mobile 390",
+   "frame": "Home — Mobile 390",
+   "frameSize": {
+    "w": 390,
+    "h": 12594.6
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "103:3780",
+     "x": 0,
+     "y": 0,
+     "w": 390,
+     "h": 779
+    },
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "103:4687",
+     "x": 0,
+     "y": 0,
+     "w": 390,
+     "h": 69
+    },
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "103:3863",
+     "x": 0,
+     "y": 779,
+     "w": 390,
+     "h": 192.8
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "103:3895",
+     "x": 0,
+     "y": 971.8,
+     "w": 390,
+     "h": 1573,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 1461,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 358,
+         "h": 238,
+         "inner": [
+          {
+           "name": "Section Badge",
+           "w": 221,
+           "h": 34
+          },
+          {
+           "name": "gap-16",
+           "w": 1,
+           "h": 16
+          },
+          {
+           "name": "Title",
+           "w": 358,
+           "h": 93
+          },
+          {
+           "name": "gap-14",
+           "w": 1,
+           "h": 14
+          },
+          {
+           "name": "Subtitle",
+           "w": 358,
+           "h": 81
+          }
+         ]
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Grid",
+         "w": 358,
+         "h": 1167,
+         "inner": [
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 237
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 162
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 162
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 162
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 182
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 162
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "103:3952",
+     "x": 0,
+     "y": 2544.8,
+     "w": 390,
+     "h": 831.5,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 719.5,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 358,
+         "h": 151
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Tabs",
+         "w": 358,
+         "h": 43
+        },
+        {
+         "name": "spacer-28",
+         "w": 1,
+         "h": 28
+        },
+        {
+         "name": "Slider",
+         "w": 358,
+         "h": 385.5,
+         "inner": [
+          {
+           "name": "Course Card",
+           "w": 222.5,
+           "h": 357.5
+          },
+          {
+           "name": "Course Card",
+           "w": 222.5,
+           "h": 357.5
+          },
+          {
+           "name": "Course Card",
+           "w": 222.5,
+           "h": 357.5
+          },
+          {
+           "name": "Course Card",
+           "w": 222.5,
+           "h": 357.5
+          },
+          {
+           "name": "Course Card",
+           "w": 222.5,
+           "h": 357.5
+          }
+         ]
+        },
+        {
+         "name": "spacer-20",
+         "w": 1,
+         "h": 20
+        },
+        {
+         "name": "Pagination",
+         "w": 358,
+         "h": 36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "103:4079",
+     "x": 0,
+     "y": 3376.3,
+     "w": 390,
+     "h": 918,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 806,
+       "inner": [
+        {
+         "name": "Section Header",
+         "w": 358,
+         "h": 180
+        },
+        {
+         "name": "spacer-56",
+         "w": 1,
+         "h": 56
+        },
+        {
+         "name": "Steps",
+         "w": 358,
+         "h": 570,
+         "inner": [
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "Step Connector",
+           "w": 42,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "Step Connector",
+           "w": 42,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "Step Connector",
+           "w": 42,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 99
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "103:4127",
+     "x": 0,
+     "y": 4294.3,
+     "w": 390,
+     "h": 1335
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "103:4203",
+     "x": 0,
+     "y": 5629.3,
+     "w": 390,
+     "h": 1477.8,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 1365.8,
+       "inner": [
+        {
+         "name": "Pricing Header",
+         "w": 358,
+         "h": 148
+        },
+        {
+         "name": "spacer-40",
+         "w": 1,
+         "h": 40
+        },
+        {
+         "name": "Grid",
+         "w": 358,
+         "h": 1177.8,
+         "inner": [
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 372.6
+          },
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 392.6
+          },
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 372.6
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "103:4285",
+     "x": 0,
+     "y": 7107.1,
+     "w": 390,
+     "h": 674
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "103:4321",
+     "x": 0,
+     "y": 7781.1,
+     "w": 390,
+     "h": 673.5
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "103:4386",
+     "x": 0,
+     "y": 8454.6,
+     "w": 390,
+     "h": 832.8
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "103:4449",
+     "x": 0,
+     "y": 9287.4,
+     "w": 390,
+     "h": 716
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "103:4493",
+     "x": 0,
+     "y": 10003.4,
+     "w": 390,
+     "h": 1108.2,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 1016.2,
+       "inner": [
+        {
+         "name": "Grid",
+         "w": 358,
+         "h": 1016.2,
+         "inner": [
+          {
+           "name": "Left",
+           "w": 358,
+           "h": 165
+          },
+          {
+           "name": "Form",
+           "w": 358,
+           "h": 490.6
+          },
+          {
+           "name": "Details",
+           "w": 358,
+           "h": 312.6
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "103:4570",
+     "x": 0,
+     "y": 11111.6,
+     "w": 390,
+     "h": 1483,
+     "inner": [
+      {
+       "name": "Container",
+       "w": 358,
+       "h": 1399,
+       "inner": [
+        {
+         "name": "Inner",
+         "w": 358,
+         "h": 1032,
+         "inner": [
+          {
+           "name": "Brand",
+           "w": 358,
+           "h": 140
+          },
+          {
+           "name": "Links",
+           "w": 358,
+           "h": 860,
+           "inner": [
+            {
+             "name": "Footer Column",
+             "w": 358,
+             "h": 394
+            },
+            {
+             "name": "Footer Column",
+             "w": 358,
+             "h": 283
+            },
+            {
+             "name": "Footer Column",
+             "w": 358,
+             "h": 135
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "spacer-40",
+         "w": 1,
+         "h": 40
+        },
+        {
+         "name": "Pay Section",
+         "w": 358,
+         "h": 165
+        },
+        {
+         "name": "Legal",
+         "w": 358,
+         "h": 77
+        },
+        {
+         "name": "Bottom",
+         "w": 358,
+         "h": 85
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
+ },
+ "depth": 5
 }

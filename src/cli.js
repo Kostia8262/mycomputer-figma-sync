@@ -667,7 +667,46 @@ async function vsfigma(config, args) {
   if (args.emit) {
     const view = target.layout.pages[args.emit];
     if (!view) throw new Error(`Нет брейкпоинта «${args.emit}». Есть: desktop, tablet, mobile.`);
-    console.log(emitFigmaLayoutScript({ pageName: view.page, frameName: view.frame, ignore: target.layout.ignoreInFigma, part: Number(args.part ?? 1), parts: Number(args.parts ?? 1) }));
+    console.log(emitFigmaLayoutScript({
+      pageName: view.page,
+      frameName: view.frame,
+      ignore: target.layout.ignoreInFigma,
+      part: Number(args.part ?? 1),
+      parts: Number(args.parts ?? 1),
+      only: args.only ? String(args.only).split(',').map((name) => name.trim()) : [],
+    }));
+    return;
+  }
+
+  // Выдача скрипта приходит порциями: ответ плагина обрезается на 20 КБ, а
+  // геометрия на пяти уровнях вглубь в него не помещается целиком. Порции
+  // склеиваются по именам секций — так же, как у текстов.
+  if (args.import) {
+    if (!args.viewport) throw new Error('Укажите брейкпоинт: --viewport desktop|tablet|mobile');
+    const chunk = JSON.parse(await readFile(args.import, 'utf8'));
+    if (chunk.error) throw new Error(`Скрипт вернул ошибку: ${chunk.error}`);
+    const outFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}.json`);
+    const saved = existsSync(outFile)
+      ? JSON.parse(await readFile(outFile, 'utf8'))
+      : { figmaFileKey: target.figmaFileKey, viewports: {} };
+
+    const view = saved.viewports[args.viewport] ?? {};
+    const byName = new Map((args.fresh ? [] : view.sections ?? []).map((s) => [s.name, s]));
+    for (const section of chunk.sections) byName.set(section.name, section);
+    saved.viewports[args.viewport] = {
+      page: chunk.page,
+      frame: chunk.frame,
+      frameSize: chunk.frameSize,
+      // Порядок — по координате: части приходят вразнобой, а сверка идёт сверху вниз.
+      sections: [...byName.values()].sort((a, b) => a.y - b.y || a.x - b.x),
+    };
+    saved.capturedAt = new Date().toISOString().slice(0, 10);
+    saved.depth = 5;
+
+    await writeFile(outFile, JSON.stringify(saved, null, 1) + '\n', 'utf8');
+    const sections = saved.viewports[args.viewport].sections;
+    const deep = sections.filter((s) => s.inner?.some((c) => c.inner)).length;
+    console.log(`${args.viewport}: секций ${sections.length} (с разбором внутренностей: ${deep}) → ${outFile}`);
     return;
   }
 

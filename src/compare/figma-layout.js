@@ -20,7 +20,7 @@ const SIZE_TOLERANCE = 2;
 const OFFSET_TOLERANCE = 2;
 
 /** Скрипт, снимающий геометрию организмов со страницы макета. */
-export function emitFigmaLayoutScript({ pageName, frameName, ignore, part = 1, parts = 1 }) {
+export function emitFigmaLayoutScript({ pageName, frameName, ignore, part = 1, parts = 1, only = [] }) {
   return `const PAGE_NAME = ${JSON.stringify(pageName)};
 const FRAME_NAME = ${JSON.stringify(frameName)};
 const IGNORE = ${JSON.stringify(ignore ?? [])};
@@ -28,6 +28,10 @@ const IGNORE = ${JSON.stringify(ignore ?? [])};
 // слепок страницы весит больше. Части склеиваются по sections.
 const PART = ${part};
 const PARTS = ${parts};
+// Вглубь разбираются только названные секции. Остальные снимаются одним
+// уровнем: разбор нужен там, где расхождение уже найдено, а полный
+// пятиуровневый слепок всей страницы в 20 КБ ответа всё равно не помещается.
+const ONLY = ${JSON.stringify(only ?? [])};
 
 const page = figma.root.children.find((p) => p.name === PAGE_NAME);
 if (!page) return { error: 'Нет страницы ' + PAGE_NAME, pages: figma.root.children.map((p) => p.name) };
@@ -85,7 +89,7 @@ const sections = all
     y: round(n.y),
     w: round(n.width),
     h: round(n.height),
-    inner: walk(n, 1),
+    inner: walk(n, ONLY.length && !ONLY.includes(n.name) ? MAX_DEPTH : 1),
   }))
   // Порядок в дереве Figma не обязан совпадать с визуальным: Header часто лежит
   // последним, чтобы быть поверх. Сравнивать нужно по координате, а не по индексу.

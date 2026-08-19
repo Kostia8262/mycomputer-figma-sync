@@ -1,70 +1,1281 @@
 {
-  "$comment": "Геометрия организмов из макета Май Компьютер Скулл. Снято агентом через Figma MCP 2026-08-16. ВНИМАНИЕ: макет в этот момент активно правился человеком — это снимок текущего состояния, а не эталон.",
-  "capturedAt": "2026-08-16",
-  "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
-  "viewports": {
-    "desktop": {
-      "page": "🖥 Головна — Desktop 1440",
-      "frame": "Home — Desktop 1440",
-      "frameSize": { "w": 1440, "h": 9065.4 },
-      "sections": [
-        { "name": "Hero", "id": "56:3043", "x": 0, "y": 0, "w": 1440, "h": 815.2 },
-        { "name": "Header", "id": "56:4596", "x": 0, "y": 0, "w": 1440, "h": 68 },
-        { "name": "Partners", "id": "56:3080", "x": 0, "y": 815.2, "w": 1440, "h": 151.4 },
-        { "name": "Benefits", "id": "56:3103", "x": 0, "y": 966.6, "w": 1440, "h": 959 },
-        { "name": "Courses", "id": "56:3155", "x": 0, "y": 1925.6, "w": 1440, "h": 871 },
-        { "name": "How It Works", "id": "56:3505", "x": 0, "y": 2796.6, "w": 1440, "h": 629 },
-        { "name": "Stats", "id": "56:3559", "x": 0, "y": 3425.6, "w": 1440, "h": 654 },
-        { "name": "Pricing", "id": "56:3768", "x": 0, "y": 4079.6, "w": 1440, "h": 729 },
-        { "name": "Certificate", "id": "56:3849", "x": 0, "y": 4808.6, "w": 1440, "h": 443 },
-        { "name": "Reviews", "id": "56:4059", "x": 0, "y": 5251.6, "w": 1440, "h": 898 },
-        { "name": "Articles", "id": "56:4119", "x": 0, "y": 6149.6, "w": 1440, "h": 813.8 },
-        { "name": "FAQ", "id": "56:4355", "x": 0, "y": 6963.4, "w": 1440, "h": 644 },
-        { "name": "Contact", "id": "56:4401", "x": 0, "y": 7607.4, "w": 1440, "h": 597 },
-        { "name": "Footer", "id": "56:4480", "x": 0, "y": 8204.4, "w": 1440, "h": 861 }
-      ]
+ "$comment": "Геометрия организмов из макета Май Компьютер Скулл. Снято агентом через Figma MCP 2026-08-16. ВНИМАНИЕ: макет в этот момент активно правился человеком — это снимок текущего состояния, а не эталон.",
+ "capturedAt": "2026-08-19",
+ "figmaFileKey": "hGtcaSVjArhw8mFbRNNeHI",
+ "viewports": {
+  "desktop": {
+   "page": "🖥 Головна — Desktop 1440",
+   "frame": "Home — Desktop 1440",
+   "frameSize": {
+    "w": 1440,
+    "h": 9055.4
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "56:3043",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 819.2,
+     "inner": [
+      {
+       "name": "hero__bg-shapes",
+       "w": 1440,
+       "h": 819.2
+      },
+      {
+       "name": "container",
+       "w": 1160,
+       "h": 657.2,
+       "inner": [
+        {
+         "name": "hero__inner",
+         "w": 1112,
+         "h": 657.2,
+         "inner": [
+          {
+           "name": "hero__content",
+           "w": 526,
+           "h": 657.2,
+           "inner": [
+            {
+             "name": "badge-wrap",
+             "w": 526,
+             "h": 60
+            },
+            {
+             "name": "title-wrap",
+             "w": 526,
+             "h": 295
+            },
+            {
+             "name": "subtitle-wrap",
+             "w": 480,
+             "h": 148
+            },
+            {
+             "name": "actions-wrap",
+             "w": 526,
+             "h": 94.2
+            },
+            {
+             "name": "hero__trust",
+             "w": 526,
+             "h": 60
+            }
+           ]
+          },
+          {
+           "name": "hero__visual",
+           "w": 526,
+           "h": 550,
+           "inner": [
+            {
+             "name": "hero__photo-wrap",
+             "w": 470,
+             "h": 470
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
     },
-    "tablet": {
-      "page": "💻 Головна — Tablet 1024",
-      "frame": "Home — Tablet 1024",
-      "frameSize": { "w": 1024, "h": 9822.4 },
-      "sections": [
-        { "name": "Hero", "id": "60:3356", "x": 0, "y": 0, "w": 1024, "h": 775.2 },
-        { "name": "Header", "id": "60:4912", "x": 0, "y": 0, "w": 1024, "h": 68 },
-        { "name": "Partners", "id": "60:3393", "x": 0, "y": 775.2, "w": 1024, "h": 151.4 },
-        { "name": "Benefits", "id": "60:3416", "x": 0, "y": 926.6, "w": 1024, "h": 1182 },
-        { "name": "Courses", "id": "60:3469", "x": 0, "y": 2108.6, "w": 1024, "h": 871 },
-        { "name": "How It Works", "id": "60:3819", "x": 0, "y": 2979.6, "w": 1024, "h": 651 },
-        { "name": "Stats", "id": "60:3873", "x": 0, "y": 3630.6, "w": 1024, "h": 887 },
-        { "name": "Pricing", "id": "60:4084", "x": 0, "y": 4517.6, "w": 1024, "h": 771 },
-        { "name": "Certificate", "id": "60:4165", "x": 0, "y": 5288.6, "w": 1024, "h": 443 },
-        { "name": "Reviews", "id": "60:4375", "x": 0, "y": 5731.6, "w": 1024, "h": 898 },
-        { "name": "Articles", "id": "60:4435", "x": 0, "y": 6629.6, "w": 1024, "h": 813.8 },
-        { "name": "FAQ", "id": "60:4671", "x": 0, "y": 7443.4, "w": 1024, "h": 894 },
-        { "name": "Contact", "id": "60:4717", "x": 0, "y": 8337.4, "w": 1024, "h": 597 },
-        { "name": "Footer", "id": "60:4796", "x": 0, "y": 8934.4, "w": 1024, "h": 888 }
-      ]
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "56:4596",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 68
     },
-    "mobile": {
-      "page": "📱 Головна — Mobile 390",
-      "frame": "Home — Mobile 390",
-      "frameSize": { "w": 390, "h": 12480.5 },
-      "sections": [
-        { "name": "Hero", "id": "67:2783", "x": 0, "y": 0, "w": 390, "h": 815 },
-        { "name": "Header", "id": "67:4374", "x": 0, "y": 0, "w": 390, "h": 69 },
-        { "name": "Partners", "id": "67:2814", "x": 0, "y": 815, "w": 390, "h": 192.8 },
-        { "name": "Benefits", "id": "67:2837", "x": 0, "y": 1007.8, "w": 390, "h": 1274 },
-        { "name": "Courses", "id": "67:2887", "x": 0, "y": 2281.8, "w": 390, "h": 797 },
-        { "name": "How It Works", "id": "67:3237", "x": 0, "y": 3078.8, "w": 390, "h": 916 },
-        { "name": "Stats", "id": "67:3287", "x": 0, "y": 3994.8, "w": 390, "h": 1334 },
-        { "name": "Pricing", "id": "67:3496", "x": 0, "y": 5328.8, "w": 390, "h": 1482 },
-        { "name": "Certificate", "id": "67:3577", "x": 0, "y": 6810.8, "w": 390, "h": 738 },
-        { "name": "Reviews", "id": "67:3787", "x": 0, "y": 7548.8, "w": 390, "h": 644.3 },
-        { "name": "Articles", "id": "67:3845", "x": 0, "y": 8193.1, "w": 390, "h": 881.8 },
-        { "name": "FAQ", "id": "67:4081", "x": 0, "y": 9074.9, "w": 390, "h": 728 },
-        { "name": "Contact", "id": "67:4155", "x": 0, "y": 9802.9, "w": 390, "h": 1111.6 },
-        { "name": "Footer", "id": "67:4246", "x": 0, "y": 10914.5, "w": 390, "h": 1566 }
-      ]
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "56:3080",
+     "x": 0,
+     "y": 819.2,
+     "w": 1440,
+     "h": 151.4
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "56:3103",
+     "x": 0,
+     "y": 970.6,
+     "w": 1440,
+     "h": 959,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1160,
+       "h": 783,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 1112,
+         "h": 268,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 620,
+           "h": 212
+          }
+         ]
+        },
+        {
+         "name": "benefits__grid",
+         "w": 1112,
+         "h": 515,
+         "inner": [
+          {
+           "name": "row",
+           "w": 1112,
+           "h": 268,
+           "inner": [
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 268
+            },
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 268
+            },
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 268
+            }
+           ]
+          },
+          {
+           "name": "row",
+           "w": 1112,
+           "h": 227,
+           "inner": [
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 227
+            },
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 227
+            },
+            {
+             "name": "Benefit Card",
+             "w": 357.3,
+             "h": 227
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "56:3155",
+     "x": 0,
+     "y": 1929.6,
+     "w": 1440,
+     "h": 871
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "56:3505",
+     "x": 0,
+     "y": 2800.6,
+     "w": 1440,
+     "h": 629
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "56:3559",
+     "x": 0,
+     "y": 3429.6,
+     "w": 1440,
+     "h": 654
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "56:3768",
+     "x": 0,
+     "y": 4083.6,
+     "w": 1440,
+     "h": 729
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "56:3849",
+     "x": 0,
+     "y": 4812.6,
+     "w": 1440,
+     "h": 443
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "56:4059",
+     "x": 0,
+     "y": 5255.6,
+     "w": 1440,
+     "h": 898,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1160,
+       "h": 722,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 1112,
+         "h": 200,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 620,
+           "h": 144
+          }
+         ]
+        },
+        {
+         "name": "reviews__grid",
+         "w": 1112,
+         "h": 522,
+         "inner": [
+          {
+           "name": "row",
+           "w": 1112,
+           "h": 252,
+           "inner": [
+            {
+             "name": "Review Card",
+             "w": 547,
+             "h": 252
+            },
+            {
+             "name": "Review Card",
+             "w": 547,
+             "h": 252
+            }
+           ]
+          },
+          {
+           "name": "row",
+           "w": 1112,
+           "h": 252,
+           "inner": [
+            {
+             "name": "Review Card",
+             "w": 547,
+             "h": 252
+            },
+            {
+             "name": "Review Card",
+             "w": 547,
+             "h": 252
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "56:4119",
+     "x": 0,
+     "y": 6153.6,
+     "w": 1440,
+     "h": 813.8
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "56:4355",
+     "x": 0,
+     "y": 6967.4,
+     "w": 1440,
+     "h": 644
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "56:4401",
+     "x": 0,
+     "y": 7611.4,
+     "w": 1440,
+     "h": 593,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1160,
+       "h": 473,
+       "inner": [
+        {
+         "name": "contact__grid",
+         "w": 1112,
+         "h": 473,
+         "inner": [
+          {
+           "name": "left column",
+           "w": 520,
+           "h": 473,
+           "inner": [
+            {
+             "name": "contact__intro",
+             "w": 520,
+             "h": 168
+            },
+            {
+             "name": "contact__details",
+             "w": 520,
+             "h": 265
+            }
+           ]
+          },
+          {
+           "name": "contact-form",
+           "w": 520,
+           "h": 404,
+           "inner": [
+            {
+             "name": "form-row",
+             "w": 454,
+             "h": 86
+            },
+            {
+             "name": "group-wrap",
+             "w": 454,
+             "h": 86
+            },
+            {
+             "name": "Button",
+             "w": 454,
+             "h": 52
+            },
+            {
+             "name": "form-note",
+             "w": 454,
+             "h": 29
+            },
+            {
+             "name": "form-messengers",
+             "w": 454,
+             "h": 85
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "56:4480",
+     "x": 0,
+     "y": 8204.4,
+     "w": 1440,
+     "h": 851,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1160,
+       "h": 767,
+       "inner": [
+        {
+         "name": "footer__inner",
+         "w": 1112,
+         "h": 533,
+         "inner": [
+          {
+           "name": "brand",
+           "w": 355,
+           "h": 148
+          },
+          {
+           "name": "footer__links",
+           "w": 709,
+           "h": 493,
+           "inner": [
+            {
+             "name": "Footer Column",
+             "w": 215.1,
+             "h": 493,
+             "inner": [
+              {
+               "name": "h4-wrap",
+               "w": 215.1,
+               "h": 34
+              },
+              {
+               "name": "ul",
+               "w": 215.1,
+               "h": 459
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 215.1,
+             "h": 349,
+             "inner": [
+              {
+               "name": "h4-wrap",
+               "w": 215.1,
+               "h": 34
+              },
+              {
+               "name": "ul",
+               "w": 215.1,
+               "h": 315
+              }
+             ]
+            },
+            {
+             "name": "Footer Column",
+             "w": 230.8,
+             "h": 133,
+             "inner": [
+              {
+               "name": "h4-wrap",
+               "w": 230.8,
+               "h": 34
+              },
+              {
+               "name": "ul",
+               "w": 230.8,
+               "h": 99
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "footer__pay-section",
+         "w": 1112,
+         "h": 115
+        },
+        {
+         "name": "footer__legal",
+         "w": 1112,
+         "h": 53
+        },
+        {
+         "name": "footer__bottom",
+         "w": 1112,
+         "h": 66
+        }
+       ]
+      }
+     ]
     }
+   ]
+  },
+  "tablet": {
+   "page": "💻 Головна — Tablet 1024",
+   "frame": "Home — Tablet 1024",
+   "frameSize": {
+    "w": 1024,
+    "h": 9808.4
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "60:3356",
+     "x": 0,
+     "y": 0,
+     "w": 1024,
+     "h": 775.2
+    },
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "60:4912",
+     "x": 0,
+     "y": 0,
+     "w": 1024,
+     "h": 68
+    },
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "60:3393",
+     "x": 0,
+     "y": 775.2,
+     "w": 1024,
+     "h": 151.4
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "60:3416",
+     "x": 0,
+     "y": 926.6,
+     "w": 1024,
+     "h": 1182,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1024,
+       "h": 1006,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 976,
+         "h": 268,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 620,
+           "h": 212
+          }
+         ]
+        },
+        {
+         "name": "benefits__grid",
+         "w": 976,
+         "h": 738,
+         "inner": [
+          {
+           "name": "row",
+           "w": 976,
+           "h": 244,
+           "inner": [
+            {
+             "name": "Benefit Card",
+             "w": 644,
+             "h": 244
+            },
+            {
+             "name": "Benefit Card",
+             "w": 312,
+             "h": 244
+            }
+           ]
+          },
+          {
+           "name": "row",
+           "w": 976,
+           "h": 227,
+           "inner": [
+            {
+             "name": "Benefit Card",
+             "w": 312,
+             "h": 227
+            },
+            {
+             "name": "Benefit Card",
+             "w": 312,
+             "h": 227
+            },
+            {
+             "name": "Benefit Card",
+             "w": 312,
+             "h": 227
+            }
+           ]
+          },
+          {
+           "name": "row",
+           "w": 976,
+           "h": 227,
+           "inner": [
+            {
+             "name": "Benefit Card",
+             "w": 312,
+             "h": 227
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "60:3469",
+     "x": 0,
+     "y": 2108.6,
+     "w": 1024,
+     "h": 871
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "60:3819",
+     "x": 0,
+     "y": 2979.6,
+     "w": 1024,
+     "h": 651
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "60:3873",
+     "x": 0,
+     "y": 3630.6,
+     "w": 1024,
+     "h": 887
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "60:4084",
+     "x": 0,
+     "y": 4517.6,
+     "w": 1024,
+     "h": 771
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "60:4165",
+     "x": 0,
+     "y": 5288.6,
+     "w": 1024,
+     "h": 443
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "60:4375",
+     "x": 0,
+     "y": 5731.6,
+     "w": 1024,
+     "h": 898,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1024,
+       "h": 722,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 976,
+         "h": 200,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 620,
+           "h": 144
+          }
+         ]
+        },
+        {
+         "name": "reviews__grid",
+         "w": 976,
+         "h": 522,
+         "inner": [
+          {
+           "name": "row",
+           "w": 976,
+           "h": 252,
+           "inner": [
+            {
+             "name": "Review Card",
+             "w": 479,
+             "h": 252
+            },
+            {
+             "name": "Review Card",
+             "w": 479,
+             "h": 252
+            }
+           ]
+          },
+          {
+           "name": "row",
+           "w": 976,
+           "h": 252,
+           "inner": [
+            {
+             "name": "Review Card",
+             "w": 479,
+             "h": 252
+            },
+            {
+             "name": "Review Card",
+             "w": 479,
+             "h": 252
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "60:4435",
+     "x": 0,
+     "y": 6629.6,
+     "w": 1024,
+     "h": 813.8
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "60:4671",
+     "x": 0,
+     "y": 7443.4,
+     "w": 1024,
+     "h": 894
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "60:4717",
+     "x": 0,
+     "y": 8337.4,
+     "w": 1024,
+     "h": 593,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1024,
+       "h": 473,
+       "inner": [
+        {
+         "name": "contact__grid",
+         "w": 976,
+         "h": 473,
+         "inner": [
+          {
+           "name": "left column",
+           "w": 452,
+           "h": 473,
+           "inner": [
+            {
+             "name": "contact__intro",
+             "w": 452,
+             "h": 168
+            },
+            {
+             "name": "contact__details",
+             "w": 452,
+             "h": 265
+            }
+           ]
+          },
+          {
+           "name": "contact-form",
+           "w": 452,
+           "h": 404
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "60:4796",
+     "x": 0,
+     "y": 8930.4,
+     "w": 1024,
+     "h": 878,
+     "inner": [
+      {
+       "name": "container",
+       "w": 1024,
+       "h": 794,
+       "inner": [
+        {
+         "name": "footer__inner",
+         "w": 976,
+         "h": 560,
+         "inner": [
+          {
+           "name": "brand",
+           "w": 309.3,
+           "h": 148
+          },
+          {
+           "name": "footer__links",
+           "w": 618.7,
+           "h": 520,
+           "inner": [
+            {
+             "name": "Footer Column",
+             "w": 169.8,
+             "h": 520
+            },
+            {
+             "name": "Footer Column",
+             "w": 169.8,
+             "h": 376
+            },
+            {
+             "name": "Footer Column",
+             "w": 231.2,
+             "h": 133
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "footer__pay-section",
+         "w": 976,
+         "h": 115
+        },
+        {
+         "name": "footer__legal",
+         "w": 976,
+         "h": 53
+        },
+        {
+         "name": "footer__bottom",
+         "w": 976,
+         "h": 66
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "mobile": {
+   "page": "📱 Головна — Mobile 390",
+   "frame": "Home — Mobile 390",
+   "frameSize": {
+    "w": 390,
+    "h": 12463.5
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "type": "INSTANCE",
+     "id": "67:2783",
+     "x": 0,
+     "y": 0,
+     "w": 390,
+     "h": 815
+    },
+    {
+     "name": "Header",
+     "type": "INSTANCE",
+     "id": "67:4374",
+     "x": 0,
+     "y": 0,
+     "w": 390,
+     "h": 69
+    },
+    {
+     "name": "Partners",
+     "type": "INSTANCE",
+     "id": "67:2814",
+     "x": 0,
+     "y": 815,
+     "w": 390,
+     "h": 192.8
+    },
+    {
+     "name": "Benefits",
+     "type": "INSTANCE",
+     "id": "67:2837",
+     "x": 0,
+     "y": 1007.8,
+     "w": 390,
+     "h": 1274,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 1162,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 358,
+         "h": 261,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 358,
+           "h": 205
+          }
+         ]
+        },
+        {
+         "name": "benefits__grid",
+         "w": 358,
+         "h": 901,
+         "inner": [
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 231
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 114
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 114
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 114
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 114
+          },
+          {
+           "name": "Benefit Card",
+           "w": 358,
+           "h": 114
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Courses",
+     "type": "INSTANCE",
+     "id": "67:2887",
+     "x": 0,
+     "y": 2281.8,
+     "w": 390,
+     "h": 797
+    },
+    {
+     "name": "How It Works",
+     "type": "INSTANCE",
+     "id": "67:3237",
+     "x": 0,
+     "y": 3078.8,
+     "w": 390,
+     "h": 916,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 804,
+       "inner": [
+        {
+         "name": "section-header-wrap",
+         "w": 358,
+         "h": 234,
+         "inner": [
+          {
+           "name": "Section Header",
+           "w": 358,
+           "h": 178
+          }
+         ]
+        },
+        {
+         "name": "steps",
+         "w": 358,
+         "h": 570,
+         "inner": [
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "connector-wrap",
+           "w": 358,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "connector-wrap",
+           "w": 358,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 121
+          },
+          {
+           "name": "connector-wrap",
+           "w": 358,
+           "h": 36
+          },
+          {
+           "name": "Step",
+           "w": 358,
+           "h": 99
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Stats",
+     "type": "INSTANCE",
+     "id": "67:3287",
+     "x": 0,
+     "y": 3994.8,
+     "w": 390,
+     "h": 1334,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 1222,
+       "inner": [
+        {
+         "name": "stats__header",
+         "w": 358,
+         "h": 180
+        },
+        {
+         "name": "stats__grid",
+         "w": 358,
+         "h": 1042,
+         "inner": [
+          {
+           "name": "Stat Card",
+           "w": 358,
+           "h": 242
+          },
+          {
+           "name": "Stat Card",
+           "w": 358,
+           "h": 263
+          },
+          {
+           "name": "Stat Card",
+           "w": 358,
+           "h": 242
+          },
+          {
+           "name": "Stat Card",
+           "w": 358,
+           "h": 259
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Pricing",
+     "type": "INSTANCE",
+     "id": "67:3496",
+     "x": 0,
+     "y": 5328.8,
+     "w": 390,
+     "h": 1482,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 1370,
+       "inner": [
+        {
+         "name": "pricing__header",
+         "w": 358,
+         "h": 188
+        },
+        {
+         "name": "pricing__grid",
+         "w": 358,
+         "h": 1182,
+         "inner": [
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 374
+          },
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 394
+          },
+          {
+           "name": "Pricing Card",
+           "w": 358,
+           "h": 374
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Certificate",
+     "type": "INSTANCE",
+     "id": "67:3577",
+     "x": 0,
+     "y": 6810.8,
+     "w": 390,
+     "h": 738
+    },
+    {
+     "name": "Reviews",
+     "type": "INSTANCE",
+     "id": "67:3787",
+     "x": 0,
+     "y": 7548.8,
+     "w": 390,
+     "h": 644.3
+    },
+    {
+     "name": "Articles",
+     "type": "INSTANCE",
+     "id": "67:3845",
+     "x": 0,
+     "y": 8193.1,
+     "w": 390,
+     "h": 881.8
+    },
+    {
+     "name": "FAQ",
+     "type": "INSTANCE",
+     "id": "67:4081",
+     "x": 0,
+     "y": 9074.9,
+     "w": 390,
+     "h": 728
+    },
+    {
+     "name": "Contact",
+     "type": "INSTANCE",
+     "id": "67:4155",
+     "x": 0,
+     "y": 9802.9,
+     "w": 390,
+     "h": 1116.6,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 1024.6,
+       "inner": [
+        {
+         "name": "contact__grid",
+         "w": 358,
+         "h": 1024.6,
+         "inner": [
+          {
+           "name": "contact__intro",
+           "w": 358,
+           "h": 165
+          },
+          {
+           "name": "contact-form",
+           "w": 358,
+           "h": 500.6
+          },
+          {
+           "name": "contact__details",
+           "w": 358,
+           "h": 311
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "type": "INSTANCE",
+     "id": "67:4246",
+     "x": 0,
+     "y": 10919.5,
+     "w": 390,
+     "h": 1544,
+     "inner": [
+      {
+       "name": "container",
+       "w": 390,
+       "h": 1460,
+       "inner": [
+        {
+         "name": "footer__inner",
+         "w": 358,
+         "h": 1135,
+         "inner": [
+          {
+           "name": "brand",
+           "w": 358,
+           "h": 148
+          },
+          {
+           "name": "footer__links",
+           "w": 358,
+           "h": 915
+          }
+         ]
+        },
+        {
+         "name": "footer__pay-section",
+         "w": 358,
+         "h": 163
+        },
+        {
+         "name": "footer__legal",
+         "w": 358,
+         "h": 77
+        },
+        {
+         "name": "footer__bottom",
+         "w": 358,
+         "h": 85
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
+ },
+ "depth": 5
 }
