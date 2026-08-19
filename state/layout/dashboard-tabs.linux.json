@@ -2448,7 +2448,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6702,7 +6702,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10544,7 +10544,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14224,7 +14224,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -54149,7 +54149,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:48"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -54759,7 +54759,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[0]",
+                                  "key": ".dkpi.dkpi--danger",
                                   "tag": "div",
                                   "rel": {
                                     "x": 391,
@@ -54794,7 +54794,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[1]",
+                                  "key": ".dkpi.dkpi--success[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 586.5,
@@ -54829,7 +54829,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 782,
@@ -57431,7 +57431,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:48"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -60336,7 +60336,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:48"
+                                  "text": "Оновлено: 14:18"
                                 }
                               ]
                             },
@@ -92813,7 +92813,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -96946,7 +96946,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -100667,7 +100667,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -104279,7 +104279,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -143488,7 +143488,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:49"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
@@ -146739,7 +146739,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:49"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
@@ -149613,7 +149613,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:49"
+                                  "text": "Оновлено: 14:19"
                                 }
                               ]
                             },
@@ -228352,7 +228352,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:50"
+                                  "text": "Оновлено: 14:20"
                                 }
                               ]
                             },
@@ -231404,7 +231404,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:50"
+                                  "text": "Оновлено: 14:20"
                                 }
                               ]
                             },
@@ -234079,7 +234079,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 13:50"
+                                  "text": "Оновлено: 14:20"
                                 }
                               ]
                             },
