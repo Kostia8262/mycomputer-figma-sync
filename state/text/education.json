@@ -1,0 +1,3625 @@
+{
+ "url": "https://mycomputer.education",
+ "selector": "section[id], header, footer",
+ "takenAt": "2026-08-19",
+ "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
+ "viewports": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "sections": [
+    {
+     "key": "#header",
+     "lines": [
+      {
+       "t": "My Computer Academy",
+       "where": ".nav › .nav__logo › span"
+      },
+      {
+       "t": "Курси",
+       "where": ".nav__has-dropdown › .nav__link › a"
+      },
+      {
+       "t": "Як це працює",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "Про нас",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "Ціни",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "FAQ",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".nav__actions › .nav__phone › a"
+      },
+      {
+       "t": "UA",
+       "where": "#langSwitcher › .lang-btn › button"
+      },
+      {
+       "t": "RU",
+       "where": "#langSwitcher › .lang-btn › button"
+      },
+      {
+       "t": "Записатись",
+       "where": ".nav__actions › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#hero",
+     "lines": [
+      {
+       "t": "Онлайн навчання",
+       "where": ".hero__content › .hero__badge › span"
+      },
+      {
+       "t": "Школа програмування та IT-курсів для дітей Scratch, Python, Roblox, Minecraft",
+       "where": ".hero__content › .hero__title › h1"
+      },
+      {
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "where": ".hero__content › .hero__subtitle › p"
+      },
+      {
+       "t": "Безкоштовний урок",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Дивитися курси",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Понад 5500 випускників",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Пробний урок безкоштовно",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Сертифікат після навчання",
+       "where": ".hero__trust › .trust-item › span"
+      }
+     ]
+    },
+    {
+     "key": "#partners",
+     "lines": [
+      {
+       "t": "ТЕХНОЛОГІЇ, ЯКИМ МИ НАВЧАЄМО",
+       "where": ".container › .partners__label › p"
+      },
+      {
+       "t": "Scratch",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Python",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "HTML/CSS",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "JavaScript",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "AI / ML",
+       "where": ".partners__logos › .partner-logo › span"
+      }
+     ]
+    },
+    {
+     "key": "#about",
+     "lines": [
+      {
+       "t": "Чому My Computer Academy",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Все, що потрібно для старту у програмуванні та IT",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Ми не просто вчимо синтаксису — ми виховуємо практиків, що вирішують реальні задачі за допомогою коду.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "НАША ПЕРЕВАГА",
+       "where": ".benefit-card › .benefit-card__featured-badge › div"
+      },
+      {
+       "t": "Індивідуальний темп",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Малі групи",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Реальні проєкти",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Учні створюють ігри, сайти та додатки — справжні продукти, а не вправи.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Онлайн навчання",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Сертифікат",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Офіційний сертифікат про закінчення курсу. Разом із портфоліо стане вагомим аргументом у школах, ліцеях та університетах",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Підтримка 24/7",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Чат з викладачем, допомога із завданнями та розбір помилок у будь-який час.",
+       "where": ".benefits__grid › .benefit-card › p"
+      }
+     ]
+    },
+    {
+     "key": "#courses",
+     "lines": [
+      {
+       "t": "Наші програми",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Обери напрямок",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Курси розроблені з урахуванням віку та рівня підготовки дитини.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "Всі курси",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–10років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "10–14років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "14–18років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Python: справжнє програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Змінні, функції, цикли",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Pygame — розробка ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Telegram-боти, ШІ, нейромережі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Minecraft: програмування в грі",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Python для Minecraft (mcpi)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Автоматизація будівництва",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний мод у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Roblox: розробка ігор",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Lua — мова для Roblox Studio",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ 3D-дизайн та фізика ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри в Roblox",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн для розробників",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#how-it-works",
+     "lines": [
+      {
+       "t": "Процес",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Як записатися на курс програмування",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Всього 4 кроки від заявки до першого проєкту.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "01",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Залиш заявку",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Заповни форму нижче — ми передзвонимо протягом 30 хвилин і підберемо відповідний курс.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "02",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Безкоштовний пробний урок",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Дитина спробує заняття без зобов'язань. Побачиш формат, познайомишся з викладачем.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "03",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Старт навчання",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Оплачуєш курс, отримуєш доступ до матеріалів і розкладу. Заняття 1–2 рази на тиждень по 90 хвилин.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "04",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Створюєш проєкт",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує сертифікат.",
+       "where": ".step › .step__content › p"
+      }
+     ]
+    },
+    {
+     "key": "#stats",
+     "lines": [
+      {
+       "t": "Академія в цифрах",
+       "where": ".stats__header › .section-badge › div"
+      },
+      {
+       "t": "Наші учні та їхні досягнення в цифрах",
+       "where": ".stats__header › .stats__title › h2"
+      },
+      {
+       "t": "5500",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Випускників",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Дітей успішно завершили навчання",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "12000",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Проєктів учнів",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Ігри, боти, сайти та автоматизація",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "Scratch",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Python",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Сайти",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "98",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Задоволених сімей",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Батьки рекомендують нас друзям",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "27",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Років на ринку",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Надійна школа з досвідченою командою",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      }
+     ]
+    },
+    {
+     "key": "#pricing",
+     "lines": [
+      {
+       "t": "Варіанти навчання",
+       "where": ".pricing__header › .pricing__title › h2"
+      },
+      {
+       "t": "Курси стартують кожного місяця",
+       "where": ".pricing__meta › .pricing__meta-left › span"
+      },
+      {
+       "t": "Ми підберемо Вам групу або індивідуального педагога під Ваш рівень та напрямок",
+       "where": ".pricing__meta › .pricing__meta-right › span"
+      },
+      {
+       "t": "ДЛЯ СТАРТУ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Одинарні дитячі групи",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "1 800",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ОПТИМАЛЬНИЙ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Подвійні групи та інд. навчання",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "3 600",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ДЛЯ ДОРОСЛИХ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Індивідуальний дорослий курс",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "Індивідуально 2–3 рази на тиждень",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів курсу назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Від півтора до восьми місяців",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "9 450",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/курс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "12 000",
+       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#certificate",
+     "lines": [
+      {
+       "t": "Сертифікат My Computer Academy",
+       "where": ".cert-section__content › .cert-section__title › h2"
+      },
+      {
+       "t": "Підтвердить, що ви пройшли курс, а також стане додатковим аргументом при влаштуванні на роботу",
+       "where": ".cert-section__content › .cert-section__desc › p"
+      },
+      {
+       "t": "Іменний сертифікат по завершенні курсу",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Підтверджує рівень та спеціалізацію",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Визнається роботодавцями IT-сфери",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "My Computer Academy",
+       "where": ".cert-preview__header › .cert-preview__brand › div"
+      },
+      {
+       "t": "Свідоцтво №___",
+       "where": ".cert-preview › .cert-preview__title-text › div"
+      },
+      {
+       "t": "Видано: _______________",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "У тому, що він(вона) в 20__ закінчив курс навчання за фахом:",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "DIRECTOR",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      },
+      {
+       "t": "DATE SIGNATURE",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      }
+     ]
+    },
+    {
+     "key": "#reviews",
+     "lines": [
+      {
+       "t": "Відгуки",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Відгуки батьків про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "МК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Олег М.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Дарини, 14 років · Web",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "НС",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      }
+     ]
+    },
+    {
+     "key": "#faq",
+     "lines": [
+      {
+       "t": "Часті питання",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Часті питання про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "З якого віку можна починати?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Чи потрібні знання програмування?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки коштують курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки тривають курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Які є варіанти оплати?",
+       "where": ".faq-item › .faq-item__question › span"
+      }
+     ]
+    },
+    {
+     "key": "#contact",
+     "lines": [
+      {
+       "t": "Запишіться на пробний урок",
+       "where": ".contact__intro › .contact__title › h2"
+      },
+      {
+       "t": "Залиш заявку — передзвонимо протягом 30 хвилин, запишемо дитину на безкоштовне перше заняття.",
+       "where": ".contact__intro › .contact__subtitle › p"
+      },
+      {
+       "t": "Ваше ім'я *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "Наприклад: Іван",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Вік",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "9",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Ваш телефон *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "+380 Україна +48 Польща +49 Німеччина +420 Чехія +421 Словаччина +43 Австрія +44 Велика Британія +1 США +1 Канада +972 І",
+       "where": ".phone-wrap › .form-input › select"
+      },
+      {
+       "t": "🇺🇦",
+       "where": ".phone-country › .phone-country__flag › span"
+      },
+      {
+       "t": "+380",
+       "where": ".phone-country › .phone-country__dial › span"
+      },
+      {
+       "t": "(__) ___-__-__",
+       "where": ".phone-wrap › .form-input › input"
+      },
+      {
+       "t": "Записатися на пробний урок безкоштовно",
+       "where": "#submitBtn › .btn-text › span"
+      },
+      {
+       "t": "або напишіть нам напряму",
+       "where": ".form-messengers › .form-messengers__label › span"
+      },
+      {
+       "t": "Viber",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "WhatsApp",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Telegram",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Натискаючи кнопку, ви погоджуєтесь з політикою конфіденційності.",
+       "where": "#contactForm › .form-note › p"
+      },
+      {
+       "t": "ТЕЛЕФОНИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "ПОШТА",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": "#contactDetails › .contact__email › a"
+      },
+      {
+       "t": "СЛІДКУЙТЕ ЗА НАМИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "Facebook",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      }
+     ]
+    },
+    {
+     "key": ".footer",
+     "lines": [
+      {
+       "t": "My Computer Academy",
+       "where": ".footer__brand › .nav__logo › span"
+      },
+      {
+       "t": "Онлайн школа програмування для дітей від 6 до 18 років по всій Україні.",
+       "where": ".footer__brand › .footer__desc › p"
+      },
+      {
+       "t": "КУРСИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Scratch (6–10 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Python (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Roblox (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Minecraft (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Construct 3 (10–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Веб-розробка (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "UI/UX дизайн (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Графіка та анімація (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Базовий ПК (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Блог та сайт (10–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "АКАДЕМІЯ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Про нас",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Як це працює",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "FAQ",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Статті",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Класична версія сайту",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа дизайну",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "КОНТАКТИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openPayModal › span"
+      },
+      {
+       "t": "Політика конфіденційності",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Публічна оферта",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила та умови",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила повернення",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "where": ".footer__bottom › .footer__bottom-left › p"
+      },
+      {
+       "t": "ФОП Піменов К.Ю., ІПН 3498404577, м. Дніпро, пр. О. Поля 28а, +38 (095) 462-46-72, my.computer.academy25@gmail.com",
+       "where": ".footer__bottom-left › .footer__fop › p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 1024,
+   "sections": [
+    {
+     "key": "#header",
+     "lines": [
+      {
+       "t": "My Computer Academy",
+       "where": ".nav › .nav__logo › span"
+      },
+      {
+       "t": "Курси",
+       "where": ".nav__has-dropdown › .nav__link › a"
+      },
+      {
+       "t": "Як це працює",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "Про нас",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "Ціни",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "FAQ",
+       "where": ".nav › #navMenu › li"
+      },
+      {
+       "t": "UA",
+       "where": "#langSwitcher › .lang-btn › button"
+      },
+      {
+       "t": "RU",
+       "where": "#langSwitcher › .lang-btn › button"
+      },
+      {
+       "t": "Записатись",
+       "where": ".nav__actions › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#hero",
+     "lines": [
+      {
+       "t": "Онлайн навчання",
+       "where": ".hero__content › .hero__badge › span"
+      },
+      {
+       "t": "Школа програмування та IT-курсів для дітей Scratch, Python, Roblox, Minecraft",
+       "where": ".hero__content › .hero__title › h1"
+      },
+      {
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "where": ".hero__content › .hero__subtitle › p"
+      },
+      {
+       "t": "Безкоштовний урок",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Дивитися курси",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Понад 5500 випускників",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Пробний урок безкоштовно",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Сертифікат після навчання",
+       "where": ".hero__trust › .trust-item › span"
+      }
+     ]
+    },
+    {
+     "key": "#partners",
+     "lines": [
+      {
+       "t": "ТЕХНОЛОГІЇ, ЯКИМ МИ НАВЧАЄМО",
+       "where": ".container › .partners__label › p"
+      },
+      {
+       "t": "Scratch",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Python",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "HTML/CSS",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "JavaScript",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "AI / ML",
+       "where": ".partners__logos › .partner-logo › span"
+      }
+     ]
+    },
+    {
+     "key": "#about",
+     "lines": [
+      {
+       "t": "Чому My Computer Academy",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Все, що потрібно для старту у програмуванні та IT",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Ми не просто вчимо синтаксису — ми виховуємо практиків, що вирішують реальні задачі за допомогою коду.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "НАША ПЕРЕВАГА",
+       "where": ".benefit-card › .benefit-card__featured-badge › div"
+      },
+      {
+       "t": "Індивідуальний темп",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Малі групи",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Реальні проєкти",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Учні створюють ігри, сайти та додатки — справжні продукти, а не вправи.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Онлайн навчання",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Сертифікат",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Офіційний сертифікат про закінчення курсу. Разом із портфоліо стане вагомим аргументом у школах, ліцеях та університетах",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Підтримка 24/7",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Чат з викладачем, допомога із завданнями та розбір помилок у будь-який час.",
+       "where": ".benefits__grid › .benefit-card › p"
+      }
+     ]
+    },
+    {
+     "key": "#courses",
+     "lines": [
+      {
+       "t": "Наші програми",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Обери напрямок",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Курси розроблені з урахуванням віку та рівня підготовки дитини.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "Всі курси",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–10років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "10–14років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "14–18років",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Python: справжнє програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Змінні, функції, цикли",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Pygame — розробка ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Telegram-боти, ШІ, нейромережі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Minecraft: програмування в грі",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Python для Minecraft (mcpi)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Автоматизація будівництва",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний мод у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Roblox: розробка ігор",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Lua — мова для Roblox Studio",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ 3D-дизайн та фізика ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри в Roblox",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн для розробників",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#how-it-works",
+     "lines": [
+      {
+       "t": "Процес",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Як записатися на курс програмування",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Всього 4 кроки від заявки до першого проєкту.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "01",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Залиш заявку",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Заповни форму нижче — ми передзвонимо протягом 30 хвилин і підберемо відповідний курс.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "02",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Безкоштовний пробний урок",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Дитина спробує заняття без зобов'язань. Побачиш формат, познайомишся з викладачем.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "03",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Старт навчання",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Оплачуєш курс, отримуєш доступ до матеріалів і розкладу. Заняття 1–2 рази на тиждень по 90 хвилин.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "04",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Створюєш проєкт",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує сертифікат.",
+       "where": ".step › .step__content › p"
+      }
+     ]
+    },
+    {
+     "key": "#stats",
+     "lines": [
+      {
+       "t": "Академія в цифрах",
+       "where": ".stats__header › .section-badge › div"
+      },
+      {
+       "t": "Наші учні та їхні досягнення в цифрах",
+       "where": ".stats__header › .stats__title › h2"
+      },
+      {
+       "t": "5500",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Випускників",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Дітей успішно завершили навчання",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "12000",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Проєктів учнів",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Ігри, боти, сайти та автоматизація",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "Scratch",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Python",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Сайти",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "98",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Задоволених сімей",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Батьки рекомендують нас друзям",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "27",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Років на ринку",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Надійна школа з досвідченою командою",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      }
+     ]
+    },
+    {
+     "key": "#pricing",
+     "lines": [
+      {
+       "t": "Варіанти навчання",
+       "where": ".pricing__header › .pricing__title › h2"
+      },
+      {
+       "t": "Курси стартують кожного місяця",
+       "where": ".pricing__meta › .pricing__meta-left › span"
+      },
+      {
+       "t": "Ми підберемо Вам групу або індивідуального педагога під Ваш рівень та напрямок",
+       "where": ".pricing__meta › .pricing__meta-right › span"
+      },
+      {
+       "t": "ДЛЯ СТАРТУ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Одинарні дитячі групи",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "1 800",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ОПТИМАЛЬНИЙ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Подвійні групи та інд. навчання",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "3 600",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ДЛЯ ДОРОСЛИХ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Індивідуальний дорослий курс",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "Індивідуально 2–3 рази на тиждень",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів курсу назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Від півтора до восьми місяців",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "9 450",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/курс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "12 000",
+       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#certificate",
+     "lines": [
+      {
+       "t": "Сертифікат My Computer Academy",
+       "where": ".cert-section__content › .cert-section__title › h2"
+      },
+      {
+       "t": "Підтвердить, що ви пройшли курс, а також стане додатковим аргументом при влаштуванні на роботу",
+       "where": ".cert-section__content › .cert-section__desc › p"
+      },
+      {
+       "t": "Іменний сертифікат по завершенні курсу",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Підтверджує рівень та спеціалізацію",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Визнається роботодавцями IT-сфери",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "My Computer Academy",
+       "where": ".cert-preview__header › .cert-preview__brand › div"
+      },
+      {
+       "t": "Свідоцтво №___",
+       "where": ".cert-preview › .cert-preview__title-text › div"
+      },
+      {
+       "t": "Видано: _______________",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "У тому, що він(вона) в 20__ закінчив курс навчання за фахом:",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "DIRECTOR",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      },
+      {
+       "t": "DATE SIGNATURE",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      }
+     ]
+    },
+    {
+     "key": "#reviews",
+     "lines": [
+      {
+       "t": "Відгуки",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Відгуки батьків про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "МК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Олег М.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Дарини, 14 років · Web",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "НС",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      }
+     ]
+    },
+    {
+     "key": "#faq",
+     "lines": [
+      {
+       "t": "Часті питання",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Часті питання про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "З якого віку можна починати?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Чи потрібні знання програмування?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки коштують курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки тривають курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Які є варіанти оплати?",
+       "where": ".faq-item › .faq-item__question › span"
+      }
+     ]
+    },
+    {
+     "key": "#contact",
+     "lines": [
+      {
+       "t": "Запишіться на пробний урок",
+       "where": ".contact__intro › .contact__title › h2"
+      },
+      {
+       "t": "Залиш заявку — передзвонимо протягом 30 хвилин, запишемо дитину на безкоштовне перше заняття.",
+       "where": ".contact__intro › .contact__subtitle › p"
+      },
+      {
+       "t": "Ваше ім'я *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "Наприклад: Іван",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Вік",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "9",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Ваш телефон *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "+380 Україна +48 Польща +49 Німеччина +420 Чехія +421 Словаччина +43 Австрія +44 Велика Британія +1 США +1 Канада +972 І",
+       "where": ".phone-wrap › .form-input › select"
+      },
+      {
+       "t": "🇺🇦",
+       "where": ".phone-country › .phone-country__flag › span"
+      },
+      {
+       "t": "+380",
+       "where": ".phone-country › .phone-country__dial › span"
+      },
+      {
+       "t": "(__) ___-__-__",
+       "where": ".phone-wrap › .form-input › input"
+      },
+      {
+       "t": "Записатися на пробний урок безкоштовно",
+       "where": "#submitBtn › .btn-text › span"
+      },
+      {
+       "t": "або напишіть нам напряму",
+       "where": ".form-messengers › .form-messengers__label › span"
+      },
+      {
+       "t": "Viber",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "WhatsApp",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Telegram",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Натискаючи кнопку, ви погоджуєтесь з політикою конфіденційності.",
+       "where": "#contactForm › .form-note › p"
+      },
+      {
+       "t": "ТЕЛЕФОНИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "ПОШТА",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": "#contactDetails › .contact__email › a"
+      },
+      {
+       "t": "СЛІДКУЙТЕ ЗА НАМИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "Facebook",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      }
+     ]
+    },
+    {
+     "key": ".footer",
+     "lines": [
+      {
+       "t": "My Computer Academy",
+       "where": ".footer__brand › .nav__logo › span"
+      },
+      {
+       "t": "Онлайн школа програмування для дітей від 6 до 18 років по всій Україні.",
+       "where": ".footer__brand › .footer__desc › p"
+      },
+      {
+       "t": "КУРСИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Scratch (6–10 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Python (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Roblox (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Minecraft (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Construct 3 (10–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Веб-розробка (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "UI/UX дизайн (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Графіка та анімація (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Базовий ПК (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Блог та сайт (10–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "АКАДЕМІЯ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Про нас",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Як це працює",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "FAQ",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Статті",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Класична версія сайту",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа дизайну",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "КОНТАКТИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openPayModal › span"
+      },
+      {
+       "t": "Політика конфіденційності",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Публічна оферта",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила та умови",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила повернення",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "where": ".footer__bottom › .footer__bottom-left › p"
+      },
+      {
+       "t": "ФОП Піменов К.Ю., ІПН 3498404577, м. Дніпро, пр. О. Поля 28а, +38 (095) 462-46-72, my.computer.academy25@gmail.com",
+       "where": ".footer__bottom-left › .footer__fop › p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "sections": [
+    {
+     "key": "#header",
+     "lines": [
+      {
+       "t": "My Computer",
+       "where": ".nav › .nav__logo › span"
+      },
+      {
+       "t": "Academy",
+       "where": ".nav › .nav__logo › strong"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".nav__actions › .nav__phone › a"
+      }
+     ]
+    },
+    {
+     "key": "#hero",
+     "lines": [
+      {
+       "t": "Онлайн навчання",
+       "where": ".hero__content › .hero__badge › span"
+      },
+      {
+       "t": "Школа програмування та IT-курсів для дітей Scratch, Python, Roblox, Minecraft",
+       "where": ".hero__content › .hero__title › h1"
+      },
+      {
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "where": ".hero__content › .hero__subtitle › p"
+      },
+      {
+       "t": "Безкоштовний урок",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Дивитися курси",
+       "where": ".hero__actions › .btn › a"
+      },
+      {
+       "t": "Понад 5500 випускників",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Пробний урок безкоштовно",
+       "where": ".hero__trust › .trust-item › span"
+      },
+      {
+       "t": "Сертифікат після навчання",
+       "where": ".hero__trust › .trust-item › span"
+      }
+     ]
+    },
+    {
+     "key": "#partners",
+     "lines": [
+      {
+       "t": "ТЕХНОЛОГІЇ, ЯКИМ МИ НАВЧАЄМО",
+       "where": ".container › .partners__label › p"
+      },
+      {
+       "t": "Scratch",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Python",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "HTML/CSS",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "JavaScript",
+       "where": ".partners__logos › .partner-logo › span"
+      },
+      {
+       "t": "AI / ML",
+       "where": ".partners__logos › .partner-logo › span"
+      }
+     ]
+    },
+    {
+     "key": "#about",
+     "lines": [
+      {
+       "t": "Чому My Computer Academy",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Все, що потрібно для старту у програмуванні та IT",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Ми не просто вчимо синтаксису — ми виховуємо практиків, що вирішують реальні задачі за допомогою коду.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "НАША ПЕРЕВАГА",
+       "where": ".benefit-card › .benefit-card__featured-badge › div"
+      },
+      {
+       "t": "Індивідуальний темп",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Малі групи",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Реальні проєкти",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Учні створюють ігри, сайти та додатки — справжні продукти, а не вправи.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Онлайн навчання",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Сертифікат",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Офіційний сертифікат про закінчення курсу. Разом із портфоліо стане вагомим аргументом у школах, ліцеях та університетах",
+       "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "Підтримка 24/7",
+       "where": ".benefits__grid › .benefit-card › h3"
+      },
+      {
+       "t": "Чат з викладачем, допомога із завданнями та розбір помилок у будь-який час.",
+       "where": ".benefits__grid › .benefit-card › p"
+      }
+     ]
+    },
+    {
+     "key": "#courses",
+     "lines": [
+      {
+       "t": "Наші програми",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Обери напрямок",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Курси розроблені з урахуванням віку та рівня підготовки дитини.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "Всі курси",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–10",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "10–14",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "14–18",
+       "where": ".courses__tabs › .courses__tab › button"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Python: справжнє програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Змінні, функції, цикли",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Pygame — розробка ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Telegram-боти, ШІ, нейромережі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Minecraft: програмування в грі",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Python для Minecraft (mcpi)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Автоматизація будівництва",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний мод у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Roblox: розробка ігор",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Lua — мова для Roblox Studio",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ 3D-дизайн та фізика ігор",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри в Roblox",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн для розробників",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#how-it-works",
+     "lines": [
+      {
+       "t": "Процес",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Як записатися на курс програмування",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Всього 4 кроки від заявки до першого проєкту.",
+       "where": ".section-header › .section-subtitle › p"
+      },
+      {
+       "t": "01",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Залиш заявку",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Заповни форму нижче — ми передзвонимо протягом 30 хвилин і підберемо відповідний курс.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "02",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Безкоштовний пробний урок",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Дитина спробує заняття без зобов'язань. Побачиш формат, познайомишся з викладачем.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "03",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Старт навчання",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Оплачуєш курс, отримуєш доступ до матеріалів і розкладу. Заняття 1–2 рази на тиждень по 90 хвилин.",
+       "where": ".step › .step__content › p"
+      },
+      {
+       "t": "04",
+       "where": ".step › .step__number › div"
+      },
+      {
+       "t": "Створюєш проєкт",
+       "where": ".step › .step__content › h3"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує сертифікат.",
+       "where": ".step › .step__content › p"
+      }
+     ]
+    },
+    {
+     "key": "#stats",
+     "lines": [
+      {
+       "t": "Академія в цифрах",
+       "where": ".stats__header › .section-badge › div"
+      },
+      {
+       "t": "Наші учні та їхні досягнення в цифрах",
+       "where": ".stats__header › .stats__title › h2"
+      },
+      {
+       "t": "5500",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Випускників",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Дітей успішно завершили навчання",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "12000",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Проєктів учнів",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Ігри, боти, сайти та автоматизація",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "Scratch",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Python",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Roblox",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "Сайти",
+       "where": ".stats__card › .stats__card-tags › span"
+      },
+      {
+       "t": "98",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Задоволених сімей",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Батьки рекомендують нас друзям",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      },
+      {
+       "t": "27",
+       "where": ".stats__card-number › .stats__number › span"
+      },
+      {
+       "t": "Років на ринку",
+       "where": ".stats__card-body › .stats__card-label › div"
+      },
+      {
+       "t": "Надійна школа з досвідченою командою",
+       "where": ".stats__card-body › .stats__card-desc › div"
+      }
+     ]
+    },
+    {
+     "key": "#pricing",
+     "lines": [
+      {
+       "t": "Варіанти навчання",
+       "where": ".pricing__header › .pricing__title › h2"
+      },
+      {
+       "t": "Курси стартують кожного місяця",
+       "where": ".pricing__meta › .pricing__meta-left › span"
+      },
+      {
+       "t": "Ми підберемо Вам групу або індивідуального педагога під Ваш рівень та напрямок",
+       "where": ".pricing__meta › .pricing__meta-right › span"
+      },
+      {
+       "t": "ДЛЯ СТАРТУ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Одинарні дитячі групи",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "1 800",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ОПТИМАЛЬНИЙ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Подвійні групи та інд. навчання",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Мала група до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "3 600",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/міс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      },
+      {
+       "t": "ДЛЯ ДОРОСЛИХ",
+       "where": ".pricing-card › .pricing-card__badge › div"
+      },
+      {
+       "t": "Індивідуальний дорослий курс",
+       "where": ".pricing-card › .pricing-card__title › h3"
+      },
+      {
+       "t": "Індивідуально 2–3 рази на тиждень",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Доступ до матеріалів курсу назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Від півтора до восьми місяців",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "ВІД",
+       "where": ".pricing-card__price › .pricing-card__price-label › div"
+      },
+      {
+       "t": "9 450",
+       "where": ".pricing-card__price › .pricing-card__price-val › div"
+      },
+      {
+       "t": "грн/курс",
+       "where": ".pricing-card__price › .pricing-card__price-val › span"
+      },
+      {
+       "t": "12 000",
+       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
+      },
+      {
+       "t": "Записатись на пробне",
+       "where": ".pricing-card › .btn › a"
+      }
+     ]
+    },
+    {
+     "key": "#certificate",
+     "lines": [
+      {
+       "t": "Сертифікат My Computer Academy",
+       "where": ".cert-section__content › .cert-section__title › h2"
+      },
+      {
+       "t": "Підтвердить, що ви пройшли курс, а також стане додатковим аргументом при влаштуванні на роботу",
+       "where": ".cert-section__content › .cert-section__desc › p"
+      },
+      {
+       "t": "Іменний сертифікат по завершенні курсу",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Підтверджує рівень та спеціалізацію",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "Визнається роботодавцями IT-сфери",
+       "where": ".cert-section__content › .cert-section__list › li"
+      },
+      {
+       "t": "My Computer Academy",
+       "where": ".cert-preview__header › .cert-preview__brand › div"
+      },
+      {
+       "t": "Свідоцтво №___",
+       "where": ".cert-preview › .cert-preview__title-text › div"
+      },
+      {
+       "t": "Видано: _______________",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "У тому, що він(вона) в 20__ закінчив курс навчання за фахом:",
+       "where": ".cert-preview__lines › .cert-preview__line › div"
+      },
+      {
+       "t": "DIRECTOR",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      },
+      {
+       "t": "DATE SIGNATURE",
+       "where": ".cert-preview › .cert-preview__footer › span"
+      }
+     ]
+    },
+    {
+     "key": "#reviews",
+     "lines": [
+      {
+       "t": "Відгуки",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Відгуки батьків про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "МК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Олег М.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Дарини, 14 років · Web",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "★★★★★",
+       "where": ".review-card › .review-card__stars › div"
+      },
+      {
+       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "НС",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      }
+     ]
+    },
+    {
+     "key": "#faq",
+     "lines": [
+      {
+       "t": "Часті питання",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Часті питання про курси програмування для дітей",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "З якого віку можна починати?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Чи потрібні знання програмування?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки коштують курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Скільки тривають курси?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Які є варіанти оплати?",
+       "where": ".faq-item › .faq-item__question › span"
+      }
+     ]
+    },
+    {
+     "key": "#contact",
+     "lines": [
+      {
+       "t": "Запишіться на пробний урок",
+       "where": ".contact__intro › .contact__title › h2"
+      },
+      {
+       "t": "Залиш заявку — передзвонимо протягом 30 хвилин, запишемо дитину на безкоштовне перше заняття.",
+       "where": ".contact__intro › .contact__subtitle › p"
+      },
+      {
+       "t": "Ваше ім'я *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "Наприклад: Іван",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Вік",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "9",
+       "where": ".form-group › .form-input › input"
+      },
+      {
+       "t": "Ваш телефон *",
+       "where": ".form-group › .form-label › label"
+      },
+      {
+       "t": "+380 Україна +48 Польща +49 Німеччина +420 Чехія +421 Словаччина +43 Австрія +44 Велика Британія +1 США +1 Канада +972 І",
+       "where": ".phone-wrap › .form-input › select"
+      },
+      {
+       "t": "🇺🇦",
+       "where": ".phone-country › .phone-country__flag › span"
+      },
+      {
+       "t": "+380",
+       "where": ".phone-country › .phone-country__dial › span"
+      },
+      {
+       "t": "(__) ___-__-__",
+       "where": ".phone-wrap › .form-input › input"
+      },
+      {
+       "t": "Записатися на пробний урок безкоштовно",
+       "where": "#submitBtn › .btn-text › span"
+      },
+      {
+       "t": "або напишіть нам напряму",
+       "where": ".form-messengers › .form-messengers__label › span"
+      },
+      {
+       "t": "Viber",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "WhatsApp",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Telegram",
+       "where": ".form-messengers__links › .form-messenger-btn › a"
+      },
+      {
+       "t": "Натискаючи кнопку, ви погоджуєтесь з політикою конфіденційності.",
+       "where": "#contactForm › .form-note › p"
+      },
+      {
+       "t": "ТЕЛЕФОНИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".contact__phone-row › .contact__phone-number › a"
+      },
+      {
+       "t": "ПОШТА",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": "#contactDetails › .contact__email › a"
+      },
+      {
+       "t": "СЛІДКУЙТЕ ЗА НАМИ",
+       "where": "#contactDetails › .contact__info-title › h4"
+      },
+      {
+       "t": "Facebook",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      }
+     ]
+    },
+    {
+     "key": ".footer",
+     "lines": [
+      {
+       "t": "My Computer",
+       "where": ".footer__brand › .nav__logo › span"
+      },
+      {
+       "t": "Academy",
+       "where": ".footer__brand › .nav__logo › strong"
+      },
+      {
+       "t": "Онлайн школа програмування для дітей від 6 до 18 років по всій Україні.",
+       "where": ".footer__brand › .footer__desc › p"
+      },
+      {
+       "t": "КУРСИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Scratch (6–10 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Python (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Roblox (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Minecraft (6–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Construct 3 (10–14 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Веб-розробка (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "UI/UX дизайн (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Графіка та анімація (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Базовий ПК (6–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Блог та сайт (10–18 років)",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "АКАДЕМІЯ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "Про нас",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Як це працює",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "FAQ",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Статті",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Класична версія сайту",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа дизайну",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "КОНТАКТИ",
+       "where": ".footer__links › .footer__col › h4"
+      },
+      {
+       "t": "+38 (095) 462-46-72",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "+38 (068) 252-28-76",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "my.computer.academy25@gmail.com",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openPayModal › span"
+      },
+      {
+       "t": "Політика конфіденційності",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Публічна оферта",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила та умови",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Правила повернення",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "where": ".footer__bottom › .footer__bottom-left › p"
+      },
+      {
+       "t": "ФОП Піменов К.Ю., ІПН 3498404577, м. Дніпро, пр. О. Поля 28а, +38 (095) 462-46-72, my.computer.academy25@gmail.com",
+       "where": ".footer__bottom-left › .footer__fop › p"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

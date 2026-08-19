@@ -13,6 +13,9 @@ const STAGES = [
   { id: 'primitives', title: 'Примитивы', hint: 'сырые значения, на них ссылается всё остальное' },
   { id: 'semantic', title: 'Семантика', hint: 'смысловые переменные, ссылаются на примитивы' },
   { id: 'styles', title: 'Стили', hint: 'текстовые и эффект-стили' },
+  // Тексты идут перед организмами не для красоты: недостающая строка меняет
+  // высоту секции, и правка габаритов до правки слов гоняется за хвостом.
+  { id: 'content', title: 'Тексты', hint: 'подписи, ссылки и заголовки: слова берутся с прода' },
   { id: 'organisms', title: 'Организмы', hint: 'секции страниц: размеры и порядок' },
   { id: 'frames', title: 'Экраны', hint: 'кадры макета, затронутые коммитом' },
 ];
@@ -246,9 +249,104 @@ function tabSteps(tabsDiff = []) {
   }));
 }
 
-export function buildEditsPlan({ tokenResult, layoutFindings = [], prodByViewport = {}, target, frames, tabsDiff }) {
+/**
+ * Правки по текстам.
+ *
+ * Одно и то же слово расходится сразу на трёх брейкпоинтах — правится оно чаще
+ * всего один раз (в компоненте), поэтому находки сводятся в один шаг со списком
+ * кадров. Иначе план на ровном месте утраивается.
+ */
+function textSteps(textFindings = []) {
+  const byLine = new Map();
+
+  for (const entry of textFindings) {
+    for (const finding of entry.result.findings) {
+      const key = [finding.kind, finding.figma, finding.onProd ?? '', finding.inFigma ?? ''].join('|');
+      const item = byLine.get(key) ?? { ...finding, viewports: [], pages: [], nodeIds: new Set() };
+      item.viewports.push(entry.viewport);
+      item.pages.push(`${entry.page} → ${entry.frame}`);
+      if (finding.nodeId) item.nodeIds.add(finding.nodeId);
+      byLine.set(key, item);
+    }
+  }
+
+  const steps = [];
+  for (const item of byLine.values()) {
+    const where = `Кадры: ${item.viewports.join(', ')}`;
+    const ids = [...item.nodeIds];
+    const address = ids.length
+      ? `${where} · узлы: ${ids.slice(0, 3).join(', ')}`
+      : `${where} · секция «${item.figma}»${item.sectionId ? ` (id ${item.sectionId})` : ''}`;
+
+    if (item.kind === 'текст') {
+      steps.push({
+        stage: 'content', action: 'изменить',
+        title: `${item.figma}: «${item.inFigma}» → «${item.onProd}»`,
+        address,
+        value: item.onProd,
+        how: `На проде «${item.onProd}», в макете «${item.inFigma}». Прод — эталон. Если слой внутри инстанса, правка ляжет оверрайдом — это нормально; но если строка приходит из мастер-компонента, менять надо его.`,
+        source: `${item.prod} · ${item.where ?? 'текст секции'}`,
+        verify: 'строка уйдёт из расхождений vstext',
+      });
+      continue;
+    }
+
+    if (item.kind === 'нет в макете') {
+      steps.push({
+        stage: 'content', action: 'создать',
+        title: `${item.figma}: добавить «${item.onProd}»`,
+        address,
+        value: item.onProd,
+        how: `На проде эта строка есть (${item.where ?? 'в секции'}), в макете её нет. ВНИМАНИЕ: добавить слой внутрь инстанса нельзя — Figma отвечает «Cannot move node. New parent is an instance». Если блок собран инстансами, строка заводится в мастер-компоненте.`,
+        source: `${item.prod} · ${item.where ?? ''}`,
+        verify: 'строка появится в макете и уйдёт из «нет в макете»',
+      });
+      continue;
+    }
+
+    if (item.kind === 'только в макете') {
+      steps.push({
+        stage: 'content', action: 'решить',
+        title: `${item.figma}: «${item.inFigma}» есть в макете, но не на проде`,
+        address,
+        how: 'Либо текст убрали с прода и его пора убрать из макета, либо это подпись, которой в вёрстке соответствует картинка или псевдоэлемент. Требует решения человека — агент такое сам не удаляет.',
+        source: item.prod,
+        verify: '—',
+      });
+      continue;
+    }
+
+    if (item.kind === 'порядок текста') {
+      steps.push({
+        stage: 'content', action: 'изменить',
+        title: `${item.figma}: переставить «${item.onProd}»`,
+        address,
+        how: `На проде «${item.onProd}» идёт после «${item.after}», в макете порядок другой. Внутри инстанса слои не двигаются — порядок правится переписыванием текстов по местам или в мастер-компоненте.`,
+        source: item.prod,
+        verify: 'порядок строк совпадёт',
+      });
+      continue;
+    }
+
+    if (item.kind === 'ещё расхождения') {
+      steps.push({
+        stage: 'content', action: 'решить',
+        title: `${item.figma}: ещё ${item.count} расхождений в текстах`,
+        address,
+        how: `Совпало строк: ${item.matched}. Расхождений больше, чем помещается в план — секция разошлась с продом целиком. Смотреть полный список: node src/cli.js vstext.`,
+        source: item.prod,
+        verify: 'после правки секции список сократится',
+      });
+    }
+  }
+
+  return steps;
+}
+
+export function buildEditsPlan({ tokenResult, layoutFindings = [], textFindings = [], prodByViewport = {}, target, frames, tabsDiff }) {
   const steps = [
     ...(tokenResult ? tokenSteps(tokenResult, target) : []),
+    ...textSteps(textFindings),
     ...layoutSteps(layoutFindings, prodByViewport, target),
     ...(frames ? frameSteps(frames) : []),
     ...tabSteps(tabsDiff),

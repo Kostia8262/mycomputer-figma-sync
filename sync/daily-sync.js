@@ -40,7 +40,11 @@ const lines = [];
 const DAILY_SNAPSHOTS = [
   { title: 'токены', args: ['snapshot'] },
   { title: 'геометрия education', args: ['layout', '--target', 'education'] },
+  // Тексты снимаются рядом с геометрией: без них сверка видит только
+  // последствия («Footer ниже на 78 px»), но не причину («нет двух ссылок»).
+  { title: 'тексты education', args: ['text', '--target', 'education'] },
   { title: 'геометрия school', args: ['layout', '--target', 'school'] },
+  { title: 'тексты school', args: ['text', '--target', 'school'] },
   { title: 'геометрия админки', args: ['layout', '--target', 'dashboard'] },
 ];
 

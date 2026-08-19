@@ -18,9 +18,28 @@ export const VIEWPORTS = [
   { name: 'mobile', width: 390, height: 844 },
 ];
 
-/** Сколько уровней вглубь секции снимать и сколько детей на уровне. */
-export const MAX_DEPTH = 3;
+/**
+ * Сколько уровней вглубь секции снимать и сколько детей на уровне.
+ *
+ * Трёх уровней не хватало: карточки лежат на четвёртом-пятом (секция →
+ * container → grid → row → card) и в слепок не попадали вовсе. Из-за этого
+ * `findCulprit` молчал почти на каждой находке, и правка звучала как «Reviews
+ * выше на 2.2» без виновника. Хуже того, по такому слепку нельзя отличить
+ * дефект макета от накопленного округления: именно карточки и дают эту ошибку
+ * по ~1 px каждая — см. `src/compare/figma-layout.js`.
+ */
+export const MAX_DEPTH = 5;
 export const MAX_CHILDREN = 24;
+
+/**
+ * С какого уровня узлы пишутся «худыми» — только ключ, габариты и рамка.
+ *
+ * Объём слепка держат `styles`: полный пятиуровневый снимок .school весит
+ * 854 КБ против 142 КБ трёхуровневого. Сравнению с макетом стили глубоких
+ * узлов не нужны — там сопоставляются высоты, — поэтому глубина покупается
+ * отказом от стилей ниже третьего уровня: 308 КБ, вдвое против прежнего.
+ */
+export const STYLES_DEPTH = 3;
 
 /**
  * Свойства, по которым имеет смысл ловить расхождение с макетом.
@@ -42,7 +61,7 @@ export const TRACKED_STYLES = [
  * Код, выполняемый внутри страницы. Пишется как одна функция без внешних
  * ссылок — в контексте браузера ничего из модуля не видно.
  */
-export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
+export function extractInPage({ maxDepth, maxChildren, tracked, selector, stylesDepth }) {
   const round = (n) => Math.round(n * 10) / 10;
 
   /** Стабильный ключ узла: id, затем классы, затем позиция среди одинаковых. */
@@ -95,6 +114,9 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
 
   const describe = (el, parentRect, depth) => {
     const rect = el.getBoundingClientRect();
+    // Глубокие узлы нужны сверке только габаритами — стили с них не снимаются,
+    // иначе слепок распухает в шесть раз (см. STYLES_DEPTH).
+    const slim = depth > stylesDepth;
     const node = {
       key: keyOf(el),
       tag: el.tagName.toLowerCase(),
@@ -102,22 +124,25 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
       // иначе «сдвинул» бы всё, что ниже, и слепок утонул бы в ложных отличиях.
       rel: { x: round(rect.left - parentRect.left), y: round(rect.top - parentRect.top) },
       size: { w: round(rect.width), h: round(rect.height) },
-      styles: stylesOf(el),
     };
+    if (!slim) node.styles = stylesOf(el);
 
     // Отметка нужна отчёту: у элементов с границами headless занижает размер
-    // (1px рендерится как 0.8px), поэтому там применяется допуск.
+    // (1px рендерится как 0.8px), поэтому там применяется допуск. Снимается на
+    // любой глубине — на карточках она и важна.
     if (hasBorder(el)) node.bordered = true;
 
-    const pseudo = pseudoOf(el);
-    if (pseudo) node.pseudo = pseudo;
+    if (!slim) {
+      const pseudo = pseudoOf(el);
+      if (pseudo) node.pseudo = pseudo;
+    }
 
     const text = [...el.childNodes]
       .filter((n) => n.nodeType === 3)
       .map((n) => n.textContent.trim())
       .filter(Boolean)
       .join(' ');
-    if (text) node.text = text.slice(0, 120);
+    if (text) node.text = text.slice(0, slim ? 40 : 120);
 
     if (depth < maxDepth) {
       const kids = [...el.children].filter((child) => {
@@ -203,7 +228,17 @@ export function extractInPage({ maxDepth, maxChildren, tracked, selector }) {
  */
 const DEFAULT_SELECTOR = 'section[id], header, footer';
 
-export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector = DEFAULT_SELECTOR, maxDepth = MAX_DEPTH } = {}) {
+/**
+ * Язык страницы задаётся явно и не берётся из системы.
+ *
+ * Сайт выбирает язык по `navigator.language`, и headless Chromium наследует
+ * локаль машины: на маке слепок снимался по-украински, на Windows — по-русски.
+ * Русский текст длиннее, секции выше, и разница выглядела как дрейф прода или
+ * «метрики шрифтов». Макет украинский, значит и слепок обязан быть украинским.
+ */
+export const LOCALE = 'uk-UA';
+
+export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector = DEFAULT_SELECTOR, maxDepth = MAX_DEPTH, stylesDepth = STYLES_DEPTH, locale = LOCALE } = {}) {
   const browser = await chromium.launch();
   const captured = [];
 
@@ -214,6 +249,7 @@ export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector
         deviceScaleFactor: 1,
         // Анимации сдвигают элементы в момент замера и делают слепок недетерминированным.
         reducedMotion: 'reduce',
+        locale,
       });
       const page = await context.newPage();
 
@@ -241,13 +277,14 @@ export async function collectLayout(url, { viewports = VIEWPORTS, auth, selector
       await page.waitForTimeout(600);
 
       const data = await page.evaluate(extractInPage, {
-        // У сайтов хватает трёх уровней — там секции плоские. У админки
-        // содержимое вкладки начинается только на четвёртом (app-body → main →
-        // вкладка → блок), поэтому глубина задаётся конфигом таргета.
+        // Глубина задаётся конфигом таргета: у админки содержимое вкладки
+        // начинается только на четвёртом уровне (app-body → main → вкладка →
+        // блок), у сайтов на пятом лежат карточки внутри сеток.
         maxDepth,
         maxChildren: MAX_CHILDREN,
         tracked: TRACKED_STYLES,
         selector,
+        stylesDepth,
       });
 
       captured.push({ viewport: viewport.name, width: viewport.width, ...data });

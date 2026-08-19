@@ -30,14 +30,20 @@ import { promisify } from 'node:util';
 
 const run = promisify(execFile);
 import { collectLayout, extractInPage, MAX_DEPTH, MAX_CHILDREN, TRACKED_STYLES } from './snapshot/layout.js';
+import { collectText } from './snapshot/text.js';
 import { collectAdminTabs } from './snapshot/admin-tabs.js';
 import { loadEnv } from './env.js';
 import { diffLayouts } from './compare/layout-diff.js';
 import { emitFigmaLayoutScript, compareLayoutToFigma } from './compare/figma-layout.js';
 import { emitFramesLayoutScript, compareScreenToFrame, compareTables } from './compare/figma-frames.js';
+import { emitFigmaTextScript, compareTextsToFigma, expandFigmaText } from './compare/figma-text.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const LAYOUT_DIR = path.join(ROOT, 'state', 'layout');
+// Тексты платформонезависимы: «Ціни» на маке и на Windows пишутся одинаково,
+// поэтому файл общий, в отличие от геометрии, разложенной по ОС.
+const TEXT_DIR = path.join(ROOT, 'state', 'text');
+const FIGMA_TEXT_DIR = path.join(ROOT, 'state', 'figma-text');
 const PLATFORMS = ['darwin', 'win32', 'linux'];
 
 /**
@@ -318,6 +324,33 @@ async function collectPlan(config, targetId) {
     if (!target.layout) gaps.push('в конфиге нет карты секций (targets[].layout)');
   }
 
+  // Тексты сверяются здесь же: слепок прода лежит рядом со слепком геометрии,
+  // и отдельный прогон только увеличил бы шанс, что план соберут без них.
+  const textFindings = [];
+  const prodTextFile = path.join(TEXT_DIR, `${targetId}.json`);
+  const figmaTextFile = path.join(FIGMA_TEXT_DIR, `${targetId}.json`);
+  if (existsSync(prodTextFile) && existsSync(figmaTextFile) && target.layout) {
+    const prodText = JSON.parse(await readFile(prodTextFile, 'utf8'));
+    const figmaText = JSON.parse(await readFile(figmaTextFile, 'utf8'));
+    for (const view of prodText.viewports) {
+      const inFigma = figmaText.viewports?.[view.viewport];
+      if (!inFigma) {
+        gaps.push(`тексты макета на брейкпоинте ${view.viewport} не сняты`);
+        continue;
+      }
+      textFindings.push({
+        viewport: view.viewport,
+        width: view.width,
+        page: inFigma.page,
+        frame: inFigma.frame,
+        result: compareTextsToFigma(view, inFigma, target.layout.sectionMap, { ignore: target.text?.ignore ?? [] }),
+      });
+    }
+  } else if (target.layout) {
+    if (!existsSync(prodTextFile)) gaps.push(`тексты прода не сняты (node src/cli.js text --target ${targetId})`);
+    else gaps.push(`тексты макета не сняты (node src/cli.js vstext --target ${targetId} --emit desktop)`);
+  }
+
   // Поблочная сверка вкладок — основной источник правок по экранам админки:
   // именно она видит плитки, тулбары и таблицы. Кладётся в план, если прогон
   // уже был; если нет — это пробел, а не тишина.
@@ -334,13 +367,13 @@ async function collectPlan(config, targetId) {
   // Дата на странице — по самой свежей из проверок, а не только по токенам:
   // геометрию пересняли сегодня, а сверку переменных — позавчера, и страница
   // с позавчерашним числом читается как несвежая целиком.
-  for (const file of [prodFile, path.join(ROOT, 'state', `tabs-diff-${targetId}.json`)]) {
+  for (const file of [prodFile, prodTextFile, path.join(ROOT, 'state', `tabs-diff-${targetId}.json`)]) {
     if (!file || !existsSync(file)) continue;
     const stamp = (await stat(file)).mtime.toISOString().slice(0, 10);
     if (stamp > checkedAt) checkedAt = stamp;
   }
 
-  const plan = buildEditsPlan({ tokenResult, layoutFindings, prodByViewport, target, tabsDiff });
+  const plan = buildEditsPlan({ tokenResult, layoutFindings, textFindings, prodByViewport, target, tabsDiff });
   if (args?.json) return { plan, gaps, checkedAt, target };
   return { plan, gaps, checkedAt, target };
 }
@@ -411,6 +444,119 @@ async function layout(config, args) {
     console.log(`  ${view.viewport.padEnd(8)} ${view.width}px — секций ${view.sections.length}, высота ${view.documentHeight}${extra}`);
   }
   console.log(`\nСлепок записан: ${outFile}`);
+}
+
+/** Снимает тексты продакшена и кладёт слепок в state/text/. */
+async function text(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target) throw new Error(`Нет таргета «${targetId}».`);
+
+  const url = args.url ?? target.reference.url;
+  await mkdir(TEXT_DIR, { recursive: true });
+
+  const auth = buildAuth(target);
+  if (target.auth && !auth) throw new Error(`Для «${targetId}» нужен вход: задайте ${target.auth.env} в .env`);
+
+  const snap = await collectText(url, {
+    ...(auth ? { auth } : {}),
+    ...(target.sectionSelector ? { selector: target.sectionSelector } : {}),
+    ...(target.viewports?.list ? { viewports: target.viewports.list } : {}),
+    skipSections: target.text?.skipSections ?? [],
+    ignore: target.text?.ignore ?? [],
+  });
+
+  const outFile = path.join(TEXT_DIR, `${targetId}.json`);
+  await writeFile(outFile, JSON.stringify(snap, null, 1) + '\n', 'utf8');
+
+  for (const view of snap.viewports) {
+    const lines = view.sections.reduce((sum, s) => sum + s.lines.length, 0);
+    console.log(`  ${view.viewport.padEnd(8)} ${view.width}px — секций ${view.sections.length}, строк ${lines}`);
+  }
+  console.log(`\nСлепок текстов записан: ${outFile}`);
+}
+
+/**
+ * Сверяет тексты макета с текстами прода.
+ *
+ * `--emit <брейкпоинт>` печатает скрипт для Figma: его результат кладётся в
+ * state/figma-text/<target>.json под ключ брейкпоинта — так же, как у геометрии.
+ */
+async function vstext(config, args) {
+  const targetId = args.target ?? config.targets[0].id;
+  const target = config.targets.find((t) => t.id === targetId);
+  if (!target?.layout) throw new Error(`У таргета «${targetId}» нет секции layout в конфиге.`);
+
+  if (args.emit) {
+    const view = target.layout.pages[args.emit];
+    if (!view) throw new Error(`Нет брейкпоинта «${args.emit}». Есть: ${Object.keys(target.layout.pages).join(', ')}.`);
+    console.log(emitFigmaTextScript({
+      pageName: view.page,
+      frameName: view.frame,
+      ignore: target.layout.ignoreInFigma,
+      offset: Number(args.offset ?? 0),
+      limit: Number(args.limit ?? 0),
+    }));
+    return;
+  }
+
+  // Выдача скрипта приходит порциями (ответ плагина ограничен 20 КБ), поэтому
+  // состояние собирается дозаписью: порция за порцией, брейкпоинт за
+  // брейкпоинтом. Порции одного брейкпоинта склеиваются по именам секций.
+  if (args.import) {
+    if (!args.viewport) throw new Error('Укажите брейкпоинт: --viewport desktop|tablet|mobile');
+    const chunk = expandFigmaText(JSON.parse(await readFile(args.import, 'utf8')));
+    await mkdir(FIGMA_TEXT_DIR, { recursive: true });
+
+    const outFile = path.join(FIGMA_TEXT_DIR, `${targetId}.json`);
+    const saved = existsSync(outFile)
+      ? JSON.parse(await readFile(outFile, 'utf8'))
+      : { fileKey: target.figmaFileKey, viewports: {} };
+
+    const view = saved.viewports[args.viewport] ?? { page: chunk.page, frame: chunk.frame, sections: [] };
+    const byName = new Map(view.sections.map((s) => [s.name, s]));
+    for (const section of chunk.sections) byName.set(section.name, section);
+    view.page = chunk.page;
+    view.frame = chunk.frame;
+    view.sections = [...byName.values()];
+    saved.viewports[args.viewport] = view;
+    saved.takenAt = new Date().toISOString().slice(0, 10);
+
+    await writeFile(outFile, JSON.stringify(saved, null, 1) + '\n', 'utf8');
+    const lines = view.sections.reduce((sum, sec) => sum + sec.lines.length, 0);
+    console.log(`${args.viewport}: секций ${view.sections.length}, строк ${lines} → ${outFile}`);
+    return;
+  }
+
+  const prodFile = path.join(TEXT_DIR, `${targetId}.json`);
+  const figmaFile = path.join(FIGMA_TEXT_DIR, `${targetId}.json`);
+  if (!existsSync(prodFile)) throw new Error(`Нет слепка текстов прода: ${prodFile} (node src/cli.js text --target ${targetId})`);
+  if (!existsSync(figmaFile)) throw new Error(`Нет текстов макета: ${figmaFile} (node src/cli.js vstext --target ${targetId} --emit desktop)`);
+
+  const prod = JSON.parse(await readFile(prodFile, 'utf8'));
+  const figma = JSON.parse(await readFile(figmaFile, 'utf8'));
+
+  for (const view of prod.viewports) {
+    const inFigma = figma.viewports?.[view.viewport];
+    if (!inFigma) {
+      console.log(`\n${view.viewport} — тексты макета не сняты`);
+      continue;
+    }
+
+    const result = compareTextsToFigma(view, inFigma, target.layout.sectionMap, {
+      ignore: target.text?.ignore ?? [],
+      checkOrder: Boolean(args.order),
+    });
+    console.log(`\n${view.viewport} ${view.width}px — сверено секций ${result.checked}, расхождений ${result.findings.length}`);
+
+    for (const f of result.findings) {
+      if (f.kind === 'текст') console.log(`  ${f.figma}: «${f.inFigma}» → «${f.onProd}»`);
+      else if (f.kind === 'нет в макете') console.log(`  ${f.figma}: НЕТ в макете — «${f.onProd}» (${f.where})`);
+      else if (f.kind === 'только в макете') console.log(`  ${f.figma}: лишнее в макете — «${f.inFigma}»`);
+      else if (f.kind === 'порядок текста') console.log(`  ${f.figma}: порядок — «${f.onProd}» на проде идёт после «${f.after}»`);
+      else if (f.kind === 'ещё расхождения') console.log(`  ${f.figma}: ещё ${f.count} расхождений (совпало строк: ${f.matched})`);
+    }
+  }
 }
 
 /** Собирает данные входа из .env по описанию в конфиге таргета. */
@@ -870,7 +1016,7 @@ async function vstabs(config, args) {
   console.log(`Результат: ${outFile}`);
 }
 
-const COMMANDS = { snapshot, emit, page, layout, changes, vsfigma, issue, tabs, pages, commit, frames, emitframes, vstabs };
+const COMMANDS = { snapshot, emit, page, layout, text, changes, vsfigma, vstext, issue, tabs, pages, commit, frames, emitframes, vstabs };
 
 const args = parseArgs(process.argv.slice(2));
 const command = COMMANDS[args._[0]];
