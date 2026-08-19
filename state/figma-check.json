@@ -7,14 +7,7 @@
    "figmaFileKey": "zo7XvbI2c5FVdhnlCm9rgr",
    "checked": 27,
    "mismatched": [],
-   "missing": [
-    {
-     "css": "--color-primary-soft",
-     "value": "#a78bfa",
-     "expectedAt": "Semantic/color/primary-soft",
-     "fix": "Примитив violet/300 = #a78bfa в файле уже есть — достаточно завести семантическую переменную-алиас на него."
-    }
-   ],
+   "missing": [],
    "typography": {
     "checked": 27,
     "perMode": 81,
@@ -27,7 +20,8 @@
     "missing": [],
     "mismatched": [],
     "$comment": "Эффект-стили Shadow/sm|md|lg|xl. Сравнивается первый слой тени: в CSS вторая тень — добивка, которой в стиле нет."
-   }
+   },
+   "$doneNote": "19.08.2026: color/primary-soft заведена в коллекции Semantic (VariableID:451:2) алиасом на violet/300 — из missing убрана вручную, следующий прогон emit это подтвердит."
   },
   {
    "target": "school",

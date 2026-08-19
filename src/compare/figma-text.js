@@ -106,7 +106,10 @@ export function expandFigmaText(chunk) {
  * @param {{maxPerSection?: number}} options
  */
 export function compareTextsToFigma(prodViewport, figmaText, sectionMap, {
-  maxPerSection = 12,
+  // Шесть примеров на секцию: страница правок — чек-лист, а не выгрузка.
+  // Остаток честно называется строкой «ещё N расхождений», полный список
+  // всегда доступен командой vstext.
+  maxPerSection = 6,
   ignore = [],
   // Порядок строк по умолчанию не сверяется. В макете слои сортируются сверху
   // вниз, а в вёрстке порядок — по DOM: в любой секции с колонками (шаги

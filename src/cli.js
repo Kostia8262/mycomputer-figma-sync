@@ -402,6 +402,7 @@ async function page(config, args) {
       checkedAt,
       sourceLabel: target.tokenSource,
       gaps,
+      short: Boolean(args.short),
     }),
   );
 }

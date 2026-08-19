@@ -12,11 +12,25 @@ const FONT = 'Inter';
 /** Экранирует строку для вставки в генерируемый скрипт. */
 const q = (value) => JSON.stringify(String(value ?? ''));
 
-export function emitEditsPageScript(plan, { pageName, checkedAt, sourceLabel, gaps = [] }) {
+/**
+ * Короткий режим страницы правок.
+ *
+ * Скрипт уезжает в Figma одним куском, а у канала есть предел: план на полсотни
+ * шагов с полными пояснениями в него уже не влезает. В коротком режиме от
+ * пояснения остаётся первая фраза (в ней и лежит суть: «на проде так, в макете
+ * этак»), а служебные строки «Источник» и «Проверка» опускаются — они нужны
+ * агенту, а не человеку с макетом.
+ */
+function brief(step) {
+  const first = String(step.how ?? '').split(/(?<=[.!?])\s/)[0] ?? '';
+  return { ...step, how: first, source: '', verify: '', note: '' };
+}
+
+export function emitEditsPageScript(plan, { pageName, checkedAt, sourceLabel, gaps = [], short = false }) {
   const stages = plan.stages.map((stage) => ({
     title: stage.title,
     hint: stage.hint,
-    steps: stage.steps.map((step) => ({
+    steps: stage.steps.map((raw) => short ? brief(raw) : raw).map((step) => ({
       n: step.n,
       title: step.title,
       // Адрес и способ проверки — то, что делает шаг выполнимым без возврата
@@ -172,7 +186,7 @@ STAGES.forEach((stage, stageIndex) => {
     if (step.value) body.appendChild(text('Значение: ' + step.value, { size: 13, color: '#1a1a2e' }));
     body.appendChild(text(step.how, { size: 13, color: '#6b6b80', width: 660 }));
     if (step.note) body.appendChild(text('⚠ ' + step.note, { size: 12, color: '#b45309', width: 660 }));
-    body.appendChild(text('Источник: ' + step.source, { size: 11, color: '#9999aa', width: 660 }));
+    if (step.source) body.appendChild(text('Источник: ' + step.source, { size: 11, color: '#9999aa', width: 660 }));
     if (step.verify) body.appendChild(text('Проверка: ' + step.verify, { size: 11, color: '#9999aa', width: 660 }));
 
     createdIds.push(card.id);
