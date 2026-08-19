@@ -8,7 +8,7 @@
    "frame": "Home — Desktop 1440",
    "frameSize": {
     "w": 1440,
-    "h": 8946.3
+    "h": 8957.3
    },
    "sections": [
     {
@@ -1006,17 +1006,17 @@
      "x": 0,
      "y": 8192.3,
      "w": 1440,
-     "h": 754,
+     "h": 765,
      "inner": [
       {
        "name": "Container",
        "w": 1112,
-       "h": 670,
+       "h": 681,
        "inner": [
         {
          "name": "Inner",
          "w": 1112,
-         "h": 394,
+         "h": 405,
          "inner": [
           {
            "name": "Brand",
@@ -1082,7 +1082,7 @@
           {
            "name": "Links",
            "w": 709.3,
-           "h": 394,
+           "h": 405,
            "inner": [
             {
              "name": "Footer Column",
@@ -1109,7 +1109,7 @@
             {
              "name": "Footer Column",
              "w": 215.1,
-             "h": 283,
+             "h": 405,
              "inner": [
               {
                "name": "Heading",
@@ -1270,7 +1270,7 @@
    "frame": "Home — Tablet 1024",
    "frameSize": {
     "w": 1024,
-    "h": 9679.5
+    "h": 9690.5
    },
    "sections": [
     {
@@ -1687,17 +1687,17 @@
      "x": 0,
      "y": 8925.5,
      "w": 1024,
-     "h": 754,
+     "h": 765,
      "inner": [
       {
        "name": "Container",
        "w": 976,
-       "h": 670,
+       "h": 681,
        "inner": [
         {
          "name": "Inner",
          "w": 976,
-         "h": 394,
+         "h": 405,
          "inner": [
           {
            "name": "Brand",
@@ -1707,7 +1707,7 @@
           {
            "name": "Links",
            "w": 618.7,
-           "h": 394,
+           "h": 405,
            "inner": [
             {
              "name": "Footer Column",
@@ -1734,7 +1734,7 @@
             {
              "name": "Footer Column",
              "w": 169.7,
-             "h": 283,
+             "h": 405,
              "inner": [
               {
                "name": "Heading",
@@ -1810,7 +1810,7 @@
    "frame": "Home — Mobile 390",
    "frameSize": {
     "w": 390,
-    "h": 12594.6
+    "h": 12716.6
    },
    "sections": [
     {
@@ -2224,17 +2224,17 @@
      "x": 0,
      "y": 11111.6,
      "w": 390,
-     "h": 1483,
+     "h": 1605,
      "inner": [
       {
        "name": "Container",
        "w": 358,
-       "h": 1399,
+       "h": 1521,
        "inner": [
         {
          "name": "Inner",
          "w": 358,
-         "h": 1032,
+         "h": 1154,
          "inner": [
           {
            "name": "Brand",
@@ -2244,7 +2244,7 @@
           {
            "name": "Links",
            "w": 358,
-           "h": 860,
+           "h": 982,
            "inner": [
             {
              "name": "Footer Column",
@@ -2254,7 +2254,7 @@
             {
              "name": "Footer Column",
              "w": 358,
-             "h": 283
+             "h": 405
             },
             {
              "name": "Footer Column",
