@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-19",
+ "takenAt": "2026-08-20",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -845,10 +845,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
        "where": ".review-card › .review-card__text › p"
       },
@@ -863,10 +859,6 @@
       {
        "t": "мама Арсенія, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
@@ -885,10 +877,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
        "where": ".review-card › .review-card__text › p"
       },
@@ -903,10 +891,6 @@
       {
        "t": "мама Матвія, 11 років · Roblox",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
@@ -2056,10 +2040,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
        "where": ".review-card › .review-card__text › p"
       },
@@ -2074,10 +2054,6 @@
       {
        "t": "мама Арсенія, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
@@ -2096,10 +2072,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
        "where": ".review-card › .review-card__text › p"
       },
@@ -2114,10 +2086,6 @@
       {
        "t": "мама Матвія, 11 років · Roblox",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
@@ -3243,10 +3211,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
        "where": ".review-card › .review-card__text › p"
       },
@@ -3261,10 +3225,6 @@
       {
        "t": "мама Арсенія, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
@@ -3283,10 +3243,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
        "where": ".review-card › .review-card__text › p"
       },
@@ -3301,10 +3257,6 @@
       {
        "t": "мама Матвія, 11 років · Roblox",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",

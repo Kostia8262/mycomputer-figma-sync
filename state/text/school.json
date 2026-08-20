@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-19",
+ "takenAt": "2026-08-20",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -881,10 +881,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
        "where": ".review-card › .review-card__text › p"
       },
@@ -899,10 +895,6 @@
       {
        "t": "мама Арсенія, 9 років · Цифровий рисунок",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
@@ -921,10 +913,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
        "where": ".review-card › .review-card__text › p"
       },
@@ -941,10 +929,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
        "where": ".review-card › .review-card__text › p"
       },
@@ -959,151 +943,6 @@
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
        "where": ".review-card__author › .review-card__meta › div"
-      }
-     ]
-    },
-    {
-     "key": "#articles",
-     "lines": [
-      {
-       "t": "Корисні статті",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
-       "t": "Статті для батьків та учнів",
-       "where": ".section-header › .section-title › h2"
-      },
-      {
-       "t": "Поради, огляди курсів і відповіді на часті запитання",
-       "where": ".section-header › .section-desc › p"
-      },
-      {
-       "t": "КУРСИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Куди віддати дитину: усі курси дизайну за віком — від 6 до 18",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Дванадцять курсів, вісім сайтів, вік від 6 до 18 — розібратися складно навіть тому, хто вже обрав школу. Розкладаємо всі",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "3 серпня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ВИБІР КУРСУ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дитина більше любить логіку, ніж малювання? Ось коли варто спробувати програмування",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Прийшли на курс дизайну, а дитина більше цікавиться тим, «як це працює», ніж тим, «як це виглядає»? Розповідаємо, як роз",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "7 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ТРЕНДИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Штучний інтелект та дизайн: чи варто вчити дитину дизайну в епоху нейромереж",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Якщо нейромережі вже генерують картинки за секунди — навіщо вчитися дизайну? Розбираємо чесно, що AI-інструменти дійсно ",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "КАР'ЄРА ТА ПРОФЕСІЇ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дизайнер чи художник: у чому різниця професій і чому це важливо знати змалку",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Багато батьків плутають дизайн і образотворче мистецтво. Пояснюємо, чим професія дизайнера відрізняється від художника —",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "РОЗВИТОК ДИТИНИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Теорія кольору для дітей: як навчити дитину бачити колір як дизайнер",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Чому одні кольори \"поєднуються\", а інші — ні? Пояснюємо основи теорії кольору простою мовою — те, з чого починається нав",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ДЛЯ БАТЬКІВ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Портфоліо юного дизайнера: що показувати в 10, 14 і 17 років",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Портфоліо потрібне не лише дорослим дизайнерам. Розповідаємо, як має виглядати добірка робіт дитини в різному віці — і ч",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "Нові матеріали виходять щотижня — підпишіться, щоб не пропустити",
-       "where": ".articles__footer › .articles__footer-text › p"
-      },
-      {
-       "t": "Всі статті →",
-       "where": ".articles__footer › .articles__all-btn › a"
       }
      ]
     },
@@ -2273,10 +2112,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
        "where": ".review-card › .review-card__text › p"
       },
@@ -2291,10 +2126,6 @@
       {
        "t": "мама Арсенія, 9 років · Цифровий рисунок",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
@@ -2313,10 +2144,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
        "where": ".review-card › .review-card__text › p"
       },
@@ -2333,10 +2160,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
        "where": ".review-card › .review-card__text › p"
       },
@@ -2351,151 +2174,6 @@
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
        "where": ".review-card__author › .review-card__meta › div"
-      }
-     ]
-    },
-    {
-     "key": "#articles",
-     "lines": [
-      {
-       "t": "Корисні статті",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
-       "t": "Статті для батьків та учнів",
-       "where": ".section-header › .section-title › h2"
-      },
-      {
-       "t": "Поради, огляди курсів і відповіді на часті запитання",
-       "where": ".section-header › .section-desc › p"
-      },
-      {
-       "t": "КУРСИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Куди віддати дитину: усі курси дизайну за віком — від 6 до 18",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Дванадцять курсів, вісім сайтів, вік від 6 до 18 — розібратися складно навіть тому, хто вже обрав школу. Розкладаємо всі",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "3 серпня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ВИБІР КУРСУ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дитина більше любить логіку, ніж малювання? Ось коли варто спробувати програмування",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Прийшли на курс дизайну, а дитина більше цікавиться тим, «як це працює», ніж тим, «як це виглядає»? Розповідаємо, як роз",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "7 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ТРЕНДИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Штучний інтелект та дизайн: чи варто вчити дитину дизайну в епоху нейромереж",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Якщо нейромережі вже генерують картинки за секунди — навіщо вчитися дизайну? Розбираємо чесно, що AI-інструменти дійсно ",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "КАР'ЄРА ТА ПРОФЕСІЇ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дизайнер чи художник: у чому різниця професій і чому це важливо знати змалку",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Багато батьків плутають дизайн і образотворче мистецтво. Пояснюємо, чим професія дизайнера відрізняється від художника —",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "РОЗВИТОК ДИТИНИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Теорія кольору для дітей: як навчити дитину бачити колір як дизайнер",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Чому одні кольори \"поєднуються\", а інші — ні? Пояснюємо основи теорії кольору простою мовою — те, з чого починається нав",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ДЛЯ БАТЬКІВ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Портфоліо юного дизайнера: що показувати в 10, 14 і 17 років",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Портфоліо потрібне не лише дорослим дизайнерам. Розповідаємо, як має виглядати добірка робіт дитини в різному віці — і ч",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "Нові матеріали виходять щотижня — підпишіться, щоб не пропустити",
-       "where": ".articles__footer › .articles__footer-text › p"
-      },
-      {
-       "t": "Всі статті →",
-       "where": ".articles__footer › .articles__all-btn › a"
       }
      ]
     },
@@ -3637,10 +3315,6 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
        "where": ".review-card › .review-card__text › p"
       },
@@ -3655,10 +3329,6 @@
       {
        "t": "мама Арсенія, 9 років · Цифровий рисунок",
        "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
       },
       {
        "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
@@ -3677,10 +3347,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
        "where": ".review-card › .review-card__text › p"
       },
@@ -3697,10 +3363,6 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "★★★★★",
-       "where": ".review-card › .review-card__stars › div"
-      },
-      {
        "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
        "where": ".review-card › .review-card__text › p"
       },
@@ -3715,151 +3377,6 @@
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
        "where": ".review-card__author › .review-card__meta › div"
-      }
-     ]
-    },
-    {
-     "key": "#articles",
-     "lines": [
-      {
-       "t": "Корисні статті",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
-       "t": "Статті для батьків та учнів",
-       "where": ".section-header › .section-title › h2"
-      },
-      {
-       "t": "Поради, огляди курсів і відповіді на часті запитання",
-       "where": ".section-header › .section-desc › p"
-      },
-      {
-       "t": "КУРСИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Куди віддати дитину: усі курси дизайну за віком — від 6 до 18",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Дванадцять курсів, вісім сайтів, вік від 6 до 18 — розібратися складно навіть тому, хто вже обрав школу. Розкладаємо всі",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "3 серпня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ВИБІР КУРСУ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дитина більше любить логіку, ніж малювання? Ось коли варто спробувати програмування",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Прийшли на курс дизайну, а дитина більше цікавиться тим, «як це працює», ніж тим, «як це виглядає»? Розповідаємо, як роз",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "7 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ТРЕНДИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Штучний інтелект та дизайн: чи варто вчити дитину дизайну в епоху нейромереж",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Якщо нейромережі вже генерують картинки за секунди — навіщо вчитися дизайну? Розбираємо чесно, що AI-інструменти дійсно ",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "КАР'ЄРА ТА ПРОФЕСІЇ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Дизайнер чи художник: у чому різниця професій і чому це важливо знати змалку",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Багато батьків плутають дизайн і образотворче мистецтво. Пояснюємо, чим професія дизайнера відрізняється від художника —",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "РОЗВИТОК ДИТИНИ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Теорія кольору для дітей: як навчити дитину бачити колір як дизайнер",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Чому одні кольори \"поєднуються\", а інші — ні? Пояснюємо основи теорії кольору простою мовою — те, з чого починається нав",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "ДЛЯ БАТЬКІВ",
-       "where": ".article-card__top › .article-card__cat › span"
-      },
-      {
-       "t": "Портфоліо юного дизайнера: що показувати в 10, 14 і 17 років",
-       "where": ".article-card__body › .article-card__title › h3"
-      },
-      {
-       "t": "Портфоліо потрібне не лише дорослим дизайнерам. Розповідаємо, як має виглядати добірка робіт дитини в різному віці — і ч",
-       "where": ".article-card__body › .article-card__excerpt › p"
-      },
-      {
-       "t": "6 липня 2026 р.",
-       "where": ".article-card__footer › .article-card__date › span"
-      },
-      {
-       "t": "Читати →",
-       "where": ".article-card__footer › .article-card__read › span"
-      },
-      {
-       "t": "Нові матеріали виходять щотижня — підпишіться, щоб не пропустити",
-       "where": ".articles__footer › .articles__footer-text › p"
-      },
-      {
-       "t": "Всі статті →",
-       "where": ".articles__footer › .articles__all-btn › a"
       }
      ]
     },

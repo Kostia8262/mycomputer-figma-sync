@@ -558,6 +558,9 @@
                             "w": 162.3,
                             "h": 36.1
                           },
+                          "styles": {
+                            "marginBottom": "24px"
+                          },
                           "bordered": true
                         },
                         {
@@ -570,6 +573,9 @@
                           "size": {
                             "w": 526,
                             "h": 275.9
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -582,6 +588,9 @@
                           "size": {
                             "w": 480,
                             "h": 115.6
+                          },
+                          "styles": {
+                            "marginBottom": "32px"
                           }
                         },
                         {
@@ -594,6 +603,9 @@
                           "size": {
                             "w": 526,
                             "h": 57.2
+                          },
+                          "styles": {
+                            "marginBottom": "36px"
                           }
                         },
                         {
@@ -620,6 +632,9 @@
                       "size": {
                         "w": 526,
                         "h": 485
+                      },
+                      "styles": {
+                        "marginTop": "80px"
                       },
                       "children": [
                         {
@@ -1198,6 +1213,9 @@
                         "w": 221.6,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Чому My Computer Academy"
                     },
                     {
@@ -1210,6 +1228,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Все, що потрібно для старту у програмува"
                     },
@@ -1279,6 +1300,9 @@
                             "w": 128.5,
                             "h": 28.7
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "bordered": true,
                           "text": "Наша перевага"
                         },
@@ -1293,6 +1317,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1305,6 +1332,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Індивідуальний темп"
                         },
@@ -1347,6 +1377,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1359,6 +1392,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Малі групи"
                         },
@@ -1401,6 +1437,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1413,6 +1452,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Реальні проєкти"
                         },
@@ -1455,6 +1497,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1467,6 +1512,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Онлайн навчання"
                         },
@@ -1509,6 +1557,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1521,6 +1572,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Сертифікат"
                         },
@@ -1563,6 +1617,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -1575,6 +1632,9 @@
                           "size": {
                             "w": 299.3,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Підтримка 24/7"
                         },
@@ -1706,6 +1766,9 @@
                         "w": 132.6,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Наші програми"
                     },
@@ -1719,6 +1782,9 @@
                       "size": {
                         "w": 620,
                         "h": 48
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Обери напрямок"
                     },
@@ -2280,6 +2346,9 @@
                         "w": 78.8,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Процес"
                     },
                     {
@@ -2292,6 +2361,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Як записатися на курс програмування"
                     },
@@ -2359,6 +2431,9 @@
                             "w": 64,
                             "h": 64
                           },
+                          "styles": {
+                            "marginBottom": "20px"
+                          },
                           "text": "01"
                         },
                         {
@@ -2385,6 +2460,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -2409,6 +2487,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "02"
                         },
@@ -2436,6 +2517,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -2460,6 +2544,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "03"
                         },
@@ -2487,6 +2574,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -2511,6 +2601,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "04"
                         },
@@ -2641,6 +2734,9 @@
                         "w": 159.5,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Академія в цифрах"
                     },
@@ -2709,6 +2805,9 @@
                           "size": {
                             "w": 220,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2721,6 +2820,9 @@
                           "size": {
                             "w": 220,
                             "h": 168.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2760,6 +2862,9 @@
                           "size": {
                             "w": 220,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2772,6 +2877,9 @@
                           "size": {
                             "w": 220,
                             "h": 112.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2811,6 +2919,9 @@
                           "size": {
                             "w": 220,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2823,6 +2934,9 @@
                           "size": {
                             "w": 220,
                             "h": 168.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2862,6 +2976,9 @@
                           "size": {
                             "w": 220,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2874,6 +2991,9 @@
                           "size": {
                             "w": 220,
                             "h": 143.2
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -2989,6 +3109,9 @@
                         "w": 1112,
                         "h": 71.4
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Варіанти навчання"
                     },
                     {
@@ -3096,6 +3219,10 @@
                             "w": 307.3,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Одинарні дитячі групи"
                         },
                         {
@@ -3108,6 +3235,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 116
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -3120,6 +3250,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -3175,6 +3308,10 @@
                             "w": 307.3,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Подвійні групи та інд. навчання"
                         },
                         {
@@ -3187,6 +3324,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 116
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -3199,6 +3339,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -3254,6 +3397,10 @@
                             "w": 307.3,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Індивідуальний дорослий курс"
                         },
                         {
@@ -3266,6 +3413,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 116
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -3278,6 +3428,9 @@
                           "size": {
                             "w": 307.3,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -3424,6 +3577,9 @@
                             "w": 524,
                             "h": 86.4
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "text": "Сертифікат My Computer Academy"
                         },
                         {
@@ -3436,6 +3592,9 @@
                           "size": {
                             "w": 524,
                             "h": 54.4
+                          },
+                          "styles": {
+                            "marginBottom": "24px"
                           },
                           "text": "Підтвердить, що ви пройшли курс, а також"
                         },
@@ -3579,6 +3738,9 @@
                         "w": 79.5,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Відгуки"
                     },
                     {
@@ -3591,6 +3753,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Відгуки батьків про курси програмування "
                     }
@@ -3800,6 +3965,9 @@
                         "w": 127,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Корисні статті"
                     },
@@ -3813,6 +3981,9 @@
                       "size": {
                         "w": 620,
                         "h": 48
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Статті для батьків та учнів"
                     },
@@ -4457,6 +4628,9 @@
                         "w": 346.7,
                         "h": 256.1
                       },
+                      "styles": {
+                        "marginBottom": "56px"
+                      },
                       "children": [
                         {
                           "key": ".section-badge",
@@ -4468,6 +4642,9 @@
                           "size": {
                             "w": 122.2,
                             "h": 34.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           },
                           "text": "Часті питання"
                         },
@@ -4481,6 +4658,9 @@
                           "size": {
                             "w": 346.7,
                             "h": 192
+                          },
+                          "styles": {
+                            "marginBottom": "14px"
                           },
                           "text": "Часті питання про курси програмування дл"
                         }
@@ -4703,6 +4883,10 @@
                           "size": {
                             "w": 520,
                             "h": 91.2
+                          },
+                          "styles": {
+                            "marginTop": "8px",
+                            "marginBottom": "14px"
                           }
                         },
                         {
@@ -4770,6 +4954,9 @@
                             "w": 520,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginBottom": "10px"
+                          },
                           "text": "Телефони"
                         },
                         {
@@ -4794,6 +4981,10 @@
                           "size": {
                             "w": 520,
                             "h": 18.7
+                          },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
                           },
                           "text": "Пошта"
                         },
@@ -4821,6 +5012,10 @@
                             "w": 520,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
+                          },
                           "text": "Слідкуйте за нами"
                         },
                         {
@@ -4833,6 +5028,9 @@
                           "size": {
                             "w": 520,
                             "h": 40.1
+                          },
+                          "styles": {
+                            "marginTop": "4px"
                           }
                         }
                       ]
@@ -4962,6 +5160,9 @@
                             "w": 240,
                             "h": 44.2
                           },
+                          "styles": {
+                            "marginTop": "12px"
+                          },
                           "text": "Онлайн школа програмування для дітей від"
                         },
                         {
@@ -4974,6 +5175,9 @@
                           "size": {
                             "w": 354.7,
                             "h": 36
+                          },
+                          "styles": {
+                            "marginTop": "18px"
                           }
                         }
                       ]
@@ -5070,7 +5274,7 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 448.3,
+                        "w": 449,
                         "h": 43.8
                       },
                       "children": [
@@ -5082,7 +5286,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 317.8,
+                            "w": 318,
                             "h": 43.8
                           }
                         },
@@ -5090,11 +5294,11 @@
                           "key": "#openWfpModal",
                           "tag": "button",
                           "rel": {
-                            "x": 327.8,
+                            "x": 328,
                             "y": 2.9
                           },
                           "size": {
-                            "w": 120.5,
+                            "w": 121,
                             "h": 38
                           }
                         }
@@ -5108,7 +5312,7 @@
                         "y": 72.8
                       },
                       "size": {
-                        "w": 104,
+                        "w": 259,
                         "h": 28
                       },
                       "children": [
@@ -5120,7 +5324,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 70,
                             "h": 28
                           }
                         },
@@ -5128,11 +5332,11 @@
                           "key": ".pay-logo-pill[1]",
                           "tag": "span",
                           "rel": {
-                            "x": 28,
+                            "x": 78,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 46,
                             "h": 28
                           }
                         },
@@ -5140,11 +5344,11 @@
                           "key": ".pay-logo-pill[2]",
                           "tag": "span",
                           "rel": {
-                            "x": 56,
+                            "x": 132,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 58,
                             "h": 28
                           }
                         },
@@ -5152,11 +5356,11 @@
                           "key": ".pay-logo-pill[3]",
                           "tag": "span",
                           "rel": {
-                            "x": 84,
+                            "x": 198,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 61,
                             "h": 28
                           }
                         }
@@ -5879,6 +6083,9 @@
                             "w": 162.3,
                             "h": 36.1
                           },
+                          "styles": {
+                            "marginBottom": "24px"
+                          },
                           "bordered": true
                         },
                         {
@@ -5891,6 +6098,9 @@
                           "size": {
                             "w": 466,
                             "h": 186.8
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -5903,6 +6113,9 @@
                           "size": {
                             "w": 466,
                             "h": 115.6
+                          },
+                          "styles": {
+                            "marginBottom": "32px"
                           }
                         },
                         {
@@ -5915,6 +6128,9 @@
                           "size": {
                             "w": 466,
                             "h": 57.2
+                          },
+                          "styles": {
+                            "marginBottom": "36px"
                           }
                         },
                         {
@@ -5941,6 +6157,9 @@
                       "size": {
                         "w": 470,
                         "h": 485
+                      },
+                      "styles": {
+                        "marginTop": "80px"
                       },
                       "children": [
                         {
@@ -6519,6 +6738,9 @@
                         "w": 221.6,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Чому My Computer Academy"
                     },
                     {
@@ -6531,6 +6753,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Все, що потрібно для старту у програмува"
                     },
@@ -6600,6 +6825,9 @@
                             "w": 128.5,
                             "h": 28.7
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "bordered": true,
                           "text": "Наша перевага"
                         },
@@ -6614,6 +6842,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6626,6 +6857,9 @@
                           "size": {
                             "w": 586,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Індивідуальний темп"
                         },
@@ -6668,6 +6902,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6680,6 +6917,9 @@
                           "size": {
                             "w": 254,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Малі групи"
                         },
@@ -6722,6 +6962,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6734,6 +6977,9 @@
                           "size": {
                             "w": 254,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Реальні проєкти"
                         },
@@ -6776,6 +7022,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6788,6 +7037,9 @@
                           "size": {
                             "w": 254,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Онлайн навчання"
                         },
@@ -6830,6 +7082,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6842,6 +7097,9 @@
                           "size": {
                             "w": 254,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Сертифікат"
                         },
@@ -6884,6 +7142,9 @@
                             "w": 52,
                             "h": 52
                           },
+                          "styles": {
+                            "marginBottom": "18px"
+                          },
                           "bordered": true
                         },
                         {
@@ -6896,6 +7157,9 @@
                           "size": {
                             "w": 254,
                             "h": 30.6
+                          },
+                          "styles": {
+                            "marginBottom": "10px"
                           },
                           "text": "Підтримка 24/7"
                         },
@@ -7027,6 +7291,9 @@
                         "w": 132.6,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Наші програми"
                     },
@@ -7040,6 +7307,9 @@
                       "size": {
                         "w": 620,
                         "h": 48
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Обери напрямок"
                     },
@@ -7601,6 +7871,9 @@
                         "w": 78.8,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Процес"
                     },
                     {
@@ -7613,6 +7886,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Як записатися на курс програмування"
                     },
@@ -7680,6 +7956,9 @@
                             "w": 64,
                             "h": 64
                           },
+                          "styles": {
+                            "marginBottom": "20px"
+                          },
                           "text": "01"
                         },
                         {
@@ -7706,6 +7985,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -7730,6 +8012,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "02"
                         },
@@ -7757,6 +8042,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -7781,6 +8069,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "03"
                         },
@@ -7808,6 +8099,9 @@
                       "size": {
                         "w": 60,
                         "h": 2
+                      },
+                      "styles": {
+                        "marginTop": "36px"
                       }
                     },
                     {
@@ -7832,6 +8126,9 @@
                           "size": {
                             "w": 64,
                             "h": 64
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           },
                           "text": "04"
                         },
@@ -7962,6 +8259,9 @@
                         "w": 159.5,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Академія в цифрах"
                     },
@@ -8030,6 +8330,9 @@
                           "size": {
                             "w": 434,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8042,6 +8345,9 @@
                           "size": {
                             "w": 434,
                             "h": 135.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8081,6 +8387,9 @@
                           "size": {
                             "w": 434,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8093,6 +8402,9 @@
                           "size": {
                             "w": 434,
                             "h": 112.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8132,6 +8444,9 @@
                           "size": {
                             "w": 434,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8144,6 +8459,9 @@
                           "size": {
                             "w": 434,
                             "h": 130.8
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8183,6 +8501,9 @@
                           "size": {
                             "w": 434,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8195,6 +8516,9 @@
                           "size": {
                             "w": 434,
                             "h": 105.9
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -8310,6 +8634,9 @@
                         "w": 976,
                         "h": 69.6
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Варіанти навчання"
                     },
                     {
@@ -8417,6 +8744,10 @@
                             "w": 262,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Одинарні дитячі групи"
                         },
                         {
@@ -8429,6 +8760,9 @@
                           "size": {
                             "w": 262,
                             "h": 159.4
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -8441,6 +8775,9 @@
                           "size": {
                             "w": 262,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -8496,6 +8833,10 @@
                             "w": 262,
                             "h": 46.8
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Подвійні групи та інд. навчання"
                         },
                         {
@@ -8508,6 +8849,9 @@
                           "size": {
                             "w": 262,
                             "h": 136
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -8520,6 +8864,9 @@
                           "size": {
                             "w": 262,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -8575,6 +8922,10 @@
                             "w": 262,
                             "h": 46.8
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Індивідуальний дорослий курс"
                         },
                         {
@@ -8587,6 +8938,9 @@
                           "size": {
                             "w": 262,
                             "h": 136
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -8599,6 +8953,9 @@
                           "size": {
                             "w": 262,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -8745,6 +9102,9 @@
                             "w": 456,
                             "h": 86
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "text": "Сертифікат My Computer Academy"
                         },
                         {
@@ -8757,6 +9117,9 @@
                           "size": {
                             "w": 456,
                             "h": 54.4
+                          },
+                          "styles": {
+                            "marginBottom": "24px"
                           },
                           "text": "Підтвердить, що ви пройшли курс, а також"
                         },
@@ -8900,6 +9263,9 @@
                         "w": 79.5,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Відгуки"
                     },
                     {
@@ -8912,6 +9278,9 @@
                       "size": {
                         "w": 620,
                         "h": 96
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Відгуки батьків про курси програмування "
                     }
@@ -9121,6 +9490,9 @@
                         "w": 127,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Корисні статті"
                     },
@@ -9134,6 +9506,9 @@
                       "size": {
                         "w": 620,
                         "h": 48
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Статті для батьків та учнів"
                     },
@@ -9778,6 +10153,9 @@
                         "w": 620,
                         "h": 160.1
                       },
+                      "styles": {
+                        "marginBottom": "56px"
+                      },
                       "children": [
                         {
                           "key": ".section-badge",
@@ -9789,6 +10167,9 @@
                           "size": {
                             "w": 122.2,
                             "h": 34.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           },
                           "text": "Часті питання"
                         },
@@ -9802,6 +10183,9 @@
                           "size": {
                             "w": 620,
                             "h": 96
+                          },
+                          "styles": {
+                            "marginBottom": "14px"
                           },
                           "text": "Часті питання про курси програмування дл"
                         }
@@ -10024,6 +10408,10 @@
                           "size": {
                             "w": 452,
                             "h": 91.2
+                          },
+                          "styles": {
+                            "marginTop": "8px",
+                            "marginBottom": "14px"
                           }
                         },
                         {
@@ -10091,6 +10479,9 @@
                             "w": 452,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginBottom": "10px"
+                          },
                           "text": "Телефони"
                         },
                         {
@@ -10115,6 +10506,10 @@
                           "size": {
                             "w": 452,
                             "h": 18.7
+                          },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
                           },
                           "text": "Пошта"
                         },
@@ -10142,6 +10537,10 @@
                             "w": 452,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
+                          },
                           "text": "Слідкуйте за нами"
                         },
                         {
@@ -10154,6 +10553,9 @@
                           "size": {
                             "w": 452,
                             "h": 40.1
+                          },
+                          "styles": {
+                            "marginTop": "4px"
                           }
                         }
                       ]
@@ -10283,6 +10685,9 @@
                             "w": 240,
                             "h": 44.2
                           },
+                          "styles": {
+                            "marginTop": "12px"
+                          },
                           "text": "Онлайн школа програмування для дітей від"
                         },
                         {
@@ -10295,6 +10700,9 @@
                           "size": {
                             "w": 309.3,
                             "h": 36
+                          },
+                          "styles": {
+                            "marginTop": "18px"
                           }
                         }
                       ]
@@ -10391,7 +10799,7 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 448.3,
+                        "w": 449,
                         "h": 43.8
                       },
                       "children": [
@@ -10403,7 +10811,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 317.8,
+                            "w": 318,
                             "h": 43.8
                           }
                         },
@@ -10411,11 +10819,11 @@
                           "key": "#openWfpModal",
                           "tag": "button",
                           "rel": {
-                            "x": 327.8,
+                            "x": 328,
                             "y": 2.9
                           },
                           "size": {
-                            "w": 120.5,
+                            "w": 121,
                             "h": 38
                           }
                         }
@@ -10429,7 +10837,7 @@
                         "y": 72.8
                       },
                       "size": {
-                        "w": 104,
+                        "w": 259,
                         "h": 28
                       },
                       "children": [
@@ -10441,7 +10849,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 70,
                             "h": 28
                           }
                         },
@@ -10449,11 +10857,11 @@
                           "key": ".pay-logo-pill[1]",
                           "tag": "span",
                           "rel": {
-                            "x": 28,
+                            "x": 78,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 46,
                             "h": 28
                           }
                         },
@@ -10461,11 +10869,11 @@
                           "key": ".pay-logo-pill[2]",
                           "tag": "span",
                           "rel": {
-                            "x": 56,
+                            "x": 132,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 58,
                             "h": 28
                           }
                         },
@@ -10473,11 +10881,11 @@
                           "key": ".pay-logo-pill[3]",
                           "tag": "span",
                           "rel": {
-                            "x": 84,
+                            "x": 198,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 61,
                             "h": 28
                           }
                         }
@@ -11052,6 +11460,9 @@
                             "w": 162.3,
                             "h": 36.1
                           },
+                          "styles": {
+                            "marginBottom": "24px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11064,6 +11475,9 @@
                           "size": {
                             "w": 358,
                             "h": 149.8
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -11076,6 +11490,9 @@
                           "size": {
                             "w": 358,
                             "h": 102
+                          },
+                          "styles": {
+                            "marginBottom": "32px"
                           }
                         },
                         {
@@ -11088,6 +11505,9 @@
                           "size": {
                             "w": 358,
                             "h": 124.4
+                          },
+                          "styles": {
+                            "marginBottom": "36px"
                           }
                         },
                         {
@@ -11666,6 +12086,9 @@
                         "w": 221.6,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Чому My Computer Academy"
                     },
                     {
@@ -11678,6 +12101,9 @@
                       "size": {
                         "w": 358,
                         "h": 93.6
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Все, що потрібно для старту у програмува"
                     },
@@ -11747,6 +12173,9 @@
                             "w": 128.5,
                             "h": 28.7
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "bordered": true,
                           "text": "Наша перевага"
                         },
@@ -11761,6 +12190,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11773,6 +12205,9 @@
                           "size": {
                             "w": 159.6,
                             "h": 41.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Індивідуальний темп"
                         },
@@ -11815,6 +12250,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11827,6 +12265,9 @@
                           "size": {
                             "w": 83,
                             "h": 25.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Малі групи"
                         },
@@ -11869,6 +12310,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11881,6 +12325,9 @@
                           "size": {
                             "w": 124.8,
                             "h": 25.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Реальні проєкти"
                         },
@@ -11923,6 +12370,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11935,6 +12385,9 @@
                           "size": {
                             "w": 132.6,
                             "h": 25.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Онлайн навчання"
                         },
@@ -11977,6 +12430,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -11989,6 +12445,9 @@
                           "size": {
                             "w": 87.4,
                             "h": 25.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Сертифікат"
                         },
@@ -12031,6 +12490,9 @@
                             "w": 44,
                             "h": 44
                           },
+                          "styles": {
+                            "marginBottom": "12px"
+                          },
                           "bordered": true
                         },
                         {
@@ -12043,6 +12505,9 @@
                           "size": {
                             "w": 118.3,
                             "h": 25.5
+                          },
+                          "styles": {
+                            "marginBottom": "4px"
                           },
                           "text": "Підтримка 24/7"
                         },
@@ -12174,6 +12639,9 @@
                         "w": 132.6,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Наші програми"
                     },
@@ -12187,6 +12655,9 @@
                       "size": {
                         "w": 358,
                         "h": 31.2
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Обери напрямок"
                     },
@@ -12775,6 +13246,9 @@
                         "w": 78.8,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Процес"
                     },
                     {
@@ -12787,6 +13261,9 @@
                       "size": {
                         "w": 358,
                         "h": 62.4
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Як записатися на курс програмування"
                     },
@@ -13136,6 +13613,9 @@
                         "w": 159.5,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Академія в цифрах"
                     },
@@ -13204,6 +13684,9 @@
                           "size": {
                             "w": 312,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13216,6 +13699,9 @@
                           "size": {
                             "w": 312,
                             "h": 105.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13255,6 +13741,9 @@
                           "size": {
                             "w": 312,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13267,6 +13756,9 @@
                           "size": {
                             "w": 312,
                             "h": 105.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13306,6 +13798,9 @@
                           "size": {
                             "w": 312,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13318,6 +13813,9 @@
                           "size": {
                             "w": 312,
                             "h": 105.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13357,6 +13855,9 @@
                           "size": {
                             "w": 312,
                             "h": 48
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13369,6 +13870,9 @@
                           "size": {
                             "w": 312,
                             "h": 97.9
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           }
                         },
                         {
@@ -13484,6 +13988,9 @@
                         "w": 358,
                         "h": 47.6
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Варіанти навчання"
                     },
                     {
@@ -13591,6 +14098,10 @@
                             "w": 308,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Одинарні дитячі групи"
                         },
                         {
@@ -13603,6 +14114,9 @@
                           "size": {
                             "w": 308,
                             "h": 96
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -13615,6 +14129,9 @@
                           "size": {
                             "w": 308,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -13670,6 +14187,10 @@
                             "w": 308,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Подвійні групи та інд. навчання"
                         },
                         {
@@ -13682,6 +14203,9 @@
                           "size": {
                             "w": 308,
                             "h": 116
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -13694,6 +14218,9 @@
                           "size": {
                             "w": 308,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -13749,6 +14276,10 @@
                             "w": 308,
                             "h": 23.4
                           },
+                          "styles": {
+                            "marginTop": "12px",
+                            "marginBottom": "16px"
+                          },
                           "text": "Індивідуальний дорослий курс"
                         },
                         {
@@ -13761,6 +14292,9 @@
                           "size": {
                             "w": 308,
                             "h": 96
+                          },
+                          "styles": {
+                            "marginBottom": "20px"
                           }
                         },
                         {
@@ -13773,6 +14307,9 @@
                           "size": {
                             "w": 308,
                             "h": 78.5
+                          },
+                          "styles": {
+                            "marginBottom": "18px"
                           },
                           "bordered": true
                         },
@@ -13919,6 +14456,9 @@
                             "w": 358,
                             "h": 57.6
                           },
+                          "styles": {
+                            "marginBottom": "16px"
+                          },
                           "text": "Сертифікат My Computer Academy"
                         },
                         {
@@ -13931,6 +14471,9 @@
                           "size": {
                             "w": 358,
                             "h": 81.6
+                          },
+                          "styles": {
+                            "marginBottom": "24px"
                           },
                           "text": "Підтвердить, що ви пройшли курс, а також"
                         },
@@ -14074,6 +14617,9 @@
                         "w": 79.5,
                         "h": 34.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "text": "Відгуки"
                     },
                     {
@@ -14086,6 +14632,9 @@
                       "size": {
                         "w": 358,
                         "h": 62.4
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Відгуки батьків про курси програмування "
                     }
@@ -14375,6 +14924,9 @@
                         "w": 127,
                         "h": 36.1
                       },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
                       "bordered": true,
                       "text": "Корисні статті"
                     },
@@ -14388,6 +14940,9 @@
                       "size": {
                         "w": 358,
                         "h": 31.2
+                      },
+                      "styles": {
+                        "marginBottom": "14px"
                       },
                       "text": "Статті для батьків та учнів"
                     },
@@ -15011,6 +15566,9 @@
                         "w": 358,
                         "h": 126.5
                       },
+                      "styles": {
+                        "marginBottom": "20px"
+                      },
                       "children": [
                         {
                           "key": ".section-badge",
@@ -15022,6 +15580,9 @@
                           "size": {
                             "w": 122.2,
                             "h": 34.1
+                          },
+                          "styles": {
+                            "marginBottom": "16px"
                           },
                           "text": "Часті питання"
                         },
@@ -15035,6 +15596,9 @@
                           "size": {
                             "w": 358,
                             "h": 62.4
+                          },
+                          "styles": {
+                            "marginBottom": "14px"
                           },
                           "text": "Часті питання про курси програмування дл"
                         }
@@ -15257,6 +15821,10 @@
                           "size": {
                             "w": 358,
                             "h": 62.4
+                          },
+                          "styles": {
+                            "marginTop": "8px",
+                            "marginBottom": "14px"
                           }
                         },
                         {
@@ -15325,6 +15893,9 @@
                             "w": 316,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginBottom": "10px"
+                          },
                           "text": "Телефони"
                         },
                         {
@@ -15349,6 +15920,10 @@
                           "size": {
                             "w": 316,
                             "h": 18.7
+                          },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
                           },
                           "text": "Пошта"
                         },
@@ -15376,6 +15951,10 @@
                             "w": 316,
                             "h": 18.7
                           },
+                          "styles": {
+                            "marginTop": "20px",
+                            "marginBottom": "10px"
+                          },
                           "text": "Слідкуйте за нами"
                         },
                         {
@@ -15388,6 +15967,9 @@
                           "size": {
                             "w": 316,
                             "h": 40.1
+                          },
+                          "styles": {
+                            "marginTop": "4px"
                           }
                         }
                       ]
@@ -15517,6 +16099,9 @@
                             "w": 240,
                             "h": 44.2
                           },
+                          "styles": {
+                            "marginTop": "12px"
+                          },
                           "text": "Онлайн школа програмування для дітей від"
                         },
                         {
@@ -15529,6 +16114,9 @@
                           "size": {
                             "w": 358,
                             "h": 36
+                          },
+                          "styles": {
+                            "marginTop": "18px"
                           }
                         }
                       ]
@@ -15637,7 +16225,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 317.8,
+                            "w": 318,
                             "h": 43.8
                           }
                         },
@@ -15649,7 +16237,7 @@
                             "y": 53.8
                           },
                           "size": {
-                            "w": 120.5,
+                            "w": 121,
                             "h": 38
                           }
                         }
@@ -15663,7 +16251,7 @@
                         "y": 120.8
                       },
                       "size": {
-                        "w": 104,
+                        "w": 259,
                         "h": 28
                       },
                       "children": [
@@ -15675,7 +16263,7 @@
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 70,
                             "h": 28
                           }
                         },
@@ -15683,11 +16271,11 @@
                           "key": ".pay-logo-pill[1]",
                           "tag": "span",
                           "rel": {
-                            "x": 28,
+                            "x": 78,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 46,
                             "h": 28
                           }
                         },
@@ -15695,11 +16283,11 @@
                           "key": ".pay-logo-pill[2]",
                           "tag": "span",
                           "rel": {
-                            "x": 56,
+                            "x": 132,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 58,
                             "h": 28
                           }
                         },
@@ -15707,11 +16295,11 @@
                           "key": ".pay-logo-pill[3]",
                           "tag": "span",
                           "rel": {
-                            "x": 84,
+                            "x": 198,
                             "y": 0
                           },
                           "size": {
-                            "w": 20,
+                            "w": 61,
                             "h": 28
                           }
                         }
