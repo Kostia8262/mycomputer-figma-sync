@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-20",
+ "takenAt": "2026-08-21",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
