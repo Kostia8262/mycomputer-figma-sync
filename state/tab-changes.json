@@ -1,91 +1,24 @@
 {
- "since": "2026-08-01",
- "total": 28,
+ "since": "HEAD~20",
+ "total": 9,
  "summary": [
   {
    "tab": "Оболонка (шапка, сайдбар, спільне)",
-   "commits": 3,
-   "lines": 12852,
-   "subjects": [
-    "2026-08-18 feat(admin): open the student card inside the panel instead of a new tab",
-    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(design): decline the live lesson count on the course page"
-   ]
-  },
-  {
-   "tab": "База клієнтів",
-   "commits": 3,
-   "lines": 12780,
-   "subjects": [
-    "2026-08-18 feat(subscriptions): bill by the eight lessons a family pays for, not by the month",
-    "2026-08-14 feat(admin): filter the payment sheet by lesson format",
-    "2026-08-14 fix(design): decline the live lesson count on the course page"
-   ]
-  },
-  {
-   "tab": "Співробітники",
    "commits": 2,
-   "lines": 12619,
+   "lines": 54,
    "subjects": [
-    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once",
-    "2026-08-14 fix(design): decline the live lesson count on the course page"
-   ]
-  },
-  {
-   "tab": "Відвідування",
-   "commits": 5,
-   "lines": 331,
-   "subjects": [
-    "2026-08-18 fix(attendance): name the cancelled mark by what it does to the abonement",
-    "2026-08-18 feat(attendance): give any lesson off the timetable an hour of its own",
-    "2026-08-18 feat(payroll): count a make-up by the hour it was held at",
-    "2026-08-18 feat(attendance): grey out Save until the make-up hour is filled in",
-    "2026-08-18 feat(attendance): ask for the hour before a make-up lesson is saved"
-   ]
-  },
-  {
-   "tab": "Розклад",
-   "commits": 2,
-   "lines": 176,
-   "subjects": [
-    "2026-08-18 feat(schedule): put make-ups on the grid, where they are actually taught",
-    "2026-08-18 feat(payroll): show the hours a wage was built from, and set the lesson once"
-   ]
-  },
-  {
-   "tab": "Дашборд",
-   "commits": 2,
-   "lines": 78,
-   "subjects": [
-    "2026-08-17 fix(unit): stop the break-even from re-costing fixed wages per student",
-    "2026-08-17 feat(unit): show what the per-student payroll is made of"
-   ]
-  },
-  {
-   "tab": "Оплати",
-   "commits": 2,
-   "lines": 62,
-   "subjects": [
-    "2026-08-17 feat(unit): show what the per-student payroll is made of",
-    "2026-08-14 feat(admin): filter the payment sheet by lesson format"
+    "2026-08-21 feat(gift): дві обов'язкові відповіді перед бронюванням — свій комп'ютер і досвід",
+    "2026-08-21 feat(gift): два строки замість одного — 6 місяців на активацію, 60 днів на заняття"
    ]
   }
  ],
  "unmatched": [
-  "2026-08-18 feat(subscriptions): let the count start on the day the lessons did",
-  "2026-08-18 fix(subscriptions): \"куплено\" means the last payment, not the lifetime total",
-  "2026-08-18 fix(subscriptions): count the balance out of one abonement, not the whole history",
-  "2026-08-18 feat(subscriptions): one state for a spent abonement, and say by how much",
-  "2026-08-18 fix(subscriptions): say what a top-up actually does before and after saving",
-  "2026-08-18 feat(subscriptions): search and status filter in the abonements header",
-  "2026-08-18 fix(subscriptions): let the balance go negative when lessons outrun the payment",
-  "2026-08-18 feat(subscriptions): spend the abonement by the timetable, not by the register",
-  "2026-08-18 feat(payroll): say how many make-ups were paid for, and what they cost",
-  "2026-08-18 feat(finance): show the hours behind the lesson count in payroll",
-  "2026-08-18 feat(finance): sum up the payroll card",
-  "2026-08-18 feat(finance): total up the month's costs above the profit line",
-  "2026-08-18 style(admin): pin the month actions to the right of the finance header",
-  "2026-08-17 fix(dashboard): name the students a tile is missing instead of quietly dropping them",
-  "2026-08-14 feat(admin): count the trials in the client base header"
+  "2026-08-22 fix(admin): у зведенні акції видно місця окремо по кожному напрямку",
+  "2026-08-21 fix(admin): два курси в одному напрямку більше не читаються як недочищений список",
+  "2026-08-21 feat(gift): розмір групи залежить від віку — 5, 6 і 7 місць",
+  "2026-08-21 feat(main): курс веб-разработки возвращается в индекс",
+  "2026-08-21 feat(gift): у старших напрямок «Веб-дизайн, UI/UX», а програмування — Python і фронтенд разом",
+  "2026-08-21 feat(gift): на сертификате выбирают направление, а не курс",
+  "2026-08-21 feat(main): курсы Scratch и Construct 3 возвращаются в индекс"
  ]
 }
