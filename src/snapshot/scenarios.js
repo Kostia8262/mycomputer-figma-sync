@@ -42,9 +42,23 @@ async function clickByText(page, text) {
 async function runStep(page, step) {
   if (step.click !== undefined) return clickByText(page, step.click);
 
+  // Та же болезнь, что описана ниже у waitFor, только с другого конца:
+  // waitForSelector резолвит селектор в ПЕРВОЕ совпадение и ждёт видимости
+  // именно его. На 390px админка прячет таблицу и рисует вместо неё карточки
+  // .mcard — строка таблицы остаётся в DOM первой и невидимой навсегда, из-за
+  // чего «mobile/База клієнтів» отваливалась по таймауту, пока desktop с тем
+  // же сценарием проходил. Ждём и кликаем первый ВИДИМЫЙ узел из совпадений:
+  // тогда один селектор через запятую покрывает оба представления списка.
   if (step.clickSelector !== undefined) {
-    await page.waitForSelector(step.clickSelector, { state: 'visible', timeout: DEFAULT_TIMEOUT });
-    return page.click(step.clickSelector);
+    const handle = await page.waitForFunction(
+      (sel) => [...document.querySelectorAll(sel)]
+        .find((el) => el.offsetWidth > 0 && el.offsetHeight > 0) ?? null,
+      step.clickSelector,
+      { timeout: step.timeout ?? DEFAULT_TIMEOUT },
+    );
+    const element = handle.asElement();
+    if (!element) throw new Error(`не найден видимый узел: ${step.clickSelector}`);
+    return element.click();
   }
 
   if (step.type !== undefined) {

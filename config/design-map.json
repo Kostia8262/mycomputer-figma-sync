@@ -790,10 +790,10 @@
             "id": "clients-modal-card",
             "figmaName": "База клієнтів · Модалка «Картка клієнта»",
             "tab": "База клієнтів",
-            "$comment": "Карточку открывает кнопка «✏️» в строке, а не клик по ячейке: строка обработчика не имеет, и сценарий молча снимал вкладку без модалки.",
+            "$comment": "Карточку открывает кнопка «✏️» в строке, а не клик по ячейке: строка обработчика не имеет, и сценарий молча снимал вкладку без модалки. Второй селектор — для 390px: там таблица скрыта и список рисуется карточками .mcard, кнопка внутри карточки называется «✏️ Змінити». Шаг кликает первый видимый узел, поэтому одна запись работает на всех брейкпоинтах.",
             "steps": [
               {
-                "clickSelector": "#clientsTab tbody tr:first-child button[onclick^=\"openClientModal\"]"
+                "clickSelector": "#clientsTab tbody tr:first-child button[onclick^=\"openClientModal\"], #clientsTab .mcard:first-of-type button[onclick^=\"openClientModal\"]"
               },
               {
                 "waitFor": "#clientModal"
