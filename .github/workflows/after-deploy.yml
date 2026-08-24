@@ -131,8 +131,20 @@ jobs:
             fs.writeFileSync(tmp + "/issue.json", JSON.stringify({ title, body, labels: ["figma-sync"] }));
           '
 
-          curl -sS -X POST \
+          # Код ответа проверяется, а не выбрасывается в /dev/null: gh падал бы
+          # заметно, а curl отдаёт отказ телом при нулевом коде выхода — молча
+          # потерянный список правок выглядел бы как успешный прогон.
+          code=$(curl -sS -o "$RUNNER_TEMP/issue-out.json" -w '%{http_code}' -X POST \
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             --data-binary @"$RUNNER_TEMP/issue.json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/issues" > /dev/null || true
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/issues")
+
+          if [ "$code" = "201" ]; then
+            echo "Список правок заведён"
+          else
+            # Прогон не роняем: слепок уже сохранён и лежит в state/, а список
+            # правок всегда можно собрать локально командой `cli.js issue`.
+            echo "::warning title=Список правок не заведён::GitHub ответил HTTP $code — слепок при этом сохранён."
+            cat "$RUNNER_TEMP/issue-out.json"
+          fi
