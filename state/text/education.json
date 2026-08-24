@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-21",
+ "takenAt": "2026-08-24",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -324,102 +324,6 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Розробка сайтів: HTML, CSS, JS",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ HTML5, CSS3, Flexbox/Grid",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ JavaScript — інтерактивність",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Персональний сайт-портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Construct: розробка ігор без коду",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Ігрова логіка через події та дії",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Фізика, анімація, звукові ефекти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Публікація гри онлайн у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
        "t": "Графіка та анімація",
        "where": ".course-card__body › .course-card__title › h3"
       },
@@ -480,6 +384,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -497,6 +433,70 @@
       },
       {
        "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -1137,6 +1137,10 @@
       },
       {
        "t": "Статті",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Заняття у Дніпрі",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1519,102 +1523,6 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Розробка сайтів: HTML, CSS, JS",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ HTML5, CSS3, Flexbox/Grid",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ JavaScript — інтерактивність",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Персональний сайт-портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Construct: розробка ігор без коду",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Ігрова логіка через події та дії",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Фізика, анімація, звукові ефекти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Публікація гри онлайн у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
        "t": "Графіка та анімація",
        "where": ".course-card__body › .course-card__title › h3"
       },
@@ -1675,6 +1583,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -1692,6 +1632,70 @@
       },
       {
        "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -2335,6 +2339,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Заняття у Дніпрі",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
@@ -2690,102 +2698,6 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Розробка сайтів: HTML, CSS, JS",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ HTML5, CSS3, Flexbox/Grid",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ JavaScript — інтерактивність",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Персональний сайт-портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Construct: розробка ігор без коду",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Ігрова логіка через події та дії",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Фізика, анімація, звукові ефекти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Публікація гри онлайн у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
        "t": "Графіка та анімація",
        "where": ".course-card__body › .course-card__title › h3"
       },
@@ -2846,6 +2758,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Розробка сайтів: HTML, CSS, JS",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ HTML5, CSS3, Flexbox/Grid",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ JavaScript — інтерактивність",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Персональний сайт-портфоліо",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -2863,6 +2807,70 @@
       },
       {
        "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–10 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Scratch: візуальне програмування",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Створення персонажів і сцен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Логіка та алгоритми через гру",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власна гра у фіналі курсу",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 6 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–14 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Construct: розробка ігор без коду",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Ігрова логіка через події та дії",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Фізика, анімація, звукові ефекти",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація гри онлайн у фіналі",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -3507,6 +3515,10 @@
       },
       {
        "t": "Статті",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Заняття у Дніпрі",
        "where": ".footer__links › .footer__col › li"
       },
       {

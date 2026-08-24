@@ -245,7 +245,22 @@
                     "textAlign": "center"
                   },
                   "bordered": true,
-                  "text": "📊"
+                  "text": "📊",
+                  "children": [
+                    {
+                      "key": ".btn-txt",
+                      "tag": "span",
+                      "rel": {
+                        "x": 32,
+                        "y": 6.5
+                      },
+                      "size": {
+                        "w": 31.1,
+                        "h": 15
+                      },
+                      "text": "Excel"
+                    }
+                  ]
                 },
                 {
                   "key": "#csvExportBtn",
@@ -283,7 +298,22 @@
                     "textAlign": "center"
                   },
                   "bordered": true,
-                  "text": "📥"
+                  "text": "📥",
+                  "children": [
+                    {
+                      "key": ".btn-txt",
+                      "tag": "span",
+                      "rel": {
+                        "x": 32,
+                        "y": 6.5
+                      },
+                      "size": {
+                        "w": 25.4,
+                        "h": 15
+                      },
+                      "text": "CSV"
+                    }
+                  ]
                 },
                 {
                   "key": "#csvImportBtn",
@@ -321,7 +351,22 @@
                     "textAlign": "center"
                   },
                   "bordered": true,
-                  "text": "📤"
+                  "text": "📤",
+                  "children": [
+                    {
+                      "key": ".btn-txt",
+                      "tag": "span",
+                      "rel": {
+                        "x": 32,
+                        "y": 6.5
+                      },
+                      "size": {
+                        "w": 40.9,
+                        "h": 15
+                      },
+                      "text": "Імпорт"
+                    }
+                  ]
                 },
                 {
                   "key": "#reloadBtn",
@@ -358,7 +403,60 @@
                     "borderTopColor": "rgb(224, 217, 255)",
                     "textAlign": "center"
                   },
-                  "bordered": true
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "svg",
+                      "tag": "svg",
+                      "rel": {
+                        "x": 11,
+                        "y": 7
+                      },
+                      "size": {
+                        "w": 14,
+                        "h": 14
+                      },
+                      "children": [
+                        {
+                          "key": "path[0]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 1.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 10.5,
+                            "h": 10.5
+                          }
+                        },
+                        {
+                          "key": "path[1]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 8.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 3.5,
+                            "h": 3.5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".btn-txt",
+                      "tag": "span",
+                      "rel": {
+                        "x": 31,
+                        "y": 6.5
+                      },
+                      "size": {
+                        "w": 51.5,
+                        "h": 15
+                      },
+                      "text": "Оновити"
+                    }
+                  ]
                 },
                 {
                   "key": "#gsWrap",
@@ -383,7 +481,60 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "svg",
+                      "tag": "svg",
+                      "rel": {
+                        "x": 10,
+                        "y": 7.5
+                      },
+                      "size": {
+                        "w": 13,
+                        "h": 13
+                      },
+                      "children": [
+                        {
+                          "key": "circle",
+                          "tag": "circle",
+                          "rel": {
+                            "x": 2.2,
+                            "y": 2.2
+                          },
+                          "size": {
+                            "w": 7.6,
+                            "h": 7.6
+                          }
+                        },
+                        {
+                          "key": "path",
+                          "tag": "path",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 8.5
+                          },
+                          "size": {
+                            "w": 2.4,
+                            "h": 2.4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#gsInput",
+                      "tag": "input",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 190,
+                        "h": 28
+                      },
+                      "bordered": true
+                    }
+                  ]
                 },
                 {
                   "key": "#logoutBtn",
@@ -504,7 +655,680 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": ".sidebar-section[0]",
+                      "tag": "div",
+                      "rel": {
+                        "x": 10,
+                        "y": 14
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 34
+                      },
+                      "text": "Спільне"
+                    },
+                    {
+                      "key": "#sideNav-leads",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 48
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📋"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 47.7,
+                            "h": 16
+                          },
+                          "text": "Заявки"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-clients",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 93
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🗂"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 87.9,
+                            "h": 16
+                          },
+                          "text": "База клієнтів"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-gift",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 138
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎁"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 85.6,
+                            "h": 16
+                          },
+                          "text": "Сертифікати"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-certificates",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 183
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 68.4,
+                            "h": 16
+                          },
+                          "text": "Свідоцтва"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-lessons",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 228
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 80,
+                            "h": 16
+                          },
+                          "text": "Уроки учнів"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-dashboard",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 273
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📊"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 64.2,
+                            "h": 16
+                          },
+                          "text": "Дашборд"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-admins",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 318
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "👥"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 97,
+                            "h": 16
+                          },
+                          "text": "Співробітники"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#siteSelectLabel",
+                      "tag": "div",
+                      "rel": {
+                        "x": 10,
+                        "y": 377
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 34
+                      },
+                      "styles": {
+                        "marginTop": "16px"
+                      },
+                      "text": "Сайт"
+                    },
+                    {
+                      "key": "#siteSelectHome",
+                      "tag": "div",
+                      "rel": {
+                        "x": 10,
+                        "y": 411
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 48
+                      },
+                      "children": [
+                        {
+                          "key": "#siteSelector",
+                          "tag": "select",
+                          "rel": {
+                            "x": 16,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 165,
+                            "h": 36
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sidebarContentSection",
+                      "tag": "div",
+                      "rel": {
+                        "x": 10,
+                        "y": 459
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 34
+                      },
+                      "text": "Контент сайту"
+                    },
+                    {
+                      "key": "#sideNav-courses",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 493
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 41.5,
+                            "h": 16
+                          },
+                          "text": "Курси"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-curriculum",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 538
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📝"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 68.2,
+                            "h": 16
+                          },
+                          "text": "Програми"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-content",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 583
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "✏️"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 54.7,
+                            "h": 16
+                          },
+                          "text": "Контент"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-modules",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 628
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🔲"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 47.9,
+                            "h": 16
+                          },
+                          "text": "Модулі"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-articles",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 673
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📰"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 41.5,
+                            "h": 16
+                          },
+                          "text": "Статті"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-reviews",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 718
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "⭐"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 51.3,
+                            "h": 16
+                          },
+                          "text": "Відгуки"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-seo",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 763
+                      },
+                      "size": {
+                        "w": 197,
+                        "h": 43
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 12,
+                            "y": 9
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🔍"
+                        },
+                        {
+                          "key": "span",
+                          "tag": "span",
+                          "rel": {
+                            "x": 42,
+                            "y": 13.5
+                          },
+                          "size": {
+                            "w": 75.5,
+                            "h": 16
+                          },
+                          "text": "SEO тексти"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -545,7 +1369,7 @@
                   },
                   "size": {
                     "w": 1174,
-                    "h": 949
+                    "h": 1341
                   },
                   "styles": {
                     "display": "block",
@@ -558,7 +1382,227 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(26, 26, 46)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#statsRow",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 1174,
+                        "h": 90
+                      },
+                      "styles": {
+                        "marginBottom": "24px"
+                      },
+                      "children": [
+                        {
+                          "key": ".stat[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 223.6,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 237.6,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 223.6,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 475.2,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 223.6,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 712.8,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 223.6,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 950.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 223.6,
+                            "h": 90
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".toolbar",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 114
+                      },
+                      "size": {
+                        "w": 1174,
+                        "h": 36
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "children": [
+                        {
+                          "key": ".search-wrap",
+                          "tag": "span",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 540.4,
+                            "h": 36
+                          }
+                        },
+                        {
+                          "key": "#statusFilter",
+                          "tag": "select",
+                          "rel": {
+                            "x": 550.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 210,
+                            "h": 36
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": "#courseFilter",
+                          "tag": "select",
+                          "rel": {
+                            "x": 770.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 287,
+                            "h": 36
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".btn.btn-primary",
+                          "tag": "button",
+                          "rel": {
+                            "x": 1067.4,
+                            "y": 4
+                          },
+                          "size": {
+                            "w": 106.6,
+                            "h": 28
+                          },
+                          "bordered": true,
+                          "text": "+ Нова заявка"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#leadsTableWrap",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 166
+                      },
+                      "size": {
+                        "w": 1174,
+                        "h": 1175
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "#leadsTable",
+                          "tag": "table",
+                          "rel": {
+                            "x": 1,
+                            "y": 1
+                          },
+                          "size": {
+                            "w": 1377.1,
+                            "h": 1132
+                          }
+                        },
+                        {
+                          "key": "#pager",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1,
+                            "y": 1133
+                          },
+                          "size": {
+                            "w": 1172,
+                            "h": 41
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#leadsHScrollBar",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 806
+                      },
+                      "size": {
+                        "w": 1174,
+                        "h": 14
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "#leadsHScrollInner",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 1
+                          },
+                          "size": {
+                            "w": 1377,
+                            "h": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -572,16 +1616,16 @@
                 "y": 191
               },
               "size": {
-                "w": 1374.6,
-                "h": 740
+                "w": 1377.1,
+                "h": 1132
               },
               "wrap": {
                 "w": 1174,
-                "h": 783
+                "h": 1175
               },
               "headHeight": 39.5,
               "rowHeight": 49,
-              "rows": 14,
+              "rows": 22,
               "columns": [
                 {
                   "label": "",
@@ -589,7 +1633,7 @@
                 },
                 {
                   "label": "#",
-                  "w": 69
+                  "w": 69.2
                 },
                 {
                   "label": "Ім'я дитини",
@@ -625,7 +1669,7 @@
                 },
                 {
                   "label": "Дата",
-                  "w": 147
+                  "w": 149.3
                 },
                 {
                   "label": "",
@@ -648,7 +1692,7 @@
                 },
                 {
                   "col": 1,
-                  "w": 69,
+                  "w": 69.2,
                   "padding": "12px 14px",
                   "controls": [
                     {
@@ -765,7 +1809,7 @@
                 },
                 {
                   "col": 10,
-                  "w": 147,
+                  "w": 149.3,
                   "padding": "12px 14px",
                   "controls": []
                 },
@@ -991,7 +2035,60 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#siteSelector",
+                      "tag": "select",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 132,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "optgroup[0]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -376,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        },
+                        {
+                          "key": "optgroup[1]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -376,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        },
+                        {
+                          "key": "optgroup[2]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -376,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "key": "#xlsxExportBtn",
@@ -1134,7 +2231,47 @@
                     "borderTopColor": "rgb(224, 217, 255)",
                     "textAlign": "center"
                   },
-                  "bordered": true
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "svg",
+                      "tag": "svg",
+                      "rel": {
+                        "x": 7,
+                        "y": 7
+                      },
+                      "size": {
+                        "w": 14,
+                        "h": 14
+                      },
+                      "children": [
+                        {
+                          "key": "path[0]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 1.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 10.5,
+                            "h": 10.5
+                          }
+                        },
+                        {
+                          "key": "path[1]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 8.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 3.5,
+                            "h": 3.5
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "key": "#gsWrap",
@@ -1159,7 +2296,60 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "svg",
+                      "tag": "svg",
+                      "rel": {
+                        "x": 10,
+                        "y": 7.5
+                      },
+                      "size": {
+                        "w": 13,
+                        "h": 13
+                      },
+                      "children": [
+                        {
+                          "key": "circle",
+                          "tag": "circle",
+                          "rel": {
+                            "x": 2.2,
+                            "y": 2.2
+                          },
+                          "size": {
+                            "w": 7.6,
+                            "h": 7.6
+                          }
+                        },
+                        {
+                          "key": "path",
+                          "tag": "path",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 8.5
+                          },
+                          "size": {
+                            "w": 2.4,
+                            "h": 2.4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#gsInput",
+                      "tag": "input",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 150,
+                        "h": 28
+                      },
+                      "bordered": true
+                    }
+                  ]
                 },
                 {
                   "key": "#logoutBtn",
@@ -1280,7 +2470,429 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#sideNav-leads",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 14
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📋"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-clients",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 61
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🗂"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-gift",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 108
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎁"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-certificates",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 155
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-lessons",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 202
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-dashboard",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 249
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📊"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-admins",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 296
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "👥"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-courses",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 343
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🎓"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-curriculum",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 390
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📝"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-content",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 437
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "✏️"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-modules",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 484
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🔲"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-articles",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 531
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "📰"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-reviews",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 578
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "⭐"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#sideNav-seo",
+                      "tag": "button",
+                      "rel": {
+                        "x": 10,
+                        "y": 625
+                      },
+                      "size": {
+                        "w": 37,
+                        "h": 45
+                      },
+                      "styles": {
+                        "marginBottom": "2px"
+                      },
+                      "children": [
+                        {
+                          "key": ".sidebar-icon",
+                          "tag": "span",
+                          "rel": {
+                            "x": 8.5,
+                            "y": 10
+                          },
+                          "size": {
+                            "w": 20,
+                            "h": 25
+                          },
+                          "text": "🔍"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -1321,7 +2933,7 @@
                   },
                   "size": {
                     "w": 814,
-                    "h": 1091
+                    "h": 1483
                   },
                   "styles": {
                     "display": "block",
@@ -1334,7 +2946,227 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(26, 26, 46)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#statsRow",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 814,
+                        "h": 194
+                      },
+                      "styles": {
+                        "marginBottom": "24px"
+                      },
+                      "children": [
+                        {
+                          "key": ".stat[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 193,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 207,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 193,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 414,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 193,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 621,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 193,
+                            "h": 90
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 104
+                          },
+                          "size": {
+                            "w": 193,
+                            "h": 90
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".toolbar",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 218
+                      },
+                      "size": {
+                        "w": 814,
+                        "h": 74
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "children": [
+                        {
+                          "key": ".search-wrap",
+                          "tag": "span",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 297,
+                            "h": 36
+                          }
+                        },
+                        {
+                          "key": "#statusFilter",
+                          "tag": "select",
+                          "rel": {
+                            "x": 307,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 210,
+                            "h": 36
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": "#courseFilter",
+                          "tag": "select",
+                          "rel": {
+                            "x": 527,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 287,
+                            "h": 36
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".btn.btn-primary",
+                          "tag": "button",
+                          "rel": {
+                            "x": 0,
+                            "y": 46
+                          },
+                          "size": {
+                            "w": 106.6,
+                            "h": 28
+                          },
+                          "bordered": true,
+                          "text": "+ Нова заявка"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#leadsTableWrap",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 308
+                      },
+                      "size": {
+                        "w": 814,
+                        "h": 1175
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "#leadsTable",
+                          "tag": "table",
+                          "rel": {
+                            "x": 1,
+                            "y": 1
+                          },
+                          "size": {
+                            "w": 1377.1,
+                            "h": 1132
+                          }
+                        },
+                        {
+                          "key": "#pager",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1,
+                            "y": 1133
+                          },
+                          "size": {
+                            "w": 812,
+                            "h": 41
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#leadsHScrollBar",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 816
+                      },
+                      "size": {
+                        "w": 814,
+                        "h": 14
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "#leadsHScrollInner",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 1
+                          },
+                          "size": {
+                            "w": 1377,
+                            "h": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -1348,16 +3180,16 @@
                 "y": 323
               },
               "size": {
-                "w": 1374.6,
-                "h": 740
+                "w": 1377.1,
+                "h": 1132
               },
               "wrap": {
                 "w": 814,
-                "h": 783
+                "h": 1175
               },
               "headHeight": 39.5,
               "rowHeight": 49,
-              "rows": 14,
+              "rows": 22,
               "columns": [
                 {
                   "label": "",
@@ -1365,7 +3197,7 @@
                 },
                 {
                   "label": "#",
-                  "w": 69
+                  "w": 69.2
                 },
                 {
                   "label": "Ім'я дитини",
@@ -1401,7 +3233,7 @@
                 },
                 {
                   "label": "Дата",
-                  "w": 147
+                  "w": 149.3
                 },
                 {
                   "label": "",
@@ -1424,7 +3256,7 @@
                 },
                 {
                   "col": 1,
-                  "w": 69,
+                  "w": 69.2,
                   "padding": "12px 14px",
                   "controls": [
                     {
@@ -1541,7 +3373,7 @@
                 },
                 {
                   "col": 10,
-                  "w": 147,
+                  "w": 149.3,
                   "padding": "12px 14px",
                   "controls": []
                 },
@@ -1702,7 +3534,60 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(144, 137, 179)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#siteSelector",
+                      "tag": "select",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 132,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "optgroup[0]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -142,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        },
+                        {
+                          "key": "optgroup[1]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -142,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        },
+                        {
+                          "key": "optgroup[2]",
+                          "tag": "optgroup",
+                          "rel": {
+                            "x": -142,
+                            "y": -13.5
+                          },
+                          "size": {
+                            "w": 0,
+                            "h": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "key": "#reloadBtn",
@@ -1737,7 +3622,47 @@
                     "borderTopColor": "rgb(224, 217, 255)",
                     "textAlign": "center"
                   },
-                  "bordered": true
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "svg",
+                      "tag": "svg",
+                      "rel": {
+                        "x": 7,
+                        "y": 7
+                      },
+                      "size": {
+                        "w": 14,
+                        "h": 14
+                      },
+                      "children": [
+                        {
+                          "key": "path[0]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 1.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 10.5,
+                            "h": 10.5
+                          }
+                        },
+                        {
+                          "key": "path[1]",
+                          "tag": "path",
+                          "rel": {
+                            "x": 8.8,
+                            "y": 1.8
+                          },
+                          "size": {
+                            "w": 3.5,
+                            "h": 3.5
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "key": "#logoutBtn",
@@ -1807,70 +3732,14 @@
           },
           "children": [
             {
-              "key": "#sidebarEl",
+              "key": ".main",
               "tag": "div",
               "rel": {
                 "x": 0,
                 "y": 0
               },
               "size": {
-                "w": 58,
-                "h": 788
-              },
-              "styles": {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexWrap": "nowrap",
-                "fontFamily": "Inter, Arial, sans-serif",
-                "fontSize": "16px",
-                "fontWeight": "400",
-                "color": "rgb(144, 137, 179)",
-                "opacity": "1",
-                "borderRightWidth": "1px",
-                "borderTopColor": "rgb(144, 137, 179)",
-                "textAlign": "start"
-              },
-              "bordered": true,
-              "children": [
-                {
-                  "key": ".sidebar-nav",
-                  "tag": "nav",
-                  "rel": {
-                    "x": 0,
-                    "y": 0
-                  },
-                  "size": {
-                    "w": 57,
-                    "h": 788
-                  },
-                  "styles": {
-                    "display": "block",
-                    "flexDirection": "row",
-                    "flexWrap": "nowrap",
-                    "paddingTop": "14px",
-                    "paddingRight": "10px",
-                    "paddingBottom": "14px",
-                    "paddingLeft": "10px",
-                    "fontFamily": "Inter, Arial, sans-serif",
-                    "fontSize": "16px",
-                    "fontWeight": "400",
-                    "color": "rgb(144, 137, 179)",
-                    "opacity": "1",
-                    "borderTopColor": "rgb(144, 137, 179)",
-                    "textAlign": "start"
-                  }
-                }
-              ]
-            },
-            {
-              "key": ".main",
-              "tag": "div",
-              "rel": {
-                "x": 58,
-                "y": 0
-              },
-              "size": {
-                "w": 332,
+                "w": 390,
                 "h": 788
               },
               "styles": {
@@ -1879,7 +3748,7 @@
                 "flexWrap": "nowrap",
                 "paddingTop": "14px",
                 "paddingRight": "14px",
-                "paddingBottom": "14px",
+                "paddingBottom": "76px",
                 "paddingLeft": "14px",
                 "fontFamily": "Inter, Arial, sans-serif",
                 "fontSize": "16px",
@@ -1898,8 +3767,8 @@
                     "y": 14
                   },
                   "size": {
-                    "w": 304,
-                    "h": 1405
+                    "w": 362,
+                    "h": 4970.3
                   },
                   "styles": {
                     "display": "block",
@@ -1912,233 +3781,453 @@
                     "opacity": "1",
                     "borderTopColor": "rgb(26, 26, 46)",
                     "textAlign": "start"
-                  }
+                  },
+                  "children": [
+                    {
+                      "key": "#statsRow",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 362,
+                        "h": 153.3
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "children": [
+                        {
+                          "key": ".stat[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 115.3,
+                            "h": 65.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 123.3,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 115.3,
+                            "h": 65.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 246.7,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 115.3,
+                            "h": 65.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 73.8
+                          },
+                          "size": {
+                            "w": 115.3,
+                            "h": 79.5
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".stat[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 123.3,
+                            "y": 73.8
+                          },
+                          "size": {
+                            "w": 115.3,
+                            "h": 79.5
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".toolbar",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 169.3
+                      },
+                      "size": {
+                        "w": 362,
+                        "h": 74
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "children": [
+                        {
+                          "key": ".search-wrap",
+                          "tag": "span",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 282.1,
+                            "h": 36
+                          }
+                        },
+                        {
+                          "key": ".btn.btn-ghost",
+                          "tag": "button",
+                          "rel": {
+                            "x": 292.1,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 69.9,
+                            "h": 36
+                          },
+                          "bordered": true,
+                          "text": "Фільтри"
+                        },
+                        {
+                          "key": ".btn.btn-primary",
+                          "tag": "button",
+                          "rel": {
+                            "x": 0,
+                            "y": 46
+                          },
+                          "size": {
+                            "w": 106.6,
+                            "h": 28
+                          },
+                          "bordered": true,
+                          "text": "+ Нова заявка"
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".mcards",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 259.3
+                      },
+                      "size": {
+                        "w": 362,
+                        "h": 4711
+                      },
+                      "children": [
+                        {
+                          "key": ".mcard[0]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[1]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 200
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[2]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 400
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[3]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 600
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[4]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 800
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[5]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 1019
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[6]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 1219
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[7]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 1419
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 192
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[8]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 1619
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[9]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 1838
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[10]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 2057
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[11]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 2276
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[12]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 2495
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[13]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 2714
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[14]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 2933
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 245
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[15]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 3186
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[16]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 3405
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[17]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 3624
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[18]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 3843
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[19]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 4062
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[20]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 4281
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".mcard[21]",
+                          "tag": "article",
+                          "rel": {
+                            "x": 0,
+                            "y": 4500
+                          },
+                          "size": {
+                            "w": 362,
+                            "h": 211
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ],
-          "absoluteTop": 56,
-          "tables": [
-            {
-              "id": "leadsTable",
-              "rel": {
-                "x": 73,
-                "y": 727
-              },
-              "size": {
-                "w": 1294.6,
-                "h": 650
-              },
-              "wrap": {
-                "w": 304,
-                "h": 693
-              },
-              "headHeight": 33.5,
-              "rowHeight": 43,
-              "rows": 14,
-              "columns": [
-                {
-                  "label": "",
-                  "w": 29
-                },
-                {
-                  "label": "#",
-                  "w": 61
-                },
-                {
-                  "label": "Ім'я дитини",
-                  "w": 140
-                },
-                {
-                  "label": "Статус",
-                  "w": 135
-                },
-                {
-                  "label": "Вік",
-                  "w": 42
-                },
-                {
-                  "label": "Курс",
-                  "w": 150
-                },
-                {
-                  "label": "Телефони",
-                  "w": 185
-                },
-                {
-                  "label": "Викладач",
-                  "w": 120
-                },
-                {
-                  "label": "Розклад",
-                  "w": 102.5
-                },
-                {
-                  "label": "Нотатки",
-                  "w": 140
-                },
-                {
-                  "label": "Дата",
-                  "w": 139
-                },
-                {
-                  "label": "",
-                  "w": 51.2
-                }
-              ],
-              "cells": [
-                {
-                  "col": 0,
-                  "w": 29,
-                  "padding": "8px 4px 8px 12px",
-                  "controls": [
-                    {
-                      "tag": "input",
-                      "cls": "",
-                      "w": 13,
-                      "h": 13
-                    }
-                  ]
-                },
-                {
-                  "col": 1,
-                  "w": 61,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "span",
-                      "cls": "",
-                      "w": 15,
-                      "h": 15
-                    }
-                  ]
-                },
-                {
-                  "col": 2,
-                  "w": 140,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "input",
-                      "cls": "notes-input",
-                      "w": 120,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 3,
-                  "w": 135,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "select",
-                      "cls": "status-sel",
-                      "w": 115,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 4,
-                  "w": 42,
-                  "padding": "8px 4px",
-                  "controls": [
-                    {
-                      "tag": "input",
-                      "cls": "notes-input",
-                      "w": 34,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 5,
-                  "w": 150,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "select",
-                      "cls": "status-sel",
-                      "w": 130,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 6,
-                  "w": 185,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "div",
-                      "cls": "phone-cell",
-                      "w": 165,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 7,
-                  "w": 120,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "select",
-                      "cls": "status-sel",
-                      "w": 100,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 8,
-                  "w": 102.5,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "div",
-                      "cls": "sched-cell",
-                      "w": 82.5,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 9,
-                  "w": 140,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "input",
-                      "cls": "notes-input",
-                      "w": 120,
-                      "h": 24
-                    }
-                  ]
-                },
-                {
-                  "col": 10,
-                  "w": 139,
-                  "padding": "9px 10px",
-                  "controls": []
-                },
-                {
-                  "col": 11,
-                  "w": 51.2,
-                  "padding": "9px 10px",
-                  "controls": [
-                    {
-                      "tag": "button",
-                      "cls": "btn btn-danger btn-sm",
-                      "w": 31.2,
-                      "h": 24
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "absoluteTop": 56
         }
       ]
     }
