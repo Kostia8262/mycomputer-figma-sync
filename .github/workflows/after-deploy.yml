@@ -9,9 +9,16 @@
 name: after-deploy
 
 on:
-  # Прод-репозиторий шлёт сюда событие после успешного деплоя.
-  repository_dispatch:
-    types: [prod-deployed]
+  # Раз в сутки, 22:00 UTC = 01:00 по Киеву. Ночью потому, что слепок держит
+  # единственное ядро сервера 5-7 минут, и днём сайты отвечали бы медленнее.
+  # Окно выбрано между суточными задачами: бэкапы идут с 03:00 UTC, снимок
+  # контента сети — в 04:17.
+  #
+  # Раньше здесь стоял repository_dispatch и слепок снимался после каждой
+  # выкатки: 109 прогонов за август, ~760 минут. Теперь ~30 прогонов, и все
+  # на своём раннере, то есть бесплатно.
+  schedule:
+    - cron: '0 22 * * *'
   # Ручной запуск — чтобы можно было прогнать в любой момент.
   workflow_dispatch:
     inputs:
@@ -26,7 +33,7 @@ concurrency:
 
 jobs:
   snapshot:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, figma-sync]
     timeout-minutes: 30
     steps:
       - name: Забрать агента
@@ -51,7 +58,10 @@ jobs:
           cache: npm
 
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      # Системные библиотеки Chromium установлены на сервере один раз, вручную:
+      # --with-deps полез бы в apt под root, а у этого раннера нет sudo и не
+      # должно быть. Сами браузеры лежат в кеше пользователя и переживают прогон.
+      - run: npx playwright install chromium
 
       - name: Токены и разбор истории по вкладкам
         env:
@@ -105,8 +115,24 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node src/cli.js issue --target dashboard > /tmp/issue.md || echo "нечего сообщать" > /tmp/issue.md
-          gh issue create \
-            --title "Правки макета после выкатки $(date +%Y-%m-%d)" \
-            --body-file /tmp/issue.md \
-            --label figma-sync || true
+          node src/cli.js issue --target dashboard > "$RUNNER_TEMP/issue.md" || echo "нечего сообщать" > "$RUNNER_TEMP/issue.md"
+
+          # На машинах GitHub здесь работал gh CLI. На своём раннере его нет, и
+          # ставить его на боевой сервер ради одного вызова незачем — тот же
+          # результат даёт обычный запрос к API. Тело собирается через node, а
+          # не склейкой строк: в отчёте бывают и кавычки, и переводы строк.
+          #
+          # $RUNNER_TEMP вместо /tmp: сервер общий, в /tmp пишут и другие.
+          node -e '
+            const fs = require("fs");
+            const tmp = process.env.RUNNER_TEMP;
+            const body = fs.readFileSync(tmp + "/issue.md", "utf8");
+            const title = "Правки макета после выкатки " + new Date().toISOString().slice(0, 10);
+            fs.writeFileSync(tmp + "/issue.json", JSON.stringify({ title, body, labels: ["figma-sync"] }));
+          '
+
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            --data-binary @"$RUNNER_TEMP/issue.json" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/issues" > /dev/null || true
