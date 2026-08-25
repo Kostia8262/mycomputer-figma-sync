@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9101,
+      "documentHeight": 9789,
       "sections": [
         {
           "key": "#header",
@@ -75,7 +75,7 @@
                     "y": 15
                   },
                   "size": {
-                    "w": 220.1,
+                    "w": 256,
                     "h": 38
                   },
                   "styles": {
@@ -114,7 +114,7 @@
                         "y": 6.3
                       },
                       "size": {
-                        "w": 172.1,
+                        "w": 208,
                         "h": 25.5
                       },
                       "text": "My Computer",
@@ -127,10 +127,10 @@
                             "y": 3
                           },
                           "size": {
-                            "w": 70.5,
+                            "w": 106.3,
                             "h": 19
                           },
-                          "text": "Academy"
+                          "text": "Design School"
                         }
                       ]
                     }
@@ -1181,17 +1181,17 @@
                       "key": ".section-badge",
                       "tag": "div",
                       "rel": {
-                        "x": 199.2,
+                        "x": 182.9,
                         "y": 0
                       },
                       "size": {
-                        "w": 221.6,
+                        "w": 254.2,
                         "h": 32.1
                       },
                       "styles": {
                         "marginBottom": "16px"
                       },
-                      "text": "Чому My Computer Academy"
+                      "text": "Чому My Computer Design School"
                     },
                     {
                       "key": ".section-title",
@@ -3523,7 +3523,7 @@
                           "styles": {
                             "marginBottom": "16px"
                           },
-                          "text": "Сертифікат My Computer Academy"
+                          "text": "Сертифікат My Computer Design School"
                         },
                         {
                           "key": ".cert-section__desc",
@@ -3597,7 +3597,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 895.8
+            "h": 1607.3
           },
           "styles": {
             "display": "block",
@@ -3625,7 +3625,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 719.8
+                "h": 1431.3
               },
               "styles": {
                 "display": "block",
@@ -3712,7 +3712,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 519.8
+                    "h": 1231.2
                   },
                   "styles": {
                     "display": "block",
@@ -3737,7 +3737,7 @@
                       },
                       "size": {
                         "w": 1112,
-                        "h": 519.8
+                        "h": 1231.2
                       },
                       "children": [
                         {
@@ -3775,7 +3775,7 @@
                           },
                           "size": {
                             "w": 547,
-                            "h": 250.9
+                            "h": 227.1
                           },
                           "bordered": true
                         },
@@ -3788,7 +3788,72 @@
                           },
                           "size": {
                             "w": 547,
-                            "h": 250.9
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 514
+                          },
+                          "size": {
+                            "w": 547,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[5]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 565,
+                            "y": 514
+                          },
+                          "size": {
+                            "w": 547,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[6]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 759
+                          },
+                          "size": {
+                            "w": 547,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 565,
+                            "y": 759
+                          },
+                          "size": {
+                            "w": 547,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 1004.1
+                          },
+                          "size": {
+                            "w": 547,
+                            "h": 227.1
                           },
                           "bordered": true
                         }
@@ -3806,11 +3871,11 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6198.1
+            "y": 6909.5
           },
           "size": {
             "w": 1440,
-            "h": 813.5
+            "h": 789.5
           },
           "styles": {
             "display": "block",
@@ -3832,7 +3897,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1440px",
-              "height": "813.453px",
+              "height": "789.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -3852,7 +3917,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 653.5
+                "h": 629.5
               },
               "styles": {
                 "display": "block",
@@ -3953,7 +4018,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 297.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -3983,7 +4048,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4008,7 +4073,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4016,7 +4081,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4035,7 +4100,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4060,7 +4125,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4068,7 +4133,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4087,7 +4152,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4112,7 +4177,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4120,7 +4185,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4139,7 +4204,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4164,7 +4229,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4172,7 +4237,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4191,7 +4256,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4216,7 +4281,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4224,7 +4289,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4243,7 +4308,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4268,7 +4333,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4276,7 +4341,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4293,7 +4358,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 516.7
+                    "y": 492.7
                   },
                   "size": {
                     "w": 1112,
@@ -4416,7 +4481,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 580.7
+                    "y": 556.7
                   },
                   "size": {
                     "w": 1112,
@@ -4475,14 +4540,14 @@
               ]
             }
           ],
-          "absoluteTop": 6198.1
+          "absoluteTop": 6909.5
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7011.5
+            "y": 7699
           },
           "size": {
             "w": 1440,
@@ -4718,14 +4783,14 @@
               ]
             }
           ],
-          "absoluteTop": 7011.5
+          "absoluteTop": 7699
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7654.1
+            "y": 8341.6
           },
           "size": {
             "w": 1440,
@@ -4982,14 +5047,14 @@
               ]
             }
           ],
-          "absoluteTop": 7654.1
+          "absoluteTop": 8341.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8247
+            "y": 8934.5
           },
           "size": {
             "w": 1440,
@@ -5471,7 +5536,7 @@
                             "w": 1112,
                             "h": 20.4
                           },
-                          "text": "© 2026 My Computer Academy. Всі права за"
+                          "text": "© 2026 My Computer Design School. Всі пр"
                         },
                         {
                           "key": ".footer__fop",
@@ -5493,14 +5558,14 @@
               ]
             }
           ],
-          "absoluteTop": 8247
+          "absoluteTop": 8934.5
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 9900,
+      "documentHeight": 10659,
       "sections": [
         {
           "key": "#header",
@@ -5568,7 +5633,7 @@
                     "y": 15
                   },
                   "size": {
-                    "w": 220.1,
+                    "w": 256,
                     "h": 38
                   },
                   "styles": {
@@ -5607,7 +5672,7 @@
                         "y": 6.3
                       },
                       "size": {
-                        "w": 172.1,
+                        "w": 208,
                         "h": 25.5
                       },
                       "text": "My Computer",
@@ -5620,10 +5685,10 @@
                             "y": 3
                           },
                           "size": {
-                            "w": 70.5,
+                            "w": 106.3,
                             "h": 19
                           },
-                          "text": "Academy"
+                          "text": "Design School"
                         }
                       ]
                     }
@@ -6661,17 +6726,17 @@
                       "key": ".section-badge",
                       "tag": "div",
                       "rel": {
-                        "x": 199.2,
+                        "x": 182.9,
                         "y": 0
                       },
                       "size": {
-                        "w": 221.6,
+                        "w": 254.2,
                         "h": 32.1
                       },
                       "styles": {
                         "marginBottom": "16px"
                       },
-                      "text": "Чому My Computer Academy"
+                      "text": "Чому My Computer Design School"
                     },
                     {
                       "key": ".section-title",
@@ -9003,7 +9068,7 @@
                           "styles": {
                             "marginBottom": "16px"
                           },
-                          "text": "Сертифікат My Computer Academy"
+                          "text": "Сертифікат My Computer Design School"
                         },
                         {
                           "key": ".cert-section__desc",
@@ -9077,7 +9142,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 895.8
+            "h": 1678.7
           },
           "styles": {
             "display": "block",
@@ -9105,7 +9170,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 719.8
+                "h": 1502.7
               },
               "styles": {
                 "display": "block",
@@ -9192,7 +9257,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 519.8
+                    "h": 1302.6
                   },
                   "styles": {
                     "display": "block",
@@ -9217,7 +9282,7 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 519.8
+                        "h": 1302.6
                       },
                       "children": [
                         {
@@ -9271,6 +9336,71 @@
                             "h": 250.9
                           },
                           "bordered": true
+                        },
+                        {
+                          "key": ".review-card[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 537.8
+                          },
+                          "size": {
+                            "w": 479,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[5]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 497,
+                            "y": 537.8
+                          },
+                          "size": {
+                            "w": 479,
+                            "h": 227.1
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[6]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 782.8
+                          },
+                          "size": {
+                            "w": 479,
+                            "h": 250.9
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 497,
+                            "y": 782.8
+                          },
+                          "size": {
+                            "w": 479,
+                            "h": 250.9
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 1051.7
+                          },
+                          "size": {
+                            "w": 479,
+                            "h": 250.9
+                          },
+                          "bordered": true
                         }
                       ]
                     }
@@ -9286,11 +9416,11 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6719.3
+            "y": 7502.1
           },
           "size": {
             "w": 1024,
-            "h": 813.5
+            "h": 789.5
           },
           "styles": {
             "display": "block",
@@ -9312,7 +9442,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1024px",
-              "height": "813.453px",
+              "height": "789.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -9332,7 +9462,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 653.5
+                "h": 629.5
               },
               "styles": {
                 "display": "block",
@@ -9433,7 +9563,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 297.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -9463,7 +9593,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9488,7 +9618,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9496,7 +9626,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9515,7 +9645,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9540,7 +9670,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9548,7 +9678,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9567,7 +9697,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9592,7 +9722,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9600,7 +9730,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9619,7 +9749,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9644,7 +9774,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9652,7 +9782,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9671,7 +9801,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9696,7 +9826,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9704,7 +9834,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9723,7 +9853,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -9748,7 +9878,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -9756,7 +9886,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -9773,7 +9903,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 516.7
+                    "y": 492.7
                   },
                   "size": {
                     "w": 976,
@@ -9896,7 +10026,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 580.7
+                    "y": 556.7
                   },
                   "size": {
                     "w": 976,
@@ -9955,14 +10085,14 @@
               ]
             }
           ],
-          "absoluteTop": 6719.3
+          "absoluteTop": 7502.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7532.8
+            "y": 8291.6
           },
           "size": {
             "w": 1024,
@@ -10198,14 +10328,14 @@
               ]
             }
           ],
-          "absoluteTop": 7532.8
+          "absoluteTop": 8291.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8425.4
+            "y": 9184.3
           },
           "size": {
             "w": 1024,
@@ -10462,14 +10592,14 @@
               ]
             }
           ],
-          "absoluteTop": 8425.4
+          "absoluteTop": 9184.3
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9018.3
+            "y": 9777.2
           },
           "size": {
             "w": 1024,
@@ -10951,7 +11081,7 @@
                             "w": 976,
                             "h": 20.4
                           },
-                          "text": "© 2026 My Computer Academy. Всі права за"
+                          "text": "© 2026 My Computer Design School. Всі пр"
                         },
                         {
                           "key": ".footer__fop",
@@ -10973,14 +11103,14 @@
               ]
             }
           ],
-          "absoluteTop": 9018.3
+          "absoluteTop": 9777.2
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 12741,
+      "documentHeight": 12729,
       "sections": [
         {
           "key": "#header",
@@ -11049,7 +11179,7 @@
                     "y": 15
                   },
                   "size": {
-                    "w": 119.6,
+                    "w": 140.1,
                     "h": 38
                   },
                   "styles": {
@@ -11088,7 +11218,7 @@
                         "y": 4.6
                       },
                       "size": {
-                        "w": 71.6,
+                        "w": 92.1,
                         "h": 28.8
                       },
                       "text": "My Computer",
@@ -11101,10 +11231,10 @@
                             "y": 13.2
                           },
                           "size": {
-                            "w": 71.6,
+                            "w": 92.1,
                             "h": 15.6
                           },
-                          "text": "Academy"
+                          "text": "Design School"
                         }
                       ]
                     }
@@ -11114,7 +11244,7 @@
                   "key": ".nav__actions",
                   "tag": "div",
                   "rel": {
-                    "x": 147.6,
+                    "x": 168.1,
                     "y": 24.7
                   },
                   "size": {
@@ -11964,17 +12094,17 @@
                       "key": ".section-badge",
                       "tag": "div",
                       "rel": {
-                        "x": 68.2,
+                        "x": 51.9,
                         "y": 0
                       },
                       "size": {
-                        "w": 221.6,
+                        "w": 254.2,
                         "h": 32.1
                       },
                       "styles": {
                         "marginBottom": "16px"
                       },
-                      "text": "Чому My Computer Academy"
+                      "text": "Чому My Computer Design School"
                     },
                     {
                       "key": ".section-title",
@@ -14371,7 +14501,7 @@
                           "styles": {
                             "marginBottom": "16px"
                           },
-                          "text": "Сертифікат My Computer Academy"
+                          "text": "Сертифікат My Computer Design School"
                         },
                         {
                           "key": ".cert-section__desc",
@@ -14586,7 +14716,7 @@
                         "y": 0
                       },
                       "size": {
-                        "w": 1258.8,
+                        "w": 2849.7,
                         "h": 342.7
                       },
                       "children": [
@@ -14641,6 +14771,71 @@
                             "h": 342.7
                           },
                           "bordered": true
+                        },
+                        {
+                          "key": ".review-card[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1272.8,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 342.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[5]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1590.9,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 342.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[6]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1909.1,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 342.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2227.3,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 342.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2545.5,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 342.7
+                          },
+                          "bordered": true
                         }
                       ]
                     }
@@ -14678,7 +14873,7 @@
                       "key": ".reviews__dot.active",
                       "tag": "span",
                       "rel": {
-                        "x": 148,
+                        "x": 113,
                         "y": 0
                       },
                       "size": {
@@ -14690,7 +14885,7 @@
                       "key": ".reviews__dot[0]",
                       "tag": "span",
                       "rel": {
-                        "x": 174,
+                        "x": 139,
                         "y": 0
                       },
                       "size": {
@@ -14702,7 +14897,7 @@
                       "key": ".reviews__dot[1]",
                       "tag": "span",
                       "rel": {
-                        "x": 188,
+                        "x": 153,
                         "y": 0
                       },
                       "size": {
@@ -14714,7 +14909,67 @@
                       "key": ".reviews__dot[2]",
                       "tag": "span",
                       "rel": {
-                        "x": 202,
+                        "x": 167,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[3]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 181,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[4]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 195,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[5]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 209,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[6]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 223,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[7]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 237,
                         "y": 0
                       },
                       "size": {
@@ -14738,7 +14993,7 @@
           },
           "size": {
             "w": 390,
-            "h": 881.8
+            "h": 833.8
           },
           "styles": {
             "display": "block",
@@ -14760,7 +15015,7 @@
             "::before": {
               "content": "\"\"",
               "width": "390px",
-              "height": "881.828px",
+              "height": "833.828px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -14780,7 +15035,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 721.8
+                "h": 673.8
               },
               "styles": {
                 "display": "block",
@@ -14881,7 +15136,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 321.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -14911,7 +15166,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -14936,7 +15191,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -14944,7 +15199,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -14963,7 +15218,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -14988,7 +15243,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -14996,7 +15251,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15015,7 +15270,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15040,7 +15295,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15048,7 +15303,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15067,7 +15322,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15092,7 +15347,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15100,7 +15355,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15119,7 +15374,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15144,7 +15399,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15152,7 +15407,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15171,7 +15426,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 309.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15196,7 +15451,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 204.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15204,7 +15459,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 257.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15221,7 +15476,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 547
+                    "y": 499
                   },
                   "size": {
                     "w": 358,
@@ -15323,7 +15578,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 591
+                    "y": 543
                   },
                   "size": {
                     "w": 358,
@@ -15389,7 +15644,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9350.9
+            "y": 9302.9
           },
           "size": {
             "w": 390,
@@ -15625,14 +15880,14 @@
               ]
             }
           ],
-          "absoluteTop": 9350.9
+          "absoluteTop": 9302.9
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10078
+            "y": 10030
           },
           "size": {
             "w": 390,
@@ -15890,18 +16145,18 @@
               ]
             }
           ],
-          "absoluteTop": 10078
+          "absoluteTop": 10030
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11192.6
+            "y": 11144.6
           },
           "size": {
             "w": 390,
-            "h": 1548.4
+            "h": 1584.6
           },
           "styles": {
             "display": "block",
@@ -15942,7 +16197,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1464.4
+                "h": 1500.6
               },
               "styles": {
                 "display": "block",
@@ -15969,7 +16224,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1100.5
+                    "h": 1136.7
                   },
                   "styles": {
                     "display": "grid",
@@ -16054,7 +16309,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 920.3
+                        "h": 956.5
                       },
                       "children": [
                         {
@@ -16078,7 +16333,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 351.1
+                            "h": 387.3
                           }
                         },
                         {
@@ -16086,7 +16341,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 786.3
+                            "y": 822.5
                           },
                           "size": {
                             "w": 358,
@@ -16102,7 +16357,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1140.5
+                    "y": 1176.7
                   },
                   "size": {
                     "w": 358,
@@ -16236,7 +16491,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1303.3
+                    "y": 1339.5
                   },
                   "size": {
                     "w": 358,
@@ -16333,7 +16588,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1379.7
+                    "y": 1415.8
                   },
                   "size": {
                     "w": 358,
@@ -16380,7 +16635,7 @@
                             "w": 358,
                             "h": 20.4
                           },
-                          "text": "© 2026 My Computer Academy. Всі права за"
+                          "text": "© 2026 My Computer Design School. Всі пр"
                         },
                         {
                           "key": ".footer__fop",
@@ -16402,7 +16657,7 @@
               ]
             }
           ],
-          "absoluteTop": 11192.6
+          "absoluteTop": 11144.6
         }
       ]
     }

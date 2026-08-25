@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-24",
+ "takenAt": "2026-08-25",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -12,7 +12,7 @@
      "key": "#header",
      "lines": [
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".nav › .nav__logo › span"
       },
       {
@@ -131,7 +131,7 @@
      "key": "#about",
      "lines": [
       {
-       "t": "Чому My Computer Academy",
+       "t": "Чому My Computer Design School",
        "where": ".section-header › .section-badge › div"
       },
       {
@@ -199,18 +199,6 @@
     {
      "key": "#courses",
      "lines": [
-      {
-       "t": "Наші програми",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
-       "t": "Обери напрямок",
-       "where": ".section-header › .section-title › h2"
-      },
-      {
-       "t": "Курси розроблені з урахуванням віку та рівня підготовки дитини.",
-       "where": ".section-header › .section-subtitle › p"
-      },
       {
        "t": "Всі курси",
        "where": ".courses__tabs › .courses__tab › button"
@@ -824,7 +812,7 @@
      "key": "#certificate",
      "lines": [
       {
-       "t": "Сертифікат My Computer Academy",
+       "t": "Сертифікат My Computer Design School",
        "where": ".cert-section__content › .cert-section__title › h2"
       },
       {
@@ -844,7 +832,7 @@
        "where": ".cert-section__content › .cert-section__list › li"
       },
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".cert-preview__header › .cert-preview__brand › div"
       },
       {
@@ -913,19 +901,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
+       "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ТВ",
+       "t": "ОЛ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Тетяна В.",
+       "t": "Оксана Литвин",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "мама Матвія, 11 років · 3D у Blender",
+       "t": "мама Данила, 11 років · Blender",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -942,6 +930,86 @@
       },
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ВП",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Вікторія Панасюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Злати, 13 років · Анімація",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "СК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Сергій Ковальов",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Ілони, 16 років · UI/UX",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЮГ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Юлія Гордієнко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Нестора, 11 років · Цифровий рисунок",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТБ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тарас Бойко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Христини, 15 років · 3ds Max",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ІК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Інна Кравчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Даші, 12 років · AI-дизайн",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -1096,7 +1164,7 @@
      "key": ".footer",
      "lines": [
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".footer__brand › .nav__logo › span"
       },
       {
@@ -1188,6 +1256,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Дошколярик — підготовка до школи",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "КОНТАКТИ",
        "where": ".footer__links › .footer__col › h4"
       },
@@ -1228,7 +1300,7 @@
        "where": ".container › .footer__legal › a"
       },
       {
-       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "t": "© 2026 My Computer Design School. Всі права захищені.",
        "where": ".footer__bottom › .footer__bottom-left › p"
       },
       {
@@ -1247,7 +1319,7 @@
      "key": "#header",
      "lines": [
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".nav › .nav__logo › span"
       },
       {
@@ -1362,7 +1434,7 @@
      "key": "#about",
      "lines": [
       {
-       "t": "Чому My Computer Academy",
+       "t": "Чому My Computer Design School",
        "where": ".section-header › .section-badge › div"
       },
       {
@@ -2055,7 +2127,7 @@
      "key": "#certificate",
      "lines": [
       {
-       "t": "Сертифікат My Computer Academy",
+       "t": "Сертифікат My Computer Design School",
        "where": ".cert-section__content › .cert-section__title › h2"
       },
       {
@@ -2075,7 +2147,7 @@
        "where": ".cert-section__content › .cert-section__list › li"
       },
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".cert-preview__header › .cert-preview__brand › div"
       },
       {
@@ -2144,19 +2216,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
+       "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ТВ",
+       "t": "ОЛ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Тетяна В.",
+       "t": "Оксана Литвин",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "мама Матвія, 11 років · 3D у Blender",
+       "t": "мама Данила, 11 років · Blender",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -2173,6 +2245,86 @@
       },
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ВП",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Вікторія Панасюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Злати, 13 років · Анімація",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "СК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Сергій Ковальов",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Ілони, 16 років · UI/UX",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЮГ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Юлія Гордієнко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Нестора, 11 років · Цифровий рисунок",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТБ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тарас Бойко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Христини, 15 років · 3ds Max",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ІК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Інна Кравчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Даші, 12 років · AI-дизайн",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -2327,7 +2479,7 @@
      "key": ".footer",
      "lines": [
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".footer__brand › .nav__logo › span"
       },
       {
@@ -2419,6 +2571,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Дошколярик — підготовка до школи",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "КОНТАКТИ",
        "where": ".footer__links › .footer__col › h4"
       },
@@ -2459,7 +2615,7 @@
        "where": ".container › .footer__legal › a"
       },
       {
-       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "t": "© 2026 My Computer Design School. Всі права захищені.",
        "where": ".footer__bottom › .footer__bottom-left › p"
       },
       {
@@ -2482,7 +2638,7 @@
        "where": ".nav › .nav__logo › span"
       },
       {
-       "t": "Academy",
+       "t": "Design School",
        "where": ".nav › .nav__logo › strong"
       },
       {
@@ -2565,7 +2721,7 @@
      "key": "#about",
      "lines": [
       {
-       "t": "Чому My Computer Academy",
+       "t": "Чому My Computer Design School",
        "where": ".section-header › .section-badge › div"
       },
       {
@@ -3258,7 +3414,7 @@
      "key": "#certificate",
      "lines": [
       {
-       "t": "Сертифікат My Computer Academy",
+       "t": "Сертифікат My Computer Design School",
        "where": ".cert-section__content › .cert-section__title › h2"
       },
       {
@@ -3278,7 +3434,7 @@
        "where": ".cert-section__content › .cert-section__list › li"
       },
       {
-       "t": "My Computer Academy",
+       "t": "My Computer Design School",
        "where": ".cert-preview__header › .cert-preview__brand › div"
       },
       {
@@ -3347,19 +3503,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Дуже сподобались матеріали курсу — усе розкладено по поличках, є відеозаписи занять, які можна передивитись перед домаш",
+       "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ТВ",
+       "t": "ОЛ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Тетяна В.",
+       "t": "Оксана Литвин",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "мама Матвія, 11 років · 3D у Blender",
+       "t": "мама Данила, 11 років · Blender",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -3376,6 +3532,86 @@
       },
       {
        "t": "мама Микити, 12 років · UI/UX дизайн",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ВП",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Вікторія Панасюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Злати, 13 років · Анімація",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "СК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Сергій Ковальов",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Ілони, 16 років · UI/UX",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЮГ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Юлія Гордієнко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Нестора, 11 років · Цифровий рисунок",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ТБ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Тарас Бойко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Христини, 15 років · 3ds Max",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ІК",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Інна Кравчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Даші, 12 років · AI-дизайн",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -3534,7 +3770,7 @@
        "where": ".footer__brand › .nav__logo › span"
       },
       {
-       "t": "Academy",
+       "t": "Design School",
        "where": ".footer__brand › .nav__logo › strong"
       },
       {
@@ -3626,6 +3862,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Дошколярик — підготовка до школи",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "КОНТАКТИ",
        "where": ".footer__links › .footer__col › h4"
       },
@@ -3666,7 +3906,7 @@
        "where": ".container › .footer__legal › a"
       },
       {
-       "t": "© 2026 My Computer Academy. Всі права захищені.",
+       "t": "© 2026 My Computer Design School. Всі права захищені.",
        "where": ".footer__bottom › .footer__bottom-left › p"
       },
       {

@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-24",
+ "takenAt": "2026-08-25",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -510,6 +510,38 @@
       {
        "t": "Безкоштовне пробне",
        "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "14–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Створення блогу та сайту",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Структура та дизайн сторінки",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Контент, SEO-основи, домен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація власного сайту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
       }
      ]
     },
@@ -861,19 +893,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ОМ",
+       "t": "ДГ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Олег М.",
+       "t": "Дмитро Гриценко",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "тато Дарини, 14 років · Web",
+       "t": "тато Ніки, 14 років · Веб-розробка",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -906,6 +938,86 @@
       },
       {
        "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОР",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Оксана Романюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Артема, 10 років · Minecraft",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ПІ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Павло Іщенко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Богдана, 16 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ГМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Галина Мельничук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Соломії, 8 років · Графіка",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "РЛ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Роман Левченко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Максима, 12 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЛШ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Людмила Шевчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "бабуся Дениса, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -1144,6 +1256,22 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Про школу",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Пробний урок",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
@@ -1153,6 +1281,10 @@
       },
       {
        "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Дошколярик — підготовка до школи",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1709,6 +1841,38 @@
       {
        "t": "Безкоштовне пробне",
        "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "14–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Створення блогу та сайту",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Структура та дизайн сторінки",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Контент, SEO-основи, домен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація власного сайту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
       }
      ]
     },
@@ -2060,19 +2224,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ОМ",
+       "t": "ДГ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Олег М.",
+       "t": "Дмитро Гриценко",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "тато Дарини, 14 років · Web",
+       "t": "тато Ніки, 14 років · Веб-розробка",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -2105,6 +2269,86 @@
       },
       {
        "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОР",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Оксана Романюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Артема, 10 років · Minecraft",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ПІ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Павло Іщенко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Богдана, 16 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ГМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Галина Мельничук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Соломії, 8 років · Графіка",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "РЛ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Роман Левченко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Максима, 12 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЛШ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Людмила Шевчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "бабуся Дениса, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -2343,6 +2587,22 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Про школу",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Пробний урок",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
@@ -2352,6 +2612,10 @@
       },
       {
        "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Дошколярик — підготовка до школи",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2884,6 +3148,38 @@
       {
        "t": "Безкоштовне пробне",
        "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "14–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Створення блогу та сайту",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Структура та дизайн сторінки",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Контент, SEO-основи, домен",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Публікація власного сайту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
       }
      ]
     },
@@ -3235,19 +3531,19 @@
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
-       "t": "\"Донька хотіла створювати сайти. За 5 місяців зробила справжній сайт-портфоліо. Викладачі пояснюють зрозуміло. Групи мал",
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
        "where": ".review-card › .review-card__text › p"
       },
       {
-       "t": "ОМ",
+       "t": "ДГ",
        "where": ".review-card__author › .review-card__avatar › div"
       },
       {
-       "t": "Олег М.",
+       "t": "Дмитро Гриценко",
        "where": ".review-card__author › .review-card__name › div"
       },
       {
-       "t": "тато Дарини, 14 років · Web",
+       "t": "тато Ніки, 14 років · Веб-розробка",
        "where": ".review-card__author › .review-card__meta › div"
       },
       {
@@ -3280,6 +3576,86 @@
       },
       {
        "t": "мама Микити, 12 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ОР",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Оксана Романюк",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Артема, 10 років · Minecraft",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ПІ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Павло Іщенко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Богдана, 16 років · Python",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ГМ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Галина Мельничук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "мама Соломії, 8 років · Графіка",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "РЛ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Роман Левченко",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "тато Максима, 12 років · Roblox",
+       "where": ".review-card__author › .review-card__meta › div"
+      },
+      {
+       "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
+       "where": ".review-card › .review-card__text › p"
+      },
+      {
+       "t": "ЛШ",
+       "where": ".review-card__author › .review-card__avatar › div"
+      },
+      {
+       "t": "Людмила Шевчук",
+       "where": ".review-card__author › .review-card__name › div"
+      },
+      {
+       "t": "бабуся Дениса, 9 років · Scratch",
        "where": ".review-card__author › .review-card__meta › div"
       }
      ]
@@ -3522,6 +3898,22 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Ціни",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Про школу",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Пробний урок",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Відгуки",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
@@ -3531,6 +3923,10 @@
       },
       {
        "t": "Школа англійської",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Дошколярик — підготовка до школи",
        "where": ".footer__links › .footer__col › li"
       },
       {
