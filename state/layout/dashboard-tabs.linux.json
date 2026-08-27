@@ -2448,7 +2448,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2624,7 +2624,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6729,7 +6729,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6905,7 +6905,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10598,7 +10598,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10774,7 +10774,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14305,7 +14305,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14481,7 +14481,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -17826,7 +17826,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5909.5
+                        "h": 5843.5
                       },
                       "styles": {
                         "display": "block",
@@ -17926,7 +17926,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -18278,7 +18278,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -18454,7 +18454,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -18815,7 +18815,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 5633.5
+                            "h": 5567.5
                           },
                           "styles": {
                             "display": "block",
@@ -19082,7 +19082,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4867.1
+                                "h": 4801.1
                               },
                               "styles": {
                                 "display": "block",
@@ -19114,7 +19114,7 @@
                                   },
                                   "size": {
                                     "w": 1810.5,
-                                    "h": 4824.1
+                                    "h": 4758.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -19134,7 +19134,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 4825.1
+                                    "y": 4759.1
                                   },
                                   "size": {
                                     "w": 1157,
@@ -19233,15 +19233,15 @@
                   },
                   "size": {
                     "w": 1810.5,
-                    "h": 4824.1
+                    "h": 4758.1
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4867.1
+                    "h": 4801.1
                   },
                   "headHeight": 39.5,
                   "rowHeight": 66,
-                  "rows": 70,
+                  "rows": 69,
                   "columns": [
                     {
                       "label": "",
@@ -22592,7 +22592,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 5909.5
+                        "h": 5843.5
                       },
                       "styles": {
                         "display": "block",
@@ -22692,7 +22692,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -23044,7 +23044,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -23220,7 +23220,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -23581,7 +23581,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 5633.5
+                            "h": 5567.5
                           },
                           "styles": {
                             "display": "block",
@@ -23848,7 +23848,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 4867.1
+                                "h": 4801.1
                               },
                               "styles": {
                                 "display": "block",
@@ -23880,7 +23880,7 @@
                                   },
                                   "size": {
                                     "w": 1810.5,
-                                    "h": 4824.1
+                                    "h": 4758.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -23900,7 +23900,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -651,
-                                    "y": 4825.1
+                                    "y": 4759.1
                                   },
                                   "size": {
                                     "w": 1157,
@@ -23999,15 +23999,15 @@
                   },
                   "size": {
                     "w": 1810.5,
-                    "h": 4824.1
+                    "h": 4758.1
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 4867.1
+                    "h": 4801.1
                   },
                   "headHeight": 39.5,
                   "rowHeight": 66,
-                  "rows": 70,
+                  "rows": 69,
                   "columns": [
                     {
                       "label": "",
@@ -26545,7 +26545,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 3878
+                        "h": 3855
                       },
                       "styles": {
                         "display": "block",
@@ -26645,7 +26645,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -26997,7 +26997,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -27173,7 +27173,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -27534,7 +27534,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 3602
+                            "h": 3579
                           },
                           "styles": {
                             "display": "block",
@@ -27640,7 +27640,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 91
+                                "h": 68
                               },
                               "styles": {
                                 "display": "block",
@@ -27704,7 +27704,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 41
+                                    "h": 18
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -27728,7 +27728,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 201
+                                "y": 178
                               },
                               "size": {
                                 "w": 1159,
@@ -27786,10 +27786,10 @@
                   "id": null,
                   "rel": {
                     "x": 243,
-                    "y": 502
+                    "y": 479
                   },
                   "size": {
-                    "w": 1381.4,
+                    "w": 1386.4,
                     "h": 3399
                   },
                   "wrap": {
@@ -27806,7 +27806,7 @@
                     },
                     {
                       "label": "Учень",
-                      "w": 289
+                      "w": 294
                     },
                     {
                       "label": "Ціна навчання ₴",
@@ -27861,7 +27861,7 @@
                     },
                     {
                       "col": 1,
-                      "w": 289,
+                      "w": 294,
                       "padding": "10px 12px",
                       "controls": []
                     },
@@ -30332,7 +30332,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -30684,7 +30684,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -30860,7 +30860,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -34432,7 +34432,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1310.2
+                        "h": 1343
                       },
                       "styles": {
                         "display": "block",
@@ -34532,7 +34532,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -34884,7 +34884,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -35060,7 +35060,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -35421,7 +35421,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1034.2
+                            "h": 1067
                           },
                           "styles": {
                             "display": "block",
@@ -35527,7 +35527,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 984.2
+                                "h": 1017
                               },
                               "styles": {
                                 "display": "block",
@@ -35562,7 +35562,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 950.2
+                                    "h": 983
                                   },
                                   "styles": {
                                     "display": "block",
@@ -35596,12 +35596,12 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 901.2
+                    "h": 934
                   },
                   "wrap": null,
                   "headHeight": 51,
                   "rowHeight": 34.4,
-                  "rows": 8,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -54960,7 +54960,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2303.1
+                        "h": 2010.9
                       },
                       "styles": {
                         "display": "block",
@@ -55077,7 +55077,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:19"
+                                  "text": "Оновлено: 02:29"
                                 }
                               ]
                             },
@@ -55336,7 +55336,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 2176.1
+                            "h": 1883.9
                           },
                           "styles": {
                             "display": "block",
@@ -55758,7 +55758,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[0]",
+                                  "key": ".dkpi.dkpi--danger",
                                   "tag": "div",
                                   "rel": {
                                     "x": 391,
@@ -55793,7 +55793,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[1]",
+                                  "key": ".dkpi.dkpi--success[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 586.5,
@@ -55828,7 +55828,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 782,
@@ -55943,7 +55943,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 319
+                                "h": 306
                               },
                               "styles": {
                                 "display": "grid",
@@ -55970,7 +55970,7 @@
                                   },
                                   "size": {
                                     "w": 563.5,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56005,7 +56005,7 @@
                                   },
                                   "size": {
                                     "w": 281.8,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56040,7 +56040,7 @@
                                   },
                                   "size": {
                                     "w": 281.8,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56073,11 +56073,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1130.9
+                                "y": 1117.9
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 1045.2
+                                "h": 766
                               },
                               "styles": {
                                 "display": "block",
@@ -56140,7 +56140,7 @@
                                   },
                                   "size": {
                                     "w": 1117,
-                                    "h": 973.2
+                                    "h": 694
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56170,52 +56170,52 @@
                   "id": null,
                   "rel": {
                     "x": 263,
-                    "y": 1332.9
+                    "y": 1319.9
                   },
                   "size": {
                     "w": 1117,
-                    "h": 973.2
+                    "h": 694
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 45,
-                  "rows": 20,
+                  "rows": 14,
                   "columns": [
                     {
                       "label": "Учень",
-                      "w": 196.6
+                      "w": 206.8
                     },
                     {
                       "label": "Курс",
-                      "w": 237.1
+                      "w": 249.4
                     },
                     {
                       "label": "Борг",
-                      "w": 80.9
+                      "w": 85.1
                     },
                     {
                       "label": "Абонемент",
-                      "w": 221.4
+                      "w": 236.4
                     },
                     {
                       "label": "Телефон",
-                      "w": 240.5
+                      "w": 191.5
                     },
                     {
                       "label": "",
-                      "w": 140.5
+                      "w": 147.8
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 196.6,
+                      "w": 206.8,
                       "padding": "10px 12px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 237.1,
+                      "w": 249.4,
                       "padding": "10px 12px",
                       "controls": [
                         {
@@ -56228,13 +56228,13 @@
                     },
                     {
                       "col": 2,
-                      "w": 80.9,
+                      "w": 85.1,
                       "padding": "10px 12px",
                       "controls": []
                     },
                     {
                       "col": 3,
-                      "w": 221.4,
+                      "w": 236.4,
                       "padding": "10px 12px",
                       "controls": [
                         {
@@ -56247,20 +56247,20 @@
                     },
                     {
                       "col": 4,
-                      "w": 240.5,
+                      "w": 191.5,
                       "padding": "10px 12px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "phone-lines ",
-                          "w": 216.5,
+                          "w": 167.5,
                           "h": 15.6
                         }
                       ]
                     },
                     {
                       "col": 5,
-                      "w": 140.5,
+                      "w": 147.8,
                       "padding": "10px 12px",
                       "controls": [
                         {
@@ -58447,7 +58447,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:19"
+                                  "text": "Оновлено: 02:29"
                                 }
                               ]
                             },
@@ -59175,35 +59175,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 155.1
+                      "w": 154.8
                     },
                     {
                       "label": "Учнів",
-                      "w": 249.8
+                      "w": 249.4
                     },
                     {
                       "label": "Занять",
-                      "w": 382.1
+                      "w": 381.5
                     },
                     {
                       "label": "Основа",
-                      "w": 199.5
+                      "w": 199.1
                     },
                     {
                       "label": "Сума",
-                      "w": 130.5
+                      "w": 132.2
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 155.1,
+                      "w": 154.8,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 249.8,
+                      "w": 249.4,
                       "padding": "8px",
                       "controls": [
                         {
@@ -59216,7 +59216,7 @@
                     },
                     {
                       "col": 2,
-                      "w": 382.1,
+                      "w": 381.5,
                       "padding": "8px",
                       "controls": [
                         {
@@ -59229,7 +59229,7 @@
                     },
                     {
                       "col": 3,
-                      "w": 199.5,
+                      "w": 199.1,
                       "padding": "8px",
                       "controls": [
                         {
@@ -59242,7 +59242,7 @@
                     },
                     {
                       "col": 4,
-                      "w": 130.5,
+                      "w": 132.2,
                       "padding": "8px",
                       "controls": []
                     }
@@ -61305,7 +61305,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1142.5
+                        "h": 1177.5
                       },
                       "styles": {
                         "display": "block",
@@ -61422,7 +61422,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:19"
+                                  "text": "Оновлено: 02:29"
                                 }
                               ]
                             },
@@ -61681,7 +61681,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1015.5
+                            "h": 1050.5
                           },
                           "styles": {
                             "display": "block",
@@ -61794,7 +61794,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 272.2
+                                "h": 307.2
                               },
                               "styles": {
                                 "display": "block",
@@ -61860,7 +61860,7 @@
                                   },
                                   "size": {
                                     "w": 1117,
-                                    "h": 187.2
+                                    "h": 222.2
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -61884,7 +61884,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 340.2
+                                "y": 375.2
                               },
                               "size": {
                                 "w": 1159,
@@ -62006,7 +62006,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 613.5
+                                "y": 648.5
                               },
                               "size": {
                                 "w": 1159,
@@ -62087,7 +62087,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (0), а не картка в базі. — це весь ФОП місяця (39 700 ₴), поділений\n          "
+                                  "text": "Юніт — це учень, який платив цього місяця (1), а не картка в базі. — це весь ФОП місяця (42 400 ₴), поділений\n          "
                                 }
                               ]
                             }
@@ -94138,7 +94138,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -94314,7 +94314,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98186,7 +98186,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98362,7 +98362,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -101822,7 +101822,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -101998,7 +101998,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105349,7 +105349,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105525,7 +105525,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -108690,7 +108690,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 5903.5
+                        "h": 5837.5
                       },
                       "styles": {
                         "display": "block",
@@ -108790,7 +108790,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -109142,7 +109142,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -109318,7 +109318,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -109679,7 +109679,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 5627.5
+                            "h": 5561.5
                           },
                           "styles": {
                             "display": "block",
@@ -109946,7 +109946,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4867.1
+                                "h": 4801.1
                               },
                               "styles": {
                                 "display": "block",
@@ -109978,7 +109978,7 @@
                                   },
                                   "size": {
                                     "w": 1810.5,
-                                    "h": 4824.1
+                                    "h": 4758.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -109998,7 +109998,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 1,
-                                    "y": 4825.1
+                                    "y": 4759.1
                                   },
                                   "size": {
                                     "w": 797,
@@ -110097,15 +110097,15 @@
                   },
                   "size": {
                     "w": 1810.5,
-                    "h": 4824.1
+                    "h": 4758.1
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4867.1
+                    "h": 4801.1
                   },
                   "headHeight": 39.5,
                   "rowHeight": 66,
-                  "rows": 70,
+                  "rows": 69,
                   "columns": [
                     {
                       "label": "",
@@ -113223,7 +113223,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 5903.5
+                        "h": 5837.5
                       },
                       "styles": {
                         "display": "block",
@@ -113323,7 +113323,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -113675,7 +113675,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -113851,7 +113851,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -114212,7 +114212,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 5627.5
+                            "h": 5561.5
                           },
                           "styles": {
                             "display": "block",
@@ -114479,7 +114479,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 4867.1
+                                "h": 4801.1
                               },
                               "styles": {
                                 "display": "block",
@@ -114511,7 +114511,7 @@
                                   },
                                   "size": {
                                     "w": 1810.5,
-                                    "h": 4824.1
+                                    "h": 4758.1
                                   },
                                   "styles": {
                                     "display": "table",
@@ -114531,7 +114531,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": -1011,
-                                    "y": 4825.1
+                                    "y": 4759.1
                                   },
                                   "size": {
                                     "w": 797,
@@ -114630,15 +114630,15 @@
                   },
                   "size": {
                     "w": 1810.5,
-                    "h": 4824.1
+                    "h": 4758.1
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 4867.1
+                    "h": 4801.1
                   },
                   "headHeight": 39.5,
                   "rowHeight": 66,
-                  "rows": 70,
+                  "rows": 69,
                   "columns": [
                     {
                       "label": "",
@@ -116943,7 +116943,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 3947
+                        "h": 3924
                       },
                       "styles": {
                         "display": "block",
@@ -117043,7 +117043,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -117395,7 +117395,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -117571,7 +117571,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -117932,7 +117932,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 3671
+                            "h": 3648
                           },
                           "styles": {
                             "display": "block",
@@ -118038,7 +118038,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 114
+                                "h": 91
                               },
                               "styles": {
                                 "display": "block",
@@ -118102,7 +118102,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 64
+                                    "h": 41
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -118126,7 +118126,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 270
+                                "y": 247
                               },
                               "size": {
                                 "w": 799,
@@ -118184,10 +118184,10 @@
                   "id": null,
                   "rel": {
                     "x": 73,
-                    "y": 561
+                    "y": 538
                   },
                   "size": {
-                    "w": 1381.4,
+                    "w": 1386.4,
                     "h": 3399
                   },
                   "wrap": {
@@ -118204,7 +118204,7 @@
                     },
                     {
                       "label": "Учень",
-                      "w": 289
+                      "w": 294
                     },
                     {
                       "label": "Ціна навчання ₴",
@@ -118259,7 +118259,7 @@
                     },
                     {
                       "col": 1,
-                      "w": 289,
+                      "w": 294,
                       "padding": "10px 12px",
                       "controls": []
                     },
@@ -120497,7 +120497,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -120849,7 +120849,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -121025,7 +121025,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -124417,7 +124417,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1350.2
+                        "h": 1383
                       },
                       "styles": {
                         "display": "block",
@@ -124517,7 +124517,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -124869,7 +124869,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -125045,7 +125045,7 @@
                                     "borderTopColor": "rgb(198, 32, 32)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -125406,7 +125406,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1074.2
+                            "h": 1107
                           },
                           "styles": {
                             "display": "block",
@@ -125512,7 +125512,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 984.2
+                                "h": 1017
                               },
                               "styles": {
                                 "display": "block",
@@ -125547,7 +125547,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 950.2
+                                    "h": 983
                                   },
                                   "styles": {
                                     "display": "block",
@@ -125581,12 +125581,12 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 901.2
+                    "h": 934
                   },
                   "wrap": null,
                   "headHeight": 51,
                   "rowHeight": 34.4,
-                  "rows": 8,
+                  "rows": 9,
                   "columns": [
                     {
                       "label": "Час",
@@ -143944,7 +143944,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2599.2
+                        "h": 2184.4
                       },
                       "styles": {
                         "display": "block",
@@ -144061,7 +144061,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:20"
+                                  "text": "Оновлено: 02:30"
                                 }
                               ]
                             },
@@ -144320,7 +144320,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2472.2
+                            "h": 2057.4
                           },
                           "styles": {
                             "display": "block",
@@ -144742,7 +144742,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[0]",
+                                  "key": ".dkpi.dkpi--danger",
                                   "tag": "div",
                                   "rel": {
                                     "x": 406.5,
@@ -144777,7 +144777,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[1]",
+                                  "key": ".dkpi.dkpi--success[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 609.8,
@@ -144812,7 +144812,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
@@ -144927,7 +144927,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 343
+                                "h": 332
                               },
                               "styles": {
                                 "display": "grid",
@@ -144954,7 +144954,7 @@
                                   },
                                   "size": {
                                     "w": 383.5,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -144989,7 +144989,7 @@
                                   },
                                   "size": {
                                     "w": 191.8,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145024,7 +145024,7 @@
                                   },
                                   "size": {
                                     "w": 191.8,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145057,11 +145057,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1214.8
+                                "y": 1203.8
                               },
                               "size": {
                                 "w": 799,
-                                "h": 1257.3
+                                "h": 853.6
                               },
                               "styles": {
                                 "display": "block",
@@ -145124,7 +145124,7 @@
                                   },
                                   "size": {
                                     "w": 757,
-                                    "h": 1185.3
+                                    "h": 781.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145154,36 +145154,36 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 1406.8
+                    "y": 1395.8
                   },
                   "size": {
                     "w": 757,
-                    "h": 1185.3
+                    "h": 781.6
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 53,
-                  "rows": 20,
+                  "rows": 14,
                   "columns": [
                     {
                       "label": "Учень",
-                      "w": 125.3
+                      "w": 129.4
                     },
                     {
                       "label": "Курс",
-                      "w": 147.9
+                      "w": 153.2
                     },
                     {
                       "label": "Борг",
-                      "w": 62.3
+                      "w": 63.2
                     },
                     {
                       "label": "Абонемент",
-                      "w": 118.7
+                      "w": 126.2
                     },
                     {
                       "label": "Телефон",
-                      "w": 177.6
+                      "w": 160
                     },
                     {
                       "label": "",
@@ -145193,13 +145193,13 @@
                   "cells": [
                     {
                       "col": 0,
-                      "w": 125.3,
+                      "w": 129.4,
                       "padding": "10px 12px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 147.9,
+                      "w": 153.2,
                       "padding": "10px 12px",
                       "controls": [
                         {
@@ -145212,32 +145212,32 @@
                     },
                     {
                       "col": 2,
-                      "w": 62.3,
+                      "w": 63.2,
                       "padding": "10px 12px",
                       "controls": []
                     },
                     {
                       "col": 3,
-                      "w": 118.7,
+                      "w": 126.2,
                       "padding": "10px 12px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "",
-                          "w": 69,
+                          "w": 66,
                           "h": 15
                         }
                       ]
                     },
                     {
                       "col": 4,
-                      "w": 177.6,
+                      "w": 160,
                       "padding": "10px 12px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "phone-lines ",
-                          "w": 153.6,
+                          "w": 136,
                           "h": 15.6
                         }
                       ]
@@ -147288,7 +147288,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:20"
+                                  "text": "Оновлено: 02:30"
                                 }
                               ]
                             },
@@ -148016,35 +148016,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 105.1
+                      "w": 104.9
                     },
                     {
                       "label": "Учнів",
-                      "w": 169.3
+                      "w": 169
                     },
                     {
                       "label": "Занять",
-                      "w": 259
+                      "w": 258.5
                     },
                     {
                       "label": "Основа",
-                      "w": 135.2
+                      "w": 134.9
                     },
                     {
                       "label": "Сума",
-                      "w": 88.5
+                      "w": 89.6
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 105.1,
+                      "w": 104.9,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 169.3,
+                      "w": 169,
                       "padding": "8px",
                       "controls": [
                         {
@@ -148057,7 +148057,7 @@
                     },
                     {
                       "col": 2,
-                      "w": 259,
+                      "w": 258.5,
                       "padding": "8px",
                       "controls": [
                         {
@@ -148070,7 +148070,7 @@
                     },
                     {
                       "col": 3,
-                      "w": 135.2,
+                      "w": 134.9,
                       "padding": "8px",
                       "controls": [
                         {
@@ -148083,7 +148083,7 @@
                     },
                     {
                       "col": 4,
-                      "w": 88.5,
+                      "w": 89.6,
                       "padding": "8px",
                       "controls": []
                     }
@@ -150003,7 +150003,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1631
+                        "h": 1666
                       },
                       "styles": {
                         "display": "block",
@@ -150120,7 +150120,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:20"
+                                  "text": "Оновлено: 02:30"
                                 }
                               ]
                             },
@@ -150379,7 +150379,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1504
+                            "h": 1539
                           },
                           "styles": {
                             "display": "block",
@@ -150492,7 +150492,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 489.3
+                                "h": 524.3
                               },
                               "styles": {
                                 "display": "block",
@@ -150558,7 +150558,7 @@
                                   },
                                   "size": {
                                     "w": 757,
-                                    "h": 404.3
+                                    "h": 439.3
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -150582,7 +150582,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 557.3
+                                "y": 592.3
                               },
                               "size": {
                                 "w": 799,
@@ -150704,7 +150704,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1003
+                                "y": 1038
                               },
                               "size": {
                                 "w": 799,
@@ -150785,7 +150785,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (0), а не картка в базі. — це весь ФОП місяця (39 700 ₴), поділений\n          "
+                                  "text": "Юніт — це учень, який платив цього місяця (1), а не картка в базі. — це весь ФОП місяця (42 400 ₴), поділений\n          "
                                 }
                               ]
                             }
@@ -180201,7 +180201,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180379,7 +180379,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180777,7 +180777,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3D-Blender (лендинг) · 13 р."
+                                  "text": "🎨 Графіка та анімація · 13 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -181416,7 +181416,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎮 Roblox: розробка ігор · Микита"
+                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183856,7 +183856,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Микита"
+                                  "text": "Допоможіть · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -186027,7 +186027,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186205,7 +186205,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186603,7 +186603,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3D-Blender (лендинг) · 13 р."
+                                  "text": "🎨 Графіка та анімація · 13 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -187242,7 +187242,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎮 Roblox: розробка ігор · Микита"
+                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -189682,7 +189682,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Микита"
+                                  "text": "Допоможіть · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -191438,7 +191438,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -191616,7 +191616,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193002,7 +193002,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193180,7 +193180,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "9"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -194379,7 +194379,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 14048.3
+                        "h": 13876.3
                       },
                       "styles": {
                         "display": "block",
@@ -194479,7 +194479,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -194835,7 +194835,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -195151,7 +195151,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 13826.8
+                            "h": 13654.8
                           },
                           "styles": {
                             "display": "block",
@@ -195354,7 +195354,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 12476
+                                "h": 12304
                               },
                               "styles": {
                                 "display": "flex",
@@ -196259,7 +196259,7 @@
                                   "bordered": true
                                 }
                               ],
-                              "truncatedChildren": 46
+                              "truncatedChildren": 45
                             }
                           ]
                         }
@@ -197900,7 +197900,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 14048.3
+                        "h": 13876.3
                       },
                       "styles": {
                         "display": "block",
@@ -198000,7 +198000,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -198356,7 +198356,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -198672,7 +198672,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 13826.8
+                            "h": 13654.8
                           },
                           "styles": {
                             "display": "block",
@@ -198875,7 +198875,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 12476
+                                "h": 12304
                               },
                               "styles": {
                                 "display": "flex",
@@ -199780,7 +199780,7 @@
                                   "bordered": true
                                 }
                               ],
-                              "truncatedChildren": 46
+                              "truncatedChildren": 45
                             }
                           ]
                         }
@@ -200605,7 +200605,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 7036.5
+                        "h": 7009.5
                       },
                       "styles": {
                         "display": "block",
@@ -200705,7 +200705,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -201061,7 +201061,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -201377,7 +201377,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 6815
+                            "h": 6788
                           },
                           "styles": {
                             "display": "block",
@@ -201483,7 +201483,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 245
+                                "h": 199
                               },
                               "styles": {
                                 "display": "block",
@@ -201547,7 +201547,7 @@
                                   },
                                   "size": {
                                     "w": 313,
-                                    "h": 179
+                                    "h": 133
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -201571,11 +201571,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 443
+                                "y": 397
                               },
                               "size": {
                                 "w": 347,
-                                "h": 6372
+                                "h": 6391
                               },
                               "styles": {
                                 "display": "block",
@@ -201599,7 +201599,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 6372
+                                    "h": 6391
                                   },
                                   "styles": {
                                     "display": "block",
@@ -202439,7 +202439,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 2286.5
+                        "h": 2216.5
                       },
                       "styles": {
                         "display": "block",
@@ -202539,7 +202539,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -202895,7 +202895,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -203212,7 +203212,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2065
+                            "h": 1995
                           },
                           "styles": {
                             "display": "block",
@@ -203318,7 +203318,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 1900
+                                "h": 1830
                               },
                               "styles": {
                                 "display": "block",
@@ -203349,7 +203349,7 @@
                                   },
                                   "size": {
                                     "w": 345,
-                                    "h": 1890
+                                    "h": 1820
                                   },
                                   "styles": {
                                     "display": "block",
@@ -204189,7 +204189,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 2358.5
+                        "h": 2284.5
                       },
                       "styles": {
                         "display": "block",
@@ -204289,7 +204289,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "70"
+                                  "text": "69"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -204645,7 +204645,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "20"
+                                  "text": "19"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -204961,7 +204961,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2137
+                            "h": 2063
                           },
                           "styles": {
                             "display": "block",
@@ -205067,7 +205067,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 1972
+                                "h": 1898
                               },
                               "styles": {
                                 "display": "block",
@@ -205102,7 +205102,7 @@
                                   },
                                   "size": {
                                     "w": 313,
-                                    "h": 1938
+                                    "h": 1864
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -216560,7 +216560,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 3934.9
+                        "h": 3578
                       },
                       "styles": {
                         "display": "block",
@@ -216677,7 +216677,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:21"
+                                  "text": "Оновлено: 02:31"
                                 }
                               ]
                             },
@@ -216855,7 +216855,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 3807.9
+                            "h": 3451
                           },
                           "styles": {
                             "display": "block",
@@ -217277,7 +217277,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[0]",
+                                  "key": ".dkpi.dkpi--danger",
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
@@ -217312,7 +217312,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger[1]",
+                                  "key": ".dkpi.dkpi--success[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 180.5,
@@ -217347,7 +217347,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
@@ -217462,7 +217462,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 899.1
+                                "h": 890
                               },
                               "styles": {
                                 "display": "grid",
@@ -217524,7 +217524,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 212.7
+                                    "h": 227.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -217555,11 +217555,11 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 578.7
+                                    "y": 593.6
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 320.4
+                                    "h": 296.4
                                   },
                                   "styles": {
                                     "display": "block",
@@ -217592,11 +217592,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2471.6
+                                "y": 2462.4
                               },
                               "size": {
                                 "w": 347,
-                                "h": 1336.3
+                                "h": 988.6
                               },
                               "styles": {
                                 "display": "block",
@@ -217659,7 +217659,7 @@
                                   },
                                   "size": {
                                     "w": 305,
-                                    "h": 1248.3
+                                    "h": 900.6
                                   },
                                   "styles": {
                                     "display": "block",
@@ -217689,16 +217689,16 @@
                   "id": null,
                   "rel": {
                     "x": 35,
-                    "y": 2679.6
+                    "y": 2670.4
                   },
                   "size": {
-                    "w": 674.5,
-                    "h": 1248.3
+                    "w": 668.5,
+                    "h": 900.6
                   },
                   "wrap": null,
                   "headHeight": 28.5,
                   "rowHeight": 66,
-                  "rows": 20,
+                  "rows": 14,
                   "columns": [
                     {
                       "label": "Учень",
@@ -217718,7 +217718,7 @@
                     },
                     {
                       "label": "Телефон",
-                      "w": 165
+                      "w": 159
                     },
                     {
                       "label": "",
@@ -217766,13 +217766,13 @@
                     },
                     {
                       "col": 4,
-                      "w": 165,
+                      "w": 159,
                       "padding": "10px 12px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "phone-lines ",
-                          "w": 141,
+                          "w": 135,
                           "h": 15.6
                         }
                       ]
@@ -218608,7 +218608,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 2487.5
+                        "h": 2516.5
                       },
                       "styles": {
                         "display": "block",
@@ -218725,7 +218725,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:21"
+                                  "text": "Оновлено: 02:31"
                                 }
                               ]
                             },
@@ -218903,7 +218903,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2360.5
+                            "h": 2389.5
                           },
                           "styles": {
                             "display": "block",
@@ -219042,7 +219042,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 1383.5
+                                "h": 1397.5
                               },
                               "styles": {
                                 "display": "grid",
@@ -219068,7 +219068,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 343
+                                    "h": 357
                                   },
                                   "styles": {
                                     "display": "block",
@@ -219099,7 +219099,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 357
+                                    "y": 371
                                   },
                                   "size": {
                                     "w": 347,
@@ -219134,7 +219134,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 848
+                                    "y": 862
                                   },
                                   "size": {
                                     "w": 347,
@@ -219171,7 +219171,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1527.5
+                                "y": 1541.5
                               },
                               "size": {
                                 "w": 347,
@@ -219261,11 +219261,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1944.5
+                                "y": 1958.5
                               },
                               "size": {
                                 "w": 347,
-                                "h": 416
+                                "h": 431
                               },
                               "styles": {
                                 "display": "block",
@@ -219329,7 +219329,7 @@
                                   },
                                   "size": {
                                     "w": 305,
-                                    "h": 306
+                                    "h": 321
                                   },
                                   "styles": {
                                     "display": "block",
@@ -219359,11 +219359,11 @@
                   "id": null,
                   "rel": {
                     "x": 35,
-                    "y": 2174.5
+                    "y": 2188.5
                   },
                   "size": {
                     "w": 305,
-                    "h": 306
+                    "h": 321
                   },
                   "wrap": null,
                   "headHeight": 23,
@@ -220261,7 +220261,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 3006.5
+                        "h": 3044.5
                       },
                       "styles": {
                         "display": "block",
@@ -220378,7 +220378,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 22:21"
+                                  "text": "Оновлено: 02:31"
                                 }
                               ]
                             },
@@ -220556,7 +220556,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2879.5
+                            "h": 2917.5
                           },
                           "styles": {
                             "display": "block",
@@ -220669,7 +220669,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 838.1
+                                "h": 876.1
                               },
                               "styles": {
                                 "display": "block",
@@ -220735,7 +220735,7 @@
                                   },
                                   "size": {
                                     "w": 305,
-                                    "h": 729.1
+                                    "h": 767.1
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -220759,7 +220759,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 944.1
+                                "y": 982.1
                               },
                               "size": {
                                 "w": 347,
@@ -220881,7 +220881,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1900
+                                "y": 1938
                               },
                               "size": {
                                 "w": 347,
@@ -220962,7 +220962,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (0), а не картка в базі. — це весь ФОП місяця (39 700 ₴), поділений\n          "
+                                  "text": "Юніт — це учень, який платив цього місяця (1), а не картка в базі. — це весь ФОП місяця (42 400 ₴), поділений\n          "
                                 }
                               ]
                             }
