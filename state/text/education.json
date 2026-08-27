@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-25",
+ "takenAt": "2026-08-27",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -149,6 +149,10 @@
       {
        "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
        "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
       },
       {
        "t": "Малі групи",
@@ -1192,7 +1196,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Roblox (6–14 років)",
+       "t": "Roblox (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1208,7 +1212,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (6–18 років)",
+       "t": "UI/UX дизайн (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1302,6 +1306,30 @@
       {
        "t": "my.computer.academy25@gmail.com",
        "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Підібрати курс за віком:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "6 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "10 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "14 років",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Онлайн-оплата карткою",
@@ -1482,6 +1510,10 @@
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
+      },
+      {
        "t": "Малі групи",
        "where": ".benefits__grid › .benefit-card › h3"
       },
@@ -2523,7 +2555,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Roblox (6–14 років)",
+       "t": "Roblox (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2539,7 +2571,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (6–18 років)",
+       "t": "UI/UX дизайн (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2633,6 +2665,30 @@
       {
        "t": "my.computer.academy25@gmail.com",
        "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Підібрати курс за віком:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "6 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "10 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "14 років",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Онлайн-оплата карткою",
@@ -2787,6 +2843,10 @@
       {
        "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
        "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
       },
       {
        "t": "Малі групи",
@@ -3834,7 +3894,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Roblox (6–14 років)",
+       "t": "Roblox (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3850,7 +3910,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (6–18 років)",
+       "t": "UI/UX дизайн (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3944,6 +4004,30 @@
       {
        "t": "my.computer.academy25@gmail.com",
        "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Підібрати курс за віком:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "6 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "10 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "14 років",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Онлайн-оплата карткою",

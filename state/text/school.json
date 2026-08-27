@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-25",
+ "takenAt": "2026-08-27",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -155,6 +155,10 @@
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
+      },
+      {
        "t": "Малі групи",
        "where": ".benefits__grid › .benefit-card › h3"
       },
@@ -199,6 +203,18 @@
     {
      "key": "#courses",
      "lines": [
+      {
+       "t": "Наші програми",
+       "where": ".section-header › .section-badge › div"
+      },
+      {
+       "t": "Обери напрямок",
+       "where": ".section-header › .section-title › h2"
+      },
+      {
+       "t": "Курси розроблені з урахуванням віку та рівня підготовки дитини.",
+       "where": ".section-header › .section-subtitle › p"
+      },
       {
        "t": "Всі курси",
        "where": ".courses__tabs › .courses__tab › button"
@@ -1456,6 +1472,10 @@
       {
        "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
        "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
       },
       {
        "t": "Малі групи",
@@ -2743,6 +2763,10 @@
       {
        "t": "Кожна дитина навчається у своєму ритмі. Ніякого тиску — тільки інтерес і прогрес.",
        "where": ".benefits__grid › .benefit-card › p"
+      },
+      {
+       "t": "🧑‍🤝‍🧑",
+       "where": ".benefit-card__icon-wrap › .benefit-card__emoji › span"
       },
       {
        "t": "Малі групи",

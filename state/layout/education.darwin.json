@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9844,
+      "documentHeight": 10403,
       "sections": [
         {
           "key": "#header",
@@ -5125,11 +5125,11 @@
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8874.7
+            "y": 9374.1
           },
           "size": {
             "w": 1440,
-            "h": 969.7
+            "h": 1028.8
           },
           "styles": {
             "display": "block",
@@ -5157,7 +5157,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 885.7
+                "h": 944.8
               },
               "styles": {
                 "display": "block",
@@ -5313,11 +5313,122 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__ages",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 649.4
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 55.1
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "gap": "6px 14px",
+                    "flexWrap": "wrap",
+                    "paddingTop": "16px",
+                    "paddingBottom": "16px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "13px",
+                    "fontWeight": "400",
+                    "lineHeight": "22.1px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "span",
+                      "tag": "span",
+                      "rel": {
+                        "x": 0,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 154.2,
+                        "h": 22.1
+                      },
+                      "text": "Підібрати курс за віком:"
+                    },
+                    {
+                      "key": "a[0]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 168.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "6 років"
+                    },
+                    {
+                      "key": "a[1]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 227.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "8 років"
+                    },
+                    {
+                      "key": "a[2]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 286.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.5,
+                        "h": 22.1
+                      },
+                      "text": "10 років"
+                    },
+                    {
+                      "key": "a[3]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 350.7,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.2,
+                        "h": 22.1
+                      },
+                      "text": "12 років"
+                    },
+                    {
+                      "key": "a[4]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 414.9,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.6,
+                        "h": 22.1
+                      },
+                      "text": "14 років"
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 708.5
                   },
                   "size": {
                     "w": 1112,
@@ -5451,7 +5562,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 766.2
+                    "y": 825.3
                   },
                   "size": {
                     "w": 1112,
@@ -5548,7 +5659,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 819.6
+                    "y": 878.7
                   },
                   "size": {
                     "w": 1112,
@@ -5616,14 +5727,14 @@
               ]
             }
           ],
-          "absoluteTop": 8874.7
+          "absoluteTop": 9374.1
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 10660,
+      "documentHeight": 11218,
       "sections": [
         {
           "key": "#header",
@@ -10728,11 +10839,11 @@
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9690
+            "y": 10189.5
           },
           "size": {
             "w": 1024,
-            "h": 969.7
+            "h": 1028.8
           },
           "styles": {
             "display": "block",
@@ -10760,7 +10871,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 885.7
+                "h": 944.8
               },
               "styles": {
                 "display": "block",
@@ -10916,11 +11027,122 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__ages",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 649.4
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 55.1
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "gap": "6px 14px",
+                    "flexWrap": "wrap",
+                    "paddingTop": "16px",
+                    "paddingBottom": "16px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "13px",
+                    "fontWeight": "400",
+                    "lineHeight": "22.1px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "span",
+                      "tag": "span",
+                      "rel": {
+                        "x": 0,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 154.2,
+                        "h": 22.1
+                      },
+                      "text": "Підібрати курс за віком:"
+                    },
+                    {
+                      "key": "a[0]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 168.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "6 років"
+                    },
+                    {
+                      "key": "a[1]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 227.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "8 років"
+                    },
+                    {
+                      "key": "a[2]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 286.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.5,
+                        "h": 22.1
+                      },
+                      "text": "10 років"
+                    },
+                    {
+                      "key": "a[3]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 350.7,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.2,
+                        "h": 22.1
+                      },
+                      "text": "12 років"
+                    },
+                    {
+                      "key": "a[4]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 414.9,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.6,
+                        "h": 22.1
+                      },
+                      "text": "14 років"
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 708.5
                   },
                   "size": {
                     "w": 976,
@@ -11054,7 +11276,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 766.2
+                    "y": 825.3
                   },
                   "size": {
                     "w": 976,
@@ -11151,7 +11373,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 819.6
+                    "y": 878.7
                   },
                   "size": {
                     "w": 976,
@@ -11219,14 +11441,14 @@
               ]
             }
           ],
-          "absoluteTop": 9690
+          "absoluteTop": 10189.5
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 12882,
+      "documentHeight": 13864,
       "sections": [
         {
           "key": "#header",
@@ -16292,11 +16514,11 @@
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11097.9
+            "y": 11992.1
           },
           "size": {
             "w": 390,
-            "h": 1784.5
+            "h": 1871.7
           },
           "styles": {
             "display": "block",
@@ -16324,7 +16546,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1700.5
+                "h": 1787.7
               },
               "styles": {
                 "display": "block",
@@ -16480,11 +16702,122 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__ages",
                   "tag": "div",
                   "rel": {
                     "x": 16,
                     "y": 1374.6
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 83.2
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "gap": "6px 14px",
+                    "flexWrap": "wrap",
+                    "paddingTop": "16px",
+                    "paddingBottom": "16px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "13px",
+                    "fontWeight": "400",
+                    "lineHeight": "22.1px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": "span",
+                      "tag": "span",
+                      "rel": {
+                        "x": 0,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 154.2,
+                        "h": 22.1
+                      },
+                      "text": "Підібрати курс за віком:"
+                    },
+                    {
+                      "key": "a[0]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 168.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "6 років"
+                    },
+                    {
+                      "key": "a[1]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 227.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 45,
+                        "h": 22.1
+                      },
+                      "text": "8 років"
+                    },
+                    {
+                      "key": "a[2]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 286.2,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.5,
+                        "h": 22.1
+                      },
+                      "text": "10 років"
+                    },
+                    {
+                      "key": "a[3]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 0,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 50.2,
+                        "h": 22.1
+                      },
+                      "text": "12 років"
+                    },
+                    {
+                      "key": "a[4]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 64.2,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 50.6,
+                        "h": 22.1
+                      },
+                      "text": "14 років"
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 16,
+                    "y": 1461.8
                   },
                   "size": {
                     "w": 358,
@@ -16618,7 +16951,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1539.4
+                    "y": 1626.6
                   },
                   "size": {
                     "w": 358,
@@ -16715,7 +17048,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1615.8
+                    "y": 1703
                   },
                   "size": {
                     "w": 358,
@@ -16784,7 +17117,7 @@
               ]
             }
           ],
-          "absoluteTop": 11097.9
+          "absoluteTop": 11992.1
         }
       ]
     }
