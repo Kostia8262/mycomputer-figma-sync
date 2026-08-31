@@ -2260,7 +2260,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1782
+                        "h": 1831
                       },
                       "styles": {
                         "display": "block",
@@ -2360,7 +2360,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2624,7 +2624,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -3437,7 +3437,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1616
+                            "h": 1665
                           },
                           "styles": {
                             "display": "block",
@@ -3469,7 +3469,7 @@
                               },
                               "size": {
                                 "w": 1376,
-                                "h": 1573
+                                "h": 1622
                               },
                               "styles": {
                                 "display": "table",
@@ -3517,7 +3517,7 @@
                                   },
                                   "size": {
                                     "w": 1376,
-                                    "h": 1533.5
+                                    "h": 1582.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -3539,7 +3539,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 1574
+                                "y": 1623
                               },
                               "size": {
                                 "w": 1157,
@@ -3574,7 +3574,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 62,
                                     "h": 16
                                   },
                                   "styles": {
@@ -3589,7 +3589,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31 заявок"
+                                  "text": "32 заявок"
                                 }
                               ]
                             }
@@ -3663,15 +3663,15 @@
                   },
                   "size": {
                     "w": 1376,
-                    "h": 1573
+                    "h": 1622
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 1616
+                    "h": 1665
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 31,
+                  "rows": 32,
                   "columns": [
                     {
                       "label": "",
@@ -6541,7 +6541,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1782
+                        "h": 1831
                       },
                       "styles": {
                         "display": "block",
@@ -6641,7 +6641,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6905,7 +6905,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -7718,7 +7718,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1616
+                            "h": 1665
                           },
                           "styles": {
                             "display": "block",
@@ -7750,7 +7750,7 @@
                               },
                               "size": {
                                 "w": 1376,
-                                "h": 1573
+                                "h": 1622
                               },
                               "styles": {
                                 "display": "table",
@@ -7798,7 +7798,7 @@
                                   },
                                   "size": {
                                     "w": 1376,
-                                    "h": 1533.5
+                                    "h": 1582.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -7820,7 +7820,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 1574
+                                "y": 1623
                               },
                               "size": {
                                 "w": 1157,
@@ -7855,7 +7855,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 62,
                                     "h": 16
                                   },
                                   "styles": {
@@ -7870,7 +7870,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31 заявок"
+                                  "text": "32 заявок"
                                 }
                               ]
                             }
@@ -7944,15 +7944,15 @@
                   },
                   "size": {
                     "w": 1376,
-                    "h": 1573
+                    "h": 1622
                   },
                   "wrap": {
                     "w": 1159,
-                    "h": 1616
+                    "h": 1665
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 31,
+                  "rows": 32,
                   "columns": [
                     {
                       "label": "",
@@ -10510,7 +10510,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10774,7 +10774,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14217,7 +14217,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14481,7 +14481,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -34459,7 +34459,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 1303
+                        "h": 1283
                       },
                       "styles": {
                         "display": "block",
@@ -35448,7 +35448,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1027
+                            "h": 1007
                           },
                           "styles": {
                             "display": "block",
@@ -35554,7 +35554,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 977
+                                "h": 957
                               },
                               "styles": {
                                 "display": "block",
@@ -35589,7 +35589,7 @@
                                   },
                                   "size": {
                                     "w": 1125,
-                                    "h": 943
+                                    "h": 923
                                   },
                                   "styles": {
                                     "display": "block",
@@ -35623,7 +35623,7 @@
                   },
                   "size": {
                     "w": 1125,
-                    "h": 894
+                    "h": 874
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -35635,31 +35635,31 @@
                       "w": 52
                     },
                     {
-                      "label": "Пн24 сер",
+                      "label": "Пн31 сер",
                       "w": 186.4
                     },
                     {
-                      "label": "Вт25 сер",
+                      "label": "Вт1 вер",
                       "w": 186.4
                     },
                     {
-                      "label": "Ср26 сер",
+                      "label": "Ср2 вер",
                       "w": 186.4
                     },
                     {
-                      "label": "Чт27 сер",
+                      "label": "Чт3 вер",
                       "w": 186.4
                     },
                     {
-                      "label": "Пт28 сер",
+                      "label": "Пт4 вер",
                       "w": 186.4
                     },
                     {
-                      "label": "Сб29 сер",
+                      "label": "Сб5 вер",
                       "w": 70
                     },
                     {
-                      "label": "Нд30 сер",
+                      "label": "Нд6 вер",
                       "w": 70
                     }
                   ],
@@ -55015,7 +55015,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2051.3
+                        "h": 2017.5
                       },
                       "styles": {
                         "display": "block",
@@ -55132,7 +55132,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:47"
+                                  "text": "Оновлено: 00:06"
                                 }
                               ]
                             },
@@ -55391,7 +55391,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1924.3
+                            "h": 1890.5
                           },
                           "styles": {
                             "display": "block",
@@ -55559,7 +55559,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 183.7
+                                "h": 149.9
                               },
                               "styles": {
                                 "display": "grid",
@@ -55586,7 +55586,7 @@
                                   },
                                   "size": {
                                     "w": 565.5,
-                                    "h": 183.7
+                                    "h": 149.9
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -55624,7 +55624,7 @@
                                   },
                                   "size": {
                                     "w": 282.8,
-                                    "h": 183.7
+                                    "h": 149.9
                                   },
                                   "styles": {
                                     "display": "block",
@@ -55659,7 +55659,7 @@
                                   },
                                   "size": {
                                     "w": 282.8,
-                                    "h": 183.7
+                                    "h": 149.9
                                   },
                                   "styles": {
                                     "display": "block",
@@ -55692,7 +55692,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 466.5
+                                "y": 432.8
                               },
                               "size": {
                                 "w": 1159,
@@ -55720,7 +55720,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 491.5
+                                "y": 457.8
                               },
                               "size": {
                                 "w": 1159,
@@ -55994,7 +55994,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 787.9
+                                "y": 754.2
                               },
                               "size": {
                                 "w": 1159,
@@ -56128,7 +56128,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1130.9
+                                "y": 1097.2
                               },
                               "size": {
                                 "w": 1159,
@@ -56225,7 +56225,7 @@
                   "id": null,
                   "rel": {
                     "x": 263,
-                    "y": 1332.9
+                    "y": 1299.2
                   },
                   "size": {
                     "w": 1117,
@@ -58502,7 +58502,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:47"
+                                  "text": "Оновлено: 00:06"
                                 }
                               ]
                             },
@@ -61483,7 +61483,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:47"
+                                  "text": "Оновлено: 00:06"
                                 }
                               ]
                             },
@@ -94011,7 +94011,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1924
+                        "h": 1973
                       },
                       "styles": {
                         "display": "block",
@@ -94111,7 +94111,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -94375,7 +94375,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -95188,7 +95188,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1616
+                            "h": 1665
                           },
                           "styles": {
                             "display": "block",
@@ -95220,7 +95220,7 @@
                               },
                               "size": {
                                 "w": 1376,
-                                "h": 1573
+                                "h": 1622
                               },
                               "styles": {
                                 "display": "table",
@@ -95268,7 +95268,7 @@
                                   },
                                   "size": {
                                     "w": 1376,
-                                    "h": 1533.5
+                                    "h": 1582.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -95290,7 +95290,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 1574
+                                "y": 1623
                               },
                               "size": {
                                 "w": 797,
@@ -95325,7 +95325,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 62,
                                     "h": 16
                                   },
                                   "styles": {
@@ -95340,7 +95340,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31 заявок"
+                                  "text": "32 заявок"
                                 }
                               ]
                             }
@@ -95414,15 +95414,15 @@
                   },
                   "size": {
                     "w": 1376,
-                    "h": 1573
+                    "h": 1622
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 1616
+                    "h": 1665
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 31,
+                  "rows": 32,
                   "columns": [
                     {
                       "label": "",
@@ -98059,7 +98059,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1924
+                        "h": 1973
                       },
                       "styles": {
                         "display": "block",
@@ -98159,7 +98159,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98423,7 +98423,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -99236,7 +99236,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1616
+                            "h": 1665
                           },
                           "styles": {
                             "display": "block",
@@ -99268,7 +99268,7 @@
                               },
                               "size": {
                                 "w": 1376,
-                                "h": 1573
+                                "h": 1622
                               },
                               "styles": {
                                 "display": "table",
@@ -99316,7 +99316,7 @@
                                   },
                                   "size": {
                                     "w": 1376,
-                                    "h": 1533.5
+                                    "h": 1582.5
                                   },
                                   "styles": {
                                     "display": "table-row-group",
@@ -99338,7 +99338,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 1,
-                                "y": 1574
+                                "y": 1623
                               },
                               "size": {
                                 "w": 797,
@@ -99373,7 +99373,7 @@
                                     "y": 13
                                   },
                                   "size": {
-                                    "w": 59,
+                                    "w": 62,
                                     "h": 16
                                   },
                                   "styles": {
@@ -99388,7 +99388,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31 заявок"
+                                  "text": "32 заявок"
                                 }
                               ]
                             }
@@ -99462,15 +99462,15 @@
                   },
                   "size": {
                     "w": 1376,
-                    "h": 1573
+                    "h": 1622
                   },
                   "wrap": {
                     "w": 799,
-                    "h": 1616
+                    "h": 1665
                   },
                   "headHeight": 39.5,
                   "rowHeight": 49,
-                  "rows": 31,
+                  "rows": 32,
                   "columns": [
                     {
                       "label": "",
@@ -101795,7 +101795,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -102059,7 +102059,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105322,7 +105322,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105586,7 +105586,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -124505,7 +124505,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 1343
+                        "h": 1323
                       },
                       "styles": {
                         "display": "block",
@@ -125494,7 +125494,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1067
+                            "h": 1047
                           },
                           "styles": {
                             "display": "block",
@@ -125600,7 +125600,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 977
+                                "h": 957
                               },
                               "styles": {
                                 "display": "block",
@@ -125635,7 +125635,7 @@
                                   },
                                   "size": {
                                     "w": 765,
-                                    "h": 943
+                                    "h": 923
                                   },
                                   "styles": {
                                     "display": "block",
@@ -125669,7 +125669,7 @@
                   },
                   "size": {
                     "w": 765,
-                    "h": 894
+                    "h": 874
                   },
                   "wrap": null,
                   "headHeight": 51,
@@ -125681,31 +125681,31 @@
                       "w": 52
                     },
                     {
-                      "label": "Пн24 сер",
+                      "label": "Пн31 сер",
                       "w": 114.4
                     },
                     {
-                      "label": "Вт25 сер",
+                      "label": "Вт1 вер",
                       "w": 114.4
                     },
                     {
-                      "label": "Ср26 сер",
+                      "label": "Ср2 вер",
                       "w": 114.4
                     },
                     {
-                      "label": "Чт27 сер",
+                      "label": "Чт3 вер",
                       "w": 114.4
                     },
                     {
-                      "label": "Пт28 сер",
+                      "label": "Пт4 вер",
                       "w": 114.4
                     },
                     {
-                      "label": "Сб29 сер",
+                      "label": "Сб5 вер",
                       "w": 70
                     },
                     {
-                      "label": "Нд30 сер",
+                      "label": "Нд6 вер",
                       "w": 70
                     }
                   ],
@@ -144060,7 +144060,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2500.5
+                        "h": 2466.7
                       },
                       "styles": {
                         "display": "block",
@@ -144177,7 +144177,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:48"
+                                  "text": "Оновлено: 00:07"
                                 }
                               ]
                             },
@@ -144436,7 +144436,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2373.5
+                            "h": 2339.7
                           },
                           "styles": {
                             "display": "block",
@@ -144604,7 +144604,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 243.5
+                                "h": 209.8
                               },
                               "styles": {
                                 "display": "grid",
@@ -144631,7 +144631,7 @@
                                   },
                                   "size": {
                                     "w": 385.5,
-                                    "h": 243.5
+                                    "h": 209.8
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -144669,7 +144669,7 @@
                                   },
                                   "size": {
                                     "w": 192.8,
-                                    "h": 243.5
+                                    "h": 209.8
                                   },
                                   "styles": {
                                     "display": "block",
@@ -144704,7 +144704,7 @@
                                   },
                                   "size": {
                                     "w": 192.8,
-                                    "h": 243.5
+                                    "h": 209.8
                                   },
                                   "styles": {
                                     "display": "block",
@@ -144737,7 +144737,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 652.3
+                                "y": 618.5
                               },
                               "size": {
                                 "w": 799,
@@ -144765,7 +144765,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 677.3
+                                "y": 643.5
                               },
                               "size": {
                                 "w": 799,
@@ -145039,7 +145039,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 973.7
+                                "y": 939.9
                               },
                               "size": {
                                 "w": 799,
@@ -145173,7 +145173,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1340.7
+                                "y": 1306.9
                               },
                               "size": {
                                 "w": 799,
@@ -145270,7 +145270,7 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 1532.7
+                    "y": 1498.9
                   },
                   "size": {
                     "w": 757,
@@ -147404,7 +147404,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:48"
+                                  "text": "Оновлено: 00:07"
                                 }
                               ]
                             },
@@ -150242,7 +150242,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:48"
+                                  "text": "Оновлено: 00:07"
                                 }
                               ]
                             },
@@ -180134,7 +180134,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 7276.3
+                        "h": 7495.3
                       },
                       "styles": {
                         "display": "block",
@@ -180234,7 +180234,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180501,7 +180501,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180796,7 +180796,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 7009
+                            "h": 7228
                           },
                           "styles": {
                             "display": "flex",
@@ -180818,6 +180818,147 @@
                               "rel": {
                                 "x": 0,
                                 "y": 0
+                              },
+                              "size": {
+                                "w": 347,
+                                "h": 192
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "4px",
+                                "flexWrap": "nowrap",
+                                "paddingTop": "16px",
+                                "paddingRight": "16px",
+                                "paddingBottom": "16px",
+                                "paddingLeft": "16px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "16px",
+                                "fontWeight": "400",
+                                "color": "rgb(26, 26, 46)",
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "borderRadius": "12px",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "opacity": "1",
+                                "borderTopWidth": "1px",
+                                "borderRightWidth": "1px",
+                                "borderBottomWidth": "1px",
+                                "borderLeftWidth": "1px",
+                                "borderTopColor": "rgb(232, 228, 255)",
+                                "textAlign": "start"
+                              },
+                              "bordered": true,
+                              "children": [
+                                {
+                                  "key": ".mcard-head",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 17
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 20
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-meta",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 41
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(95, 95, 107)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(95, 95, 107)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
+                                },
+                                {
+                                  "key": ".mcard-line",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-actions",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 87
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 88
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "gap": "8px",
+                                    "flexWrap": "wrap",
+                                    "marginTop": "8px",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "key": ".mcard[1]",
+                              "tag": "article",
+                              "rel": {
+                                "x": 0,
+                                "y": 200
                               },
                               "size": {
                                 "w": 347,
@@ -180979,11 +181120,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[1]",
+                              "key": ".mcard[2]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 249
+                                "y": 449
                               },
                               "size": {
                                 "w": 347,
@@ -181145,11 +181286,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[2]",
+                              "key": ".mcard[3]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 528
+                                "y": 728
                               },
                               "size": {
                                 "w": 347,
@@ -181311,11 +181452,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[3]",
+                              "key": ".mcard[4]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 807
+                                "y": 1007
                               },
                               "size": {
                                 "w": 347,
@@ -181477,11 +181618,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[4]",
+                              "key": ".mcard[5]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1086
+                                "y": 1286
                               },
                               "size": {
                                 "w": 347,
@@ -181643,11 +181784,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[5]",
+                              "key": ".mcard[6]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1365
+                                "y": 1565
                               },
                               "size": {
                                 "w": 347,
@@ -181729,7 +181870,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Minecraft (лендінг) · 7 р."
+                                  "text": "Допоможіть · 7 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -181809,15 +181950,15 @@
                               ]
                             },
                             {
-                              "key": ".mcard[6]",
+                              "key": ".mcard[7]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1584
+                                "y": 1784
                               },
                               "size": {
                                 "w": 347,
-                                "h": 192
+                                "h": 211
                               },
                               "styles": {
                                 "display": "flex",
@@ -181898,11 +182039,36 @@
                                   "text": "🐍 Python: справжнє програмування · 14 р. · Микита"
                                 },
                                 {
-                                  "key": ".mcard-line",
+                                  "key": ".mcard-line[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
                                     "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Отменилось пробное"
+                                },
+                                {
+                                  "key": ".mcard-line[1]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 79
                                   },
                                   "size": {
                                     "w": 313,
@@ -181926,7 +182092,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 87
+                                    "y": 106
                                   },
                                   "size": {
                                     "w": 313,
@@ -181950,11 +182116,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[7]",
+                              "key": ".mcard[8]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1784
+                                "y": 2003
                               },
                               "size": {
                                 "w": 347,
@@ -182116,11 +182282,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[8]",
+                              "key": ".mcard[9]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2003
+                                "y": 2222
                               },
                               "size": {
                                 "w": 347,
@@ -182282,11 +182448,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[9]",
+                              "key": ".mcard[10]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2222
+                                "y": 2441
                               },
                               "size": {
                                 "w": 347,
@@ -182423,172 +182589,6 @@
                               ]
                             },
                             {
-                              "key": ".mcard[10]",
-                              "tag": "article",
-                              "rel": {
-                                "x": 0,
-                                "y": 2422
-                              },
-                              "size": {
-                                "w": 347,
-                                "h": 211
-                              },
-                              "styles": {
-                                "display": "flex",
-                                "flexDirection": "column",
-                                "gap": "4px",
-                                "flexWrap": "nowrap",
-                                "paddingTop": "16px",
-                                "paddingRight": "16px",
-                                "paddingBottom": "16px",
-                                "paddingLeft": "16px",
-                                "fontFamily": "Inter, Arial, sans-serif",
-                                "fontSize": "16px",
-                                "fontWeight": "400",
-                                "color": "rgb(26, 26, 46)",
-                                "backgroundColor": "rgb(255, 255, 255)",
-                                "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
-                                "opacity": "1",
-                                "borderTopWidth": "1px",
-                                "borderRightWidth": "1px",
-                                "borderBottomWidth": "1px",
-                                "borderLeftWidth": "1px",
-                                "borderTopColor": "rgb(232, 228, 255)",
-                                "textAlign": "start"
-                              },
-                              "bordered": true,
-                              "children": [
-                                {
-                                  "key": ".mcard-head",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 17
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 20
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "justifyContent": "space-between",
-                                    "alignItems": "flex-start",
-                                    "gap": "8px",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-meta",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 41
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "600",
-                                    "color": "rgb(95, 95, 107)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(95, 95, 107)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
-                                },
-                                {
-                                  "key": ".mcard-line[0]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Заявка з mycomputer.education"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 79
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-actions",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 106
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 88
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "gap": "8px",
-                                    "flexWrap": "wrap",
-                                    "marginTop": "8px",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                }
-                              ]
-                            },
-                            {
                               "key": ".mcard[11]",
                               "tag": "article",
                               "rel": {
@@ -182675,7 +182675,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -182841,7 +182841,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Микита"
+                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183007,7 +183007,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 13 р. · Богдан"
+                                  "text": "Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183173,7 +183173,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 р."
+                                  "text": "🐍 Python: справжнє програмування · 13 р. · Богдан"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183258,6 +183258,172 @@
                               "rel": {
                                 "x": 0,
                                 "y": 3517
+                              },
+                              "size": {
+                                "w": 347,
+                                "h": 211
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "4px",
+                                "flexWrap": "nowrap",
+                                "paddingTop": "16px",
+                                "paddingRight": "16px",
+                                "paddingBottom": "16px",
+                                "paddingLeft": "16px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "16px",
+                                "fontWeight": "400",
+                                "color": "rgb(26, 26, 46)",
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "borderRadius": "12px",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "opacity": "1",
+                                "borderTopWidth": "1px",
+                                "borderRightWidth": "1px",
+                                "borderBottomWidth": "1px",
+                                "borderLeftWidth": "1px",
+                                "borderTopColor": "rgb(232, 228, 255)",
+                                "textAlign": "start"
+                              },
+                              "bordered": true,
+                              "children": [
+                                {
+                                  "key": ".mcard-head",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 17
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 20
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-meta",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 41
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(95, 95, 107)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(95, 95, 107)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "14 р."
+                                },
+                                {
+                                  "key": ".mcard-line[0]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Заявка з mycomputer.education"
+                                },
+                                {
+                                  "key": ".mcard-line[1]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 79
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-actions",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 106
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 88
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "gap": "8px",
+                                    "flexWrap": "wrap",
+                                    "marginTop": "8px",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "key": ".mcard[16]",
+                              "tag": "article",
+                              "rel": {
+                                "x": 0,
+                                "y": 3736
                               },
                               "size": {
                                 "w": 347,
@@ -183394,11 +183560,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[16]",
+                              "key": ".mcard[17]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3717
+                                "y": 3936
                               },
                               "size": {
                                 "w": 347,
@@ -183535,172 +183701,6 @@
                               ]
                             },
                             {
-                              "key": ".mcard[17]",
-                              "tag": "article",
-                              "rel": {
-                                "x": 0,
-                                "y": 3917
-                              },
-                              "size": {
-                                "w": 347,
-                                "h": 211
-                              },
-                              "styles": {
-                                "display": "flex",
-                                "flexDirection": "column",
-                                "gap": "4px",
-                                "flexWrap": "nowrap",
-                                "paddingTop": "16px",
-                                "paddingRight": "16px",
-                                "paddingBottom": "16px",
-                                "paddingLeft": "16px",
-                                "fontFamily": "Inter, Arial, sans-serif",
-                                "fontSize": "16px",
-                                "fontWeight": "400",
-                                "color": "rgb(26, 26, 46)",
-                                "backgroundColor": "rgb(255, 255, 255)",
-                                "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
-                                "opacity": "1",
-                                "borderTopWidth": "1px",
-                                "borderRightWidth": "1px",
-                                "borderBottomWidth": "1px",
-                                "borderLeftWidth": "1px",
-                                "borderTopColor": "rgb(232, 228, 255)",
-                                "textAlign": "start"
-                              },
-                              "bordered": true,
-                              "children": [
-                                {
-                                  "key": ".mcard-head",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 17
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 20
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "justifyContent": "space-between",
-                                    "alignItems": "flex-start",
-                                    "gap": "8px",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-meta",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 41
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "600",
-                                    "color": "rgb(95, 95, 107)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(95, 95, 107)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
-                                },
-                                {
-                                  "key": ".mcard-line[0]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Заявка з mycomputer.education"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 79
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-actions",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 106
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 88
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "gap": "8px",
-                                    "flexWrap": "wrap",
-                                    "marginTop": "8px",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                }
-                              ]
-                            },
-                            {
                               "key": ".mcard[18]",
                               "tag": "article",
                               "rel": {
@@ -183787,7 +183787,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "10 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183953,7 +183953,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Roblox (лендінг) · 11 р. · Микита"
+                                  "text": "10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -183978,7 +183978,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Заявка з roblox.mycomputer.education"
+                                  "text": "Заявка з mycomputer.education"
                                 },
                                 {
                                   "key": ".mcard-line[1]",
@@ -184119,7 +184119,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
+                                  "text": "Roblox (лендінг) · 11 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -184144,7 +184144,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Заявка з mycomputer.education"
+                                  "text": "Заявка з roblox.mycomputer.education"
                                 },
                                 {
                                   "key": ".mcard-line[1]",
@@ -184285,7 +184285,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎨 Графіка та анімація · 6 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -184451,7 +184451,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "10 р. · Микита"
+                                  "text": "🎨 Графіка та анімація · 6 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -184539,7 +184539,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 245
+                                "h": 211
                               },
                               "styles": {
                                 "display": "flex",
@@ -184617,7 +184617,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 11 р. · Микита"
+                                  "text": "10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -184625,31 +184625,6 @@
                                   "rel": {
                                     "x": 17,
                                     "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 30
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Вт 16:00 Чт 16:00"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 94
                                   },
                                   "size": {
                                     "w": 313,
@@ -184670,11 +184645,11 @@
                                   "text": "Заявка з mycomputer.education"
                                 },
                                 {
-                                  "key": ".mcard-line[2]",
+                                  "key": ".mcard-line[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 113
+                                    "y": 79
                                   },
                                   "size": {
                                     "w": 313,
@@ -184698,7 +184673,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 140
+                                    "y": 106
                                   },
                                   "size": {
                                     "w": 313,
@@ -184722,7 +184697,7 @@
                               ]
                             }
                           ],
-                          "truncatedChildren": 7
+                          "truncatedChildren": 8
                         }
                       ]
                     }
@@ -185960,7 +185935,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 7276.3
+                        "h": 7495.3
                       },
                       "styles": {
                         "display": "block",
@@ -186060,7 +186035,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186327,7 +186302,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186622,7 +186597,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 7009
+                            "h": 7228
                           },
                           "styles": {
                             "display": "flex",
@@ -186644,6 +186619,147 @@
                               "rel": {
                                 "x": 0,
                                 "y": 0
+                              },
+                              "size": {
+                                "w": 347,
+                                "h": 192
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "4px",
+                                "flexWrap": "nowrap",
+                                "paddingTop": "16px",
+                                "paddingRight": "16px",
+                                "paddingBottom": "16px",
+                                "paddingLeft": "16px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "16px",
+                                "fontWeight": "400",
+                                "color": "rgb(26, 26, 46)",
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "borderRadius": "12px",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "opacity": "1",
+                                "borderTopWidth": "1px",
+                                "borderRightWidth": "1px",
+                                "borderBottomWidth": "1px",
+                                "borderLeftWidth": "1px",
+                                "borderTopColor": "rgb(232, 228, 255)",
+                                "textAlign": "start"
+                              },
+                              "bordered": true,
+                              "children": [
+                                {
+                                  "key": ".mcard-head",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 17
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 20
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-meta",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 41
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(95, 95, 107)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(95, 95, 107)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
+                                },
+                                {
+                                  "key": ".mcard-line",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-actions",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 87
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 88
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "gap": "8px",
+                                    "flexWrap": "wrap",
+                                    "marginTop": "8px",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "key": ".mcard[1]",
+                              "tag": "article",
+                              "rel": {
+                                "x": 0,
+                                "y": 200
                               },
                               "size": {
                                 "w": 347,
@@ -186805,11 +186921,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[1]",
+                              "key": ".mcard[2]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 249
+                                "y": 449
                               },
                               "size": {
                                 "w": 347,
@@ -186971,11 +187087,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[2]",
+                              "key": ".mcard[3]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 528
+                                "y": 728
                               },
                               "size": {
                                 "w": 347,
@@ -187137,11 +187253,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[3]",
+                              "key": ".mcard[4]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 807
+                                "y": 1007
                               },
                               "size": {
                                 "w": 347,
@@ -187303,11 +187419,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[4]",
+                              "key": ".mcard[5]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1086
+                                "y": 1286
                               },
                               "size": {
                                 "w": 347,
@@ -187469,11 +187585,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[5]",
+                              "key": ".mcard[6]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1365
+                                "y": 1565
                               },
                               "size": {
                                 "w": 347,
@@ -187555,7 +187671,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Minecraft (лендінг) · 7 р."
+                                  "text": "Допоможіть · 7 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -187635,15 +187751,15 @@
                               ]
                             },
                             {
-                              "key": ".mcard[6]",
+                              "key": ".mcard[7]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1584
+                                "y": 1784
                               },
                               "size": {
                                 "w": 347,
-                                "h": 192
+                                "h": 211
                               },
                               "styles": {
                                 "display": "flex",
@@ -187724,11 +187840,36 @@
                                   "text": "🐍 Python: справжнє програмування · 14 р. · Микита"
                                 },
                                 {
-                                  "key": ".mcard-line",
+                                  "key": ".mcard-line[0]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
                                     "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Отменилось пробное"
+                                },
+                                {
+                                  "key": ".mcard-line[1]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 79
                                   },
                                   "size": {
                                     "w": 313,
@@ -187752,7 +187893,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 87
+                                    "y": 106
                                   },
                                   "size": {
                                     "w": 313,
@@ -187776,11 +187917,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[7]",
+                              "key": ".mcard[8]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1784
+                                "y": 2003
                               },
                               "size": {
                                 "w": 347,
@@ -187942,11 +188083,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[8]",
+                              "key": ".mcard[9]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2003
+                                "y": 2222
                               },
                               "size": {
                                 "w": 347,
@@ -188108,11 +188249,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[9]",
+                              "key": ".mcard[10]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2222
+                                "y": 2441
                               },
                               "size": {
                                 "w": 347,
@@ -188249,172 +188390,6 @@
                               ]
                             },
                             {
-                              "key": ".mcard[10]",
-                              "tag": "article",
-                              "rel": {
-                                "x": 0,
-                                "y": 2422
-                              },
-                              "size": {
-                                "w": 347,
-                                "h": 211
-                              },
-                              "styles": {
-                                "display": "flex",
-                                "flexDirection": "column",
-                                "gap": "4px",
-                                "flexWrap": "nowrap",
-                                "paddingTop": "16px",
-                                "paddingRight": "16px",
-                                "paddingBottom": "16px",
-                                "paddingLeft": "16px",
-                                "fontFamily": "Inter, Arial, sans-serif",
-                                "fontSize": "16px",
-                                "fontWeight": "400",
-                                "color": "rgb(26, 26, 46)",
-                                "backgroundColor": "rgb(255, 255, 255)",
-                                "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
-                                "opacity": "1",
-                                "borderTopWidth": "1px",
-                                "borderRightWidth": "1px",
-                                "borderBottomWidth": "1px",
-                                "borderLeftWidth": "1px",
-                                "borderTopColor": "rgb(232, 228, 255)",
-                                "textAlign": "start"
-                              },
-                              "bordered": true,
-                              "children": [
-                                {
-                                  "key": ".mcard-head",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 17
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 20
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "justifyContent": "space-between",
-                                    "alignItems": "flex-start",
-                                    "gap": "8px",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-meta",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 41
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "600",
-                                    "color": "rgb(95, 95, 107)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(95, 95, 107)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
-                                },
-                                {
-                                  "key": ".mcard-line[0]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Заявка з mycomputer.education"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 79
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-actions",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 106
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 88
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "gap": "8px",
-                                    "flexWrap": "wrap",
-                                    "marginTop": "8px",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                }
-                              ]
-                            },
-                            {
                               "key": ".mcard[11]",
                               "tag": "article",
                               "rel": {
@@ -188501,7 +188476,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -188667,7 +188642,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Микита"
+                                  "text": "🎮 Roblox: розробка ігор · 9 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -188833,7 +188808,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 13 р. · Богдан"
+                                  "text": "Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -188999,7 +188974,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "14 р."
+                                  "text": "🐍 Python: справжнє програмування · 13 р. · Богдан"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -189084,6 +189059,172 @@
                               "rel": {
                                 "x": 0,
                                 "y": 3517
+                              },
+                              "size": {
+                                "w": 347,
+                                "h": 211
+                              },
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "4px",
+                                "flexWrap": "nowrap",
+                                "paddingTop": "16px",
+                                "paddingRight": "16px",
+                                "paddingBottom": "16px",
+                                "paddingLeft": "16px",
+                                "fontFamily": "Inter, Arial, sans-serif",
+                                "fontSize": "16px",
+                                "fontWeight": "400",
+                                "color": "rgb(26, 26, 46)",
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "borderRadius": "12px",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "opacity": "1",
+                                "borderTopWidth": "1px",
+                                "borderRightWidth": "1px",
+                                "borderBottomWidth": "1px",
+                                "borderLeftWidth": "1px",
+                                "borderTopColor": "rgb(232, 228, 255)",
+                                "textAlign": "start"
+                              },
+                              "bordered": true,
+                              "children": [
+                                {
+                                  "key": ".mcard-head",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 17
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 20
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-meta",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 41
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "color": "rgb(95, 95, 107)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(95, 95, 107)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "14 р."
+                                },
+                                {
+                                  "key": ".mcard-line[0]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 60
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Заявка з mycomputer.education"
+                                },
+                                {
+                                  "key": ".mcard-line[1]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 79
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 15
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  }
+                                },
+                                {
+                                  "key": ".mcard-actions",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 106
+                                  },
+                                  "size": {
+                                    "w": 313,
+                                    "h": 88
+                                  },
+                                  "styles": {
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "gap": "8px",
+                                    "flexWrap": "wrap",
+                                    "marginTop": "8px",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "16px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(26, 26, 46)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(26, 26, 46)",
+                                    "textAlign": "start"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "key": ".mcard[16]",
+                              "tag": "article",
+                              "rel": {
+                                "x": 0,
+                                "y": 3736
                               },
                               "size": {
                                 "w": 347,
@@ -189220,11 +189361,11 @@
                               ]
                             },
                             {
-                              "key": ".mcard[16]",
+                              "key": ".mcard[17]",
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3717
+                                "y": 3936
                               },
                               "size": {
                                 "w": 347,
@@ -189361,172 +189502,6 @@
                               ]
                             },
                             {
-                              "key": ".mcard[17]",
-                              "tag": "article",
-                              "rel": {
-                                "x": 0,
-                                "y": 3917
-                              },
-                              "size": {
-                                "w": 347,
-                                "h": 211
-                              },
-                              "styles": {
-                                "display": "flex",
-                                "flexDirection": "column",
-                                "gap": "4px",
-                                "flexWrap": "nowrap",
-                                "paddingTop": "16px",
-                                "paddingRight": "16px",
-                                "paddingBottom": "16px",
-                                "paddingLeft": "16px",
-                                "fontFamily": "Inter, Arial, sans-serif",
-                                "fontSize": "16px",
-                                "fontWeight": "400",
-                                "color": "rgb(26, 26, 46)",
-                                "backgroundColor": "rgb(255, 255, 255)",
-                                "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
-                                "opacity": "1",
-                                "borderTopWidth": "1px",
-                                "borderRightWidth": "1px",
-                                "borderBottomWidth": "1px",
-                                "borderLeftWidth": "1px",
-                                "borderTopColor": "rgb(232, 228, 255)",
-                                "textAlign": "start"
-                              },
-                              "bordered": true,
-                              "children": [
-                                {
-                                  "key": ".mcard-head",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 17
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 20
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "justifyContent": "space-between",
-                                    "alignItems": "flex-start",
-                                    "gap": "8px",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-meta",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 41
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "600",
-                                    "color": "rgb(95, 95, 107)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(95, 95, 107)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
-                                },
-                                {
-                                  "key": ".mcard-line[0]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Заявка з mycomputer.education"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 79
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 15
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  }
-                                },
-                                {
-                                  "key": ".mcard-actions",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 106
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 88
-                                  },
-                                  "styles": {
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "gap": "8px",
-                                    "flexWrap": "wrap",
-                                    "marginTop": "8px",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "16px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(26, 26, 46)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(26, 26, 46)",
-                                    "textAlign": "start"
-                                  }
-                                }
-                              ]
-                            },
-                            {
                               "key": ".mcard[18]",
                               "tag": "article",
                               "rel": {
@@ -189613,7 +189588,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "10 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 8 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -189779,7 +189754,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Roblox (лендінг) · 11 р. · Микита"
+                                  "text": "10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -189804,7 +189779,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Заявка з roblox.mycomputer.education"
+                                  "text": "Заявка з mycomputer.education"
                                 },
                                 {
                                   "key": ".mcard-line[1]",
@@ -189945,7 +189920,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
+                                  "text": "Roblox (лендінг) · 11 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -189970,7 +189945,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Заявка з mycomputer.education"
+                                  "text": "Заявка з roblox.mycomputer.education"
                                 },
                                 {
                                   "key": ".mcard-line[1]",
@@ -190111,7 +190086,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🎨 Графіка та анімація · 6 р. · Микита"
+                                  "text": "🐍 Python: справжнє програмування · 12 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -190277,7 +190252,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "10 р. · Микита"
+                                  "text": "🎨 Графіка та анімація · 6 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -190365,7 +190340,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 245
+                                "h": 211
                               },
                               "styles": {
                                 "display": "flex",
@@ -190443,7 +190418,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "🐍 Python: справжнє програмування · 11 р. · Микита"
+                                  "text": "10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -190451,31 +190426,6 @@
                                   "rel": {
                                     "x": 17,
                                     "y": 60
-                                  },
-                                  "size": {
-                                    "w": 313,
-                                    "h": 30
-                                  },
-                                  "styles": {
-                                    "display": "block",
-                                    "flexDirection": "row",
-                                    "flexWrap": "nowrap",
-                                    "fontFamily": "Inter, Arial, sans-serif",
-                                    "fontSize": "12px",
-                                    "fontWeight": "400",
-                                    "color": "rgb(107, 107, 120)",
-                                    "opacity": "1",
-                                    "borderTopColor": "rgb(107, 107, 120)",
-                                    "textAlign": "start"
-                                  },
-                                  "text": "Вт 16:00 Чт 16:00"
-                                },
-                                {
-                                  "key": ".mcard-line[1]",
-                                  "tag": "div",
-                                  "rel": {
-                                    "x": 17,
-                                    "y": 94
                                   },
                                   "size": {
                                     "w": 313,
@@ -190496,11 +190446,11 @@
                                   "text": "Заявка з mycomputer.education"
                                 },
                                 {
-                                  "key": ".mcard-line[2]",
+                                  "key": ".mcard-line[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 113
+                                    "y": 79
                                   },
                                   "size": {
                                     "w": 313,
@@ -190524,7 +190474,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 140
+                                    "y": 106
                                   },
                                   "size": {
                                     "w": 313,
@@ -190548,7 +190498,7 @@
                               ]
                             }
                           ],
-                          "truncatedChildren": 7
+                          "truncatedChildren": 8
                         }
                       ]
                     }
@@ -191471,7 +191421,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -191738,7 +191688,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193035,7 +192985,7 @@
                                     "borderTopColor": "rgb(108, 71, 255)",
                                     "textAlign": "start"
                                   },
-                                  "text": "31"
+                                  "text": "32"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193302,7 +193252,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "7"
+                                  "text": "8"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -202561,7 +202511,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 536.5
+                        "h": 1516.5
                       },
                       "styles": {
                         "display": "block",
@@ -203334,7 +203284,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 315
+                            "h": 1295
                           },
                           "styles": {
                             "display": "block",
@@ -203440,7 +203390,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 150
+                                "h": 1130
                               },
                               "styles": {
                                 "display": "block",
@@ -203471,7 +203421,7 @@
                                   },
                                   "size": {
                                     "w": 345,
-                                    "h": 148
+                                    "h": 1120
                                   },
                                   "styles": {
                                     "display": "block",
@@ -204311,7 +204261,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 855.5
+                        "h": 1688.5
                       },
                       "styles": {
                         "display": "block",
@@ -205083,7 +205033,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 634
+                            "h": 1467
                           },
                           "styles": {
                             "display": "block",
@@ -205189,7 +205139,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 469
+                                "h": 1302
                               },
                               "styles": {
                                 "display": "block",
@@ -205224,7 +205174,7 @@
                                   },
                                   "size": {
                                     "w": 313,
-                                    "h": 435
+                                    "h": 1268
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -211896,7 +211846,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 236.7,
-                                "y": -2
+                                "y": 0
                               },
                               "size": {
                                 "w": 110.3,
@@ -211915,7 +211865,7 @@
                                 "fontWeight": "400",
                                 "color": "rgb(26, 26, 46)",
                                 "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.16) 0px 8px 28px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
                                 "opacity": "1",
                                 "borderTopWidth": "1px",
                                 "borderRightWidth": "1px",
@@ -216724,7 +216674,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 3788.1
+                        "h": 3769.7
                       },
                       "styles": {
                         "display": "block",
@@ -216841,7 +216791,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:49"
+                                  "text": "Оновлено: 00:08"
                                 }
                               ]
                             },
@@ -217019,7 +216969,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 3661.1
+                            "h": 3642.7
                           },
                           "styles": {
                             "display": "block",
@@ -217187,7 +217137,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 510.5
+                                "h": 492.2
                               },
                               "styles": {
                                 "display": "grid",
@@ -217214,7 +217164,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 246
+                                    "h": 227.6
                                   },
                                   "styles": {
                                     "display": "grid",
@@ -217248,7 +217198,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 260
+                                    "y": 241.6
                                   },
                                   "size": {
                                     "w": 347,
@@ -217283,7 +217233,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
-                                    "y": 394.3
+                                    "y": 375.9
                                   },
                                   "size": {
                                     "w": 347,
@@ -217320,7 +217270,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1093.1
+                                "y": 1074.7
                               },
                               "size": {
                                 "w": 347,
@@ -217348,7 +217298,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1118.1
+                                "y": 1099.7
                               },
                               "size": {
                                 "w": 347,
@@ -217622,7 +217572,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1674.4
+                                "y": 1656
                               },
                               "size": {
                                 "w": 347,
@@ -217756,7 +217706,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2612.3
+                                "y": 2593.9
                               },
                               "size": {
                                 "w": 347,
@@ -217853,7 +217803,7 @@
                   "id": null,
                   "rel": {
                     "x": 35,
-                    "y": 2820.3
+                    "y": 2801.9
                   },
                   "size": {
                     "w": 676.5,
@@ -218889,7 +218839,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:49"
+                                  "text": "Оновлено: 00:08"
                                 }
                               ]
                             },
@@ -220548,7 +220498,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:49"
+                                  "text": "Оновлено: 00:08"
                                 }
                               ]
                             },
