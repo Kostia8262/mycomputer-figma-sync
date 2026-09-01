@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-08-29",
+ "takenAt": "2026-09-01",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -280,7 +280,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -292,7 +292,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
+       "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -312,7 +312,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -376,7 +376,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -516,7 +516,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "14–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -715,7 +715,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "t": "6–18 місяців, один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -751,7 +751,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "t": "6–18 місяців, два рази на тиждень, по 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -1639,7 +1639,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1651,7 +1651,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
+       "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -1671,7 +1671,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1735,7 +1735,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1875,7 +1875,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "14–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -2074,7 +2074,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "t": "6–18 місяців, один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2110,7 +2110,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "t": "6–18 місяців, два рази на тиждень, по 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2974,7 +2974,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -2986,7 +2986,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
+       "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -3006,7 +3006,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3070,7 +3070,7 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 6 місяців",
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3210,7 +3210,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "14–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -3409,7 +3409,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, один раз на тиждень, 90 хв",
+       "t": "6–18 місяців, один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -3445,7 +3445,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "9–18 місяців, два рази на тиждень, по 90 хв",
+       "t": "6–18 місяців, два рази на тиждень, по 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
