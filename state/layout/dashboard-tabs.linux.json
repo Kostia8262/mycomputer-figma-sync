@@ -2448,7 +2448,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2536,7 +2536,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -2624,7 +2624,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6729,7 +6729,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6817,7 +6817,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -6905,7 +6905,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10598,7 +10598,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10686,7 +10686,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -10774,7 +10774,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14305,7 +14305,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14393,7 +14393,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -14481,7 +14481,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -40882,7 +40882,7 @@
                                     "y": 1
                                   },
                                   "size": {
-                                    "w": 1465.4,
+                                    "w": 1462.4,
                                     "h": 4422
                                   },
                                   "styles": {
@@ -40935,7 +40935,7 @@
                                     "y": 1
                                   },
                                   "size": {
-                                    "w": 1465,
+                                    "w": 1462,
                                     "h": 1
                                   },
                                   "styles": {
@@ -40969,7 +40969,7 @@
                     "y": 295
                   },
                   "size": {
-                    "w": 1465.4,
+                    "w": 1462.4,
                     "h": 4422
                   },
                   "wrap": {
@@ -41010,7 +41010,7 @@
                     },
                     {
                       "label": "Строк ⇅",
-                      "w": 157
+                      "w": 154
                     },
                     {
                       "label": "Телефон",
@@ -41092,7 +41092,7 @@
                     },
                     {
                       "col": 7,
-                      "w": 157,
+                      "w": 154,
                       "padding": "12px 14px",
                       "controls": [
                         {
@@ -41104,7 +41104,7 @@
                         {
                           "tag": "span",
                           "cls": "",
-                          "w": 129,
+                          "w": 126,
                           "h": 14
                         }
                       ]
@@ -55140,7 +55140,7 @@
                       },
                       "size": {
                         "w": 1159,
-                        "h": 2051.3
+                        "h": 2038.3
                       },
                       "styles": {
                         "display": "block",
@@ -55257,7 +55257,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:43"
+                                  "text": "Оновлено: 23:44"
                                 }
                               ]
                             },
@@ -55516,7 +55516,7 @@
                           },
                           "size": {
                             "w": 1159,
-                            "h": 1924.3
+                            "h": 1911.3
                           },
                           "styles": {
                             "display": "block",
@@ -55973,7 +55973,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 586.5,
@@ -56008,7 +56008,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success[1]",
+                                  "key": ".dkpi.dkpi--success[2]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 782,
@@ -56123,7 +56123,7 @@
                               },
                               "size": {
                                 "w": 1159,
-                                "h": 319
+                                "h": 306
                               },
                               "styles": {
                                 "display": "grid",
@@ -56150,7 +56150,7 @@
                                   },
                                   "size": {
                                     "w": 563.5,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56185,7 +56185,7 @@
                                   },
                                   "size": {
                                     "w": 281.8,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56220,7 +56220,7 @@
                                   },
                                   "size": {
                                     "w": 281.8,
-                                    "h": 319
+                                    "h": 306
                                   },
                                   "styles": {
                                     "display": "block",
@@ -56253,7 +56253,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1130.9
+                                "y": 1117.9
                               },
                               "size": {
                                 "w": 1159,
@@ -56350,7 +56350,7 @@
                   "id": null,
                   "rel": {
                     "x": 263,
-                    "y": 1332.9
+                    "y": 1319.9
                   },
                   "size": {
                     "w": 1117,
@@ -58627,7 +58627,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:43"
+                                  "text": "Оновлено: 23:44"
                                 }
                               ]
                             },
@@ -59355,35 +59355,35 @@
                   "columns": [
                     {
                       "label": "Викладач",
-                      "w": 112.5
+                      "w": 111.9
                     },
                     {
                       "label": "Учнів",
-                      "w": 325.8
+                      "w": 324.3
                     },
                     {
                       "label": "Занять",
-                      "w": 440.7
+                      "w": 444
                     },
                     {
                       "label": "Основа",
-                      "w": 152.8
+                      "w": 152
                     },
                     {
                       "label": "Сума",
-                      "w": 85.2
+                      "w": 84.8
                     }
                   ],
                   "cells": [
                     {
                       "col": 0,
-                      "w": 112.5,
+                      "w": 111.9,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 1,
-                      "w": 325.8,
+                      "w": 324.3,
                       "padding": "8px",
                       "controls": [
                         {
@@ -59402,13 +59402,13 @@
                     },
                     {
                       "col": 2,
-                      "w": 440.7,
+                      "w": 444,
                       "padding": "8px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 300,
+                          "w": 304,
                           "h": 14
                         },
                         {
@@ -59427,13 +59427,13 @@
                     },
                     {
                       "col": 3,
-                      "w": 152.8,
+                      "w": 152,
                       "padding": "8px",
                       "controls": []
                     },
                     {
                       "col": 4,
-                      "w": 85.2,
+                      "w": 84.8,
                       "padding": "8px",
                       "controls": []
                     }
@@ -61613,7 +61613,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:43"
+                                  "text": "Оновлено: 23:45"
                                 }
                               ]
                             },
@@ -62278,7 +62278,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (7), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          н"
+                                  "text": "Юніт — це учень, який платив цього місяця (10), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          "
                                 }
                               ]
                             }
@@ -94329,7 +94329,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -94417,7 +94417,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -94505,7 +94505,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98377,7 +98377,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98465,7 +98465,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -98553,7 +98553,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -102013,7 +102013,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -102101,7 +102101,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -102189,7 +102189,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105540,7 +105540,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105628,7 +105628,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -105716,7 +105716,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -130772,7 +130772,7 @@
                                     "y": 1
                                   },
                                   "size": {
-                                    "w": 1465.4,
+                                    "w": 1462.4,
                                     "h": 4422
                                   },
                                   "styles": {
@@ -130825,7 +130825,7 @@
                                     "y": 1
                                   },
                                   "size": {
-                                    "w": 1465,
+                                    "w": 1462,
                                     "h": 1
                                   },
                                   "styles": {
@@ -130859,7 +130859,7 @@
                     "y": 389
                   },
                   "size": {
-                    "w": 1465.4,
+                    "w": 1462.4,
                     "h": 4422
                   },
                   "wrap": {
@@ -130900,7 +130900,7 @@
                     },
                     {
                       "label": "Строк ⇅",
-                      "w": 157
+                      "w": 154
                     },
                     {
                       "label": "Телефон",
@@ -130982,7 +130982,7 @@
                     },
                     {
                       "col": 7,
-                      "w": 157,
+                      "w": 154,
                       "padding": "12px 14px",
                       "controls": [
                         {
@@ -130994,7 +130994,7 @@
                         {
                           "tag": "span",
                           "cls": "",
-                          "w": 129,
+                          "w": 126,
                           "h": 14
                         }
                       ]
@@ -138380,7 +138380,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 609.8,
-                                "y": -2
+                                "y": 0
                               },
                               "size": {
                                 "w": 189.3,
@@ -138399,7 +138399,7 @@
                                 "fontWeight": "400",
                                 "color": "rgb(26, 26, 46)",
                                 "borderRadius": "12px",
-                                "boxShadow": "rgba(108, 71, 255, 0.16) 0px 8px 28px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+                                "boxShadow": "rgba(108, 71, 255, 0.12) 0px 4px 24px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset",
                                 "opacity": "1",
                                 "borderTopWidth": "1px",
                                 "borderRightWidth": "1px",
@@ -144368,7 +144368,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2397.6
+                        "h": 2386.6
                       },
                       "styles": {
                         "display": "block",
@@ -144485,7 +144485,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:44"
+                                  "text": "Оновлено: 23:45"
                                 }
                               ]
                             },
@@ -144744,7 +144744,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 2270.6
+                            "h": 2259.6
                           },
                           "styles": {
                             "display": "block",
@@ -145201,7 +145201,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 609.8,
@@ -145236,7 +145236,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success[1]",
+                                  "key": ".dkpi.dkpi--success[2]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
@@ -145351,7 +145351,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 343
+                                "h": 332
                               },
                               "styles": {
                                 "display": "grid",
@@ -145378,7 +145378,7 @@
                                   },
                                   "size": {
                                     "w": 383.5,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145413,7 +145413,7 @@
                                   },
                                   "size": {
                                     "w": 191.8,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145448,7 +145448,7 @@
                                   },
                                   "size": {
                                     "w": 191.8,
-                                    "h": 343
+                                    "h": 332
                                   },
                                   "styles": {
                                     "display": "block",
@@ -145481,7 +145481,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 1214.8
+                                "y": 1203.8
                               },
                               "size": {
                                 "w": 799,
@@ -145578,7 +145578,7 @@
                   "id": null,
                   "rel": {
                     "x": 93,
-                    "y": 1406.8
+                    "y": 1395.8
                   },
                   "size": {
                     "w": 757,
@@ -147595,7 +147595,7 @@
                       },
                       "size": {
                         "w": 799,
-                        "h": 2084.5
+                        "h": 2099.5
                       },
                       "styles": {
                         "display": "block",
@@ -147712,7 +147712,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:44"
+                                  "text": "Оновлено: 23:45"
                                 }
                               ]
                             },
@@ -147971,7 +147971,7 @@
                           },
                           "size": {
                             "w": 799,
-                            "h": 1957.5
+                            "h": 1972.5
                           },
                           "styles": {
                             "display": "block",
@@ -148333,7 +148333,7 @@
                               },
                               "size": {
                                 "w": 799,
-                                "h": 300
+                                "h": 315
                               },
                               "styles": {
                                 "display": "block",
@@ -148397,7 +148397,7 @@
                                   },
                                   "size": {
                                     "w": 757,
-                                    "h": 216
+                                    "h": 231
                                   },
                                   "styles": {
                                     "display": "table",
@@ -148431,7 +148431,7 @@
                   },
                   "size": {
                     "w": 757,
-                    "h": 216
+                    "h": 231
                   },
                   "wrap": null,
                   "headHeight": 23,
@@ -148444,15 +148444,15 @@
                     },
                     {
                       "label": "Учнів",
-                      "w": 215.6
+                      "w": 214.4
                     },
                     {
                       "label": "Занять",
-                      "w": 288.1
+                      "w": 289.6
                     },
                     {
                       "label": "Основа",
-                      "w": 107.1
+                      "w": 106.8
                     },
                     {
                       "label": "Сума",
@@ -148468,7 +148468,7 @@
                     },
                     {
                       "col": 1,
-                      "w": 215.6,
+                      "w": 214.4,
                       "padding": "8px",
                       "controls": [
                         {
@@ -148487,13 +148487,13 @@
                     },
                     {
                       "col": 2,
-                      "w": 288.1,
+                      "w": 289.6,
                       "padding": "8px",
                       "controls": [
                         {
                           "tag": "span",
                           "cls": "pnl-hint-soft",
-                          "w": 268,
+                          "w": 272,
                           "h": 29
                         },
                         {
@@ -148512,7 +148512,7 @@
                     },
                     {
                       "col": 3,
-                      "w": 107.1,
+                      "w": 106.8,
                       "padding": "8px",
                       "controls": []
                     },
@@ -150555,7 +150555,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:44"
+                                  "text": "Оновлено: 23:46"
                                 }
                               ]
                             },
@@ -151220,7 +151220,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (7), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          н"
+                                  "text": "Юніт — це учень, який платив цього місяця (10), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          "
                                 }
                               ]
                             }
@@ -180447,7 +180447,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 7059.3
+                        "h": 7093.3
                       },
                       "styles": {
                         "display": "block",
@@ -180636,7 +180636,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180725,7 +180725,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -180814,7 +180814,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -181109,7 +181109,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 6792
+                            "h": 6826
                           },
                           "styles": {
                             "display": "flex",
@@ -181212,7 +181212,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Дизайн (mycomputer.school) · 10 р."
+                                  "text": "graphic · 10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -181300,7 +181300,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 211
+                                "h": 245
                               },
                               "styles": {
                                 "display": "flex",
@@ -181414,6 +181414,31 @@
                                   },
                                   "size": {
                                     "w": 313,
+                                    "h": 30
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Отказались от пробного,ребенок хочет оффлайн заниматься"
+                                },
+                                {
+                                  "key": ".mcard-line[2]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 113
+                                  },
+                                  "size": {
+                                    "w": 313,
                                     "h": 15
                                   },
                                   "styles": {
@@ -181434,7 +181459,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 106
+                                    "y": 140
                                   },
                                   "size": {
                                     "w": 313,
@@ -181462,7 +181487,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 438
+                                "y": 472
                               },
                               "size": {
                                 "w": 347,
@@ -181628,7 +181653,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 657
+                                "y": 691
                               },
                               "size": {
                                 "w": 347,
@@ -181819,7 +181844,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 895
+                                "y": 929
                               },
                               "size": {
                                 "w": 347,
@@ -181985,7 +182010,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1129
+                                "y": 1163
                               },
                               "size": {
                                 "w": 347,
@@ -182151,7 +182176,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1348
+                                "y": 1382
                               },
                               "size": {
                                 "w": 347,
@@ -182317,7 +182342,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1567
+                                "y": 1601
                               },
                               "size": {
                                 "w": 347,
@@ -182483,7 +182508,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1786
+                                "y": 1820
                               },
                               "size": {
                                 "w": 347,
@@ -182649,7 +182674,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2005
+                                "y": 2039
                               },
                               "size": {
                                 "w": 347,
@@ -182790,7 +182815,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2205
+                                "y": 2239
                               },
                               "size": {
                                 "w": 347,
@@ -182956,7 +182981,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2424
+                                "y": 2458
                               },
                               "size": {
                                 "w": 347,
@@ -183122,7 +183147,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2643
+                                "y": 2677
                               },
                               "size": {
                                 "w": 347,
@@ -183288,7 +183313,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2862
+                                "y": 2896
                               },
                               "size": {
                                 "w": 347,
@@ -183454,7 +183479,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3081
+                                "y": 3115
                               },
                               "size": {
                                 "w": 347,
@@ -183620,7 +183645,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3300
+                                "y": 3334
                               },
                               "size": {
                                 "w": 347,
@@ -183761,7 +183786,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3500
+                                "y": 3534
                               },
                               "size": {
                                 "w": 347,
@@ -183902,7 +183927,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3700
+                                "y": 3734
                               },
                               "size": {
                                 "w": 347,
@@ -184068,7 +184093,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3919
+                                "y": 3953
                               },
                               "size": {
                                 "w": 347,
@@ -184234,7 +184259,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4138
+                                "y": 4172
                               },
                               "size": {
                                 "w": 347,
@@ -184400,7 +184425,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4357
+                                "y": 4391
                               },
                               "size": {
                                 "w": 347,
@@ -184566,7 +184591,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4576
+                                "y": 4610
                               },
                               "size": {
                                 "w": 347,
@@ -184732,7 +184757,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4795
+                                "y": 4829
                               },
                               "size": {
                                 "w": 347,
@@ -184898,7 +184923,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 5014
+                                "y": 5048
                               },
                               "size": {
                                 "w": 347,
@@ -186323,7 +186348,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 7059.3
+                        "h": 7093.3
                       },
                       "styles": {
                         "display": "block",
@@ -186512,7 +186537,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186601,7 +186626,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186690,7 +186715,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -186985,7 +187010,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 6792
+                            "h": 6826
                           },
                           "styles": {
                             "display": "flex",
@@ -187088,7 +187113,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Дизайн (mycomputer.school) · 10 р."
+                                  "text": "graphic · 10 р. · Микита"
                                 },
                                 {
                                   "key": ".mcard-line[0]",
@@ -187176,7 +187201,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 211
+                                "h": 245
                               },
                               "styles": {
                                 "display": "flex",
@@ -187290,6 +187315,31 @@
                                   },
                                   "size": {
                                     "w": 313,
+                                    "h": 30
+                                  },
+                                  "styles": {
+                                    "display": "block",
+                                    "flexDirection": "row",
+                                    "flexWrap": "nowrap",
+                                    "fontFamily": "Inter, Arial, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "color": "rgb(107, 107, 120)",
+                                    "opacity": "1",
+                                    "borderTopColor": "rgb(107, 107, 120)",
+                                    "textAlign": "start"
+                                  },
+                                  "text": "Отказались от пробного,ребенок хочет оффлайн заниматься"
+                                },
+                                {
+                                  "key": ".mcard-line[2]",
+                                  "tag": "div",
+                                  "rel": {
+                                    "x": 17,
+                                    "y": 113
+                                  },
+                                  "size": {
+                                    "w": 313,
                                     "h": 15
                                   },
                                   "styles": {
@@ -187310,7 +187360,7 @@
                                   "tag": "div",
                                   "rel": {
                                     "x": 17,
-                                    "y": 106
+                                    "y": 140
                                   },
                                   "size": {
                                     "w": 313,
@@ -187338,7 +187388,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 438
+                                "y": 472
                               },
                               "size": {
                                 "w": 347,
@@ -187504,7 +187554,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 657
+                                "y": 691
                               },
                               "size": {
                                 "w": 347,
@@ -187695,7 +187745,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 895
+                                "y": 929
                               },
                               "size": {
                                 "w": 347,
@@ -187861,7 +187911,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1129
+                                "y": 1163
                               },
                               "size": {
                                 "w": 347,
@@ -188027,7 +188077,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1348
+                                "y": 1382
                               },
                               "size": {
                                 "w": 347,
@@ -188193,7 +188243,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1567
+                                "y": 1601
                               },
                               "size": {
                                 "w": 347,
@@ -188359,7 +188409,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 1786
+                                "y": 1820
                               },
                               "size": {
                                 "w": 347,
@@ -188525,7 +188575,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2005
+                                "y": 2039
                               },
                               "size": {
                                 "w": 347,
@@ -188666,7 +188716,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2205
+                                "y": 2239
                               },
                               "size": {
                                 "w": 347,
@@ -188832,7 +188882,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2424
+                                "y": 2458
                               },
                               "size": {
                                 "w": 347,
@@ -188998,7 +189048,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2643
+                                "y": 2677
                               },
                               "size": {
                                 "w": 347,
@@ -189164,7 +189214,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 2862
+                                "y": 2896
                               },
                               "size": {
                                 "w": 347,
@@ -189330,7 +189380,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3081
+                                "y": 3115
                               },
                               "size": {
                                 "w": 347,
@@ -189496,7 +189546,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3300
+                                "y": 3334
                               },
                               "size": {
                                 "w": 347,
@@ -189637,7 +189687,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3500
+                                "y": 3534
                               },
                               "size": {
                                 "w": 347,
@@ -189778,7 +189828,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3700
+                                "y": 3734
                               },
                               "size": {
                                 "w": 347,
@@ -189944,7 +189994,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 3919
+                                "y": 3953
                               },
                               "size": {
                                 "w": 347,
@@ -190110,7 +190160,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4138
+                                "y": 4172
                               },
                               "size": {
                                 "w": 347,
@@ -190276,7 +190326,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4357
+                                "y": 4391
                               },
                               "size": {
                                 "w": 347,
@@ -190442,7 +190492,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4576
+                                "y": 4610
                               },
                               "size": {
                                 "w": 347,
@@ -190608,7 +190658,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 4795
+                                "y": 4829
                               },
                               "size": {
                                 "w": 347,
@@ -190774,7 +190824,7 @@
                               "tag": "article",
                               "rel": {
                                 "x": 0,
-                                "y": 5014
+                                "y": 5048
                               },
                               "size": {
                                 "w": 347,
@@ -191973,7 +192023,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -192062,7 +192112,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -192151,7 +192201,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193537,7 +193587,7 @@
                                     "borderTopColor": "rgb(37, 99, 235)",
                                     "textAlign": "start"
                                   },
-                                  "text": "1"
+                                  "text": "0"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193626,7 +193676,7 @@
                                     "borderTopColor": "rgb(180, 83, 9)",
                                     "textAlign": "start"
                                   },
-                                  "text": "3"
+                                  "text": "4"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -193715,7 +193765,7 @@
                                     "borderTopColor": "rgb(124, 58, 237)",
                                     "textAlign": "start"
                                   },
-                                  "text": "8"
+                                  "text": "7"
                                 },
                                 {
                                   "key": ".stat-label",
@@ -201140,7 +201190,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 5664.5
+                        "h": 5698.5
                       },
                       "styles": {
                         "display": "block",
@@ -201912,7 +201962,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 5443
+                            "h": 5477
                           },
                           "styles": {
                             "display": "block",
@@ -202018,7 +202068,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 797
+                                "h": 774
                               },
                               "styles": {
                                 "display": "block",
@@ -202082,7 +202132,7 @@
                                   },
                                   "size": {
                                     "w": 313,
-                                    "h": 731
+                                    "h": 708
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -202106,11 +202156,11 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 995
+                                "y": 972
                               },
                               "size": {
                                 "w": 347,
-                                "h": 4448
+                                "h": 4505
                               },
                               "styles": {
                                 "display": "block",
@@ -202134,7 +202184,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 4448
+                                    "h": 4505
                                   },
                                   "styles": {
                                     "display": "block",
@@ -202974,7 +203024,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 2776.5
+                        "h": 676.5
                       },
                       "styles": {
                         "display": "block",
@@ -203747,7 +203797,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2555
+                            "h": 455
                           },
                           "styles": {
                             "display": "block",
@@ -203853,7 +203903,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 2390
+                                "h": 290
                               },
                               "styles": {
                                 "display": "block",
@@ -203884,7 +203934,7 @@
                                   },
                                   "size": {
                                     "w": 345,
-                                    "h": 2380
+                                    "h": 280
                                   },
                                   "styles": {
                                     "display": "block",
@@ -204724,7 +204774,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 2588.5
+                        "h": 992.5
                       },
                       "styles": {
                         "display": "block",
@@ -205496,7 +205546,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 2367
+                            "h": 771
                           },
                           "styles": {
                             "display": "block",
@@ -205602,7 +205652,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 2202
+                                "h": 606
                               },
                               "styles": {
                                 "display": "block",
@@ -205637,7 +205687,7 @@
                                   },
                                   "size": {
                                     "w": 313,
-                                    "h": 2168
+                                    "h": 572
                                   },
                                   "styles": {
                                     "display": "flex",
@@ -207651,7 +207701,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 4318.3
+                        "h": 4303.3
                       },
                       "styles": {
                         "display": "block",
@@ -207830,7 +207880,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 4252.3
+                            "h": 4237.3
                           },
                           "styles": {
                             "display": "block",
@@ -208263,7 +208313,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 3947
+                                "h": 3932
                               },
                               "styles": {
                                 "display": "block",
@@ -208295,7 +208345,7 @@
                                   },
                                   "size": {
                                     "w": 1380,
-                                    "h": 3945
+                                    "h": 3930
                                   },
                                   "styles": {
                                     "display": "table",
@@ -208382,11 +208432,11 @@
                   },
                   "size": {
                     "w": 1380,
-                    "h": 3945
+                    "h": 3930
                   },
                   "wrap": {
                     "w": 347,
-                    "h": 3947
+                    "h": 3932
                   },
                   "headHeight": 33.5,
                   "rowHeight": 53,
@@ -208406,7 +208456,7 @@
                     },
                     {
                       "label": "Дитина",
-                      "w": 116.6
+                      "w": 119.6
                     },
                     {
                       "label": "Акція",
@@ -208422,7 +208472,7 @@
                     },
                     {
                       "label": "Строк ⇅",
-                      "w": 149
+                      "w": 146
                     },
                     {
                       "label": "Телефон",
@@ -208473,7 +208523,7 @@
                     },
                     {
                       "col": 3,
-                      "w": 116.6,
+                      "w": 119.6,
                       "padding": "9px 10px",
                       "controls": []
                     },
@@ -208504,7 +208554,7 @@
                     },
                     {
                       "col": 7,
-                      "w": 149,
+                      "w": 146,
                       "padding": "9px 10px",
                       "controls": [
                         {
@@ -208516,7 +208566,7 @@
                         {
                           "tag": "span",
                           "cls": "",
-                          "w": 129,
+                          "w": 126,
                           "h": 14
                         }
                       ]
@@ -217286,7 +217336,7 @@
                       },
                       "size": {
                         "w": 347,
-                        "h": 3700.6
+                        "h": 3676.6
                       },
                       "styles": {
                         "display": "block",
@@ -217403,7 +217453,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:45"
+                                  "text": "Оновлено: 23:46"
                                 }
                               ]
                             },
@@ -217581,7 +217631,7 @@
                           },
                           "size": {
                             "w": 347,
-                            "h": 3573.6
+                            "h": 3549.6
                           },
                           "styles": {
                             "display": "block",
@@ -218038,7 +218088,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--danger",
+                                  "key": ".dkpi.dkpi--success[1]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 180.5,
@@ -218073,7 +218123,7 @@
                                   "bordered": true
                                 },
                                 {
-                                  "key": ".dkpi.dkpi--success[1]",
+                                  "key": ".dkpi.dkpi--success[2]",
                                   "tag": "div",
                                   "rel": {
                                     "x": 0,
@@ -218188,7 +218238,7 @@
                               },
                               "size": {
                                 "w": 347,
-                                "h": 914
+                                "h": 890
                               },
                               "styles": {
                                 "display": "grid",
@@ -218285,7 +218335,7 @@
                                   },
                                   "size": {
                                     "w": 347,
-                                    "h": 320.4
+                                    "h": 296.4
                                   },
                                   "styles": {
                                     "display": "block",
@@ -218318,7 +218368,7 @@
                               "tag": "div",
                               "rel": {
                                 "x": 0,
-                                "y": 2501.8
+                                "y": 2477.8
                               },
                               "size": {
                                 "w": 347,
@@ -218415,7 +218465,7 @@
                   "id": null,
                   "rel": {
                     "x": 35,
-                    "y": 2709.8
+                    "y": 2685.8
                   },
                   "size": {
                     "w": 676.5,
@@ -219451,7 +219501,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:45"
+                                  "text": "Оновлено: 23:46"
                                 }
                               ]
                             },
@@ -221115,7 +221165,7 @@
                                     "borderTopColor": "rgb(107, 107, 120)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Оновлено: 23:45"
+                                  "text": "Оновлено: 23:46"
                                 }
                               ]
                             },
@@ -221699,7 +221749,7 @@
                                     "borderTopColor": "rgb(95, 95, 107)",
                                     "textAlign": "start"
                                   },
-                                  "text": "Юніт — це учень, який платив цього місяця (7), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          н"
+                                  "text": "Юніт — це учень, який платив цього місяця (10), а не картка в базі. — це весь ФОП місяця (9 400 ₴), поділений\n          "
                                 }
                               ]
                             }
