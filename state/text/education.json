@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-02",
+ "takenAt": "2026-09-04",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -388,7 +388,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -1747,7 +1747,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -3082,7 +3082,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
