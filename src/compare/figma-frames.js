@@ -142,6 +142,12 @@ function pairBlocks(prod, design) {
 export function compareScreenToFrame(screen, frame) {
   const raw = prodBlocksOf(screen);
   if (!raw) return [{ kind: 'нет данных', note: 'в слепке прода нет .main — вкладка не открылась' }];
+  // Пустая вкладка при непустом кадре — это всегда обрезанный слепок, а не
+  // разъехавшийся макет: в проде у каждой вкладки есть хотя бы таблица.
+  // Без этой развилки такой слепок читался как «в макете лишние блоки».
+  if (!raw.length && frame.blocks.length) {
+    return [{ kind: 'нет данных', note: 'вкладка в слепке пуста — слепок снят на меньшую глубину, пересними' }];
+  }
 
   const findings = [];
   const prod = raw.filter((b) => !FLOATING.test(b.key));

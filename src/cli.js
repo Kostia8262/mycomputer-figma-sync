@@ -1015,11 +1015,23 @@ async function emitframes(config, args) {
 async function vstabs(config, args) {
   const targetId = args.target ?? 'dashboard';
   const target = config.targets.find((t) => t.id === targetId);
-  const prodFile = layoutFile(`${targetId}-tabs`);
+  // Слепок берётся тем же правилом, что и в `changes`: свой, иначе чужой вслух.
+  // Со строгим `layoutFile` сверка на Windows молча читала слепок 17.08, снятый
+  // на три уровня, — вкладки в нём пустые, и каждый экран приходил как
+  // «на проде блоков 0, в макете N». Похоже на разъехавшийся макет, а на деле
+  // просто не тот файл.
+  // --platform linux берёт слепок конкретной машины. Нужен потому, что «свой»
+  // файл может быть живее только по имени: на Windows суточная задача отключена
+  // с 24.08, а ночной раннер снимает под linux.
+  const { file: prodFile, foreign } = args.platform
+    ? { file: path.join(LAYOUT_DIR, `${targetId}-tabs.${args.platform}.json`), foreign: args.platform }
+    : findLayoutFile(`${targetId}-tabs`);
   const figmaFile = path.join(ROOT, 'state', 'figma-layout', `${targetId}-frames.json`);
 
-  if (!existsSync(prodFile)) throw new Error(`Нет слепка прода: сначала node src/cli.js tabs --target ${targetId}`);
+  if (!prodFile || !existsSync(prodFile)) throw new Error(`Нет слепка прода: сначала node src/cli.js tabs --target ${targetId}`);
   if (!existsSync(figmaFile)) throw new Error(`Нет геометрии макета: выполните node src/cli.js emitframes --target ${targetId} и сохраните результат в ${figmaFile}`);
+  if (foreign) console.log(`ВНИМАНИЕ: слепок вкладок снят на ${foreign}, а сверка идёт на ${process.platform}.`);
+  for (const line of platformWarnings(target, foreign)) console.log(line);
 
   const prod = JSON.parse(await readFile(prodFile, 'utf8'));
   const design = JSON.parse(await readFile(figmaFile, 'utf8'));
@@ -1059,7 +1071,7 @@ async function vstabs(config, args) {
       collected.push({ viewport: viewport.viewport, frame: screen.figmaName, findings });
       console.log(`  ${screen.figmaName}`);
       for (const f of findings.slice(0, 6)) {
-        if (f.kind === 'состав') console.log(`     состав: ${f.note}`);
+        if (f.kind === 'состав' || f.kind === 'нет данных') console.log(`     ${f.kind}: ${f.note}`);
         else if (f.kind === 'колонка') console.log(`     колонка «${f.column}»: прод ${f.inProd}, макет ${f.inDesign}`);
         else console.log(`     ${f.kind} «${f.block ?? f.table}»: прод ${f.inProd}, макет ${f.inDesign} (${f.delta > 0 ? '+' : ''}${f.delta ?? ''})`);
       }

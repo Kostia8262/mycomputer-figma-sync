@@ -1,6 +1,1519 @@
 {
- "checkedAt": "2026-08-17",
- "comparedScreens": 42,
- "totalFindings": 0,
- "screens": []
+ "checkedAt": "2026-09-06",
+ "comparedScreens": 72,
+ "totalFindings": 146,
+ "screens": [
+  {
+   "viewport": "desktop",
+   "frame": "База клієнтів — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "47:335",
+     "inProd": 74,
+     "inDesign": 36,
+     "delta": 38,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "47:335",
+     "inProd": 785.6,
+     "inDesign": 988.4,
+     "delta": -202.8,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "высота",
+     "block": "Client Duplicates",
+     "nodeId": "653:62112",
+     "inProd": 471.6,
+     "inDesign": 674.4,
+     "delta": -202.8,
+     "prodKey": "#clientDupAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Clients Table",
+     "nodeId": "135:23054",
+     "inProd": 875.6,
+     "inDesign": 1040.4,
+     "delta": -164.8,
+     "prodKey": "#clientsTableWrap"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "База клієнтів · Модалка «Картка клієнта» — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "138:21340",
+     "inProd": 74,
+     "inDesign": 36,
+     "delta": 38,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "138:21340",
+     "inProd": 785.6,
+     "inDesign": 988.4,
+     "delta": -202.8,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "высота",
+     "block": "Client Duplicates",
+     "nodeId": "653:62452",
+     "inProd": 471.6,
+     "inDesign": 674.4,
+     "delta": -202.8,
+     "prodKey": "#clientDupAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Clients Table",
+     "nodeId": "138:21341",
+     "inProd": 875.6,
+     "inDesign": 1040.4,
+     "delta": -164.8,
+     "prodKey": "#clientsTableWrap"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Оплати — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Payment Alert",
+     "nodeId": "162:38117",
+     "inProd": 206,
+     "inDesign": 165,
+     "delta": 41,
+     "prodKey": "#payAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Payments Table",
+     "nodeId": "109:17788",
+     "inProd": 616,
+     "inDesign": 574,
+     "delta": 42,
+     "prodKey": "#payTableArea"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Дашборд — Desktop 1440",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "dashAlerts",
+     "nodeId": "206:13344",
+     "inProd": 151,
+     "inDesign": 156,
+     "delta": -5,
+     "prodKey": "#dashAlerts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dashLatePayments",
+     "nodeId": "206:13376",
+     "inProd": 286.9,
+     "inDesign": 290,
+     "delta": -3.1,
+     "prodKey": "#dashLatePayments"
+    },
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "206:13337",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "356:50934",
+     "inProd": 85,
+     "inDesign": 90,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Дашборд · Фінанси — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "354:21303",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "354:44217",
+     "inProd": 85,
+     "inDesign": 90,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-toolbar",
+     "nodeId": "354:44239",
+     "inProd": 151,
+     "inDesign": 156,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-cards",
+     "nodeId": "354:44247",
+     "inProd": 203,
+     "inDesign": 212,
+     "delta": -9,
+     "prodKey": ".fin-grid"
+    },
+    {
+     "kind": "позиция",
+     "block": "📊 Доходи, витрати та прибуток по місяцях",
+     "nodeId": "550:23307",
+     "inProd": 850,
+     "inDesign": 709,
+     "delta": 141,
+     "prodKey": ".card[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "👩‍🏫 Зарплати викладачів — Сер 2026",
+     "nodeId": "356:50849",
+     "inProd": 270,
+     "inDesign": 200.5,
+     "delta": 69.5,
+     "prodKey": ".card[2]"
+    },
+    {
+     "kind": "позиция",
+     "block": "👩‍🏫 Зарплати викладачів — Сер 2026",
+     "nodeId": "356:50849",
+     "inProd": 1239,
+     "inDesign": 1101.5,
+     "delta": 137.5,
+     "prodKey": ".card[2]"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Дашборд · Unit-економіка — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "354:21504",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "354:44228",
+     "inProd": 85,
+     "inDesign": 90,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "позиция",
+     "block": "unit-toolbar",
+     "nodeId": "356:50869",
+     "inProd": 151,
+     "inDesign": 156,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "высота",
+     "block": "📅 Показники місяця",
+     "nodeId": "553:23312",
+     "inProd": 291.2,
+     "inDesign": 221.2,
+     "delta": 70,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "📅 Показники місяця",
+     "nodeId": "553:23312",
+     "inProd": 203,
+     "inDesign": 212,
+     "delta": -9,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "высота",
+     "block": "♾️ Загальні показники за весь час",
+     "nodeId": "554:23312",
+     "inProd": 257.4,
+     "inDesign": 265.1,
+     "delta": -7.7,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "♾️ Загальні показники за весь час",
+     "nodeId": "554:23312",
+     "inProd": 510.2,
+     "inDesign": 453.2,
+     "delta": 57,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "Як це рахується",
+     "nodeId": "356:50922",
+     "inProd": 402,
+     "inDesign": 272,
+     "delta": 130,
+     "prodKey": ".card"
+    },
+    {
+     "kind": "позиция",
+     "block": "Як це рахується",
+     "nodeId": "356:50922",
+     "inProd": 783.6,
+     "inDesign": 738.3,
+     "delta": 45.3,
+     "prodKey": ".card"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Контент — Desktop 1440",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "CMS Subtabs",
+     "nodeId": "642:805",
+     "inProd": 68,
+     "inDesign": 73,
+     "delta": -5,
+     "prodKey": ".cms-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "278:34338",
+     "inProd": 24,
+     "inDesign": 29,
+     "delta": -5,
+     "prodKey": "div"
+    },
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "51:2161",
+     "inProd": 1497,
+     "inDesign": 1515,
+     "delta": -18,
+     "prodKey": "#cmsPricing"
+    },
+    {
+     "kind": "позиция",
+     "block": "CMS Section",
+     "nodeId": "51:2161",
+     "inProd": 134,
+     "inDesign": 139,
+     "delta": -5,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "Статті · Модалка «Нова стаття» — Desktop 1440",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "Articles Table",
+     "nodeId": "132:22395",
+     "inProd": 124,
+     "inDesign": 128,
+     "delta": -4,
+     "prodKey": "#articlesTableWrap"
+    }
+   ]
+  },
+  {
+   "viewport": "desktop",
+   "frame": "SEO тексти — Desktop 1440",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "134:10090",
+     "inProd": 851,
+     "inDesign": 856,
+     "delta": -5,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "База клієнтів — Compact 900",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "319:39325",
+     "inProd": 761.6,
+     "inDesign": 992.4,
+     "delta": -230.8,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "высота",
+     "block": "Client Duplicates",
+     "nodeId": "653:79996",
+     "inProd": 457.6,
+     "inDesign": 688.4,
+     "delta": -230.8,
+     "prodKey": "#clientDupAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Clients Table",
+     "nodeId": "319:39326",
+     "inProd": 859.6,
+     "inDesign": 1090.4,
+     "delta": -230.8,
+     "prodKey": "#clientsTableWrap"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Оплати — Compact 900",
+   "findings": [
+    {
+     "kind": "состав",
+     "note": "на проде блоков 5, в макете 6",
+     "prodKeys": "#clientStatsRow, .client-subtabs, .sheet-head, #payAlert, #payTableArea",
+     "designKeys": "Stats Grid, Segmented Shell, Payment Month Bar, Payment Alert, Toolbar, Payments Table"
+    },
+    {
+     "kind": "высота",
+     "block": "Payment Month Bar",
+     "nodeId": "317:39022",
+     "inProd": 128,
+     "inDesign": 100,
+     "delta": 28,
+     "prodKey": ".sheet-head"
+    },
+    {
+     "kind": "высота",
+     "block": "Payment Alert",
+     "nodeId": "317:39023",
+     "inProd": 275,
+     "inDesign": 211,
+     "delta": 64,
+     "prodKey": "#payAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Payment Alert",
+     "nodeId": "317:39023",
+     "inProd": 432,
+     "inDesign": 404,
+     "delta": 28,
+     "prodKey": "#payAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "317:39024",
+     "inProd": 721,
+     "inDesign": 629,
+     "delta": 92,
+     "prodKey": "#payTableArea"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Сертифікати · Потоки — Compact 900",
+   "findings": [
+    {
+     "kind": "состав",
+     "note": "на проде блоков 5, в макете 4",
+     "prodKeys": ".client-subtabs, #giftSlotsStats, .toolbar, #giftSlotsHint, #giftSlotsTableWrap",
+     "designKeys": "Segmented Shell, Stats Grid, Toolbar, Gift Slots Table"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Дашборд — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dashAlerts",
+     "nodeId": "319:38988",
+     "inProd": 241.8,
+     "inDesign": 115.9,
+     "delta": 125.9,
+     "prodKey": "#dashAlerts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dashAlerts",
+     "nodeId": "319:38988",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": "#dashAlerts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dashLatePayments",
+     "nodeId": "319:38992",
+     "inProd": 402.8,
+     "inDesign": 281.9,
+     "delta": 120.9,
+     "prodKey": "#dashLatePayments"
+    },
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "319:38983",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "566:24830",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Дашборд · Фінанси — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "601:57416",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "601:57421",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-toolbar",
+     "nodeId": "601:57677",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-cards",
+     "nodeId": "601:57682",
+     "inProd": 193,
+     "inDesign": 182,
+     "delta": 11,
+     "prodKey": ".fin-grid"
+    },
+    {
+     "kind": "позиция",
+     "block": "Доходи, витрати та прибуток",
+     "nodeId": "601:57743",
+     "inProd": 1409.5,
+     "inDesign": 659,
+     "delta": 750.5,
+     "prodKey": ".card[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "Зарплати викладачів",
+     "nodeId": "601:57786",
+     "inProd": 315,
+     "inDesign": 200.5,
+     "delta": 114.5,
+     "prodKey": ".card[2]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Зарплати викладачів",
+     "nodeId": "601:57786",
+     "inProd": 1798.5,
+     "inDesign": 1031.5,
+     "delta": 767,
+     "prodKey": ".card[2]"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Дашборд · Unit-економіка — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "613:28099",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "613:28104",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "позиция",
+     "block": "unit-toolbar",
+     "nodeId": "613:28498",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "высота",
+     "block": "Показники місяця",
+     "nodeId": "613:28508",
+     "inProd": 508.3,
+     "inDesign": 358.4,
+     "delta": 149.9,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Показники місяця",
+     "nodeId": "613:28508",
+     "inProd": 193,
+     "inDesign": 182,
+     "delta": 11,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "высота",
+     "block": "Загальні показники",
+     "nodeId": "613:28538",
+     "inProd": 429.7,
+     "inDesign": 434.2,
+     "delta": -4.5,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Загальні показники",
+     "nodeId": "613:28538",
+     "inProd": 717.3,
+     "inDesign": 540.4,
+     "delta": 176.9,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "Як це рахується",
+     "nodeId": "613:28574",
+     "inProd": 501,
+     "inDesign": 203.5,
+     "delta": 297.5,
+     "prodKey": ".card"
+    },
+    {
+     "kind": "позиция",
+     "block": "Як це рахується",
+     "nodeId": "613:28574",
+     "inProd": 1163.1,
+     "inDesign": 974.6,
+     "delta": 188.5,
+     "prodKey": ".card"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Контент — Compact 900",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "CMS Subtabs",
+     "nodeId": "642:5164",
+     "inProd": 58,
+     "inDesign": 63,
+     "delta": -5,
+     "prodKey": ".cms-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "317:38670",
+     "inProd": 24,
+     "inDesign": 29,
+     "delta": -5,
+     "prodKey": "div"
+    },
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "317:38672",
+     "inProd": 1497,
+     "inDesign": 1515,
+     "delta": -18,
+     "prodKey": "#cmsPricing"
+    },
+    {
+     "kind": "позиция",
+     "block": "CMS Section",
+     "nodeId": "317:38672",
+     "inProd": 124,
+     "inDesign": 129,
+     "delta": -5,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "Модулі — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Modules Visibility Card",
+     "nodeId": "317:37652",
+     "inProd": 602,
+     "inDesign": 662,
+     "delta": -60,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "compact",
+   "frame": "SEO тексти — Compact 900",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "317:38297",
+     "inProd": 851,
+     "inDesign": 856,
+     "delta": -5,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Заявки — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "109:17953",
+     "inProd": 82,
+     "inDesign": 166,
+     "delta": -84,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "109:17953",
+     "inProd": 183.3,
+     "inDesign": 544,
+     "delta": -360.7,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Leads Table",
+     "nodeId": "109:17964",
+     "inProd": 281.3,
+     "inDesign": 726,
+     "delta": -444.7,
+     "prodKey": ".mcards"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "База клієнтів — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "56:283",
+     "inProd": 82,
+     "inDesign": 212,
+     "delta": -130,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "56:283",
+     "inProd": 1105.7,
+     "inDesign": 2160.8,
+     "delta": -1055.1,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Segmented Shell",
+     "nodeId": "56:270",
+     "inProd": 169.5,
+     "inDesign": 744,
+     "delta": -574.5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "Client Duplicates",
+     "nodeId": "653:71594",
+     "inProd": 856.2,
+     "inDesign": 1336.8,
+     "delta": -480.6,
+     "prodKey": "#clientDupAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Client Duplicates",
+     "nodeId": "653:71594",
+     "inProd": 235.5,
+     "inDesign": 810,
+     "delta": -574.5,
+     "prodKey": "#clientDupAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Clients Table",
+     "nodeId": "135:24912",
+     "inProd": 1203.7,
+     "inDesign": 2388.8,
+     "delta": -1185.1,
+     "prodKey": ".mcards"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Оплати — Mobile 390",
+   "findings": [
+    {
+     "kind": "состав",
+     "note": "на проде блоков 5, в макете 6",
+     "prodKeys": "#clientStatsRow, .client-subtabs, .sheet-head, #payAlert, #payTableArea",
+     "designKeys": "Stats Grid, Segmented Shell, Payment Month Bar, Payment Alert, Toolbar, Payments Table"
+    },
+    {
+     "kind": "позиция",
+     "block": "Segmented Shell",
+     "nodeId": "109:18155",
+     "inProd": 169.5,
+     "inDesign": 744,
+     "delta": -574.5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "Payment Month Bar",
+     "nodeId": "109:18166",
+     "inProd": 170,
+     "inDesign": 180,
+     "delta": -10,
+     "prodKey": ".sheet-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "Payment Month Bar",
+     "nodeId": "109:18166",
+     "inProd": 235.5,
+     "inDesign": 810,
+     "delta": -574.5,
+     "prodKey": ".sheet-head"
+    },
+    {
+     "kind": "высота",
+     "block": "Payment Alert",
+     "nodeId": "162:67104",
+     "inProd": 774,
+     "inDesign": 682,
+     "delta": 92,
+     "prodKey": "#payAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Payment Alert",
+     "nodeId": "162:67104",
+     "inProd": 419.5,
+     "inDesign": 1004,
+     "delta": -584.5,
+     "prodKey": "#payAlert"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "111:8638",
+     "inProd": 1207.5,
+     "inDesign": 1700,
+     "delta": -492.5,
+     "prodKey": "#payTableArea"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Відвідування — Mobile 390",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "Segmented Shell",
+     "nodeId": "58:1670",
+     "inProd": 169.5,
+     "inDesign": 744,
+     "delta": -574.5,
+     "prodKey": ".client-subtabs"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Розклад — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "card",
+     "nodeId": "605:29032",
+     "inProd": 469,
+     "inDesign": 370.4,
+     "delta": 98.6,
+     "prodKey": ".card"
+    },
+    {
+     "kind": "позиция",
+     "block": "card",
+     "nodeId": "605:29032",
+     "inProd": 400.5,
+     "inDesign": 981,
+     "delta": -580.5,
+     "prodKey": ".card"
+    },
+    {
+     "kind": "позиция",
+     "block": "Segmented Shell",
+     "nodeId": "95:9351",
+     "inProd": 169.5,
+     "inDesign": 744,
+     "delta": -574.5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "Schedule Header",
+     "nodeId": "95:9362",
+     "inProd": 151,
+     "inDesign": 157,
+     "delta": -6,
+     "prodKey": ".sheet-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "Schedule Header",
+     "nodeId": "95:9362",
+     "inProd": 235.5,
+     "inDesign": 810,
+     "delta": -574.5,
+     "prodKey": ".sheet-head"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Сертифікати · Сертифікати — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "570:53506",
+     "inProd": 120,
+     "inDesign": 166,
+     "delta": -46,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "570:53506",
+     "inProd": 249.3,
+     "inDesign": 610,
+     "delta": -360.7,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Gift Certs Table",
+     "nodeId": "570:53527",
+     "inProd": 385.3,
+     "inDesign": 792,
+     "delta": -406.7,
+     "prodKey": "#giftCertsTableWrap"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Сертифікати · Потоки — Mobile 390",
+   "findings": [
+    {
+     "kind": "состав",
+     "note": "на проде блоков 5, в макете 4",
+     "prodKeys": ".client-subtabs, #giftSlotsStats, .toolbar, #giftSlotsHint, #giftSlotsTableWrap",
+     "designKeys": "Segmented Shell, Stats Grid, Toolbar, Gift Slots Table"
+    },
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "570:53861",
+     "inProd": 36,
+     "inDesign": 120,
+     "delta": -84,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "570:53861",
+     "inProd": 249.3,
+     "inDesign": 506,
+     "delta": -256.7,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Gift Slots Table",
+     "nodeId": "570:53881",
+     "inProd": 301.3,
+     "inDesign": 642,
+     "delta": -340.7,
+     "prodKey": "#giftSlotsHint"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Свідоцтва — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Toolbar",
+     "nodeId": "519:25356",
+     "inProd": 82,
+     "inDesign": 258,
+     "delta": -176,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Toolbar",
+     "nodeId": "519:25356",
+     "inProd": 183.3,
+     "inDesign": 440,
+     "delta": -256.7,
+     "prodKey": ".toolbar"
+    },
+    {
+     "kind": "высота",
+     "block": "Bulk Bar",
+     "nodeId": "519:25825",
+     "inProd": 50,
+     "inDesign": 74,
+     "delta": -24,
+     "prodKey": "#certBulkBar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Bulk Bar",
+     "nodeId": "519:25825",
+     "inProd": 281.3,
+     "inDesign": 714,
+     "delta": -432.7,
+     "prodKey": "#certBulkBar"
+    },
+    {
+     "kind": "позиция",
+     "block": "Certificates Table",
+     "nodeId": "519:25357",
+     "inProd": 341.3,
+     "inDesign": 798,
+     "delta": -456.7,
+     "prodKey": ".mcards"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Дашборд — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dashAlerts",
+     "nodeId": "293:14331",
+     "inProd": 383.6,
+     "inDesign": 147.8,
+     "delta": 235.8,
+     "prodKey": "#dashAlerts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dashAlerts",
+     "nodeId": "293:14331",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": "#dashAlerts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dashLatePayments",
+     "nodeId": "293:14354",
+     "inProd": 544.6,
+     "inDesign": 313.8,
+     "delta": 230.8,
+     "prodKey": "#dashLatePayments"
+    },
+    {
+     "kind": "высота",
+     "block": "dash-charts",
+     "nodeId": "295:14368",
+     "inProd": 914,
+     "inDesign": 954.6,
+     "delta": -40.6,
+     "prodKey": ".dash-charts"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-charts",
+     "nodeId": "295:14368",
+     "inProd": 1830.8,
+     "inDesign": 2052.2,
+     "delta": -221.4,
+     "prodKey": ".dash-charts"
+    },
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "293:14324",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "566:24762",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Дашборд · Фінанси — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "601:58160",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "601:58165",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "finance-toolbar",
+     "nodeId": "601:58306",
+     "inProd": 112,
+     "inDesign": 36,
+     "delta": 76,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-toolbar",
+     "nodeId": "601:58306",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "finance-cards",
+     "nodeId": "601:58311",
+     "inProd": 269,
+     "inDesign": 182,
+     "delta": 87,
+     "prodKey": ".fin-grid"
+    },
+    {
+     "kind": "высота",
+     "block": "Доходи, витрати та прибуток",
+     "nodeId": "601:58372",
+     "inProd": 401,
+     "inDesign": 372.5,
+     "delta": 28.5,
+     "prodKey": ".card[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Доходи, витрати та прибуток",
+     "nodeId": "601:58372",
+     "inProd": 2007,
+     "inDesign": 659,
+     "delta": 1348,
+     "prodKey": ".card[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "Зарплати викладачів",
+     "nodeId": "601:58415",
+     "inProd": 536,
+     "inDesign": 200.5,
+     "delta": 335.5,
+     "prodKey": ".card[2]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Зарплати викладачів",
+     "nodeId": "601:58415",
+     "inProd": 2424,
+     "inDesign": 1031.5,
+     "delta": 1392.5,
+     "prodKey": ".card[2]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Дашборд · Unit-економіка — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "dash-header",
+     "nodeId": "613:28584",
+     "inProd": 41,
+     "inDesign": 46,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "dash-subtabs",
+     "nodeId": "613:28589",
+     "inProd": 75,
+     "inDesign": 80,
+     "delta": -5,
+     "prodKey": ".client-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "unit-toolbar",
+     "nodeId": "613:28730",
+     "inProd": 74,
+     "inDesign": 36,
+     "delta": 38,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "позиция",
+     "block": "unit-toolbar",
+     "nodeId": "613:28730",
+     "inProd": 141,
+     "inDesign": 146,
+     "delta": -5,
+     "prodKey": ".fin-head"
+    },
+    {
+     "kind": "высота",
+     "block": "Показники місяця",
+     "nodeId": "613:28740",
+     "inProd": 843.7,
+     "inDesign": 770,
+     "delta": 73.7,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Показники місяця",
+     "nodeId": "613:28740",
+     "inProd": 231,
+     "inDesign": 182,
+     "delta": 49,
+     "prodKey": ".card.ugroup[0]"
+    },
+    {
+     "kind": "высота",
+     "block": "Загальні показники",
+     "nodeId": "613:28770",
+     "inProd": 939.9,
+     "inDesign": 1078.6,
+     "delta": -138.7,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Загальні показники",
+     "nodeId": "613:28770",
+     "inProd": 1090.7,
+     "inDesign": 952,
+     "delta": 138.7,
+     "prodKey": ".card.ugroup[1]"
+    },
+    {
+     "kind": "высота",
+     "block": "Як це рахується",
+     "nodeId": "613:28806",
+     "inProd": 979.5,
+     "inDesign": 203.5,
+     "delta": 776,
+     "prodKey": ".card"
+    },
+    {
+     "kind": "позиция",
+     "block": "Як це рахується",
+     "nodeId": "613:28806",
+     "inProd": 2046.6,
+     "inDesign": 2030.6,
+     "delta": 16,
+     "prodKey": ".card"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Співробітники — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "260:33522",
+     "inProd": 28,
+     "inDesign": 53,
+     "delta": -25,
+     "prodKey": "div"
+    },
+    {
+     "kind": "позиция",
+     "block": "Staff Table",
+     "nodeId": "132:20485",
+     "inProd": 62,
+     "inDesign": 87,
+     "delta": -25,
+     "prodKey": ".mcards"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Курси — Mobile 390",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "coursesGrid",
+     "nodeId": "135:28344",
+     "inProd": 62,
+     "inDesign": 87,
+     "delta": -25,
+     "prodKey": "#coursesGrid"
+    },
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "56:572",
+     "inProd": 28,
+     "inDesign": 53,
+     "delta": -25,
+     "prodKey": "div[0]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Програми — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "222:11602",
+     "inProd": 108,
+     "inDesign": 113,
+     "delta": -5,
+     "prodKey": "div[0]"
+    },
+    {
+     "kind": "позиция",
+     "block": "Curriculum Table",
+     "nodeId": "132:24837",
+     "inProd": 142,
+     "inDesign": 147,
+     "delta": -5,
+     "prodKey": "#curriculumContent"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Контент — Mobile 390",
+   "findings": [
+    {
+     "kind": "позиция",
+     "block": "CMS Subtabs",
+     "nodeId": "642:3003",
+     "inProd": 58,
+     "inDesign": 63,
+     "delta": -5,
+     "prodKey": ".cms-subtabs"
+    },
+    {
+     "kind": "высота",
+     "block": "page-head",
+     "nodeId": "278:34517",
+     "inProd": 24,
+     "inDesign": 29,
+     "delta": -5,
+     "prodKey": "div"
+    },
+    {
+     "kind": "высота",
+     "block": "CMS Section",
+     "nodeId": "58:1398",
+     "inProd": 1570,
+     "inDesign": 1594,
+     "delta": -24,
+     "prodKey": "#cmsPricing"
+    },
+    {
+     "kind": "позиция",
+     "block": "CMS Section",
+     "nodeId": "58:1398",
+     "inProd": 164,
+     "inDesign": 169,
+     "delta": -5,
+     "prodKey": "#cmsPricing"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "Модулі — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "Modules Visibility Card",
+     "nodeId": "134:20617",
+     "inProd": 618,
+     "inDesign": 678,
+     "delta": -60,
+     "prodKey": "div[1]"
+    }
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "frame": "SEO тексти — Mobile 390",
+   "findings": [
+    {
+     "kind": "высота",
+     "block": "seo-intro",
+     "nodeId": "134:20750",
+     "inProd": 64,
+     "inDesign": 80,
+     "delta": -16,
+     "prodKey": "p"
+    },
+    {
+     "kind": "высота",
+     "block": "SEO Text Card",
+     "nodeId": "134:20751",
+     "inProd": 942,
+     "inDesign": 1041,
+     "delta": -99,
+     "prodKey": "div[1]"
+    },
+    {
+     "kind": "позиция",
+     "block": "SEO Text Card",
+     "nodeId": "134:20751",
+     "inProd": 142,
+     "inDesign": 159,
+     "delta": -17,
+     "prodKey": "div[1]"
+    }
+   ]
+  }
+ ]
 }
