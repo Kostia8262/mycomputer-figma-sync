@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-05",
+ "takenAt": "2026-09-06",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1272,7 +1272,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Дошколярик — підготовка до школи",
+       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2591,7 +2591,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Дошколярик — підготовка до школи",
+       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3886,7 +3886,7 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Дошколярик — підготовка до школи",
+       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {

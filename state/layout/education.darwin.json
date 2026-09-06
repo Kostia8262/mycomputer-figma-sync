@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 10427,
+      "documentHeight": 9614,
       "sections": [
         {
           "key": "#header",
@@ -3668,7 +3668,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 1585.5
+            "h": 772.4
           },
           "styles": {
             "display": "block",
@@ -3696,7 +3696,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 1409.5
+                "h": 596.4
               },
               "styles": {
                 "display": "block",
@@ -3783,7 +3783,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 1207.4
+                    "h": 358.3
                   },
                   "styles": {
                     "display": "block",
@@ -3808,19 +3808,19 @@
                       },
                       "size": {
                         "w": 1112,
-                        "h": 1207.4
+                        "h": 358.3
                       },
                       "children": [
                         {
                           "key": ".review-card[0]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 0
+                            "x": 2,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 203.3
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3828,12 +3828,12 @@
                           "key": ".review-card[1]",
                           "tag": "div",
                           "rel": {
-                            "x": 565,
-                            "y": 0
+                            "x": 377.3,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 203.3
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3841,12 +3841,12 @@
                           "key": ".review-card[2]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 221.3
+                            "x": 752.7,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 250.9
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3854,12 +3854,12 @@
                           "key": ".review-card[3]",
                           "tag": "div",
                           "rel": {
-                            "x": 565,
-                            "y": 221.3
+                            "x": 1128,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 250.9
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3867,12 +3867,12 @@
                           "key": ".review-card[4]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 490.2
+                            "x": 1503.3,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3880,12 +3880,12 @@
                           "key": ".review-card[5]",
                           "tag": "div",
                           "rel": {
-                            "x": 565,
-                            "y": 490.2
+                            "x": 1878.6,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3893,12 +3893,12 @@
                           "key": ".review-card[6]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 735.2
+                            "x": 2254,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3906,12 +3906,12 @@
                           "key": ".review-card[7]",
                           "tag": "div",
                           "rel": {
-                            "x": 565,
-                            "y": 735.2
+                            "x": 2629.3,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
                         },
@@ -3919,14 +3919,149 @@
                           "key": ".review-card[8]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 980.3
+                            "x": 3004.6,
+                            "y": 14
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
+                            "w": 357.3,
+                            "h": 322.3
                           },
                           "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "#reviewsPagination",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 568.4
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "14px",
+                    "flexWrap": "nowrap",
+                    "marginTop": "8px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(15, 14, 26)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(15, 14, 26)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#reviewsPrev",
+                      "tag": "button",
+                      "rel": {
+                        "x": 486,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsPgDots",
+                      "tag": "div",
+                      "rel": {
+                        "x": 528,
+                        "y": 9.5
+                      },
+                      "size": {
+                        "w": 56,
+                        "h": 9
+                      },
+                      "children": [
+                        {
+                          "key": ".reviews__pg-dot.active",
+                          "tag": "button",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 22,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[0]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 30,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[1]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 47,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsNext",
+                      "tag": "button",
+                      "rel": {
+                        "x": 598,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
                         }
                       ]
                     }
@@ -3942,7 +4077,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6861.7
+            "y": 6048.6
           },
           "size": {
             "w": 1440,
@@ -4611,14 +4746,14 @@
               ]
             }
           ],
-          "absoluteTop": 6861.7
+          "absoluteTop": 6048.6
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7675.2
+            "y": 6862
           },
           "size": {
             "w": 1440,
@@ -4854,14 +4989,14 @@
               ]
             }
           ],
-          "absoluteTop": 7675.2
+          "absoluteTop": 6862
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8303.8
+            "y": 7490.6
           },
           "size": {
             "w": 1440,
@@ -5118,14 +5253,14 @@
               ]
             }
           ],
-          "absoluteTop": 8303.8
+          "absoluteTop": 7490.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9398.1
+            "y": 8585
           },
           "size": {
             "w": 1440,
@@ -5727,14 +5862,14 @@
               ]
             }
           ],
-          "absoluteTop": 9398.1
+          "absoluteTop": 8585
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 11242,
+      "documentHeight": 10382,
       "sections": [
         {
           "key": "#header",
@@ -9382,7 +9517,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 1656.9
+            "h": 796.2
           },
           "styles": {
             "display": "block",
@@ -9410,7 +9545,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 1480.9
+                "h": 620.2
               },
               "styles": {
                 "display": "block",
@@ -9497,7 +9632,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 1278.8
+                    "h": 382.1
                   },
                   "styles": {
                     "display": "block",
@@ -9522,19 +9657,19 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 1278.8
+                        "h": 382.1
                       },
                       "children": [
                         {
                           "key": ".review-card[0]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 0
+                            "x": 2,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9542,12 +9677,12 @@
                           "key": ".review-card[1]",
                           "tag": "div",
                           "rel": {
-                            "x": 497,
-                            "y": 0
+                            "x": 332,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9555,12 +9690,12 @@
                           "key": ".review-card[2]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 245.1
+                            "x": 662,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 274.7
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9568,12 +9703,12 @@
                           "key": ".review-card[3]",
                           "tag": "div",
                           "rel": {
-                            "x": 497,
-                            "y": 245.1
+                            "x": 992,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 274.7
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9581,12 +9716,12 @@
                           "key": ".review-card[4]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 537.8
+                            "x": 1321.9,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9594,12 +9729,12 @@
                           "key": ".review-card[5]",
                           "tag": "div",
                           "rel": {
-                            "x": 497,
-                            "y": 537.8
+                            "x": 1651.9,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9607,12 +9742,12 @@
                           "key": ".review-card[6]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 782.8
+                            "x": 1981.9,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9620,12 +9755,12 @@
                           "key": ".review-card[7]",
                           "tag": "div",
                           "rel": {
-                            "x": 497,
-                            "y": 782.8
+                            "x": 2311.9,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
                         },
@@ -9633,14 +9768,149 @@
                           "key": ".review-card[8]",
                           "tag": "div",
                           "rel": {
-                            "x": 0,
-                            "y": 1027.9
+                            "x": 2641.9,
+                            "y": 14
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
+                            "w": 312,
+                            "h": 346.1
                           },
                           "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "#reviewsPagination",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 592.2
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "14px",
+                    "flexWrap": "nowrap",
+                    "marginTop": "8px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(15, 14, 26)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(15, 14, 26)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#reviewsPrev",
+                      "tag": "button",
+                      "rel": {
+                        "x": 418,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsPgDots",
+                      "tag": "div",
+                      "rel": {
+                        "x": 460,
+                        "y": 9.5
+                      },
+                      "size": {
+                        "w": 56,
+                        "h": 9
+                      },
+                      "children": [
+                        {
+                          "key": ".reviews__pg-dot.active",
+                          "tag": "button",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 22,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[0]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 30,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[1]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 47,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsNext",
+                      "tag": "button",
+                      "rel": {
+                        "x": 530,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
                         }
                       ]
                     }
@@ -9656,7 +9926,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7425
+            "y": 6564.3
           },
           "size": {
             "w": 1024,
@@ -10325,14 +10595,14 @@
               ]
             }
           ],
-          "absoluteTop": 7425
+          "absoluteTop": 6564.3
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8238.5
+            "y": 7377.8
           },
           "size": {
             "w": 1024,
@@ -10568,14 +10838,14 @@
               ]
             }
           ],
-          "absoluteTop": 8238.5
+          "absoluteTop": 7377.8
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9119.1
+            "y": 8258.4
           },
           "size": {
             "w": 1024,
@@ -10832,14 +11102,14 @@
               ]
             }
           ],
-          "absoluteTop": 9119.1
+          "absoluteTop": 8258.4
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 10213.5
+            "y": 9352.8
           },
           "size": {
             "w": 1024,
@@ -11441,7 +11711,7 @@
               ]
             }
           ],
-          "absoluteTop": 10213.5
+          "absoluteTop": 9352.8
         }
       ]
     },
