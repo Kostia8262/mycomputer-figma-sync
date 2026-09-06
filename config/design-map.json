@@ -844,6 +844,60 @@
             ]
           },
           {
+            "id": "clients-subs",
+            "figmaName": "Абонементи",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-subs"
+              },
+              {
+                "wait": 1200
+              }
+            ]
+          },
+          {
+            "id": "subs-filter-overdue",
+            "figmaName": "Абонементи · Фільтр «чекають оплати»",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-subs"
+              },
+              {
+                "wait": 1200
+              },
+              {
+                "clickSelector": "#subsSummary .subs-stat"
+              },
+              {
+                "wait": 800
+              }
+            ]
+          },
+          {
+            "id": "subs-search-empty",
+            "figmaName": "Абонементи · Пошук — нічого не знайдено",
+            "tab": "База клієнтів",
+            "steps": [
+              {
+                "clickSelector": "#csub-subs"
+              },
+              {
+                "wait": 1200
+              },
+              {
+                "type": {
+                  "selector": "#subsSearch",
+                  "text": "zzzzнеттакого"
+                }
+              },
+              {
+                "wait": 900
+              }
+            ]
+          },
+          {
             "id": "clients-attendance",
             "figmaName": "Відвідування",
             "tab": "База клієнтів",
