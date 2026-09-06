@@ -1,7 +1,7 @@
 {
  "checkedAt": "2026-09-06",
  "comparedScreens": 72,
- "totalFindings": 146,
+ "totalFindings": 145,
  "screens": [
   {
    "viewport": "desktop",
@@ -198,13 +198,13 @@
      "block": "📊 Доходи, витрати та прибуток по місяцях",
      "nodeId": "550:23307",
      "inProd": 850,
-     "inDesign": 709,
-     "delta": 141,
+     "inDesign": 926,
+     "delta": -76,
      "prodKey": ".card[1]"
     },
     {
      "kind": "высота",
-     "block": "👩‍🏫 Зарплати викладачів — Сер 2026",
+     "block": "👩‍🏫 Зарплати викладачів — Вер 2026",
      "nodeId": "356:50849",
      "inProd": 270,
      "inDesign": 200.5,
@@ -213,11 +213,11 @@
     },
     {
      "kind": "позиция",
-     "block": "👩‍🏫 Зарплати викладачів — Сер 2026",
+     "block": "👩‍🏫 Зарплати викладачів — Вер 2026",
      "nodeId": "356:50849",
      "inProd": 1239,
-     "inDesign": 1101.5,
-     "delta": 137.5,
+     "inDesign": 1318.5,
+     "delta": -79.5,
      "prodKey": ".card[2]"
     }
    ]
@@ -258,8 +258,8 @@
      "block": "📅 Показники місяця",
      "nodeId": "553:23312",
      "inProd": 291.2,
-     "inDesign": 221.2,
-     "delta": 70,
+     "inDesign": 279,
+     "delta": 12.2,
      "prodKey": ".card.ugroup[0]"
     },
     {
@@ -276,17 +276,8 @@
      "block": "♾️ Загальні показники за весь час",
      "nodeId": "554:23312",
      "inProd": 257.4,
-     "inDesign": 265.1,
-     "delta": -7.7,
-     "prodKey": ".card.ugroup[1]"
-    },
-    {
-     "kind": "позиция",
-     "block": "♾️ Загальні показники за весь час",
-     "nodeId": "554:23312",
-     "inProd": 510.2,
-     "inDesign": 453.2,
-     "delta": 57,
+     "inDesign": 235,
+     "delta": 22.4,
      "prodKey": ".card.ugroup[1]"
     },
     {
@@ -303,8 +294,8 @@
      "block": "Як це рахується",
      "nodeId": "356:50922",
      "inProd": 783.6,
-     "inDesign": 738.3,
-     "delta": 45.3,
+     "inDesign": 766,
+     "delta": 17.6,
      "prodKey": ".card"
     }
    ]
