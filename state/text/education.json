@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-08",
+ "takenAt": "2026-09-10",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1273,10 +1273,6 @@
       },
       {
        "t": "Відгуки",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2635,10 +2631,6 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Класична версія сайту",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "Школа дизайну",
        "where": ".footer__links › .footer__col › li"
       },
@@ -3971,10 +3963,6 @@
       },
       {
        "t": "Відгуки",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Класична версія сайту",
        "where": ".footer__links › .footer__col › li"
       },
       {
