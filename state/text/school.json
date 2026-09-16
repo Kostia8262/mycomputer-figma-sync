@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-11",
+ "takenAt": "2026-09-16",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1286,6 +1286,30 @@
       {
        "t": "my.computer.academy25@gmail.com",
        "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Листи від школи дизайну",
+       "where": ".footer__subscribe-intro › .footer__subscribe-title › p"
+      },
+      {
+       "t": "Нові курси, події та матеріали про дизайн. Відписатися — в один клік.",
+       "where": ".footer__subscribe-intro › .footer__subscribe-text › p"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › .visually-hidden › label"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › #footerSubscribeEmail › input"
+      },
+      {
+       "t": "Підписатися",
+       "where": ".footer__subscribe-form › .btn › button"
+      },
+      {
+       "t": "Натискаючи «Підписатися», ви погоджуєтесь отримувати листи та з політикою конфіденційності.",
+       "where": ".footer__subscribe-box › .footer__subscribe-note › p"
       },
       {
        "t": "Онлайн-оплата карткою",
@@ -2603,6 +2627,30 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Листи від школи дизайну",
+       "where": ".footer__subscribe-intro › .footer__subscribe-title › p"
+      },
+      {
+       "t": "Нові курси, події та матеріали про дизайн. Відписатися — в один клік.",
+       "where": ".footer__subscribe-intro › .footer__subscribe-text › p"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › .visually-hidden › label"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › #footerSubscribeEmail › input"
+      },
+      {
+       "t": "Підписатися",
+       "where": ".footer__subscribe-form › .btn › button"
+      },
+      {
+       "t": "Натискаючи «Підписатися», ви погоджуєтесь отримувати листи та з політикою конфіденційності.",
+       "where": ".footer__subscribe-box › .footer__subscribe-note › p"
+      },
+      {
        "t": "Онлайн-оплата карткою",
        "where": ".footer__pay-btns › #openPayModal › span"
       },
@@ -3892,6 +3940,30 @@
       {
        "t": "my.computer.academy25@gmail.com",
        "where": ".footer__links › .footer__col › li"
+      },
+      {
+       "t": "Листи від школи дизайну",
+       "where": ".footer__subscribe-intro › .footer__subscribe-title › p"
+      },
+      {
+       "t": "Нові курси, події та матеріали про дизайн. Відписатися — в один клік.",
+       "where": ".footer__subscribe-intro › .footer__subscribe-text › p"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › .visually-hidden › label"
+      },
+      {
+       "t": "Ваш email",
+       "where": ".footer__subscribe-form › #footerSubscribeEmail › input"
+      },
+      {
+       "t": "Підписатися",
+       "where": ".footer__subscribe-form › .btn › button"
+      },
+      {
+       "t": "Натискаючи «Підписатися», ви погоджуєтесь отримувати листи та з політикою конфіденційності.",
+       "where": ".footer__subscribe-box › .footer__subscribe-note › p"
       },
       {
        "t": "Онлайн-оплата карткою",

@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 10262,
+      "documentHeight": 10392,
       "sections": [
         {
           "key": "#header",
@@ -5058,7 +5058,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 854.3
+            "h": 984.3
           },
           "styles": {
             "display": "block",
@@ -5099,7 +5099,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 770.3
+                "h": 900.3
               },
               "styles": {
                 "display": "block",
@@ -5255,11 +5255,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 536
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 126
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "14px 40px",
+                    "gridTemplateColumns": "632px 440px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.72)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.08)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 632,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 632,
+                            "h": 19.5
+                          },
+                          "text": "Листи від школи дизайну"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 420,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та матеріали про дизай"
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 672,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 440,
+                        "h": 85
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 44
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 52
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 666
                   },
                   "size": {
                     "w": 1112,
@@ -5393,7 +5509,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 650.8
+                    "y": 780.8
                   },
                   "size": {
                     "w": 1112,
@@ -5490,7 +5606,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 704.2
+                    "y": 834.2
                   },
                   "size": {
                     "w": 1112,
@@ -5565,7 +5681,7 @@
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 11176,
+      "documentHeight": 11306,
       "sections": [
         {
           "key": "#header",
@@ -10603,7 +10719,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 881.5
+            "h": 1011.5
           },
           "styles": {
             "display": "block",
@@ -10644,7 +10760,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 797.5
+                "h": 927.5
               },
               "styles": {
                 "display": "block",
@@ -10800,11 +10916,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 563.2
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 126
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "14px 40px",
+                    "gridTemplateColumns": "496px 440px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.72)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.08)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 496,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 496,
+                            "h": 19.5
+                          },
+                          "text": "Листи від школи дизайну"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 420,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та матеріали про дизай"
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 536,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 440,
+                        "h": 85
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 44
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 52
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 693.2
                   },
                   "size": {
                     "w": 976,
@@ -10938,7 +11170,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 678
+                    "y": 808
                   },
                   "size": {
                     "w": 976,
@@ -11035,7 +11267,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 731.4
+                    "y": 861.4
                   },
                   "size": {
                     "w": 976,
@@ -11110,7 +11342,7 @@
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 13491,
+      "documentHeight": 13747,
       "sections": [
         {
           "key": "#header",
@@ -16156,7 +16388,7 @@
           },
           "size": {
             "w": 390,
-            "h": 1548.4
+            "h": 1804.9
           },
           "styles": {
             "display": "block",
@@ -16197,7 +16429,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1464.4
+                "h": 1720.9
               },
               "styles": {
                 "display": "block",
@@ -16353,11 +16585,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__pay-section",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 16,
                     "y": 1140.5
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 252.5
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "12px",
+                    "gridTemplateColumns": "358px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.72)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.08)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 19.5
+                          },
+                          "text": "Листи від школи дизайну"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та матеріали про дизай"
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 0,
+                        "y": 95.5
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 137
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 96
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 104
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__pay-section",
+                  "tag": "div",
+                  "rel": {
+                    "x": 16,
+                    "y": 1397
                   },
                   "size": {
                     "w": 358,
@@ -16491,7 +16839,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1303.3
+                    "y": 1559.8
                   },
                   "size": {
                     "w": 358,
@@ -16588,7 +16936,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1379.7
+                    "y": 1636.2
                   },
                   "size": {
                     "w": 358,

@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9577,
+      "documentHeight": 9679,
       "sections": [
         {
           "key": "#header",
@@ -4081,7 +4081,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 813.5
+            "h": 789.5
           },
           "styles": {
             "display": "block",
@@ -4103,7 +4103,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1440px",
-              "height": "813.453px",
+              "height": "789.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -4123,7 +4123,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 653.5
+                "h": 629.5
               },
               "styles": {
                 "display": "block",
@@ -4224,7 +4224,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 297.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -4254,7 +4254,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4279,7 +4279,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4287,7 +4287,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4306,7 +4306,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4331,7 +4331,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4339,7 +4339,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4358,7 +4358,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4383,7 +4383,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4391,7 +4391,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4410,7 +4410,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4435,7 +4435,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4443,7 +4443,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4462,7 +4462,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4487,7 +4487,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4495,7 +4495,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4514,7 +4514,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -4539,7 +4539,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -4547,7 +4547,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -4564,7 +4564,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 518.7
+                    "y": 494.7
                   },
                   "size": {
                     "w": 1112,
@@ -4687,7 +4687,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 582.7
+                    "y": 558.7
                   },
                   "size": {
                     "w": 1112,
@@ -4753,7 +4753,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6862
+            "y": 6838
           },
           "size": {
             "w": 1440,
@@ -4989,14 +4989,14 @@
               ]
             }
           ],
-          "absoluteTop": 6862
+          "absoluteTop": 6838
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7490.6
+            "y": 7466.6
           },
           "size": {
             "w": 1440,
@@ -5253,18 +5253,18 @@
               ]
             }
           ],
-          "absoluteTop": 7490.6
+          "absoluteTop": 7466.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8585
+            "y": 8561
           },
           "size": {
             "w": 1440,
-            "h": 991.6
+            "h": 1117.6
           },
           "styles": {
             "display": "block",
@@ -5292,7 +5292,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 907.6
+                "h": 1033.6
               },
               "styles": {
                 "display": "block",
@@ -5448,11 +5448,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__ages",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 612.2
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 126
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "14px 40px",
+                    "gridTemplateColumns": "632px 440px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 632,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 632,
+                            "h": 19.5
+                          },
+                          "text": "Листи від академії"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 420,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та поради для батьків."
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 672,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 440,
+                        "h": 85
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 44
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 52
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__ages",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 738.2
                   },
                   "size": {
                     "w": 1112,
@@ -5563,7 +5679,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 671.3
+                    "y": 797.3
                   },
                   "size": {
                     "w": 1112,
@@ -5697,7 +5813,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 788.1
+                    "y": 914.1
                   },
                   "size": {
                     "w": 1112,
@@ -5794,7 +5910,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 841.5
+                    "y": 967.5
                   },
                   "size": {
                     "w": 1112,
@@ -5862,14 +5978,14 @@
               ]
             }
           ],
-          "absoluteTop": 8585
+          "absoluteTop": 8561
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 10344,
+      "documentHeight": 10446,
       "sections": [
         {
           "key": "#header",
@@ -9930,7 +10046,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 813.5
+            "h": 789.5
           },
           "styles": {
             "display": "block",
@@ -9952,7 +10068,7 @@
             "::before": {
               "content": "\"\"",
               "width": "1024px",
-              "height": "813.453px",
+              "height": "789.453px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -9972,7 +10088,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 653.5
+                "h": 629.5
               },
               "styles": {
                 "display": "block",
@@ -10073,7 +10189,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 297.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -10103,7 +10219,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10128,7 +10244,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10136,7 +10252,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10155,7 +10271,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10180,7 +10296,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10188,7 +10304,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10207,7 +10323,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10232,7 +10348,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10240,7 +10356,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10259,7 +10375,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10284,7 +10400,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10292,7 +10408,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10311,7 +10427,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10336,7 +10452,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10344,7 +10460,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10363,7 +10479,7 @@
                       },
                       "size": {
                         "w": 340,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -10388,7 +10504,7 @@
                           },
                           "size": {
                             "w": 338,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -10396,7 +10512,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 338,
@@ -10413,7 +10529,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 518.7
+                    "y": 494.7
                   },
                   "size": {
                     "w": 976,
@@ -10536,7 +10652,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 582.7
+                    "y": 558.7
                   },
                   "size": {
                     "w": 976,
@@ -10602,7 +10718,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7377.8
+            "y": 7353.8
           },
           "size": {
             "w": 1024,
@@ -10838,14 +10954,14 @@
               ]
             }
           ],
-          "absoluteTop": 7377.8
+          "absoluteTop": 7353.8
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8258.4
+            "y": 8234.4
           },
           "size": {
             "w": 1024,
@@ -11102,18 +11218,18 @@
               ]
             }
           ],
-          "absoluteTop": 8258.4
+          "absoluteTop": 8234.4
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9352.8
+            "y": 9328.8
           },
           "size": {
             "w": 1024,
-            "h": 991.6
+            "h": 1117.6
           },
           "styles": {
             "display": "block",
@@ -11141,7 +11257,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 907.6
+                "h": 1033.6
               },
               "styles": {
                 "display": "block",
@@ -11297,11 +11413,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__ages",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 24,
                     "y": 612.2
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 126
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "14px 40px",
+                    "gridTemplateColumns": "496px 440px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 496,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 496,
+                            "h": 19.5
+                          },
+                          "text": "Листи від академії"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 420,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та поради для батьків."
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 536,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 440,
+                        "h": 85
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 44
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 52
+                          },
+                          "size": {
+                            "w": 440,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__ages",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 738.2
                   },
                   "size": {
                     "w": 976,
@@ -11412,7 +11644,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 671.3
+                    "y": 797.3
                   },
                   "size": {
                     "w": 976,
@@ -11546,7 +11778,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 788.1
+                    "y": 914.1
                   },
                   "size": {
                     "w": 976,
@@ -11643,7 +11875,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 841.5
+                    "y": 967.5
                   },
                   "size": {
                     "w": 976,
@@ -11711,14 +11943,14 @@
               ]
             }
           ],
-          "absoluteTop": 9352.8
+          "absoluteTop": 9328.8
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 13827,
+      "documentHeight": 14055,
       "sections": [
         {
           "key": "#header",
@@ -15625,7 +15857,7 @@
           },
           "size": {
             "w": 390,
-            "h": 809.8
+            "h": 785.8
           },
           "styles": {
             "display": "block",
@@ -15647,7 +15879,7 @@
             "::before": {
               "content": "\"\"",
               "width": "390px",
-              "height": "809.828px",
+              "height": "785.828px",
               "backgroundColor": "rgba(0, 0, 0, 0)"
             },
             "::after": {
@@ -15667,7 +15899,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 697.8
+                "h": 673.8
               },
               "styles": {
                 "display": "block",
@@ -15768,7 +16000,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 297.4
+                    "h": 273.4
                   },
                   "styles": {
                     "display": "flex",
@@ -15798,7 +16030,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15823,7 +16055,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15831,7 +16063,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15850,7 +16082,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15875,7 +16107,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15883,7 +16115,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15902,7 +16134,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15927,7 +16159,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15935,7 +16167,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -15954,7 +16186,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -15979,7 +16211,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -15987,7 +16219,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -16006,7 +16238,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -16031,7 +16263,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -16039,7 +16271,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -16058,7 +16290,7 @@
                       },
                       "size": {
                         "w": 300,
-                        "h": 285.4
+                        "h": 261.4
                       },
                       "bordered": true,
                       "children": [
@@ -16083,7 +16315,7 @@
                           },
                           "size": {
                             "w": 298,
-                            "h": 180.3
+                            "h": 156.3
                           }
                         },
                         {
@@ -16091,7 +16323,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 1,
-                            "y": 233.3
+                            "y": 209.3
                           },
                           "size": {
                             "w": 298,
@@ -16108,7 +16340,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 525
+                    "y": 501
                   },
                   "size": {
                     "w": 358,
@@ -16210,7 +16442,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 569
+                    "y": 545
                   },
                   "size": {
                     "w": 358,
@@ -16276,7 +16508,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9271.6
+            "y": 9247.6
           },
           "size": {
             "w": 390,
@@ -16512,14 +16744,14 @@
               ]
             }
           ],
-          "absoluteTop": 9271.6
+          "absoluteTop": 9247.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9986.7
+            "y": 9962.7
           },
           "size": {
             "w": 390,
@@ -16777,18 +17009,18 @@
               ]
             }
           ],
-          "absoluteTop": 9986.7
+          "absoluteTop": 9962.7
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11992.1
+            "y": 11968.1
           },
           "size": {
             "w": 390,
-            "h": 1834.5
+            "h": 2087
           },
           "styles": {
             "display": "block",
@@ -16816,7 +17048,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1750.5
+                "h": 2003
               },
               "styles": {
                 "display": "block",
@@ -16972,11 +17204,127 @@
                   ]
                 },
                 {
-                  "key": ".footer__ages",
+                  "key": ".footer__subscribe",
                   "tag": "div",
                   "rel": {
                     "x": 16,
                     "y": 1337.4
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 252.5
+                  },
+                  "styles": {
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "alignItems": "start",
+                    "gap": "12px",
+                    "gridTemplateColumns": "358px",
+                    "flexWrap": "nowrap",
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "opacity": "1",
+                    "borderTopWidth": "1px",
+                    "borderTopColor": "rgba(255, 255, 255, 0.06)",
+                    "textAlign": "start"
+                  },
+                  "bordered": true,
+                  "children": [
+                    {
+                      "key": ".footer__subscribe-intro",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 21
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 62.5
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-title",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 19.5
+                          },
+                          "text": "Листи від академії"
+                        },
+                        {
+                          "key": ".footer__subscribe-text",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 23.5
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 39
+                          },
+                          "styles": {
+                            "marginTop": "4px"
+                          },
+                          "text": "Нові курси, події та поради для батьків."
+                        }
+                      ]
+                    },
+                    {
+                      "key": ".footer__subscribe-box",
+                      "tag": "form",
+                      "rel": {
+                        "x": 0,
+                        "y": 95.5
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 137
+                      },
+                      "children": [
+                        {
+                          "key": ".footer__subscribe-form",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 96
+                          }
+                        },
+                        {
+                          "key": ".footer__subscribe-note",
+                          "tag": "p",
+                          "rel": {
+                            "x": 0,
+                            "y": 104
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 33
+                          },
+                          "text": "."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": ".footer__ages",
+                  "tag": "div",
+                  "rel": {
+                    "x": 16,
+                    "y": 1589.9
                   },
                   "size": {
                     "w": 358,
@@ -17087,7 +17435,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1424.6
+                    "y": 1677.1
                   },
                   "size": {
                     "w": 358,
@@ -17221,7 +17569,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1589.4
+                    "y": 1841.9
                   },
                   "size": {
                     "w": 358,
@@ -17318,7 +17666,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1665.8
+                    "y": 1918.3
                   },
                   "size": {
                     "w": 358,
@@ -17387,7 +17735,7 @@
               ]
             }
           ],
-          "absoluteTop": 11992.1
+          "absoluteTop": 11968.1
         }
       ]
     }
