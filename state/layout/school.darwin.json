@@ -1914,7 +1914,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 276,
@@ -1927,7 +1927,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 552,
@@ -1940,7 +1940,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 828,
@@ -7575,7 +7575,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 276,
@@ -7588,7 +7588,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 552,
@@ -7601,7 +7601,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 828,
@@ -13061,7 +13061,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 238.3,
@@ -13074,7 +13074,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 476.6,
@@ -13087,7 +13087,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 714.9,
