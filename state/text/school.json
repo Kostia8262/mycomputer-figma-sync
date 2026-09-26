@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-22",
+ "takenAt": "2026-09-26",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -264,38 +264,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -328,38 +296,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Анімація та моушн-дизайн",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Анімація кадр за кадром",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Моушн-дизайн для соцмереж",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -381,6 +317,70 @@
       },
       {
        "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн: дослідження та портфоліо",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ UX-дослідження, персони, CJM",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Дизайн-система та реальний клієнтський бриф",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Повне портфоліо для співбесіди у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Анімація та моушн-дизайн",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Моушн-дизайн для соцмереж",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований ролик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1603,38 +1603,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -1667,38 +1635,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Анімація та моушн-дизайн",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Анімація кадр за кадром",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Моушн-дизайн для соцмереж",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -1720,6 +1656,70 @@
       },
       {
        "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн: дослідження та портфоліо",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ UX-дослідження, персони, CJM",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Дизайн-система та реальний клієнтський бриф",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Повне портфоліо для співбесіди у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Анімація та моушн-дизайн",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Моушн-дизайн для соцмереж",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований ролик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -2914,38 +2914,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -2978,38 +2946,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Анімація та моушн-дизайн",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Анімація кадр за кадром",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Моушн-дизайн для соцмереж",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -3031,6 +2967,70 @@
       },
       {
        "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "UI/UX дизайн: дослідження та портфоліо",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ UX-дослідження, персони, CJM",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Дизайн-система та реальний клієнтський бриф",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Повне портфоліо для співбесіди у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "10–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Анімація та моушн-дизайн",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Моушн-дизайн для соцмереж",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований ролик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {

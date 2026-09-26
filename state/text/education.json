@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-24",
+ "takenAt": "2026-09-26",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -260,6 +260,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -281,6 +313,38 @@
       },
       {
        "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -324,59 +388,27 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "6–10 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Графіка та анімація",
+       "t": "Scratch: візуальне програмування",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
-       "t": "✓ Цифровий малюнок у Photoshop",
+       "t": "✓ Створення персонажів і сцен",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Анімація кадр за кадром",
+       "t": "✓ Логіка та алгоритми через гру",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Власний анімований мультик у фіналі",
+       "t": "✓ Власна гра у фіналі курсу",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Клавіатура та швидкий набір тексту",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Word, Excel, PowerPoint з нуля",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Підготовка до курсів програмування",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
+       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -441,38 +473,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1639,6 +1639,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -1660,6 +1692,38 @@
       },
       {
        "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1703,59 +1767,27 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "6–10 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Графіка та анімація",
+       "t": "Scratch: візуальне програмування",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
-       "t": "✓ Цифровий малюнок у Photoshop",
+       "t": "✓ Створення персонажів і сцен",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Анімація кадр за кадром",
+       "t": "✓ Логіка та алгоритми через гру",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Власний анімований мультик у фіналі",
+       "t": "✓ Власна гра у фіналі курсу",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Клавіатура та швидкий набір тексту",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Word, Excel, PowerPoint з нуля",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Підготовка до курсів програмування",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
+       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1820,38 +1852,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -2994,6 +2994,38 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Графіка та анімація",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Цифровий малюнок у Photoshop",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Анімація кадр за кадром",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Власний анімований мультик у фіналі",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "6–14 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -3015,6 +3047,38 @@
       },
       {
        "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Базовий курс роботи з ПК",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Клавіатура та швидкий набір тексту",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Word, Excel, PowerPoint з нуля",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Підготовка до курсів програмування",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3058,59 +3122,27 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
+       "t": "6–10 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "Графіка та анімація",
+       "t": "Scratch: візуальне програмування",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
-       "t": "✓ Цифровий малюнок у Photoshop",
+       "t": "✓ Створення персонажів і сцен",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Анімація кадр за кадром",
+       "t": "✓ Логіка та алгоритми через гру",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "✓ Власний анімований мультик у фіналі",
+       "t": "✓ Власна гра у фіналі курсу",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Клавіатура та швидкий набір тексту",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Word, Excel, PowerPoint з нуля",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Підготовка до курсів програмування",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
+       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3175,38 +3207,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "6–10 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Scratch: візуальне програмування",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Створення персонажів і сцен",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Логіка та алгоритми через гру",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власна гра у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 6 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
