@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-26",
+ "takenAt": "2026-09-28",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1260,6 +1260,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Навчання за кордоном",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Ціни",
        "where": ".footer__links › .footer__col › li"
       },
@@ -1349,6 +1353,42 @@
       },
       {
        "t": "14 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Живете за кордоном:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі країни",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Польща",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Німеччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чехія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Австрія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Італія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Словаччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Румунія",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -2639,6 +2679,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Навчання за кордоном",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Ціни",
        "where": ".footer__links › .footer__col › li"
       },
@@ -2728,6 +2772,42 @@
       },
       {
        "t": "14 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Живете за кордоном:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі країни",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Польща",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Німеччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чехія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Австрія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Італія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Словаччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Румунія",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -3998,6 +4078,10 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
+       "t": "Навчання за кордоном",
+       "where": ".footer__links › .footer__col › li"
+      },
+      {
        "t": "Ціни",
        "where": ".footer__links › .footer__col › li"
       },
@@ -4087,6 +4171,42 @@
       },
       {
        "t": "14 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Живете за кордоном:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі країни",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Польща",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Німеччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чехія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Австрія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Італія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Словаччина",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Румунія",
        "where": ".container › .footer__ages › a"
       },
       {
