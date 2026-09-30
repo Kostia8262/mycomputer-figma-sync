@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-28",
+ "takenAt": "2026-09-30",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -420,6 +420,26 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "English",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "⏱ 18",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 5 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -803,7 +823,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "10 450",
+       "t": "9 450",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -1356,6 +1376,118 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "Ваше місто:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "Дніпро",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Київ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Харків",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Львів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Одеса",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Суми",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Запоріжжя",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кривий Ріг",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Миколаїв",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Вінниця",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Полтава",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернігів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Черкаси",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Житомир",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Хмельницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернівці",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Рівне",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Івано-Франківськ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Тернопіль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Луцьк",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ужгород",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кропивницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Херсон",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кременчук",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кам'янське",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Біла Церква",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бровари",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "Живете за кордоном:",
        "where": ".container › .footer__ages › span"
       },
@@ -1389,6 +1521,22 @@
       },
       {
        "t": "Румунія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Іспанія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Британія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бельгія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Норвегія",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -1839,6 +1987,26 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "English",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "⏱ 18",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 5 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -2222,7 +2390,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "10 450",
+       "t": "9 450",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -2775,6 +2943,118 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "Ваше місто:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "Дніпро",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Київ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Харків",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Львів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Одеса",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Суми",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Запоріжжя",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кривий Ріг",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Миколаїв",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Вінниця",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Полтава",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернігів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Черкаси",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Житомир",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Хмельницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернівці",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Рівне",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Івано-Франківськ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Тернопіль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Луцьк",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ужгород",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кропивницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Херсон",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кременчук",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кам'янське",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Біла Церква",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бровари",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "Живете за кордоном:",
        "where": ".container › .footer__ages › span"
       },
@@ -2808,6 +3088,22 @@
       },
       {
        "t": "Румунія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Іспанія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Британія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бельгія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Норвегія",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -3234,6 +3530,26 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "English",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "⏱ 18",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 5 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -3617,7 +3933,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "10 450",
+       "t": "9 450",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -4174,6 +4490,118 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "Ваше місто:",
+       "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "Дніпро",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Київ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Харків",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Львів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Одеса",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Суми",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Запоріжжя",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кривий Ріг",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Миколаїв",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Вінниця",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Полтава",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернігів",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Черкаси",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Житомир",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Хмельницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Чернівці",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Рівне",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Івано-Франківськ",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Тернопіль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Луцьк",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ужгород",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кропивницький",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Херсон",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кременчук",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кам'янське",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Біла Церква",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бровари",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "Живете за кордоном:",
        "where": ".container › .footer__ages › span"
       },
@@ -4207,6 +4635,22 @@
       },
       {
        "t": "Румунія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Іспанія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Британія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Бельгія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Норвегія",
        "where": ".container › .footer__ages › a"
       },
       {

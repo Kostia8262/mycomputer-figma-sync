@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-28",
+ "takenAt": "2026-09-30",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -735,7 +735,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "1 800",
+       "t": "1 900",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -771,7 +771,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "3 600",
+       "t": "3 800",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -2074,7 +2074,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "1 800",
+       "t": "1 900",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -2110,7 +2110,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "3 600",
+       "t": "3 800",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -3385,7 +3385,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "1 800",
+       "t": "1 900",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
@@ -3421,7 +3421,7 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "3 600",
+       "t": "3 800",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
