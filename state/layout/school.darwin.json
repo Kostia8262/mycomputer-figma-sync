@@ -3231,14 +3231,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 222,
+                            "x": 194.3,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",
@@ -8892,14 +8892,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 176.6,
+                            "x": 148.9,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",
@@ -14441,14 +14441,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 222.6,
+                            "x": 194.9,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",

@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-09-30",
+ "takenAt": "2026-10-03",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -70,7 +70,7 @@
       },
       {
        "t": "Безкоштовний урок",
-       "where": ".hero__actions › .btn › a"
+       "where": ".hero__actions › .btn › span"
       },
       {
        "t": "Дивитися курси",
@@ -420,26 +420,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "English",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "⏱ 18",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 5 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -476,7 +456,7 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "UI/UX дизайн для розробників",
+       "t": "Веб-дизайн та UI/UX",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
@@ -763,7 +743,7 @@
        "where": ".pricing-card › .btn › a"
       },
       {
-       "t": "ОПТИМАЛЬНИЙ",
+       "t": "НАЙПОПУЛЯРНІШИЙ",
        "where": ".pricing-card › .pricing-card__badge › div"
       },
       {
@@ -1228,11 +1208,11 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Веб-розробка (6–18 років)",
+       "t": "Веб-розробка (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
+       "t": "Веб-дизайн і UI/UX (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1637,7 +1617,7 @@
       },
       {
        "t": "Безкоштовний урок",
-       "where": ".hero__actions › .btn › a"
+       "where": ".hero__actions › .btn › span"
       },
       {
        "t": "Дивитися курси",
@@ -1987,26 +1967,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "English",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "⏱ 18",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 5 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -2043,7 +2003,7 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "UI/UX дизайн для розробників",
+       "t": "Веб-дизайн та UI/UX",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
@@ -2330,7 +2290,7 @@
        "where": ".pricing-card › .btn › a"
       },
       {
-       "t": "ОПТИМАЛЬНИЙ",
+       "t": "НАЙПОПУЛЯРНІШИЙ",
        "where": ".pricing-card › .pricing-card__badge › div"
       },
       {
@@ -2795,11 +2755,11 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Веб-розробка (6–18 років)",
+       "t": "Веб-розробка (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
+       "t": "Веб-дизайн і UI/UX (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3180,7 +3140,7 @@
       },
       {
        "t": "Безкоштовний урок",
-       "where": ".hero__actions › .btn › a"
+       "where": ".hero__actions › .btn › span"
       },
       {
        "t": "Дивитися курси",
@@ -3530,26 +3490,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "English",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "⏱ 18",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 5 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -3586,7 +3526,7 @@
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
-       "t": "UI/UX дизайн для розробників",
+       "t": "Веб-дизайн та UI/UX",
        "where": ".course-card__body › .course-card__title › h3"
       },
       {
@@ -3873,7 +3813,7 @@
        "where": ".pricing-card › .btn › a"
       },
       {
-       "t": "ОПТИМАЛЬНИЙ",
+       "t": "НАЙПОПУЛЯРНІШИЙ",
        "where": ".pricing-card › .pricing-card__badge › div"
       },
       {
@@ -4342,11 +4282,11 @@
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "Веб-розробка (6–18 років)",
+       "t": "Веб-розробка (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
+       "t": "Веб-дизайн і UI/UX (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {

@@ -2099,19 +2099,6 @@
                             "h": 321.9
                           },
                           "bordered": true
-                        },
-                        {
-                          "key": ".course-card[9]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2760,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 321.9
-                          },
-                          "bordered": true
                         }
                       ]
                     },
@@ -3314,14 +3301,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 222,
+                            "x": 194.3,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",
@@ -8625,19 +8612,6 @@
                             "h": 321.9
                           },
                           "bordered": true
-                        },
-                        {
-                          "key": ".course-card[9]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2760,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 321.9
-                          },
-                          "bordered": true
                         }
                       ]
                     },
@@ -9840,14 +9814,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 176.6,
+                            "x": 148.9,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",
@@ -14929,19 +14903,6 @@
                             "h": 358.1
                           },
                           "bordered": true
-                        },
-                        {
-                          "key": ".course-card[9]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2383,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 222.3,
-                            "h": 358.1
-                          },
-                          "bordered": true
                         }
                       ]
                     },
@@ -15004,7 +14965,7 @@
                       "key": "#coursesPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 52,
+                        "x": 59,
                         "y": 0
                       },
                       "size": {
@@ -15031,11 +14992,11 @@
                       "key": "#coursesPageNums",
                       "tag": "div",
                       "rel": {
-                        "x": 98,
+                        "x": 105,
                         "y": 14
                       },
                       "size": {
-                        "w": 162,
+                        "w": 148,
                         "h": 8
                       },
                       "children": [
@@ -15158,18 +15119,6 @@
                             "w": 8,
                             "h": 8
                           }
-                        },
-                        {
-                          "key": ".courses__page-num[9]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 154,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
                         }
                       ]
                     },
@@ -15177,7 +15126,7 @@
                       "key": "#coursesNext",
                       "tag": "button",
                       "rel": {
-                        "x": 270,
+                        "x": 263,
                         "y": 0
                       },
                       "size": {
@@ -16219,14 +16168,14 @@
                           "key": ".pricing-card__badge",
                           "tag": "div",
                           "rel": {
-                            "x": 222.6,
+                            "x": 194.9,
                             "y": 0
                           },
                           "size": {
-                            "w": 114.4,
+                            "w": 142.1,
                             "h": 25
                           },
-                          "text": "ОПТИМАЛЬНИЙ"
+                          "text": "НАЙПОПУЛЯРНІШИЙ"
                         },
                         {
                           "key": ".pricing-card__title",
