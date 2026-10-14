@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-10-06",
+ "takenAt": "2026-10-14",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1340,7 +1340,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "7 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "9 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -1348,7 +1356,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "11 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "13 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -1358,6 +1374,10 @@
       {
        "t": "Ваше місто:",
        "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі міста",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Дніпро",
@@ -2887,7 +2907,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "7 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "9 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -2895,7 +2923,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "11 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "13 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -2905,6 +2941,10 @@
       {
        "t": "Ваше місто:",
        "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі міста",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Дніпро",
@@ -4414,7 +4454,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "7 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "8 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "9 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -4422,7 +4470,15 @@
        "where": ".container › .footer__ages › a"
       },
       {
+       "t": "11 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
        "t": "12 років",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "13 років",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -4432,6 +4488,10 @@
       {
        "t": "Ваше місто:",
        "where": ".container › .footer__ages › span"
+      },
+      {
+       "t": "усі міста",
+       "where": ".container › .footer__ages › a"
       },
       {
        "t": "Дніпро",
