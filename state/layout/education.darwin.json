@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9854,
+      "documentHeight": 9946,
       "sections": [
         {
           "key": "#header",
@@ -2277,7 +2277,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 631.9
+            "h": 648.9
           },
           "styles": {
             "display": "block",
@@ -2304,7 +2304,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 455.9
+                "h": 472.9
               },
               "styles": {
                 "display": "block",
@@ -2404,7 +2404,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 212.7
+                    "h": 229.7
                   },
                   "styles": {
                     "display": "flex",
@@ -2544,7 +2544,7 @@
                       },
                       "size": {
                         "w": 233,
-                        "h": 207.6
+                        "h": 229.7
                       },
                       "children": [
                         {
@@ -2572,7 +2572,7 @@
                           },
                           "size": {
                             "w": 209,
-                            "h": 123.6
+                            "h": 145.7
                           }
                         }
                       ]
@@ -2646,7 +2646,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 3463.8
+            "y": 3480.8
           },
           "size": {
             "w": 1440,
@@ -3028,18 +3028,18 @@
               ]
             }
           ],
-          "absoluteTop": 3463.8
+          "absoluteTop": 3480.8
         },
         {
           "key": "#pricing",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4105.1
+            "y": 4122.1
           },
           "size": {
             "w": 1440,
-            "h": 728.9
+            "h": 803.9
           },
           "styles": {
             "display": "block",
@@ -3067,7 +3067,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 568.9
+                "h": 643.9
               },
               "styles": {
                 "display": "block",
@@ -3463,18 +3463,45 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "key": ".pricing__note",
+                  "tag": "p",
+                  "rel": {
+                    "x": 220,
+                    "y": 592.9
+                  },
+                  "size": {
+                    "w": 720,
+                    "h": 51
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "marginTop": "24px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "15px",
+                    "fontWeight": "400",
+                    "lineHeight": "25.5px",
+                    "color": "rgb(107, 107, 128)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(107, 107, 128)",
+                    "textAlign": "center"
+                  },
+                  "text": "Для 6–7 років заняття коротше — 60 хвилин замість 90, і рахунок йде погодинно: одинарна група коштує 1 200 грн на місяць"
                 }
               ]
             }
           ],
-          "absoluteTop": 4105.1
+          "absoluteTop": 4122.1
         },
         {
           "key": "#certificate",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4834
+            "y": 4926
           },
           "size": {
             "w": 1440,
@@ -3657,14 +3684,14 @@
               ]
             }
           ],
-          "absoluteTop": 4834
+          "absoluteTop": 4926
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5276.2
+            "y": 5368.2
           },
           "size": {
             "w": 1440,
@@ -4070,14 +4097,14 @@
               ]
             }
           ],
-          "absoluteTop": 5276.2
+          "absoluteTop": 5368.2
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6048.6
+            "y": 6140.6
           },
           "size": {
             "w": 1440,
@@ -4746,14 +4773,14 @@
               ]
             }
           ],
-          "absoluteTop": 6048.6
+          "absoluteTop": 6140.6
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6838
+            "y": 6930
           },
           "size": {
             "w": 1440,
@@ -4989,14 +5016,14 @@
               ]
             }
           ],
-          "absoluteTop": 6838
+          "absoluteTop": 6930
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7466.6
+            "y": 7558.6
           },
           "size": {
             "w": 1440,
@@ -5253,14 +5280,14 @@
               ]
             }
           ],
-          "absoluteTop": 7466.6
+          "absoluteTop": 7558.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8561
+            "y": 8653
           },
           "size": {
             "w": 1440,
@@ -5723,6 +5750,58 @@
                         "h": 22.1
                       },
                       "text": "14 років"
+                    },
+                    {
+                      "key": "a[9]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 722.6,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50,
+                        "h": 22.1
+                      },
+                      "text": "15 років"
+                    },
+                    {
+                      "key": "a[10]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 786.6,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "16 років"
+                    },
+                    {
+                      "key": "a[11]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 850.9,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 49.6,
+                        "h": 22.1
+                      },
+                      "text": "17 років"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 914.5,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "18 років"
                     }
                   ]
                 },
@@ -6578,14 +6657,14 @@
               ]
             }
           ],
-          "absoluteTop": 8561
+          "absoluteTop": 8653
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 10650,
+      "documentHeight": 10725,
       "sections": [
         {
           "key": "#header",
@@ -9109,7 +9188,7 @@
                       },
                       "size": {
                         "w": 199,
-                        "h": 207.6
+                        "h": 229.7
                       },
                       "children": [
                         {
@@ -9137,7 +9216,7 @@
                           },
                           "size": {
                             "w": 175,
-                            "h": 123.6
+                            "h": 145.7
                           }
                         }
                       ]
@@ -9604,7 +9683,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 770.5
+            "h": 845.5
           },
           "styles": {
             "display": "block",
@@ -9632,7 +9711,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 610.5
+                "h": 685.5
               },
               "styles": {
                 "display": "block",
@@ -10028,6 +10107,33 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "key": ".pricing__note",
+                  "tag": "p",
+                  "rel": {
+                    "x": 152,
+                    "y": 634.5
+                  },
+                  "size": {
+                    "w": 720,
+                    "h": 51
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "marginTop": "24px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "15px",
+                    "fontWeight": "400",
+                    "lineHeight": "25.5px",
+                    "color": "rgb(107, 107, 128)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(107, 107, 128)",
+                    "textAlign": "center"
+                  },
+                  "text": "Для 6–7 років заняття коротше — 60 хвилин замість 90, і рахунок йде погодинно: одинарна група коштує 1 200 грн на місяць"
                 }
               ]
             }
@@ -10039,7 +10145,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5326.3
+            "y": 5401.3
           },
           "size": {
             "w": 1024,
@@ -10222,14 +10328,14 @@
               ]
             }
           ],
-          "absoluteTop": 5326.3
+          "absoluteTop": 5401.3
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5768.1
+            "y": 5843.1
           },
           "size": {
             "w": 1024,
@@ -10635,14 +10741,14 @@
               ]
             }
           ],
-          "absoluteTop": 5768.1
+          "absoluteTop": 5843.1
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6564.3
+            "y": 6639.3
           },
           "size": {
             "w": 1024,
@@ -11311,14 +11417,14 @@
               ]
             }
           ],
-          "absoluteTop": 6564.3
+          "absoluteTop": 6639.3
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7353.8
+            "y": 7428.8
           },
           "size": {
             "w": 1024,
@@ -11554,14 +11660,14 @@
               ]
             }
           ],
-          "absoluteTop": 7353.8
+          "absoluteTop": 7428.8
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8234.4
+            "y": 8309.4
           },
           "size": {
             "w": 1024,
@@ -11818,14 +11924,14 @@
               ]
             }
           ],
-          "absoluteTop": 8234.4
+          "absoluteTop": 8309.4
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9328.8
+            "y": 9403.8
           },
           "size": {
             "w": 1024,
@@ -12288,6 +12394,58 @@
                         "h": 22.1
                       },
                       "text": "14 років"
+                    },
+                    {
+                      "key": "a[9]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 722.6,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50,
+                        "h": 22.1
+                      },
+                      "text": "15 років"
+                    },
+                    {
+                      "key": "a[10]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 786.6,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "16 років"
+                    },
+                    {
+                      "key": "a[11]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 850.9,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 49.6,
+                        "h": 22.1
+                      },
+                      "text": "17 років"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 914.5,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "18 років"
                     }
                   ]
                 },
@@ -13143,14 +13301,14 @@
               ]
             }
           ],
-          "absoluteTop": 9328.8
+          "absoluteTop": 9403.8
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 14455,
+      "documentHeight": 14604,
       "sections": [
         {
           "key": "#header",
@@ -15269,7 +15427,7 @@
           },
           "size": {
             "w": 390,
-            "h": 920.6
+            "h": 942.7
           },
           "styles": {
             "display": "block",
@@ -15296,7 +15454,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 808.6
+                "h": 830.7
               },
               "styles": {
                 "display": "block",
@@ -15396,7 +15554,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 571.8
+                    "h": 593.9
                   },
                   "styles": {
                     "display": "flex",
@@ -15524,7 +15682,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 121.5
+                        "h": 143.6
                       },
                       "children": [
                         {
@@ -15549,7 +15707,7 @@
                           },
                           "size": {
                             "w": 284,
-                            "h": 101.5
+                            "h": 123.6
                           }
                         }
                       ]
@@ -15559,7 +15717,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 35,
-                        "y": 436.4
+                        "y": 458.5
                       },
                       "size": {
                         "w": 2,
@@ -15571,7 +15729,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 496.4
+                        "y": 518.5
                       },
                       "size": {
                         "w": 358,
@@ -15617,7 +15775,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4298.2
+            "y": 4320.3
           },
           "size": {
             "w": 390,
@@ -15999,18 +16157,18 @@
               ]
             }
           ],
-          "absoluteTop": 4298.2
+          "absoluteTop": 4320.3
         },
         {
           "key": "#pricing",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5632.9
+            "y": 5655
           },
           "size": {
             "w": 390,
-            "h": 1480.3
+            "h": 1606.3
           },
           "styles": {
             "display": "block",
@@ -16038,7 +16196,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1368.3
+                "h": 1494.3
               },
               "styles": {
                 "display": "block",
@@ -16434,18 +16592,45 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "key": ".pricing__note",
+                  "tag": "p",
+                  "rel": {
+                    "x": 16,
+                    "y": 1392.3
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 102
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "marginTop": "24px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "15px",
+                    "fontWeight": "400",
+                    "lineHeight": "25.5px",
+                    "color": "rgb(107, 107, 128)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(107, 107, 128)",
+                    "textAlign": "center"
+                  },
+                  "text": "Для 6–7 років заняття коротше — 60 хвилин замість 90, і рахунок йде погодинно: одинарна група коштує 1 200 грн на місяць"
                 }
               ]
             }
           ],
-          "absoluteTop": 5632.9
+          "absoluteTop": 5655
         },
         {
           "key": "#certificate",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7113.2
+            "y": 7261.3
           },
           "size": {
             "w": 390,
@@ -16628,14 +16813,14 @@
               ]
             }
           ],
-          "absoluteTop": 7113.2
+          "absoluteTop": 7261.3
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7787.5
+            "y": 7935.5
           },
           "size": {
             "w": 390,
@@ -17046,14 +17231,14 @@
               ]
             }
           ],
-          "absoluteTop": 7787.5
+          "absoluteTop": 7935.5
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8461.8
+            "y": 8609.9
           },
           "size": {
             "w": 390,
@@ -17701,14 +17886,14 @@
               ]
             }
           ],
-          "absoluteTop": 8461.8
+          "absoluteTop": 8609.9
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9247.6
+            "y": 9395.7
           },
           "size": {
             "w": 390,
@@ -17944,14 +18129,14 @@
               ]
             }
           ],
-          "absoluteTop": 9247.6
+          "absoluteTop": 9395.7
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9962.7
+            "y": 10110.8
           },
           "size": {
             "w": 390,
@@ -18209,14 +18394,14 @@
               ]
             }
           ],
-          "absoluteTop": 9962.7
+          "absoluteTop": 10110.8
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11968.1
+            "y": 12116.2
           },
           "size": {
             "w": 390,
@@ -18679,6 +18864,58 @@
                         "h": 22.1
                       },
                       "text": "14 років"
+                    },
+                    {
+                      "key": "a[9]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 64.6,
+                        "y": 73.2
+                      },
+                      "size": {
+                        "w": 50,
+                        "h": 22.1
+                      },
+                      "text": "15 років"
+                    },
+                    {
+                      "key": "a[10]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 128.6,
+                        "y": 73.2
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "16 років"
+                    },
+                    {
+                      "key": "a[11]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 192.9,
+                        "y": 73.2
+                      },
+                      "size": {
+                        "w": 49.6,
+                        "h": 22.1
+                      },
+                      "text": "17 років"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 256.5,
+                        "y": 73.2
+                      },
+                      "size": {
+                        "w": 50.3,
+                        "h": 22.1
+                      },
+                      "text": "18 років"
                     }
                   ]
                 },
@@ -19535,7 +19772,7 @@
               ]
             }
           ],
-          "absoluteTop": 11968.1
+          "absoluteTop": 12116.2
         }
       ]
     }
