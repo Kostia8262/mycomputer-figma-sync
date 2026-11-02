@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-10-25",
+ "takenAt": "2026-11-02",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1172,6 +1172,10 @@
       },
       {
        "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
        "where": ".contact__social › .contact__social-link › span"
       }
      ]
@@ -2512,6 +2516,10 @@
       {
        "t": "Instagram",
        "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
+       "where": ".contact__social › .contact__social-link › span"
       }
      ]
     },
@@ -3822,6 +3830,10 @@
       },
       {
        "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
        "where": ".contact__social › .contact__social-link › span"
       }
      ]
