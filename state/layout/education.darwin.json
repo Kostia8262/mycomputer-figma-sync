@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 9946,
+      "documentHeight": 10345,
       "sections": [
         {
           "key": "#header",
@@ -3695,7 +3695,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 772.4
+            "h": 1142.9
           },
           "styles": {
             "display": "block",
@@ -3723,7 +3723,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 596.4
+                "h": 966.9
               },
               "styles": {
                 "display": "block",
@@ -3810,7 +3810,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 358.3
+                    "h": 728.8
                   },
                   "styles": {
                     "display": "block",
@@ -3835,11 +3835,11 @@
                       },
                       "size": {
                         "w": 1112,
-                        "h": 358.3
+                        "h": 728.8
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
                           "rel": {
                             "x": 2,
@@ -3847,12 +3847,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[1]",
+                          "key": ".review-card.review-card--story[1]",
                           "tag": "div",
                           "rel": {
                             "x": 377.3,
@@ -3860,12 +3860,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[2]",
+                          "key": ".review-card.review-card--story[2]",
                           "tag": "div",
                           "rel": {
                             "x": 752.7,
@@ -3873,12 +3873,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[3]",
+                          "key": ".review-card.review-card--story[3]",
                           "tag": "div",
                           "rel": {
                             "x": 1128,
@@ -3886,12 +3886,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[4]",
+                          "key": ".review-card.review-card--story[4]",
                           "tag": "div",
                           "rel": {
                             "x": 1503.3,
@@ -3899,12 +3899,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[5]",
+                          "key": ".review-card.review-card--story[5]",
                           "tag": "div",
                           "rel": {
                             "x": 1878.6,
@@ -3912,12 +3912,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[6]",
+                          "key": ".review-card.review-card--story[6]",
                           "tag": "div",
                           "rel": {
                             "x": 2254,
@@ -3925,12 +3925,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[7]",
+                          "key": ".review-card.review-card--story[7]",
                           "tag": "div",
                           "rel": {
                             "x": 2629.3,
@@ -3938,12 +3938,12 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[8]",
+                          "key": ".review-card.review-card--story[8]",
                           "tag": "div",
                           "rel": {
                             "x": 3004.6,
@@ -3951,7 +3951,137 @@
                           },
                           "size": {
                             "w": 357.3,
-                            "h": 322.3
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3380,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3755.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4130.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4505.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4881.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5256.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5631.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6007.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6382.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6757.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
                           },
                           "bordered": true
                         }
@@ -3964,7 +4094,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 568.4
+                    "y": 938.9
                   },
                   "size": {
                     "w": 1112,
@@ -3992,7 +4122,7 @@
                       "key": "#reviewsPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 486,
+                        "x": 452,
                         "y": 0
                       },
                       "size": {
@@ -4019,11 +4149,11 @@
                       "key": "#reviewsPgDots",
                       "tag": "div",
                       "rel": {
-                        "x": 528,
+                        "x": 494,
                         "y": 9.5
                       },
                       "size": {
-                        "w": 56,
+                        "w": 124,
                         "h": 9
                       },
                       "children": [
@@ -4062,6 +4192,54 @@
                             "w": 9,
                             "h": 9
                           }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[2]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 64,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[3]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 81,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[4]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 98,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[5]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 115,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
                         }
                       ]
                     },
@@ -4069,7 +4247,7 @@
                       "key": "#reviewsNext",
                       "tag": "button",
                       "rel": {
-                        "x": 598,
+                        "x": 632,
                         "y": 0
                       },
                       "size": {
@@ -4104,7 +4282,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6140.6
+            "y": 6511.1
           },
           "size": {
             "w": 1440,
@@ -4773,14 +4951,14 @@
               ]
             }
           ],
-          "absoluteTop": 6140.6
+          "absoluteTop": 6511.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6930
+            "y": 7300.6
           },
           "size": {
             "w": 1440,
@@ -5016,14 +5194,14 @@
               ]
             }
           ],
-          "absoluteTop": 6930
+          "absoluteTop": 7300.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7558.6
+            "y": 7929.2
           },
           "size": {
             "w": 1440,
@@ -5280,18 +5458,18 @@
               ]
             }
           ],
-          "absoluteTop": 7558.6
+          "absoluteTop": 7929.2
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 8653
+            "y": 9023.5
           },
           "size": {
             "w": 1440,
-            "h": 1293
+            "h": 1321.1
           },
           "styles": {
             "display": "block",
@@ -5319,7 +5497,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 1209
+                "h": 1237.1
               },
               "styles": {
                 "display": "block",
@@ -6160,7 +6338,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 55.1
+                    "h": 83.2
                   },
                   "styles": {
                     "display": "flex",
@@ -6350,15 +6528,159 @@
                         "h": 22.1
                       },
                       "text": "Норвегія"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 947.3,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 43.2,
+                        "h": 22.1
+                      },
+                      "text": "Ізраїль"
+                    },
+                    {
+                      "key": "a[13]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 1004.5,
+                        "y": 17
+                      },
+                      "size": {
+                        "w": 51.9,
+                        "h": 22.1
+                      },
+                      "text": "Франція"
+                    },
+                    {
+                      "key": "a[14]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 0,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 74.2,
+                        "h": 22.1
+                      },
+                      "text": "Нідерланди"
+                    },
+                    {
+                      "key": "a[15]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 88.2,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 52.2,
+                        "h": 22.1
+                      },
+                      "text": "Ірландія"
+                    },
+                    {
+                      "key": "a[16]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 154.4,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 69.8,
+                        "h": 22.1
+                      },
+                      "text": "Португалія"
+                    },
+                    {
+                      "key": "a[17]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 238.2,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 38.3,
+                        "h": 22.1
+                      },
+                      "text": "Литва"
+                    },
+                    {
+                      "key": "a[18]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 290.5,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 41,
+                        "h": 22.1
+                      },
+                      "text": "Латвія"
+                    },
+                    {
+                      "key": "a[19]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 345.5,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 46.9,
+                        "h": 22.1
+                      },
+                      "text": "Естонія"
+                    },
+                    {
+                      "key": "a[20]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 406.4,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 62.2,
+                        "h": 22.1
+                      },
+                      "text": "Фінляндія"
+                    },
+                    {
+                      "key": "a[21]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 482.6,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 45.5,
+                        "h": 22.1
+                      },
+                      "text": "Швеція"
+                    },
+                    {
+                      "key": "a[22]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 542.1,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 36,
+                        "h": 22.1
+                      },
+                      "text": "Данія"
                     }
-                  ]
+                  ],
+                  "truncatedChildren": 2
                 },
                 {
                   "key": ".footer__pay-section",
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 972.8
+                    "y": 1000.9
                   },
                   "size": {
                     "w": 1112,
@@ -6492,7 +6814,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1089.6
+                    "y": 1117.7
                   },
                   "size": {
                     "w": 1112,
@@ -6589,7 +6911,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1143
+                    "y": 1171
                   },
                   "size": {
                     "w": 1112,
@@ -6657,14 +6979,14 @@
               ]
             }
           ],
-          "absoluteTop": 8653
+          "absoluteTop": 9023.5
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 10725,
+      "documentHeight": 11191,
       "sections": [
         {
           "key": "#header",
@@ -10339,7 +10661,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 796.2
+            "h": 1233.7
           },
           "styles": {
             "display": "block",
@@ -10367,7 +10689,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 620.2
+                "h": 1057.7
               },
               "styles": {
                 "display": "block",
@@ -10454,7 +10776,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 382.1
+                    "h": 819.6
                   },
                   "styles": {
                     "display": "block",
@@ -10479,11 +10801,11 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 382.1
+                        "h": 819.6
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
                           "rel": {
                             "x": 2,
@@ -10491,12 +10813,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[1]",
+                          "key": ".review-card.review-card--story[1]",
                           "tag": "div",
                           "rel": {
                             "x": 332,
@@ -10504,12 +10826,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[2]",
+                          "key": ".review-card.review-card--story[2]",
                           "tag": "div",
                           "rel": {
                             "x": 662,
@@ -10517,12 +10839,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[3]",
+                          "key": ".review-card.review-card--story[3]",
                           "tag": "div",
                           "rel": {
                             "x": 992,
@@ -10530,12 +10852,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[4]",
+                          "key": ".review-card.review-card--story[4]",
                           "tag": "div",
                           "rel": {
                             "x": 1321.9,
@@ -10543,12 +10865,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[5]",
+                          "key": ".review-card.review-card--story[5]",
                           "tag": "div",
                           "rel": {
                             "x": 1651.9,
@@ -10556,12 +10878,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[6]",
+                          "key": ".review-card.review-card--story[6]",
                           "tag": "div",
                           "rel": {
                             "x": 1981.9,
@@ -10569,12 +10891,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[7]",
+                          "key": ".review-card.review-card--story[7]",
                           "tag": "div",
                           "rel": {
                             "x": 2311.9,
@@ -10582,12 +10904,12 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[8]",
+                          "key": ".review-card.review-card--story[8]",
                           "tag": "div",
                           "rel": {
                             "x": 2641.9,
@@ -10595,7 +10917,137 @@
                           },
                           "size": {
                             "w": 312,
-                            "h": 346.1
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2971.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3301.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3631.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3961.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4291.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4621.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4951.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5281.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5611.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5941.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
                           },
                           "bordered": true
                         }
@@ -10608,7 +11060,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 592.2
+                    "y": 1029.7
                   },
                   "size": {
                     "w": 976,
@@ -10636,7 +11088,7 @@
                       "key": "#reviewsPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 418,
+                        "x": 384,
                         "y": 0
                       },
                       "size": {
@@ -10663,11 +11115,11 @@
                       "key": "#reviewsPgDots",
                       "tag": "div",
                       "rel": {
-                        "x": 460,
+                        "x": 426,
                         "y": 9.5
                       },
                       "size": {
-                        "w": 56,
+                        "w": 124,
                         "h": 9
                       },
                       "children": [
@@ -10706,6 +11158,54 @@
                             "w": 9,
                             "h": 9
                           }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[2]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 64,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[3]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 81,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[4]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 98,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
+                        },
+                        {
+                          "key": ".reviews__pg-dot[5]",
+                          "tag": "button",
+                          "rel": {
+                            "x": 115,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 9,
+                            "h": 9
+                          }
                         }
                       ]
                     },
@@ -10713,7 +11213,7 @@
                       "key": "#reviewsNext",
                       "tag": "button",
                       "rel": {
-                        "x": 530,
+                        "x": 564,
                         "y": 0
                       },
                       "size": {
@@ -10748,7 +11248,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6639.3
+            "y": 7076.8
           },
           "size": {
             "w": 1024,
@@ -11417,14 +11917,14 @@
               ]
             }
           ],
-          "absoluteTop": 6639.3
+          "absoluteTop": 7076.8
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7428.8
+            "y": 7866.3
           },
           "size": {
             "w": 1024,
@@ -11660,14 +12160,14 @@
               ]
             }
           ],
-          "absoluteTop": 7428.8
+          "absoluteTop": 7866.3
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8309.4
+            "y": 8746.9
           },
           "size": {
             "w": 1024,
@@ -11924,18 +12424,18 @@
               ]
             }
           ],
-          "absoluteTop": 8309.4
+          "absoluteTop": 8746.9
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9403.8
+            "y": 9841.3
           },
           "size": {
             "w": 1024,
-            "h": 1321.1
+            "h": 1349.2
           },
           "styles": {
             "display": "block",
@@ -11963,7 +12463,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 1237.1
+                "h": 1265.2
               },
               "styles": {
                 "display": "block",
@@ -12804,7 +13304,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 55.1
+                    "h": 83.2
                   },
                   "styles": {
                     "display": "flex",
@@ -12994,15 +13494,159 @@
                         "h": 22.1
                       },
                       "text": "Норвегія"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 0,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 43.2,
+                        "h": 22.1
+                      },
+                      "text": "Ізраїль"
+                    },
+                    {
+                      "key": "a[13]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 57.2,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 51.9,
+                        "h": 22.1
+                      },
+                      "text": "Франція"
+                    },
+                    {
+                      "key": "a[14]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 123.1,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 74.2,
+                        "h": 22.1
+                      },
+                      "text": "Нідерланди"
+                    },
+                    {
+                      "key": "a[15]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 211.3,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 52.2,
+                        "h": 22.1
+                      },
+                      "text": "Ірландія"
+                    },
+                    {
+                      "key": "a[16]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 277.5,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 69.8,
+                        "h": 22.1
+                      },
+                      "text": "Португалія"
+                    },
+                    {
+                      "key": "a[17]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 361.3,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 38.3,
+                        "h": 22.1
+                      },
+                      "text": "Литва"
+                    },
+                    {
+                      "key": "a[18]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 413.7,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 41,
+                        "h": 22.1
+                      },
+                      "text": "Латвія"
+                    },
+                    {
+                      "key": "a[19]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 468.6,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 46.9,
+                        "h": 22.1
+                      },
+                      "text": "Естонія"
+                    },
+                    {
+                      "key": "a[20]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 529.5,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 62.2,
+                        "h": 22.1
+                      },
+                      "text": "Фінляндія"
+                    },
+                    {
+                      "key": "a[21]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 605.8,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 45.5,
+                        "h": 22.1
+                      },
+                      "text": "Швеція"
+                    },
+                    {
+                      "key": "a[22]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 665.3,
+                        "y": 45.1
+                      },
+                      "size": {
+                        "w": 36,
+                        "h": 22.1
+                      },
+                      "text": "Данія"
                     }
-                  ]
+                  ],
+                  "truncatedChildren": 2
                 },
                 {
                   "key": ".footer__pay-section",
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1000.9
+                    "y": 1029
                   },
                   "size": {
                     "w": 976,
@@ -13136,7 +13780,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1117.7
+                    "y": 1145.8
                   },
                   "size": {
                     "w": 976,
@@ -13233,7 +13877,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1171
+                    "y": 1199.1
                   },
                   "size": {
                     "w": 976,
@@ -13301,14 +13945,14 @@
               ]
             }
           ],
-          "absoluteTop": 9403.8
+          "absoluteTop": 9841.3
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 14604,
+      "documentHeight": 14792,
       "sections": [
         {
           "key": "#header",
@@ -16824,7 +17468,7 @@
           },
           "size": {
             "w": 390,
-            "h": 674.3
+            "h": 728.2
           },
           "styles": {
             "display": "block",
@@ -16852,7 +17496,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 562.3
+                "h": 616.2
               },
               "styles": {
                 "display": "block",
@@ -16879,7 +17523,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 112.5
+                    "h": 62.4
                   },
                   "styles": {
                     "display": "block",
@@ -16897,27 +17541,11 @@
                   },
                   "children": [
                     {
-                      "key": ".section-badge",
-                      "tag": "div",
-                      "rel": {
-                        "x": 139.3,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 79.5,
-                        "h": 34.1
-                      },
-                      "styles": {
-                        "marginBottom": "16px"
-                      },
-                      "text": "Відгуки"
-                    },
-                    {
                       "key": ".section-title",
                       "tag": "h2",
                       "rel": {
                         "x": 0,
-                        "y": 50.1
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -16935,11 +17563,11 @@
                   "tag": "div",
                   "rel": {
                     "x": -8,
-                    "y": 168.5
+                    "y": 118.4
                   },
                   "size": {
                     "w": 406,
-                    "h": 369.9
+                    "h": 473.8
                   },
                   "styles": {
                     "display": "block",
@@ -16965,12 +17593,12 @@
                         "y": 0
                       },
                       "size": {
-                        "w": 2849.7,
-                        "h": 369.9
+                        "w": 6031.6,
+                        "h": 473.8
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
                           "rel": {
                             "x": 0,
@@ -16978,12 +17606,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[1]",
+                          "key": ".review-card.review-card--story[1]",
                           "tag": "div",
                           "rel": {
                             "x": 318.2,
@@ -16991,12 +17619,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[2]",
+                          "key": ".review-card.review-card--story[2]",
                           "tag": "div",
                           "rel": {
                             "x": 636.4,
@@ -17004,12 +17632,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[3]",
+                          "key": ".review-card.review-card--story[3]",
                           "tag": "div",
                           "rel": {
                             "x": 954.6,
@@ -17017,12 +17645,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[4]",
+                          "key": ".review-card.review-card--story[4]",
                           "tag": "div",
                           "rel": {
                             "x": 1272.8,
@@ -17030,12 +17658,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[5]",
+                          "key": ".review-card.review-card--story[5]",
                           "tag": "div",
                           "rel": {
                             "x": 1590.9,
@@ -17043,12 +17671,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[6]",
+                          "key": ".review-card.review-card--story[6]",
                           "tag": "div",
                           "rel": {
                             "x": 1909.1,
@@ -17056,12 +17684,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[7]",
+                          "key": ".review-card.review-card--story[7]",
                           "tag": "div",
                           "rel": {
                             "x": 2227.3,
@@ -17069,12 +17697,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[8]",
+                          "key": ".review-card.review-card--story[8]",
                           "tag": "div",
                           "rel": {
                             "x": 2545.5,
@@ -17082,7 +17710,137 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 369.9
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2863.7,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3181.9,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3500.1,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3818.3,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4136.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4454.6,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4772.8,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5091,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5409.2,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5727.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
                           },
                           "bordered": true
                         }
@@ -17095,7 +17853,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 554.3
+                    "y": 608.2
                   },
                   "size": {
                     "w": 358,
@@ -17122,7 +17880,7 @@
                       "key": ".reviews__dot.active",
                       "tag": "span",
                       "rel": {
-                        "x": 113,
+                        "x": 43,
                         "y": 0
                       },
                       "size": {
@@ -17134,7 +17892,7 @@
                       "key": ".reviews__dot[0]",
                       "tag": "span",
                       "rel": {
-                        "x": 139,
+                        "x": 69,
                         "y": 0
                       },
                       "size": {
@@ -17146,7 +17904,7 @@
                       "key": ".reviews__dot[1]",
                       "tag": "span",
                       "rel": {
-                        "x": 153,
+                        "x": 83,
                         "y": 0
                       },
                       "size": {
@@ -17158,7 +17916,7 @@
                       "key": ".reviews__dot[2]",
                       "tag": "span",
                       "rel": {
-                        "x": 167,
+                        "x": 97,
                         "y": 0
                       },
                       "size": {
@@ -17170,7 +17928,7 @@
                       "key": ".reviews__dot[3]",
                       "tag": "span",
                       "rel": {
-                        "x": 181,
+                        "x": 111,
                         "y": 0
                       },
                       "size": {
@@ -17182,7 +17940,7 @@
                       "key": ".reviews__dot[4]",
                       "tag": "span",
                       "rel": {
-                        "x": 195,
+                        "x": 125,
                         "y": 0
                       },
                       "size": {
@@ -17194,7 +17952,7 @@
                       "key": ".reviews__dot[5]",
                       "tag": "span",
                       "rel": {
-                        "x": 209,
+                        "x": 139,
                         "y": 0
                       },
                       "size": {
@@ -17206,7 +17964,7 @@
                       "key": ".reviews__dot[6]",
                       "tag": "span",
                       "rel": {
-                        "x": 223,
+                        "x": 153,
                         "y": 0
                       },
                       "size": {
@@ -17218,7 +17976,127 @@
                       "key": ".reviews__dot[7]",
                       "tag": "span",
                       "rel": {
+                        "x": 167,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[8]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 181,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[9]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 195,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[10]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 209,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[11]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 223,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[12]",
+                      "tag": "span",
+                      "rel": {
                         "x": 237,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[13]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 251,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[14]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 265,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[15]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 279,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[16]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 293,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 8,
+                        "h": 8
+                      }
+                    },
+                    {
+                      "key": ".reviews__dot[17]",
+                      "tag": "span",
+                      "rel": {
+                        "x": 307,
                         "y": 0
                       },
                       "size": {
@@ -17238,7 +18116,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8609.9
+            "y": 8663.7
           },
           "size": {
             "w": 390,
@@ -17886,14 +18764,14 @@
               ]
             }
           ],
-          "absoluteTop": 8609.9
+          "absoluteTop": 8663.7
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9395.7
+            "y": 9449.5
           },
           "size": {
             "w": 390,
@@ -18129,18 +19007,18 @@
               ]
             }
           ],
-          "absoluteTop": 9395.7
+          "absoluteTop": 9449.5
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10110.8
+            "y": 10164.6
           },
           "size": {
             "w": 390,
-            "h": 1111.2
+            "h": 1161.3
           },
           "styles": {
             "display": "block",
@@ -18168,7 +19046,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1019.2
+                "h": 1069.3
               },
               "styles": {
                 "display": "block",
@@ -18195,7 +19073,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1019.2
+                    "h": 1069.3
                   },
                   "styles": {
                     "display": "flex",
@@ -18293,7 +19171,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 313.3
+                        "h": 363.4
                       },
                       "bordered": true,
                       "children": [
@@ -18381,7 +19259,7 @@
                           },
                           "size": {
                             "w": 316,
-                            "h": 40.1
+                            "h": 90.2
                           },
                           "styles": {
                             "marginTop": "4px"
@@ -18394,18 +19272,18 @@
               ]
             }
           ],
-          "absoluteTop": 10110.8
+          "absoluteTop": 10164.6
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 12116.2
+            "y": 12220.2
           },
           "size": {
             "w": 390,
-            "h": 2487.3
+            "h": 2571.5
           },
           "styles": {
             "display": "block",
@@ -18433,7 +19311,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 2403.3
+                "h": 2487.5
               },
               "styles": {
                 "display": "block",
@@ -19274,7 +20152,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 111.3
+                    "h": 195.6
                   },
                   "styles": {
                     "display": "flex",
@@ -19464,15 +20342,159 @@
                         "h": 22.1
                       },
                       "text": "Норвегія"
+                    },
+                    {
+                      "key": "a[12]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 0,
+                        "y": 101.3
+                      },
+                      "size": {
+                        "w": 43.2,
+                        "h": 22.1
+                      },
+                      "text": "Ізраїль"
+                    },
+                    {
+                      "key": "a[13]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 57.2,
+                        "y": 101.3
+                      },
+                      "size": {
+                        "w": 51.9,
+                        "h": 22.1
+                      },
+                      "text": "Франція"
+                    },
+                    {
+                      "key": "a[14]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 123.1,
+                        "y": 101.3
+                      },
+                      "size": {
+                        "w": 74.2,
+                        "h": 22.1
+                      },
+                      "text": "Нідерланди"
+                    },
+                    {
+                      "key": "a[15]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 211.3,
+                        "y": 101.3
+                      },
+                      "size": {
+                        "w": 52.2,
+                        "h": 22.1
+                      },
+                      "text": "Ірландія"
+                    },
+                    {
+                      "key": "a[16]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 277.5,
+                        "y": 101.3
+                      },
+                      "size": {
+                        "w": 69.8,
+                        "h": 22.1
+                      },
+                      "text": "Португалія"
+                    },
+                    {
+                      "key": "a[17]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 0,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 38.3,
+                        "h": 22.1
+                      },
+                      "text": "Литва"
+                    },
+                    {
+                      "key": "a[18]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 52.3,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 41,
+                        "h": 22.1
+                      },
+                      "text": "Латвія"
+                    },
+                    {
+                      "key": "a[19]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 107.3,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 46.9,
+                        "h": 22.1
+                      },
+                      "text": "Естонія"
+                    },
+                    {
+                      "key": "a[20]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 168.2,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 62.2,
+                        "h": 22.1
+                      },
+                      "text": "Фінляндія"
+                    },
+                    {
+                      "key": "a[21]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 244.4,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 45.5,
+                        "h": 22.1
+                      },
+                      "text": "Швеція"
+                    },
+                    {
+                      "key": "a[22]",
+                      "tag": "a",
+                      "rel": {
+                        "x": 303.9,
+                        "y": 129.4
+                      },
+                      "size": {
+                        "w": 36,
+                        "h": 22.1
+                      },
+                      "text": "Данія"
                     }
-                  ]
+                  ],
+                  "truncatedChildren": 2
                 },
                 {
                   "key": ".footer__pay-section",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2077.3
+                    "y": 2161.6
                   },
                   "size": {
                     "w": 358,
@@ -19606,7 +20628,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2242.1
+                    "y": 2326.4
                   },
                   "size": {
                     "w": 358,
@@ -19703,7 +20725,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2318.5
+                    "y": 2402.8
                   },
                   "size": {
                     "w": 358,
@@ -19772,7 +20794,7 @@
               ]
             }
           ],
-          "absoluteTop": 12116.2
+          "absoluteTop": 12220.2
         }
       ]
     }

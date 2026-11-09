@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-10-31",
+ "takenAt": "2026-11-09",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -885,148 +885,492 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "мама Арсенія, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "ДГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Дмитро Гриценко",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "тато Ніки, 14 років · Веб-розробка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
-       "where": ".review-card › .review-card__text › p"
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "ТВ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Тетяна В.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "мама Матвія, 11 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "мама Микити, 12 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навіть у важкий час заняття проходять вчасно",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ми дуже цінуємо ваш високий рівень сервісу, вашу турботу й увагу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У сьогоднішній важкий для всіх час ви все ж знаходите можливість провести заняття вчасно.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Бажаємо вашій команді масштабних проєктів, креативних ідей і їх втілення! Нехай кожен навчальний рік приносить вам нових",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо, що ВИ з нами!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Гра та сама, дитина інша»",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОР",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Романюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Артема, 10 років · Minecraft",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Після Python сам сів дописувати завдання",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ПІ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Павло Іщенко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Богдана, 16 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Займається українською з Варшави",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ГМ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Галина Мельничук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Соломії, 8 років · Графіка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "РЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук бабусі",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Роман Левченко",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Максима, 12 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Від мене нічого не треба — онук заходить сам",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЛШ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Людмила Шевчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "бабуся Дениса, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За 3 місяці — перша власна гра",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Хто допомагав?» — «Ніхто»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро Гриценко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ніки, 14 років · Веб-розробка",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Будує свої світи в Roblox",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий,",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -1172,6 +1516,10 @@
       },
       {
        "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
        "where": ".contact__social › .contact__social-link › span"
       }
      ]
@@ -1557,6 +1905,58 @@
       },
       {
        "t": "Норвегія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ізраїль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Франція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Нідерланди",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ірландія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Португалія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Литва",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Латвія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Естонія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Фінляндія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Швеція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Данія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Болгарія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кіпр",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -2472,148 +2872,492 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "мама Арсенія, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "ДГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Дмитро Гриценко",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "тато Ніки, 14 років · Веб-розробка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
-       "where": ".review-card › .review-card__text › p"
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "ТВ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Тетяна В.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "мама Матвія, 11 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "мама Микити, 12 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навіть у важкий час заняття проходять вчасно",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ми дуже цінуємо ваш високий рівень сервісу, вашу турботу й увагу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У сьогоднішній важкий для всіх час ви все ж знаходите можливість провести заняття вчасно.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Бажаємо вашій команді масштабних проєктів, креативних ідей і їх втілення! Нехай кожен навчальний рік приносить вам нових",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо, що ВИ з нами!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Гра та сама, дитина інша»",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОР",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Романюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Артема, 10 років · Minecraft",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Після Python сам сів дописувати завдання",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ПІ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Павло Іщенко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Богдана, 16 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Займається українською з Варшави",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ГМ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Галина Мельничук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Соломії, 8 років · Графіка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "РЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук бабусі",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Роман Левченко",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Максима, 12 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Від мене нічого не треба — онук заходить сам",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЛШ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Людмила Шевчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "бабуся Дениса, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За 3 місяці — перша власна гра",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Хто допомагав?» — «Ніхто»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро Гриценко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ніки, 14 років · Веб-розробка",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Будує свої світи в Roblox",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий,",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -2759,6 +3503,10 @@
       },
       {
        "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
        "where": ".contact__social › .contact__social-link › span"
       }
      ]
@@ -3144,6 +3892,58 @@
       },
       {
        "t": "Норвегія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ізраїль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Франція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Нідерланди",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ірландія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Португалія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Литва",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Латвія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Естонія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Фінляндія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Швеція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Данія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Болгарія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кіпр",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -4027,156 +4827,420 @@
      "key": "#reviews",
      "lines": [
       {
-       "t": "Відгуки",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
        "t": "Відгуки батьків про курси програмування для дітей",
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям\"",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "мама Арсенія, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "ДГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Дмитро Гриценко",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "тато Ніки, 14 років · Веб-розробка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "\"Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "ТВ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "Тетяна В.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "мама Матвія, 11 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "\"Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з Ш",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "мама Микити, 12 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навіть у важкий час заняття проходять вчасно",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ми дуже цінуємо ваш високий рівень сервісу, вашу турботу й увагу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У сьогоднішній важкий для всіх час ви все ж знаходите можливість провести заняття вчасно.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Бажаємо вашій команді масштабних проєктів, креативних ідей і їх втілення! Нехай кожен навчальний рік приносить вам нових",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо, що ВИ з нами!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Гра та сама, дитина інша»",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Артем грав у Minecraft годинами, і я вже не знала, що робити. Тепер він у ньому програмує: будує кодом те, що раніше кла",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОР",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Романюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Артема, 10 років · Minecraft",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Після Python сам сів дописувати завдання",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Син вагався між програмуванням і дизайном. Пішов на пробний в обидва напрямки — і після Python сам сів дописувати завдан",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ПІ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Павло Іщенко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Богдана, 16 років · Python",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Займається українською з Варшави",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ми у Варшаві, і мені було важливо, щоб дитина займалася українською. Різниця в часі — година, заняття о п'ятій за нашим.",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ГМ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Галина Мельничук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Соломії, 8 років · Графіка",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Максим опублікував свою гру, і в неї зайшли незнайомі люди. Він рахував гравців як інші рахують лайки. Мотивації після ц",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук бабусі",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "РЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
-      },
-      {
-       "t": "Роман Левченко",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Максима, 12 років · Roblox",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Від мене нічого не треба — онук заходить сам",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Онук живе зі мною, і я боялася, що не впораюся з технікою. Виявилось, від мене нічого не треба: посилання приходить, він",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЛШ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Людмила Шевчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "бабуся Дениса, 9 років · Scratch",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За 3 місяці — перша власна гра",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син 9 років почав з нуля на курсі Scratch. Через 3 місяці зробив гру і показував друзям",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина К.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Арсенія, 9 років · Scratch",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Хто допомагав?» — «Ніхто»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Ніка зробила сайт для шкільного проєкту — і вчителька спитала, хто їй допомагав. Ніхто. Саме заради цієї відповіді ми й ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро Гриценко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ніки, 14 років · Веб-розробка",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Будує свої світи в Roblox",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син фанат Roblox і ми шукали саме розробку ігор. Тепер будує свої світи. Каже, що хоче стати розробником. Поки ще малий,",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ТВ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Тетяна В.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Матвія, 11 років · Roblox",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -4322,6 +5386,10 @@
       },
       {
        "t": "Instagram",
+       "where": ".contact__social › .contact__social-link › span"
+      },
+      {
+       "t": "TikTok",
        "where": ".contact__social › .contact__social-link › span"
       }
      ]
@@ -4711,6 +5779,58 @@
       },
       {
        "t": "Норвегія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ізраїль",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Франція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Нідерланди",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Ірландія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Португалія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Литва",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Латвія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Естонія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Фінляндія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Швеція",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Данія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Болгарія",
+       "where": ".container › .footer__ages › a"
+      },
+      {
+       "t": "Кіпр",
        "where": ".container › .footer__ages › a"
       },
       {
