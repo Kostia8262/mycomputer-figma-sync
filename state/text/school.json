@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-09",
+ "takenAt": "2026-11-11",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -1181,6 +1181,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа дизайну для дітей і підлітків",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Молодшим — графіка та цифровий рисунок, середнім — 3D-моделювання й анімація.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Художні навички не потрібні: малювати й проєктувати вчимося поступово.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Працювати в тих самих програмах, що й дизайнери: Figma, Photoshop, Blender, 3ds Max.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Доводити роботу від ідеї до готового макета, ілюстрації чи 3D-сцени.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Зібрати портфоліо, з яким не соромно йти в ліцей чи на перші замовлення.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 12–18 місяців, наприкінці — свій проєкт та іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин, ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Потрібен комп'ютер з інтернетом, для малювання — ще графічний планшет.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -1265,10 +1370,6 @@
       },
       {
        "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2524,6 +2625,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа дизайну для дітей і підлітків",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Молодшим — графіка та цифровий рисунок, середнім — 3D-моделювання й анімація.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Художні навички не потрібні: малювати й проєктувати вчимося поступово.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Працювати в тих самих програмах, що й дизайнери: Figma, Photoshop, Blender, 3ds Max.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Доводити роботу від ідеї до готового макета, ілюстрації чи 3D-сцени.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Зібрати портфоліо, з яким не соромно йти в ліцей чи на перші замовлення.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 12–18 місяців, наприкінці — свій проєкт та іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин, ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Потрібен комп'ютер з інтернетом, для малювання — ще графічний планшет.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -2608,10 +2814,6 @@
       },
       {
        "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3839,6 +4041,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа дизайну для дітей і підлітків",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Молодшим — графіка та цифровий рисунок, середнім — 3D-моделювання й анімація.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Художні навички не потрібні: малювати й проєктувати вчимося поступово.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Працювати в тих самих програмах, що й дизайнери: Figma, Photoshop, Blender, 3ds Max.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Доводити роботу від ідеї до готового макета, ілюстрації чи 3D-сцени.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Зібрати портфоліо, з яким не соромно йти в ліцей чи на перші замовлення.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 12–18 місяців, наприкінці — свій проєкт та іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин, ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Потрібен комп'ютер з інтернетом, для малювання — ще графічний планшет.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -3927,10 +4234,6 @@
       },
       {
        "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {

@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 10345,
+      "documentHeight": 10996,
       "sections": [
         {
           "key": "#header",
@@ -5461,15 +5461,205 @@
           "absoluteTop": 7929.2
         },
         {
-          "key": ".footer",
-          "tag": "footer",
+          "key": "#brief",
+          "tag": "section",
           "rel": {
             "x": 0,
             "y": 9023.5
           },
           "size": {
             "w": 1440,
-            "h": 1321.1
+            "h": 716.4
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(15, 14, 26)",
+            "backgroundColor": "rgb(248, 247, 255)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(232, 232, 240)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 140,
+                "y": 57
+              },
+              "size": {
+                "w": 1160,
+                "h": 603.4
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(15, 14, 26)",
+                "opacity": "1",
+                "borderTopColor": "rgb(15, 14, 26)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 603.4
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(15, 14, 26)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(15, 14, 26)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 1112,
+                        "h": 44.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа програмування"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 60.2
+                      },
+                      "size": {
+                        "w": 780,
+                        "h": 75.6
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Academy — онлайн-школа прогр"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 167.8
+                      },
+                      "size": {
+                        "w": 1112,
+                        "h": 435.7
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 435.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 283,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 435.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 566,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 435.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 849,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 435.7
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 9023.5
+        },
+        {
+          "key": ".footer",
+          "tag": "footer",
+          "rel": {
+            "x": 0,
+            "y": 9740
+          },
+          "size": {
+            "w": 1440,
+            "h": 1255.8
           },
           "styles": {
             "display": "block",
@@ -5497,7 +5687,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 1237.1
+                "h": 1171.8
               },
               "styles": {
                 "display": "block",
@@ -5524,7 +5714,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 609.4
+                    "h": 572.2
                   },
                   "styles": {
                     "display": "grid",
@@ -5552,7 +5742,7 @@
                       },
                       "size": {
                         "w": 354.7,
-                        "h": 609.4
+                        "h": 572.2
                       },
                       "children": [
                         {
@@ -5609,7 +5799,7 @@
                       },
                       "size": {
                         "w": 709.3,
-                        "h": 609.4
+                        "h": 572.2
                       },
                       "children": [
                         {
@@ -5621,7 +5811,7 @@
                           },
                           "size": {
                             "w": 215.1,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         },
                         {
@@ -5633,7 +5823,7 @@
                           },
                           "size": {
                             "w": 215.1,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         },
                         {
@@ -5645,7 +5835,7 @@
                           },
                           "size": {
                             "w": 231.2,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         }
                       ]
@@ -5657,7 +5847,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 649.4
+                    "y": 612.2
                   },
                   "size": {
                     "w": 1112,
@@ -5773,7 +5963,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 775.4
+                    "y": 738.2
                   },
                   "size": {
                     "w": 1112,
@@ -5988,11 +6178,11 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 830.5
+                    "y": 793.3
                   },
                   "size": {
                     "w": 1112,
-                    "h": 83.2
+                    "h": 55.1
                   },
                   "styles": {
                     "display": "flex",
@@ -6074,267 +6264,19 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 40.9,
-                        "h": 22.1
-                      },
-                      "text": "Харків"
-                    },
-                    {
-                      "key": "a[4]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 314.1,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 34.8,
-                        "h": 22.1
-                      },
-                      "text": "Львів"
-                    },
-                    {
-                      "key": "a[5]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 362.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 40.2,
-                        "h": 22.1
-                      },
-                      "text": "Одеса"
-                    },
-                    {
-                      "key": "a[6]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 417.1,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 34.5,
-                        "h": 22.1
-                      },
-                      "text": "Суми"
-                    },
-                    {
-                      "key": "a[7]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 465.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 70.2,
-                        "h": 22.1
-                      },
-                      "text": "Запоріжжя"
-                    },
-                    {
-                      "key": "a[8]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 549.7,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 67.9,
-                        "h": 22.1
-                      },
-                      "text": "Кривий Ріг"
-                    },
-                    {
-                      "key": "a[9]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 631.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 59.7,
-                        "h": 22.1
-                      },
-                      "text": "Миколаїв"
-                    },
-                    {
-                      "key": "a[10]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 705.3,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 49.6,
-                        "h": 22.1
-                      },
-                      "text": "Вінниця"
-                    },
-                    {
-                      "key": "a[11]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 768.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 52.9,
-                        "h": 22.1
-                      },
-                      "text": "Полтава"
-                    },
-                    {
-                      "key": "a[12]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 835.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 51.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернігів"
-                    },
-                    {
-                      "key": "a[13]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 901.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 54.1,
-                        "h": 22.1
-                      },
-                      "text": "Черкаси"
-                    },
-                    {
-                      "key": "a[14]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 969.7,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 59.5,
-                        "h": 22.1
-                      },
-                      "text": "Житомир"
-                    },
-                    {
-                      "key": "a[15]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 0,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 94,
-                        "h": 22.1
-                      },
-                      "text": "Хмельницький"
-                    },
-                    {
-                      "key": "a[16]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 108,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 53.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернівці"
-                    },
-                    {
-                      "key": "a[17]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 175.7,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 34,
-                        "h": 22.1
-                      },
-                      "text": "Рівне"
-                    },
-                    {
-                      "key": "a[18]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 223.7,
-                        "y": 45.1
-                      },
-                      "size": {
                         "w": 112.6,
                         "h": 22.1
                       },
                       "text": "Івано-Франківськ"
-                    },
-                    {
-                      "key": "a[19]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 350.4,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 63.9,
-                        "h": 22.1
-                      },
-                      "text": "Тернопіль"
-                    },
-                    {
-                      "key": "a[20]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 428.3,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 39.2,
-                        "h": 22.1
-                      },
-                      "text": "Луцьк"
-                    },
-                    {
-                      "key": "a[21]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 481.4,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 55.7,
-                        "h": 22.1
-                      },
-                      "text": "Ужгород"
-                    },
-                    {
-                      "key": "a[22]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 551.1,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 100,
-                        "h": 22.1
-                      },
-                      "text": "Кропивницький"
                     }
-                  ],
-                  "truncatedChildren": 5
+                  ]
                 },
                 {
                   "key": ".footer__ages[2]",
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 913.7
+                    "y": 848.4
                   },
                   "size": {
                     "w": 1112,
@@ -6680,7 +6622,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1000.9
+                    "y": 935.6
                   },
                   "size": {
                     "w": 1112,
@@ -6814,7 +6756,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1117.7
+                    "y": 1052.4
                   },
                   "size": {
                     "w": 1112,
@@ -6911,7 +6853,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1171
+                    "y": 1105.8
                   },
                   "size": {
                     "w": 1112,
@@ -6979,14 +6921,14 @@
               ]
             }
           ],
-          "absoluteTop": 9023.5
+          "absoluteTop": 9740
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 11191,
+      "documentHeight": 11918,
       "sections": [
         {
           "key": "#header",
@@ -12427,15 +12369,205 @@
           "absoluteTop": 8746.9
         },
         {
-          "key": ".footer",
-          "tag": "footer",
+          "key": "#brief",
+          "tag": "section",
           "rel": {
             "x": 0,
             "y": 9841.3
           },
           "size": {
             "w": 1024,
-            "h": 1349.2
+            "h": 821.1
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(15, 14, 26)",
+            "backgroundColor": "rgb(248, 247, 255)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(232, 232, 240)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 57
+              },
+              "size": {
+                "w": 1024,
+                "h": 708.1
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(15, 14, 26)",
+                "opacity": "1",
+                "borderTopColor": "rgb(15, 14, 26)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 708.1
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(15, 14, 26)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(15, 14, 26)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 976,
+                        "h": 44.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа програмування"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 60.2
+                      },
+                      "size": {
+                        "w": 780,
+                        "h": 75.6
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Academy — онлайн-школа прогр"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 167.8
+                      },
+                      "size": {
+                        "w": 976,
+                        "h": 540.4
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 213.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 498,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 213.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 233.2
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 307.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 498,
+                            "y": 233.2
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 307.2
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 9841.3
+        },
+        {
+          "key": ".footer",
+          "tag": "footer",
+          "rel": {
+            "x": 0,
+            "y": 10662.4
+          },
+          "size": {
+            "w": 1024,
+            "h": 1255.8
           },
           "styles": {
             "display": "block",
@@ -12463,7 +12595,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 1265.2
+                "h": 1171.8
               },
               "styles": {
                 "display": "block",
@@ -12490,7 +12622,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 609.4
+                    "h": 572.2
                   },
                   "styles": {
                     "display": "grid",
@@ -12518,7 +12650,7 @@
                       },
                       "size": {
                         "w": 309.3,
-                        "h": 609.4
+                        "h": 572.2
                       },
                       "children": [
                         {
@@ -12575,7 +12707,7 @@
                       },
                       "size": {
                         "w": 618.7,
-                        "h": 609.4
+                        "h": 572.2
                       },
                       "children": [
                         {
@@ -12587,7 +12719,7 @@
                           },
                           "size": {
                             "w": 169.8,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         },
                         {
@@ -12599,7 +12731,7 @@
                           },
                           "size": {
                             "w": 169.8,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         },
                         {
@@ -12611,7 +12743,7 @@
                           },
                           "size": {
                             "w": 231.2,
-                            "h": 609.4
+                            "h": 572.2
                           }
                         }
                       ]
@@ -12623,7 +12755,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 649.4
+                    "y": 612.2
                   },
                   "size": {
                     "w": 976,
@@ -12739,7 +12871,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 775.4
+                    "y": 738.2
                   },
                   "size": {
                     "w": 976,
@@ -12954,11 +13086,11 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 830.5
+                    "y": 793.3
                   },
                   "size": {
                     "w": 976,
-                    "h": 111.3
+                    "h": 55.1
                   },
                   "styles": {
                     "display": "flex",
@@ -13040,267 +13172,19 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 40.9,
-                        "h": 22.1
-                      },
-                      "text": "Харків"
-                    },
-                    {
-                      "key": "a[4]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 314.1,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 34.8,
-                        "h": 22.1
-                      },
-                      "text": "Львів"
-                    },
-                    {
-                      "key": "a[5]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 362.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 40.2,
-                        "h": 22.1
-                      },
-                      "text": "Одеса"
-                    },
-                    {
-                      "key": "a[6]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 417.1,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 34.5,
-                        "h": 22.1
-                      },
-                      "text": "Суми"
-                    },
-                    {
-                      "key": "a[7]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 465.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 70.2,
-                        "h": 22.1
-                      },
-                      "text": "Запоріжжя"
-                    },
-                    {
-                      "key": "a[8]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 549.7,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 67.9,
-                        "h": 22.1
-                      },
-                      "text": "Кривий Ріг"
-                    },
-                    {
-                      "key": "a[9]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 631.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 59.7,
-                        "h": 22.1
-                      },
-                      "text": "Миколаїв"
-                    },
-                    {
-                      "key": "a[10]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 705.3,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 49.6,
-                        "h": 22.1
-                      },
-                      "text": "Вінниця"
-                    },
-                    {
-                      "key": "a[11]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 768.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 52.9,
-                        "h": 22.1
-                      },
-                      "text": "Полтава"
-                    },
-                    {
-                      "key": "a[12]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 835.9,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 51.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернігів"
-                    },
-                    {
-                      "key": "a[13]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 901.6,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 54.1,
-                        "h": 22.1
-                      },
-                      "text": "Черкаси"
-                    },
-                    {
-                      "key": "a[14]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 0,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 59.5,
-                        "h": 22.1
-                      },
-                      "text": "Житомир"
-                    },
-                    {
-                      "key": "a[15]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 73.5,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 94,
-                        "h": 22.1
-                      },
-                      "text": "Хмельницький"
-                    },
-                    {
-                      "key": "a[16]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 181.5,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 53.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернівці"
-                    },
-                    {
-                      "key": "a[17]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 249.2,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 34,
-                        "h": 22.1
-                      },
-                      "text": "Рівне"
-                    },
-                    {
-                      "key": "a[18]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 297.2,
-                        "y": 45.1
-                      },
-                      "size": {
                         "w": 112.6,
                         "h": 22.1
                       },
                       "text": "Івано-Франківськ"
-                    },
-                    {
-                      "key": "a[19]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 423.8,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 63.9,
-                        "h": 22.1
-                      },
-                      "text": "Тернопіль"
-                    },
-                    {
-                      "key": "a[20]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 501.7,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 39.2,
-                        "h": 22.1
-                      },
-                      "text": "Луцьк"
-                    },
-                    {
-                      "key": "a[21]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 554.9,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 55.7,
-                        "h": 22.1
-                      },
-                      "text": "Ужгород"
-                    },
-                    {
-                      "key": "a[22]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 624.6,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 100,
-                        "h": 22.1
-                      },
-                      "text": "Кропивницький"
                     }
-                  ],
-                  "truncatedChildren": 5
+                  ]
                 },
                 {
                   "key": ".footer__ages[2]",
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 941.8
+                    "y": 848.4
                   },
                   "size": {
                     "w": 976,
@@ -13646,7 +13530,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1029
+                    "y": 935.6
                   },
                   "size": {
                     "w": 976,
@@ -13780,7 +13664,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1145.8
+                    "y": 1052.4
                   },
                   "size": {
                     "w": 976,
@@ -13877,7 +13761,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 1199.1
+                    "y": 1105.8
                   },
                   "size": {
                     "w": 976,
@@ -13945,14 +13829,14 @@
               ]
             }
           ],
-          "absoluteTop": 9841.3
+          "absoluteTop": 10662.4
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 14792,
+      "documentHeight": 16197,
       "sections": [
         {
           "key": "#header",
@@ -19275,15 +19159,205 @@
           "absoluteTop": 10164.6
         },
         {
-          "key": ".footer",
-          "tag": "footer",
+          "key": "#brief",
+          "tag": "section",
           "rel": {
             "x": 0,
             "y": 12220.2
           },
           "size": {
             "w": 390,
-            "h": 2571.5
+            "h": 1583.1
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(15, 14, 26)",
+            "backgroundColor": "rgb(248, 247, 255)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(232, 232, 240)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 57
+              },
+              "size": {
+                "w": 390,
+                "h": 1470.1
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "16px",
+                "paddingLeft": "16px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(15, 14, 26)",
+                "opacity": "1",
+                "borderTopColor": "rgb(15, 14, 26)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 16,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 1470.1
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(15, 14, 26)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(15, 14, 26)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 61.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа програмування"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 77.2
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 151.1
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Academy — онлайн-школа прогр"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 260.3
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 1209.8
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 252.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 272.2
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 252.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 544.4
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 346.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 910.6
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 299.2
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 12220.2
+        },
+        {
+          "key": ".footer",
+          "tag": "footer",
+          "rel": {
+            "x": 0,
+            "y": 13803.2
+          },
+          "size": {
+            "w": 390,
+            "h": 2393.9
           },
           "styles": {
             "display": "block",
@@ -19311,7 +19385,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 2487.5
+                "h": 2309.9
               },
               "styles": {
                 "display": "block",
@@ -19338,7 +19412,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1334.6
+                    "h": 1297.4
                   },
                   "styles": {
                     "display": "grid",
@@ -19423,7 +19497,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 1162.4
+                        "h": 1125.2
                       },
                       "children": [
                         {
@@ -19447,7 +19521,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 582.2
+                            "h": 545
                           }
                         },
                         {
@@ -19455,7 +19529,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 1026.5
+                            "y": 989.3
                           },
                           "size": {
                             "w": 358,
@@ -19471,7 +19545,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1374.6
+                    "y": 1337.4
                   },
                   "size": {
                     "w": 358,
@@ -19587,7 +19661,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1627.1
+                    "y": 1589.9
                   },
                   "size": {
                     "w": 358,
@@ -19802,11 +19876,11 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1738.4
+                    "y": 1701.2
                   },
                   "size": {
                     "w": 358,
-                    "h": 223.7
+                    "h": 83.2
                   },
                   "styles": {
                     "display": "flex",
@@ -19884,271 +19958,23 @@
                       "key": "a[3]",
                       "tag": "a",
                       "rel": {
-                        "x": 259.2,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 40.9,
-                        "h": 22.1
-                      },
-                      "text": "Харків"
-                    },
-                    {
-                      "key": "a[4]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 314.1,
-                        "y": 17
-                      },
-                      "size": {
-                        "w": 34.8,
-                        "h": 22.1
-                      },
-                      "text": "Львів"
-                    },
-                    {
-                      "key": "a[5]",
-                      "tag": "a",
-                      "rel": {
                         "x": 0,
                         "y": 45.1
-                      },
-                      "size": {
-                        "w": 40.2,
-                        "h": 22.1
-                      },
-                      "text": "Одеса"
-                    },
-                    {
-                      "key": "a[6]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 54.2,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 34.5,
-                        "h": 22.1
-                      },
-                      "text": "Суми"
-                    },
-                    {
-                      "key": "a[7]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 102.7,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 70.2,
-                        "h": 22.1
-                      },
-                      "text": "Запоріжжя"
-                    },
-                    {
-                      "key": "a[8]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 186.8,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 67.9,
-                        "h": 22.1
-                      },
-                      "text": "Кривий Ріг"
-                    },
-                    {
-                      "key": "a[9]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 268.7,
-                        "y": 45.1
-                      },
-                      "size": {
-                        "w": 59.7,
-                        "h": 22.1
-                      },
-                      "text": "Миколаїв"
-                    },
-                    {
-                      "key": "a[10]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 0,
-                        "y": 73.2
-                      },
-                      "size": {
-                        "w": 49.6,
-                        "h": 22.1
-                      },
-                      "text": "Вінниця"
-                    },
-                    {
-                      "key": "a[11]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 63.6,
-                        "y": 73.2
-                      },
-                      "size": {
-                        "w": 52.9,
-                        "h": 22.1
-                      },
-                      "text": "Полтава"
-                    },
-                    {
-                      "key": "a[12]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 130.5,
-                        "y": 73.2
-                      },
-                      "size": {
-                        "w": 51.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернігів"
-                    },
-                    {
-                      "key": "a[13]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 196.3,
-                        "y": 73.2
-                      },
-                      "size": {
-                        "w": 54.1,
-                        "h": 22.1
-                      },
-                      "text": "Черкаси"
-                    },
-                    {
-                      "key": "a[14]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 264.4,
-                        "y": 73.2
-                      },
-                      "size": {
-                        "w": 59.5,
-                        "h": 22.1
-                      },
-                      "text": "Житомир"
-                    },
-                    {
-                      "key": "a[15]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 0,
-                        "y": 101.3
-                      },
-                      "size": {
-                        "w": 94,
-                        "h": 22.1
-                      },
-                      "text": "Хмельницький"
-                    },
-                    {
-                      "key": "a[16]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 108,
-                        "y": 101.3
-                      },
-                      "size": {
-                        "w": 53.7,
-                        "h": 22.1
-                      },
-                      "text": "Чернівці"
-                    },
-                    {
-                      "key": "a[17]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 175.7,
-                        "y": 101.3
-                      },
-                      "size": {
-                        "w": 34,
-                        "h": 22.1
-                      },
-                      "text": "Рівне"
-                    },
-                    {
-                      "key": "a[18]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 223.7,
-                        "y": 101.3
                       },
                       "size": {
                         "w": 112.6,
                         "h": 22.1
                       },
                       "text": "Івано-Франківськ"
-                    },
-                    {
-                      "key": "a[19]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 0,
-                        "y": 129.4
-                      },
-                      "size": {
-                        "w": 63.9,
-                        "h": 22.1
-                      },
-                      "text": "Тернопіль"
-                    },
-                    {
-                      "key": "a[20]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 77.9,
-                        "y": 129.4
-                      },
-                      "size": {
-                        "w": 39.2,
-                        "h": 22.1
-                      },
-                      "text": "Луцьк"
-                    },
-                    {
-                      "key": "a[21]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 131.1,
-                        "y": 129.4
-                      },
-                      "size": {
-                        "w": 55.7,
-                        "h": 22.1
-                      },
-                      "text": "Ужгород"
-                    },
-                    {
-                      "key": "a[22]",
-                      "tag": "a",
-                      "rel": {
-                        "x": 200.8,
-                        "y": 129.4
-                      },
-                      "size": {
-                        "w": 100,
-                        "h": 22.1
-                      },
-                      "text": "Кропивницький"
                     }
-                  ],
-                  "truncatedChildren": 5
+                  ]
                 },
                 {
                   "key": ".footer__ages[2]",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1962
+                    "y": 1784.4
                   },
                   "size": {
                     "w": 358,
@@ -20494,7 +20320,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2161.6
+                    "y": 1984
                   },
                   "size": {
                     "w": 358,
@@ -20628,7 +20454,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2326.4
+                    "y": 2148.8
                   },
                   "size": {
                     "w": 358,
@@ -20725,7 +20551,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 2402.8
+                    "y": 2225.1
                   },
                   "size": {
                     "w": 358,
@@ -20794,7 +20620,7 @@
               ]
             }
           ],
-          "absoluteTop": 12220.2
+          "absoluteTop": 13803.2
         }
       ]
     }

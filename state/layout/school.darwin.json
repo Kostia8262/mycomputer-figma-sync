@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 10368,
+      "documentHeight": 11087,
       "sections": [
         {
           "key": "#header",
@@ -5050,11 +5050,201 @@
           "absoluteTop": 8341.6
         },
         {
+          "key": "#brief",
+          "tag": "section",
+          "rel": {
+            "x": 0,
+            "y": 9383.5
+          },
+          "size": {
+            "w": 1440,
+            "h": 719.4
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(30, 22, 19)",
+            "backgroundColor": "rgb(255, 248, 246)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(241, 227, 223)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 140,
+                "y": 57
+              },
+              "size": {
+                "w": 1160,
+                "h": 606.4
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(30, 22, 19)",
+                "opacity": "1",
+                "borderTopColor": "rgb(30, 22, 19)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 606.4
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(30, 22, 19)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(30, 22, 19)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 1112,
+                        "h": 44.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа дизайну для д"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 60.2
+                      },
+                      "size": {
+                        "w": 780,
+                        "h": 75.6
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Design School — онлайн-школа"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 167.8
+                      },
+                      "size": {
+                        "w": 1112,
+                        "h": 438.7
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 438.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 283,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 438.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 566,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 438.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 849,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 263,
+                            "h": 438.7
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 9383.5
+        },
+        {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 9383.5
+            "y": 10103
           },
           "size": {
             "w": 1440,
@@ -5674,14 +5864,14 @@
               ]
             }
           ],
-          "absoluteTop": 9383.5
+          "absoluteTop": 10103
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 11282,
+      "documentHeight": 12154,
       "sections": [
         {
           "key": "#header",
@@ -10711,11 +10901,201 @@
           "absoluteTop": 9184.3
         },
         {
+          "key": "#brief",
+          "tag": "section",
+          "rel": {
+            "x": 0,
+            "y": 10270.4
+          },
+          "size": {
+            "w": 1024,
+            "h": 871.6
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(30, 22, 19)",
+            "backgroundColor": "rgb(255, 248, 246)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(241, 227, 223)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 57
+              },
+              "size": {
+                "w": 1024,
+                "h": 758.6
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(30, 22, 19)",
+                "opacity": "1",
+                "borderTopColor": "rgb(30, 22, 19)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 758.6
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(30, 22, 19)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(30, 22, 19)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 976,
+                        "h": 44.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа дизайну для д"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 60.2
+                      },
+                      "size": {
+                        "w": 780,
+                        "h": 75.6
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Design School — онлайн-школа"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 167.8
+                      },
+                      "size": {
+                        "w": 976,
+                        "h": 590.9
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 249.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 498,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 249.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 269.2
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 321.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 498,
+                            "y": 269.2
+                          },
+                          "size": {
+                            "w": 478,
+                            "h": 321.7
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 10270.4
+        },
+        {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 10270.4
+            "y": 11142
           },
           "size": {
             "w": 1024,
@@ -11335,14 +11715,14 @@
               ]
             }
           ],
-          "absoluteTop": 10270.4
+          "absoluteTop": 11142
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 13771,
+      "documentHeight": 15303,
       "sections": [
         {
           "key": "#header",
@@ -16380,15 +16760,205 @@
           "absoluteTop": 10030
         },
         {
-          "key": ".footer",
-          "tag": "footer",
+          "key": "#brief",
+          "tag": "section",
           "rel": {
             "x": 0,
             "y": 11966.4
           },
           "size": {
             "w": 390,
-            "h": 1804.9
+            "h": 1568.1
+          },
+          "styles": {
+            "display": "block",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "paddingTop": "56px",
+            "paddingBottom": "56px",
+            "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(30, 22, 19)",
+            "backgroundColor": "rgb(255, 248, 246)",
+            "opacity": "1",
+            "borderTopWidth": "1px",
+            "borderTopColor": "rgb(241, 227, 223)",
+            "textAlign": "start"
+          },
+          "bordered": true,
+          "children": [
+            {
+              "key": ".container",
+              "tag": "div",
+              "rel": {
+                "x": 0,
+                "y": 57
+              },
+              "size": {
+                "w": 390,
+                "h": 1455.1
+              },
+              "styles": {
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "paddingRight": "16px",
+                "paddingLeft": "16px",
+                "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "27.2px",
+                "color": "rgb(30, 22, 19)",
+                "opacity": "1",
+                "borderTopColor": "rgb(30, 22, 19)",
+                "textAlign": "start"
+              },
+              "children": [
+                {
+                  "key": ".seo-section__inner",
+                  "tag": "div",
+                  "rel": {
+                    "x": 16,
+                    "y": 0
+                  },
+                  "size": {
+                    "w": 358,
+                    "h": 1455.1
+                  },
+                  "styles": {
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(30, 22, 19)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(30, 22, 19)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#briefTitle",
+                      "tag": "h2",
+                      "rel": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 61.2
+                      },
+                      "styles": {
+                        "marginBottom": "16px"
+                      },
+                      "text": "Коротко про головне: школа дизайну для д"
+                    },
+                    {
+                      "key": "p",
+                      "tag": "p",
+                      "rel": {
+                        "x": 0,
+                        "y": 77.2
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 151.1
+                      },
+                      "styles": {
+                        "marginBottom": "12px"
+                      },
+                      "text": "My Computer Design School — онлайн-школа"
+                    },
+                    {
+                      "key": ".seo-section__grid",
+                      "tag": "div",
+                      "rel": {
+                        "x": 0,
+                        "y": 260.3
+                      },
+                      "size": {
+                        "w": 358,
+                        "h": 1194.8
+                      },
+                      "styles": {
+                        "marginTop": "32px"
+                      },
+                      "children": [
+                        {
+                          "key": ".seo-card[0]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 229.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 249.7
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 249.2
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 518.9
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 360.7
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".seo-card[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 899.6
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 295.2
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "absoluteTop": 11966.4
+        },
+        {
+          "key": ".footer",
+          "tag": "footer",
+          "rel": {
+            "x": 0,
+            "y": 13534.5
+          },
+          "size": {
+            "w": 390,
+            "h": 1768.7
           },
           "styles": {
             "display": "block",
@@ -16429,7 +16999,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1720.9
+                "h": 1684.7
               },
               "styles": {
                 "display": "block",
@@ -16456,7 +17026,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1100.5
+                    "h": 1064.3
                   },
                   "styles": {
                     "display": "grid",
@@ -16541,7 +17111,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 920.3
+                        "h": 884.1
                       },
                       "children": [
                         {
@@ -16565,7 +17135,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 351.1
+                            "h": 314.9
                           }
                         },
                         {
@@ -16573,7 +17143,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 786.3
+                            "y": 750.2
                           },
                           "size": {
                             "w": 358,
@@ -16589,7 +17159,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1140.5
+                    "y": 1104.3
                   },
                   "size": {
                     "w": 358,
@@ -16705,7 +17275,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1397
+                    "y": 1360.8
                   },
                   "size": {
                     "w": 358,
@@ -16839,7 +17409,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1559.8
+                    "y": 1523.6
                   },
                   "size": {
                     "w": 358,
@@ -16936,7 +17506,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1636.2
+                    "y": 1600
                   },
                   "size": {
                     "w": 358,
@@ -17005,7 +17575,7 @@
               ]
             }
           ],
-          "absoluteTop": 11966.4
+          "absoluteTop": 13534.5
         }
       ]
     }

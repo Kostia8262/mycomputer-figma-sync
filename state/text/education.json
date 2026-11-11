@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-09",
+ "takenAt": "2026-11-11",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -420,7 +420,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
+       "t": "8–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -1525,6 +1525,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа програмування для дітей",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років, курс підбираємо за віком.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Досвід не потрібен: навчання починається з нуля, потрібен лише комп'ютер з інтернетом.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Писати справжній код і розуміти, як він працює, а не повторювати за відео.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 6–18 місяців залежно від напрямку й навантаження.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин. Ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -1633,10 +1738,6 @@
       },
       {
        "t": "Школа дизайну",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1756,103 +1857,7 @@
        "where": ".container › .footer__ages › a"
       },
       {
-       "t": "Харків",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Львів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Одеса",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Суми",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Запоріжжя",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кривий Ріг",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Миколаїв",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Вінниця",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Полтава",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернігів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Черкаси",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Житомир",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Хмельницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернівці",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Рівне",
-       "where": ".container › .footer__ages › a"
-      },
-      {
        "t": "Івано-Франківськ",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Тернопіль",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Луцьк",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Ужгород",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кропивницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Херсон",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кременчук",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кам'янське",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Біла Церква",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Бровари",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -2407,7 +2412,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
+       "t": "8–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -3512,6 +3517,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа програмування для дітей",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років, курс підбираємо за віком.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Досвід не потрібен: навчання починається з нуля, потрібен лише комп'ютер з інтернетом.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Писати справжній код і розуміти, як він працює, а не повторювати за відео.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 6–18 місяців залежно від напрямку й навантаження.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин. Ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -3620,10 +3730,6 @@
       },
       {
        "t": "Школа дизайну",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -3743,103 +3849,7 @@
        "where": ".container › .footer__ages › a"
       },
       {
-       "t": "Харків",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Львів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Одеса",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Суми",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Запоріжжя",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кривий Ріг",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Миколаїв",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Вінниця",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Полтава",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернігів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Черкаси",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Житомир",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Хмельницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернівці",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Рівне",
-       "where": ".container › .footer__ages › a"
-      },
-      {
        "t": "Івано-Франківськ",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Тернопіль",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Луцьк",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Ужгород",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кропивницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Херсон",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кременчук",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кам'янське",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Біла Церква",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Бровари",
        "where": ".container › .footer__ages › a"
       },
       {
@@ -4370,7 +4380,7 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "10–18 років",
+       "t": "8–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
       {
@@ -5395,6 +5405,111 @@
      ]
     },
     {
+     "key": "#brief",
+     "lines": [
+      {
+       "t": "Коротко про головне: школа програмування для дітей",
+       "where": ".seo-section__inner › #briefTitle › h2"
+      },
+      {
+       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "where": ".container › .seo-section__inner › p"
+      },
+      {
+       "t": "Для кого",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Діти й підлітки від 6 до 18 років, курс підбираємо за віком.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Досвід не потрібен: навчання починається з нуля, потрібен лише комп'ютер з інтернетом.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Чого навчиться дитина",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Писати справжній код і розуміти, як він працює, а не повторювати за відео.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Курс триває 6–18 місяців залежно від напрямку й навантаження.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Наприкінці курсу дитина представляє власний проєкт і отримує іменний сертифікат.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Як проходять заняття",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Одне заняття триває 90 хвилин. Ходять раз або двічі на тиждень.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Вчитися можна з будь-якої країни — розклад підлаштовуємо під ваш часовий пояс.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Ціна і як почати",
+       "where": ".seo-section__grid › .seo-card › h3"
+      },
+      {
+       "t": "Раз на тиждень у групі — 1 900 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Двічі на тиждень або індивідуально — 3 800 грн на місяць.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Перший пробний урок безкоштовний — на ньому й підбираємо групу за віком і рівнем.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Оплата онлайн через Plata by Mono або WayForPay: Visa, Mastercard, Apple Pay, Google Pay. Підходить і картка закордонног",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Залиште заявку у формі на сторінці — передзвонимо протягом 30 хвилин.",
+       "where": ".seo-section__grid › .seo-card › li"
+      }
+     ]
+    },
+    {
      "key": ".footer",
      "lines": [
       {
@@ -5507,10 +5622,6 @@
       },
       {
        "t": "Школа дизайну",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Школа англійської",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -5630,103 +5741,7 @@
        "where": ".container › .footer__ages › a"
       },
       {
-       "t": "Харків",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Львів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Одеса",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Суми",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Запоріжжя",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кривий Ріг",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Миколаїв",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Вінниця",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Полтава",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернігів",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Черкаси",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Житомир",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Хмельницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Чернівці",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Рівне",
-       "where": ".container › .footer__ages › a"
-      },
-      {
        "t": "Івано-Франківськ",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Тернопіль",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Луцьк",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Ужгород",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кропивницький",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Херсон",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кременчук",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Кам'янське",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Біла Церква",
-       "where": ".container › .footer__ages › a"
-      },
-      {
-       "t": "Бровари",
        "where": ".container › .footer__ages › a"
       },
       {
