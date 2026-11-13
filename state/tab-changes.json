@@ -8,7 +8,7 @@
    "lines": 23255,
    "subjects": [
     "2026-11-09 feat(admin): «Співробітники → Договори» — шаблони договорів по папках",
-    "2026-11-07 content(lessons/minecraft): пачка 8 — модулі 9 і 10 старшої"
+    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 23173,
    "subjects": [
     "2026-11-10 fix(admin): «Додати клієнта» з «Архівом» знову в одному рядку з фільтрами",
-    "2026-11-07 content(lessons/minecraft): пачка 8 — модулі 9 і 10 старшої"
+    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
    ]
   },
   {
@@ -25,7 +25,7 @@
    "commits": 1,
    "lines": 23162,
    "subjects": [
-    "2026-11-07 content(lessons/minecraft): пачка 8 — модулі 9 і 10 старшої"
+    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
    ]
   },
   {
