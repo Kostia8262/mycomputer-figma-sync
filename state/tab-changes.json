@@ -1,6 +1,6 @@
 {
  "since": "2026-08-01",
- "total": 6,
+ "total": 11,
  "summary": [
   {
    "tab": "База клієнтів",
@@ -8,7 +8,7 @@
    "lines": 23255,
    "subjects": [
     "2026-11-09 feat(admin): «Співробітники → Договори» — шаблони договорів по папках",
-    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
+    "2026-11-09 seo: убрать сквозную ссылку на fluent-fox.site из подвалов сети"
    ]
   },
   {
@@ -17,7 +17,7 @@
    "lines": 23173,
    "subjects": [
     "2026-11-10 fix(admin): «Додати клієнта» з «Архівом» знову в одному рядку з фільтрами",
-    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
+    "2026-11-09 seo: убрать сквозную ссылку на fluent-fox.site из подвалов сети"
    ]
   },
   {
@@ -25,7 +25,7 @@
    "commits": 1,
    "lines": 23162,
    "subjects": [
-    "2026-11-07 chore(content-queue): refresh network-wide course/article snapshot"
+    "2026-11-09 seo: убрать сквозную ссылку на fluent-fox.site из подвалов сети"
    ]
   },
   {
@@ -38,6 +38,11 @@
   }
  ],
  "unmatched": [
+  "2026-11-13 feat(subscriptions): помісячні — гроші закривають місяці по черзі",
+  "2026-11-13 feat(admin): фільтр абонементів за способом оплати",
+  "2026-11-13 fix(admin): тимчасово вимкнути «+ Поповнити» в абонементах",
+  "2026-11-13 feat(subscriptions): помісячні — «−N · листопад не оплачено · 3600 ₴»",
+  "2026-11-13 feat(subscriptions): помісячна оплата — рахунок по місяцях з листопада 2026",
   "2026-11-10 fix(admin): звільнені викладачі не показуються у випадайках",
   "2026-11-09 feat(admin): «Договори» — перегляд шаблону аркушами А4, як у Word"
  ]
