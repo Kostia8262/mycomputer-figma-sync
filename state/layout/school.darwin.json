@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 11087,
+      "documentHeight": 11072,
       "sections": [
         {
           "key": "#header",
@@ -5054,11 +5054,11 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9383.5
+            "y": 9308
           },
           "size": {
             "w": 1440,
-            "h": 719.4
+            "h": 779.3
           },
           "styles": {
             "display": "block",
@@ -5088,7 +5088,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 606.4
+                "h": 666.3
               },
               "styles": {
                 "display": "block",
@@ -5115,7 +5115,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 606.4
+                    "h": 666.3
                   },
                   "styles": {
                     "display": "block",
@@ -5155,8 +5155,8 @@
                         "y": 60.2
                       },
                       "size": {
-                        "w": 780,
-                        "h": 75.6
+                        "w": 1112,
+                        "h": 50.4
                       },
                       "styles": {
                         "marginBottom": "12px"
@@ -5168,11 +5168,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 167.8
+                        "y": 142.6
                       },
                       "size": {
                         "w": 1112,
-                        "h": 438.7
+                        "h": 523.7
                       },
                       "styles": {
                         "marginTop": "32px"
@@ -5187,7 +5187,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 438.7
+                            "h": 523.7
                           },
                           "bordered": true
                         },
@@ -5200,7 +5200,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 438.7
+                            "h": 523.7
                           },
                           "bordered": true
                         },
@@ -5213,7 +5213,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 438.7
+                            "h": 523.7
                           },
                           "bordered": true
                         },
@@ -5226,7 +5226,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 438.7
+                            "h": 523.7
                           },
                           "bordered": true
                         }
@@ -5237,14 +5237,14 @@
               ]
             }
           ],
-          "absoluteTop": 9383.5
+          "absoluteTop": 9308
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 10103
+            "y": 10087.2
           },
           "size": {
             "w": 1440,
@@ -5864,14 +5864,14 @@
               ]
             }
           ],
-          "absoluteTop": 10103
+          "absoluteTop": 10087.2
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 12154,
+      "documentHeight": 12124,
       "sections": [
         {
           "key": "#header",
@@ -10905,11 +10905,11 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10270.4
+            "y": 10220
           },
           "size": {
             "w": 1024,
-            "h": 871.6
+            "h": 892.4
           },
           "styles": {
             "display": "block",
@@ -10939,7 +10939,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 758.6
+                "h": 779.4
               },
               "styles": {
                 "display": "block",
@@ -10966,7 +10966,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 758.6
+                    "h": 779.4
                   },
                   "styles": {
                     "display": "block",
@@ -11006,8 +11006,8 @@
                         "y": 60.2
                       },
                       "size": {
-                        "w": 780,
-                        "h": 75.6
+                        "w": 976,
+                        "h": 50.4
                       },
                       "styles": {
                         "marginBottom": "12px"
@@ -11019,11 +11019,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 167.8
+                        "y": 142.6
                       },
                       "size": {
                         "w": 976,
-                        "h": 590.9
+                        "h": 636.9
                       },
                       "styles": {
                         "marginTop": "32px"
@@ -11064,7 +11064,7 @@
                           },
                           "size": {
                             "w": 478,
-                            "h": 321.7
+                            "h": 367.7
                           },
                           "bordered": true
                         },
@@ -11077,7 +11077,7 @@
                           },
                           "size": {
                             "w": 478,
-                            "h": 321.7
+                            "h": 367.7
                           },
                           "bordered": true
                         }
@@ -11088,14 +11088,14 @@
               ]
             }
           ],
-          "absoluteTop": 10270.4
+          "absoluteTop": 10220
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11142
+            "y": 11112.5
           },
           "size": {
             "w": 1024,
@@ -11715,14 +11715,14 @@
               ]
             }
           ],
-          "absoluteTop": 11142
+          "absoluteTop": 11112.5
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 15303,
+      "documentHeight": 15349,
       "sections": [
         {
           "key": "#header",
@@ -16768,7 +16768,7 @@
           },
           "size": {
             "w": 390,
-            "h": 1568.1
+            "h": 1614.1
           },
           "styles": {
             "display": "block",
@@ -16798,7 +16798,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1455.1
+                "h": 1501.1
               },
               "styles": {
                 "display": "block",
@@ -16825,7 +16825,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1455.1
+                    "h": 1501.1
                   },
                   "styles": {
                     "display": "block",
@@ -16882,7 +16882,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 1194.8
+                        "h": 1240.8
                       },
                       "styles": {
                         "marginTop": "32px"
@@ -16923,7 +16923,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 360.7
+                            "h": 406.7
                           },
                           "bordered": true
                         },
@@ -16932,7 +16932,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 899.6
+                            "y": 945.6
                           },
                           "size": {
                             "w": 358,
@@ -16954,7 +16954,7 @@
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 13534.5
+            "y": 13580.5
           },
           "size": {
             "w": 390,
@@ -17575,7 +17575,7 @@
               ]
             }
           ],
-          "absoluteTop": 13534.5
+          "absoluteTop": 13580.5
         }
       ]
     }

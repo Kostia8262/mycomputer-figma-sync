@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.education",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-11",
+ "takenAt": "2026-11-17",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -723,7 +723,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -755,7 +755,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -803,16 +803,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -1528,11 +1524,11 @@
      "key": "#brief",
      "lines": [
       {
-       "t": "Коротко про головне: школа програмування для дітей",
+       "t": "Коротко про головне: школа програмування та дизайну для дітей",
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "t": "My Computer Academy — онлайн-школа програмування та комп'ютерних курсів для дітей і підлітків 6–18 років. Вчимо з нуля в",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -1544,11 +1540,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "t": "6–10 років — Scratch і Minecraft, растрова й векторна графіка, анімація, базове 3D і впевнена робота з комп'ютером.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "t": "10–18 років — Python, Roblox Studio, сайти й застосунки, графічний, веб- і UI-дизайн, цифровий малюнок на планшеті, 3D-м",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1564,7 +1560,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "t": "Робити власні ігри, ботів, сайти й застосунки для Android та iOS, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Освоїти графічний дизайн, веб- і UI-дизайн, малювання на планшеті та 3D-моделювання.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1580,11 +1580,11 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1600,7 +1600,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Уроки проходять українською.",
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -2715,7 +2715,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2747,7 +2747,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2795,16 +2795,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -3520,11 +3516,11 @@
      "key": "#brief",
      "lines": [
       {
-       "t": "Коротко про головне: школа програмування для дітей",
+       "t": "Коротко про головне: школа програмування та дизайну для дітей",
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "t": "My Computer Academy — онлайн-школа програмування та комп'ютерних курсів для дітей і підлітків 6–18 років. Вчимо з нуля в",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -3536,11 +3532,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "t": "6–10 років — Scratch і Minecraft, растрова й векторна графіка, анімація, базове 3D і впевнена робота з комп'ютером.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "t": "10–18 років — Python, Roblox Studio, сайти й застосунки, графічний, веб- і UI-дизайн, цифровий малюнок на планшеті, 3D-м",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -3556,7 +3552,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "t": "Робити власні ігри, ботів, сайти й застосунки для Android та iOS, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Освоїти графічний дизайн, веб- і UI-дизайн, малювання на планшеті та 3D-моделювання.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -3572,11 +3572,11 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -3592,7 +3592,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Уроки проходять українською.",
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -4683,7 +4683,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -4715,7 +4715,7 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -4763,16 +4763,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -5408,11 +5404,11 @@
      "key": "#brief",
      "lines": [
       {
-       "t": "Коротко про головне: школа програмування для дітей",
+       "t": "Коротко про головне: школа програмування та дизайну для дітей",
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Academy — онлайн-школа програмування для дітей і підлітків 6–18 років. Вчимо з нуля в малих групах: від Scra",
+       "t": "My Computer Academy — онлайн-школа програмування та комп'ютерних курсів для дітей і підлітків 6–18 років. Вчимо з нуля в",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -5424,11 +5420,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "6–10 років — Scratch і Minecraft: перші ігри й алгоритми без нудної теорії.",
+       "t": "6–10 років — Scratch і Minecraft, растрова й векторна графіка, анімація, базове 3D і впевнена робота з комп'ютером.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "10–18 років — Python, Roblox Studio, веб-розробка, Construct.",
+       "t": "10–18 років — Python, Roblox Studio, сайти й застосунки, графічний, веб- і UI-дизайн, цифровий малюнок на планшеті, 3D-м",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -5444,7 +5440,11 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Робити власні ігри, ботів і сайти, які можна показати друзям.",
+       "t": "Робити власні ігри, ботів, сайти й застосунки для Android та iOS, які можна показати друзям.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Освоїти графічний дизайн, веб- і UI-дизайн, малювання на планшеті та 3D-моделювання.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -5460,11 +5460,11 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -5480,7 +5480,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Уроки проходять українською.",
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {

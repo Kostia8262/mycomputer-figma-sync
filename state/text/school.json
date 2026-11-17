@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-11",
+ "takenAt": "2026-11-17",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -807,16 +807,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -1236,11 +1232,15 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -2251,16 +2251,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -2680,11 +2676,15 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -3667,16 +3667,12 @@
        "where": ".pricing-card__price › .pricing-card__price-label › div"
       },
       {
-       "t": "9 450",
+       "t": "12 000",
        "where": ".pricing-card__price › .pricing-card__price-val › div"
       },
       {
        "t": "грн/курс",
        "where": ".pricing-card__price › .pricing-card__price-val › span"
-      },
-      {
-       "t": "12 000",
-       "where": ".pricing-card__price-val › .pricing-card__price-old › del"
       },
       {
        "t": "Записатись на пробне",
@@ -4096,11 +4092,15 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom або Google Meet: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "У групі до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "t": "У групі від 3 до 6 дітей, тож кожен встигає спитати й показати свою роботу.",
+       "where": ".seo-section__grid › .seo-card › li"
+      },
+      {
+       "t": "Уроки проходять українською, англійською або російською, на запит — іншою мовою.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
