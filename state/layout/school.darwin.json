@@ -7,7 +7,7 @@
     {
       "viewport": "desktop",
       "width": 1440,
-      "documentHeight": 11072,
+      "documentHeight": 10613,
       "sections": [
         {
           "key": "#header",
@@ -196,7 +196,7 @@
                           },
                           "size": {
                             "w": 230,
-                            "h": 482.9
+                            "h": 295.3
                           },
                           "bordered": true
                         }
@@ -813,9 +813,9 @@
                     "fontWeight": "600",
                     "lineHeight": "20.4px",
                     "letterSpacing": "0.8px",
-                    "color": "rgb(156, 143, 134)",
+                    "color": "rgb(122, 108, 99)",
                     "opacity": "1",
-                    "borderTopColor": "rgb(156, 143, 134)",
+                    "borderTopColor": "rgb(122, 108, 99)",
                     "textAlign": "center",
                     "textTransform": "uppercase"
                   },
@@ -1152,11 +1152,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 270,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -1172,7 +1172,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -1256,7 +1256,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 357.3,
@@ -1333,7 +1333,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 377.3,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 357.3,
@@ -1384,16 +1384,16 @@
                             "w": 299.3,
                             "h": 47.6
                           },
-                          "text": "По 5–6 дітей у групі, щоб уваги вистачил"
+                          "text": "Від 3 до 6 дітей у групі, щоб уваги вист"
                         }
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[0]",
+                      "key": ".benefit-card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 754.7,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 357.3,
@@ -1449,11 +1449,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[1]",
+                      "key": ".benefit-card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 313.9
+                        "y": 289.9
                       },
                       "size": {
                         "w": 357.3,
@@ -1509,11 +1509,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[2]",
+                      "key": ".benefit-card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 377.3,
-                        "y": 313.9
+                        "y": 289.9
                       },
                       "size": {
                         "w": 357.3,
@@ -1569,11 +1569,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[3]",
+                      "key": ".benefit-card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 754.7,
-                        "y": 313.9
+                        "y": 289.9
                       },
                       "size": {
                         "w": 357.3,
@@ -1705,11 +1705,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 270,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -1725,7 +1725,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -1914,7 +1914,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 276,
@@ -1927,7 +1927,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 552,
@@ -1940,7 +1940,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 828,
@@ -1970,58 +1970,6 @@
                           "tag": "div",
                           "rel": {
                             "x": 1380,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[5]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1656,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[6]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1932,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[7]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2208,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[8]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2484,
                             "y": 20
                           },
                           "size": {
@@ -2091,7 +2039,7 @@
                       "key": "#coursesPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 485,
+                        "x": 492,
                         "y": 0
                       },
                       "size": {
@@ -2118,11 +2066,11 @@
                       "key": "#coursesPageNums",
                       "tag": "div",
                       "rel": {
-                        "x": 531,
+                        "x": 538,
                         "y": 14
                       },
                       "size": {
-                        "w": 50,
+                        "w": 36,
                         "h": 8
                       },
                       "children": [
@@ -2139,22 +2087,10 @@
                           }
                         },
                         {
-                          "key": ".courses__page-num[0]",
+                          "key": ".courses__page-num",
                           "tag": "button",
                           "rel": {
                             "x": 28,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
-                        },
-                        {
-                          "key": ".courses__page-num[1]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 42,
                             "y": 0
                           },
                           "size": {
@@ -2168,7 +2104,7 @@
                       "key": "#coursesNext",
                       "tag": "button",
                       "rel": {
-                        "x": 591,
+                        "x": 584,
                         "y": 0
                       },
                       "size": {
@@ -2253,11 +2189,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 270,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -2273,7 +2209,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -2352,11 +2288,11 @@
                   },
                   "children": [
                     {
-                      "key": ".step.fade-up[0]",
+                      "key": ".step[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 233,
@@ -2409,11 +2345,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[1]",
+                      "key": ".step[1]",
                       "tag": "div",
                       "rel": {
                         "x": 293,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 233,
@@ -2466,11 +2402,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[2]",
+                      "key": ".step[2]",
                       "tag": "div",
                       "rel": {
                         "x": 586,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 233,
@@ -2523,11 +2459,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[3]",
+                      "key": ".step[3]",
                       "tag": "div",
                       "rel": {
                         "x": 879,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 233,
@@ -2726,11 +2662,11 @@
                   },
                   "children": [
                     {
-                      "key": ".stats__card.fade-up[0]",
+                      "key": ".stats__card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 266,
@@ -2783,11 +2719,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[1]",
+                      "key": ".stats__card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 282,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 266,
@@ -2840,11 +2776,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[2]",
+                      "key": ".stats__card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 564,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 266,
@@ -2897,11 +2833,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[3]",
+                      "key": ".stats__card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 846,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 266,
@@ -2969,7 +2905,7 @@
           },
           "size": {
             "w": 1440,
-            "h": 727.4
+            "h": 759.4
           },
           "styles": {
             "display": "block",
@@ -2997,7 +2933,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 567.4
+                "h": 599.4
               },
               "styles": {
                 "display": "block",
@@ -3107,7 +3043,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 392.4
+                    "h": 424.4
                   },
                   "styles": {
                     "display": "grid",
@@ -3134,7 +3070,7 @@
                       },
                       "size": {
                         "w": 357.3,
-                        "h": 392.4
+                        "h": 424.4
                       },
                       "bordered": true,
                       "children": [
@@ -3177,7 +3113,7 @@
                           },
                           "size": {
                             "w": 307.3,
-                            "h": 116
+                            "h": 148
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -3188,7 +3124,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 216.4
+                            "y": 248.4
                           },
                           "size": {
                             "w": 307.3,
@@ -3204,7 +3140,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 311.9
+                            "y": 343.9
                           },
                           "size": {
                             "w": 307.3,
@@ -3223,7 +3159,7 @@
                       },
                       "size": {
                         "w": 357.3,
-                        "h": 392.4
+                        "h": 424.4
                       },
                       "bordered": true,
                       "children": [
@@ -3266,7 +3202,7 @@
                           },
                           "size": {
                             "w": 307.3,
-                            "h": 116
+                            "h": 148
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -3277,7 +3213,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 216.4
+                            "y": 248.4
                           },
                           "size": {
                             "w": 307.3,
@@ -3293,7 +3229,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 311.9
+                            "y": 343.9
                           },
                           "size": {
                             "w": 307.3,
@@ -3312,7 +3248,7 @@
                       },
                       "size": {
                         "w": 357.3,
-                        "h": 392.4
+                        "h": 424.4
                       },
                       "bordered": true,
                       "children": [
@@ -3355,7 +3291,7 @@
                           },
                           "size": {
                             "w": 307.3,
-                            "h": 116
+                            "h": 148
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -3366,7 +3302,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 216.4
+                            "y": 248.4
                           },
                           "size": {
                             "w": 307.3,
@@ -3382,7 +3318,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 311.9
+                            "y": 343.9
                           },
                           "size": {
                             "w": 307.3,
@@ -3404,7 +3340,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 4860
+            "y": 4892
           },
           "size": {
             "w": 1440,
@@ -3586,18 +3522,18 @@
               ]
             }
           ],
-          "absoluteTop": 4860
+          "absoluteTop": 4892
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5302.3
+            "y": 5334.3
           },
           "size": {
             "w": 1440,
-            "h": 1607.3
+            "h": 1140.9
           },
           "styles": {
             "display": "block",
@@ -3625,7 +3561,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 1431.3
+                "h": 964.9
               },
               "styles": {
                 "display": "block",
@@ -3644,11 +3580,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 270,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -3664,7 +3600,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -3712,7 +3648,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 1231.2
+                    "h": 728.8
                   },
                   "styles": {
                     "display": "block",
@@ -3737,125 +3673,515 @@
                       },
                       "size": {
                         "w": 1112,
-                        "h": 1231.2
+                        "h": 728.8
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
+                          "rel": {
+                            "x": 2,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 377.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 752.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1128,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1503.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[5]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1878.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[6]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2254,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2629.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3004.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3380,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3755.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4130.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4505.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4881.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5256.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5631.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6007.3,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6382.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6757.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[19]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7133.2,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[20]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7508.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[21]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7883.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[22]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 8259.2,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[23]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 8634.5,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 357.3,
+                            "h": 692.8
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "#reviewsPagination",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 936.9
+                  },
+                  "size": {
+                    "w": 1112,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "14px",
+                    "flexWrap": "nowrap",
+                    "marginTop": "8px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(30, 22, 19)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(30, 22, 19)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#reviewsPrev",
+                      "tag": "button",
+                      "rel": {
+                        "x": 443.5,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsPgDots",
+                      "tag": "div",
+                      "rel": {
+                        "x": 485.5,
+                        "y": 9.5
+                      },
+                      "size": {
+                        "w": 141,
+                        "h": 9
+                      },
+                      "children": [
+                        {
+                          "key": ".reviews__pg-dot.active",
+                          "tag": "button",
                           "rel": {
                             "x": 0,
                             "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 22,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[1]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[0]",
+                          "tag": "button",
                           "rel": {
-                            "x": 565,
+                            "x": 30,
                             "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[2]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[1]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 268.9
+                            "x": 47,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[3]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[2]",
+                          "tag": "button",
                           "rel": {
-                            "x": 565,
-                            "y": 268.9
+                            "x": 64,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[4]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[3]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 514
+                            "x": 81,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[5]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[4]",
+                          "tag": "button",
                           "rel": {
-                            "x": 565,
-                            "y": 514
+                            "x": 98,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[6]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[5]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 759
+                            "x": 115,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[7]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[6]",
+                          "tag": "button",
                           "rel": {
-                            "x": 565,
-                            "y": 759
+                            "x": 132,
+                            "y": 0
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
-                        },
+                            "w": 9,
+                            "h": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsNext",
+                      "tag": "button",
+                      "rel": {
+                        "x": 640.5,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
                         {
-                          "key": ".review-card[8]",
-                          "tag": "div",
+                          "key": "svg",
+                          "tag": "svg",
                           "rel": {
-                            "x": 0,
-                            "y": 1004.1
+                            "x": 10.5,
+                            "y": 8
                           },
                           "size": {
-                            "w": 547,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 7,
+                            "h": 12
+                          }
                         }
                       ]
                     }
@@ -3864,14 +4190,14 @@
               ]
             }
           ],
-          "absoluteTop": 5302.3
+          "absoluteTop": 5334.3
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 6909.5
+            "y": 6475.2
           },
           "size": {
             "w": 1440,
@@ -3936,11 +4262,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 270,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -3956,7 +4282,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -4540,18 +4866,18 @@
               ]
             }
           ],
-          "absoluteTop": 6909.5
+          "absoluteTop": 6475.2
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7699
+            "y": 7264.6
           },
           "size": {
             "w": 1440,
-            "h": 642.6
+            "h": 846
           },
           "styles": {
             "display": "block",
@@ -4578,7 +4904,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 466.6
+                "h": 670
               },
               "styles": {
                 "display": "block",
@@ -4605,7 +4931,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 466.6
+                    "h": 670
                   },
                   "styles": {
                     "display": "grid",
@@ -4629,7 +4955,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 346.7,
@@ -4682,7 +5008,7 @@
                       },
                       "size": {
                         "w": 693.3,
-                        "h": 466.6
+                        "h": 670
                       },
                       "children": [
                         {
@@ -4775,6 +5101,45 @@
                             "h": 59.8
                           },
                           "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 474.6
+                          },
+                          "size": {
+                            "w": 693.3,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 542.4
+                          },
+                          "size": {
+                            "w": 693.3,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 610.2
+                          },
+                          "size": {
+                            "w": 693.3,
+                            "h": 59.8
+                          },
+                          "bordered": true
                         }
                       ]
                     }
@@ -4783,14 +5148,14 @@
               ]
             }
           ],
-          "absoluteTop": 7699
+          "absoluteTop": 7264.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8341.6
+            "y": 8110.6
           },
           "size": {
             "w": 1440,
@@ -5047,18 +5412,18 @@
               ]
             }
           ],
-          "absoluteTop": 8341.6
+          "absoluteTop": 8110.6
         },
         {
           "key": "#brief",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9308
+            "y": 9077
           },
           "size": {
             "w": 1440,
-            "h": 779.3
+            "h": 759.8
           },
           "styles": {
             "display": "block",
@@ -5088,7 +5453,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 666.3
+                "h": 646.8
               },
               "styles": {
                 "display": "block",
@@ -5115,7 +5480,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 666.3
+                    "h": 646.8
                   },
                   "styles": {
                     "display": "block",
@@ -5172,7 +5537,7 @@
                       },
                       "size": {
                         "w": 1112,
-                        "h": 523.7
+                        "h": 504.2
                       },
                       "styles": {
                         "marginTop": "32px"
@@ -5187,7 +5552,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 523.7
+                            "h": 504.2
                           },
                           "bordered": true
                         },
@@ -5200,7 +5565,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 523.7
+                            "h": 504.2
                           },
                           "bordered": true
                         },
@@ -5213,7 +5578,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 523.7
+                            "h": 504.2
                           },
                           "bordered": true
                         },
@@ -5226,7 +5591,7 @@
                           },
                           "size": {
                             "w": 263,
-                            "h": 523.7
+                            "h": 504.2
                           },
                           "bordered": true
                         }
@@ -5237,18 +5602,18 @@
               ]
             }
           ],
-          "absoluteTop": 9308
+          "absoluteTop": 9077
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 10087.2
+            "y": 9836.7
           },
           "size": {
             "w": 1440,
-            "h": 984.3
+            "h": 776.2
           },
           "styles": {
             "display": "block",
@@ -5289,7 +5654,7 @@
               },
               "size": {
                 "w": 1160,
-                "h": 900.3
+                "h": 692.2
               },
               "styles": {
                 "display": "block",
@@ -5316,7 +5681,7 @@
                   },
                   "size": {
                     "w": 1112,
-                    "h": 496
+                    "h": 287.9
                   },
                   "styles": {
                     "display": "grid",
@@ -5344,7 +5709,7 @@
                       },
                       "size": {
                         "w": 354.7,
-                        "h": 496
+                        "h": 287.9
                       },
                       "children": [
                         {
@@ -5401,7 +5766,7 @@
                       },
                       "size": {
                         "w": 709.3,
-                        "h": 496
+                        "h": 287.9
                       },
                       "children": [
                         {
@@ -5413,7 +5778,7 @@
                           },
                           "size": {
                             "w": 215.1,
-                            "h": 496
+                            "h": 287.9
                           }
                         },
                         {
@@ -5425,7 +5790,7 @@
                           },
                           "size": {
                             "w": 215.1,
-                            "h": 496
+                            "h": 287.9
                           }
                         },
                         {
@@ -5437,7 +5802,7 @@
                           },
                           "size": {
                             "w": 231.2,
-                            "h": 496
+                            "h": 287.9
                           }
                         }
                       ]
@@ -5449,7 +5814,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 536
+                    "y": 327.9
                   },
                   "size": {
                     "w": 1112,
@@ -5565,7 +5930,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 666
+                    "y": 457.9
                   },
                   "size": {
                     "w": 1112,
@@ -5600,7 +5965,7 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 449,
+                        "w": 638.1,
                         "h": 43.8
                       },
                       "children": [
@@ -5621,11 +5986,11 @@
                           "tag": "button",
                           "rel": {
                             "x": 328,
-                            "y": 2.9
+                            "y": 0
                           },
                           "size": {
-                            "w": 121,
-                            "h": 38
+                            "w": 310,
+                            "h": 43.8
                           }
                         }
                       ]
@@ -5699,7 +6064,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 780.8
+                    "y": 572.7
                   },
                   "size": {
                     "w": 1112,
@@ -5796,7 +6161,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 834.2
+                    "y": 626.1
                   },
                   "size": {
                     "w": 1112,
@@ -5864,14 +6229,14 @@
               ]
             }
           ],
-          "absoluteTop": 10087.2
+          "absoluteTop": 9836.7
         }
       ]
     },
     {
       "viewport": "tablet",
       "width": 1024,
-      "documentHeight": 12124,
+      "documentHeight": 11685,
       "sections": [
         {
           "key": "#header",
@@ -5917,7 +6282,7 @@
                 "display": "flex",
                 "flexDirection": "row",
                 "alignItems": "center",
-                "gap": "12px",
+                "gap": "8px",
                 "flexWrap": "nowrap",
                 "paddingRight": "24px",
                 "paddingLeft": "24px",
@@ -5939,7 +6304,7 @@
                     "y": 15
                   },
                   "size": {
-                    "w": 256,
+                    "w": 140.1,
                     "h": 38
                   },
                   "styles": {
@@ -5975,11 +6340,11 @@
                       "tag": "span",
                       "rel": {
                         "x": 48,
-                        "y": 6.3
+                        "y": 4.6
                       },
                       "size": {
-                        "w": 208,
-                        "h": 25.5
+                        "w": 92.1,
+                        "h": 28.8
                       },
                       "text": "My Computer",
                       "children": [
@@ -5987,12 +6352,12 @@
                           "key": "strong",
                           "tag": "strong",
                           "rel": {
-                            "x": 101.7,
-                            "y": 3
+                            "x": 0,
+                            "y": 13.2
                           },
                           "size": {
-                            "w": 106.3,
-                            "h": 19
+                            "w": 92.1,
+                            "h": 15.6
                           },
                           "text": "Design School"
                         }
@@ -6004,11 +6369,11 @@
                   "key": "#navMenu",
                   "tag": "ul",
                   "rel": {
-                    "x": 384.2,
+                    "x": 448.1,
                     "y": 20.4
                   },
                   "size": {
-                    "w": 386.4,
+                    "w": 328.5,
                     "h": 27.2
                   },
                   "styles": {
@@ -6034,7 +6399,7 @@
                         "y": 0
                       },
                       "size": {
-                        "w": 74.2,
+                        "w": 63.2,
                         "h": 27.2
                       },
                       "children": [
@@ -6043,11 +6408,11 @@
                           "tag": "a",
                           "rel": {
                             "x": 0,
-                            "y": -1
+                            "y": 0
                           },
                           "size": {
-                            "w": 74.2,
-                            "h": 29
+                            "w": 63.2,
+                            "h": 28
                           },
                           "text": "Курси"
                         },
@@ -6055,12 +6420,12 @@
                           "key": ".nav__dropdown",
                           "tag": "ul",
                           "rel": {
-                            "x": -77.9,
+                            "x": -83.4,
                             "y": 29.2
                           },
                           "size": {
                             "w": 230,
-                            "h": 482.9
+                            "h": 295.3
                           },
                           "bordered": true
                         }
@@ -6070,11 +6435,11 @@
                       "key": "li[0]",
                       "tag": "li",
                       "rel": {
-                        "x": 76.2,
+                        "x": 65.2,
                         "y": 0
                       },
                       "size": {
-                        "w": 118.7,
+                        "w": 103.9,
                         "h": 27.2
                       },
                       "children": [
@@ -6083,11 +6448,11 @@
                           "tag": "a",
                           "rel": {
                             "x": 0,
-                            "y": -1
+                            "y": 0
                           },
                           "size": {
-                            "w": 118.7,
-                            "h": 29
+                            "w": 103.9,
+                            "h": 28
                           },
                           "text": "Як це працює"
                         }
@@ -6097,11 +6462,11 @@
                       "key": "li[1]",
                       "tag": "li",
                       "rel": {
-                        "x": 196.9,
+                        "x": 171.1,
                         "y": 0
                       },
                       "size": {
-                        "w": 79.7,
+                        "w": 67.7,
                         "h": 27.2
                       },
                       "children": [
@@ -6110,11 +6475,11 @@
                           "tag": "a",
                           "rel": {
                             "x": 0,
-                            "y": -1
+                            "y": 0
                           },
                           "size": {
-                            "w": 79.7,
-                            "h": 29
+                            "w": 67.7,
+                            "h": 28
                           },
                           "text": "Про нас"
                         }
@@ -6124,11 +6489,11 @@
                       "key": "li[2]",
                       "tag": "li",
                       "rel": {
-                        "x": 278.5,
+                        "x": 240.8,
                         "y": 0
                       },
                       "size": {
-                        "w": 54.7,
+                        "w": 44.5,
                         "h": 27.2
                       },
                       "children": [
@@ -6137,11 +6502,11 @@
                           "tag": "a",
                           "rel": {
                             "x": 0,
-                            "y": -1
+                            "y": 0
                           },
                           "size": {
-                            "w": 54.7,
-                            "h": 29
+                            "w": 44.5,
+                            "h": 28
                           },
                           "text": "Ціни"
                         }
@@ -6151,11 +6516,11 @@
                       "key": "li[3]",
                       "tag": "li",
                       "rel": {
-                        "x": 335.2,
+                        "x": 287.3,
                         "y": 0
                       },
                       "size": {
-                        "w": 51.2,
+                        "w": 41.2,
                         "h": 27.2
                       },
                       "children": [
@@ -6164,11 +6529,11 @@
                           "tag": "a",
                           "rel": {
                             "x": 0,
-                            "y": -1
+                            "y": 0
                           },
                           "size": {
-                            "w": 51.2,
-                            "h": 29
+                            "w": 41.2,
+                            "h": 28
                           },
                           "text": "FAQ"
                         }
@@ -6180,18 +6545,18 @@
                   "key": ".nav__actions",
                   "tag": "div",
                   "rel": {
-                    "x": 782.6,
+                    "x": 784.6,
                     "y": 12
                   },
                   "size": {
-                    "w": 217.4,
+                    "w": 215.4,
                     "h": 44
                   },
                   "styles": {
                     "display": "flex",
                     "flexDirection": "row",
                     "alignItems": "center",
-                    "gap": "10px",
+                    "gap": "8px",
                     "flexWrap": "nowrap",
                     "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
                     "fontSize": "16px",
@@ -6260,7 +6625,7 @@
                       "key": ".btn.btn--primary",
                       "tag": "a",
                       "rel": {
-                        "x": 95.2,
+                        "x": 93.2,
                         "y": 0
                       },
                       "size": {
@@ -6664,9 +7029,9 @@
                     "fontWeight": "600",
                     "lineHeight": "20.4px",
                     "letterSpacing": "0.8px",
-                    "color": "rgb(156, 143, 134)",
+                    "color": "rgb(122, 108, 99)",
                     "opacity": "1",
-                    "borderTopColor": "rgb(156, 143, 134)",
+                    "borderTopColor": "rgb(122, 108, 99)",
                     "textAlign": "center",
                     "textTransform": "uppercase"
                   },
@@ -7003,11 +7368,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 202,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -7023,7 +7388,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -7107,7 +7472,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 644,
@@ -7184,7 +7549,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 664,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 312,
@@ -7235,16 +7600,16 @@
                             "w": 254,
                             "h": 47.6
                           },
-                          "text": "По 5–6 дітей у групі, щоб уваги вистачил"
+                          "text": "Від 3 до 6 дітей у групі, щоб уваги вист"
                         }
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[0]",
+                      "key": ".benefit-card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 290.1
+                        "y": 266.1
                       },
                       "size": {
                         "w": 312,
@@ -7300,11 +7665,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[1]",
+                      "key": ".benefit-card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 332,
-                        "y": 290.1
+                        "y": 266.1
                       },
                       "size": {
                         "w": 312,
@@ -7360,11 +7725,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[2]",
+                      "key": ".benefit-card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 664,
-                        "y": 290.1
+                        "y": 266.1
                       },
                       "size": {
                         "w": 312,
@@ -7420,11 +7785,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[3]",
+                      "key": ".benefit-card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 605.7
+                        "y": 581.7
                       },
                       "size": {
                         "w": 312,
@@ -7556,11 +7921,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 202,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -7576,7 +7941,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -7765,7 +8130,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 276,
@@ -7778,7 +8143,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 552,
@@ -7791,7 +8156,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 828,
@@ -7821,58 +8186,6 @@
                           "tag": "div",
                           "rel": {
                             "x": 1380,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[5]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1656,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[6]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1932,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[7]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2208,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 260,
-                            "h": 342
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[8]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2484,
                             "y": 20
                           },
                           "size": {
@@ -7942,7 +8255,7 @@
                       "key": "#coursesPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 417,
+                        "x": 424,
                         "y": 0
                       },
                       "size": {
@@ -7969,11 +8282,11 @@
                       "key": "#coursesPageNums",
                       "tag": "div",
                       "rel": {
-                        "x": 463,
+                        "x": 470,
                         "y": 14
                       },
                       "size": {
-                        "w": 50,
+                        "w": 36,
                         "h": 8
                       },
                       "children": [
@@ -7990,22 +8303,10 @@
                           }
                         },
                         {
-                          "key": ".courses__page-num[0]",
+                          "key": ".courses__page-num",
                           "tag": "button",
                           "rel": {
                             "x": 28,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
-                        },
-                        {
-                          "key": ".courses__page-num[1]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 42,
                             "y": 0
                           },
                           "size": {
@@ -8019,7 +8320,7 @@
                       "key": "#coursesNext",
                       "tag": "button",
                       "rel": {
-                        "x": 523,
+                        "x": 516,
                         "y": 0
                       },
                       "size": {
@@ -8104,11 +8405,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 202,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -8124,7 +8425,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -8203,11 +8504,11 @@
                   },
                   "children": [
                     {
-                      "key": ".step.fade-up[0]",
+                      "key": ".step[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 199,
@@ -8260,11 +8561,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[1]",
+                      "key": ".step[1]",
                       "tag": "div",
                       "rel": {
                         "x": 259,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 199,
@@ -8317,11 +8618,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[2]",
+                      "key": ".step[2]",
                       "tag": "div",
                       "rel": {
                         "x": 518,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 199,
@@ -8374,11 +8675,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[3]",
+                      "key": ".step[3]",
                       "tag": "div",
                       "rel": {
                         "x": 777,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 199,
@@ -8577,11 +8878,11 @@
                   },
                   "children": [
                     {
-                      "key": ".stats__card.fade-up[0]",
+                      "key": ".stats__card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 480,
@@ -8634,11 +8935,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[1]",
+                      "key": ".stats__card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 496,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 480,
@@ -8691,11 +8992,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[2]",
+                      "key": ".stats__card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 309.1
+                        "y": 285.1
                       },
                       "size": {
                         "w": 480,
@@ -8748,11 +9049,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[3]",
+                      "key": ".stats__card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 496,
-                        "y": 309.1
+                        "y": 285.1
                       },
                       "size": {
                         "w": 480,
@@ -8820,7 +9121,7 @@
           },
           "size": {
             "w": 1024,
-            "h": 769
+            "h": 801
           },
           "styles": {
             "display": "block",
@@ -8848,7 +9149,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 609
+                "h": 641
               },
               "styles": {
                 "display": "block",
@@ -8958,7 +9259,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 435.8
+                    "h": 467.8
                   },
                   "styles": {
                     "display": "grid",
@@ -8985,7 +9286,7 @@
                       },
                       "size": {
                         "w": 312,
-                        "h": 435.8
+                        "h": 467.8
                       },
                       "bordered": true,
                       "children": [
@@ -9028,7 +9329,7 @@
                           },
                           "size": {
                             "w": 262,
-                            "h": 159.4
+                            "h": 191.4
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -9039,7 +9340,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 259.8
+                            "y": 291.8
                           },
                           "size": {
                             "w": 262,
@@ -9055,7 +9356,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 355.3
+                            "y": 387.3
                           },
                           "size": {
                             "w": 262,
@@ -9074,7 +9375,7 @@
                       },
                       "size": {
                         "w": 312,
-                        "h": 435.8
+                        "h": 467.8
                       },
                       "bordered": true,
                       "children": [
@@ -9117,7 +9418,7 @@
                           },
                           "size": {
                             "w": 262,
-                            "h": 136
+                            "h": 168
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -9128,7 +9429,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 259.8
+                            "y": 291.8
                           },
                           "size": {
                             "w": 262,
@@ -9144,7 +9445,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 355.3
+                            "y": 387.3
                           },
                           "size": {
                             "w": 262,
@@ -9163,7 +9464,7 @@
                       },
                       "size": {
                         "w": 312,
-                        "h": 435.8
+                        "h": 467.8
                       },
                       "bordered": true,
                       "children": [
@@ -9206,7 +9507,7 @@
                           },
                           "size": {
                             "w": 262,
-                            "h": 136
+                            "h": 168
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -9217,7 +9518,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 259.8
+                            "y": 291.8
                           },
                           "size": {
                             "w": 262,
@@ -9233,7 +9534,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 355.3
+                            "y": 387.3
                           },
                           "size": {
                             "w": 262,
@@ -9255,7 +9556,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5381.6
+            "y": 5413.6
           },
           "size": {
             "w": 1024,
@@ -9437,18 +9738,18 @@
               ]
             }
           ],
-          "absoluteTop": 5381.6
+          "absoluteTop": 5413.6
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 5823.5
+            "y": 5855.5
           },
           "size": {
             "w": 1024,
-            "h": 1678.7
+            "h": 1231.7
           },
           "styles": {
             "display": "block",
@@ -9476,7 +9777,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 1502.7
+                "h": 1055.7
               },
               "styles": {
                 "display": "block",
@@ -9495,11 +9796,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 202,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -9515,7 +9816,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -9563,7 +9864,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 1302.6
+                    "h": 819.6
                   },
                   "styles": {
                     "display": "block",
@@ -9588,125 +9889,515 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 1302.6
+                        "h": 819.6
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
+                          "rel": {
+                            "x": 2,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[1]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 332,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[2]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 662,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[3]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 992,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[4]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1321.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[5]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1651.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[6]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 1981.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2311.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2641.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2971.9,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3301.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3631.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3961.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4291.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4621.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4951.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5281.8,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5611.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5941.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[19]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6271.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[20]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6601.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[21]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6931.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[22]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7261.7,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[23]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7591.6,
+                            "y": 14
+                          },
+                          "size": {
+                            "w": 312,
+                            "h": 783.6
+                          },
+                          "bordered": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "#reviewsPagination",
+                  "tag": "div",
+                  "rel": {
+                    "x": 24,
+                    "y": 1027.7
+                  },
+                  "size": {
+                    "w": 976,
+                    "h": 28
+                  },
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "14px",
+                    "flexWrap": "nowrap",
+                    "marginTop": "8px",
+                    "fontFamily": "Inter, -apple-system, \"system-ui\", sans-serif",
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "lineHeight": "27.2px",
+                    "color": "rgb(30, 22, 19)",
+                    "opacity": "1",
+                    "borderTopColor": "rgb(30, 22, 19)",
+                    "textAlign": "start"
+                  },
+                  "children": [
+                    {
+                      "key": "#reviewsPrev",
+                      "tag": "button",
+                      "rel": {
+                        "x": 375.5,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
+                        {
+                          "key": "svg",
+                          "tag": "svg",
+                          "rel": {
+                            "x": 10.5,
+                            "y": 8
+                          },
+                          "size": {
+                            "w": 7,
+                            "h": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsPgDots",
+                      "tag": "div",
+                      "rel": {
+                        "x": 417.5,
+                        "y": 9.5
+                      },
+                      "size": {
+                        "w": 141,
+                        "h": 9
+                      },
+                      "children": [
+                        {
+                          "key": ".reviews__pg-dot.active",
+                          "tag": "button",
                           "rel": {
                             "x": 0,
                             "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 22,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[1]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[0]",
+                          "tag": "button",
                           "rel": {
-                            "x": 497,
+                            "x": 30,
                             "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[2]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[1]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 268.9
+                            "x": 47,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[3]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[2]",
+                          "tag": "button",
                           "rel": {
-                            "x": 497,
-                            "y": 268.9
+                            "x": 64,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[4]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[3]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 537.8
+                            "x": 81,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[5]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[4]",
+                          "tag": "button",
                           "rel": {
-                            "x": 497,
-                            "y": 537.8
+                            "x": 98,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 227.1
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[6]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[5]",
+                          "tag": "button",
                           "rel": {
-                            "x": 0,
-                            "y": 782.8
+                            "x": 115,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 9,
+                            "h": 9
+                          }
                         },
                         {
-                          "key": ".review-card[7]",
-                          "tag": "div",
+                          "key": ".reviews__pg-dot[6]",
+                          "tag": "button",
                           "rel": {
-                            "x": 497,
-                            "y": 782.8
+                            "x": 132,
+                            "y": 0
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
-                        },
+                            "w": 9,
+                            "h": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "#reviewsNext",
+                      "tag": "button",
+                      "rel": {
+                        "x": 572.5,
+                        "y": 0
+                      },
+                      "size": {
+                        "w": 28,
+                        "h": 28
+                      },
+                      "bordered": true,
+                      "children": [
                         {
-                          "key": ".review-card[8]",
-                          "tag": "div",
+                          "key": "svg",
+                          "tag": "svg",
                           "rel": {
-                            "x": 0,
-                            "y": 1051.7
+                            "x": 10.5,
+                            "y": 8
                           },
                           "size": {
-                            "w": 479,
-                            "h": 250.9
-                          },
-                          "bordered": true
+                            "w": 7,
+                            "h": 12
+                          }
                         }
                       ]
                     }
@@ -9715,14 +10406,14 @@
               ]
             }
           ],
-          "absoluteTop": 5823.5
+          "absoluteTop": 5855.5
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7502.1
+            "y": 7087.1
           },
           "size": {
             "w": 1024,
@@ -9787,11 +10478,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 202,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 620,
@@ -9807,7 +10498,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -10391,18 +11082,18 @@
               ]
             }
           ],
-          "absoluteTop": 7502.1
+          "absoluteTop": 7087.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8291.6
+            "y": 7876.6
           },
           "size": {
             "w": 1024,
-            "h": 892.7
+            "h": 1096.1
           },
           "styles": {
             "display": "block",
@@ -10429,7 +11120,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 716.7
+                "h": 920.1
               },
               "styles": {
                 "display": "block",
@@ -10456,7 +11147,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 716.7
+                    "h": 920.1
                   },
                   "styles": {
                     "display": "grid",
@@ -10480,7 +11171,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 620,
@@ -10533,7 +11224,7 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 466.6
+                        "h": 670
                       },
                       "children": [
                         {
@@ -10626,6 +11317,45 @@
                             "h": 59.8
                           },
                           "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 474.6
+                          },
+                          "size": {
+                            "w": 976,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 542.4
+                          },
+                          "size": {
+                            "w": 976,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 610.2
+                          },
+                          "size": {
+                            "w": 976,
+                            "h": 59.8
+                          },
+                          "bordered": true
                         }
                       ]
                     }
@@ -10634,14 +11364,14 @@
               ]
             }
           ],
-          "absoluteTop": 8291.6
+          "absoluteTop": 7876.6
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9184.3
+            "y": 8972.6
           },
           "size": {
             "w": 1024,
@@ -10898,18 +11628,18 @@
               ]
             }
           ],
-          "absoluteTop": 9184.3
+          "absoluteTop": 8972.6
         },
         {
           "key": "#brief",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10220
+            "y": 10008.4
           },
           "size": {
             "w": 1024,
-            "h": 892.4
+            "h": 872.9
           },
           "styles": {
             "display": "block",
@@ -10939,7 +11669,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 779.4
+                "h": 759.9
               },
               "styles": {
                 "display": "block",
@@ -10966,7 +11696,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 779.4
+                    "h": 759.9
                   },
                   "styles": {
                     "display": "block",
@@ -11023,7 +11753,7 @@
                       },
                       "size": {
                         "w": 976,
-                        "h": 636.9
+                        "h": 617.4
                       },
                       "styles": {
                         "marginTop": "32px"
@@ -11064,7 +11794,7 @@
                           },
                           "size": {
                             "w": 478,
-                            "h": 367.7
+                            "h": 348.2
                           },
                           "bordered": true
                         },
@@ -11077,7 +11807,7 @@
                           },
                           "size": {
                             "w": 478,
-                            "h": 367.7
+                            "h": 348.2
                           },
                           "bordered": true
                         }
@@ -11088,18 +11818,18 @@
               ]
             }
           ],
-          "absoluteTop": 10220
+          "absoluteTop": 10008.4
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 11112.5
+            "y": 10881.4
           },
           "size": {
             "w": 1024,
-            "h": 1011.5
+            "h": 803.3
           },
           "styles": {
             "display": "block",
@@ -11140,7 +11870,7 @@
               },
               "size": {
                 "w": 1024,
-                "h": 927.5
+                "h": 719.3
               },
               "styles": {
                 "display": "block",
@@ -11167,7 +11897,7 @@
                   },
                   "size": {
                     "w": 976,
-                    "h": 523.2
+                    "h": 315.1
                   },
                   "styles": {
                     "display": "grid",
@@ -11195,7 +11925,7 @@
                       },
                       "size": {
                         "w": 309.3,
-                        "h": 523.2
+                        "h": 315.1
                       },
                       "children": [
                         {
@@ -11252,7 +11982,7 @@
                       },
                       "size": {
                         "w": 618.7,
-                        "h": 523.2
+                        "h": 315.1
                       },
                       "children": [
                         {
@@ -11264,7 +11994,7 @@
                           },
                           "size": {
                             "w": 169.8,
-                            "h": 523.2
+                            "h": 315.1
                           }
                         },
                         {
@@ -11276,7 +12006,7 @@
                           },
                           "size": {
                             "w": 169.8,
-                            "h": 523.2
+                            "h": 315.1
                           }
                         },
                         {
@@ -11288,7 +12018,7 @@
                           },
                           "size": {
                             "w": 231.2,
-                            "h": 523.2
+                            "h": 315.1
                           }
                         }
                       ]
@@ -11300,7 +12030,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 563.2
+                    "y": 355.1
                   },
                   "size": {
                     "w": 976,
@@ -11416,7 +12146,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 693.2
+                    "y": 485.1
                   },
                   "size": {
                     "w": 976,
@@ -11451,7 +12181,7 @@
                         "y": 17
                       },
                       "size": {
-                        "w": 449,
+                        "w": 638.1,
                         "h": 43.8
                       },
                       "children": [
@@ -11472,11 +12202,11 @@
                           "tag": "button",
                           "rel": {
                             "x": 328,
-                            "y": 2.9
+                            "y": 0
                           },
                           "size": {
-                            "w": 121,
-                            "h": 38
+                            "w": 310,
+                            "h": 43.8
                           }
                         }
                       ]
@@ -11550,7 +12280,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 808
+                    "y": 599.9
                   },
                   "size": {
                     "w": 976,
@@ -11647,7 +12377,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 24,
-                    "y": 861.4
+                    "y": 653.3
                   },
                   "size": {
                     "w": 976,
@@ -11715,14 +12445,14 @@
               ]
             }
           ],
-          "absoluteTop": 11112.5
+          "absoluteTop": 10881.4
         }
       ]
     },
     {
       "viewport": "mobile",
       "width": 390,
-      "documentHeight": 15349,
+      "documentHeight": 15498,
       "sections": [
         {
           "key": "#header",
@@ -12338,9 +13068,9 @@
                     "fontWeight": "600",
                     "lineHeight": "20.4px",
                     "letterSpacing": "0.8px",
-                    "color": "rgb(156, 143, 134)",
+                    "color": "rgb(122, 108, 99)",
                     "opacity": "1",
-                    "borderTopColor": "rgb(156, 143, 134)",
+                    "borderTopColor": "rgb(122, 108, 99)",
                     "textAlign": "center",
                     "textTransform": "uppercase"
                   },
@@ -12677,11 +13407,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 358,
@@ -12697,7 +13427,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -12781,7 +13511,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -12858,7 +13588,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 275.2
+                        "y": 251.2
                       },
                       "size": {
                         "w": 358,
@@ -12909,16 +13639,16 @@
                             "w": 320,
                             "h": 39
                           },
-                          "text": "По 5–6 дітей у групі, щоб уваги вистачил"
+                          "text": "Від 3 до 6 дітей у групі, щоб уваги вист"
                         }
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[0]",
+                      "key": ".benefit-card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 457.7
+                        "y": 433.7
                       },
                       "size": {
                         "w": 358,
@@ -12974,11 +13704,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[1]",
+                      "key": ".benefit-card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 659.7
+                        "y": 635.7
                       },
                       "size": {
                         "w": 358,
@@ -13034,11 +13764,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[2]",
+                      "key": ".benefit-card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 842.2
+                        "y": 818.2
                       },
                       "size": {
                         "w": 358,
@@ -13094,11 +13824,11 @@
                       ]
                     },
                     {
-                      "key": ".benefit-card.fade-up[3]",
+                      "key": ".benefit-card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 1044.2
+                        "y": 1020.2
                       },
                       "size": {
                         "w": 358,
@@ -13230,11 +13960,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 358,
@@ -13250,7 +13980,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -13441,7 +14171,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[1]",
+                          "key": ".course-card.course-card--popular",
                           "tag": "div",
                           "rel": {
                             "x": 238.3,
@@ -13454,7 +14184,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card[2]",
+                          "key": ".course-card[1]",
                           "tag": "div",
                           "rel": {
                             "x": 476.6,
@@ -13467,7 +14197,7 @@
                           "bordered": true
                         },
                         {
-                          "key": ".course-card.course-card--popular",
+                          "key": ".course-card[2]",
                           "tag": "div",
                           "rel": {
                             "x": 714.9,
@@ -13497,58 +14227,6 @@
                           "tag": "div",
                           "rel": {
                             "x": 1191.5,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 222.3,
-                            "h": 346
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[5]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1429.8,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 222.3,
-                            "h": 346
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[6]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1668.1,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 222.3,
-                            "h": 346
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[7]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 1906.4,
-                            "y": 20
-                          },
-                          "size": {
-                            "w": 222.3,
-                            "h": 346
-                          },
-                          "bordered": true
-                        },
-                        {
-                          "key": ".course-card[8]",
-                          "tag": "div",
-                          "rel": {
-                            "x": 2144.7,
                             "y": 20
                           },
                           "size": {
@@ -13618,7 +14296,7 @@
                       "key": "#coursesPrev",
                       "tag": "button",
                       "rel": {
-                        "x": 59,
+                        "x": 87,
                         "y": 0
                       },
                       "size": {
@@ -13645,11 +14323,11 @@
                       "key": "#coursesPageNums",
                       "tag": "div",
                       "rel": {
-                        "x": 105,
+                        "x": 133,
                         "y": 14
                       },
                       "size": {
-                        "w": 148,
+                        "w": 92,
                         "h": 8
                       },
                       "children": [
@@ -13724,54 +14402,6 @@
                             "w": 8,
                             "h": 8
                           }
-                        },
-                        {
-                          "key": ".courses__page-num[5]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 98,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
-                        },
-                        {
-                          "key": ".courses__page-num[6]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 112,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
-                        },
-                        {
-                          "key": ".courses__page-num[7]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 126,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
-                        },
-                        {
-                          "key": ".courses__page-num[8]",
-                          "tag": "button",
-                          "rel": {
-                            "x": 140,
-                            "y": 0
-                          },
-                          "size": {
-                            "w": 8,
-                            "h": 8
-                          }
                         }
                       ]
                     },
@@ -13779,7 +14409,7 @@
                       "key": "#coursesNext",
                       "tag": "button",
                       "rel": {
-                        "x": 263,
+                        "x": 235,
                         "y": 0
                       },
                       "size": {
@@ -13864,11 +14494,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 358,
@@ -13884,7 +14514,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -13963,11 +14593,11 @@
                   },
                   "children": [
                     {
-                      "key": ".step.fade-up[0]",
+                      "key": ".step[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -14014,11 +14644,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[1]",
+                      "key": ".step[1]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 181.5
+                        "y": 157.5
                       },
                       "size": {
                         "w": 358,
@@ -14065,11 +14695,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[2]",
+                      "key": ".step[2]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 338.9
+                        "y": 314.9
                       },
                       "size": {
                         "w": 358,
@@ -14116,11 +14746,11 @@
                       }
                     },
                     {
-                      "key": ".step.fade-up[3]",
+                      "key": ".step[3]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 496.4
+                        "y": 472.4
                       },
                       "size": {
                         "w": 358,
@@ -14316,11 +14946,11 @@
                   },
                   "children": [
                     {
-                      "key": ".stats__card.fade-up[0]",
+                      "key": ".stats__card[0]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -14373,11 +15003,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[1]",
+                      "key": ".stats__card[1]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 277.1
+                        "y": 253.1
                       },
                       "size": {
                         "w": 358,
@@ -14430,11 +15060,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[2]",
+                      "key": ".stats__card[2]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 551.2
+                        "y": 527.2
                       },
                       "size": {
                         "w": 358,
@@ -14487,11 +15117,11 @@
                       ]
                     },
                     {
-                      "key": ".stats__card.fade-up[3]",
+                      "key": ".stats__card[3]",
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 804.2
+                        "y": 780.2
                       },
                       "size": {
                         "w": 358,
@@ -14559,7 +15189,7 @@
           },
           "size": {
             "w": 390,
-            "h": 1475.8
+            "h": 1539.8
           },
           "styles": {
             "display": "block",
@@ -14587,7 +15217,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1363.8
+                "h": 1427.8
               },
               "styles": {
                 "display": "block",
@@ -14697,7 +15327,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1177.1
+                    "h": 1241.1
                   },
                   "styles": {
                     "display": "grid",
@@ -14724,7 +15354,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 372.4
+                        "h": 404.4
                       },
                       "bordered": true,
                       "children": [
@@ -14767,7 +15397,7 @@
                           },
                           "size": {
                             "w": 308,
-                            "h": 96
+                            "h": 128
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -14778,7 +15408,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 196.4
+                            "y": 228.4
                           },
                           "size": {
                             "w": 308,
@@ -14794,7 +15424,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 291.9
+                            "y": 323.9
                           },
                           "size": {
                             "w": 308,
@@ -14809,11 +15439,11 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 392.4
+                        "y": 424.4
                       },
                       "size": {
                         "w": 358,
-                        "h": 392.4
+                        "h": 424.4
                       },
                       "bordered": true,
                       "children": [
@@ -14856,7 +15486,7 @@
                           },
                           "size": {
                             "w": 308,
-                            "h": 116
+                            "h": 148
                           },
                           "styles": {
                             "marginBottom": "20px"
@@ -14867,7 +15497,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 25,
-                            "y": 216.4
+                            "y": 248.4
                           },
                           "size": {
                             "w": 308,
@@ -14883,7 +15513,7 @@
                           "tag": "a",
                           "rel": {
                             "x": 25,
-                            "y": 311.9
+                            "y": 343.9
                           },
                           "size": {
                             "w": 308,
@@ -14898,7 +15528,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 804.8
+                        "y": 868.8
                       },
                       "size": {
                         "w": 358,
@@ -14994,7 +15624,7 @@
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7089.3
+            "y": 7153.3
           },
           "size": {
             "w": 390,
@@ -15176,18 +15806,18 @@
               ]
             }
           ],
-          "absoluteTop": 7089.3
+          "absoluteTop": 7153.3
         },
         {
           "key": "#reviews",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 7824
+            "y": 7888
           },
           "size": {
             "w": 390,
-            "h": 645.1
+            "h": 728.2
           },
           "styles": {
             "display": "block",
@@ -15215,7 +15845,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 533.1
+                "h": 616.2
               },
               "styles": {
                 "display": "block",
@@ -15234,15 +15864,15 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 358,
-                    "h": 110.5
+                    "h": 62.4
                   },
                   "styles": {
                     "display": "block",
@@ -15254,33 +15884,17 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
                   "children": [
                     {
-                      "key": ".section-badge",
-                      "tag": "div",
-                      "rel": {
-                        "x": 139.3,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 79.5,
-                        "h": 32.1
-                      },
-                      "styles": {
-                        "marginBottom": "16px"
-                      },
-                      "text": "Відгуки"
-                    },
-                    {
                       "key": ".section-title",
                       "tag": "h2",
                       "rel": {
                         "x": 0,
-                        "y": 48.1
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -15298,11 +15912,11 @@
                   "tag": "div",
                   "rel": {
                     "x": 0,
-                    "y": 166.5
+                    "y": 118.4
                   },
                   "size": {
                     "w": 390,
-                    "h": 342.7
+                    "h": 473.8
                   },
                   "styles": {
                     "display": "block",
@@ -15328,12 +15942,12 @@
                         "y": 0
                       },
                       "size": {
-                        "w": 2849.7,
-                        "h": 342.7
+                        "w": 7622.5,
+                        "h": 473.8
                       },
                       "children": [
                         {
-                          "key": ".review-card[0]",
+                          "key": ".review-card.review-card--story[0]",
                           "tag": "div",
                           "rel": {
                             "x": 0,
@@ -15341,12 +15955,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[1]",
+                          "key": ".review-card.review-card--story[1]",
                           "tag": "div",
                           "rel": {
                             "x": 318.2,
@@ -15354,12 +15968,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[2]",
+                          "key": ".review-card.review-card--story[2]",
                           "tag": "div",
                           "rel": {
                             "x": 636.4,
@@ -15367,12 +15981,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[3]",
+                          "key": ".review-card.review-card--story[3]",
                           "tag": "div",
                           "rel": {
                             "x": 954.6,
@@ -15380,12 +15994,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[4]",
+                          "key": ".review-card.review-card--story[4]",
                           "tag": "div",
                           "rel": {
                             "x": 1272.8,
@@ -15393,12 +16007,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[5]",
+                          "key": ".review-card.review-card--story[5]",
                           "tag": "div",
                           "rel": {
                             "x": 1590.9,
@@ -15406,12 +16020,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[6]",
+                          "key": ".review-card.review-card--story[6]",
                           "tag": "div",
                           "rel": {
                             "x": 1909.1,
@@ -15419,12 +16033,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[7]",
+                          "key": ".review-card.review-card--story[7]",
                           "tag": "div",
                           "rel": {
                             "x": 2227.3,
@@ -15432,12 +16046,12 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
                           },
                           "bordered": true
                         },
                         {
-                          "key": ".review-card[8]",
+                          "key": ".review-card.review-card--story[8]",
                           "tag": "div",
                           "rel": {
                             "x": 2545.5,
@@ -15445,7 +16059,202 @@
                           },
                           "size": {
                             "w": 304.2,
-                            "h": 342.7
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 2863.7,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[10]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3181.9,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[11]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3500.1,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[12]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 3818.3,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[13]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4136.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[14]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4454.6,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[15]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 4772.8,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[16]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5091,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[17]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5409.2,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[18]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 5727.4,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[19]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6045.6,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[20]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6363.8,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[21]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 6681.9,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[22]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7000.1,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".review-card.review-card--story[23]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 7318.3,
+                            "y": 0
+                          },
+                          "size": {
+                            "w": 304.2,
+                            "h": 473.8
                           },
                           "bordered": true
                         }
@@ -15458,7 +16267,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 525.1
+                    "y": 608.2
                   },
                   "size": {
                     "w": 358,
@@ -15485,7 +16294,7 @@
                       "key": ".reviews__dot.active",
                       "tag": "span",
                       "rel": {
-                        "x": 113,
+                        "x": 141,
                         "y": 0
                       },
                       "size": {
@@ -15497,7 +16306,7 @@
                       "key": ".reviews__dot[0]",
                       "tag": "span",
                       "rel": {
-                        "x": 139,
+                        "x": 167,
                         "y": 0
                       },
                       "size": {
@@ -15509,7 +16318,7 @@
                       "key": ".reviews__dot[1]",
                       "tag": "span",
                       "rel": {
-                        "x": 153,
+                        "x": 181,
                         "y": 0
                       },
                       "size": {
@@ -15521,7 +16330,7 @@
                       "key": ".reviews__dot[2]",
                       "tag": "span",
                       "rel": {
-                        "x": 167,
+                        "x": 195,
                         "y": 0
                       },
                       "size": {
@@ -15533,55 +16342,7 @@
                       "key": ".reviews__dot[3]",
                       "tag": "span",
                       "rel": {
-                        "x": 181,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 8,
-                        "h": 8
-                      }
-                    },
-                    {
-                      "key": ".reviews__dot[4]",
-                      "tag": "span",
-                      "rel": {
-                        "x": 195,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 8,
-                        "h": 8
-                      }
-                    },
-                    {
-                      "key": ".reviews__dot[5]",
-                      "tag": "span",
-                      "rel": {
                         "x": 209,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 8,
-                        "h": 8
-                      }
-                    },
-                    {
-                      "key": ".reviews__dot[6]",
-                      "tag": "span",
-                      "rel": {
-                        "x": 223,
-                        "y": 0
-                      },
-                      "size": {
-                        "w": 8,
-                        "h": 8
-                      }
-                    },
-                    {
-                      "key": ".reviews__dot[7]",
-                      "tag": "span",
-                      "rel": {
-                        "x": 237,
                         "y": 0
                       },
                       "size": {
@@ -15594,14 +16355,14 @@
               ]
             }
           ],
-          "absoluteTop": 7824
+          "absoluteTop": 7888
         },
         {
           "key": "#articles",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 8469.1
+            "y": 8616.1
           },
           "size": {
             "w": 390,
@@ -15666,11 +16427,11 @@
               },
               "children": [
                 {
-                  "key": ".section-header.fade-up",
+                  "key": ".section-header",
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 24
+                    "y": 0
                   },
                   "size": {
                     "w": 358,
@@ -15686,7 +16447,7 @@
                     "fontWeight": "400",
                     "lineHeight": "27.2px",
                     "color": "rgb(30, 22, 19)",
-                    "opacity": "0",
+                    "opacity": "1",
                     "borderTopColor": "rgb(30, 22, 19)",
                     "textAlign": "center"
                   },
@@ -16249,18 +17010,18 @@
               ]
             }
           ],
-          "absoluteTop": 8469.1
+          "absoluteTop": 8616.1
         },
         {
           "key": "#faq",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 9302.9
+            "y": 9449.9
           },
           "size": {
             "w": 390,
-            "h": 727
+            "h": 1001.8
           },
           "styles": {
             "display": "block",
@@ -16287,7 +17048,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 639
+                "h": 913.8
               },
               "styles": {
                 "display": "block",
@@ -16314,7 +17075,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 639
+                    "h": 913.8
                   },
                   "styles": {
                     "display": "grid",
@@ -16338,7 +17099,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 24
+                        "y": 0
                       },
                       "size": {
                         "w": 358,
@@ -16391,7 +17152,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 466.6
+                        "h": 741.4
                       },
                       "children": [
                         {
@@ -16442,7 +17203,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 59.8
+                            "h": 83.6
                           },
                           "bordered": true
                         },
@@ -16451,11 +17212,11 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 271.2
+                            "y": 295
                           },
                           "size": {
                             "w": 358,
-                            "h": 59.8
+                            "h": 83.6
                           },
                           "bordered": true
                         },
@@ -16464,7 +17225,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 339
+                            "y": 386.6
                           },
                           "size": {
                             "w": 358,
@@ -16477,7 +17238,46 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 406.8
+                            "y": 454.4
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 83.6
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[7]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 546
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[8]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 613.8
+                          },
+                          "size": {
+                            "w": 358,
+                            "h": 59.8
+                          },
+                          "bordered": true
+                        },
+                        {
+                          "key": ".faq-item[9]",
+                          "tag": "div",
+                          "rel": {
+                            "x": 0,
+                            "y": 681.6
                           },
                           "size": {
                             "w": 358,
@@ -16492,14 +17292,14 @@
               ]
             }
           ],
-          "absoluteTop": 9302.9
+          "absoluteTop": 9449.9
         },
         {
           "key": "#contact",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 10030
+            "y": 10451.8
           },
           "size": {
             "w": 390,
@@ -16757,18 +17557,18 @@
               ]
             }
           ],
-          "absoluteTop": 10030
+          "absoluteTop": 10451.8
         },
         {
           "key": "#brief",
           "tag": "section",
           "rel": {
             "x": 0,
-            "y": 11966.4
+            "y": 12388.2
           },
           "size": {
             "w": 390,
-            "h": 1614.1
+            "h": 1588.9
           },
           "styles": {
             "display": "block",
@@ -16798,7 +17598,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1501.1
+                "h": 1475.9
               },
               "styles": {
                 "display": "block",
@@ -16825,7 +17625,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1501.1
+                    "h": 1475.9
                   },
                   "styles": {
                     "display": "block",
@@ -16866,7 +17666,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 151.1
+                        "h": 125.9
                       },
                       "styles": {
                         "marginBottom": "12px"
@@ -16878,7 +17678,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 260.3
+                        "y": 235.1
                       },
                       "size": {
                         "w": 358,
@@ -16947,18 +17747,18 @@
               ]
             }
           ],
-          "absoluteTop": 11966.4
+          "absoluteTop": 12388.2
         },
         {
           "key": ".footer",
           "tag": "footer",
           "rel": {
             "x": 0,
-            "y": 13580.5
+            "y": 13977.1
           },
           "size": {
             "w": 390,
-            "h": 1768.7
+            "h": 1521.2
           },
           "styles": {
             "display": "block",
@@ -16999,7 +17799,7 @@
               },
               "size": {
                 "w": 390,
-                "h": 1684.7
+                "h": 1437.2
               },
               "styles": {
                 "display": "block",
@@ -17026,7 +17826,7 @@
                   },
                   "size": {
                     "w": 358,
-                    "h": 1064.3
+                    "h": 811
                   },
                   "styles": {
                     "display": "grid",
@@ -17111,7 +17911,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 884.1
+                        "h": 630.8
                       },
                       "children": [
                         {
@@ -17123,7 +17923,7 @@
                           },
                           "size": {
                             "w": 358,
-                            "h": 387.3
+                            "h": 206.3
                           }
                         },
                         {
@@ -17131,11 +17931,11 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 411.3
+                            "y": 230.3
                           },
                           "size": {
                             "w": 358,
-                            "h": 314.9
+                            "h": 242.5
                           }
                         },
                         {
@@ -17143,7 +17943,7 @@
                           "tag": "div",
                           "rel": {
                             "x": 0,
-                            "y": 750.2
+                            "y": 496.8
                           },
                           "size": {
                             "w": 358,
@@ -17159,7 +17959,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1104.3
+                    "y": 851
                   },
                   "size": {
                     "w": 358,
@@ -17275,11 +18075,11 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1360.8
+                    "y": 1107.5
                   },
                   "size": {
                     "w": 358,
-                    "h": 162.8
+                    "h": 168.6
                   },
                   "styles": {
                     "display": "flex",
@@ -17311,7 +18111,7 @@
                       },
                       "size": {
                         "w": 358,
-                        "h": 91.8
+                        "h": 97.6
                       },
                       "children": [
                         {
@@ -17334,8 +18134,8 @@
                             "y": 53.8
                           },
                           "size": {
-                            "w": 121,
-                            "h": 38
+                            "w": 310,
+                            "h": 43.8
                           }
                         }
                       ]
@@ -17345,7 +18145,7 @@
                       "tag": "div",
                       "rel": {
                         "x": 0,
-                        "y": 120.8
+                        "y": 126.6
                       },
                       "size": {
                         "w": 259,
@@ -17409,7 +18209,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1523.6
+                    "y": 1276.1
                   },
                   "size": {
                     "w": 358,
@@ -17506,7 +18306,7 @@
                   "tag": "div",
                   "rel": {
                     "x": 16,
-                    "y": 1600
+                    "y": 1352.5
                   },
                   "size": {
                     "w": 358,
@@ -17575,7 +18375,7 @@
               ]
             }
           ],
-          "absoluteTop": 13580.5
+          "absoluteTop": 13977.1
         }
       ]
     }

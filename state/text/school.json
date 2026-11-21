@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-17",
+ "takenAt": "2026-11-21",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -61,11 +61,11 @@
        "where": ".hero__content › .hero__badge › span"
       },
       {
-       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, AI-дизайн",
+       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, анімація",
        "where": ".hero__content › .hero__title › h1"
       },
       {
-       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи від 3 до 6 осіб, викладачі-практики, власні проєкти ",
        "where": ".hero__content › .hero__subtitle › p"
       },
       {
@@ -163,7 +163,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "t": "Від 3 до 6 дітей у групі, щоб уваги вистачило кожній дитині.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -252,7 +252,39 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 16 місяців",
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Веб-дизайн та UI/UX",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -296,70 +328,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Перші макети та афіші у Word",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Excel, PowerPoint для творчих проєктів",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Цифрове портфоліо наприкінці курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -377,38 +345,6 @@
       },
       {
        "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Створення блогу та сайту",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Photoshop, Premiere Pro та After Effects",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ SMM-просування та контент-план",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний блог із відео та монетизацією",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -477,70 +413,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Брендинг та логотипи",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Логотип: від ескізу до вектора",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Кольори, шрифти, фірмовий стиль",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний брендбук у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "AI-дизайн (нейромережі)",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Prompt engineering для зображень",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Midjourney та інші AI-інструменти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ AI-арт проєкт у портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -719,7 +591,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "12–18 місяців, один раз на тиждень, 90 хв",
+       "t": "Один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -727,7 +599,11 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 1 200 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -759,11 +635,15 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
        "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 2 400 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -881,148 +761,624 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "мама Арсенія, 9 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
-       "where": ".review-card › .review-card__text › p"
-      },
-      {
-       "t": "ОМ",
-       "where": ".review-card__author › .review-card__avatar › div"
-      },
-      {
-       "t": "Олег М.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Дарини, 14 років · Блог та сайт",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Екранний час не зменшився, але змінився",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Литвин",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Данила, 11 років · Blender",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "мама Микити, 12 років · UI/UX дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Анімований ролик — зробила сама",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ВП",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Вікторія Панасюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Злати, 13 років · Анімація",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навчили пояснювати свої рішення",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "СК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Сергій Ковальов",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Ілони, 16 років · UI/UX",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перестав боятися помилитися",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЮГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Юлія Гордієнко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Нестора, 11 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За її візуалізацією робили ремонт",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ТБ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Тарас Бойко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Христини, 15 років · 3ds Max",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від 3D-принтера — до власних моделей",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син прийшов на Blender після того, як побачив у школі 3D-принтер. Перші два тижні мучився з навігацією по сцені, а потім",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ІК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "Інна Кравчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Ірина Ковальчук",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "мама Даші, 12 років · AI-дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "мама Тимура, 12 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Щоб оберталося» — і вийшло",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Донька малювала все життя, але хотіла «щоб оберталося». Blender виявився саме тим. За півроку зробила кімнату з освітлен",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "БМ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Богдан Мороз",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ярини, 15 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Це найкращий учитель!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Давиду дуже подобаються заняття, він займається з великим задоволенням. Особливо йому подобається викладач ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Нам дуже подобається ваш підхід до навчання і дружня атмосфера. Дякуємо вам за вашу роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Хотіла кинути — викладач знайшов підхід",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Емілія тиждень не могла зрозуміти, як рухати камеру, і хотіла кидати. Викладач дав їй окреме завдання на дві хвилини — і",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Максим Гриневич",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Емілії, 13 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перша 3D-модель — одразу в портфоліо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син зробив свою першу 3D-модель робота і одразу зробив рендер для портфоліо. Тепер хоче вивчати ще й анімацію в Blender ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ІШ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Ірина Шевченко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Одеса",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від планів на папері — до візуалізацій",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син захопився дизайном інтер'єрів ще з дитинства, малював плани кімнат на папері. Тепер моделює у 3ds Max справжні візуа",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ОК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Олена",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Дніпро",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Як у справжньому архітектурному бюро",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Курс дуже серйозний — донька вивчає одразу 3ds Max, AutoCAD і Photoshop, як у справжніх архітектурних бюро. За рік вона ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДП",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато, Київ",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Не зарано для підлітка",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Боялися, що програма занадто доросла для підлітка. Даремно — викладачі пояснюють крок за кроком, від перших стін за план",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Львів",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -1050,7 +1406,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Ми живемо за кордоном. Дитина може вчитися з Німеччини чи Польщі?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Якою мовою проходять заняття — українською чи російською?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Заняття записуються? Можна переглянути урок пізніше?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -1184,7 +1552,7 @@
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "t": "My Computer Design School — онлайн-школа дизайну для дітей і підлітків 6–18 років. Вчимо графіки, цифрового малювання, 3",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -1200,7 +1568,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "t": "Підліткам — UI/UX у Figma, 3D у Blender і 3ds Max.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1248,7 +1616,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "t": "Пропущене заняття можна відпрацювати в інший день.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1301,27 +1669,11 @@
        "where": ".footer__links › .footer__col › h4"
       },
       {
-       "t": "Базовий ПК (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "Графіка та ілюстрація (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "3D у Blender (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "AI-дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Блог та сайт (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1334,10 +1686,6 @@
       },
       {
        "t": "Цифровий рисунок (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Брендинг та логотипи (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1366,14 +1714,6 @@
       },
       {
        "t": "Статті",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -1421,6 +1761,10 @@
        "where": ".footer__pay-btns › #openPayModal › span"
       },
       {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openWfpModal › span"
+      },
+      {
        "t": "Політика конфіденційності",
        "where": ".container › .footer__legal › a"
       },
@@ -1460,8 +1804,12 @@
      "key": "#header",
      "lines": [
       {
-       "t": "My Computer Design School",
+       "t": "My Computer",
        "where": ".nav › .nav__logo › span"
+      },
+      {
+       "t": "Design School",
+       "where": ".nav › .nav__logo › strong"
       },
       {
        "t": "Курси",
@@ -1505,11 +1853,11 @@
        "where": ".hero__content › .hero__badge › span"
       },
       {
-       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, AI-дизайн",
+       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, анімація",
        "where": ".hero__content › .hero__title › h1"
       },
       {
-       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи від 3 до 6 осіб, викладачі-практики, власні проєкти ",
        "where": ".hero__content › .hero__subtitle › p"
       },
       {
@@ -1607,7 +1955,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "t": "Від 3 до 6 дітей у групі, щоб уваги вистачило кожній дитині.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -1696,7 +2044,39 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 16 місяців",
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Веб-дизайн та UI/UX",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -1740,70 +2120,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Перші макети та афіші у Word",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Excel, PowerPoint для творчих проєктів",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Цифрове портфоліо наприкінці курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -1821,38 +2137,6 @@
       },
       {
        "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Створення блогу та сайту",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Photoshop, Premiere Pro та After Effects",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ SMM-просування та контент-план",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний блог із відео та монетизацією",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -1921,70 +2205,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Брендинг та логотипи",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Логотип: від ескізу до вектора",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Кольори, шрифти, фірмовий стиль",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний брендбук у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "AI-дизайн (нейромережі)",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Prompt engineering для зображень",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Midjourney та інші AI-інструменти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ AI-арт проєкт у портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -2163,7 +2383,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "12–18 місяців, один раз на тиждень, 90 хв",
+       "t": "Один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2171,7 +2391,11 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 1 200 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2203,11 +2427,15 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
        "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 2 400 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -2325,148 +2553,624 @@
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "мама Арсенія, 9 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
-       "where": ".review-card › .review-card__text › p"
-      },
-      {
-       "t": "ОМ",
-       "where": ".review-card__author › .review-card__avatar › div"
-      },
-      {
-       "t": "Олег М.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Дарини, 14 років · Блог та сайт",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Екранний час не зменшився, але змінився",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Литвин",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Данила, 11 років · Blender",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "мама Микити, 12 років · UI/UX дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Анімований ролик — зробила сама",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ВП",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Вікторія Панасюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Злати, 13 років · Анімація",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навчили пояснювати свої рішення",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "СК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Сергій Ковальов",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Ілони, 16 років · UI/UX",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перестав боятися помилитися",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЮГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Юлія Гордієнко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Нестора, 11 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За її візуалізацією робили ремонт",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ТБ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Тарас Бойко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Христини, 15 років · 3ds Max",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
-       "where": ".review-card › .review-card__text › p"
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від 3D-принтера — до власних моделей",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син прийшов на Blender після того, як побачив у школі 3D-принтер. Перші два тижні мучився з навігацією по сцені, а потім",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ІК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "Інна Кравчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Ірина Ковальчук",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "мама Даші, 12 років · AI-дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "мама Тимура, 12 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Щоб оберталося» — і вийшло",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Донька малювала все життя, але хотіла «щоб оберталося». Blender виявився саме тим. За півроку зробила кімнату з освітлен",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "БМ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Богдан Мороз",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ярини, 15 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Це найкращий учитель!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Давиду дуже подобаються заняття, він займається з великим задоволенням. Особливо йому подобається викладач ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Нам дуже подобається ваш підхід до навчання і дружня атмосфера. Дякуємо вам за вашу роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Хотіла кинути — викладач знайшов підхід",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Емілія тиждень не могла зрозуміти, як рухати камеру, і хотіла кидати. Викладач дав їй окреме завдання на дві хвилини — і",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Максим Гриневич",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Емілії, 13 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перша 3D-модель — одразу в портфоліо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син зробив свою першу 3D-модель робота і одразу зробив рендер для портфоліо. Тепер хоче вивчати ще й анімацію в Blender ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ІШ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Ірина Шевченко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Одеса",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від планів на папері — до візуалізацій",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син захопився дизайном інтер'єрів ще з дитинства, малював плани кімнат на папері. Тепер моделює у 3ds Max справжні візуа",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ОК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Олена",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Дніпро",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Як у справжньому архітектурному бюро",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Курс дуже серйозний — донька вивчає одразу 3ds Max, AutoCAD і Photoshop, як у справжніх архітектурних бюро. За рік вона ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДП",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато, Київ",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Не зарано для підлітка",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Боялися, що програма занадто доросла для підлітка. Даремно — викладачі пояснюють крок за кроком, від перших стін за план",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Львів",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "“",
+       "where": ".review-card › .rs__quote › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -2494,7 +3198,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Ми живемо за кордоном. Дитина може вчитися з Німеччини чи Польщі?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Якою мовою проходять заняття — українською чи російською?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Заняття записуються? Можна переглянути урок пізніше?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -2628,7 +3344,7 @@
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "t": "My Computer Design School — онлайн-школа дизайну для дітей і підлітків 6–18 років. Вчимо графіки, цифрового малювання, 3",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -2644,7 +3360,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "t": "Підліткам — UI/UX у Figma, 3D у Blender і 3ds Max.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -2692,7 +3408,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "t": "Пропущене заняття можна відпрацювати в інший день.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -2733,8 +3449,12 @@
      "key": ".footer",
      "lines": [
       {
-       "t": "My Computer Design School",
+       "t": "My Computer",
        "where": ".footer__brand › .nav__logo › span"
+      },
+      {
+       "t": "Design School",
+       "where": ".footer__brand › .nav__logo › strong"
       },
       {
        "t": "Онлайн школа дизайну для дітей від 6 до 18 років по всій Україні.",
@@ -2745,27 +3465,11 @@
        "where": ".footer__links › .footer__col › h4"
       },
       {
-       "t": "Базовий ПК (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "Графіка та ілюстрація (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "3D у Blender (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "AI-дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Блог та сайт (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2778,10 +3482,6 @@
       },
       {
        "t": "Цифровий рисунок (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Брендинг та логотипи (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2810,14 +3510,6 @@
       },
       {
        "t": "Статті",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -2863,6 +3555,10 @@
       {
        "t": "Онлайн-оплата карткою",
        "where": ".footer__pay-btns › #openPayModal › span"
+      },
+      {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openWfpModal › span"
       },
       {
        "t": "Політика конфіденційності",
@@ -2925,11 +3621,11 @@
        "where": ".hero__content › .hero__badge › span"
       },
       {
-       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, AI-дизайн",
+       "t": "Школа дизайну та творчих професій для дітей Графіка, UI/UX, 3D, анімація",
        "where": ".hero__content › .hero__title › h1"
       },
       {
-       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи до 6 осіб, викладачі-практики, власні проєкти у порт",
+       "t": "Навчаємо дітей від 6 до 18 років онлайн по всій Україні. Малі групи від 3 до 6 осіб, викладачі-практики, власні проєкти ",
        "where": ".hero__content › .hero__subtitle › p"
       },
       {
@@ -3023,7 +3719,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "По 5–6 дітей у групі, щоб уваги вистачило кожній дитині.",
+       "t": "Від 3 до 6 дітей у групі, щоб уваги вистачило кожній дитині.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -3112,7 +3808,39 @@
        "where": ".course-card__body › .course-card__features › li"
       },
       {
-       "t": "⏱ 16 місяців",
+       "t": "⏱ 18 місяців",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "👥 Група до 6 осіб",
+       "where": ".course-card__footer › .course-card__info › span"
+      },
+      {
+       "t": "Безкоштовне пробне",
+       "where": ".course-card__footer › .btn › a"
+      },
+      {
+       "t": "6–18 років",
+       "where": ".course-card__header › .course-card__age-badge › div"
+      },
+      {
+       "t": "Веб-дизайн та UI/UX",
+       "where": ".course-card__body › .course-card__title › h3"
+      },
+      {
+       "t": "✓ Figma: Auto Layout, компоненти, дизайн-токени",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Handoff макета в код (Dev Mode)",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "✓ Готовий інтерфейс власного застосунку",
+       "where": ".course-card__body › .course-card__features › li"
+      },
+      {
+       "t": "⏱ 12 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3156,70 +3884,6 @@
        "where": ".course-card__footer › .btn › a"
       },
       {
-       "t": "6–14 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Базовий курс роботи з ПК",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Перші макети та афіші у Word",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Excel, PowerPoint для творчих проєктів",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Цифрове портфоліо наприкінці курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "UI/UX дизайн: дослідження та портфоліо",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ UX-дослідження, персони, CJM",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Дизайн-система та реальний клієнтський бриф",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Повне портфоліо для співбесіди у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
        "t": "10–18 років",
        "where": ".course-card__header › .course-card__age-badge › div"
       },
@@ -3237,38 +3901,6 @@
       },
       {
        "t": "✓ Власний анімований ролик у фіналі",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Створення блогу та сайту",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Photoshop, Premiere Pro та After Effects",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ SMM-просування та контент-план",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний блог із відео та монетизацією",
        "where": ".course-card__body › .course-card__features › li"
       },
       {
@@ -3337,70 +3969,6 @@
       },
       {
        "t": "⏱ 12 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "Брендинг та логотипи",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Логотип: від ескізу до вектора",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Кольори, шрифти, фірмовий стиль",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Власний брендбук у фіналі курсу",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "👥 Група до 6 осіб",
-       "where": ".course-card__footer › .course-card__info › span"
-      },
-      {
-       "t": "Безкоштовне пробне",
-       "where": ".course-card__footer › .btn › a"
-      },
-      {
-       "t": "10–18 років",
-       "where": ".course-card__header › .course-card__age-badge › div"
-      },
-      {
-       "t": "AI-дизайн (нейромережі)",
-       "where": ".course-card__body › .course-card__title › h3"
-      },
-      {
-       "t": "✓ Prompt engineering для зображень",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ Midjourney та інші AI-інструменти",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "✓ AI-арт проєкт у портфоліо",
-       "where": ".course-card__body › .course-card__features › li"
-      },
-      {
-       "t": "⏱ 18 місяців",
        "where": ".course-card__footer › .course-card__info › span"
       },
       {
@@ -3579,7 +4147,7 @@
        "where": ".pricing-card › .pricing-card__title › h3"
       },
       {
-       "t": "12–18 місяців, один раз на тиждень, 90 хв",
+       "t": "Один раз на тиждень, 90 хв",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -3587,7 +4155,11 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 1 200 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -3619,11 +4191,15 @@
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
-       "t": "Мала група до 6 дітей",
+       "t": "Мала група від 3 до 6 дітей",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
        "t": "Доступ до матеріалів назавжди",
+       "where": ".pricing-card › .pricing-card__features › li"
+      },
+      {
+       "t": "Для 6–7 років — 60 хв, 2 400 грн/міс",
        "where": ".pricing-card › .pricing-card__features › li"
       },
       {
@@ -3733,156 +4309,532 @@
      "key": "#reviews",
      "lines": [
       {
-       "t": "Відгуки",
-       "where": ".section-header › .section-badge › div"
-      },
-      {
        "t": "Відгуки батьків про курси дизайну для дітей",
        "where": ".section-header › .section-title › h2"
       },
       {
-       "t": "\"Боялася, що в групі на сина не вистачить уваги. А виявилось навпаки — викладачка бачить, у кого що не виходить, і підла",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "МК",
-       "where": ".review-card__author › .review-card__avatar › div"
-      },
-      {
-       "t": "Марина К.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "мама Арсенія, 9 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
-      },
-      {
-       "t": "\"Донька хотіла навчитися створювати сайти — і за курс зробила справжнє портфоліо, яке вже показує на співбесідах для ста",
-       "where": ".review-card › .review-card__text › p"
-      },
-      {
-       "t": "ОМ",
-       "where": ".review-card__author › .review-card__avatar › div"
-      },
-      {
-       "t": "Олег М.",
-       "where": ".review-card__author › .review-card__name › div"
-      },
-      {
-       "t": "тато Дарини, 14 років · Блог та сайт",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Екранний час не зменшився, але змінився",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Записували сина «спробувати», бо він цілими днями сидів у іграх. Тепер він у тих іграх розбирає, як зроблені моделі, і р",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ОЛ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Оксана Литвин",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Данила, 11 років · Blender",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "\"Після курсу Микита отримав справжній сертифікат — і це не просто папірець для шухляди: з готовим проєктом і сертифікато",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук батьків · з-за кордону",
+       "where": ".review-card › .rs__badge › span"
       },
       {
-       "t": "НС",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "t": "Бачить реальний результат на кожному занятті",
+       "where": ".review-card › .rs__title › div"
       },
       {
-       "t": "Наталя С.",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Із задоволенням залишимо відгук. Ми щиро раді, що знайшли вашу академію. Що найбільше подобається сину:",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
-       "t": "мама Микити, 12 років · UI/UX дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "Практика та створення проєктів. Він бачить реальний результат своєї роботи на кожному занятті, і це його дуже мотивує.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Атмосфера на уроках. Викладач спілкується з дітьми на рівних, підтримує та надихає.",
+       "where": ".rs__bubble › .rs__body › li"
+      },
+      {
+       "t": "Для нас як для батьків важлива доступність з-за кордону: живучи в іншій країні, ми легко підлаштували навчання під свій ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дякуємо за круту організацію та високу якість!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Анімований ролик — зробила сама",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Злата робила анімований ролик до дня народження подруги. Три ночі не спала, але зробила сама. Тепер її просять однокласн",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ВП",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Вікторія Панасюк",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Злати, 13 років · Анімація",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Дитина замотивувалася стати програмістом",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Вітаю! Марку дуже подобається вчитися, викладач Нікіта завжди з настроєм і веселий. Індивідуальний підхід допомагає вирі",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відношення до дітей та атмосфера подобаються, дитина замотивувалася стати програмістом у майбутньому. Плануємо пройти ку",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Навчили пояснювати свої рішення",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Ілона збирала портфоліо для вступу. На курсі показали не «як красиво», а як пояснювати свої рішення — саме це в неї пита",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "СК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Сергій Ковальов",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Ілони, 16 років · UI/UX",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук учня",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Вже створив свою першу гру»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Більш всього подобається, коли дізнаюсь щось нове і розбираємо баги/помилки разом з учителем, також дуже дружелюбний учи",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Я починаю розуміти мову Пайтон і хочу дізнаватися далі щось нове, вже скільки місяців займаюсь, вже так скажемо створив ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "У",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Учень",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "курс · Python",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перестав боятися помилитися",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Нестор не вмів малювати на папері й через це не хотів навіть пробувати. На планшеті виявилось, що помилку можна скасуват",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ЮГ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Юлія Гордієнко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "мама Нестора, 11 років · Цифровий рисунок",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Викладач завжди цікавиться, чим живе дитина",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Нам дуже подобається навчання в академії! Нікіті все дуже подобається, із задоволенням відвідує заняття.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Окремо хочеться відзначити викладача — він дуже хороший, уважний і завжди цікавиться, що нового в житті Нікіти, чим він ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дуже раді, що обрали саме вашу академію!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "За її візуалізацією робили ремонт",
+       "where": ".review-card › .rs__title › div"
       },
       {
        "t": "Донька хоче в дизайн інтер'єру. Ми думали, професійна програма в п'ятнадцять — зарано. Виявилось, ні: вона зробила візуа",
-       "where": ".review-card › .review-card__text › p"
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ТБ",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
        "t": "Тарас Бойко",
-       "where": ".review-card__author › .review-card__name › div"
+       "where": ".rs__author › .rs__name › span"
       },
       {
        "t": "тато Христини, 15 років · 3ds Max",
-       "where": ".review-card__author › .review-card__meta › div"
+       "where": ".rs__author › .rs__role › span"
       },
       {
-       "t": "Мене насторожувало, що дитина «просто пише запити нейромережі». На занятті показали, що це лише початок: далі вона довод",
-       "where": ".review-card › .review-card__text › p"
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Захоплення гаджетами перетворили на навчання",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Для нас головна перевага академії — ви змогли перетворити звичайне захоплення гаджетами на корисний освітній процес. Арт",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Хочемо відзначити нашого викладача Богдана. Він уміє знайти підхід до дитини, має неймовірне терпіння, почуття такту й д",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від 3D-принтера — до власних моделей",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син прийшов на Blender після того, як побачив у школі 3D-принтер. Перші два тижні мучився з навігацією по сцені, а потім",
+       "where": ".rs__bubble › .rs__body › p"
       },
       {
        "t": "ІК",
-       "where": ".review-card__author › .review-card__avatar › div"
+       "where": ".rs__author › .rs__ava › span"
       },
       {
-       "t": "Інна Кравчук",
-       "where": ".review-card__author › .review-card__name › div"
+       "t": "Ірина Ковальчук",
+       "where": ".rs__author › .rs__name › span"
       },
       {
-       "t": "мама Даші, 12 років · AI-дизайн",
-       "where": ".review-card__author › .review-card__meta › div"
+       "t": "мама Тимура, 12 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Так розхвалив, що молодший також захотів навчатися»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий ранок. Микола сказав, що йому цікаво і все зрозуміло. Приділяють увагу і добре пояснюють.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Так розхвалив, що молодший також захотів навчатися. Йому 6,5 років.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Щоб оберталося» — і вийшло",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Донька малювала все життя, але хотіла «щоб оберталося». Blender виявився саме тим. За півроку зробила кімнату з освітлен",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "БМ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Богдан Мороз",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Ярини, 15 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Це найкращий учитель!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Давиду дуже подобаються заняття, він займається з великим задоволенням. Особливо йому подобається викладач ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Нам дуже подобається ваш підхід до навчання і дружня атмосфера. Дякуємо вам за вашу роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Хотіла кинути — викладач знайшов підхід",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Емілія тиждень не могла зрозуміти, як рухати камеру, і хотіла кидати. Викладач дав їй окреме завдання на дві хвилини — і",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МГ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Максим Гриневич",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато Емілії, 13 років · Blender",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Півтора року — жодного негативного моменту",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Подобається все: відношення до дитини, до навчального процесу, до вирішення проблемних питань. За півтора року співпраці",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Перша 3D-модель — одразу в портфоліо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син зробив свою першу 3D-модель робота і одразу зробив рендер для портфоліо. Тепер хоче вивчати ще й анімацію в Blender ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ІШ",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Ірина Шевченко",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Одеса",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "«Подивіться, що в мене вийшло!»",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Хочемо висловити вам слова вдячності за чудову роботу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Дитині дуже подобаються заняття у вас, вона просто в захваті від результатів своїх творінь, від можливості створювати що",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Заняття в академії — чудове доповнення до шкільної програми…",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Від планів на папері — до візуалізацій",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Син захопився дизайном інтер'єрів ще з дитинства, малював плани кімнат на папері. Тепер моделює у 3ds Max справжні візуа",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ОК",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Олена",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Дніпро",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук учениці",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Вітається творчість — можна додати щось своє",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Дуже подобається, що викладачі легко знаходять спільну мову з учнями. Допомагають із завданнями, пояснюють за потреби — ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "А якщо питань немає, просто робиш завдання за прикладом і показуєш учителю.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Вітається творчість: поки робиш завдання, можеш додати від себе деталі, головне — щоб вони не суперечили уроку.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Як у справжньому архітектурному бюро",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Курс дуже серйозний — донька вивчає одразу 3ds Max, AutoCAD і Photoshop, як у справжніх архітектурних бюро. За рік вона ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "ДП",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Дмитро",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "тато, Київ",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Усе в ігровій формі — цікаво й захопливо",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Добрий день! Нам дуже подобається займатися у вашій академії! Дитина ходить на заняття із задоволенням.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Особливо хочеться подякувати викладачу Нікіті: дуже уважний, добрий і чуйний, завжди вчасно підкаже й підтримає.",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Усе проходить в ігровій формі, цікаво й захопливо. Дякуємо за теплу атмосферу!",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "Не зарано для підлітка",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Боялися, що програма занадто доросла для підлітка. Даремно — викладачі пояснюють крок за кроком, від перших стін за план",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "МС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Марина",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама, Львів",
+       "where": ".rs__author › .rs__role › span"
+      },
+      {
+       "t": "Відгук батьків",
+       "where": ".review-card › .rs__badge › span"
+      },
+      {
+       "t": "У курсі вже є теми з ШІ",
+       "where": ".review-card › .rs__title › div"
+      },
+      {
+       "t": "Обрали для навчання Python. Вибір був конкретний, бо мова дуже затребувана. Дуже сподобалось, що у курсі вже є теми з ШІ",
+       "where": ".rs__bubble › .rs__body › p"
+      },
+      {
+       "t": "НС",
+       "where": ".rs__author › .rs__ava › span"
+      },
+      {
+       "t": "Наталя С.",
+       "where": ".rs__author › .rs__name › span"
+      },
+      {
+       "t": "мама Микити, 12 років · Python",
+       "where": ".rs__author › .rs__role › span"
       }
      ]
     },
@@ -3910,7 +4862,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Ми живемо за кордоном. Дитина може вчитися з Німеччини чи Польщі?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Якою мовою проходять заняття — українською чи російською?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Що якщо дитина пропустить заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Заняття записуються? Можна переглянути урок пізніше?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -4044,7 +5008,7 @@
        "where": ".seo-section__inner › #briefTitle › h2"
       },
       {
-       "t": "My Computer Design School — онлайн-школа дизайну My Computer Academy для дітей і підлітків 6–18 років. Вчимо графіки, ци",
+       "t": "My Computer Design School — онлайн-школа дизайну для дітей і підлітків 6–18 років. Вчимо графіки, цифрового малювання, 3",
        "where": ".container › .seo-section__inner › p"
       },
       {
@@ -4060,7 +5024,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Підліткам — UI/UX у Figma, брендинг, AI-дизайн.",
+       "t": "Підліткам — UI/UX у Figma, 3D у Blender і 3ds Max.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -4108,7 +5072,7 @@
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
-       "t": "Заняття записуються: пропущене можна переглянути й відпрацювати в інший день.",
+       "t": "Пропущене заняття можна відпрацювати в інший день.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -4165,27 +5129,11 @@
        "where": ".footer__links › .footer__col › h4"
       },
       {
-       "t": "Базовий ПК (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "Графіка та ілюстрація (6–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
-       "t": "UI/UX дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
        "t": "3D у Blender (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "AI-дизайн (10–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Блог та сайт (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -4198,10 +5146,6 @@
       },
       {
        "t": "Цифровий рисунок (6–18 років)",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Брендинг та логотипи (10–18 років)",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -4230,14 +5174,6 @@
       },
       {
        "t": "Статті",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Сайт школи програмування",
-       "where": ".footer__links › .footer__col › li"
-      },
-      {
-       "t": "Дошколярик: малювання від 2,5 років",
        "where": ".footer__links › .footer__col › li"
       },
       {
@@ -4283,6 +5219,10 @@
       {
        "t": "Онлайн-оплата карткою",
        "where": ".footer__pay-btns › #openPayModal › span"
+      },
+      {
+       "t": "Онлайн-оплата карткою",
+       "where": ".footer__pay-btns › #openWfpModal › span"
       },
       {
        "t": "Політика конфіденційності",
