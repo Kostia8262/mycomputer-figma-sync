@@ -1,7 +1,7 @@
 {
  "url": "https://mycomputer.school",
  "selector": "section[id], header, footer",
- "takenAt": "2026-11-21",
+ "takenAt": "2026-11-22",
  "caveat": "регистр и вид тире не сверяются: в макете это стиль (text-transform), а не содержание",
  "viewports": [
   {
@@ -179,7 +179,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "t": "Займайся з будь-якої точки світу: заняття йдуть у Discord, без прив'язки до місця.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -1402,7 +1402,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Як проходить пробне заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Коли проходять заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "А можна займатися очно?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -1600,7 +1612,7 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -1782,6 +1794,10 @@
       },
       {
        "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Налаштування cookie",
        "where": ".container › .footer__legal › a"
       },
       {
@@ -1971,7 +1987,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "t": "Займайся з будь-якої точки світу: заняття йдуть у Discord, без прив'язки до місця.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -3194,7 +3210,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Як проходить пробне заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Коли проходять заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "А можна займатися очно?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -3392,7 +3420,7 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -3578,6 +3606,10 @@
       },
       {
        "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Налаштування cookie",
        "where": ".container › .footer__legal › a"
       },
       {
@@ -3735,7 +3767,7 @@
        "where": ".benefits__grid › .benefit-card › h3"
       },
       {
-       "t": "Займайся з будь-якої точки світу через Zoom або Google Meet — без прив'язки до місця.",
+       "t": "Займайся з будь-якої точки світу: заняття йдуть у Discord, без прив'язки до місця.",
        "where": ".benefits__grid › .benefit-card › p"
       },
       {
@@ -4858,7 +4890,19 @@
        "where": ".faq-item › .faq-item__question › span"
       },
       {
+       "t": "Як проходить пробне заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
        "t": "Як проходять онлайн-заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "Коли проходять заняття?",
+       "where": ".faq-item › .faq-item__question › span"
+      },
+      {
+       "t": "А можна займатися очно?",
        "where": ".faq-item › .faq-item__question › span"
       },
       {
@@ -5056,7 +5100,7 @@
        "where": ".seo-section__grid › .seo-card › h3"
       },
       {
-       "t": "Заняття онлайн у Zoom, Google Meet або Discord: викладач бачить екран дитини й підказує по ходу.",
+       "t": "Заняття онлайн у Discord: викладач бачить екран дитини й підказує по ходу.",
        "where": ".seo-section__grid › .seo-card › li"
       },
       {
@@ -5242,6 +5286,10 @@
       },
       {
        "t": "Політика куків",
+       "where": ".container › .footer__legal › a"
+      },
+      {
+       "t": "Налаштування cookie",
        "where": ".container › .footer__legal › a"
       },
       {
